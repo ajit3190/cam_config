@@ -1,0 +1,12 @@
+---
+fr:
+  consent_for_services:
+    name: Consentement pour les services
+    description: Consentement pour les services
+    fields:
+      consent_services_header:
+        display_name: Consentement pour les services
+      consent_for_services:
+        display_name: "Est-ce que la survivante a donné son consentement pour participer au service que vous offrez?"
+        help_text: ''
+        tick_box_label: 'Oui'

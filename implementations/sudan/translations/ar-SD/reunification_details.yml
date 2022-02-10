@@ -1,0 +1,7 @@
+ar-SD:
+  reunification_details:
+    name: تفاصيل جمع الشمل
+    description: تفاصيل جمع الشمل
+    fields:
+      reunification_details_section:
+        display_name: تفاصيل جمع الشمل

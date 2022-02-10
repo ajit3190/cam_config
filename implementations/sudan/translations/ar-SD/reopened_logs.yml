@@ -1,0 +1,9 @@
+ar-SD:
+  reopened_logs:
+    name: إعادة فتح الحالة
+    description: الاستمارة الفرعية لإعادة فتح الحالة
+    fields:
+      reopened_date:
+        display_name: تاريخ إعادة فتح الحالة
+      reopened_user:
+        display_name: إعادة فتح الحالة بواسطة

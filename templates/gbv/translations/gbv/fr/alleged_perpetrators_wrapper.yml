@@ -1,0 +1,8 @@
+---
+fr:
+  alleged_perpetrators_wrapper:
+    name: Auteur présumé
+    description: Auteur présumé
+    fields:
+      alleged_perpetrator:
+        display_name: Auteur présumé

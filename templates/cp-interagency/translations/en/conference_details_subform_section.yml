@@ -1,0 +1,114 @@
+---
+en:
+  conference_details_subform_section:
+    name: Conference Details
+    description: Conference Details
+    fields:
+      conference_date:
+        display_name: Date of case conference
+      conference_reason:
+        display_name: Reason for Case Conference
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: Potential removal of a
+            child from their primary/customary/legal caregiver (authorized by Government
+            authority)
+          placement_of_a_child_into_alternative_care: Placement of a child into alternative
+            care
+          situation_of_family_reunification_with_potential_harm_to_the_child: Situation
+            of family reunification with potential harm to the child
+          relocation_of_the_child: Relocation of the child
+          complex_child_protection_case_requiring_a_multi_partner_intervention: Complex
+            child protection case requiring a multi-partner intervention
+          other: Other
+      conference_reason_other:
+        display_name: If Other, please specify
+      conference_participants:
+        display_name: Participants
+        help_text: List each participant in the conference. Include their name, their
+          role or relationship to the child, their Organization, and a contact phone
+          number or email
+      conference_current_situation:
+        display_name: Brief summary of the current situation
+        help_text: Highlight all major protection issues, the child's current care
+          arrangement, and an overview of the reasons for the case conference
+        guiding_questions: |-
+          If case conference is held during the case planning step: summarize key risk factors, protective factors and needs of the child (and family) based on the assessment of needs
+          If case conference is held during the follow-up and review step: describe the overall current situation of the child.
+      conference_discussions_options:
+        display_name: Discussions on service options / interventions related to the
+          best interests of the child
+        help_text: List potential positive and negative effects on the child of each
+          service option, and whether or not they are appropriate and in the best
+          interestes of the child given the situation of the case.
+        guiding_questions: Participants to discuss possible options to respond to
+          the challenges faced in the case that led to the case conference. The caseworker
+          should take detailed notes during discussions.
+      conference_outcome_recommendations:
+        display_name: Outcome and recommendations of the panel
+        help_text: Briefly summarize the justifications for the decisions made and
+          below recommendations. Planned actions to be updated into the individual
+          case plans by caseworkers.
+      conference_case_status:
+        display_name: Status of the case
+        help_text: If case will be closed, please complete Closure form.
+      conference_case_status_other:
+        display_name: If Other, please specify
+      conference_other_assessment:
+        display_name: Did the situation of the child change in such a way that warrants
+          another assessment to be conducted?
+      other_assessment_specify:
+        display_name: Please provide details
+      conference_adjustments:
+        display_name: Are any adjustments needed in the case plan?
+      adjustments_specify:
+        display_name: Please provide details
+      conference_reason_multi:
+        display_name: Has the risk level of the case changed?
+        option_strings_text:
+          'no': 'No'
+          yes_changed_to_high: Yes, changed to high
+          yes_changed_to_medium: Yes, changed to medium
+          yes_change_to_low: Yes, change to low
+          yes_changed_to_no: Yes, changed to no
+      risk_level_changed_specify:
+        display_name: Please provide details
+      conference_case_transfer_reason:
+        display_name: If the case will be transferred, please provide reason
+        guiding_questions: |-
+          Additional details:
+          1) Another agency is better placed to manage the case due to specialised services required by child.
+          2) Child / family moving to a new location; the case will be transferred to the Child Protection Agency working in that location.
+          3) There are organisational reasons for transferring this child's case; the case will be closed and transferred to another agency.
+          4) The child is being relocated due to protection concerns in their family/community.
+          5) The child has turned 18 and the case is being transferred to a protection authority providing services to people 18 or above as the child has a physical or mental disability and requires ongoing protection.
+        option_strings_text:
+          specialized_service: 1) Specialized services required
+          new_location: 2) Moving to new location
+          organisational_reasons: 3) Organisational reasons
+          protection_concerns: 4) Relocation due to protection concerns
+          child_turned_18: 5) Child turned 18 and requires ongoing protection
+          other: 6) Other
+      conference_case_transfer_reason_other:
+        display_name: If Other, please specify
+      conference_followup_actions:
+        display_name: Follow up actions/referrals/services required and the persons
+          responsible
+        guiding_questions: Ensure that the child/caregiver are informed of the outcome
+          of the case conference as well as all recommendations and actions required.
+          Planned actions to be updated into individual case plans by Case Workers/Social
+          Worker/Agency staff
+      details_anyone_disagrees:
+        display_name: Details of anyone who disagrees with parts of the plan and why
+      was_child_present:
+        display_name: Was the child present?
+      was_caregiver_present:
+        display_name: Was the caregiver present?
+      conference_monitoring_schedule:
+        display_name: Follow-up / monitoring schedule
+        help_text: E.g. Follow-up next week Monday on services to be provided and
+          on next week Friday on situation of the child.  Follow-up and monitor twice
+          a week at minimum for the coming month.  If situation progresses as expected/desired,
+          then change follow-up and monitor schedule the next month based on the review
+          meeting and amended risk level at the end of this month.
+      date_next_conference:
+        display_name: If required, date of next case conference

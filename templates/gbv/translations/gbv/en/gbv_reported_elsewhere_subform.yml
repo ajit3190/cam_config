@@ -1,0 +1,18 @@
+---
+en:
+  gbv_reported_elsewhere_subform:
+    name: GBV Reported Elsewhere Subform
+    description: GBV Reported Elsewhere Subform
+    fields:
+      gbv_reported_elsewhere_organization_type:
+        display_name: Type of service provider where the survivor reported the incident
+        option_strings_text:
+          health_medical_service: Health / Medical Services
+          psychosocial_service: Psychosocial / Counseling Services
+          police_other_service: Police / Other Security Actor
+          legal_assistance_service: Legal Assistance Services
+          livelihoods_service: Livelihoods Program
+          safehouse_service: Safe House / Shelter
+          other: Other
+      gbv_reported_elsewhere_organization_provider:
+        display_name: Name of the service provider

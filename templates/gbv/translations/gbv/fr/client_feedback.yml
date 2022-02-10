@@ -1,0 +1,96 @@
+---
+fr:
+  client_feedback:
+    name: Enquête de satisfaction auprès des bénéficiaires
+    description: Enquête de satisfaction auprès des bénéficiaires
+    fields:
+      client_private_meeting_explain:
+        display_name: Veuillez préciser
+      client_meeting_overheard:
+        display_name: "Votre conversation peut-elle être entendue ?"
+      client_meeting_overheard_explain:
+        display_name: Veuillez préciser
+      client_feedback_staff_header:
+        display_name: Gestionnaire de cas
+      staff_friendly:
+        display_name: "Dans quelle mesure la gestionnaire de cas qui s’est occupée de vous était-elle amicale ?"
+      staff_friendly_explain:
+        display_name: Veuillez préciser
+      staff_open_minded:
+        display_name: "Vous êtes-vous sentie jugée par le personnel ?"
+      staff_open_minded_explain:
+        display_name: Veuillez préciser
+      staff_answered_all_questions:
+        display_name: "Avez-vous reçu toutes les informations nécessaires de la part de la gestionnaire de cas ?"
+      staff_answered_all_questions_explain:
+        display_name: Veuillez préciser
+      staff_client_could_understand:
+        display_name: "La gestionnaire de cas a-t-elle utilisé un langage que vous compreniez ?"
+      staff_client_could_understand_explain:
+        display_name: Veuillez préciser
+      staff_enowed_enough_time:
+        display_name: "La gestionnaire de cas vous a-t-elle donné assez de temps pour exprimer vos pensées et vos problèmes ?"
+      staff_allowed_enough_time_explain:
+        display_name: Veuillez préciser
+      staff_helpful:
+        display_name: "Dans quelle mesure avez-vous l’impression que la gestionnaire de cas vous a aidé avec votre problème ?"
+      staff_helpful_explain:
+        display_name: Veuillez expliquer
+      client_feedback_wellbeing_header:
+        display_name: Le bien-être de la cliente
+      would_client_recommend_friend:
+        display_name: "Recommanderiez-vous à une amie ayant subi des VBG de venir ici pour obtenir de l’aide ?"
+      would_client_recommend_friend_explain:
+        display_name: Veuillez expliquer
+      client_comments_suggestions:
+        display_name: "Quelles améliorations souhaitez-vous éventuellement suggérer ?"
+      client_feedback_header:
+        display_name: Enquête de satisfaction auprès des bénéficiaires
+        help_text: "L'enquête de satisfaction permet aux bénéficiaires de donner leur avis sur les services qu'elles ont reçues et des informations clés afin d'aider votre organisation à identifier ce qui fonctionne, les défis potentiels, et ce qui doit être amélioré en terme de prestation de service.\nL'enquête de satisfaction peut être délivrée au moment de la clôture du cas, lorsque:\n- Les besoins de la survivante ont été adressés tels que décrits dans le Plan d'Action du Cas.\n- Les besoins de la survivantes ont été adressés dans la mesure du possible.\n- La survivante demande à fermer le cas.\n\nCompleter l'enquête de satisfaction doit être volontaire et anonyme. Cela permet d'obtenir l'avis sur les services afin d'améliorer les programmes. Dans les contextes où les survivantes ne peuvent accéder aux services qu'une seule fois, votre organisation peut décider d'administrer l'Enquête de satisfaction à la fin de la première session, si cela est faisable. \n\nDans les contextes où les survivantes reçoivent des services pour des plus longues périodes de temps, vous pouvez aussi administrer l'Enquête de satisfaction plus fréquemment (ex. tous les mois ou une fois par trimestre). \nLa procédure d'utilisation du formulaire avec la survivante suit le processus suivant:\n\n(1) Expliquer à la personne que le but pour vous et pour votre organisation est d'améliorer vos services, et que son avis compte. \n(2) Informer la personne que les informations partagées resteront anonymes et que cela n'aura aucune incidence sur les services qui lui sont fournis ou dont elle aurait besoin dans le futur. Au final, c'est sa décision si elle veut compléter l'enquête ou pas. \n(3) Un autre gestionnaire de cas, superviseur ou autre staff qualifié devra administrer le questionnaire et le collecter à la fin. Pour les personnes qui savent lire, cela peut être fait indépendamment sur une feuille papier ou électronique (sur appareil mobile) dans lequel la personne n'a pas à indiquer son nom, juste le nom de la gestionnaire de cas qui lui a fourni le service."
+      client_feedback_date:
+        display_name: Date où l'avis a été fourni par la survivante
+      client_feedback_administered_by:
+        display_name: Questionnaire administré par
+        help_text: "Instructions à l'intention du personnel : \n- Identifiez le membre de votre équipe qui soumettra le questionnaire de satisfaction. Identifiez s'il sera complété par écrit (en donnant le questionnaire à la personne pour qu'elle le remplisse elle-même), ou si le membre du personnel posera les questions et consignera les réponses de la personne. \n- Informez la personne que vous lui poserez des questions, mais que vous n'écrirez pas son nom sur le formulaire et que l'entretien restera anonyme. \n- Expliquez le but de l'évaluation. Dites : « Ce questionnaire est confidentiel et votre participation est volontaire. Il a pour but de recueillir des informations sur les services qui vous ont été fournis et d'améliorer la qualité des soins que les survivants de VBG reçoivent au sein de cette communauté. » \n- Rappelez à la personne que vous ne lui poserez pas de questions sur son cas en cours, mais que vous vous intéressez uniquement aux services dont elle a bénéficié tout au long du processus de gestion des cas.  \n- Obtenez son consentement avant de continuer ou, si la personne refuse, dites-lui qu'il n'y a pas de problème et que si elle change d'avis, elle peut vous contacter."
+      survivor_age_group:
+        display_name: "Si la survivante est mineure et que la personne qui s’occupe d’elle répond au formulaire de retour d’informations à sa place, quelle est la tranche d’âge de la survivante ?"
+      client_discovery_method:
+        display_name: "Comment avez-vous connu notre/nos service(s) ?"
+      client_feedback_service_delivery_header:
+        display_name: Prestation de service centrée sur la survivante
+      opening_hours_when_client_could_attend:
+        display_name: "Les services étaient-ils disponibles à des heures où vous pouviez y accéder ?"
+      opening_hours_when_client_could_attend_explain:
+        display_name: Veuillez préciser
+      client_comfortable_with_case_worker:
+        display_name: "Dans quelle mesure vous êtes-vous sentie à l’aise avec la gestionnaire de cas ?"
+      client_comfortable_with_case_worker_explain:
+        display_name: Veuillez préciser
+      same_case_worker_each_visit:
+        display_name: "Avez-vous vu la même gestionnaire de cas à chacune de vos visites ?"
+      same_case_worker_each_visit_explain:
+        display_name: Veuillez préciser
+      client_informed_of_options:
+        display_name: "Avez-vous l’impression d’avoir reçu toutes les informations dont vous aviez besoin concernant les services et les orientations possibles ?"
+      client_informed_of_options_explain:
+        display_name: Veuillez préciser
+      client_decided_what_next:
+        display_name: "Avez-vous pris des décisions sur ce que vous vouliez faire de votre cas (en termes d'étapes suivantes)?"
+      client_decided_what_next_explain:
+        display_name: Veuillez préciser
+      client_referred_elsewhere:
+        display_name: "Avez-vous été orientée vers un autre lieu si un service n’était pas disponible ?"
+      client_referred_elsewhere_explain:
+        display_name: Veuillez préciser
+      client_feedback_confidentiality_header:
+        display_name: Confidentialité
+      survivor_discreet_access:
+        display_name: "Avez-vous pu accéder aux services sans être aperçue par les autres membres de la communauté ?"
+      survivor_discreet_access_explain:
+        display_name: Veuillez préciser
+      staff_respect_confidentiality:
+        display_name: 'Le personnel a-t-il respecté votre confidentialité ? '
+      staff_respect_confidentiality_explain:
+        display_name: Veuillez préciser
+      client_private_meeting:
+        display_name: "Avez-vous rencontré votre gestionnaire de cas ou tout autre membre du personnel dans un lieu privé ?"

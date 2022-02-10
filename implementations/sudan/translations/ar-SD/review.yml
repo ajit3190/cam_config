@@ -1,0 +1,7 @@
+ar-SD:
+  review:
+    name: مراجعة الحالة
+    description: مراجعة الحالة
+    fields:
+      review_section:
+        display_name: مراجعة الحالة

@@ -1,0 +1,8 @@
+---
+ar:
+  felt_stigma_scale_form:
+    name: الشعور بالوصمة
+    description: الشعور بالوصمة
+    fields:
+      felt_stigma_section:
+        display_name: النموذج الفرعي للشعور بالوصمة

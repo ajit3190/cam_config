@@ -1,0 +1,8 @@
+---
+fr:
+  pss_scales_form:
+    name: Bien-être psychosocial
+    description: Bien-être psychosocial
+    fields:
+      pss_section:
+        display_name: Sous-formulaire SPS

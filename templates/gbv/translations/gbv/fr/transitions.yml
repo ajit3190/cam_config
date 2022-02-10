@@ -1,0 +1,40 @@
+---
+en:
+  transitions:
+    name: Sous-formulaire de transitions imbriquées
+    description: Sous-formulaire de transitions
+    fields:
+      type:
+        display_name: Taper
+      to_user_local:
+        display_name: Utilisateur local
+      to_user_remote:
+        display_name: Utilisateur distant
+      to_user_local_status:
+        display_name: Statut
+        option_strings_text:
+          in_progress: En cours
+          pending: En attente
+          accepted: Accepté
+          rejected: Rejeté
+          done: Terminé
+      rejected_reason:
+        display_name: Motif rejeté (le cas échéant)
+      to_user_agency:
+        display_name: Agence d'utilisateur à distance
+      notes:
+        display_name: Remarques
+      transitioned_by:
+        display_name: Transféré ou référé par
+      service:
+        display_name: Service
+      is_remote:
+        display_name: "Le renvoi ou le transfert est-il vers un système distant ?"
+        tick_box_label: 'Oui'
+      type_of_export:
+        display_name: Quel type d'exportation voulez-vous
+      consent_overridden:
+        display_name: Pas de consentement au partage du paramètre annulé
+        tick_box_label: 'Oui'
+      created_at:
+        display_name: Date de référence ou de transfert

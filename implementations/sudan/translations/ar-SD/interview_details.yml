@@ -1,0 +1,52 @@
+ar-SD:
+  interview_details:
+    name: تفاصيل المقابلات
+    description: تفاصيل المقابلات
+    fields:
+      arrival_date:
+        display_name: تاريخ الوصول
+      interview_date:
+        display_name: تاريخ المقابلة
+      interviewer_name:
+        display_name: اسم من اجرى المقابلة
+      interviewer_postion:
+        display_name: منصب/دور من أجرى المقابلة
+      interviewer_agency:
+        display_name: الوكالة التي أجرت المقابلة
+        option_strings_text:
+          agency_1: الوكالة 1
+          agency_2: الوكالة 2
+          agency_3: الوكالة 3
+          agency_4: الوكالة 4
+      address_interview:
+        display_name: عنوان مكان المقابلة
+      landmark_interview:
+        display_name: معالم مكان المقابلة
+      location_interview:
+        display_name: مكان المقابلة
+      source_interview:
+        display_name: المعلومات تم الحصول عليها من
+        option_strings_text:
+          child: الطفل
+          caregiver: مقدم الرعاية
+          other: آخرين، رجاء التحديد
+      source_interview_other:
+        display_name: إذا تم الحصول على المعلومات من آخرين، رجاء التحديد
+      other_org_interview_status:
+        display_name: هل تمت مقابلة الطفل مع وكالة أخرى؟
+      other_org_reference_no:
+        display_name: الرقم المتسلسل لطفل من الوكالة الأخرى
+      case_eligibility_criteria:
+        display_name: هل تفي الحالة بمعايير الأهلية؟
+      source_identification_referral:
+        display_name: مصدر التعريف/الإحالة
+        option_strings_text:
+          child_family_member: الطفل/أحد أفراد الأسرة
+          community_members_cpc: أحد أفراد المجتمع/حماية الطفولة المجتمعية
+          school_personnel: موظفو المدرسة
+          health_personnel: الكوادر الصحية
+          population_registration_services: خجمات تسجيل السكان
+          law_enforcement_agencies: جهات إنفاذ القانون
+          humanitarian_agencies: وكالات العمل الإنساني
+      consent_form_completed:
+        display_name: هل تم اكمال استمارة الموافقة/القبول؟

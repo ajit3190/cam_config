@@ -1,0 +1,7 @@
+ar-SD:
+  bid_documents:
+    name: سجلات تحديد المصلحة الفضلى
+    description: سجلات تحديد المصلحة الفضلى
+    fields:
+      upload_bid_document:
+        display_name: وثيقة تحديد المصلحة الفضلى

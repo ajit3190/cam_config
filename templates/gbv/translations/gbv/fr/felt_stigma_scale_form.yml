@@ -1,0 +1,8 @@
+---
+fr:
+  felt_stigma_scale_form:
+    name: Stigmatisation ressentie
+    description: Stigmatisation ressentie
+    fields:
+      felt_stigma_section:
+        display_name: Sous-formulaire de stigmatisation ressentie

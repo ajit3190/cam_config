@@ -1,0 +1,8 @@
+---
+en:
+  pss_scales_form:
+    name: Psychosocial Wellbeing
+    description: Psychosocial Wellbeing
+    fields:
+      pss_section:
+        display_name: PSS Subform

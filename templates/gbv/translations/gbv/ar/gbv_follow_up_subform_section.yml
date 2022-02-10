@@ -1,0 +1,50 @@
+---
+ar:
+  gbv_follow_up_subform_section:
+    name: "النموذج الفرعي المتداخل لمتابعة حالات العنف المبني على النوع الاجتماعي "
+    description: النموذج الفرعي المتداخل للجاني المزعوم
+    fields:
+      gbv_assessment_progress_health_text:
+        display_name: اشرح التقدم المحرز نحو الأهداف المتعلقة بالرعاية الصحية
+      gbv_assessment_progress_psychosocial:
+        display_name: التقدم المحرز نحو الأهداف المتعلقة بالدعم النفسي والاجتماعي
+      gbv_assessment_progress_psychosocial_text:
+        display_name: اشرح التقدم المحرز نحو الأهداف المتعلقة بالدعم النفسي والاجتماعي
+      gbv_assessment_progress_justice:
+        display_name: التقدم المحرز نحو الأهداف المتعلقة بالجانب العدلي والقانوني
+      gbv_assessment_progress_justice_text:
+        display_name: اشرح التقدم المحرز نحو الأهداف المتعلقة بالجانب العدلي والقانوني
+      gbv_assessment_other_goals_list:
+        display_name: أهداف أخرى (يرجى ذكرها)
+      gbv_assessment_other_goals:
+        display_name: التقدم المحرز نحو أهداف أخرى
+      gbv_assessment_other_goals_text:
+        display_name: اشرح التقدم المحرز نحو أهداف أخرى
+      followup_date:
+        display_name: تاريخ جلسة المتابعة
+      service_type_provided:
+        display_name: نوع الخدمات التي قدمتها/ تقدمها المؤسسة التي اعمل بها
+      follow_up_comments:
+        display_name: تعليق اضافي / ملاحظات
+        help_text: ماذا قالت لك الناجية/ الناجي؟ ما هي احتياجاته/ا الإضافية؟ ما هي التحديات التي واجهته/ا في جلسة المتابعة (على سبيل المثال، لم تحضر الناجية/ الناجي)؟
+      need_follow_up_visit:
+        display_name: هل توجد حاجة لمزيد من زيارات المتابعة؟
+      when_follow_up_visit_should_happen:
+        display_name: في حال الإجابة بنعم، متى تنصح بإجراء الزيارة المقبلة؟
+      follow_up_survivor_share_needs:
+        display_name: هل أبلغت الناجية/ الناجي عن أي احتياجات أو مخاوف جديدة خلال موعد المتابعة؟
+      follow_up_survivor_share_needs_text:
+        display_name: في حال الإجابة بنعم، يرجى وصف هذه الاحتياجات ومراجعة خطة عمل الحالة بناءً عليه
+      recommend_case_closed:
+        display_name: إذا تمت تلبية الاحتياجات، هل تنصح بإغلاق ملف الحالة؟
+      case_action_plan_implementation_timing:
+        display_name: كم من الوقت استغرقت عملية تنفيذ خطة عمل هذه الحالة؟
+      progress_made_towards_goals:
+        display_name: التقدم المحرز نحو الأهداف
+        help_text: "قيّم التقدم المحرز نحو الأهداف المتفق عليها في تقييم الحالة  للناجية/ للناجي وفي خطة عمل الحالة "
+      gbv_assessment_progress_safety:
+        display_name: التقدم المحرز نحو الأهداف المتعلقة بالسلامة
+      gbv_assessment_progress_safety_text:
+        display_name: اشرح التقدم المحرز نحو الأهداف المتعلقة بالسلامة
+      gbv_assessment_progress_health:
+        display_name: التقدم المحرز نحو الأهداف المتعلقة بالرعاية الصحية

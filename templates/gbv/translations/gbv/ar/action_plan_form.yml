@@ -1,0 +1,26 @@
+---
+ar:
+  action_plan_form:
+    name: خطة العمل
+    description: خطة العمل
+    fields:
+      action_plan_approved:
+        display_name: موافقة المدير
+        tick_box_label: 'نعم'
+      action_plan_approved_date:
+        display_name: التاريخ
+      action_plan_approved_comments:
+        display_name: تعليقات المدير
+      approval_status_action_plan:
+        display_name: الوضع الراهن للموافقة
+      action_explanation_header:
+        display_name: 'الإجراءات'
+        help_text: يرجى إضافة جميع الاحتياجات التي حددتها في التقييم. استخدم زر "إضافة" لإضافة احتياجات أخرى إلى خطة العمل.
+      action_plan_section:
+        display_name: الإجراءات
+      action_follow_up_header:
+        display_name: المتابعة
+      gbv_follow_up_subform_section:
+        display_name: المتابعة
+      service_referral_case_action_plan_timing:
+        display_name: كم من الوقت استغرقت عملية إعداد خطة العمل لهذه الحالة مع الناجية/ الناجي؟

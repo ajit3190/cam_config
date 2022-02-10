@@ -1,0 +1,136 @@
+---
+en:
+  followup_subform_section:
+    name: Follow Up
+    description: Nested Followup Subform
+    fields:
+      followup_type:
+        display_name: Type of follow up
+      followup_service_type:
+        display_name: Type of service
+      followup_assessment_type:
+        display_name: Type of assessment
+        option_strings_text:
+          personal_intervention_assessment: Personal Intervention Assessment
+          medical_intervention_assessment: Medical Intervention Assessment
+          family_intervention_assessment: Family Intervention Assessment
+          community_intervention_assessment: Community Intervention Assessment
+          unhcr_intervention_assessment: UNHCR Intervention Assessment
+          ngo_intervention_assessment: NGO Intervention Assessment
+          economic_intervention_assessment: Economic Intervention Assessment
+          education_intervention_assessment: Education Intervention Assessment
+          health_intervention_assessment: Health Intervention Assessment
+          other_intervention_assessment: Other Intervention Assessment
+      protection_concern_type:
+        display_name: 'Type of Protection Concern '
+      followup_needed_by_date:
+        display_name: Follow up needed by
+        help_text: "(This field will create a reminder in the Task list.)"
+      followup_date:
+        display_name: Start date of follow-up
+        help_text: ''
+        guiding_questions: ''
+      end_date_of_follow_up_cfb1032:
+        display_name: End date of follow-up
+        help_text: ''
+        guiding_questions: ''
+      case_worker__manager_and_other_participants_conducting_follow_up_588a5ee:
+        display_name: Case worker, manager and other participants conducting follow-up
+        help_text: ''
+        guiding_questions: ''
+      followup_with:
+        display_name: Followed up with
+      followup_with_multi:
+        display_name: Followed up with
+      other_please_specify:
+        display_name: If other, please specify
+      followed_up_through:
+        display_name: Followed up through
+        option_strings_text:
+          phone_call: Phone call
+          instant_message_sms_whatsapp: Instant message/SMS/WhatsApp
+          email: Email
+          social_media: Social media
+          ad_hoc_home_visit_child_family: Ad-hoc home visit (child/family)
+          scheduled_home_visit_child_family: Scheduled home visit (child/family)
+          face_to_face_meeting_outside_of_home_child_family: Face-to-face meeting
+            outside of home (child/family)
+          face_to_face_meeting_service_provider_and_child_family: Face-to-face meeting
+            (service provider and child/family)
+          face_to_face_meeting_service_provider_only: Face-to-face meeting (service
+            provider only)
+          community_based_group: Community-based group
+          authorities: Authorities
+          other: Other
+      followup_other_specify:
+        display_name: If other, please specify
+      followed_specific_action:
+        display_name: Followed up on specific action/service from case plan?
+      specify_action:
+        display_name: Specify which action/service (from case plan) followed up on
+          or what other element followed-up on
+      purpose_followup:
+        display_name: Purpose of follow up
+        help_text: Describe the reason for following-up on this specific action/service/element
+      followup_result_separator:
+        display_name: Follow up Result
+      outcome_followup:
+        display_name: Outcome of follow up
+        help_text: E.g. details about the action taken/service provided, the outcomes
+          of the action taken/service provided, details about the change in the child's
+          situation
+      action_conducted:
+        display_name: If followed up on, has the specific action/service from the
+          case plan been conducted?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unable_to_determine: Unable to determine
+      situation_changed:
+        display_name: If followed up on, has the situation of the child significantly
+          changed?
+        help_text: During the follow up action, should the situation of the child
+          remain unchanged or have declined - planned activities, actions or further
+          follow up visits should be detailed in the Next Steps section.
+        guiding_questions: ''
+        option_strings_text:
+          'yes': 'Yes'
+          improved: Improved
+          declined: Declined
+          'no': 'No'
+          unable_to_determine: Unable to determine
+      next_steps_separator:
+        display_name: Next Steps
+      need_follow_up_visit:
+        display_name: Is there a need for further Follow up?
+        help_text: If there is a need for a further follow up, create a new subform
+          entry for that follow up and enter the date the follow is needed by there.
+      other_recommend_followup:
+        display_name: Are there any other recommendations based on the follow-up conducted?
+      child_was_seen:
+        display_name: Was the child/adult seen during the visit?
+      reason_child_not_seen:
+        display_name: If not, why?
+        option_strings_text:
+          abducted: Abducted
+          at_school: At School
+          child_in_detention: Child in Detention
+          moved_onto_street: Moved onto street/Market
+          moved_to_live_with_another_caregiver: Moved to live with another caregiver
+          visiting_friends_relatives: Visiting Friends/Relatives
+          working: Working /At work
+          other: Other, please specify
+      reason_child_not_seen_other_details:
+        display_name: If other, please specify
+      action_taken_already:
+        display_name: Has action been taken?
+      action_taken_details:
+        display_name: Details about action taken
+      action_taken_date:
+        display_name: Date action taken?
+      when_follow_up_visit_should_happen:
+        display_name: If yes, when do you recommend the next visit to take place?
+      recommend_case_closed:
+        display_name: If not, do you recommend that the case be closed?
+      followup_comments:
+        display_name: Comments

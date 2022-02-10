@@ -1,0 +1,7 @@
+ar-SD:
+  incident_details_container:
+    name: تفاصيل الحادثة
+    description: تفاصيل معلومات الحادثة عن الطفل
+    fields:
+      incident_details:
+        display_name: تفاصيل الحادثة

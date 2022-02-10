@@ -1,0 +1,9 @@
+---
+ar:
+  other_documents:
+    name: الناجي الاختلافات
+    description: الناجي الاختلافات
+    fields:
+      other_documents:
+        display_name: مستند آخر
+        help_text: يُسمح فقط بملفات من نوع PDF و TXT و DOC و DOCX و XLS و XLSX و CSV

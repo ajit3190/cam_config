@@ -1,0 +1,31 @@
+ar-SD:
+  other_identity_details:
+    name: تفاصيل أخرى للهوية
+    description: تفاصيل أخرى للهوية
+    fields:
+      nationality:
+        display_name: الجنسية
+      place_of_birth:
+        display_name: مكان الميلاد
+      country_of_birth:
+        display_name: بلد الميلاد
+      country_of_origin:
+        display_name: البلد الأصلي
+      address_last:
+        display_name: آخر عنوان
+      landmark_last:
+        display_name: آخر المعالم
+      location_last:
+        display_name: آخر مكان إقامة
+      telephone_last:
+        display_name: آخر رقم هاتف
+      ethnicity:
+        display_name: الأصل الإثني/العشيرة/القبيلة
+      sub_ethnicity_1:
+        display_name: الأصل الإثني الفرعي 1
+      sub_ethnicity_2:
+        display_name: الأصل الإثني الفرعي2
+      language:
+        display_name: اللغة
+      religion:
+        display_name: الديانة

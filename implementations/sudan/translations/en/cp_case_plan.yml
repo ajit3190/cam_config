@@ -1,0 +1,53 @@
+---
+en:
+  cp_case_plan:
+    name: Case Plan
+    description: Case Plan
+    fields:
+      case_plan_approval_type:
+        display_name: Approval Type
+      case_plan_approved:
+        display_name: Approved by Manager
+        tick_box_label: 'Yes'
+      case_plan_approved_date:
+        display_name: Date
+      case_plan_approved_comments:
+        display_name: Manager Comments
+      approval_status_case_plan:
+        display_name: Approval Status
+      case_plan_section_header:
+        display_name: Case Plan
+      date_case_plan:
+        display_name: Date Case Plan Initiated
+        help_text: This field is used for the Workflow status
+      date_case_plan_agreed:
+        display_name: Date Case Plan Agreed
+      protection_concerns:
+        display_name: Protection Concerns
+      protection_concerns_other:
+        display_name: If Other, please specify
+      case_plan_separator:
+        display_name: Overall goal of the case plan
+      case_plan_goal:
+        display_name: Overall goal
+        help_text: Define a SMART (specific, measurable, achievable/agreed upon, realistic/relevant,
+          and time bound) goal
+      case_plan_header:
+        display_name: Intervention Plans and Services to be Provided
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: Intervention plans and services details
+      approval_separator:
+        display_name: Approval & agreements
+      interventions_names_involved:
+        display_name: Names and relation to child of persons involved in making the
+          plan
+      interventions_details_disagree:
+        display_name: Details of anyone who disagrees with parts of the plan and why
+      interventions_child_involved:
+        display_name: Was the child involved in developing the case plan?
+      interventions_steps:
+        display_name: If not, why?
+      interventions_caregiver_involved:
+        display_name: Was the caregiver involved in developing the case plan?
+      interventions_caregiver_steps:
+        display_name: If not, why?

@@ -1,0 +1,37 @@
+ar-SD:
+  child_under_5:
+    name: الأطفال دون الخامسة
+    description: الأطفال دون الخامسة
+    fields:
+      date_child_found:
+        display_name: تاريخ العثور على الطفل
+      location_child_found:
+        display_name: مكان العثور على الطفل
+      address_child_found:
+        display_name: تم العثور عليه في قرية/منطقة/العنوان الحقيقي
+      found_child_details:
+        display_name: أرجو الوصفبالتفصيل كيف تم العثور على الطفل أو كيف تم نقله للأسرة/مركز الأطفال
+      location_found_child_people_was_with:
+        display_name: أين الأشخاص الذين كانوا ضمن المجموعة التي نزحت في نفس الوقت؟
+      address_found_child_people_was_with:
+        display_name: القرية/المنطقة/العنوان الحقيقي
+      child_finder:
+        display_name: ما اسم الشخص الذي سلّم الطفل للأسرة/مركز الأطفال
+      relationship_child_finder:
+        display_name: ما هي صلة ذلك الشخص بالطفل؟
+      location_child_finder:
+        display_name: مكان الشخص الذي عثر على الطفل
+      address_child_finder:
+        display_name: عنوان الشخص الذي عثر على الطفل
+      child_finder_notes:
+        display_name: إذا كان عنوان ذلك الشخص غير معروف، كيف نستطيع العثور عليه/ا و/أو الحصول على اسم (اسماء) وعنوان (عناوين) أشخاص يعرفون الشخص الذي عثر على الطفل؟
+      child_belongings:
+        display_name: هل هناك أي ملابس أو ممتلكات وجدت مع الطفل؟
+      child_belongings_details:
+        display_name: أرجو أن تذكر وتصف هذه الأشياء (بما فس ذلك الميداليات، والأساور، وأشرطة الشعر وغيرها)
+      child_stories_songs_words:
+        display_name: أرجو كتابة أي قصص أو أغاني أو كلمات يرددها الطفل كثيرا
+      child_accent_details:
+        display_name: إذا كان الطفل يتحدث بلهجة معينة وإذا كان انفصال الأسرة قريب عهد (بضعة أشهر)، من أي منطقة جاء الطفل في رأيك؟
+      child_specific_behavior:
+        display_name: أركو كتابة أي سلوك خاص بالطفل يُمكن أن يُساعد أحد أبويه في التعرف عليه/ا لاحقا مثل الألعاب والاهتمامات أو أشياء معينة يجب الطفل القيام بها

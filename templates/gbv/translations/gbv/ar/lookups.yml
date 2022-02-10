@@ -1,0 +1,640 @@
+---
+ar:
+  lookup-location-type:
+    name: نوع الموقع
+    lookup_values:
+      country: دولة
+      region: منطقة
+      province: إقليم
+      district: قضاء
+      governorate: محافظة
+      chiefdom: مشيخة
+      state: ولاية
+      city: مدينة
+      county: مقاطعة
+      camp: مخيم
+      site: موقع / مركز
+      village: قرية
+      zone: نطاق
+      sub_district: قضاء فرعي
+      locality: ناحية
+      prefecture: ولاية
+      sub-prefecture: ولاية فرعية
+      commune: جماعة
+      payam: قرية جديدة
+      parish: الرعية
+      municipality: البلدية
+      other: آخر
+  lookup-country:
+    name: البلد
+    lookup_values:
+      afghanistan: أفغانستان
+      albania: ألبانيا
+      algeria: الجزائر
+      andorra: أندورا
+      angola: أنغولا
+      antigua_and_barbuda: أنتيغوا وبربودا
+      argentina: الأرجنتين
+      armenia: أرمينيا
+      australia: أستراليا
+      austria: النمسا
+      azerbaijan: أذربيجان
+      bahamas: جزر الباهاما
+      bahrain: البحرين
+      bangladesh: بنغلادش
+      barbados: بربادوس
+      belarus: روسيا البيضاء / بيلاروسيا
+      belgium: بلجيكا
+      belize: بيليز
+      benin: بنين
+      bhutan: بوتان
+      bolivia: بوليفيا
+      bosnia_and_herzegovina: البوسنة والهرسك
+      botswana: بوتسوانا
+      brazil: البرازيل
+      brunei: بروناي
+      bulgaria: بلغاريا
+      burkina_faso: بوركينافاسو
+      burundi: بوروندي
+      cabo_verde: كابو فيردي
+      cambodia: كمبوديا
+      cameroon: الكاميرون
+      canada: كندا
+      central_african_republic: جمهورية افريقيا الوسطى
+      chad: تشاد
+      chile: تشيلي
+      china: الصين
+      colombia: كولومبيا
+      comoros: جزر القمر
+      congo: "جمهورية الكونغو"
+      drc: "جمهورية الكونغو الديمقراطية"
+      costa_rica: كوستاريكا
+      cote_divoire: ساحل العاج
+      croatia: كرواتيا
+      cuba: كوبا
+      cyprus: قبرص
+      czech_republic: جمهورية التشيك
+      denmark: الدنمارك
+      djibouti: جيبوتي
+      dominica: دومينيكا
+      dominican_republic: جمهورية الدومينيكان
+      ecuador: الإكوادور
+      egypt: مصر
+      el_salvador: السلفادور
+      equatorial_guinea: غينيا الإستوائية
+      eritrea: إريتيريا
+      estonia: إستونيا
+      ethiopia: إثيوبيا
+      fiji: جزر الفيجي
+      finland: فنلندا
+      france: فرنسا
+      gabon: الغابون
+      gambia: غامبيا
+      georgia: جورجيا
+      germany: ألمانيا
+      ghana: غانا
+      greece: اليونان
+      grenada: غرينادا
+      guatemala: غواتيمالا
+      guinea: غينيا
+      guinea_bissau: غينيا-بيساو
+      guyana: غيانا
+      haiti: هايتي
+      honduras: هندوراس
+      hungary: هنغاريا / المجر
+      iceland: أيسلندا
+      india: الهند
+      indonesia: إندونيسيا
+      iran: إيران
+      iraq: العراق
+      ireland: إيرلندا
+      israel: إسرائيل
+      italy: إيطاليا
+      jamaica: جامايكا
+      japan: اليابان
+      jordan: الأردن
+      kazakhstan: كازاخستان
+      kenya: كينيا
+      kiribati: كيريباس
+      kosovo: كوسوفو
+      kuwait: الكويت
+      kyrgyzstan: قرغيزستان
+      laos: لاوس
+      latvia: لاتفيا
+      lebanon: لبنان
+      lesotho: ليسوتو
+      liberia: ليبيريا
+      libya: ليبيا
+      liechtenstein: ليختنشتاين
+      lithuania: ليتوانيا
+      luxembourg: لوكسمبورغ
+      macedonia: مقدونيا
+      madagascar: مدغشقر
+      malawi: مالاوي
+      malaysia: ماليزيا
+      maldives: جزر المالديف
+      mali: مالي
+      malta: مالطا
+      marshall_islands: جزر المارشال
+      mauritania: موريتانيا
+      mauritius: موريشيوس
+      mexico: المكسيك
+      micronesia: ميكرونيزيا
+      moldova: مولدوفا
+      monaco: موناكو
+      mongolia: منغوليا
+      montenegro: جمهورية الجبل الأسود
+      morocco: المغرب
+      mozambique: موزمبيق
+      myanmar: ميانمار
+      namibia: ناميبيا
+      nauru: ناورو
+      nepal: نيبال
+      netherlands: هولندا
+      new_zealand: نيوزيلندا
+      nicaragua: نيكاراغوا
+      niger: النيجر
+      nigeria: نيجيريا
+      north_korea: كوريا الشمالية
+      norway: النرويج
+      oman: عمان
+      pakistan: باكستان
+      palau: بالاو
+      palestine: فلسطين
+      panama: بنما
+      papua_new_guinea: بابوا غينيا الجديدة
+      paraguay: الباراغوي
+      peru: البيرو
+      philippines: الفلبين
+      poland: بولندا
+      portugal: البرتغال
+      qatar: قطر
+      romania: رومانيا
+      russia: روسيا
+      rwanda: رواندا
+      st_kitts_and_nevis: سانت كيتس ونيفيس
+      st_lucia: سانت لوسيا
+      st_vincent_and_the_grenadines: سانت فنسنت وجزر غرينادين
+      samoa: ساموا
+      san_marino: سان مارينو
+      sao_tome_and_principe: ساو تومي وبرنسيبي
+      saudi_arabia: المملكة العربية السعودية
+      senegal: السنغال
+      serbia: صربيا
+      seychelles: سيشيل
+      sierra_leone: سيراليون
+      singapore: سنغافورة
+      slovakia: سلوفاكيا
+      slovenia: سلوفينيا
+      solomon_islands: جزر سليمان
+      somalia: الصومال
+      south_africa: جنوب أفريقيا
+      south_korea: كوريا الجنوبية
+      south_sudan: جنوب السودان
+      spain: إسبانيا
+      sri_lanka: سريلانكا
+      sudan: السودان
+      suriname: سورينام
+      swaziland: سوازيلاند
+      sweden: السويد
+      switzerland: سويسرا
+      syria: سورية
+      taiwan: تايوان
+      tajikistan: طاجكستان
+      tanzania: تنزانيا
+      thailand: تايلند
+      timor_leste: تيمور الشرقية
+      togo: توغو
+      tonga: تونغا
+      trinidad_and_tobago: ترينداد وتوباغو
+      tunisia: تونس
+      turkey: تركيا
+      turkmenistan: تركمانستان
+      tuvalu: توفالو
+      uganda: أوغندا
+      ukraine: أوكرانيا
+      united_arab_emirates: الإمارات العربية المتحدة
+      uk: المملكة المتحدة
+      usa: الولايات المتحدة الأمريكية
+      uruguay: الأورغواي
+      uzbekistan: أوزبكستان
+      vanuatu: فانواتو
+      vatican: مدينة الفاتيكان (الكرسي الرسولي)
+      venezuela: فنزويلا
+      vietnam: فيتنام
+      yemen: اليمن
+      zambia: زامبيا
+      zimbabwe: زيمبابوي
+  lookup-nationality:
+    name: الجنسية
+    lookup_values:
+      nationality1: جنسية 1
+      nationality2: جنسية 2
+      nationality3: جنسية 3
+      nationality4: جنسية 4
+      nationality5: جنسية 5
+      nationality6: جنسية 6
+      nationality7: جنسية 7
+      nationality8: جنسية 8
+      nationality9: جنسية 9
+      nationality10: جنسية 10
+  lookup-ethnicity:
+    name: الانتماء العرقي / الاثني
+    lookup_values:
+      ethnicity1: إثنية 1
+      ethnicity2: إثنية 2
+      ethnicity3: إثنية 3
+      ethnicity4: إثنية 4
+      ethnicity5: إثنية 5
+      ethnicity6: إثنية 6
+      ethnicity7: إثنية 7
+      ethnicity8: إثنية 8
+      ethnicity9: إثنية 9
+      ethnicity10: إثنية 10
+  lookup-religion:
+    name: الدين
+    lookup_values:
+      religion1: دين 1
+      religion2: دين 2
+      religion3: دين 3
+      religion4: دين 4
+      religion5: دين 5
+      religion6: دين 6
+      religion7: دين 7
+      religion8: دين 8
+      religion9: دين 9
+      religion10: دين 10
+  lookup-case-status:
+    name: الوضع الراهن للحالة
+    lookup_values:
+      open: مفتوحة
+      closed: مغلقة
+      transferred: تمت الإحالة
+      duplicate: مكررة
+  lookup-conference-case-status:
+    name: الوضع الراهن لمؤتمر الحالة
+    lookup_values:
+      open: ستبقى الحالة مفتوحة
+      closed: سيتم اغلاق الحالة
+      transferred: سيتم نقل الحالة
+      other: أخرى
+  lookup-incident-status:
+    name: الوضع الراهن لملف الحادثة
+    lookup_values:
+      open: مفتوح
+      closed: مغلق
+      duplicate: مكرر
+  lookup-displacement-status:
+    name: وضع النزوح
+    lookup_values:
+      resident: مقيم
+      migrant: مُهاجر
+      host_community: "شخص من المجتمع المضيف "
+      idp: نازح داخل البلد
+      refugee: لاجئ
+      other: "وضع آخر "
+      stateless_person: "شخص عديم الجنسية "
+      returnee: عائد
+      foreign_national: من الرعايا الأجانب
+      asylum_seeker: طالب لجوء
+  lookup-unaccompanied-separated-status:
+    name: الناجية/الناجي منفصل/ة وغير مصحوب/ة
+    lookup_values:
+      'no': 'لا'
+      unaccompanied_minor: قاصر غير مصحوب
+      separated_child: طفل غير مصحوب
+      other_vulnerable_child: طفل يتيم أو ضعيف
+  lookup-verification-status:
+    name: حالة التحقق
+    lookup_values:
+      verified: تم التحقق
+      unverified: لم يتم التحقق
+      pending_verification: التحقق معلق
+      falsely_attributed: منسوبة كذباً
+      rejected: مرفوضة
+  lookup-risk-level:
+    name: مستوى الخطر
+    lookup_values:
+      high: عالي
+      medium: متوسط
+      low: منخفض
+  lookup-priority-level:
+    name: مستوى الأولوية
+    lookup_values:
+      high: عالي (خلال 24 ساعة)
+      medium: متوسط (خلال 72 ساعة)
+      low: منخفض
+  lookup-gbv-sexual-violence-type:
+    name: نوع العنف الجنسي (العنف المبني على النوع الاجتماعي)
+    lookup_values:
+      rape: اغتصاب
+      sexual_assault: اعتداء جنسي
+      physical_assault: اعتداء جسدي
+      forced_marriage: زواج قسري
+      denial_of_resources_opportunities_or_services: "الحرمان من الموارد أو الفرص أو الخدمات"
+      psychological_emotional_abuse: إساءات نفسية / عاطفية
+      non-gbv: عنف غير مبني على النوع الاجتماعي
+  lookup-service-type:
+    name: نوع الخدمة
+    lookup_values:
+      safehouse_service: خدمة البيت الآمن
+      health_medical_service: خدمات صحية / طبية
+      psychosocial_service: خدمات نفسية اجتماعية
+      police_other_service: الشرطة / نوع آخر من الخدمات الأمنية
+      legal_assistance_service: خدمات المساعدة القانونية
+      livelihoods_service: خدمة سبل المعيشة
+      child_protection_service: خدمات حماية الطفل
+      family_mediation_service: خدمة الوساطة الأسرية
+      family_seunification_service: خدمة لم شمل الأسرة
+      education_service: خدمة تعليمية
+      nfi_clothes_shoes_service: خدمة توزيع ملابس / أحذية / مواد غير غذائية
+      water_sanitation_service: خدمة المياه / الصرف الصحي
+      registration_service: خدمة التسجيل
+      food_service: خدمة الأغذية
+      other_service: خدمة أخرى
+  lookup-gbv-service-type:
+    name: نوع الخدمة
+    lookup_values:
+      safehouse_service: خدمات البيت الآمن
+      health_medical_service: خدمات صحية / طبية
+      psychosocial_service: خدمات نفسية اجتماعية
+      police_other_service: الشرطة / نوع آخر من الخدمات الأمنية
+      legal_assistance_service: خدمات المساعدة القانونية
+      livelihoods_service: خدمات سبل العيش
+      child_protection_service: خدمات حماية الطفل
+      education_service: خدمة تعليمية
+      nfi_clothes_shoes_service: خدمة توزيع ملابس / أحذية / مواد غير غذائية
+      water_sanitation_service: خدمة المياه / الصرف الصحي
+      registration_service: خدمة التسجيل
+      food_service: خدمة الأغذية
+      cash_assistance: المساعدة النقدية
+      personal_goal: الهدف الشخصي
+      other_service: خدمة أخرى
+  lookup-gbv-intervention-type:
+    name: نوع التدخل
+    lookup_values:
+      personal_goal: "هدف شخصي أو خدمة "
+      referral_service: خدمة الإحالة
+  lookup-followup-type:
+    name: نوع المتابعة
+    lookup_values:
+      after_reunification: متابعة بعد لم الشمل
+      in_care: متابعة في الرعاية
+      for_service: متابعة للخدمات
+      for_assesment: متابعة للتقييم
+  lookup-yes-no:
+    name: نعم أو لا
+    lookup_values:
+      'true': 'نعم'
+      'false': 'لا'
+  lookup-yes-no-unknown:
+    name: "نعم أو لا أو غير معروف"
+    lookup_values:
+      'true': 'نعم'
+      'false': 'لا'
+      unknown: غير معروف
+  lookup-yes-no-undecided:
+    name: "نعم أو لا أو لم تقرر بعد"
+    lookup_values:
+      'true': 'نعم'
+      'false': 'لا'
+      undecided: غير مفصول فيه
+  lookup-yes-no-not-applicable:
+    name: "نعم أو لا أو لا تنطبق"
+    lookup_values:
+      'true': 'نعم'
+      'false': 'لا'
+      not_applicable: لا ينطبق
+  lookup-yes-no-not-applicable-needs-not-met:
+    name: "نعم أو لا أو لا تنطبق أو لم تتم تلبية الاحتياجات"
+    lookup_values:
+      'true': 'نعم'
+      'false': 'لا'
+      not_applicable: لا ينطبق أو لم تتم تلبية الاحتياجات
+  lookup-gbv-reported-elsewhere:
+    name: "نعم أو لا أو غير معروف"
+    lookup_values:
+      'no': 'لا'
+      gbvims-org: نعم - مؤسسة / هيئة مع نظام إدارة معلومات العنف المبني على النوع الاجتماعي
+      non-gbvims-org: نعم - مؤسسة / هيئة من دون نظام إدارة معلومات العنف المبني على النوع الاجتماعي
+  lookup-approval-type:
+    name: نوع الموافقة
+    lookup_values:
+      case_plan: خطة الحالة
+      action_plan: خطة العمل
+      service_provision: تقديم الخدمات
+  lookup-gbv-approval-types:
+    name: نوع الموافقة لمستخدمي العنف المبني على النوع الإجتماعي
+    lookup_values:
+      case_plan: خطة الحالة
+      closure: إغلاق
+  lookup-approval-status:
+    name: الوضع الراهن للموافقة
+    lookup_values:
+      requested: تم طلبها
+      pending: معلقة
+      approved: تمت الموافقة
+      rejected: تم الرفض
+  lookup-gender:
+    name: النوع الإجتماعي
+    lookup_values:
+      male: ذكر
+      female: أنثى
+  lookup-service-referred:
+    name: إحالة الخدمة
+    lookup_values:
+      referred: تمت الإحالة
+      service_provided_by_your_agency: يتم تقديم الخدمة في مؤسستك
+      services_already_received_from_another_agency: تم تلقي الخدمة من قبل مؤسسة أخرى
+      service_not_applicable: الخدمة غير قابلة للتطبيق
+      referral_declined_by_survivor: لم تقبل الناجية/ الناجي بالإحالة
+      service_unavailable: الخدمة غير متوفرة
+  lookup-workflow:
+    name: سير العمل
+    lookup_values:
+      new: حالة جديدة
+      closed: ملف الحالة مغلق
+      reopened: تم إعادة فتح ملف الحالة
+      service_provision: تقديم الخدمة
+      services_implemented: تم تنفيذ جميع خدمات الاستجابة
+      case_plan: خطة الحالة
+  lookup-service-implemented:
+    name: تنفيذ الخدمة
+    lookup_values:
+      not_implemented: لم يتم تنفيذها
+      implemented: تم تنفيذها
+  lookup-service-response-type:
+    name: نوع استجابة الخدمة
+    lookup_values:
+      service_provision: تقديم الخدمة
+  lookup-marital-status:
+    name: الوضع العائلي
+    lookup_values:
+      single: عزباء
+      married_cohabitating: متزوجة / معاشرة دون زواج
+      divorced_separated: مطلقة / منفصلة عن الشريك
+      widowed: أرملة
+  lookup-marital-status-unknown:
+    name: الوضع العائلي
+    lookup_values:
+      single: عزباء
+      married_cohabitating: متزوجة / معاشرة من دون زواج
+      divorced_separated: مطلقة / منفصلة عن الشريك
+      unknown_not_applicable: غير معروف / لا ينطبق
+  lookup-disability-type-with-no:
+    name: نوع الإعاقة
+    lookup_values:
+      mental_disability: إعاقة ذهنية
+      physical_disability: إعاقة جسدية
+      both: إعاقة ذهنية وجسدية
+      no_disability: لا توجد إعاقة
+  lookup-perpetrator-relationship:
+    name: علاقة الجاني مع الناجية/ الناجي
+    lookup_values:
+      intimate_partner_former_partner: شريك حميم / شريك سابق
+      primary_caregiver: مقدم الرعاية الرئيسي
+      family_other_than_spouse_or_caregiver: الأسرة بخلاف الزوج أو مقدم الرعاية
+      supervisor_employer: المشرف / صاحب العمل
+      schoolmate: زميل الدراسة
+      teacher_school_official: المعلم / مسؤول المدرسة
+      service_provider: مقدم الخدمة
+      cotenant_housemate: شريك أو نزيل السكن
+      family_friend_neighbor: صديق الأسرة / أحد الجيران
+      other_refugee_idp_returnee: أحد اللاجئين أو النازحين أو العائدين
+      other_resident_community_member: أحد أفراد المجتمع المحلي
+      other: آخر
+      no_relation: لا توجد علاقة
+      unknown: غير معروفة
+  lookup-transition-type:
+    name: نوع الإنتقال
+    lookup_values:
+      referral: الإحالة
+      reassign: إعادة التعيين
+      transfer: نقل
+      transfer_request: طلب النقل
+  lookup-assessment-duration:
+    name: فترة التقييم
+    lookup_values:
+      less_than_15_minutes: أقل من 15 دقيقة
+      16_30_minutes: "16 - 30 دقيقة "
+      31_minutes_1_hour: 31 دقيقة - ساعة
+      1_2_hours: 1 - 2 ساعة
+      more_than_2_hours: أكثر من ساعتين
+  lookup-child-minor-age-group:
+    name: الفئة العمرية للطفل / القاصر
+    lookup_values:
+      0_5_year_old: 0-5  سنوات
+      6_12_year_old: 6- 12 سنة
+      13_17_year_old: 13 - 17 سنة
+  lookup-age-group-type:
+    name: نوع الفئة العمرية
+    lookup_values:
+      adult: بالغ/ة
+      minor: قاصر
+      unknown: غير معروف
+  lookup-discovery-method:
+    name: طريقة الاكتشاف
+    lookup_values:
+      family_or_friend: عائلة أو صديق
+      referral: إحالة من مؤسسة أخرى
+      neighbor: أحد الجيران أو أفراد المجتمع المحلي
+      community_discussion: مناقشة مجتمعية
+      pamphlet: نشرات أو كتيبات شاهدتها أو استلمتها
+      other: أخرى
+  lookup-assessment-progress:
+    name: تقدّم التقييم
+    lookup_values:
+      n_a: غير متوفر
+      in_progress: قيد التنفيذ
+      met: تم استيفاء التقييم
+  lookup-form-group-gbv-case:
+    name: مجموعات النموذج - حالة العنف المبني على النوع الاجتماعي
+    lookup_values:
+      record_information: معلومات السجل
+      consent_for_services: الموافقة على الخدمات
+      documents: مستندات
+      consent_for_referrals: موافقة على الإحالات
+      safety_plan: "آراء الآخرين "
+      action_plan: خطة العمل
+      survivor_assessment: تقييم الناجية/ الناجي
+      case_closure: الناجي مراعاتها
+      client_feedback: ملاحظات الناجية/ الناجي
+      identification_registration: التعريف / التسجيل
+      referrals_transfers: الإحالات والإنتقالات
+      other_reportable_fields: الحقول الأخرى التي يمكن الإبلاغ عنها
+      pss_scales: مقياس الوظيفة النفسية والاجتماعية
+      felt_stigma_scale: مقياس الشعور بالوصمة
+      referral: الإحالة
+  lookup-form-group-gbv-incident:
+    name: مجموعات النموذج - حادثة العنف المبني على النوع الاجتماعي
+    lookup_values:
+      gbv_individual_details: تفاصيل عن الناجية/ الناجي من العنف المبني على النوع الإجتماعي
+      incident: حادثة
+      type_of_violence: نوع العنف
+      record_owner: مالك السجل
+      alleged_perpetrator: الجاني المزعوم
+      service_referral: إحالة إلى خدمة
+      other_reportable_fields: الحقول الأخرى التي يمكن الإبلاغ عنها
+      record_information: معلومات السجل
+  lookup-agency-office:
+    name: مكتب المؤسسة/المنظمة
+    lookup_values:
+      agency_office_1: مكتب المؤسسة/المنظمة 1
+      agency_office_2: مكتب المؤسسة/المنظمة 2
+      agency_office_3: مكتب المؤسسة/المنظمة 3
+      agency_office_4: مكتب المؤسسة/المنظمة 4
+      agency_office_5: مكتب المؤسسة/المنظمة 5
+  lookup-gbv-case-closure-reason:
+    name: سبب إغلاق ملفّ الحالة
+    lookup_values:
+      case_closure_suvivor_needs_met: تمت تلبية احتياجات الناجية/ الناجي قدر المستطاع
+      case_closure_suvivor_no_contact: "انعدام اي اتصال مع الناجية/ الناجي لفترة محددة (مثلاً لأكثر من 30 يومًا)"
+      case_closure_suvivor_request: طلبت الناجية/ الناجي إغلاق الحالة
+      case_closure_suvivor_left: " غادرت الناجية/ الناجي المنطقة أو لم تعد تعيش فيها"
+      case_closure_case_transferred: تمّ نقل الحالة إلى منظمة أخرى
+      case_closure_funding_constraints: تم إغلاق الحالة بسبب قيود مفروضة على التمويل من قبل مقدم الخدمات
+  lookup-psychosocial-functionality-scale:
+    name: مقياس الوظيفة النفسية والاجتماعية
+    lookup_values:
+      scale_zero: ليس صعبًا على الإطلاق (0 نقطة)
+      scale_one: صعباً بعض الشيء (1 نقطة)
+      scale_two: صعب (2 نقطتين)
+      scale_three: صعب جدًّا (3 نقاط)
+      scale_four: صعب جدًا لدرجة أنك غالبًا لا تستطيع القيام بذلك (4 نقاط)
+  lookup-felt-stigma-scale:
+    name: مقياس الشعور بالوصمة
+    lookup_values:
+      scale_zero: مطلقًا (0 نقطة)
+      scale_one: قليلًا (1 نقطة)
+      scale_two: بعض الشيء (2 نقطة)
+      scale_three: كثيرًا (3 نقاط)
+  lookup-three-point-agreement-scale:
+    name: مقياس الاتفاق المؤلف من نقاط ثلاث
+    lookup_values:
+      scale_one: مطلقًا
+      scale_two: بعض الشيء
+      scale_three: تمامًا
+  lookup-three-point-agreement-scale-comfortable:
+    name: مدى الارتياح لمقياس الاتفاق المؤلف من نقاط ثلاث
+    lookup_values:
+      scale_one: غير مريح على الإطلاق
+      scale_two: مريح بعض الشء
+      scale_three: مريح تمامًا
+  lookup-three-point-agreement-scale-friendly:
+    name: مدى  وديّة مقياس الاتفاق المؤلف من نقاط ثلاث
+    lookup_values:
+      scale_one: غير ودّي على الإطلاق
+      scale_two: ودّي بعض الشء
+      scale_three: ودّي تمامًا
+  lookup-three-point-agreement-scale-judgemental:
+    name: مدى حكميّة مقياس الاتفاق المؤلف من نقاط ثلاث
+    lookup_values:
+      scale_one: غير حكمي على الإطلاق
+      scale_two: حكمي بعض الشء
+      scale_three: حكمي تمامًا
+  lookup-pdf-header:
+    name: عنوان ملف PDF
+    lookup_values:
+      pdf_header_1: "عنوان ملف PDF 1  "
+      pdf_header_2: عنوان ملف PDF 2
+      pdf_header_3: عنوان ملف PDF 3

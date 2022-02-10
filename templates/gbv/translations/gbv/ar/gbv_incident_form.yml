@@ -1,0 +1,67 @@
+---
+ar:
+  gbv_incident_form:
+    name: "حادثة عنف مبني على النوع الاجتماعي "
+    description: "حادثة عنف مبني على النوع الاجتماعي "
+    fields:
+      incident_id:
+        display_name: الرمز التعريفي المطوّل
+      short_id:
+        display_name: الرمز التعريفي للحادثة
+      marked_for_mobile:
+        display_name: تم تأشيرة في الهاتف المحمول؟
+        tick_box_label: 'نعم'
+      incident_code:
+        display_name: رمز الحادثة
+      incidentid_ir:
+        display_name: الرقم المعرف للحادثة IR
+        help_text: الرقم المعرف للحادثة لـ IR
+      status:
+        display_name: الوضع الراهن لملف الحادثة
+      consent_reporting:
+        display_name: تم إعطاء الموافقة لمشاركة المعلومات غير المحددة لهوية الناجية / الناجي لغرض إعداد التقارير
+      date_of_first_report:
+        display_name: تاريخ المقابلة
+      incident_date:
+        display_name: تاريخ الحادثة
+      incident_description:
+        display_name: حساب الحادثة
+      incident_location:
+        display_name: موقع الحادثة
+      displacement_incident:
+        display_name: وقعت الحادثة للناجية/ للناجي خلال مرحلة النزوح
+        option_strings_text:
+          not_displaced: لا يوجد نزوح / وقعت الحادثة في المجتمع المحلي
+          pre_displacement: قبل النزوح
+          during_flight: أثناء الفرار
+          during_refuge: أثناء مرحلة اللجوء
+          during_return_transit: أثناء العودة / العبور
+          post_displacement: بعد النزوح
+      incident_timeofday:
+        display_name: الوقت من اليوم الذي وقعت فيه الحادثة
+        option_strings_text:
+          morning: الصباح (من شروق الشمس حتى الظهر)
+          afternoon: بعد الظهر (من وقت الظهر حتى غروب الشمس)
+          evening_night: المساء / الليل (من غروب الشمس حتى شروق الشمس)
+          unknown: غير معروف / لا ينطبق
+      incident_location_type:
+        display_name: نوع المكان الذي وقعت فيه الحادثة
+        option_strings_text:
+          forest: أحراش / غابة
+          garden: حديقة / حقل مزروع
+          school: مدرسة
+          road: في الطريق
+          clients_home: منزل الناجية/ الناجي
+          perpetrators_home: منزل الجاني
+          other: أماكن أخرى
+          market: في السوق
+          streamside: ضفة النهر أو الساقية
+          beach: الشاطئ
+          farm: مزرعة
+          latrine: المرحاض
+          perpetrators_friends_home: منزل صديق الجاني
+          entertainment_centre: مركز ترفيه
+          unfinished_house: منزل غير مكتمل البناء
+          guest_house_hotel: استراحة - فندق
+      incident_camp_town:
+        display_name: المخيم / البلدة التي وقعت فيها الحادثة

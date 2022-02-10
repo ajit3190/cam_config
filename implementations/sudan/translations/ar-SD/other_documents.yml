@@ -1,0 +1,7 @@
+ar-SD:
+  other_documents:
+    name: وثائق أخرى
+    description: وثائق أخرى
+    fields:
+      upload_other_document:
+        display_name: وثائق أخرى

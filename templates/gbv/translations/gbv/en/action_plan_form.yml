@@ -1,0 +1,26 @@
+---
+en:
+  action_plan_form:
+    name: Action Plan
+    description: Action Plan
+    fields:
+      action_plan_approved:
+        display_name: Approved by Manager
+        tick_box_label: 'Yes'
+      action_plan_approved_date:
+        display_name: Date
+      action_plan_approved_comments:
+        display_name: Manager Comments
+      approval_status_action_plan:
+        display_name: Approval Status
+      action_explanation_header:
+        display_name: 'Actions '
+        help_text: Please add all needs that you identified in the assessment. Use the Add button to add other needs that should be part of the Action Plan.
+      action_plan_section:
+        display_name: Actions
+      action_follow_up_header:
+        display_name: Follow Ups
+      gbv_follow_up_subform_section:
+        display_name: Follow Up
+      service_referral_case_action_plan_timing:
+        display_name: "How long did it take you to develop the Case Action Plan with the survivor for this case?"

@@ -1,0 +1,47 @@
+ar-SD:
+  tracing:
+    name: التتبع
+    description: التتبع
+    fields:
+      matched_tracing_request_id:
+        display_name: هوية تعريف طلب تتبع صحيحة
+      separation_separator:
+        display_name: معلومات عن تاريخ الانفصال
+      tracing_status:
+        display_name: موقف التتبع
+      date_of_separation:
+        display_name: تاريخ الانفصال
+      separation_cause:
+        display_name: ما هي الأسباب الرئيسية للانفصال؟
+      separation_cause_other:
+        display_name: إذا أخرى، رجاء التحديد
+      separation_other_applicable_causes:
+        display_name: 'إذا انطبق ذلك، ما هي الأسباب الأخرى للانفصال؟'
+      separation_details:
+        display_name: ملابسات الانفصال (رجاء تقديم تفاصيل)
+      separation_additional_movements:
+        display_name: أوصف التحرطات الإضافية بين مكان الانفصال والمكان الحالي
+      separation_witnessed_violence:
+        display_name: هل واجه الطفل أو شهد أي نوع من العنف، أو التهديد أو الضرر أثناء الرحلة؟
+      separation_witnessed_violence_comments:
+        display_name: تفاصيل ما واجهه/شهده الطفل
+      address_separation:
+        display_name: عنوان (مكان) الانفصال
+      location_separation:
+        display_name: مكان الانفصال
+      additional_tracing_info:
+        display_name: إضافة لما قد يُساعد التتبع؟
+      evacuation_status:
+        display_name: هل تم إخلاء الطفل؟
+      evacuation_agent:
+        display_name: إذا كانت الإجابة بنعم، من خلال أي منظمة؟
+      evacuation_from:
+        display_name: استمارة الإخلاء
+      evacuation_date:
+        display_name: تاريخ الإخلاء
+      evacuation_to:
+        display_name: تم الإخلاء إلى
+      care_arrangements_arrival_date:
+        display_name: تاريخ الوصول
+      tracing_actions_section:
+        display_name: تدابير التتبع

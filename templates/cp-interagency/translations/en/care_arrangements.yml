@@ -1,0 +1,24 @@
+---
+en:
+  care_arrangements:
+    name: Care Arrangements
+    description: Care Arrangements
+    fields:
+      child_current_location:
+        display_name: Child's Current Address
+      address_current:
+        display_name: Current Address
+        help_text: Where there is no address, please provide landmarks or description
+          of current location
+      location_current:
+        display_name: Current Location
+      address_child_future:
+        display_name: If the child is planning to move, what is the future address?
+        help_text: Where there is no address, please provide landmarks or description
+          of current location
+      location_child_future:
+        display_name: What is the future location?
+      telephone_child_future:
+        display_name: What is the future telephone?
+      care_arrangements_section:
+        display_name: Care Arrangements

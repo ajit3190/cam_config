@@ -1,0 +1,87 @@
+ar-SD:
+  family_details_section:
+    name: تفاصيل الأسرة الحاضنة
+    description: الاستمارة الفرعية لتفاصيل الأسرة
+    fields:
+      relation_name:
+        display_name: الاسم
+      relation:
+        display_name: ماهي الصلة بالطفل؟
+      relation_is_caregiver:
+        display_name: هل الشخص هو مقدم الرعاية للطفل؟
+        tick_box_label: 'نعم'
+      relation_lives_with_child:
+        display_name: هل يعيش هذا الشخص مع الطفل؟
+        tick_box_label: 'نعم'
+      relation_child_lived_with_pre_separation:
+        display_name: هل كان الطفل يعيش مع هذا الشخص قبل الانفصال؟
+      relation_child_is_in_contact:
+        display_name: 'هل الطفل على اتصال مع هذا الشخص؟  '
+      relation_child_is_separated_from:
+        display_name: هل الطفل منفصل عن هذا الشخص؟
+      relation_identifiers:
+        display_name: أذكر أي مؤشر للوكالة مثل الفواصل في القائمة
+      relation_nickname:
+        display_name: الأسماء الأخرى أو طريقة كتابتها
+        help_text: مثلا، اللقب أو الاسم الثاني للعائلة
+      relation_is_alive:
+        display_name: هل فرد الأسرة هذا حي؟
+        option_strings_text:
+          unknown: غير معروف
+          alive: حي
+          dead: متوفى
+      relation_death_details:
+        display_name: إذا متوفى، نرجو تقديم تفاصيل
+        help_text: 'أذكر تاريخ الوفاة إذا معروف'
+      relation_age:
+        display_name: العُمر
+      relation_date_of_birth:
+        display_name: تاريخ الميلاد
+      relation_age_estimated:
+        display_name: هل العُمر نتيجة تقدير؟
+        tick_box_label: 'نعم'
+      relation_national_id:
+        display_name: رقم بطاقة الهوية القومية
+      relation_unhcr_individual_id:
+        display_name: بطاقة الهوية الفردية لدى مفوضية الأمم المتحدة السامية لشؤون اللاجئين
+      relation_other_id:
+        display_name: وثائق الهوية الأخرى
+      relation_language:
+        display_name: اللغة
+      relation_religion:
+        display_name: الديانة
+      relation_ethnicity:
+        display_name: الأصل الإثني
+      relation_sub_ethnicity1:
+        display_name: الأصل الإثني الفرعي 1
+      relation_sub_ethnicity2:
+        display_name: الأصل الإثني الفرعي 2
+      relation_nationality:
+        display_name: الجنسية
+      relation_comments:
+        display_name: ملاحظات
+      relation_occupation:
+        display_name: المهنة
+      relation_address_current:
+        display_name: العنوان الحالي (إذا كامنمختلفا عن عنوان الطفل)
+      relation_address_is_permanent:
+        display_name: هل هذا مكان الإقامة الدائم؟
+      relation_landmark_current:
+        display_name: المعالم الحالية
+      relation_location_current:
+        display_name: المكان الحالي
+      relation_address_last:
+        display_name: آخر عنوان معروف
+        help_text: إذا كان منفصلا عن الطفل، آخر عنوان معروف
+      relation_location_last:
+        display_name: آخر مكان إقامة معروف
+        help_text: إذا كان منفصلا عن الطفل، آخر عنوان معروف
+      relation_telephone:
+        display_name: الهاتف/تفاصيل الاتصال الأخرى
+      relation_other_family:
+        display_name: الأشخاص الآخرين المعروفين جيدا للطفل
+      child_consent_relation_contact:
+        display_name: هل يوافق الطفل على الاتصال بهذا الشخص؟
+        tick_box_label: 'نعم'
+      no_consent_provide_details:
+        display_name: إذا كانت الإجابة بالنفي، رجاء تقديم تفاصيل

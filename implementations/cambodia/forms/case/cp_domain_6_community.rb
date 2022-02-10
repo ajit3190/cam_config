@@ -1,0 +1,377 @@
+FormSection.create_or_update!(
+  {
+    name_en: "Domain 6 - Community",
+    description_en: "Domain 6 - Community",
+    name_km: "ផ្នែកទី ៦ - ទំនាក់ទំនងក្នុងសហគមន៍",
+    description_km: "ផ្នែកទី ៦ - ទំនាក់ទំនងក្នុងសហគមន៍",
+    unique_id: "cp_domain_6_community_subform_community_section",
+    parent_form: "case",
+    visible: false,
+    order: 40,
+    order_form_group: 50,
+    order_subform: 1,
+    form_group_keyed: false,
+    editable: true,
+    core_form: false,
+    is_nested: true,
+    is_first_tab: false,
+    initial_subforms: 0,
+    subform_prevent_item_removal: false,
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: false,
+    header_message_link: "",
+    subform_append_only: false,
+    fields_attributes: [
+      {
+        name: "community_separator",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "separator",
+        editable: true,
+        disabled: false,
+        display_name_en: "Domain 6 - Community and Social Connections:  Assess the situation in terms of community and social connections.",
+        help_text_en: "",
+        display_name_km: "ផ្នែកទី ៦ - ទំនាក់ទំនងក្នុងសហគមន៍ និងសង្គម៖ បា៉ន់ប្រមាណស្ថានភាពទំនាក់ទំនងក្នុងសហគមន៍ និងសង្គម",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "community_date_assessment",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Date of the Community and Social Connections Assessment",
+        help_text_en: "",
+        display_name_km: "កាលបរិច្ឆេទនៃការបា៉ន់ប្រមាណ",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false,
+        date_validation: "not_future_date"
+      },
+      {
+        name: "to_which_household_does_this_assessment_refer_to",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "To which household does this assessment refer to?",
+        help_text_en: "",
+        display_name_km: "តើការបា៉ន់ប្រមាណនេះសំដៅទៅលើគ្រួសារមួយណា?",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "community_access_services",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "radio_button",
+        editable: true,
+        disabled: false,
+        display_name_en: "Does the family have access to community services",
+        help_text_en: "If the answer is yes, score this as a 4.",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no-not-applicable",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "community_impact_extended_family_relationships",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "What is the impact of extended family relationships on the child and family?",
+        help_text_en: "",
+        option_strings_text_en: [
+          {
+            id: "1_very_poor_55355",
+            display_text: "1 - Very Poor"
+          },
+          {
+            id: "2_poor_09396",
+            display_text: "2 - Poor"
+          },
+          {
+            id: "3_fair_20746",
+            display_text: "3 - Fair"
+          },
+          {
+            id: "4_good_95659",
+            display_text: "4 - Good"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "community_impact_extended_family_relationships_description",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Describe the impact of the extended family relationships on the child and family.",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "does_the_child_receive_support_form_the_extended_family",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Does the family receive support form the extended family?",
+        help_text_en: "",
+        display_name_km: "តើគ្រួសារទទួលបានការគាំទ្រពីគ្រួសារសាច់ញាតិដែរឬទេ?",
+        help_text_km: "",
+        multi_select: true,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-external-support-632ba7a",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "does_the_child_receive_support_from_the_community",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Does the family receive support from the community?",
+        help_text_en: "",
+        display_name_km: "តើគ្រួសារទទួលបានការគាំទ្រពីសហគមន៍ដែរឬទេ?",
+        help_text_km: "",
+        multi_select: true,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-external-support-632ba7a",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "community_strengths_protective_factors",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Strengths / protective factors:",
+        help_text_en: "",
+        display_name_km: "ចំណុចខ្លាំង/កត្តាការពារ៖",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "community_needs_risks",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Needs / risks:",
+        help_text_en: "",
+        display_name_km: "តម្រូវការ/ហានិភ័យ៖",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "community_scoring",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Community Scoring",
+        help_text_en: "",
+        guiding_questions_en: "SCORING GUIDE (an item with 1 or 2 must be addressed in the Case Plan):\n• 4 good: Child’s current condition indicates no risks and warrants no action\n• 3 fair: Child’s current condition causes a mild concern but it will be taken care of by the caregivers without further intervention\n• 2 poor: Child’s condition is a risk to the child’s wellbeing, and it must be addressed in the Case Plan for resolution soon\n• 1 very poor: Child’s condition is serious, and there needs to be an urgent intervention to protect the child’s wellbeing",
+        display_name_km: "ពិន្ទុទំនាក់ទំនងក្នុងសហគមន៍",
+        guiding_questions_km: "កំណត់សំគាល់សម្រាប់ការដាក់ពិន្ទុ (ផ្នែកបានពិន្ទុ ១ ឬ២​ ត្រូវយកមកដោះស្រាយក្នុងផែនការករណី)៖ \n• ពិន្ទុ ៤ ល្អ៖ ស្ថានភាពកុមារមិនមានហានិភ័យ ដូច្នេះមិនតម្រូវឲ្យអនុវត្តសកម្មភាព។\n• ពិន្ទុ ៣ មធ្យម៖ ស្ថានភាពកុមារមានបញ្ហាបន្តិចបន្តួច ប៉ុន្តែអ្នកថែទាំអាចដោះស្រាយបាន ដោយមិនចាំបាច់មានអន្តរាគមន៍។ \n• ពិន្ទុ ២ ខ្សោយ៖ ស្ថានភាពកុមារមានហានិភ័យដល់កុមារ ដែលតម្រូវឲ្យដោះស្រាយក្នុងផែនការករណីឆាប់ៗ។ \n• ពិន្ទុ ១ ខ្សោយខ្លាំង៖ ស្ថានភាពកុមារមានភាពធ្ងន់ធ្ងរ ដែលតម្រូវឲ្យដោះស្រាយជាបន្ទាន់ ដើម្បីការពារសុខុមាលភាពកុមារ។",
+        option_strings_text_en: [
+          {
+            id: "1_very_poor_75492",
+            display_text: "1 - Very Poor"
+          },
+          {
+            id: "2_poor_74191",
+            display_text: "2 - Poor"
+          },
+          {
+            id: "3_fair_18022",
+            display_text: "3 - Fair"
+          },
+          {
+            id: "4_good_64855",
+            display_text: "4 - Good"
+          }
+        ],
+        option_strings_text_km: [
+          {
+            id: "1_very_poor_75492",
+            display_text: "១-ខ្សោយខ្លាំង"
+          },
+          {
+            id: "2_poor_74191",
+            display_text: "២-ខ្សោយ"
+          },
+          {
+            id: "3_fair_18022",
+            display_text: "៣-មធ្យម"
+          },
+          {
+            id: "4_good_64855",
+            display_text: "៤-ល្អ"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      }
+    ]
+  }
+)
+
+FormSection.create_or_update!(
+  {
+    name_en: "Domain 6 - Community",
+    description_en: "",
+    name_km: "ផ្នែកទី ៦ - ទំនាក់ទំនងក្នុងសហគមន៍",
+    unique_id: "cp_domain_6_community",
+    parent_form: "case",
+    visible: true,
+    order: 40,
+    order_form_group: 50,
+    order_subform: 0,
+    form_group_keyed: false,
+    form_group_id: "family_needs_assessments_80943",
+    editable: true,
+    core_form: false,
+    is_nested: false,
+    is_first_tab: false,
+    initial_subforms: 0,
+    subform_prevent_item_removal: false,
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: true,
+    header_message_link: "",
+    subform_append_only: false,
+    fields_attributes: [
+      {
+        name: "community_issues_for_case_plan",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Issues to address in the Case Plan - Community and Social Connections (Family)",
+        help_text_en: "An item with 1 or 2 must be addressed in the Case Plan.",
+        guiding_questions_en: "Enter general information here; detailed information should about the action needed, who will implement the action, and the timeline can be entered in the Case Plan.",
+        display_name_km: "បញ្ហានានាដែលត្រូវដោះស្រាយនៅក្នុងផែនការសេវាសម្រាប់ករណី - ទំនាក់ទំនងក្នុងសហគមន៍ និងសង្គម​ (គ្រួសារ)",
+        help_text_km: "ផ្នែកដែលទទួលបានពិន្ទុ១ ឬ២ ត្រូវតែដោះស្រាយនៅក្នុងផែនការសេវា។",
+        guiding_questions_km: "បញ្ចូលព័ត៌មានទូទៅនៅទីនេះ។ ព័ត៌មានលម្អិតគួរទាក់ទងនឹងសកម្មភាពចាំបាច់ អ្នកទទួលខុសត្រូវអនុវត្តសកម្មភាព ហើយពេលវេលាអាចដាក់បញ្ចូលក្នុងផែនការករណី។",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "cp_domain_6_community_subform_community_section",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "subform",
+        editable: true,
+        disabled: false,
+        display_name_en: "Domain 6 - Community",
+        help_text_en: "",
+        display_name_km: "ផ្នែកទី ៦ - ទំនាក់ទំនងក្នុងសហគមន៍",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false,
+        subform_unique_id: "cp_domain_6_community_subform_community_section"
+      },
+      {
+        name: "community_scoring",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Most recent Community scoring",
+        help_text_en: "Copy the most recent assessment score here.",
+        display_name_km: "ពិន្ទុទំនាក់ទំនងក្នុងសហគមន៍ (ចុងក្រោយ)",
+        help_text_km: "បញ្ចូលពិន្ទុប៉ាន់ប្រមាណចុងក្រោយ",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-scoring-f82eeaa",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      }
+    ]
+  }
+)
+

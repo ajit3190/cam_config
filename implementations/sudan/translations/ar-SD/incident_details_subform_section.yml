@@ -1,0 +1,57 @@
+ar-SD:
+  incident_details_subform_section:
+    name: الاستمارة الفرعية لتفاصيل الحادثة
+    description: الاستمارة الفرعية لتفاصيل الحادثة
+    fields:
+      cp_incident_identification_violence:
+        display_name: تعريف الحادثة
+      cp_incident_violence_header:
+        display_name: الحادثة
+      cp_incident_date:
+        display_name: تاريخ الحادثة
+      cp_incident_location_type:
+        display_name: منظقة الحادثة
+      cp_incident_location_type_other:
+        display_name: إذا أخرى، حدد
+      cp_incident_location:
+        display_name: مكان الحادثة
+      cp_incident_timeofday:
+        display_name: وقت الحادثة
+      cp_incident_timeofday_actual:
+        display_name: رجاء تحديد وقت الحادثة بدقة
+      cp_incident_violence_type:
+        display_name: نوع العنف
+      cp_incident_previous_incidents:
+        display_name: هل سبق أن تعرض الضحية لسوء معاملة؟
+      cp_incident_previous_incidents_description:
+        display_name: Ifإذا كانت الإجابة بنعم، رجاء أوصف بإيجاز
+      cp_incident_abuser_header:
+        display_name: تفاصيل المعتدي
+      cp_incident_abuser_name:
+        display_name: الاسم
+      cp_incident_perpetrator_nationality:
+        display_name: الجنسية
+      perpetrator_sex:
+        display_name: النوع
+      cp_incident_perpetrator_date_of_birth:
+        display_name: تاريخ الميلاد
+      cp_incident_perpetrator_age:
+        display_name: العُمر
+      cp_incident_perpetrator_national_id_no:
+        display_name: رقم بطاقة الهوية القومية
+      cp_incident_perpetrator_other_id_type:
+        display_name: نوع وثائق الهوية الأخرى
+      cp_incident_perpetrator_other_id_no:
+        display_name: رقم وثائق الهوية الأخرى
+      cp_incident_perpetrator_marital_status:
+        display_name: الحالة الاجتماعية
+      cp_incident_perpetrator_mobile_phone:
+        display_name: رقم الهاتف الجوال
+      cp_incident_perpetrator_phone:
+        display_name: رقم الهاتف الأرضي
+      cp_incident_perpetrator_address:
+        display_name: العنوان
+      cp_incident_perpetrator_occupation:
+        display_name: المهنة
+      cp_incident_perpetrator_relationship:
+        display_name: الصلة بالضحية

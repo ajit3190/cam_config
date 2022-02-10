@@ -1,0 +1,32 @@
+ar-SD:
+  tracing_actions_section:
+    name: تدابير التتبع
+    description: الاستمارة الفرعية لتدابير التتبع
+    fields:
+      date_tracing:
+        display_name: تاريخ التتبع
+      tracing_type:
+        display_name: نوع الإجراء المتخذ
+        option_strings_text:
+          case_by_case_tracing: التتبع حالة حالة
+          individual_tracing: التتبع الفردي
+          mass_tracing: التتبع الجماعي
+          photo_tracing: التتبع بالصور
+          referral_to_ngo: الإحالة لمنظمة غير حكومية
+          referral_to_icrc: الإحالة للجنة الدولية للصليب الأحمر
+          other_440847: أخرى
+      address_tracing:
+        display_name: العنوان/القرية التي تمت فيها تدابير التتبع
+      location_tracing:
+        display_name: مكان التتبع
+      tracing_action_description:
+        display_name: التدابير المتخذة والملاحظات
+      tracing_outcome:
+        display_name: نتيجة تدابير التتبعn
+        option_strings_text:
+          pending: قيد النظر
+          successful: نجاح
+          unsuccessful: فشل
+          'yes': 'نعم'
+      follow_up_date_d12c0d6:
+        display_name: تاريخ المتابعة

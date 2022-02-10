@@ -1,0 +1,12 @@
+---
+en:
+  consent_for_services:
+    name: Consent for Services
+    description: Consent for Services
+    fields:
+      consent_services_header:
+        display_name: Consent for Services
+      consent_for_services:
+        display_name: "Did the survivor provide consent to engage in services offered by you?"
+        help_text: ''
+        tick_box_label: 'Yes'

@@ -1,0 +1,7 @@
+ar-SD:
+  services:
+    name: الخدمات
+    description: استمارة الخدمات
+    fields:
+      services_section:
+        display_name: الخدمات

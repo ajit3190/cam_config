@@ -1,0 +1,45 @@
+ar-SD:
+  care_assessment:
+    name: تقييم الرعاية
+    description: تقييم الرعاية
+    fields:
+      intervention_personal_type_needed:
+        display_name: هل هناك حاجة للمقابلات الشخصية؟
+      intervention_personal_notes:
+        display_name: ملاحظات المقابلات الشخصية
+      intervention_family_type_needed:
+        display_name: هل هناك حاجة للتدخلات الأسرية؟
+      intervention_family_notes:
+        display_name: ملاحظات التدخلات الأسرية
+      intervention_medical_type_needed:
+        display_name: هل هناك حاجة للتدخلات الطبية؟
+      intervention_medical_notes:
+        display_name: ملاحظات التدخلات الطبية
+      intervention_community_type_needed:
+        display_name: هل هناك حاجة للتدخلات المجتمعية؟
+      intervention_community_notes:
+        display_name: ملاحظات التدخلات المجتمعية
+      intervention_needed_unhcr:
+        display_name: هل هناك حاجة لتدخلات مفوضية الأمم المتحدة السامية لشؤون اللاجئين؟
+      intervention_unhcr_notes:
+        display_name: ملاحظات تدخلات مفوضية الأمم المتحدة السامية لشؤون اللاجئين
+      intervention_needed_ngo:
+        display_name: هل هناك حاجة لتدخلات المنظمات غير الحكومية؟
+      intervention_ngo_notes:
+        display_name: ملاحظات تدخلات المنظمات غير الحكومية
+      intervention_economical_type_needed:
+        display_name: هل هناك حاجة للتدخلات الاقتصادية؟?
+      intervention_economical_notes:
+        display_name: ملاحظات التدخلات الاقتصادية
+      intervention_education_type_needed:
+        display_name: هل هناك حاجة للتدخلات التعليمية؟
+      intervention_education_notes:
+        display_name: ملاحظات التدخلات التعليمية
+      intervention_health_type_needed:
+        display_name: هل هناك حاجة للتدخلات الصحية؟
+      intervention_health_notes:
+        display_name: ملاحظات التدخلات الصحية
+      intervention_other_type_needed:
+        display_name: هل هناك حاجة لأي تدخلات أخرى؟
+      intervention_other_notes:
+        display_name: ملاحظات التدخلات الأخرى

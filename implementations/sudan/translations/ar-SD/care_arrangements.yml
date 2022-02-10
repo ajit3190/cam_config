@@ -1,0 +1,25 @@
+ar-SD:
+  care_arrangements:
+    name: ترتيبات الرعاية
+    description: ترتيبات الرعاية
+    fields:
+      child_current_location:
+        display_name: العنوان الحالي للطفل
+      address_current:
+        display_name: العنوان الحالي
+        help_text: في حالة عدم وجود عنوان، رجاء تقديم معالم أرضية أو وصف للمكان الحالي
+      landmark_current:
+        display_name: معلم
+      location_current:
+        display_name: المكان الحالي
+      address_child_future:
+        display_name: إذا كان الطفل ينوي ارحيل، ما هو العنوان مستقبلا؟
+        help_text: في حالة عدم وجود عنوان، رجاء أذكر المالم الأرضية أو وصفا للمكان الحالي
+      landmark_child_future:
+        display_name: ما هو المعلم الأرضي مستقبلا؟
+      location_child_future:
+        display_name: ما هو الموقع مستقبلا؟
+      telephone_child_future:
+        display_name: ما هو رقم الهاتف مستقبلا؟
+      care_arrangements_section:
+        display_name: ترتيبات الرعاية

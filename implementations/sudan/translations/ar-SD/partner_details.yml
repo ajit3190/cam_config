@@ -1,0 +1,29 @@
+ar-SD:
+  partner_details:
+    name: تفاصيل الشريك/الزوج
+    description: تفاصيل الشريك/الزوج
+    fields:
+      maritial_status:
+        display_name: الحالة الاجتماعية الحالية
+      partner_details:
+        display_name: تفاصيل الشريك/الزوج
+      relationship_length:
+        display_name: مدة الزواج/العلاقة
+      number_of_children:
+        display_name: عدد الأطفال
+      marital_status_during_separation:
+        display_name: الحالة الاجتماعية أثناء الانفصال
+      partner_details_during_separation:
+        display_name: تفاصيل الشريك/الزوج
+      relationship_length_during_separation:
+        display_name: مدة الزواج/العلاقة أثناء الانفصال
+      number_of_children_during_separation:
+        display_name: عدد الأطفال أثناء الانفصال
+      marital_status_pre_separation:
+        display_name: الحالة الاجتماعية قبل الانفصال
+      partner_details_pre_separation:
+        display_name: تفاصيل الشرك/الزوج قبل الانفصال
+      relationship_length_pre_separation:
+        display_name: مدة الزواج/العلاقة قبل الانفصال
+      number_of_children_pre_separation:
+        display_name: عدد الأطفال قبل الانفصال

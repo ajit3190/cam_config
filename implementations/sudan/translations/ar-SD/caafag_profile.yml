@@ -1,0 +1,105 @@
+ar-SD:
+  caafag_profile:
+    name: ملامح الأطفال المرتبطين بالقوات المسلحة والمجموعات المسلحة
+    description: ملامح الأطفال المرتبطين بالقوات المسلحة والمجموعات المسلحة
+    fields:
+      un_ddr_no:
+        display_name: رقم الأمم المتحدة لنزع السلاح والتسريح وإعادة الإدماج
+      cafaag_name_armed_group:
+        display_name: مع أي قوات مسلحة أو مجموعات مسلحة يرتبط الطفل؟
+        option_strings_text:
+          government_force: القوات الحكومية
+          non_government_forces: قوات غير حكومية
+          none: لا توجد
+          other_paramilitary_group: مجمزعة شبه عسكرية أخرى
+          sf: SF
+          sla: جيش تحرير السودان
+          spla: الجيش الشعبي لتحرير السودان
+          tmvp: TMVP
+          unknown: مجهول
+      cafaag_enrollment_reason_not_forced:
+        display_name: إذا لم يكن قسرا، ما هو السبب الرئيسي الذي جعل الطفل يُشارك في القوات المسلحة أو المجنوعات المسلحة؟ (نوع التجنيد)
+        option_strings_text:
+          voluntary_enrollment: الانضمام الطوعي
+          family_problems_abuse: مشاكل/سوء معاملة أسرية
+          financial_reasons: أسباب مالية
+          lack_of_access_to_essential_services: عدم الحصول على الخدمات الأساسية
+          poverty: الفقر
+          wanted_to_fight_for_their_beliefs: الرغبة في القتال لقناعات
+          wanted_to_follow_friends: الرغبة في اللحاق بأصدقاء
+          other: إذا كانت أخرى، رجاء التحديد
+      cafaag_enrollment_reason_not_forced_text:
+        display_name: سبب آخر للانضمام
+      cafaag_name_militaryunit:
+        display_name: اسم الوحدة العسكرية
+      cafaag_name_commander:
+        display_name: اسم القائد
+      address_cafaag_militaryunit:
+        display_name: منطقة الوحدة العسكرية
+      location_cafaag_militaryunit:
+        display_name: موقع الوحدة العسكرية
+      cafaag_child_role:
+        display_name: ما هو الدور الرئيسي للطفل؟
+        option_strings_text:
+          combat: القتال
+          combat_support: دعم المقاتلين
+          combattant: مقاتل
+          commander_ranked_position: قائد/رتبة عسكرية
+          girlfriend: خليلة
+          girlfriend_wife_forced_sexual_activity: خليلة/زوجة/نشاط جنسي قسري
+          non_combat: غير محارب
+          non_combat_cook_guide_porter_etc: غير محارب (طباخ، مرشد، حمّال، وغير ذلك)
+          other: أخرى
+      cafaag_child_owned_weapon:
+        display_name: هل كان الطفل يمتلك/يستخدم سلاحا
+      cafaag_weapon_type:
+        display_name: نوع السلاح
+      cafaag_date_child_join:
+        display_name: متى انضم الطفل إلى القوات المسلحة أو المجموعة المسلحة؟
+      address_cafaag_registration:
+        display_name: 'مكان التسجيل (القرية/العنوان/المنطقة)
+
+          العنوان'
+      address_cafaag_mobilization:
+        display_name: منطقة التعبئة
+      location_cafaag_mobilization:
+        display_name: موقع التعبئة
+      cafaag_date_child_leave:
+        display_name: متى ترك الطفل القوات المسلحة أو المجموعة المسلحة؟
+      cafaag_how_did_child_leave_armed_group:
+        display_name: كيف ترك الطفل القوات المسلحة أو المجموعة المسلحة؟
+        option_strings_text:
+          captured: تم أسره
+          deceased: توفى
+          dissolution_of_the_group: حل المجموعة
+          escape_runaway: هرب/هارب
+          formal_ddr_program: البرنامج الرسمي لنزع السلاح والتسريح وإعادة الإدماج
+          locally_negotiated_demobilization: التسريح الذي تمت التفاوض حوله محليا
+          normal: عادي
+          other: أخرى (رجاء التحديد)
+          released_handover_to_family: تم تسريحه/تم تسليمه لأسرته
+          released_handover_to_government: تم تسريحه/تم تسليمه للحكومة
+          released_handover_to_organization: تم تسريحه/تم تسليمه لمنظمة
+          runaway: هارب
+          surrendered: استسلم
+          unicef_ddr: نزع السلاح والتسريح وإعادة الإدماج لليونيسيف
+      cafaag_how_child_left_other:
+        display_name: إذا أخرى، رجاء التحديد
+      address_cafaag_demobilization:
+        display_name: عنوان موقع التسريح
+      location_cafaag_demobilization:
+        display_name: موقع التسريح
+      cafaag_demobilization_papers_served:
+        display_name: 'هل سلم الطفل أي وثائق خاصة بالتسريح؟  '
+      cafaag_reason_for_release_from_military:
+        display_name: سبب التسريح من الجندية
+        option_strings_text:
+          captured: تم أسره
+          deceased: توفى
+          dissolution_of_the_group: تسريح المجموعة
+          formal_ddr_program: البرنامج الرسمي لنزع السلاح والتسريح وإعادة الإدماج
+          released_handover_to_government: تم تسريحه/تم تسليمه للحكومة
+          released_handover_to_organization: تم تسريحه/تم تسليمه للحكومة
+          released_handover_to_family: تم تسريحه/تم تسليمه للأسرة
+          runaway: هارب
+          surrendered: استسلم

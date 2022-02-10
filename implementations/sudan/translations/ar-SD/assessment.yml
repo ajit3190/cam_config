@@ -1,0 +1,160 @@
+ar-SD:
+  assessment:
+    name: تقييم
+    description: استمارة التقييم
+    fields:
+      bia_approved:
+        display_name: موافقة المدير
+        tick_box_label: 'نعم'
+      bia_approved_date:
+        display_name: التاريخ
+      bia_approved_comments:
+        display_name: ملاحظات المدير
+      approval_status_bia:
+        display_name: موقف الموافقة
+      assessment_header:
+        display_name: استمارة التقييم
+      assessment_requested_by:
+        display_name: التقييم مطلوب بواسطة
+      assessment_requested_on:
+        display_name: تاريخ بداية التقييم
+        help_text: هذه الخانة مُخصصة لموقف سير العمل
+      assessment_completed_on:
+        display_name: اكتمل التقييم بتاريخ
+      case_plan_due_date:
+        display_name: تاريخ موعد خطة الحالة
+        guiding_questions: |-
+          اعتمادا على مستوى خطورة الحالة.
+          مرتفع: خلال 3 أيام بعد التقييم
+          .متوسط: خلال اسبوع 1 بعد التقييم
+          منخفض: خلال أسبوعين 2 بعد التقييم
+      assessment_home_visit:
+        display_name: هل تم القيام بزيارة منزلية كجزء من التقييم؟
+      if_yes__provide_details_696e8fb:
+        display_name: إذا كانت الإجابة بنعم، رجاء تقديم تفاصيل
+        help_text: ' من قام بالزيارة، رجاء تقديم ملاحظات أو مخاوف بشأن الحماية الإضافية'
+      assessment_home_visit_details:
+        display_name: إذا كانت الإجابة بالنفي، رجاء تقديم تفاصيل
+      assessment_child_seen:
+        display_name: هل تمت رؤية الطفل منفردا/لوحده؟
+      assessment_child_seen_details:
+        display_name: إذا كانت الإجابة بالنفي، رجاء تقديم تفاصيل
+      assessment_separator:
+        display_name: وجهة نطر ورغبات الطفل ومقدم(ي) الرعاية
+      assessment_child_views:
+        display_name: وجهة نظر الطفل
+        help_text: قم بوصف آراء الطفل ورغباته فيما يخص وضعه/ا. ويُمكن توسيع هذا القسم  ليشمل الكلمات التي استخدمها الطفل نفسه، وشهادته و/أو رسوماته (مثلا، للوضع، والأسرة و/أو الرحلة).
+      assessment_caregiver_views:
+        display_name: وجهات نظر مقدم(ي) الرعاية
+        help_text: قم بوصف آراء ورغبات مقدم(ي) الرعاية فيما يخص وضع الطفل.
+      assessment_needs_separator:
+        display_name: تقييم الاحتياجات
+        guiding_questions: |-
+          وضح متى وأين حصلت على معلوماتك - والمعلومات قد تأتي من مصادر متعددة (مثلا، تقارير مكتوبة عن الطفل، ملاحظات، مقابلات مع الطفل والأسرة، أنشطة خلّاقة مثل الرسومات والقصص بواسطة الطفل، استبيانات وقوائم مراجعة، مناقشات مع وكالات أخرى ومع من يعرفون الطف، زيارات منزلية).
+          اقتبس معلومات من مصادر أولية ووضح ما إذا كانت هذه المعلومات مسنودة وتم التحقق منها بأي مصدر آخر.
+           وحيثما هو مناسب، وضح التاريخ والوضع الراهن.
+          كم مرة شهدت موقفا أو كم عدد الأشخاص الذين أبلغوا عن قلقهم.
+          أذكر أسباب تحليلك للوضع.
+          سيكون من المفيد لك تحديد الاحتياجات أكثر من ذكر الخدمات المطلوبة. مثلا، يمكنك القول أن الطفل يحتاج للتعليم بدلا عن القول أن الطفل يحتاج للذهاب للمدرسة، نظرا لأن هماك وسائل متعددة لحصول الطفل على التعليم.
+      assessment_physical_wellbeing:
+        display_name: 'الرفاه والصحة البدنية '
+        help_text: 'تحديد عناصر الخطورة، والحماية والاحتياجات:'
+        guiding_questions: |-
+          E.g. Is the child’s physical development as expected according to their age?
+          Does the child have any health conditions (signs of respiratory conditions such as coughing, running nose; unclean teeth; strong odour from mouth, person)?
+          Does the child have any injuries? Does the child have any mental, physical or sensory impairments/disabilities?
+          Is the child pregnant? Is the child fatigued/exhausted? Is the child’s clothing unclean or in poor condition compared to other children in the community)?
+      assessment_emotional_wellbeing:
+        display_name: الرفاه العاطفي والمعرفة والمهارات
+        help_text: 'تحديد عناصر الخطورة والحماية والاحتياجات::'
+        guiding_questions: |-
+          مثلا، ما هو الشعور العام للطفل؟ هل يُعاني الطفل من الكآبة أو عدم احترام الذات؟ هل يشعر الطفل بالسعادة؟ هل له مخاوف و/أو كوابيس وهل هو قلق؟ هل يشعر الطفل بالتبلد أو بالعزلة؟ هل يشعر الطفل بالكثير من الغضب أو بالذنب أو باليأس؟
+          هل الطفل مفرط في التعلق أم مستقل حسب عمره؟ وضح كيف يتعامل الطفل مع النكسات في حياته؟
+          هل يمتلك الطفل المعرفة والمهارات الأساسية مثل التعرف والتحكم في عواطفه وسلوكه، والتفكير في المعالجة السليمة للنزاع، وممارسة الألعاب الجماعية، والقراءة الصحيحة لسلوك وعواطف الآخرين، وحسن التقدير للذات وللآخر؟
+      assessment_social_relationships:
+        display_name: العلاقات الاجتماعيةمع الأقران والأسرة والمجتمع
+        help_text: 'تحديد عناصر المخاطر والحماية والاحتياجات:'
+        guiding_questions: |-
+          E.g. Does the child participate in social activities? Is the child socially withdrawn?
+          Describe the quality and frequency of contact of the child with peers, family and other adults in the child’s life (does the child avoid contact with any of them; do any of them distance themselves from the child, and if so what are the reasons; do the members of the family avoid interaction with the child in certain settings (e.g. in public)?
+          What tone of voice do they adopt when interacting with the child? Describe how this impacts the child’s wellbeing.
+      assessment_education:
+        display_name: التعليم والعمل وأوقات الفراغ والاهتمامات
+        help_text: 'تحديد عناصر المخاطر والحماية والاحتياجات:'
+        guiding_questions: |-
+          مثلا، ما هو التعليم الذي تحصل عليه الطفل؟ هل الطفل ملتحق بأي برنامج تعليمي وهل يواظب على الحضور؟
+          اوصف البيئة المدرسية. هل هناك أي خيارات وفرص أخرى للطفل فيما يخص التعليم؟
+          ماذا يفعل الطفل في أوقات فراغه؟ أذكر اهتمامات الطفل. هل يُشارك الطفل في اي أنشطة قد تعتبر مخالفة للقانون؟
+          هل يعمل الطفل؟ وضح نوع العمل، وتواتره، وكيف يؤثر ذلك على رفاه الطفل. وإذا كان الطفل يعمل، كيف يتم استخدام أجره/ على ماذا يُنفق الطفل ذلك الأجر؟
+      assessment_documentation:
+        display_name: التوثيق
+        help_text: 'تحديد عناصر المخاطر والحماية والاحتياجات:'
+        guiding_questions: |-
+          مثلا، هل للطفل وثائق تسجيل مواليد؟ هل للطفل أي تسجيل آخر/وثائق ثبوتية؟
+           هل فقد الطفل أي وثائق مطلوبة لحمايته و/أو حصولة على الخدمات حاليا أو مستقبلا؟ وضح كيف يؤثر ذلك على رفاه الطفل.
+      assessment_living_environment_family_separator:
+        display_name: ظروف المعيشة والأسرة
+      assessment_living_environment_family:
+        display_name: ظروف المعيشة والأسرة
+        help_text: 'تحديد عناصر المخاطر والحماية والاحتياجات:'
+        guiding_questions: |-
+          مثلا، ما هي ترتيبات المعيشة الحالية (نوع المأوى، والخصوصية)؟ وضح العلاقة بين الطفل وبقية الأسرة.
+          وضح قدرات واستطاعة الراشدين في الأسرة على حماية الطفل والاستجابة لاحتياجاته/ها
+          اشرح وضع كسب العيش للأسرة/المنول. مع من يعيش الطفل وما هي تحديات البيئة المنزلية؟
+          من يمضي الليل في نفس الغرفة مع الطفل؟ كم عدد الوجبات التي يتناولها الطفل يوميا؟ هل ذلك مختلف عن الأسر الأخرى في مجتمع الطفل؟
+          وضح دور الطفل وما إذا كان الطفل يُعامل بطلريقة مختلفة عن بقية الأطفال في بيئته؟ اشرح الظروف المعيشية.
+          هل للطفل فرصة الحصول الآمن على مياه الشرب، والاستحمام والمرافق الصحية؟ هل يشعر الطفل بالأمان حيث يعيش؟
+          وضح كيف يؤثر ذلك على رفاه الطفل ومسافة وخيارات الحصول على الخدمات.
+      assessment_care_arrangement_separator:
+        display_name: ترتيبات الرعاية
+      assessment_care_arrangment:
+        display_name: ترتيبات الرعاية
+        help_text: 'تحديد عناصر المخاطر والحماية والاحتياجات:'
+        guiding_questions: |-
+          مثلا، ما هي ترتيبات الحماية الحالية وما مدى استقرارها/ديمومتها؟ هل ترتيبات الرعاية مناسبة نظرا لسن الطفل ووضعه؟
+          كيف يتم ترتيب الرعاية (بواسطة الأبوين قبل مغادرة الوطن الأصلي؛ تلقئيا في البلد الأصلي؛ تلقائيا في البلد الحالي؛ بواسطة منظمة أو بواسطة المجتمع المحلي).
+          أوصف العلاقة بين الطفل ومقدم الرعاية. هل يقوم مقدم الرعاية/السرة برعاية أطفل آخرين غير مصطحبين أو منفصلين؟ هل مقدم الرعاية أحد أفرباء الطفل (وإذا كان الحال كذلك، ما هي الصلة بينهما؟
+          هل مقدم الرعاية في نزاع مع ابوي الطفل؟ ماهي رغبات الأبوين (إذا كانا معروفين)؛ وما هي رغبات الطفل؟
+      assessment_community_separator:
+        display_name: المجتمع
+      assessment_community:
+        display_name: المجتمع، والسلامة والأمن، وإعادة الإدماج والدعم
+        help_text: 'تحديد عناصر المخاطر والحماية والاحتياجات:'
+        guiding_questions: |-
+          مثلا، أوصف أي مخاوف بشأن سلامة وأمن الطفل (مثلا، العنف المجتمعي، والممارسات التقليدية الضارة، والظروف في مكان العمل، نظرة المجتمع للعنف/سوء المعاملة؛ مخاطر التجنيد بواسطة القوات أو المجموعات المسلحة)؟
+          هل للطفل حرية الحركة (هل الوضع مختلف عن بقية المجتمع، والأطفال عموما)؟
+          أوصف كيف يؤثر ذلك على رفاه الطفل.
+          هل الطفل او الأسرة مقبولة/معزولة عن المجتمع؟ هل يشعر الطفل أو أسرته بتمييز في الحصول على الخدمات؟
+          هل يشعر الطفل وأسرته بالاستهداف من طرف أي مجموعة؟ هل يتلقى الطفل وأسرته طلبات لخدمات غير مناسبة في مقابل الدعم؟
+          هل تلقى الطفل أو أسرته اعترافا رسميا بالبقاء في المنطقة الحالية؟ وهل الطفل معزول غن الأنشطة أو المجموعات في المجتمع؟
+          هل يلاقي الطفل أي تمييو أو تحيز أو تهديد من المجتمع؟
+          أوصف زجزد ز إتاحة المساعدات/الخدمات في المجتمع (بما في ذلك آليات الحماية المجتمعية).
+      assessment_summary_separator:
+        display_name: الملخص والخلاصة
+      assessment_summary:
+        display_name: الملخص
+        help_text: لخّص العناصر الرئيسية للمخاطر والحماية والاحتياجات بناءا على أقسام التقييم أعلاه مع الوضع في الاعتبار آراء/رغبات الطفل (والسرة)
+      protection_concerns:
+        display_name: قضايا الحماية
+        help_text: استمارة الخانة المشتركة مع قضايا الحناية
+      risk_level:
+        display_name: مستوى المخاطر
+        help_text: هذه الخانة أيضا لاستمارة قضايا الحماية. وإذا لم يكن هناك مستوى للمخاطر، يمكن إغلاق الحالة.
+      assessment_risk_level_reasons:
+        display_name: المخاطر الإضافية
+      is_a_comprehensive_best_interests_assessment__bia__required__f59922b:
+        display_name: هل من المطلوب القيام بتقييم شامل (للمصلحة الفضلى)؟
+      assessment_bid_requirement:
+        display_name: تحديد المصلحة الفضلى
+      assessment_formal_bid:
+        display_name: هل من المطلوب تحديد (المصلحة الفضلى) بطريقة رسمية؟
+        help_text: تحديد المصلحة الفضلى في سياقها بالتنسيق مع مفوضية المم المتحدة السامية للاجئين.
+      assessment_bid_direction:
+        display_name: إذا كانت الإجابة بنعم، رجاء اختيار اتجاه تحديد المصلحة الفضلى
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: تحديد الحلول الدائمة والمسارات المتكاملة للأطفال غير المصطحبين
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: تحديد أكثر الخيارات مناسبة للأطفال المعرضية للمخاطر في الظروف الاستثنائية (بما في ذلك جمع شمل الأسرة والرعاية المؤقتة)
+          possible_separation_of_a_child_from_parents_against_their_will: احتمال انفصال الطفل عن أبويه ضد رغبته
+      assessment_bid_details:
+        display_name: رجاء تقديم تفاصيل
+        help_text: قدم التفاصيل ثم واصل مع مفوضية اللاجئين في استمارة (تحديد المصلحة الفضلى).

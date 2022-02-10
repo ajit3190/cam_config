@@ -1,0 +1,43 @@
+---
+fr:
+  safety_plan:
+    name: Plan de sécurité
+    description: Plan de sécurité
+    fields:
+      safety_plan_needed:
+        display_name: "Est-ce qu'un Plan de Sécurité est nécéssaire dans ce cas?"
+        help_text: "Complétez le Plan de Sécuritévisant ci-dessous AVEC la survivante si sa sécurité personnelle est menacée en raison de l’incident pour lequel elle a demandé à être prise en charge. Le Plan de Sécurité doit être réaliste, facile à retenir et basé sur la situation de la survivante et ce qu’ELLE souhaite faire. Les Plans de Sécurité sont différents pour chaque survivante. Cela signifie que la survivante n’a pas besoin de répondre à toutes les questions du Plan, mais seulement aux questions utiles dans son cas. Répondez en priorité aux questions qui apporteront le plus de soutien à la survivante selon ses besoins de sécurité. Vous pouvez revenir sur le Plan et le modifier. N’oubliez pas : le moment le plus dangereux pour une survivante de violence au sein du couple est lorsqu’elle essaie de quitter l’auteur."
+      safety_plan_main_concern:
+        display_name: Identifier les problèmes de sécurité (avec les mots de la survivante)
+      safety_plan_resources_header:
+        display_name: Ressources
+        guiding_questions: "Dans les catégories suivantes, citer les ressources que la survivante possède actuellement et qu'elle utilise, qui peuvent l’aider à assurer sa sécurité"
+      safety_plan_resources_economic:
+        display_name: Economiques/ matériels
+      safety_plan_resources_relationships:
+        display_name: Relationnelles
+      safety_plan_resources_community:
+        display_name: Soutien communautaire
+      safety_plan_resources_other:
+        display_name: Autre
+      safety_plan_preparedness_header:
+        display_name: Mesures de préparation pour la sécurité
+        guiding_questions: 'Voici quelques exemples : La survivante convient d’un code ou d’un signal avec ses amis, ses voisins ou les membres de sa famille et, en cas de besoin, elle communiquera avec ce code, par exemple, si elle ne peut pas parler devant l’auteur des violences ; la survivante rassemble quelques affaires essentielles et des documents importants qu’elle laisse dans un endroit auquel elle peut avoir accès si elle doit quitter son domicile (lister ces affaires et documents) ; la survivante apprend à ses enfants à aller à un endroit précis lorsque les violences commencent ; la survivante convient d’un code ou d’un signal avec ses enfants pour pouvoir leur dire en toute sécurité quand ils doivent quitter la pièce. Veuillez vous reporter à l’outil d’élaboration du Plan de Sécurité pour obtenir la liste complète des questions à poser à la survivante.'
+      safety_plan_preparedness_signal:
+        display_name: "Quelles sont les étapes que la survivante identifie comme options pour réduire le dommage pour elle-même (et ses enfants) avant que la violence n'arrive (préparation de la sécurité)?"
+      safety_plan_strategies_header:
+        display_name: Stratégies de sécurisation
+        guiding_questions: 'Voici quelques exemples : La survivante peut identifier certains schémas de violence répétitifs chez l’auteur des violences qui peuvent lui indiquer qu’il est sur le point de devenir violent (par exemple, à certains moments de la journée ou de la semaine, lorsqu’il fréquente certains amis, lorsqu’il consomme des drogues ou de l’alcool, etc.). La survivante peut identifier les schémas de violence ou les déclencheurs de violence ; si la survivante doit quitter son domicile pour quelques jours ou plus, elle sait où aller ; la survivante demande à ses amis, sa famille, etc. s’il serait possible de rester chez eux si elle venait à quitter son domicile ; la survivante demande à ces personnes s’il serait possible de leur emprunter de l’argent ou de la nourriture en cas d’urgence. Veuillez vous reporter à l’outil d’élaboration du Plan de Sécurité pour obtenir la liste complète des questions à poser à la survivante.'
+      safety_plan_preparedness_gathered_things:
+        display_name: "Quelles actions est-ce que la survivante a identifié comme options pour réduire les risques lorsque la violence a lieu (stratégies de protection)? "
+      safety_plan_leaving_steps_header:
+        display_name: Étapes après avoir quitté le domicile
+        guiding_questions: 'Voici quelques exemples : La survivante sait comment gérer émotionnellement les critiques exprimées par certaines personnes quant à son départ du domicile ; la survivante sait à qui se confier pour obtenir un soutien ; la survivante reconnaît le traumatisme et le stress que la situation a créé ; la survivante sait quoi faire pour se sentir plus forte.'
+      safety_plan_preparedness_children_destination:
+        display_name: "Quelles étapes la survivante a-t-elle identifiées comme des possibilités de minimiser les risques engendrés par son éventuel départ de son domicile/sa communauté ?"
+      safety_plan_completion_timing:
+        display_name: "Combien de temps ça vous a pris pour développer le Plan de Sécurité avec la survivante?"
+      safety_plan_developed_with_survivor:
+        display_name: "Est-ce que le Plan de Sécurité a été développé avec la survivante (si applicable)?"
+      safety_plan_completion_date:
+        display_name: Date de remplissage du Plan de Sécurité

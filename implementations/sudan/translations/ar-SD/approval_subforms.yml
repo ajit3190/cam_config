@@ -1,0 +1,19 @@
+ar-SD:
+  approval_subforms:
+    name: استمارة الموافقة الفرعية
+    description: استمارة الموافقة الفرعية
+    fields:
+      approval_requested_for:
+        display_name: الموافقة مطلوبة ل
+      approval_response_for:
+        display_name: الموافقة على
+      approval_for_type:
+        display_name: نوع خطة الحالة
+      approval_date:
+        display_name: التاريخ
+      approval_manager_comments:
+        display_name: ملاحظات المدير
+      approval_status:
+        display_name: وضع الموافقة
+      approved_by:
+        display_name: الموافقة بواسطة

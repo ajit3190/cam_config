@@ -1,0 +1,48 @@
+ar-SD:
+  reunification_details_section:
+    name: تفاصيل جمع الشمل
+    description: الاستمارة الفرعية لجمع الشمل
+    fields:
+      name_reunified_adult:
+        display_name: اسم الشخص الراشد الذي تم جمع شمل الطفل معه
+      relationship_reunified_adult:
+        display_name: علاقة الشخص الراشد بالطفل
+      address_reunified_adult:
+        display_name: العنوان
+      location_reunified_adult:
+        display_name: مكان الشخص الراشد الذي تم جمع شمل الطفل معه
+      address_reunification:
+        display_name: عنوان مكان جمع الشمل
+      location_reunification:
+        display_name: المكان الذي تم فيه جمع الشمل
+      reunification_type:
+        display_name: ما هو نوع جمع الشمل؟
+        option_strings_text:
+          case_by_case: حالة حالة
+          informal_spontaneous: غير رسمي/تلقائي
+          mass_tracing: تتبع كبير
+          mediation: وساطة
+          other: أخرى (رجاء التحديد)
+          photo_tracing: تتبع بالصور
+          spontaneous: تلقائي
+      date_reunification:
+        display_name: تاريخ جمع الشمل
+      child_reunited_with_verified_adult:
+        display_name: هل تم جمع شمل الطفل مع الشخص الراشد الذي تم التحقق منه؟
+      not_reunited_with_verified_adult_reason:
+        display_name: Iإذا كانت الإجابة بالنفي، ما هو سبب هذا التغيير؟
+        option_strings_text:
+          change_of_mind: تغيير رأي
+          death: وفاة
+          death_of_adult: وفاة الشخص الراشد
+          failed_verification: فشل التحقق
+          n_a: لا ينطبق
+          other: أخرى (رجاء التحديد)
+      reunification_follow_up_needed:
+        display_name: هل هناك حاجة للمتابعة؟
+      closure_recommendation:
+        display_name: إذا كانت الإجابة بالنفي، هل توصي بإغلاق الحالة؟
+      follow_up_action_7948083:
+        display_name: إجراءات المتابعة
+      follow_up_date_d98c8fc:
+        display_name: تاريخ المتابعة

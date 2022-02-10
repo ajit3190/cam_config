@@ -1,0 +1,39 @@
+---
+fr:
+  action_plan_subform_section:
+    name: Plan d'Action imbriqué
+    description: Sous-formulaire du Plan d'Action
+    fields:
+      service_provided:
+        display_name: "Le service a-t-il été fourni ?"
+      service_provided_date:
+        display_name: "Si tel est le cas, quand a-t-il été fourni ?"
+      action_taken_details:
+        display_name: Détails à propos des actions entreprises
+      service_type:
+        display_name: Type de besoin
+      service_appointment_date:
+        display_name: Date du rendez-vous
+      action_plan_description:
+        display_name: Décrivez le plan d’action pour répondre à ce besoin
+      service_intervertion_type:
+        display_name: Type d’intervention
+      service_referral:
+        display_name: Comment la survivante aura-t-elle accès à ce service
+      service_referral_written_consent:
+        display_name: "Avez-vous reçu le consentement éclairé de la survivante quant à l’utilisation d’informations personnelles à des fins d’orientation ?"
+      service_referral_name:
+        display_name: "Précisez le nom, l’établissement ou l’institution/l’organisation, le cas échéant"
+      service_appointment_time:
+        display_name: Heure du rendez-vous
+      service_provider:
+        display_name: Prestataire de service
+      service_location:
+        display_name: Lieu de la prestation de service
+      service_referral_notes:
+        display_name: Commentaires
+        help_text: "Mettez en avant les difficultés, les ressources et toute autre information pertinente"
+      service_referral_mandatory_reporting:
+        display_name: "S'il existe des lois sur la déclaration obligatoire, avez-vous rapporté l'incident à la police ou aux autorités publiques?"
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: "Si oui, avez-vous informé la survivante et/ou son tuteur légal de l'existence de lois liées à la déclaration obligatoire avant de rapporter le cas?"

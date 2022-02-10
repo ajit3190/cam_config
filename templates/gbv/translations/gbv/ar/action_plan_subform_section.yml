@@ -1,0 +1,39 @@
+---
+ar:
+  action_plan_subform_section:
+    name: خطة عمل متداخلة
+    description: نموذج فرعي لخطة العمل
+    fields:
+      service_provided:
+        display_name: هل تمّ تقديم الخدمة؟
+      service_provided_date:
+        display_name: في حال الإجابة بنعم، متى تم تقديم الخدمة؟
+      action_taken_details:
+        display_name: تفاصيل بشأن الإجراء المتخذ
+      service_type:
+        display_name: نوع الاحتياج
+      service_appointment_date:
+        display_name: تاريخ الموعد
+      action_plan_description:
+        display_name: صِف خطة العمل لتلبية هذا الاحتياج
+      service_intervertion_type:
+        display_name: نوع التدخل
+      service_referral:
+        display_name: كيف ستحصل الناجية/ الناجي على هذه الخدمة؟
+      service_referral_written_consent:
+        display_name: هل حصلت على موافقة الناجية/ الناجي المستنيرة للإفصاح عن معلومات شخصية لغرض الإحالة؟
+      service_referral_name:
+        display_name: حدِّد الإسم أو المنشأة أو الوكالة/المنظمة حسب الاقتضاء
+      service_appointment_time:
+        display_name: توقيت الموعد
+      service_provider:
+        display_name: مقدم الخدمة
+      service_location:
+        display_name: مكان تقديم الخدمة
+      service_referral_notes:
+        display_name: ملاحظات
+        help_text: سلِّط الضوء على التحديات والموارد والاعتبارات الأخرى ذات الصلة
+      service_referral_mandatory_reporting:
+        display_name: إذا كانت قوانين الإبلاغ الإلزامي سارية، هل قمت بإبلاغ الشرطة أو السلطات العامة عن الحادث؟
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: إذا كانت الإجابة بنعم، هل أبلغت الناجية و/أو مقدم الرعاية المعني بقوانين الإبلاغ الإلزامية قبل الإبلاغ عن الحادث؟

@@ -1,0 +1,17 @@
+ar-SD:
+  other_reportable_fields_case:
+    name: مجالات الإبلاغ الأخرى
+    description: مجالات الإبلاغ الأخرى
+    fields:
+      record_state:
+        display_name: سجل صحيح؟
+      owned_by_agency:
+        display_name: زكالة مدير الحالة
+      owned_by_location:
+        display_name: مكان مدير الحالة
+      has_referrals:
+        display_name: هل كان لهذه الحالة أي إحالات؟
+      has_case_plan:
+        display_name: هل لهذه الحالة خطة؟
+      workflow_status:
+        display_name: موقف سير العمل

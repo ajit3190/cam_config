@@ -1,0 +1,19 @@
+ar-SD:
+  immediate_concern_section:
+    name: مشاغل عاجلة
+    description: الاستمارة الفرعية للمشاغل العاجلة
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: نوع المشاغل العاجلة
+        option_strings_text:
+          health_care: الرعاية الصحية
+          safety: السلامة
+          interim_care: الرعاية المؤقتة
+          other: الإرشاد
+          other_318803: أخرى
+      immediate_concerns_immediate_concern_type_other:
+        display_name: إذا أخرى، رجاء التحديد
+      immediate_concerns_immediate_concern_summary:
+        display_name: ملخص القضايا
+      immediate_concerns_immediate_concern_action:
+        display_name: الإجراء العاجل المتخذ/الإحالة التي تمت

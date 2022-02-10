@@ -1,0 +1,79 @@
+ar-SD:
+  unhcr_bid_report_subform:
+    name: تقرير مفوضية الأمم المتحدة السامية عن تحديد المصلحة الفضلى
+    description: الاستمارة الفرعية لتقرير مفوضية الأمم لامتحدة السامية لشؤون اللاجئين  عن تحديد المصلحة الفضلى
+    fields:
+      bid_date:
+        display_name: تاريخ مقابلة تحديد لامصلحة الفضلى
+      bid_participants:
+        display_name: أذكر جميع المشاركين في المقابلة
+        help_text: أضف الشخص/الأشخاص الذين تمت مقابلتهم، ومن أجرى المقابلة، والمترجم (حيثما كان ذلك مناسبا)
+      bid_separation_status:
+        display_name: موقف انفصال الطفل
+        option_strings_text:
+          unaccompanied: غير مصطحب
+          separated: منفصل
+          orphan: يتيم
+          none_of_the_above: الحالات أعلاه لا تنطبق
+      bid_purpose:
+        display_name: الغرض من تحديد المصلحة الفضلى
+        option_strings_text:
+          durable_solution: الحلول الدائمة
+          family_reunification: جمع شمل الأسرة
+          temporary_care_arrangements: ترتيبات رعاية مؤقتة
+          separation_from_parents_caregiver: الانفصال عن الأبوين/مقدم الرعاية
+          other: أخرى
+      bid_purpose_other:
+        display_name: إذا أخرى، رجاء التحديد
+      bid_priority:
+        display_name: أولوية الحالة
+        option_strings_text:
+          emergency: عاجلة
+          high: عُليا
+          medium: متوسطة
+          low: منخفضة
+      bid_priority_reasons:
+        display_name: سبب الأولوية
+      bid_specific_needs:
+        display_name: الاحتياجات المعينة للطفل
+      bid_brief_summary:
+        display_name: رجاء تلخيص القضايا الرئيسية بإيجاز
+        guiding_questions: مثلا، ترتيبات الرعاية الحالية، المعلومات عن الأبوين والأسرة، والخيارات قيد البحث
+      bid_separator_recommendations:
+        display_name: الخيارات والتوصيات
+      bid_child_history:
+        display_name: رجاء القيام بتسجيل تاريخ الطفل قبل وأثناء الهروب/الانفصال
+        guiding_questions: أذكر ذكريات الطفل عن الهروب/الانفصال، والأدلة المقدمة من أشخاص قريبين من الطفل (إذا تمت مقابلتهم). أذكر أيضا كيف تم التحقق مكن هذه المعلومات.
+      bid_current_situation:
+        display_name: رجاء أوصف الحوال المعيشية الحالية للطفل
+        guiding_questions: "أذكر\n-  ترتيبات الرعايةالحالية، والظروف المعيشية، والسلامة، والعلاقات مع الأسرة البديلة/الشقاء/مقدمي الرعاية/أفراد الأسرة الآخرين؛\n-   الشبكات المجتمعية، التعليم والمواظبة على المدرسة؛\n-   تقدير عمر الطفل ودرجة نضجه، والصحة البدنية والعقلية وأي تقييم معين للاحتياجات،. أرجو أن تذكر من تم الاتصال بهم ومن قدم المعلومات، مثلا، الطفل، الأسرة، أشخاص قريبين من الطفل، تامعلمين، الجيران، الاخصائيين الاجتماعيين، كوادر المنظمات غير الحكومية. "
+      bid_available_options:
+        display_name: أرجو الإشارة إلى جميع الخيارات المتاحة وآليات المتابعة والتحليل لكل واحدة منها
+        guiding_questions: |-
+          رجو الإشارة إلى جميع العوامل المضمنة في الملحق 9 قائمة التحقق عند التوصية بما يُشكل المصلحة الفضلى للطفل تحت العناوين التالية:
+          -    آراء الطفل
+          -   الأسرة وأقرب الأقربين
+          -   البيئة الآمنة
+          -    النمو واحتياجات الهوية
+      bid_final_recommendations:
+        display_name: أرجو ذكر التوصيات النهائية وأسبابها
+      bid_separator_panel_decision:
+        display_name: قرار اللجنة
+      bid_date_panel_decision:
+        display_name: تاريخ قرارا اللجنة
+      bid_panel_members:
+        display_name: أسماء ومنظمات جميع أعضاء اللجنة
+      bid_panel_decision:
+        display_name: 'اللجنة:'
+        option_strings_text:
+          approves_the_recommendations: إجازة التوصيات
+          defers_decison_please_explain_why: تأجيل القرار (رجاء ذكر السبب)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: لا توافق على التوصيات (أرجو توضيح السبب وذكر توصيات اللجنة)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: إعادة فتح الحالة (ارجو توضيح السبب، ومن طلب إعادة فتح الحالة)
+          closes_the_case: إغلاق الحالة
+      bid_panel_decision_reasons:
+        display_name: جميع أسباب ذلك القرار
+      bid_panel_decision_actions:
+        display_name: اشرح تدابير المتابعة المطلوبة
+      bid_panel_comments:
+        display_name: ملاحظات

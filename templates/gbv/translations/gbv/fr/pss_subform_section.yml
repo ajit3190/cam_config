@@ -1,0 +1,50 @@
+---
+fr:
+  pss_subform_section:
+    name: Bien-être psychosocial ancré
+    description: Sous-formulaire de bien-être psychosocial
+    fields:
+      psychosocial_functionality_scale:
+        display_name: Échelle de fonctionnement psychosocial
+      pss_date:
+        display_name: Date
+        guiding_questions: |-
+          Cet outil peut être utilisé par les responsables des cas de VBG, dans le cadre de l’évaluation psychosociale de la survivante. Chaque questionnaire nécessite environ 10 à 20 minutes. L’outil de suivi ne doit être utilisé qu’après un minimum de trois visites afin de satisfaire les besoins les plus urgents de la survivante et d’installer une relation de confiance. Cet outil peut être utilisé de manière ponctuelle pour mesurer à un instant donné le bien-être psychosocial ou la stigmatisation ressentie.
+
+          Pour suivre l’évolution du bien-être de la survivante au fil du temps, le questionnaire doit être utilisé au début du suivi (généralement lors de la quatrième séance de prise en charge d’une survivante), puis de nouveau trois séances plus tard (généralement à la séance 7). Dans la mesure du possible, répondez une nouvelle fois à ce questionnaire à la fin de la prise en charge, si celle-ci dépasse les sept séances au total.
+
+          Avec chaque bénéficiaire, vous pouvez décider de n’utiliser qu’une seule des deux échelles ou les deux (l’échelle de fonctionnement psychosocial ou l’échelle de stigmatisation ressentie), au cours d’une même séance de prise en charge ou de deux séances distinctes, selon les critères que vous et le bénéficiaire décidez d’évaluer.
+
+          Les échelles ont été testées et validées pour une utilisation auprès de survivantes de 15 ans et plus. Cette boîte à outils n’est pas adaptée à une utilisation auprès de filles de 14 ans et moins. Pour savoir comment déterminer les scores, veuillez vous reporter à la boîte à outils sur les résultats de prise en charge des VBG.
+
+          Demandez à la survivante : Je vais vous poser des questions sur des tâches et des activités précises. Au cours des quatre dernières semaines, pouvez-vous me dire à quel point il a été difficile pour vous de réaliser ces activités. Est-ce que cela était :
+
+          • Pas difficile du tout
+          • Difficile
+          • Un peu difficile
+          • Très difficile
+          • Tellement difficile que souvent vous ne pouvez pas le faire
+      giving_advice:
+        display_name: Donner des conseils aux membres de votre famille
+      exchanging_ideas:
+        display_name: Échanger des idées avec d’autres personnes
+      uniting_with_other_community:
+        display_name: Vous joindre à d’autres membres de la communauté pour accomplir des tâches communautaires
+      asking_getting_help:
+        display_name: Demander/Obtenir de l’aide de personnes ou d’organisations si besoin
+      making_important_decisions:
+        display_name: Prendre des décisions importantes quant à son quotidien
+      taking_part_in_family_decisions:
+        display_name: Prendre part aux décisions familiales
+      learning_new_skills:
+        display_name: Apprendre de nouvelles compétences
+      concentrating_on_your_tasks:
+        display_name: Vous concentrer sur vos tâches et responsabilités
+      interacting_dealing_people:
+        display_name: Interagir avec des personnes que vous ne connaissez pas
+      keeping_household_clean:
+        display_name: Garder votre maison propre
+      pss_score:
+        display_name: Score
+      pss_score_notes:
+        display_name: Commentaires

@@ -1,0 +1,31 @@
+---
+en:
+  assessment_status:
+    name: Assessment Status
+    description: Assessment Status form
+    fields:
+      bia_approved:
+        display_name: Approved by Manager
+        tick_box_label: 'Yes'
+      bia_approved_date:
+        display_name: Date
+      bia_approved_comments:
+        display_name: Manager Comments
+      approval_status_bia:
+        display_name: Approval Status
+      assessment_header:
+        display_name: ASSESSMENT FORM
+      assessment_requested_by:
+        display_name: Assessment requested by
+      assessment_requested_on:
+        display_name: Assessment start date
+        help_text: This field is used for the Workflow status.
+      assessment_completed_on:
+        display_name: Assessment completed on
+      case_plan_due_date:
+        display_name: Date Case Plan Due
+        guiding_questions: |-
+          Depending on risk level of the case.
+          High: within 3 days after the assessment.
+          Medium: within 1 week after the assessment.
+          Low: within 2 weeks after the assessment.

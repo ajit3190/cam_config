@@ -1,0 +1,67 @@
+ar-SD:
+  review_section:
+    name: مراجعة
+    description: الاستمارة الفرعية للمراجعة
+    fields:
+      review_form_date:
+        display_name: تاريخ إكمال الاستمارة
+        help_text: اليوم/الشهر/السنة
+      review_separator:
+        display_name: تفاصيل اجتماع المراجعة
+      review_date:
+        display_name: تاريخ اجتماع المراجعة
+        help_text: اليوم/الشهر/السنة
+      previous_review_date:
+        display_name: تاريخ اجتماع المراجعة السابق (إذا مناسب)
+        help_text: اليوم/الشهر/السنة
+      was_child_present:
+        display_name: هل حضر الطفل؟
+      how_child_review:
+        display_name: إذا كانت الإجابة بالنفي، كيف تم إشراك الطفل في المراجعة؟
+      was_caregiver_present:
+        display_name: هل حضر مقدم الرعاية؟
+      how_caregiver_review:
+        display_name: إذا كانت الإجابة ابلنفي، كيف تم إشراك مقدم الرعاية في المراجعة؟
+      outcome_review_separator:
+        display_name: نتائج اجتماع المراجعة
+      review_childs_situation:
+        display_name: مراجعة وضع الطفل الحالي
+        help_text: أوصف  الوضع العام الحالي للطفل كما تمت مناقشته في اجتماع المراجعة
+      review_implementation:
+        display_name: مراجعة تنفيذ خطة الحالة
+        help_text: تقييم موقف التدابير المتخذة والخدمات المقدمة كما وردت ونوقشت في خطة الحالة أثناء اجتماع المراجعة
+      review_progress_goal:
+        display_name: مراجعة التقدم المحرز في الهدف الكلي لخطة الحالة
+        help_text: تقييم موقف التدابير المتخذة والخدمات المقدمة كما وردت ونوقشت في خطة الحالة أثناء اجتماع المراجعة
+      review_other_notes:
+        display_name: الملاحظات/التعليقات الأخرى أثناء اجتماع المراجعة
+      next_steps_separator:
+        display_name: الخطوات التالية
+      review_situation_change:
+        display_name: ' هل تغير وضع الطفل على نحو يحتم القيام بتقييم آخر'
+      situation_change_details:
+        display_name: نرجو تقديم تفاصيل
+      adjustments_case_plan:
+        display_name: هل هناك حاجة لأي تعديلات في خطة الحالة؟
+      adjustment_details:
+        display_name: نرجو تقديم تفاصيل
+      risk_level_changed:
+        display_name: هل تغير مستوى المخاطر في الحالة؟
+      action_conducted:
+        display_name: إذا كانت الإجابة بنعم، أذكر مستوى المخاطر الجديد
+        option_strings_text:
+          high: مرتفع
+          medium: متوسط
+          low: منخفض
+          'no': 'لا'
+      risk_level_details:
+        display_name: إذا كانت الإجابة بنعم، رجاء تقديم تفاصيل
+      recommend_close_case:
+        display_name: هل توصي بإغلاق الحالة؟
+      close_case_details:
+        display_name: رجاء تقديم تفاصيل
+      next_case_review:
+        display_name: هل هناك حاجة لمراجعة الحالةمرة أخرى؟
+      date_next_review:
+        display_name: إذا كانت الإجابة بنعم،  تاريخ اجتماع المراجعة المقبل
+        help_text: اليوم/الشهر/السنة

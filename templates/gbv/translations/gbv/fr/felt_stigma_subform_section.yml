@@ -1,0 +1,49 @@
+---
+fr:
+  felt_stigma_subform_section:
+    name: Stigmatisation ancrée
+    description: Sous-formulaire de stigmatisation ressentie
+    fields:
+      felt_stigma_scale:
+        display_name: Échelle de stigmatisation ressentie
+      feelings_worthlessness:
+        display_name: "Sentiments d'inutilité, de n'avoir aucune valeur"
+      feeling_detached:
+        display_name: Se sentir détachée ou retirée des autres
+      felt_stigma_date:
+        display_name: Date
+        guiding_questions: |-
+          Cet outil peut être utilisé par les gestionnaires des cas de VBG, dans le cadre de l’évaluation psychosociale de la survivante. Chaque questionnaire nécessite environ 10 à 20 minutes. L’outil de suivi ne doit être utilisé qu’après un minimum de trois visites afin de satisfaire les besoins les plus urgents de la survivante et d’installer une relation de confiance. Cet outil peut être utilisé de manière ponctuelle pour mesurer à un instant donné le bien-être psychosocial ou la stigmatisation ressentie.
+
+          Pour suivre l’évolution du bien-être de la survivante au fil du temps, le questionnaire de l’outil de suivi doit être utilisé au début (généralement lors de la quatrième séance de prise en charge d’une survivante), puis de nouveau trois séances plus tard (généralement à la séance 7). Dans la mesure du possible, répondez une nouvelle fois à ce questionnaire à la fin de la prise en charge, si celle-ci dépasse les sept séances au total.
+
+          Avec chaque cliente, vous pouvez décider de n’utiliser qu’une seule des deux échelles (l’échelle de fonctionnement psychosocial ou l’échelle de stigmatisation ressentie) ou les deux échelles (au cours d’une même séance de prise en charge ou de deux séances distinctes), selon les critères que vous et la cliente décidez d’évaluer.
+
+          Les échelles ont été testées et validées pour une utilisation auprès de survivantes de 15 ans et plus. Cette boîte à outils n’est pas adaptée à une utilisation auprès de filles de 14 ans et moins. Pour savoir comment déterminer les scores, veuillez vous reporter à la boîte à outils sur les résultats de prise en charge des VBG. 
+
+          Demandez à la survivante : Au cours des quatre dernières semaines, pouvez-vous me dire à quelle fréquence vous avez eu ces pensées ou ces sentiments. Est-ce que cela était :
+
+          • Pas du tout
+          • Un peu
+          • Modérément
+          • Beaucoup
+      feeling_badly_treated:
+        display_name: Vous vous sentez maltraitée par les membres de votre communauté
+      feeling_shame:
+        display_name: Vous ressentez de la honte
+      blaming_yourself:
+        display_name: Vous vous en voulez de ce qu’il s’est passé
+      feeling_rejected:
+        display_name: Vous vous sentez rejetée par tout le monde
+      feeling_stigma:
+        display_name: Vous vous sentez stigmatisée
+      wanting_to_avoid_people:
+        display_name: Vous voulez éviter les autres ou vous cacher
+      feeling_family_gazes:
+        display_name: "Vous avez l’impression que votre famille vous regarde comme si elle vous blâmait "
+      feeling_community_gaze:
+        display_name: Vous avez l’impression que les membres de votre communauté vous regardent comme si ils vous blâmaient
+      felt_stigma_score:
+        display_name: Score
+      felt_stigma_score_notes:
+        display_name: Commentaires

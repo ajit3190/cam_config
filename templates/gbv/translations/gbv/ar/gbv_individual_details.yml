@@ -1,0 +1,32 @@
+---
+ar:
+  gbv_individual_details:
+    name: "تفاصيل عن الناجية/ الناجي من العنف المبني على النوع الاجتماعي "
+    description: "تفاصيل عن الناجية / الناجي من العنف المبني على النوع الاجتماعي "
+    fields:
+      survivor_code:
+        display_name: "رمز الناجية/ الناجي "
+      sex:
+        display_name: ما هو جنس الناجي من العنف المبني على النوع الاجتماعي؟
+      date_of_birth:
+        display_name: ما هو تاريخ ميلاد الناجية/ الناجي؟
+      age:
+        display_name: ما هو عمر الناجية/ الناجي؟
+      estimated:
+        display_name: هل تم تقدير العمر؟
+      ethnicity:
+        display_name: ما هو الانتماء العرقي للناجية/ للناجي؟
+      nationality:
+        display_name: ما هو الانتماء الوطني للناجية/ للناجي؟
+      religion:
+        display_name: ما هو الانتماء الديني للناجية/ للناجي؟
+      country_of_origin:
+        display_name: البلد الأصلي
+      displacement_status:
+        display_name: وضع النزوح في وقت الإبلاغ
+      maritial_status:
+        display_name: "الحالة المدنية / الزوجية "
+      disability_type:
+        display_name: هل تعاني الناجية / الناجي من إعاقة؟
+      unaccompanied_separated_status:
+        display_name: هل الناجية/ الناجي من القصّر غير المصحوبين أو من الأطفال المنفصلين عن ذويهم أو من الأطفال المستضعفين من فئات أخرى؟

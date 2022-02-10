@@ -1,0 +1,51 @@
+---
+ar:
+  gbv_case_closure_form:
+    name: إغلاق ملف الحالة
+    description: إغلاق ملف الحالة
+    fields:
+      gbv_closure_approved:
+        display_name: موافقة المدير
+        tick_box_label: 'نعم'
+      gbv_closure_approved_date:
+        display_name: التاريخ
+      gbv_closure_approved_comments:
+        display_name: ملاحظات المدير
+      approval_status_gbv_closure:
+        display_name: الوضع الراهن للموافقة
+      created_at:
+        display_name: تاريخ فتح ملف الحالة
+      date_closure:
+        display_name: تاريخ إغلاق ملف الحالة
+      status:
+        display_name: الوضع الراهن للحالة
+      closure_assessment:
+        display_name: التقييم عند الإغلاق
+      closure_checklist_header_section:
+        display_name: القائمة المرجعية للإغلاق
+      closure_reason:
+        display_name: سبب إغلاق ملفّ الحالة
+      closure_reason_explain:
+        display_name: اشرح
+      closure_safety_plan:
+        display_name: تمت مراجعة خطة سلامة الناجية / الناجي وهي قيد التنفيذ
+      closure_safety_plan_explain:
+        display_name: اشرح (خطة السلامة)
+      closure_case_plan_complete:
+        display_name: تمت تلبية احتياجات الناجية/ الناجي على النحو المحدد في خطة عمل الحالة
+      closure_case_plan_complete_explain:
+        display_name: اشرح (بشكل كامل ومستوفي)
+      closure_no_further_support:
+        display_name: تتفق الناجية/ الناجي مع الأخصائي المختص بحالتها على عدم الحاجة إلى دعم إضافي
+      closure_no_further_support_explain:
+        display_name: اشرح (ماذا يعني عدم الحاجة إلى دعم إضافي)
+      closure_resume_notification:
+        display_name: تم إبلاغ الناجية/ الناجي بأنه يمكنه/ا استئناف تلقي الخدمات في أي وقت
+      closure_resume_notification_explain:
+        display_name: اشرح (استئناف الخدمات)
+      closure_supervisor_review:
+        display_name: "قام المشرف على الحالة بمراجعة خطة الخروج / إغلاق ملف الحالة "
+      closure_supervisor_review_explain:
+        display_name: اشرح (مراجعة الحالة)
+      closure_completion_timing:
+        display_name: كم من الوقت استغرقت عملية إغلاق ملف الحالة مع هذه الناجية/ الناجي؟

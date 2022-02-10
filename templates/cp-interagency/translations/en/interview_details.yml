@@ -1,0 +1,51 @@
+---
+en:
+  interview_details:
+    name: Interview Details
+    description: Interview Details
+    fields:
+      interview_date:
+        display_name: Interview Date
+      interviewer_name:
+        display_name: Interviewer Name
+      interviewer_postion:
+        display_name: Interviewer Position
+      interviewer_agency:
+        display_name: Interviewer Agency
+        option_strings_text:
+          agency_1: Agency 1
+          agency_2: Agency 2
+          agency_3: Agency 3
+          agency_4: Agency 4
+      address_interview:
+        display_name: Interview Address
+      landmark_interview:
+        display_name: Interview Landmark
+      location_interview:
+        display_name: Interview Location
+      source_interview:
+        display_name: Information Obtained From
+        option_strings_text:
+          child: Child
+          caregiver: Caregiver
+          other: Other, please specify
+      source_interview_other:
+        display_name: If information obtained from Other, please specify.
+      other_org_interview_status:
+        display_name: Has the child been interviewed by another organization?
+      other_org_reference_no:
+        display_name: Reference No. given to child by other organization
+      case_eligibility_criteria:
+        display_name: Case meets eligibility criteria?
+      source_identification_referral:
+        display_name: Source of identification/referral
+        option_strings_text:
+          child_family_member: Child / family member
+          community_members_cpc: Community members / CPC
+          school_personnel: School personnel
+          health_personnel: Health personnel
+          population_registration_services: Population registration services
+          law_enforcement_agencies: Law enforcement agencies
+          humanitarian_agencies: Humanitarian agencies
+      consent_form_completed:
+        display_name: Consent and Assent form completed?

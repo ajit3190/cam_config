@@ -1,0 +1,48 @@
+---
+fr:
+  gbv_sexual_violence:
+    name: Type de VBG
+    description: Type de VBG
+    fields:
+      gbv_sexual_violence_type:
+        display_name: Type de violence
+        guiding_questions: |-
+          Les six principaux types de VBG et leur définition sont :
+
+          1. Le viol – pénétration non consentie (même partielle) du vagin, de l’anus ou de la bouche par le pénis ou une autre partie du corps. Désigne également la pénétration non consentie du vagin ou de l’anus par un objet. Parmi les exemples de viol figurent, sans toutefois s’y limiter, le viol collectif, le viol conjugal, la sodomie et le sexe oral forcé. Ce type de VBG ne comprend pas les tentatives de viol, puisqu’il n’y a pas eu pénétration.
+
+          2. L’agression sexuelle – toute forme d’acte sexuel non consenti n’entraînant pas ou ne comprenant pas de pénétration. Parmi les exemples d’agression sexuelle figurent, sans toutefois s’y limiter, les tentatives de viol, les baisers non désirés, les caresses non consenties, les attouchements non désirés des seins, des organes génitaux ou des fesses, ainsi que la mutilation génitale féminine. Ce type de VBG ne comprend pas le viol, car celui-ci implique une pénétration.
+
+          3. L’agression physique – tout abus physique n’étant pas de nature sexuelle. Parmi les exemples d’agression physique figurent, sans toutefois s’y limiter, les coups, les gifles, les étranglements, les coupures, les bousculades, les fusillades ou toute attaque avec une arme, les agressions à l’acide ou tout autre acte pouvant créer une douleur physique, un malaise ou une blessure chez un tiers. Ce type de VBG ne comprend pas la mutilation génitale féminine ou le crime d’honneur.
+
+          4. Le mariage forcé – mariage d’une personne contre sa volonté.
+
+          5. Déni de ressources, d'opportunités ou de services – refus d’accès légitime à des ressources/biens économiques ou à des moyens de subsistance, à l’éducation, à la santé ou à d’autres services sociaux. Parmi les exemples de déni de ressources, d'opportunités ou de services figurent, sans toutefois s’y limiter, le refus d’accorder un héritage à une veuve, l’appropriation des revenus par un partenaire ou un membre de la famille, le déni du droit à la contraception, le refus de scolarisation d’une fille, etc. Ce type de VBG ne comprend pas les signalements de pauvreté générale.
+
+          6. Violence psychologique/émotionnelle – le fait d’infliger des douleurs ou des traumatismes mentaux ou émotionnels. Parmi les exemples de violence psychologique/émotionnelle figurent, sans toutefois s’y limiter, les menaces de violence physique ou sexuelle, l’intimidation, l’humiliation, l’isolement forcé, le harcèlement, le harcèlement verbal, l’attention non désirée, les remarques, gestes ou écrits de nature menaçante ou sexuelle non désirés, la dégradation des biens personnels, etc.
+      non_gbv_type_notes:
+        display_name: "Si non VBG, décrivez"
+      harmful_traditional_practice:
+        display_name: "Est-ce que l'incident constitue une pratique traditionnelle préjudiciable?"
+        option_strings_text:
+          'no': 'non'
+          type_of_practice_1: Type de pratique 1
+          type_of_practice_2: Type de pratique 2
+          type_of_practice_3: Type de pratique 3
+          type_of_practice_4: Type de pratique 4
+          type_of_practice_5: Type de pratique 5
+      goods_money_exchanged:
+        display_name: "De l’argent, des biens, des avantages et/ou des services ont-ils été échangés en rapport avec cet incident?"
+      abduction_status_time_of_incident:
+        display_name: "Type d’enlèvement au moment des faits "
+        option_strings_text:
+          none: Aucun
+          forced_conscription: Enlèvement / Recrutement forcé par les groupes armés
+          trafficked: "Trafic humain / Traite "
+          other_abduction_kidnapping: Autre enlèvement
+      gbv_reported_elsewhere:
+        display_name: "La survivante a-t-elle déclaré cet incident dans une autre organisation avant?"
+      gbv_reported_elsewhere_subform:
+        display_name: "Si oui, où?"
+      gbv_previous_incidents:
+        display_name: "La survivante a t-elle précédemment été victime d’autres incidents de VBG?"

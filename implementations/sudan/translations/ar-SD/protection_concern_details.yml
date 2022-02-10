@@ -1,0 +1,9 @@
+ar-SD:
+  protection_concern_details:
+    name: تفاصيل مشكلة الحماية
+    description: تفاصيل مشكلة الحماية
+    fields:
+      protection_concerns:
+        display_name: مشاكل الحماية
+      protection_concern_detail_subform_section:
+        display_name: تفاصيل مشاكل الحماية

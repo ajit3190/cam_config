@@ -1,0 +1,39 @@
+---
+en:
+  action_plan_subform_section:
+    name: Nested Action Plan
+    description: Action Plan Subform
+    fields:
+      service_provided:
+        display_name: "Was the service provided?"
+      service_provided_date:
+        display_name: "If yes, when was the service provided?"
+      action_taken_details:
+        display_name: Details about action taken
+      service_type:
+        display_name: Type of Need
+      service_appointment_date:
+        display_name: Appointment Date
+      action_plan_description:
+        display_name: Describe the action plan to address this need
+      service_intervertion_type:
+        display_name: Type of Intervention
+      service_referral:
+        display_name: How will the survivor access this service
+      service_referral_written_consent:
+        display_name: "Did you receive informed consent from survivor to release personal Information for the purpose of referrals?"
+      service_referral_name:
+        display_name: "Specify Name, Facility or Agency/Organization as applicable"
+      service_appointment_time:
+        display_name: Appointment Time
+      service_provider:
+        display_name: Service Provider
+      service_location:
+        display_name: Service Location
+      service_referral_notes:
+        display_name: Notes
+        help_text: "Highlight challenges, resources and other relevant considerations"
+      service_referral_mandatory_reporting:
+        display_name: "If mandatory reporting laws apply, did you report the incident to the police/public authorities?"
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: "If yes, did you inform the survivor and/or her caregiver of the mandatory reporting laws prior to making the report?"

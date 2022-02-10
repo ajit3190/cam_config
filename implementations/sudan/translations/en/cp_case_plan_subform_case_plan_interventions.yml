@@ -1,0 +1,48 @@
+---
+en:
+  cp_case_plan_subform_case_plan_interventions:
+    name: List of Interventions and Services
+    description: List of Interventions and Services
+    fields:
+      intervention_service_to_be_provided:
+        display_name: Name of intervention / service to be provided
+      intervention_service_goal:
+        display_name: Need the intervention / service is addressing
+        guiding_questions: As identified in the assessment, e.g. alternative care,
+          security (e.g. safe shelter), education (formal), non-formal education,
+          family tracing and reunification, basic psychosocial support, focused non-specialized
+          MHPSS care, specialized MHPSS services, food, non-food items, cash assistance,
+          livelihoods, medical, nutrition, legal support, documentation, services
+          for children with disabilities, sexual and reproductive health, shelter,
+          WASH, durable solution, relocation.
+      case_plan_provider_and_contact_details:
+        display_name: Person / agency providing the service or implementing the intervention
+          / services and contact details
+      case_plan_timeframe:
+        display_name: Due Date
+        help_text: dd/mm/yy
+      case_plan_monitoring_schedule:
+        display_name: Follow up / monitoring schedule
+        guiding_questions: |-
+          E.g., Follow-up next week Monday on services to be provided and on next week Friday on situation of the child. Follow-up and monitor twice a week at minimum for the coming month.
+          If situation progresses as expected/desired, then change follow-up and monitor schedule the next month based on the review meeting and amended risk level at the end of this month.
+        option_strings_text:
+          one_time: One time
+          daily: Daily
+          weekly: Weekly
+          monthly: Monthly
+          other: Other
+      case_plan_monitoring_schedule_notes:
+        display_name: Follow up / monitoring schedule notes
+      intervention_service_success:
+        display_name: Successfully implemented?
+      interventions_status:
+        display_name: Status
+        option_strings_text:
+          pending: Pending
+          ongoing: Ongoing
+          completed: Completed
+      interventions_notes:
+        display_name: Notes
+        guiding_questions: E.g., strengths and barriers that can either assist/progress
+          or hinder achievement

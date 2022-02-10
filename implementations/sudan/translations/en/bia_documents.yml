@@ -1,0 +1,8 @@
+---
+en:
+  bia_documents:
+    name: BIA Records
+    description: BIA Records
+    fields:
+      upload_bia_document:
+        display_name: BIA Document

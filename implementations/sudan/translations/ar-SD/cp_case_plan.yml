@@ -1,0 +1,50 @@
+ar-SD:
+  cp_case_plan:
+    name: خطة الحالة
+    description: خطة الحالة
+    fields:
+      case_plan_approval_type:
+        display_name: نوع الموافقة
+      case_plan_approved:
+        display_name: موافقة المدير
+        tick_box_label: 'نعم'
+      case_plan_approved_date:
+        display_name: التاريخ
+      case_plan_approved_comments:
+        display_name: ملاحظات المدير
+      approval_status_case_plan:
+        display_name: موقف الموافقة
+      case_plan_section_header:
+        display_name: خطة الحالة
+      date_case_plan:
+        display_name: تاريخ بداية خطة الحالة
+        help_text: هذه الخانة لاستخدام موقف سير العمل
+      date_case_plan_agreed:
+        display_name: تاريخ الموافقة على خطة الحالة
+      protection_concerns:
+        display_name: مشاكل الحماية
+      protection_concerns_other:
+        display_name: إذا أخرى، رجاء التحديد
+      case_plan_separator:
+        display_name: الهدف الكلي لخطة الحالة
+      case_plan_goal:
+        display_name: الهدف العام
+        help_text: تحديد هدف (معين، خاضع للقياس، ممكن التحقيق/متفق عليه، واقعي/ملائم، موقوت)
+      case_plan_header:
+        display_name: خطط التدخلات والخدمات التي ستقدم
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: تفاصيل خطط التدخلات والخدمات
+      approval_separator:
+        display_name: الموافقة والاتفاقيات
+      interventions_names_involved:
+        display_name: اسم الأشخاص المشاركين في وضع الخطة وعلاقتهم بالطفل
+      interventions_details_disagree:
+        display_name: تفاصيل عن أي شخص يعارض أجزاء من الخطط وسبب ذلك
+      interventions_child_involved:
+        display_name: هل شارك الطفل في تطوير خطة الحالةظ
+      interventions_steps:
+        display_name: وإذا لم يُشارك، لماذا؟
+      interventions_caregiver_involved:
+        display_name: هل شارو مقدم الرعاية في وضع خطة الحالة؟
+      interventions_caregiver_steps:
+        display_name: وإذا لم يُشارك، لماذا؟

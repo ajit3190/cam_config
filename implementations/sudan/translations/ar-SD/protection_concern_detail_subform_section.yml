@@ -1,0 +1,31 @@
+ar-SD:
+  protection_concern_detail_subform_section:
+    name: الاستمارة الفرعية لمشاكل الحماية
+    description: الاستمارة الفرعية لمشاكل الحماية
+    fields:
+      protection_concern_type:
+        display_name: نوع مشاكل الحماية
+      date_concern_identified:
+        display_name: منذ متى تم تحديدها؟
+        option_strings_text:
+          follow_up_after_reunification: المتابعة بعد جمع الشمل
+          follow_up_in_care: متابعة الرعاية
+          registration: التسجيل
+          reunification: جمع الشمل
+          verification: التحقق
+      concern_details:
+        display_name: تفاصيل المشكلة
+      concern_intervention_needed:
+        display_name: هل هناك حاجة للتدخل؟
+      date_concern_intervention_needed_by:
+        display_name: الحاجة للتدخل من
+      concern_action_taken_already:
+        display_name: هل تم اتخاذ أي إجراء؟
+        tick_box_label: 'نعم'
+      concern_action_taken_details:
+        display_name: تفاصيل الإجراء المتخذ
+      concern_action_taken_date:
+        display_name: تاريخ اتخاذ الإجراء
+      concern_is_resolved:
+        display_name: هل تمت معالجة مشكلة الحماية؟
+        tick_box_label: 'نعم'

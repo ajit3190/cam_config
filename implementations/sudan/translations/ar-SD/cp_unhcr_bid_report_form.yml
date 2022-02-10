@@ -1,0 +1,7 @@
+ar-SD:
+  cp_unhcr_bid_report_form:
+    name: تقرير BID
+    description: تقرير  BID
+    fields:
+      unhcr_bid_report_subform:
+        display_name: تقرير   BID لمفوضية الأمم المتحدة السامية لشؤون اللاجئين

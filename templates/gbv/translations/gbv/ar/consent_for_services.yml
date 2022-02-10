@@ -1,0 +1,12 @@
+---
+ar:
+  consent_for_services:
+    name: الموافقة على الخدمات
+    description: الموافقة على الخدمات
+    fields:
+      consent_services_header:
+        display_name: الموافقة على الخدمات
+      consent_for_services:
+        display_name: ل أعطت الناجية/ الناجي موافقته/ا على تلقي الخدمات التي تقوم بتقديمها؟
+        help_text: ''
+        tick_box_label: 'نعم'

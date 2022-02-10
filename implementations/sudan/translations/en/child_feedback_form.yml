@@ -1,0 +1,208 @@
+---
+en:
+  child_feedback_form:
+    name: Child Feedback
+    description: Child Feedback
+    fields:
+      child_feedback_date_completed:
+        display_name: Date form completed
+      child_feedback_separator_consent:
+        display_name: Consent and Assent
+        guiding_questions: |-
+          Sample script: "I would like to speak with you regarding how the caseworker has worked with you and your family.
+          We want to make sure that we give the best service possible to children, so we are asking how the caseworker helped you and if there is anything we could do differently / better. You do not have to tell us anything if you don’t want to and you don’t have to tell me your reasons for that.
+          Even if you decide not to tell us anything, this will not affect the support that you and your family get from us.
+          However, sharing your thoughts and feelings with us may help us improve what we do for other children and families.
+          Anything you tell us will be kept private. This means that although we will share what you say, we won’t tell anyone that you are the one who told us.
+          You can also decide to only not answer certain questions, or change your mind and decide not to continue whenever you wish."
+      child_feedback_interview_subject:
+        display_name: Consent / Assent Obtained From
+        option_strings_text:
+          child: Child
+          caregiver: Caregiver
+          other: Other
+      child_feedback_consent_source_other:
+        display_name: If Other, please specify
+      child_feedback_consent:
+        display_name: Permission has been given by the child to collect his/her feedback
+          on the case management process.
+        tick_box_label: 'Yes'
+      child_feedback_consent_caregiver:
+        display_name: Permission has been given by the caregiver to collect feedback
+          on the case management process from his/her child.
+        help_text: Only complete where possible and if appropriate
+        tick_box_label: 'Yes'
+      child_feedback_consent_date:
+        display_name: Date of Consent / Assent
+      child_feedback_separator_questions:
+        display_name: 'Questions: Part I'
+        guiding_questions: |-
+          You can give examples to prompt feedback, but be careful about asking leading questions.
+          This format is suitable for older children (10 years or older) – it can be adapted for younger children as required.
+          It should be conducted in the language of the child, and facilitated by someone who has the necessary skills and training to facilitate feedback with children, and understands the ethics of working directly with children.
+      child_feedback_services_discovery:
+        display_name: How did you find out about [insert case management agency name]'s
+          case management services?
+        option_strings_text:
+          caseworker_approached_me: Caseworker approached me
+          another_organization: Another organization
+          parents: Parents
+          family_friends: Family / friends
+          school: School
+          community_leader: Community leader
+          community_based_child_protection_focal_point: Community-based child protection
+            focal point
+          authorities: Authorities
+          saw_a_poster_information_leaflet: Saw a poster/information leaflet
+          cannot_recall: Cannot recall
+          other: Other
+      child_feedback_services_discovery_other:
+        display_name: If Other, please specify
+      child_feedback_help_asked:
+        display_name: Before you started working with the caseworker, were you asked
+          whether you wanted to be helped in this way?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unknown: Unknown
+      child_feedback_help_asked_details:
+        display_name: Please provide details
+      child_feedback_expectations:
+        display_name: What type of support were you expecting from [insert case management
+          agency name]?
+        option_strings_text:
+          alternative_care: Alternative care
+          security_e_g_safe_shelter: Security (e.g. safe shelter)
+          education_formal: Education (formal)
+          non_formal_education: Non-formal education
+          family_tracing_and_reunification: Family tracing and reunification
+          basic_psychosocial_support: Basic psychosocial support
+          focused_non_specialized_mhpss_care: Focused non-specialized MHPSS care
+          specialized_mhpss_services: Specialized MHPSS services
+          food: Food
+          non_food_items: Non-food items
+          cash_assistance: Cash assistance
+          livelihoods: Livelihoods
+          medical: Medical
+          nutrition: Nutrition
+          legal_support: Legal support
+          documentation: Documentation
+          services_for_children_with_disabilities: Services for children with disabilities
+          sexual_and_reproductive_health: Sexual and Reproductive Health
+          shelter: Shelter
+          wash: WASH
+          durable_solution_in_coordination_with_unhcr: Durable solution (in coordination
+            with UNHCR)
+          relocation: Relocation
+          other: Other
+      child_feedback_expectations_other:
+        display_name: If Other, please specify
+      child_feedback_expectations_received:
+        display_name: Did you get the support you were expecting to receive?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unknown: Unknown
+      child_feedback_expectations_received_details:
+        display_name: Please provide details
+      child_feedback_process_plan:
+        display_name: Did the caseworker make a plan [case plan] together with you
+          to get you the support that you needed?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unknown: Unknown
+      child_feedback_process_plan_details:
+        display_name: Please provide details
+      child_feedback_process_connect:
+        display_name: Did the caseworker connect you to services that were able to
+          help you?
+        option_strings_text:
+          'yes': 'Yes'
+          no_did_not_need_other_services: No, did not need other services
+          no_did_not_want_other_services: No, did not want other services
+          unknown: Unknown
+      child_feedback_process_connect_details:
+        display_name: Please provide details
+      child_feedback_process_consent:
+        display_name: Whenever the caseworker shared information about you with others,
+          were you asked whether you agreed to share that information about you and
+          your situation with those others?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unknown: Unknown
+      child_feedback_process_consent_details:
+        display_name: Please provide details
+      child_feedback_process_closure:
+        display_name: Did you make the decision to stop [insert agency name]'s case
+          management services together with the caseworker?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unknown: Unknown
+      child_feedback_process_closure_details:
+        display_name: Please provide details
+      child_feedback_questions_ii:
+        display_name: 'Questions: Part II'
+        guiding_questions: |-
+          Sample script: "For the next few questions, I am going to ask you to what extent you agree with the sentence I mention.
+          If you fully agree with the sentence then you can give it a 10.
+          If you don’t agree with the sentence at all then you can give it a 1.
+          You can also decide to answer with any other number between 1 and 10, the more you agree with the sentence the closer it should be to a 10, and the more you disagree the closer it should be to a 1."
+      child_feedback_ii_explanation:
+        display_name: The caseworker explained things in a way that was difficult
+          to understand for me.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_explanation_details:
+        display_name: Please provide details
+      child_feedback_ii_listening:
+        display_name: The caseworker always asked for and listened to my views, opinions
+          and feelings.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_listening_details:
+        display_name: Please provide details
+      child_feedback_ii_pressured:
+        display_name: I often felt pressured by the caseworker to make a decision
+          or to do something I did not wish to do.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_pressured_details:
+        display_name: Please provide details
+      child_feedback_ii_followup:
+        display_name: The caseworker followed-up and did the things s/he said s/he
+          would do.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_followup_details:
+        display_name: Please provide details
+      child_feedback_ii_visits:
+        display_name: The caseworker only visited me rarely.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_visits_details:
+        display_name: Please provide details
+      child_feedback_ii_support:
+        display_name: The support the caseworker provided to me and my family was
+          useful.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_support_details:
+        display_name: Please provide details
+      child_feedback_ii_improvement:
+        display_name: Since I have been working with the caseworker my situation has
+          improved.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_improvement_details:
+        display_name: Please provide details
+      child_feedback_ii_satisfaction:
+        display_name: Overall, I am very satisfied with the support provided by the
+          caseworker.
+        help_text: Choose a number between 1 and 10
+      child_feedback_ii_satisfaction_details:
+        display_name: Please provide details
+      child_feedback_final_question:
+        display_name: Do you have any other feedback or concerns you would like to
+          share?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unknown: Unknown
+      child_feedback_final_question_details:
+        display_name: Please provide details

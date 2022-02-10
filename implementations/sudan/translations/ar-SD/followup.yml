@@ -1,0 +1,7 @@
+ar-SD:
+  followup:
+    name: المتابعة
+    description: المتابعة
+    fields:
+      followup_subform_section:
+        display_name: المتابعة

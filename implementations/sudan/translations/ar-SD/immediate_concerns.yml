@@ -1,0 +1,7 @@
+ar-SD:
+  immediate_concerns:
+    name: المشاغل العاجلة
+    description: المشاغلة العاجلة
+    fields:
+      immediate_concern_section:
+        display_name: المشاغل العاجلة

@@ -1,0 +1,76 @@
+---
+en:
+  consent:
+    name: Consent and Assent
+    description: Consent and Assent
+    fields:
+      interview_subject:
+        display_name: Consent/Assent Obtained From
+        option_strings_text:
+          child: Child
+          caregiver: Caregiver
+          other: Other
+      consent_source_other:
+        display_name: If Other, please specify
+      consent_notes:
+        display_name: Notes
+      consent_for_services:
+        display_name: Consent has been given for the child to participate in the case
+          management process
+        help_text: If consent has not been provided, do not select
+        tick_box_label: 'Yes'
+      consent_reporting:
+        display_name: Consent is given share non-identifiable information for reporting
+      consent_for_data_collection:
+        display_name: Consent has been given to the caseworker assigned to the case
+          to collect and store personal information about the case (e.g., name, photo,
+          family details).
+      disclosure_other_orgs:
+        display_name: The individual providing consent agrees to share information
+          about this case with other service providers according to the details described
+          below.
+        help_text: This includes sharing information with other organizations providing
+          services, this does not include sharing information with UNHCR.
+        tick_box_label: 'Yes'
+      information_shared_services:
+        display_name: Information can be shared for the following services
+        option_strings_text:
+          alternative_care: Alternative care
+          cash_assistance: Cash assistance
+          education_formal: Education (formal)
+          family_tracing_and_reunification: Family tracing and reunification
+          food: Food
+          gbv_survivor_support: GBV survivor support
+          legal_support: Legal support
+          livelihoods: Livelihoods
+          medical: Medical
+          mental_health: Mental health
+          non_food_items: Non-food items
+          non_formal_education: Non-formal education
+          nutrition: Nutrition
+          psychosocial_support: Psychosocial support
+          services_for_children_with_disabilities: Services for children with disabilities
+          shelter: Shelter
+          sexual_and_reproductive_health: Sexual and Reproductive Health
+          rescue: Rescue
+          wash: WASH
+          case_transfer: Case Transfer
+          other: Other
+      information_shared_services_other:
+        display_name: If Other, please specify
+      unhcr_export_opt_out:
+        display_name: The individual providing consent agrees to share information
+          about this case with UNHCR for the purposes of refugee protection case management.
+        tick_box_label: 'Yes'
+      withhold_details:
+        display_name: Withhold specific information from
+      disclosure_deny_details:
+        display_name: What specific information should be withheld
+      withholding_info_reason:
+        display_name: Reason for withholding information
+        option_strings_text:
+          fear: Fear of harm to themselves or others
+          communicate_information: Want to communicate information themselves
+          others: Other
+      withholding_info_other_reason:
+        display_name: If other reason for withholding information, please specify

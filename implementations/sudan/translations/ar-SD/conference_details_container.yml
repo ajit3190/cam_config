@@ -1,0 +1,7 @@
+ar-SD:
+  conference_details_container:
+    name: تفاصيل اجتماع الحالة
+    description: تفاصيل اجتماع الحالة
+    fields:
+      conference_details_subform:
+        display_name: تفاصيل اجتماع الحالة

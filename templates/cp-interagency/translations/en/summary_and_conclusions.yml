@@ -1,0 +1,22 @@
+---
+en:
+  summary_and_conclusions:
+    name: Summary and Conclusions
+    description: Summary and Conclusions form
+    fields:
+      assessment_summary:
+        display_name: Summary
+        help_text: Summarize key risk factors, protective factors, and needs based
+          on the assessment sections above and take into account the views/wishes
+          of the child (and family).
+      protection_concerns:
+        display_name: Protection Concerns
+        help_text: Shared field with Protection Concerns form.
+      protection_concerns_other:
+        display_name: If Other, please specify
+      risk_level:
+        display_name: Risk Level
+        help_text: This field is also on the Protection Concerns form.  If there is
+          no risk level, case may be closed.
+      assessment_risk_level_reasons:
+        display_name: Summary of reasons for risk level

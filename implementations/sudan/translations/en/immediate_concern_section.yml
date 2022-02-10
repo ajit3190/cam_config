@@ -1,0 +1,22 @@
+---
+en:
+  immediate_concern_section:
+    name: Immediate Concerns
+    description: Immediate Concerns Subform
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: Immediate concern type
+        help_text: ''
+        guiding_questions: ''
+        option_strings_text:
+          health_care: Health care
+          safety: Safety
+          interim_care: Interim care
+          other: Counselling
+          other_318803: Other
+      immediate_concerns_immediate_concern_type_other:
+        display_name: If Other, please specify
+      immediate_concerns_immediate_concern_summary:
+        display_name: Summary of Issue
+      immediate_concerns_immediate_concern_action:
+        display_name: Immediate action taken/ referral conducted

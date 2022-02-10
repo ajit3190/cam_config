@@ -1,0 +1,17 @@
+ar-SD:
+  bid_status:
+    name: موقف تحديد المصلحة الفضلى
+    description: استمارة موقف تحديد المصلحة الفضلى
+    fields:
+      assessment_formal_bid:
+        display_name: هل التحديد الرسمي للمصلحة الفضلى مطلوب؟
+        help_text: تم التحديد بالتنسيق مع مفوضية الأمم المتحدة السامية لشؤون اللاجئين.
+      assessment_bid_direction:
+        display_name: إذا كانت الإجابة بنعم،  أرجة اختيار اتجاه تحديد المصلحة الفضلى
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: اختيار حلول دائمة ومسارات مكملة للأطفال غير المصطحبين
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: تحديد أفضل الخيارات للأطفال المهددين في ظروف استثنائية (بما في ذلك جمع شمل الأسرة والرعاية المؤقتة)
+          possible_separation_of_a_child_from_parents_against_their_will: احتمال انفصال الطفل عن أبويه ضد رغبتهما
+      assessment_bid_details:
+        display_name: رجاء تقديم تفاصيل
+        help_text: قدم تفاصيل ثم واصل في استمارة مفوضية اللاجئين عن تحديد المصلحة الفضلى

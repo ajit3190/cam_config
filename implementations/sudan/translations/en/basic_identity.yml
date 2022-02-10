@@ -1,0 +1,168 @@
+---
+en:
+  basic_identity:
+    name: Child's Details
+    description: Basic identity information about a separated or unaccompanied child.
+    fields:
+      case_id:
+        display_name: Long ID
+      short_id:
+        display_name: Short ID
+      case_id_display:
+        display_name: Case ID
+      cpims_id:
+        display_name: Previous Case Code
+        help_text: Legacy CPIMS (or other system) ID
+      marked_for_mobile:
+        display_name: Marked for mobile?
+        tick_box_label: 'Yes'
+      child_status:
+        display_name: Case Status
+      case_status_reopened:
+        display_name: Case Reopened?
+        tick_box_label: 'Yes'
+      case_status_reopened_reasons:
+        display_name: Reason for Reopening
+        option_strings_text:
+          break_down_of_reunification_placement: Break-down of reunification/placement
+          death_of_caregiver_s: Death of caregiver(s)
+          physical_abuse_violence: Physical abuse / violence
+          sexual_abuse_violence: Sexual abuse / violence
+          emotional_or_psychological_abuse_violence: Emotional or psychological abuse
+            / violence
+          physical_neglect: Physical neglect
+          emotional_neglect: Emotional neglect
+          medical_neglect: Medical neglect
+          educational_neglect: Educational neglect
+          supervisory_neglect: Supervisory neglect
+          abandonment: Abandonment
+          child_labour: Child labour
+          hazardous_work: Hazardous work
+          sexual_exploitation: Sexual exploitation
+          slavery_sale_trafficking_forced_labour: Slavery / sale / trafficking / forced
+            labour
+          in_conflict_with_the_law: In conflict with the law
+          associated_with_armed_forces_or_groups: Associated with Armed Forces or
+            Groups
+          unaccompanied: Unaccompanied
+          separated: Separated
+          orphan: Orphan
+          functional_difficulties: Functional difficulties (e.g. seeing, hearing,
+            walking, communicating, remembering/concentrating, self-care)
+          psychosocial_distress: Psychosocial distress
+          substance_abuse_and_addiction_child: Substance abuse and addiction (child)
+          belongs_to_marginalised_discriminated_group: Belongs to marginalised / discriminated
+            group
+          lack_of_documentation_birth_registration: Lack of documentation / birth
+            registration
+          child_marriage: Child marriage
+          fgm: FGM
+          pregnancy_child_parent: Pregnancy / child parent
+          inappropriate_care_arrangement: Inappropriate care arrangement (e.g. >8
+            children in household, caregiver’s substance abuse, single vulnerable
+            caregiver)
+          other: Other
+      name:
+        display_name: Full Name
+      name_first:
+        display_name: First Name
+      name_middle:
+        display_name: Middle Name
+      name_last:
+        display_name: Last Name
+      name_nickname:
+        display_name: Nickname/Preferred Name
+        help_text: ''
+        guiding_questions: ''
+      name_other:
+        display_name: Other Name
+      name_given_post_separation:
+        display_name: Name(s) given to child after separation?
+      registration_date:
+        display_name: Date of Registration
+      identification_date:
+        display_name: Date Case Identified / Reported
+      assessment_due_date:
+        display_name: Date Assessment Due
+      sex:
+        display_name: Sex
+      age:
+        display_name: Age
+      date_of_birth:
+        display_name: Date of Birth
+      estimated:
+        display_name: Is the age estimated?
+        help_text: Based on the age assessment
+        guiding_questions: ''
+        tick_box_label: 'Yes'
+      physical_characteristics:
+        display_name: Distinguishing Physical Characteristics
+      ration_card_no:
+        display_name: Ration Card Number
+      icrc_ref_no:
+        display_name: ICRC Ref No.
+      rc_id_no:
+        display_name: RC ID No.
+      biometrics_id:
+        display_name: Biometrics
+        help_text: For the Biometric ID number, if used.
+      unhcr_id_no:
+        display_name: proGres Case ID
+        help_text: UNHCR Asylum Seeker Certificate Number
+      un_no:
+        display_name: UN Number
+      national_id_no:
+        display_name: National ID Number
+      unhcr_individual_no:
+        display_name: UNHCR Individual ID
+      other_id_type:
+        display_name: Type of other relevant ID document
+      other_id_no:
+        display_name: Number of other relevant ID
+      other_agency_id:
+        display_name: Other Agency ID
+      other_agency_name:
+        display_name: Other Agency Name
+      documents_carried:
+        display_name: List of documents carried by the child
+      nationality:
+        display_name: Nationality
+      maritial_status:
+        display_name: Current Civil/Marital Status
+      occupation:
+        display_name: Occupation
+      ethnicity:
+        display_name: Ethnicity/Clan/Tribe
+      sub_ethnicity_1:
+        display_name: Sub Ethnicity 1
+      sub_ethnicity_2:
+        display_name: Sub Ethnicity 2
+      language:
+        display_name: Languages spoken by child
+      religion:
+        display_name: Religion
+      displacement_status:
+        display_name: Population Group
+      displacement_status_other:
+        display_name: If Other, please specify
+      separation_status_of_the_child_800fd32:
+        display_name: Separation status of the child
+        help_text: ''
+        guiding_questions: ''
+        option_strings_text:
+          unaccompanied_869184: Unaccompanied
+          separated_331143: Separated
+          orphan_312440: Orphan
+          none_of_the_above_83926: None of the above
+      disability_type_communications:
+        display_name: Special communication needs
+      address_current:
+        display_name: Current Address
+      landmark_current:
+        display_name: Landmark
+      location_current:
+        display_name: Current Location
+      address_is_permanent:
+        display_name: Is this address permanent?
+      telephone_current:
+        display_name: Child's telephone / other contact details

@@ -1,0 +1,187 @@
+ar-SD:
+  child_feedback_form:
+    name: الإفادة الراجعة للطفل
+    description: الإفادة الراجعة للطفل
+    fields:
+      child_feedback_date_completed:
+        display_name: تاريخ إكمال الاستمارة
+      child_feedback_separator_consent:
+        display_name: الموافقة والقبول
+        guiding_questions: |-
+          مثال للنص: ""أود أن أتحدث معك عن كيف عمل المسؤول عن الحالة معك ومع أسرتك.
+          .نريد أن نتأكد أننا نقدم أفضل خدمات ممكنة للأطفال، ولذلك نسأل عن كيف ساعدك المسؤول عن الحالة وإذا كان هناك أي شئ يمكننا القيام به على نحة مختلف/أفضل. ولا يجب عليك أن تخبرنا بأي شئ إذا لم ترغب في فهل ذلك ولا يجب عليك أن تطلعني على أسباب ذلك.
+          وحتى لو قررت أن لا تخبرنا بأي شئ، لن يؤثر ذلك على الدعم الذي تتلقاه وتتلقاه أسرتك منّا.
+          .غير ان اطلاعنا على أفكارك وأحاسيسك قد يُساعدنا في تحسين ما نقوم به للأطفال والأسر.
+          .سنحافظ على سريةما تطلعنا عليه. ويعني ذلك أنه رغم تبادلنا لما تطلعنا عليه، لن نخبر أي أحد أنك مصدر هذه المعلومات.
+          ويُمكنك أيضا أن تُقرر ليس فقط عدم الإجابة على بعض الأسئلة فحسب، بل يُمكنك أن تقرر عدم مواصلة المقابلة متى ما شئت".
+      child_feedback_interview_subject:
+        display_name: الموافقة/القبول تم الحصول عليه من
+        option_strings_text:
+          child: طفل
+          caregiver: مقدم الرعاية
+          other: أخرين
+      child_feedback_consent_source_other:
+        display_name: إذا آخرين، رجاء التفصيل
+      child_feedback_consent:
+        display_name: تم الحصول على الإذن من الطفل لجمع إفادته الراجعة حول عملية إدارة الحالة
+        tick_box_label: 'نعم'
+      child_feedback_consent_caregiver:
+        display_name: تم الحصول على الإذن من مقدم الرعاية لجمع الإادات الراجعة حول عملية إدارة الحالة من طفله/ا.
+        help_text: أكمل فقط حيثما هو ممكن ومناسب
+        tick_box_label: 'نعم'
+      child_feedback_consent_date:
+        display_name: تاريخ الموافقة/القبول
+      child_feedback_separator_questions:
+        display_name: 'الأسئلة: الجزء 1'
+        guiding_questions: |-
+          يُمكنك إعطاء أمثلة لتشجيع الإفادة الراجعة، غير أنه يجب اجتناب الحذر بشأن طرح أسئلة موحية.
+          هذا الطريقة مناسبة للأطفال الأكبر عمرا (10 سنوات أو أكثر) - ويُمكن تعديلها لتناسب الأطفال الأصغر سنا إذا استدعى الحال.
+          ويجب اجراء المقابلة بلغة الطفل ويتم تيسيرها بواسطة شخص له المهارات والتدريب اللازمين لتسهيل الإفادة الراجعة للطفل ويفهم أخلاقيات العمل المباشر مع الأطفال.
+      child_feedback_services_discovery:
+        display_name: كيف علمت بخدمات إدارة الحالة ل{ادخل اسم وكالة إدارة الحالة}
+        option_strings_text:
+          caseworker_approached_me: اتصل بي المسؤول عن الحالة
+          another_organization: منظمة أخرى
+          parents: الأبوان
+          family_friends: الأسرة/الأصدقاء
+          school: المدرسة
+          community_leader: أحد قادة المجتمع
+          community_based_child_protection_focal_point: نقطة الاتصال المجتمعية لحماية الطفولة
+          authorities: السلطات
+          saw_a_poster_information_leaflet: رؤية ملصق/نشرة إعلامية
+          cannot_recall: لا أذكر
+          other: أخرى
+      child_feedback_services_discovery_other:
+        display_name: إذا أخرين، رجاء التحديد
+      child_feedback_help_asked:
+        display_name: قبل أن تبدأ العمل مع المسؤول عن الحالة، هل سُئلت إذا كنت تريد المساعدة بهذه الطريقة
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      child_feedback_help_asked_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_expectations:
+        display_name: ما هو نوع الدعم الذي توقعته من {اسم وكالة إدارة الحالة)؟
+        option_strings_text:
+          alternative_care: رعاية بديلة
+          security_e_g_safe_shelter: Sالأمن (مثلا، مأوى آمن)
+          education_formal: التعليم (النظامي)
+          non_formal_education: تعليم غير نظامي
+          family_tracing_and_reunification: تتبع وجمع شمل الأسر
+          basic_psychosocial_support: الدعم النفسي-الاجتماعي الأساسي
+          focused_non_specialized_mhpss_care: الرعاية المركزة غير المتخصصة للصحة العقلية والدعم النفسي-الاجتماعي
+          specialized_mhpss_services: خدمات الصحة العقليى ةالدعم النفسي-الاجتماعي المتخصصة
+          food: المواد الغذائية
+          non_food_items: المواد غير الغذائية
+          cash_assistance: مساعدات نقدية
+          livelihoods: سبل كسب العيش
+          medical: طبّي
+          nutrition: تغذية
+          legal_support: مساعدات قانونية
+          documentation: توثيق
+          services_for_children_with_disabilities: خدمات للأطفال ذوي الإعاقة
+          sexual_and_reproductive_health: الصحة الجنسية والإنجابية
+          shelter: Shelter
+          wash: المياه والصرف الصحي والإصحاح
+          durable_solution_in_coordination_with_unhcr: الحلول الدائمة (بالتنسيق مع مفوضية الأمم المتحدة السامية لشؤون اللاجئين)
+          relocation: تحويل مكان الإقامة
+          other: أخرى
+      child_feedback_expectations_other:
+        display_name: إذا أخرى، رجاء التحديد
+      child_feedback_expectations_received:
+        display_name: هل تتلقى الدعم الذي توقعت تلقيه؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      child_feedback_expectations_received_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_process_plan:
+        display_name: 'Didهل وضع المسؤول عن الحالة خطة {خطة حالة} معك للجصول على الدعم الذي تحتاجه؟  '
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      child_feedback_process_plan_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_process_connect:
+        display_name: هل ربطك المسؤول عن الحالة مع الخدمات التي ستساعدك؟
+        option_strings_text:
+          'yes': 'نعم'
+          no_did_not_need_other_services: لا، لم احتاج لخدمات أخرى
+          no_did_not_want_other_services: لا، لم أرغب في خدمات أخرى
+          unknown: غير معروف
+      child_feedback_process_connect_details:
+        display_name: رجاء تقدينم تفاصيل
+      child_feedback_process_consent:
+        display_name: 'عندما يتبادل المسؤول عن الحالة المعلومات الخاصة بك مع آخرين، هل سُئلت عن موافقتك على تبادل المعلومات عنك وعن وضعك مع آخرين؟ '
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      child_feedback_process_consent_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_process_closure:
+        display_name: هل قررت وقف خدمات إدارة الحالة مع {ادخل اسم المنظمة} بالاتفاق مع المسؤول عن الحالة؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      child_feedback_process_closure_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_questions_ii:
+        display_name: 'الأسئلة: الجزء 2'
+        guiding_questions: |-
+          مثال للنص: "للأسئلة القليلة التالية، سأستفسر عن مدى موافقتك مع الجملة التي ساذكرها.
+          إذا كنت توافق بشدة مع الجملة، يُمكنك منح لإجابتك 10 درجات.
+          وإذا كنت لا توافق على الإطلاق، يُمكنك أن تمنح إجابتك درجة واحدة.
+          ويُمكنك أيضا أن تُقرر الإجابة بأي درجة بين 1 و 10، وكلما كانت موافقتك اشط كلما اقتربت الدرجة من 10، وكلما اشتدت معارضتك كلما اقتربت الدرجة من 1."
+      child_feedback_ii_explanation:
+        display_name: يقوم المسؤول عن الحالة بشرح الأمور بطريقة أجد صعوبة في فهمها
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_explanation_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_ii_listening:
+        display_name: يستفسر المسؤول عن الحالة دائما عن آرائي ووجهات نظري وأحاسيسي ويستمع إليّ
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_listening_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_ii_pressured:
+        display_name: أشعر في بعض الأحيان بضغوط من المسؤول عن الحالة لاتخاذ قرار أو القيام بفعل لا أرغب فيه.
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_pressured_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_ii_followup:
+        display_name: قام المسؤول عن الحالة بالمتابعة وبالأشياء التي وعد بالقيام بها
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_followup_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_ii_visits:
+        display_name: نادرا ما قام المسؤول عن الحالة بزيارتي
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_visits_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_ii_support:
+        display_name: وجدت الدعم الذي قدمه المسؤول عن الحالة لي ولأسرتي مفيدا
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_support_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_ii_improvement:
+        display_name: منذ يدأت في العمل مع المسؤول عن الحالة، تحسنت أحوالي
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_improvement_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_ii_satisfaction:
+        display_name: عموما، أنا راض تماما عن الدعم الذي قدمه لي المسؤول عن الحالة
+        help_text: قم باختيار رقم بين 1 و 10
+      child_feedback_ii_satisfaction_details:
+        display_name: رجاء تقديم تفاصيل
+      child_feedback_final_question:
+        display_name: هل لديك أي إفادة راجعة أخرى أو تساؤلات تود اطلاعي عليها؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      child_feedback_final_question_details:
+        display_name: رجاء تقديم تفاصيل

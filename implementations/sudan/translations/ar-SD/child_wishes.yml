@@ -1,0 +1,47 @@
+ar-SD:
+  child_wishes:
+    name: رغبات الطفل
+    description: رغبات الطفل
+    fields:
+      wishes_child_family_tracing:
+        display_name: هل يرغب الطفل في تتبع أفراد الأسرة؟
+      wishes_reason_no_tracing:
+        display_name: إذا كان الطفل لا يرغب في تتبع الأسرة، أذكر السبب
+        help_text: أذكر التفاصيل المرتبطة بالإحالة للهلال الأحمر إذا كان الطفل/مقدم الرعاية خارج البلاد
+      wishes_reunification:
+        display_name: هل يرغب الطفل في جمع شمل الأسرة؟
+        option_strings_text:
+          yes_as_soon_as_possible: نعم، وبأسرع ما يُمكن
+          yes_but_later: نعم، ولكن لاحقا
+          not_sure: غير متأكد
+          'no': 'لا'
+      wishes_reason_no_reunification:
+        display_name: إذا كانت الإجابة لا، أو غير متأكد، أو نعم ولكن لاحقا، أذكر السبب
+      wishes_contacted:
+        display_name: هل سمع الطفل من/هل كان على اتصال بأي أحد من أقربائه؟
+      wishes_contacted_details:
+        display_name: ارجو تقديم تفاصيل
+        help_text: العنوان و/أو المعالم التي تُساعد عملية التتبع
+      child_preferences_section:
+        display_name: رغبات الطفل
+      wishes_care_arrangement_desired:
+        display_name: هل يرغب الطفل في مواصلة ترتيبات الرعاية الحالية؟
+      wishes_reason_no_care_arrangement:
+        display_name: إذا كان الطفل لا يرغب في البقاء في ترتيبات الرعاية الحالية، أذكر السبب
+      wishes_care_arrangement_type_desired:
+        display_name: ترتيبات الرعاية التي يفضلها الطفل
+        option_strings_text:
+          independent_living: معيشة مستقلة
+          alternative_interim_care: رعاية بديلة مؤقتة
+          with_husband_wife_partner: مع الزوج/الزوجة/الشريك
+          other_family: أسرة أخرى
+          dont_know: لا أدري
+          other: أخرى
+      wishes_care_arrangement_type_other:
+        display_name: إذا كانت ترتيبات الرعاية التي يرغب فيها الطفل أخرى، حدد
+      wishes_location_plan_live:
+        display_name: أين يرغب/ينوي الطفل العيش؟
+      wishes_address_plan_live:
+        display_name: الشارع الذي يرغب/ينوي الطفل العيش فيه
+      wishes_landmarks_plan_live:
+        display_name: معالم المكان الي يرغب/ينوي الطفل العيش فيه

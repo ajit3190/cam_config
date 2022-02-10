@@ -1,0 +1,49 @@
+---
+fr:
+  incident_service_referrals:
+    name: Référencement à des services
+    description: Référencement à des services
+    fields:
+      service_referred_from_other:
+        display_name: "Si vous avez choisi Autre, veuillez préciser"
+      safe_house_safe_shelter_referral:
+        display_name: Référencement vers un lieu sûr / Refuge
+      service_safehouse_referral:
+        display_name: "Avez-vous référé la cliente à une maison sûre / refuge?"
+      legal_assistance_services_subform_section:
+        display_name: Services d'assistance juridique
+      police_or_other_type_of_security_services_subform_section:
+        display_name: Police ou autre type de services de sécurité
+      livelihoods_services_subform_section:
+        display_name: Services de moyens de subsistance
+      child_protection_services_subform_section:
+        display_name: Services de Protection de l'Enfance
+      service_referred_from:
+        display_name: "Qui vous a adressé le cas?"
+        option_strings_text:
+          health_medical_service: Service médical/de santé
+          psychosocial_service: Services de soutien psychologique/psychosocial
+          police_other_service: Police/Autre agent de la sécurité
+          legal_assistance_service: Services d'assistance juridique
+          livelihoods_service: Programme d’appui aux moyens de subsistance
+          self_referral: Présentation spontanée/Premier point de contact
+          teacher_school_official: Enseignant / Responsable scolaire
+          community_or_camp_leader: Leader du camp ou de la communauté
+          safehouse_service: Lieu sûr/Refuge
+          other_humanitarian_or_development_actor: Autre acteur de l'aide humanitaire ou de l'aide au développement
+          other_government_service: Autre service gouvernemental
+          other: Autre
+      service_safehouse_appointment_date:
+        display_name: Date du rendez-vous
+      service_safehouse_appointment_time:
+        display_name: Heure du rendez-vous
+      service_safehouse_provider:
+        display_name: Prestataire de service
+      service_safehouse_location:
+        display_name: Lieu de la prestation de service
+      service_safehouse_referral_notes:
+        display_name: Commentaires
+      health_medical_referral_subform_section:
+        display_name: Référencement service médical/de santé
+      psychosocial_counseling_services_subform_section:
+        display_name: Services de suivi psychologique/de soutien psychosocial

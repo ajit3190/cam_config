@@ -1,0 +1,72 @@
+ar-SD:
+  services_section:
+    name: الخدمات
+    description: الاستمارة الفرعية للخدمات
+    fields:
+      service_response_type:
+        display_name: نوع الاستجابة
+      service_type:
+        display_name: نوع الخدمة
+        guiding_questions: |-
+          1.  الرعاية النفسية-الاجتماعية الأساسية - مساحات آمنة (بما في ذلك مساحات صديقة للطفل وللرضيع)، مجموعات الأقران، أندية السباب، التدريب على المهارات الحياتية، ومجموعات دعم مقدمي الرعاية.
+          2.  الصحة العقلية والدعم النفسي-الاجتماعي المكثف غير المتخصص -  الصحة العقلية والدعم النفسي-الاجتماعي من خلال إدارة حالات حماية الطفولة، افسعافاه الأولية النفسية، اتلدخلات النفسية الفردية والجماعية المستندة على البينات/المرشدة المقدمة من غير المتخصصين بما في ذلك الأخصائيين الاجتماعيين، والمسؤولين عن الحالة، والمتطوعين المجتمعيين، والكوادر الصحية وغيرهم.
+          3. الرعاية المتخصصة للصحة العقلية والدعم النفسي-الاجتماعي - الرعاية السيكولوجية والنفسية أو رعاية الصحة العقلية الفردية المقدمة بواسطة مهنيي الصحة العقلية. الصحة العقلية
+      service_type_other:
+        display_name: إذا أخرى، رجاء التحديد
+      service_response_timeframe:
+        display_name: الفترة الزمنية للتنفيذ
+        help_text: ادخل الفترة الزمنية للتنفيذ للخدمات؛ ويُستخدم ذلك في الملامح للإشارة إلى أن الخدمات قد تأخرت.
+        option_strings_text:
+          1_hour: ساعة واحدة
+          3_hours: ثلاث ساعات
+          1_day: يوم واحد
+          3_days: ثلاثة أيام
+      service_referral:
+        display_name: نوع الإحالة
+      service_response_day_time:
+        display_name: تاريخ الإحالة
+      service_appointment_date:
+        display_name: تاريخ بداية الخدمة
+      service_appointment_time:
+        display_name: موعد المقابلة
+      service_implementing_agency:
+        display_name: الوكالة المنفذة
+      service_delivery_location:
+        display_name: مكان تقديم الخدمات
+      service_implementing_agency_individual:
+        display_name: اسم مقدم الخدمة
+      service_status_referred:
+        display_name: إحالة؟
+        tick_box_label: 'نعم'
+      service_external_referral:
+        display_name: هل هذه إحالة لنظام/مستخدم خارجي؟
+        tick_box_label: 'نعم'
+      service_external_referral_header:
+        display_name: تفاصيل الإحالة الخارجية
+      service_provider:
+        display_name: مقدم الخدمة
+      service_implementing_agency_external:
+        display_name: الوكالة المنفذة
+      service_location:
+        display_name: مكان الخدمات
+      service_referral_notes:
+        display_name: ملاحظات
+      service_implemented:
+        display_name: الخدمة المنفذة
+      service_implemented_day_time:
+        display_name: الخدمة التي اكتملت
+      details_service_provided:
+        display_name: تفاصيل/ملاحظات الخدمة المقدمة
+      recommendations_followup:
+        display_name: توصيات المتابعة
+      accountability_separator:
+        display_name: الخضوع للمساءلة
+        help_text: يسأل المسؤول عن الحالة الطفل عن رأيه في الخدمة المقدمة (بطريقة مراعية لسنه، مثلا، بالإشارة إلى وجوه صاحكة)
+      focal_agency_location:
+        display_name: مدي رضا الطفل عن الخدمة المقدمة
+      suggestions_improvement:
+        display_name: مقترحات الطفل للتحسين
+      caregivers_satisfaction:
+        display_name: مدى رضا مقدم الرعاية عن الخدمة المقدمة
+      caregivers_suggestions:
+        display_name: مقترحات مقدم الرعاية للتحسين

@@ -1,0 +1,8 @@
+---
+ar:
+  pss_scales_form:
+    name: الرفاهية النفسية والاجتماعية
+    description: الرفاهية النفسية والاجتماعية
+    fields:
+      pss_section:
+        display_name: نموذج فرعي للخدمات النفسية والإجتماعية

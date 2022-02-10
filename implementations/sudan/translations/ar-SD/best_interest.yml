@@ -1,0 +1,36 @@
+ar-SD:
+  best_interest:
+    name: المصلحة الفضلى
+    description: المصلحة الفضلى
+    fields:
+      best_interest_report_submitted:
+        display_name: هل تم تسليم التقرير للجهة التي تُحدد المصلحة الفضلى للطفل؟
+        option_strings_text:
+          submitted: تم التسليم
+          pending: قيد النظر
+          'no': 'لا'
+      best_interest_date_submitted:
+        display_name: تاريخ التسليم
+      best_interest_recommendation:
+        display_name: توصية
+        option_strings_text:
+          local_integration: الإدماج المحلي
+          maintain_change_current_arrangements: الحفاظ على/تغيير الترتيبات الحالية
+          medical: طبّي
+          repatriation: الإعادة للوطن
+          resettlement_to_3rd_country: 'إعادة التوطين في بلد ثالث '
+          reunification: جمع الشمل
+      best_interest_recommendation_date:
+        display_name: تاريخ التوصية
+      best_interest_proposed_support:
+        display_name: الدعم المقترح
+      best_interest_agency_responsible:
+        display_name: الوكالة المسؤولة
+      best_interest_proposed_support_accepted:
+        display_name: هل يقبل الطفل الدعم المقترح؟
+      best_interest_why_support_refused:
+        display_name: وفي حالة الرفض، ما هو السبب؟
+      best_interest_date_implementation:
+        display_name: تاريخ التنفيذ
+      best_interest_implementing_agency:
+        display_name: الوكالة المُنفّذة

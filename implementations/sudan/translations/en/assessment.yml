@@ -1,0 +1,184 @@
+---
+en:
+  assessment:
+    name: Assessment
+    description: Assessment form
+    fields:
+      bia_approved:
+        display_name: Approved by Manager
+        tick_box_label: 'Yes'
+      bia_approved_date:
+        display_name: Date
+      bia_approved_comments:
+        display_name: Manager Comments
+      approval_status_bia:
+        display_name: Approval Status
+      assessment_header:
+        display_name: ASSESSMENT FORM
+      assessment_requested_by:
+        display_name: Assessment requested by
+      assessment_requested_on:
+        display_name: Assessment start date
+        help_text: This field is used for the Workflow status.
+      assessment_completed_on:
+        display_name: Assessment completed on
+      case_plan_due_date:
+        display_name: Date Case Plan Due
+        guiding_questions: |-
+          Depending on risk level of the case.
+          High: within 3 days after the assessment.
+          Medium: within 1 week after the assessment.
+          Low: within 2 weeks after the assessment.
+      assessment_home_visit:
+        display_name: Was a home visit conducted as part of the assessment?
+      if_yes__provide_details_696e8fb:
+        display_name: If yes, provide details
+        help_text: By whom, and include summary of observations or additional protection
+          concerns
+        guiding_questions: ''
+      assessment_home_visit_details:
+        display_name: If no, please provide details
+        help_text: ''
+        guiding_questions: ''
+      assessment_child_seen:
+        display_name: Was the child seen individually / alone?
+      assessment_child_seen_details:
+        display_name: If no, please provide details
+        help_text: ''
+        guiding_questions: ''
+      assessment_separator:
+        display_name: Views and Wishes of the child and caregiver(s)
+      assessment_child_views:
+        display_name: Child's Views
+        help_text: Describe the views and wishes of the child in regard to her/his
+          situation. This section can be expanded to include the child’s own words,
+          testimony and/or drawing (e.g. of their situation, family and/or journey).
+      assessment_caregiver_views:
+        display_name: Caregiver(s) Views
+        help_text: Describe the views and wishes of the caregiver(s) in regard to
+          the child’s situation.
+      assessment_needs_separator:
+        display_name: Assessment of Needs
+        guiding_questions: |-
+          Describe when and where you got your information from – information can come from a variety of sources (e.g. written reports on the child, observations, interviews with the child and family, creative activities like drawing or storytelling conducted with the child, questionnaires and checklists, discussions with other agencies and those who know the child, home visits).
+          Quote information from first hand sources.
+          Describe whether the information is backed up and verified by anything else.
+          Where relevant, describe both the history and current situation.
+          Describe how many times you witnessed a situation or how many people reported the concern.
+          Provide reasons for your analysis of a situation.
+          It can be more helpful for you to identify needs rather than services required. E.g. you could say a child is in need of education rather than saying the child needs to go to school, as there are many different ways of providing a child with an education.
+      assessment_physical_wellbeing:
+        display_name: Physical wellbeing and health
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. Is the child’s physical development as expected according to their age?
+          Does the child have any health conditions (signs of respiratory conditions such as coughing, running nose; unclean teeth; strong odour from mouth, person)?
+          Does the child have any injuries? Does the child have any mental, physical or sensory impairments/disabilities?
+          Is the child pregnant? Is the child fatigued/exhausted? Is the child’s clothing unclean or in poor condition compared to other children in the community)?
+      assessment_emotional_wellbeing:
+        display_name: Emotional wellbeing, knowledge, and skills
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. How does the child generally feel? Does the child suffer from depression or low self-esteem? Does the child feel happy? Does the child have any fears and/or nightmares?
+          Is the child anxious? Does the child feel numb or come across as detached? Does the child deal with a lot of anger, guilt or hopelessness?
+          Is the child overly clingy or independent according to their age? Describe how s/he deals with setbacks in life?
+          Does the child have essential knowledge and skills such as identifying and regulating emotions and behaviour, thinking of appropriate solutions to conflict, engaging in cooperative play, correctly interpreting other’s behaviours and emotions, and feeling good about oneself and others?
+      assessment_social_relationships:
+        display_name: Social relationships with peers, family and community
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. Does the child participate in social activities? Is the child socially withdrawn?
+          Describe the quality and frequency of contact of the child with peers, family and other adults in the child’s life (does the child avoid contact with any of them; do any of them distance themselves from the child, and if so what are the reasons; do the members of the family avoid interaction with the child in certain settings (e.g. in public)?
+          What tone of voice do they adopt when interacting with the child? Describe how this impacts the child’s wellbeing.
+      assessment_education:
+        display_name: Education, work, free-time and interests
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. What education did the child obtain? Is the child enrolled into and does the child regularly attend any education programmes?
+          Describe the school environment. Are there any options and opportunities for the child in terms of education?
+          What does the child do in their free-time? Describe the child’s interests? Is the child involved in any activities that may be regarded as contravening the law?
+          Does the child work? Describe the type of work, frequency of work, and how this impacts the child’s wellbeing. If the child is working, how is the money earned used/what does the child spend the money on?
+      assessment_documentation:
+        display_name: Documentation
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. Does the child have birth registration documentation? Does the child have any other registration/identification documents?
+          Is the child missing any documentation needed for their protection and/or to access services now or in the future? Describe how this impacts the child’s wellbeing.
+      assessment_living_environment_family_separator:
+        display_name: Living Environment and Family
+      assessment_living_environment_family:
+        display_name: Living environment and Family
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. What is the current living arrangement (type of shelter; privacy)? Describe the relationship between child and the rest of the family.
+          Describe the capacity and ability of the adults in the family to protect the child and respond to her/his needs.
+          Describe the livelihoods situation of the family/household? Who else is the child living with and what are the dynamics within the living environment?
+          Who sleeps in the same room as the child? How many meals does the child/household eat per day? Is this different from other households in the child’s community?
+          Describe the child’s role and whether the child is treated differently to other children in the living environment? Describe the living conditions.
+          Does the child have safe access to drinking water, shower and toilet facilities? Does the child feel safe where s/he lives?
+          Describe how this impacts the child’s wellbeing. Describe the distance to and the options for accessing services.
+      assessment_care_arrangement_separator:
+        display_name: Care Arrangement
+      assessment_care_arrangment:
+        display_name: Care arrangement
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. What is the current care arrangement and how stable/permanent is the arrangement? Is the care arrangement appropriate given age and situation?
+          How was the care arranged (arranged by the child’s parents prior to leaving the country of origin; spontaneously in the country of origin; spontaneously in the present country; arranged by an organisation; arranged by the community);
+          Describe the relationship between child and caregiver. Is the caregiver/family caring for other UASC? Is the caregiver related to the child (if so, what is the relationship?;
+          Is the caregiver in contact with the child’s parents? What are the wishes of the parents (if known); What are the wishes of the child?
+      assessment_community_separator:
+        display_name: Community
+      assessment_community:
+        display_name: Community, safety and security, integration and support
+        help_text: 'Risk factors, protective factors, and needs identified:'
+        guiding_questions: |-
+          E.g. Describe any concerns about the safety and security of the child (e.g. community violence, harmful traditional practices, situation in the workplace, community perceptions about violence/abuse; risk of recruitment by armed forces or groups)?
+          Does the child have freedom of movement (is the situation different from the rest of the community, and children in general)?
+          Describe how this impacts the child’s wellbeing.
+          Is the child or family accepted in the community/isolated? Does the child or family feel discriminated against in accessing services?
+          Has the child and their family feel targeted by any group? Does the child or family face requests for inappropriate services in return for support?
+          Does the child or family been given formal recognition to remain in the current location? Is the child excluded from activities or groups in the community?
+          Does the child experience any discrimination, prejudice, or bullying in the community?
+          Describe the availability of and access to assistance/services within the community (including community protective mechanisms).
+      assessment_summary_separator:
+        display_name: Summary and Conclusions
+      assessment_summary:
+        display_name: Summary
+        help_text: Summarize key risk factors, protective factors, and needs based
+          on the assessment sections above and take into account the views/wishes
+          of the child (and family).
+      protection_concerns:
+        display_name: Protection Concerns
+        help_text: Shared field with Protection Concerns form.
+      risk_level:
+        display_name: Risk Level
+        help_text: This field is also on the Protection Concerns form.  If there is
+          no risk level, case may be closed.
+      assessment_risk_level_reasons:
+        display_name: Additional risks
+        help_text: ''
+        guiding_questions: ''
+      is_a_comprehensive_best_interests_assessment__bia__required__f59922b:
+        display_name: Is a Comprehensive Best Interests Assessment (BIA) required?
+        help_text: ''
+        guiding_questions: ''
+      assessment_bid_requirement:
+        display_name: BID
+      assessment_formal_bid:
+        display_name: Is a formal Best Interests Determination (BID) required?
+        help_text: Determined in-context in coordination with UNHCR.
+      assessment_bid_direction:
+        display_name: If yes, please select the direction of the BID
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Identifying
+            durable solutions and complementary pathways for unaccompanied children
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Determining
+            the most appropriate options for children at risk in exceptional circumstances
+            (including family reunification and temporary care)
+          possible_separation_of_a_child_from_parents_against_their_will: Possible
+            separation of a child from parents against their will
+      assessment_bid_details:
+        display_name: Provide details
+        help_text: Provide details and then continue with the UNHCR Best Interests
+          Determination (BID) form.

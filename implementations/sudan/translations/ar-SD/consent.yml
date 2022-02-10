@@ -1,0 +1,84 @@
+ar-SD:
+  consent:
+    name: الموافقة والقبول
+    description: الموافقة والقبول
+    fields:
+      interview_subject:
+        display_name: استمارة الحصول على الموافقة/القبول
+        option_strings_text:
+          child: الطفل
+          caregiver: مقدم الرعايةr
+          other: آخرين
+      consent_source_other:
+        display_name: إذا آخرين، أرجو التحديد
+      consent_notes:
+        display_name: ملاحظات
+      consent_for_services:
+        display_name: تم منح الموافقة للطفل للمشاركة في عملية إدارة الحالة
+        help_text: إذا لم يتم الحصول على الموافقة، لا تقم بالاختيار
+        tick_box_label: 'نعم'
+      consent_reporting:
+        display_name: تم الحصول على الموافقة بتبادل المعلومات مجهولة المصدر لأغراض الإبلاغ
+        help_text: لأغراض الإبلاغ الإجباري أو لاجراءات قانونية أخرى متسقة مع بروتوكول تبادل المعلومات
+      consent_for_data_collection:
+        display_name: تم الحصول على الموافقة للمسؤول عن الحالة المكلف لجمع وحفظ المعلومات الشخصية عن الحالة (مثلا، الاسم، والصورة الفوتوغرافية، والتفاصيل الأسرية).
+      consent_for_tracing:
+        display_name: تم الحصول على الموافقة لكشف المعلومات لأغراض التتبع
+        help_text: إذا كانت الإجابة بالنفي،  لن يظهر سجل حالة الطفل عند طلبات التطابق لاستفسارات التتبع
+      disclosure_other_orgs:
+        display_name: يوافق الشخص الذي يمنح الموافقة على تبادل المعلومات عن الحالة مع مقدمي الخدمات الآخرين وفق التفاصيل الموضحة أدناه.
+        help_text: يشمل ذلك تبادل المعلومات مع المنظمات الأخرى التي تقدم الخدمات، ولا يشمل ذلك تبادل المعلومات مع مفوضية الأمم المتحدة السامية لشؤون اللاجئين.
+        tick_box_label: 'نعم'
+      information_shared_services:
+        display_name: 'يمكن تبادل المعلومات للخجمات التالية:'
+        option_strings_text:
+          alternative_care: الرعاية البديلة
+          cash_assistance: مساعدات نقدية
+          education_formal: التعليم (النظامي)
+          family_tracing_and_reunification: تتبع وجمع شمل الأسرة
+          food: المواد الغذائية
+          gbv_survivor_support: دعم ضحايا العنف المستند على الجندر
+          legal_support: مساعدات قانونية
+          livelihoods: سبل كسب العيش
+          medical: طبية
+          mental_health: الصحة العقلية
+          non_food_items: المواد غير الغذائية
+          non_formal_education: التعليم غير النظامي
+          nutrition: التغذية
+          psychosocial_support: الدعم النفسي-الاجتماعي
+          services_for_children_with_disabilities: خدمات للأطفال ذوي الإغاقة
+          shelter: المأوى
+          sexual_and_reproductive_health: الصحة الجنسية والإنجابية
+          rescue: النجدة
+          wash: المياه والصرف الصحي والإصحاح
+          case_transfer: تحويل الحالة
+          other: أخرى
+      information_shared_services_other:
+        display_name: إذا أخرى، أرجو التحديد
+      unhcr_export_opt_out:
+        display_name: يوافق الشخص الذي يعطي الموافقة على تبادل المعلومات عن هذه الحالة مع مفوضية الأمم المتحدة السامية لشؤون اللاجئين لأغراض إدارة حالات حماية اللاجئين.
+        tick_box_label: 'نعم'
+      consent_share_separator:
+        display_name: تفاصيل الموافقة على تبادل المعلومات
+      consent_info_sharing:
+        display_name: تم منح الموافقة على تبادل المعلومات التي تم جمعها مع
+        option_strings_text:
+          family: الأسرة
+          authorities: السلطات
+          unhcr: مفوضية الأمم المتحدة السامية لئؤون اللاجئين
+          other_organizations: منظمات أخرى
+          others: أخرى، نرجو التحديد
+      consent_info_sharing_others:
+        display_name: إذا كان من الممكن تبادل المعلومات مع جهات أحرى، نرجو تحديدها
+      withhold_details:
+        display_name: حجب معلومات معينة عن
+      disclosure_deny_details:
+        display_name: ما هي المعلومات المعينة التي يجب حجبها
+      withholding_info_reason:
+        display_name: سبب حجب المعلومات
+        option_strings_text:
+          fear: الخوف من تسبيب الضرر لأنفسهم أو للآخرين
+          communicate_information: يرغبون في إبلاغ المعلومات بأنفسهم
+          others: اخرى
+      withholding_info_other_reason:
+        display_name: إذا أسباب أخرى لحجب المعلومات، نرجو تحديدها

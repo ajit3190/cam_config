@@ -1,0 +1,18 @@
+ar-SD:
+  summary_and_conclusions:
+    name: الملخص والخلاصة
+    description: استمارة الملخص والخلاصة
+    fields:
+      assessment_summary:
+        display_name: الملخص
+        help_text: قم بتلخيص عناصر المخاطر الرئيسية، وعناصر الحماية، والاحتياجات المستندة على أقسام التقييم أعلاه مع الوضع في الاعتيار آراء/رغبات الطفل (والأسرة)
+      protection_concerns:
+        display_name: مشاكل الحماية
+        help_text: كجال مشترك مع استمارة مشاكل الحماية
+      protection_concerns_other:
+        display_name: إذا أخرى، رجاء التحديد
+      risk_level:
+        display_name: مستوى المخاطر
+        help_text: هذا المجال أيضا على استمارة مشاكل الحماية. وإذا لم يكن هناك مستوى للمخاطر، يُمكن إغلاق الحالة
+      assessment_risk_level_reasons:
+        display_name: مخاطر إضافية

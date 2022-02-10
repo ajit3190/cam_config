@@ -1,0 +1,58 @@
+ar-SD:
+  verification_subform_section:
+    name: التحقق
+    description: الاستمارة الفرعية للتحقق
+    fields:
+      verification_name_inquirer:
+        display_name: اسم المحقق
+      verification_inquirer_relationship:
+        display_name: الصلة
+      verification_inquirer_sex:
+        display_name: النوع
+      verification_inquirer_age:
+        display_name: العُمر
+      verification_inquirer_address_current:
+        display_name: العنوان
+      verification_inquirer_location:
+        display_name: المكان الحالي
+      verification_phone_inquirer:
+        display_name: الهاتف
+      verification_inquirer_wants_to_care_for_child:
+        display_name: هل تريد أن يعيش الطفل معك؟
+      verification_inquirer_able_to_care_for_child:
+        display_name: هل تستطيع رعايته/ها/هم؟
+      verification_alternate_caregiver_exists:
+        display_name: إذا كانت الإجابة بالنفي، هل هناك أي أسرة أخرى تستطيع رعاية الطفل؟
+      verification_alternate_caregiver_name:
+        display_name: اسم مقدم الرعاية البديل
+      verification_alternate_caregiver_relationship:
+        display_name: صلة مقدم الرعاية البديل
+      verification_address_alternate_caregiver:
+        display_name: عنوان ذلك الشخص (مقدم الرعاية البديل)
+      verification_location_alternate_caregiver:
+        display_name: قرية/منطقة/عنوان مقدم الرعاية البديل
+      verification_comments:
+        display_name: ملاحظات
+      verification_acceptance_date:
+        display_name: تاريخ الموافقة على رعاية الطفل
+      verification_inquirer_known_to_child:
+        display_name: هل يعرف الطفل الشخص الراشد الذي طلب التحقق؟
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: هل يرغب الطفل في جمع شمله مع ذلك الشخص؟
+      verification_inquirer_information_match:
+        display_name: هل تتسق المعلومات التي قدمها الطفل مع معلومات ذلك الشخصظ
+      verification_inquierer_recommendation:
+        display_name: هل تُوصي بجمع الشمل؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          further_tracing: تتبع إضافي
+          long_term_alternative_care: رعاية بديلة طويلة الأمد
+          reunification: جمع الشمل
+          reunification_enhanced_support: جمع الشمل مع دعم أكبر
+      if_not__what_other_action_do_you_recommend__d3a488c:
+        display_name: إذا لم يكن ذلك ممطكنا، ما هي التدابير الأخرى التي تُوصي بها؟
+      verification_inquierer_recommendation_comments:
+        display_name: تعليقات وملاحظات
+      verification_date:
+        display_name: تاريخ التحقق

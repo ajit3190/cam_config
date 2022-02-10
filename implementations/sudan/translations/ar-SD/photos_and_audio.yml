@@ -1,0 +1,9 @@
+ar-SD:
+  photos_and_audio:
+    name: الصور الفوتوغرافية والمواد السمعية
+    description: جميع ملفات الصور والمواد السمعية المتصلة بسجل الطفل
+    fields:
+      current_photo_key:
+        display_name: مفتاح الصور الحالية
+      recorded_audio:
+        display_name: المواد السمعية المسجلة

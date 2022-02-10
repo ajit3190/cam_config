@@ -1,0 +1,7 @@
+ar-SD:
+  bia_documents:
+    name: سجلات BIA
+    description: سجلات BIA
+    fields:
+      upload_bia_document:
+        display_name: وثيقة BIA

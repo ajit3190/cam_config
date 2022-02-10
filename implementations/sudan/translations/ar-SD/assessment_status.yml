@@ -1,0 +1,26 @@
+ar-SD:
+  assessment_status:
+    name: موقف التقييم
+    description: استمارة موقف التقييم
+    fields:
+      bia_approved:
+        display_name: موافقة المدير
+        tick_box_label: 'نعم'
+      bia_approved_date:
+        display_name: التاريخ
+      bia_approved_comments:
+        display_name: ملاحظات المدير
+      approval_status_bia:
+        display_name: موقف الموافقة
+      assessment_header:
+        display_name: ASSESSMENT FORM
+      assessment_requested_by:
+        display_name: التقييم مطلوب بواسطة
+      assessment_requested_on:
+        display_name: تاريخ بداية التقييم
+        help_text: هذه الخانةمُخصصة لموقف سير العمل
+      assessment_completed_on:
+        display_name: اكتمل التقييم حول
+      case_plan_due_date:
+        display_name: تاريخ موعد خطة الحالة
+        guiding_questions: "اعتمادا على مستوى خطورة الحالة. \nمرتفع: خلال 3 أيام بعد التقييم\nمتوسط: خلال أسبوع 1بعد التقييم\nمنخفض: خلال أسبوعين 2 بعد التقييم"

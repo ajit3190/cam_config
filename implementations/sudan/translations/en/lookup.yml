@@ -1,0 +1,866 @@
+---
+en:
+  lookup-displacement-status:
+    name: Displacement Status
+    lookup_values:
+      asylum_seeker: Asylum Seeker
+      refugee: Refugee
+      idp: Internally Displaced Person (IDP)
+      migrant: Migrant
+      host:community: Host Community
+      returnee: Returnee
+      stateless_person: Stateless Person
+      resident: National Resident (Not Displaced)
+      foreign_national: Foreign National Resident
+      other: Nomadic Children
+  lookup-location-type:
+    name: Location Type
+    lookup_values:
+      country: Country
+      region: Region
+      province: Province
+      district: District
+      governorate: Governorate
+      chiefdom: Chiefdom
+      state: State
+      city: City
+      county: County
+      camp: Camp
+      site: Site
+      village: Village
+      zone: Zone
+      sub_district: Sub District
+      locality: Locality
+      prefecture: Prefecture
+      sub-prefecture: Sub-Prefecture
+      commune: Commune
+      payam: Payam
+      parish: Parish
+      municipality: Municipality
+      other: Other
+  lookup-reporting-location-type:
+    name: Reporting Location Type
+    lookup_values:
+      province: Province
+      district: District
+  lookup-country:
+    name: Country
+    lookup_values:
+      afghanistan: Afghanistan
+      albania: Albania
+      algeria: Algeria
+      andorra: Andorra
+      angola: Angola
+      antigua_and_barbuda: Antigua and Barbuda
+      argentina: Argentina
+      armenia: Armenia
+      australia: Australia
+      austria: Austria
+      azerbaijan: Azerbaijan
+      bahamas: Bahamas
+      bahrain: Bahrain
+      bangladesh: Bangladesh
+      barbados: Barbados
+      belarus: Belarus
+      belgium: Belgium
+      belize: Belize
+      benin: Benin
+      bhutan: Bhutan
+      bolivia: Bolivia
+      bosnia_and_herzegovina: Bosnia and Herzegovina
+      botswana: Botswana
+      brazil: Brazil
+      brunei: Brunei
+      bulgaria: Bulgaria
+      burkina_faso: Burkina Faso
+      burundi: Burundi
+      cabo_verde: Cabo Verde
+      cambodia: Cambodia
+      cameroon: Cameroon
+      canada: Canada
+      central_african_republic: Central African Republic
+      chad: Chad
+      chile: Chile
+      china: China
+      colombia: Colombia
+      comoros: Comoros
+      congo: Congo, Republic of the
+      drc: Congo, Democratic Republic of the
+      costa_rica: Costa Rica
+      cote_divoire: Cote d'Ivoire
+      croatia: Croatia
+      cuba: Cuba
+      cyprus: Cyprus
+      czech_republic: Czech Republic
+      denmark: Denmark
+      djibouti: Djibouti
+      dominica: Dominica
+      dominican_republic: Dominican Republic
+      ecuador: Ecuador
+      egypt: Egypt
+      el_salvador: El Salvador
+      equatorial_guinea: Equatorial Guinea
+      eritrea: Eritrea
+      estonia: Estonia
+      ethiopia: Ethiopia
+      fiji: Fiji
+      finland: Finland
+      france: France
+      gabon: Gabon
+      gambia: Gambia
+      georgia: Georgia
+      germany: Germany
+      ghana: Ghana
+      greece: Greece
+      grenada: Grenada
+      guatemala: Guatemala
+      guinea: Guinea
+      guinea_bissau: Guinea-Bissau
+      guyana: Guyana
+      haiti: Haiti
+      honduras: Honduras
+      hungary: Hungary
+      iceland: Iceland
+      india: India
+      indonesia: Indonesia
+      iran: Iran
+      iraq: Iraq
+      ireland: Ireland
+      israel: Israel
+      italy: Italy
+      jamaica: Jamaica
+      japan: Japan
+      jordan: Jordan
+      kazakhstan: Kazakhstan
+      kenya: Kenya
+      kiribati: Kiribati
+      kosovo: Kosovo
+      kuwait: Kuwait
+      kyrgyzstan: Kyrgyzstan
+      laos: Laos
+      latvia: Latvia
+      lebanon: Lebanon
+      lesotho: Lesotho
+      liberia: Liberia
+      libya: Libya
+      liechtenstein: Liechtenstein
+      lithuania: Lithuania
+      luxembourg: Luxembourg
+      macedonia: Macedonia
+      madagascar: Madagascar
+      malawi: Malawi
+      malaysia: Malaysia
+      maldives: Maldives
+      mali: Mali
+      malta: Malta
+      marshall_islands: Marshall Islands
+      mauritania: Mauritania
+      mauritius: Mauritius
+      mexico: Mexico
+      micronesia: Micronesia
+      moldova: Moldova
+      monaco: Monaco
+      mongolia: Mongolia
+      montenegro: Montenegro
+      morocco: Morocco
+      mozambique: Mozambique
+      myanmar: Myanmar
+      namibia: Namibia
+      nauru: Nauru
+      nepal: Nepal
+      netherlands: Netherlands
+      new_zealand: New Zealand
+      nicaragua: Nicaragua
+      niger: Niger
+      nigeria: Nigeria
+      north_korea: North Korea
+      norway: Norway
+      oman: Oman
+      pakistan: Pakistan
+      palau: Palau
+      palestine: Palestine
+      panama: Panama
+      papua_new_guinea: Papua New Guinea
+      paraguay: Paraguay
+      peru: Peru
+      philippines: Philippines
+      poland: Poland
+      portugal: Portugal
+      qatar: Qatar
+      romania: Romania
+      russia: Russia
+      rwanda: Rwanda
+      st_kitts_and_nevis: St. Kitts and Nevis
+      st_lucia: St. Lucia
+      st_vincent_and_the_grenadines: St. Vincent and The Grenadines
+      samoa: Samoa
+      san_marino: San Marino
+      sao_tome_and_principe: Sao Tome and Principe
+      saudi_arabia: Saudi Arabia
+      senegal: Senegal
+      serbia: Serbia
+      seychelles: Seychelles
+      sierra_leone: Sierra Leone
+      singapore: Singapore
+      slovakia: Slovakia
+      slovenia: Slovenia
+      solomon_islands: Solomon Islands
+      somalia: Somalia
+      south_africa: South Africa
+      south_korea: South Korea
+      south_sudan: South Sudan
+      spain: Spain
+      sri_lanka: Sri Lanka
+      sudan: Sudan
+      suriname: Suriname
+      swaziland: Swaziland
+      sweden: Sweden
+      switzerland: Switzerland
+      syria: Syria
+      taiwan: Taiwan
+      tajikistan: Tajikistan
+      tanzania: Tanzania
+      thailand: Thailand
+      timor_leste: Timor-Leste
+      togo: Togo
+      tonga: Tonga
+      trinidad_and_tobago: Trinidad and Tobago
+      tunisia: Tunisia
+      turkey: Turkey
+      turkmenistan: Turkmenistan
+      tuvalu: Tuvalu
+      uganda: Uganda
+      ukraine: Ukraine
+      united_arab_emirates: United Arab Emirates
+      uk: UK (United Kingdom)
+      usa: USA (United States of America)
+      uruguay: Uruguay
+      uzbekistan: Uzbekistan
+      vanuatu: Vanuatu
+      vatican: Vatican City (Holy See)
+      venezuela: Venezuela
+      vietnam: Vietnam
+      yemen: Yemen
+      zambia: Zambia
+      zimbabwe: Zimbabwe
+  lookup-case-status:
+    name: Case Status
+    lookup_values:
+      open: Open
+      closed: Closed
+      transferred: Transferred
+      duplicate: Duplicate
+  lookup-conference-case-status:
+    name: Conference Case Status
+    lookup_values:
+      open: The case will remain open
+      closed: The case will be closed
+      transferred: The case will be transferred
+      other: Other
+  lookup-incident-status:
+    name: Incident Status
+    lookup_values:
+      open: Open
+      closed: Closed
+      duplicate: Duplicate
+  lookup-unaccompanied-separated-status:
+    name: Unaccompanied Separated Status
+    lookup_values:
+      'no': 'No'
+      unaccompanied_minor: Unaccompanied Minor
+      separated_child: Separated Child
+      other_vulnerable_child: Orphan or Vulnerable Child
+  lookup-protection-status:
+    name: Protection Status
+    lookup_values:
+      unaccompanied: Unaccompanied
+      separated: Separated
+  lookup-ethnicity:
+    name: Ethnicity
+    lookup_values:
+      ethnicity1: Arabic
+      ethnicity2: Beja
+      ethnicity3: Other
+      ethnicity4: Ethnicity4
+      ethnicity5: Ethnicity5
+      ethnicity6: Ethnicity6
+      ethnicity7: Ethnicity7
+      ethnicity8: Ethnicity8
+      ethnicity9: Ethnicity9
+      ethnicity10: Ethnicity10
+  lookup-religion:
+    name: Religion
+    lookup_values:
+      religion1: Muslim
+      religion2: Christian
+      religion3: Indigenous
+      religion4: Other
+      religion5: Religion5
+      religion6: Religion6
+      religion7: Religion7
+      religion8: Religion8
+      religion9: Religion9
+      religion10: Religion10
+  lookup-language:
+    name: Language
+    lookup_values:
+      language1: Arabic
+      language2: Nubian
+      language3: Ta Bedawie
+      language4: English
+      language5: Tribal
+      language6: English
+      language7: Other
+      language8: Language8
+      language9: Language9
+      language10: Language10
+  lookup-nationality:
+    name: Nationality
+    lookup_values:
+      nationality1: 'Sudanese '
+      nationality2: Other
+      nationality3: Nationality3
+      nationality4: Nationality4
+      nationality5: Nationality5
+      nationality6: Nationality6
+      nationality7: Nationality7
+      nationality8: Nationality8
+      nationality9: Nationality9
+      nationality10: Nationality10
+  lookup-verification-status:
+    name: Verification Status
+    lookup_values:
+      verified: Verified
+      unverified: Unverified
+      pending_verification: Pending Verification
+      falsely_attributed: Falsely Attributed
+      rejected: Rejected
+  lookup-risk-level:
+    name: risk_level
+    lookup_values:
+      high: High
+      medium: Medium
+      low: Low
+  lookup-gbv-sexual-violence-type:
+    name: Gbv Sexual Violence Type
+    lookup_values:
+      rape: Rape
+      sexual_assault: Sexual Assault
+      physical_assault: Physical Assault
+      forced_marriage: Forced Marriage
+      denial_of_resources_opportunities_or_services: Denial of Resources, Opportunities
+        or Services
+      psychological_emotional_abuse: Psychological / Emotional Abuse
+      non-gbv: Non-GBV
+  lookup-cp-violence-type:
+    name: CP Violence Type
+    lookup_values:
+      rape: Rape
+      sexual_assault: Sexual Assault
+      physical_assault: Physical Assault
+      forced_marriage: Forced Marriage
+      denial_of_resources_opportunities_or_services: Denial of Resources, Opportunities
+        or Services
+      psychological_emotional_abuse: Psychological / Emotional Abuse
+      non-gbv: Non-GBV
+  lookup-armed-force-group-type:
+    name: Armed Force Group Type
+    lookup_values:
+      national_army: National Army
+      security_forces: Security Forces
+      international_forces: International Forces
+      police_forces: Police Forces
+      para-military_forces: Para-Military Forces
+      unknown: Unknown
+      other: Other
+  lookup-armed-force-group-name:
+    name: Armed Force Group Name
+    lookup_values:
+      armed_force_or_group_1: Armed Force or Group 1
+      armed_force_or_group_2: Armed Force or Group 2
+      armed_force_or_group_3: Armed Force or Group 3
+      other_please_specify: Other, please specify
+  lookup-separation-cause:
+    name: Separation Cause
+    lookup_values:
+      abandoned: Abandoned
+      family_abuse_violence_neglect_exploitation: Family abuse/violence/neglect/exploitation
+      death_sickness_of_family_member: Death/sickness of family member
+      separation_because_of_fleeing_violence_war: Separation because of fleeing violence/war
+      separation_because_of_fleeing_natural_disaster: Separation because of fleeing
+        natural disaster
+      separation_because_of_fleeing_persecution: Separation because of fleeing persecution
+      search_for_employment: Search for employment
+      search_for_educational_opportunities: Search for educational opportunities
+      search_for_services_support: Search for services/support
+      migration: Migration
+      organized_population_movement_e_g_evacuation: Organized population movement
+        (e.g. evacuation)
+      entrusted_into_the_care_of_individual_institution: Entrusted into the care of
+        individual/institution
+      repatriation: Repatriation
+      poverty: Poverty
+      recruitment_into_armed_forces_or_armed_groups: Recruitment into armed forces
+        or armed groups
+      abducted_trafficked: Abducted/trafficked
+      arrest_detention: Arrest/detention
+      other_please_specify: Other, please specify
+  lookup-service-type:
+    name: Service Type
+    lookup_values:
+      alternative_care: Alternative care
+      security_e_g_safe_shelter: Security (e.g. safe shelter)
+      education_formal: Education (formal)
+      non_formal_education: Non-formal education
+      family_tracing_and_reunification: Family tracing and reunification
+      basic_psychosocial_support: Basic psychosocial care
+      focuses_non_specialized_mhpss_care: Focused non-specialized MHPSS
+      specialized_mhpss_services: Specialized MHPSS care
+      food: Food
+      non_food_items: Non-food items
+      cash_assistance: Cash assistance
+      livelihoods: Livelihoods
+      medical: Medical
+      nutrition: Nutrition
+      legal_support: Legal support
+      documentation: Documentation
+      services_for_children_with_disabilities: Services for children with disabilities
+      sexual_and_reproductive_health: Sexual and reproductive health
+      shelter: Shelter
+      wash: WASH
+      durable_solution_in_coordination_with_unhcr: Durable solution (in coordination
+        with UNHCR)
+      relocation: Relocation
+      other_please_specify: Other
+  lookup-followup-type:
+    name: Followup Type
+    lookup_values:
+      after_reunification: Follow up After Reunification
+      in_care: Follow up in Care
+      for_service: Follow up for Service
+      for_assesment: Follow up for Assessment
+  lookup-protection-concerns:
+    name: Protection Concerns
+    lookup_values:
+      physical_abuse_violence: Physical abuse / violence
+      sexual_abuse_violence: Sexual abuse / violence
+      rape: Rape
+      emotional_or_psychological: Emotional or psychological abuse / violence
+      neglect: Neglect
+      abandonment: Abandonment
+      child_labour: Child labour (not worst forms)
+      hazardous_work: Hazardous work
+      sexual_exploitation: Sexual exploitation
+      slavery_sale_abduction: Slavery / sale / abduction / trafficking / forced labor
+      in_conflict_with_the_law: In conflict with the law
+      associated_with_armed: Associated with armed forces or groups
+      deprived_of_liberty: Deprived of liberty / in detention
+      serious_medical_condition: Serious medical condition
+      functional_difficulty_seeing: Functional difficulty (seeing, even if wearing
+        glasses)
+      functional_difficulty_hearing: Functional difficulty (hearing, even if using
+        hearing aids)
+      functional_difficulty_walking: Functional difficulty (walking or using parts
+        of her/his body)
+      functional_difficulty_remembering: Functional difficulty (remembering or concentrating)
+      difficulty_with_self_care: Difficulty with self-care such as feeding or dressing
+        her/himself (compared to other children of the same age)
+      difficulty_communicating: Difficulty communicating
+      unaccompanied: Unaccompanied
+      separated: Separated
+      orphan: Orphan
+      psychosocial_distress: Psychosocial distress
+      mental_disorder: Mental disorder
+      substance_abuse: Substance abuse and addiction (child)
+      belongs_to_marginalised: Belongs to marginalised / discriminated group
+      lack_of_documentation_birth_registration: Lack of documentation / birth registration
+      child_marriage: Child marriage
+      female_genital_mutilation_fgm: Female genital mutilation (FGM)
+      pregnancy_child_parent: Pregnancy / child parent
+      denial_of_resources_opportunities_or_services: Denial of resources, opportunities
+        or services
+      highly_vulnerable_care: Highly vulnerable care arrangement
+      child_survivor_of_explosive: Child survivor of Explosive Ordnance (EO)
+      other: Other
+  lookup-unhcr-needs-codes:
+    name: UNHCR Needs Codes
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR-TP
+      cr-lw: CR-LW
+      cr-lo: CR-LO
+      cr-ne: CR-NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: SC-FC
+      ds-bd: DS-BD
+      ds-df: DS-DF
+      ds-pm: DS-PM
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-FR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HO
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-yes-no:
+    name: Yes or No
+    lookup_values:
+      'true': 'Yes'
+      'false': 'No'
+  lookup-yes-no-unknown:
+    name: Yes, No, or Unknown
+    lookup_values:
+      'true': 'Yes'
+      'false': 'No'
+      unknown: Unknown
+  lookup-yes-no-undecided:
+    name: Yes, No, or Undecided
+    lookup_values:
+      'true': 'Yes'
+      'false': 'No'
+      undecided: Undecided
+  lookup-yes-no-not-applicable:
+    name: Yes, No, or Not Applicable
+    lookup_values:
+      'true': 'Yes'
+      'false': 'No'
+      not_applicable: Not Applicable
+  lookup-gbv-reported-elsewhere:
+    name: Yes, No, or Unknown
+    lookup_values:
+      'no': 'No'
+      gbvims-org: Yes-GBVIMS Org / Agency
+      non-gbvims-org: Yes-Non GBVIMS Org / Agency
+  lookup-approval-for:
+    name: Approval For
+    lookup_values:
+      bia: Bia
+      case_plan: Case Plan
+      closure: Closure
+  lookup-approval-type:
+    name: Approval Type
+    lookup_values:
+      case_plan: Case Plan
+      action_plan: Action Plan
+      service_provision: Service Provision
+  lookup-gbv-approval-types:
+    name: Approval Type for GBV users
+    lookup_values:
+      case_plan: Case Plan
+      closure: Closure
+  lookup-approval-status:
+    name: Approval Status
+    lookup_values:
+      requested: Requested
+      pending: Pending
+      approved: Approved
+      rejected: Rejected
+  lookup-gender:
+    name: gender
+    lookup_values:
+      male: Male
+      female: Female
+  lookup-inquiry-status:
+    name: Inquiry Status
+    lookup_values:
+      open: Open
+      closed: Closed
+  lookup-service-referred:
+    name: Service Referred
+    lookup_values:
+      internal_referral: Internal Referral
+      external_referral: External Referral
+  lookup-service-referred-gbv:
+    name: Service Referred GBV
+    lookup_values:
+      referred: Referred
+      no_referral_service_provided_by_your_agency: No referral, Service provided by
+        your agency
+      no_referral_services_already_received_from_another_agency: No referral, Services
+        already received from another agency
+      no_referral_service_not_applicable: No referral, Service not applicable
+      no_referral_declined_by_survivor: No referral, Declined by survivor
+      no_referral_service_unavailable: No referral, Service unavailable
+  lookup-workflow:
+    name: Workflow
+    lookup_values:
+      new: New case
+      closed: Case closed
+      reopened: Case reopened
+      service_provision: Service provision
+      services_implemented: All response services implemented
+      case_plan: Case Plan
+  lookup-service-implemented:
+    name: Service Implemented
+    lookup_values:
+      not_implemented: Not Implemented
+      implemented: Implemented
+  lookup-service-response-type:
+    name: Service Response Type
+    lookup_values:
+      service_provision: Service provision
+  lookup-marital-status:
+    name: Marital Status
+    lookup_values:
+      single: Single
+      married_cohabitating: Married/Cohabitating
+      divorced_separated: Divorced/Separated
+      widowed: Widowed
+  lookup-marital-status-with-spouse:
+    name: Marital Status
+    lookup_values:
+      single: Single
+      married_cohabitating: Married/Cohabitating
+      divorced_separated: Divorced/Separated
+      widowed: Widowed
+      with_spouse: With Partner/Spouse
+  lookup-marital-status-unknown:
+    name: Marital Status
+    lookup_values:
+      single: Single
+      married_cohabitating: Married/Cohabitating
+      divorced_separated: Divorced/Separated
+      widowed: Widowed
+      unknown_not_applicable: Unknown/Not Applicable
+  lookup-perpetrator-relationship:
+    name: Perpetrator Relationship
+    lookup_values:
+      intimate_partner_former_partner: Intimate Partner / Former Partner
+      primary_caregiver: Primary Caregiver
+      family_other_than_spouse_or_caregiver: Family other than spouse or caregiver
+      supervisor_employer: Supervisor / Employer
+      schoolmate: Schoolmate
+      teacher_school_official: Teacher / School Official
+      service_provider: Service Provider
+      cotenant_housemate: Cotenant / Housemate
+      family_friend_neighbor: Family Friend/Neighbor
+      other_refugee_idp_returnee: Other refugee / IDP / Returnee
+      other_resident_community_member: Other resident community member
+      other: Other
+      no_relation: No relation
+      unknown: Unknown
+  lookup-time-of-day:
+    name: Time of Day
+    lookup_values:
+      morning: Morning
+      noon: Noon
+      evening: Evening
+      night: Night
+  lookup-incident-location:
+    name: Incident Location
+    lookup_values:
+      home: Home
+      street: Street
+      school: School
+      work_place: Work Place
+      other: Other
+  lookup-incident-identification:
+    name: Incident Identification
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: Disclosure / complaint
+        by the abused person or family member
+      discovered_by_service_provider: Discovered by service provider
+      report_by_the_institution_providing_the_service_discovery: Report by the institution
+        providing the service (discovery)
+      other: Other
+  lookup-disability-type:
+    name: Disability Type
+    lookup_values:
+      mental_disability: Mental Disability
+      physical_disability: Physical Disability
+      both: Both
+  lookup-disability-type-with-no:
+    name: Disability Type
+    lookup_values:
+      'no': 'No'
+      mental_disability: Mental Disability
+      physical_disability: Physical Disability
+      both: Both
+  lookup-disability-type-with-mental-physical:
+    name: Disability Type with Mental and Physical Combined
+    lookup_values:
+      'no': 'No'
+      mental_disability: Mental Disability
+      physical_disability: Physical Disability
+      mental_physical_disability: Mental & Physical Disability
+  lookup-transition-type:
+    name: Transition Type
+    lookup_values:
+      referral: Referral
+      reassign: Reassign
+      transfer: Transfer
+      transfer_request: Transfer Request
+  lookup-assessment-duration:
+    name: Assessment Duration
+    lookup_values:
+      less_than_15_minutes: Less than 15 minutes
+      16_30_minutes: 16-30 minutes
+      31_minutes_1_hour: 31 minutes - 1 hour
+      1_2_hours: 1-2 hours
+      more_than_2_hours: More than 2 hours
+  lookup-child-minor-age-group:
+    name: Child / Minor Age Group
+    lookup_values:
+      0_5_year_old: 0-5 year-old
+      6_12_year_old: 6-12 year-old
+      13_17_year_old: 13-17 year-old
+  lookup-age-group-type:
+    name: Age Group Type
+    lookup_values:
+      adult: Adult
+      minor: Minor
+      unknown: Unknown
+  lookup-discovery-method:
+    name: Discovery Method
+    lookup_values:
+      family_or_friend: Family or friend
+      referral: Referral from another organization
+      neighbor: Neighbor or community member
+      community_discussion: Community discussion
+      pamphlet: Flyer or pamphlet you saw or received
+      other: Other
+  lookup-assessment-progress:
+    name: Assessment Progress
+    lookup_values:
+      n_a: N/A
+      in_progress: In progress
+      met: Met
+  lookup-further-action_needed:
+    name: Further Action Needed
+    lookup_values:
+      no_further_action_needed: No Further Action Needed
+      ongoing_monitoring: Ongoing Monitoring
+      urgent_intervention: Urgent Intervention
+  lookup-family-relationship:
+    name: Family Relationship
+    lookup_values:
+      mother: Mother
+      father: Father
+      aunt: Aunt
+      uncle: Uncle
+      grandmother: Grandmother
+      grandfather: Grandfather
+      brother: Brother
+      sister: Sister
+      husband: Husband
+      wife: Wife
+      partner: Partner
+      other_family: Other Family
+      other_nonfamily: Other Nonfamily
+  lookup-tracing-status:
+    name: Tracing Status
+    lookup_values:
+      open: Open
+      tracing_in_progress: Tracing in Progress
+      verified: Verified
+      reunified: Reunified
+      closed: Closed
+  lookup-form-group-cp-case:
+    name: Form Groups - CP Case
+    lookup_values:
+      record_information: Record Information
+      approvals: Approvals
+      case_conference_details: Case Conference Details
+      identification_registration: Identification / Registration
+      data_confidentiality: Data Confidentiality
+      review: Review Section
+      assessment: Assessment
+      family_partner_details: Family / Partner Details
+      case_plan: Case Plan
+      services_follow_up: Services / Follow Up
+      closure: Closure
+      feedback: Feedback
+      tracing: Tracing
+      bia_form: BIA Form
+      photos_audio: Photos and Audio
+      other_documents: Other Documents
+      referrals_transfers: Referrals and Transfers
+      notes: Notes
+  lookup-form-group-cp-tracing-request:
+    name: Form Groups - CP Tracing Request
+    lookup_values:
+      record_owner: Record Owner
+      inquirer: Inquirer
+      tracing_request: Tracing Request
+      photos_audio: Photos and Audio
+      other_reportable_fields: Other Reportable Fields
+  lookup-form-group-cp-incident:
+    name: Form Groups - CP Incident
+    lookup_values:
+      record_owner: Record Owner
+      perpetrator_details: Perpetrator Details
+      cp_incident: CP Incident
+      cp_individual_details: CP Individual Details
+  lookup-form-group-gbv-case:
+    name: Form Groups - GBV Case
+    lookup_values:
+      record_information: Record Information
+      consent_for_services: Consent For Services
+      documents: Documents
+      consent_for_referrals: Consent For Referrals
+      safety_plan: Safety Plan
+      action_plan: Action Plan
+      survivor_assessment: Survivor Assessment
+      case_closure: Case Closure
+      client_feedback: Client Feedback
+      identification_registration: Identification / Registration
+      referrals_transfers: Referrals and Transfers
+      other_reportable_fields: Other Reportable Fields
+  lookup-form-group-gbv-incident:
+    name: Form Groups - GBV Incident
+    lookup_values:
+      gbv_individual_details: GBV Individual Details
+      incident: Incident
+      type_of_violence: Type of Violence
+      record_owner: Record Owner
+      alleged_perpetrator: Alleged Perpetrator
+      service_referral: Service Referral
+      other_reportable_fields: Other Reportable Fields
+  lookup-agency-office:
+    name: Agency Office
+    lookup_values:
+      agency_office_1: Agency Office 1
+      agency_office_2: Agency Office 2
+      agency_office_3: Agency Office 3
+      agency_office_4: Agency Office 4
+      agency_office_5: Agency Office 5
+  lookup-followedup-with:
+    name: Followed up with
+    lookup_values:
+      child: Child
+      caregiver_s_family: Caregiver(s)/family
+      service_provider_own_agency: Service provider (own agency)
+      service_provider_referral: Service provider (referral)
+      other: Other
+  lookup-number-range-one-to-ten:
+    name: Number Range 1 to 10
+    lookup_values:
+      '1': '1'
+      '2': '2'
+      '3': '3'
+      '4': '4'
+      '5': '5'
+      '6': '6'
+      '7': '7'
+      '8': '8'
+      '9': '9'
+      '10': '10'

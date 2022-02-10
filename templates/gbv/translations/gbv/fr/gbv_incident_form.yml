@@ -1,0 +1,67 @@
+---
+fr:
+  gbv_incident_form:
+    name: Incident VBG
+    description: Incident VBG
+    fields:
+      incident_id:
+        display_name: Numéro d'identification complet
+      short_id:
+        display_name: Numéro d'incident
+      marked_for_mobile:
+        display_name: "Marqué pour portable?"
+        tick_box_label: 'Oui'
+      incident_code:
+        display_name: Code de l'incident
+      incidentid_ir:
+        display_name: Numéro d'incident RI
+        help_text: Numéro d'incident pour le RI
+      status:
+        display_name: Statut de l'incident
+      consent_reporting:
+        display_name: "La survivante a-t-elle donné son consentement pour le partage d'information non-identifiables pour le rapportage?"
+      date_of_first_report:
+        display_name: Date de l'entretien
+      incident_date:
+        display_name: Date de l'incident
+      incident_description:
+        display_name: Détails de l'incident
+      incident_location:
+        display_name: Lieu de l'incident
+      displacement_incident:
+        display_name: Phase de déplacement au moment de l'incident
+        option_strings_text:
+          not_displaced: "Non déplacée / communauté d’origine       "
+          pre_displacement: Pré-déplacement
+          during_flight: En cours de fuite
+          during_refuge: En période de refuge
+          during_return_transit: En cours de rapatriement / En transit
+          post_displacement: Post-déplacement
+      incident_timeofday:
+        display_name: Le moment auquel l'incident a eu lieu
+        option_strings_text:
+          morning: Matin (du lever du soleil à midi)
+          afternoon: Après-midi (de midi au coucher du soleil)
+          evening_night: Soirée/Nuit (du coucher du soleil au lever du soleil)
+          unknown: Inconnu/Non applicable
+      incident_location_type:
+        display_name: Genre d'endroit ou l'incident a eu lieu
+        option_strings_text:
+          forest: Brousse/Forêt
+          garden: Jardin/Champs cultivé
+          school: Ecole
+          road: Route
+          clients_home: Domicile de la survivante
+          perpetrators_home: Domicile de l’auteur des violences
+          other: Autre
+          market: Marché
+          streamside: Ruisseau
+          beach: Plage
+          farm: Ferme
+          latrine: Latrines
+          perpetrators_friends_home: Domicile de l’ami de l’auteur des violences
+          entertainment_centre: Centre de loisirs
+          unfinished_house: Immeuble inachevé
+          guest_house_hotel: Maison d'hôte / Hotel
+      incident_camp_town:
+        display_name: Camp/Ville de l'incident

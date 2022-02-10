@@ -1,0 +1,75 @@
+---
+en:
+  services_section:
+    name: Nested Services
+    description: Services Subform
+    fields:
+      service_response_type:
+        display_name: Type of Response
+      service_type:
+        display_name: Type of Service
+        guiding_questions: |-
+          1.  Basic psychosocial care – Safe spaces (including child- and baby-friendly spaces), peer-to-peer groups, youth clubs, life skills training and caregiver support groups.
+          2.  Focused non-specialized MHPSS  – MHPSS through CP case management, Psychological First Aid, one-to-one or group evidence based/informed psychological intervention provided by non-specialists including social workers, case workers, community volunteers, health workers, etc.
+          3.  Specialized MHPSS care – Psychological, psychiatric or other one-to-one mental health care provided by Mental Health professionals.
+      service_type_other:
+        display_name: If other, please specify
+      service_response_timeframe:
+        display_name: Implementation Timeframe
+        help_text: Enter the Implementation Timeframe for the service; the timeframe
+          is used in the dashboard to indicate if services are overdue.
+        option_strings_text:
+          1_hour: One hour
+          3_hours: Three hours
+          1_day: One day
+          3_days: Three days
+      service_referral:
+        display_name: Type of referral
+      service_response_day_time:
+        display_name: Referral Date
+      service_appointment_date:
+        display_name: Service Start Date
+      service_appointment_time:
+        display_name: Appointment Time
+      service_implementing_agency:
+        display_name: Implementing Agency
+      service_delivery_location:
+        display_name: Service delivery location
+      service_implementing_agency_individual:
+        display_name: Service provider name
+      service_status_referred:
+        display_name: Referred?
+        tick_box_label: 'Yes'
+      service_external_referral:
+        display_name: Is this a referral to an external system / user?
+        tick_box_label: 'Yes'
+      service_external_referral_header:
+        display_name: External referral details
+      service_provider:
+        display_name: Service Provider
+      service_implementing_agency_external:
+        display_name: Implementing Agency
+      service_location:
+        display_name: Service Location
+      service_referral_notes:
+        display_name: Notes
+      service_implemented:
+        display_name: Service implemented
+      service_implemented_day_time:
+        display_name: Service completed
+      details_service_provided:
+        display_name: Details of / comments on service provided
+      recommendations_followup:
+        display_name: Recommendations for follow-up
+      accountability_separator:
+        display_name: Accountability
+        help_text: Caseworker to ask child about how they feel about the service provided
+          (in age-appropriate manner, e.g. picking smiley faces)
+      focal_agency_location:
+        display_name: Child's level of satisfaction with service provided
+      suggestions_improvement:
+        display_name: Child's suggestions for improvement
+      caregivers_satisfaction:
+        display_name: Caregiver's level of satisfaction with service provided
+      caregivers_suggestions:
+        display_name: Caregiver's suggestions for improvement

@@ -1,0 +1,7 @@
+ar-SD:
+  approvals:
+    name: الموافقات
+    description: الموافقات
+    fields:
+      approval_subforms:
+        display_name: الموافقة

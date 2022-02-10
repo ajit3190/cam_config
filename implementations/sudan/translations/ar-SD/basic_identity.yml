@@ -1,0 +1,154 @@
+ar-SD:
+  basic_identity:
+    name: تفاصيل الطفل
+    description: بيانات الهوية الأساسية للأطفال المنفصلين وغير المصطحبين
+    fields:
+      case_id:
+        display_name: بيانات الهوية الطويلة
+      short_id:
+        display_name: بيانات الهوية القصيرة
+      case_id_display:
+        display_name: بينات تعريف الحالة
+      cpims_id:
+        display_name: الرمز السابق للحالة
+        help_text: هوية تعريف نظام إدارة معلومات حماية الطفولة (أو أي نظام آخر)
+      marked_for_mobile:
+        display_name: استخدام الهاتف الجوال؟
+        tick_box_label: 'نعم'
+      child_status:
+        display_name: وضع الحالة
+      case_status_reopened:
+        display_name: هل أعيد فتح الحالة؟
+        tick_box_label: 'نعم'
+      case_status_reopened_reasons:
+        display_name: سبب إعادة فتح الحالة
+        option_strings_text:
+          break_down_of_reunification_placement: فشل جمع الشمل
+          death_of_caregiver_s: وفاة مقدم(ي) الرعاية
+          physical_abuse_violence: سوء المعاملة/العنف
+          sexual_abuse_violence: سوء المعاملة/العنف الجنسي
+          emotional_or_psychological_abuse_violence: سوء المعاملة/العنف العاطفي أو النفسي
+          physical_neglect: الإهمال البدني
+          emotional_neglect: الإهمال العاطفي
+          medical_neglect: الإهمال الطبي
+          educational_neglect: الإهمال التعليمي
+          supervisory_neglect: الإهمال الإشرافي
+          abandonment: التخلي
+          child_labour: عمالة الأطفال
+          hazardous_work: الأعمال ذات الحطورة
+          sexual_exploitation: الاستغلال الجنسي
+          slavery_sale_trafficking_forced_labour: العبودية/البيع/الاتجار بالبشر/السخرة
+          in_conflict_with_the_law: الإحتكاك بالقانون
+          associated_with_armed_forces_or_groups: الارتباط بالقوات أو المجموعات المسلحة
+          unaccompanied: غير مصطحب
+          separated: منفصل
+          orphan: يتيم
+          functional_difficulties: صعوبات وظيفية (مثلا، النظر، السمع، المشي، الاتصال، الذاكرة/التركيز، العناية بالذات)
+          psychosocial_distress: الإضطرابات النفسية-الاجتماعية
+          substance_abuse_and_addiction_child: تعاطي وإدمان المخدرات (للطفل)
+          belongs_to_marginalised_discriminated_group: منتمي لمجموعة مهمشة/معرضة للتمييز
+          lack_of_documentation_birth_registration: عدم الوثائق/سجل المواليد
+          child_marriage: زواج الأطفال
+          fgm: ختان الإناث
+          pregnancy_child_parent: الحمل/الأطفال الآباء
+          inappropriate_care_arrangement: ترتيبات الرعاية غير المناسبة (مثلا، أكثر من 8 أطفال في المنزل، تعاطي مقدم الرعاية للمخدرات، مقدم الرعاية الوحيد)
+          other: أخرى
+      name:
+        display_name: الاسم الكامل
+      name_first:
+        display_name: الاسم الأول
+      name_middle:
+        display_name: الاسم الثاني
+      name_last:
+        display_name: اسم العائلة
+      name_nickname:
+        display_name: اللقب/الاسم المفضل
+      name_other:
+        display_name: أي أسماء أخرى
+      name_given_post_separation:
+        display_name: (اسم) أسماء للطفل بعد الانفصال؟
+      registration_date:
+        display_name: تاريخ التسجيل
+      identification_date:
+        display_name: تاريخ تحديد/الإبلاغ عن الحالة
+      assessment_due_date:
+        display_name: تاريخ موعد التقييم
+      sex:
+        display_name: النوع
+      age:
+        display_name: العمر
+      date_of_birth:
+        display_name: تاريخ الميلاد
+      estimated:
+        display_name: هل تم تقدير السن؟
+        help_text: استنادا على تقدير السن
+        tick_box_label: 'نعم'
+      physical_characteristics:
+        display_name: السمات الجسدية المميزة
+      ration_card_no:
+        display_name: رقم بطاقة التموين
+      icrc_ref_no:
+        display_name: الرقم المرجعي للجنة الدولية للصليب الأحمر
+      rc_id_no:
+        display_name: رقم بطاقة الهوية للهلال الأحمر
+      biometrics_id:
+        display_name: القياسات الحيوية
+        help_text: لرقم الهوية للقياسات الحيوية، إذا تم استخدامها
+      unhcr_id_no:
+        display_name: proGres Case ID
+        help_text: رقم شهادة طالب اللجوء لدى مفوضية الأمم المتحدة السامية لشؤون اللاجئين
+      un_no:
+        display_name: رقم الأمم المتحدة
+      national_id_no:
+        display_name: رقم بطاقة الهوية الوطنية
+      unhcr_individual_no:
+        display_name: الهوية الخاصة بمفوضية الأمم المتحدةالساميةلشؤون اللاجئين
+      other_id_type:
+        display_name: نوع بطاقات الهوية الأخرى ذات الصلة
+      other_id_no:
+        display_name: نوع بطاقات الهوية الأخرى ذات الصلة
+      other_agency_id:
+        display_name: بطاقات الهوية التابعة للوكالات الأخرى
+      other_agency_name:
+        display_name: اسم الوكالة الأخرى
+      documents_carried:
+        display_name: قائمة بالوثائق التي يحملها الطفل
+      nationality:
+        display_name: الجنسية
+      maritial_status:
+        display_name: الوضع الاجتماعي الحالي
+      occupation:
+        display_name: المهنة
+      ethnicity:
+        display_name: الأصل الإثني/العشيرة/القبيلة
+      sub_ethnicity_1:
+        display_name: الأصل الإثني الفرعي 1
+      sub_ethnicity_2:
+        display_name: الأصل الإثني الفرعي 2
+      language:
+        display_name: اللغات التي يتحدثها الطفل
+      religion:
+        display_name: الديانة
+      displacement_status:
+        display_name: المجموعة السكانية
+      displacement_status_other:
+        display_name: إذا كانت مجموعة أخرى، رجاء التحديد
+      separation_status_of_the_child_800fd32:
+        display_name: وضع الانفصال للطفل
+        option_strings_text:
+          unaccompanied_869184: غير مصطحب
+          separated_331143: منفصل
+          orphan_312440: يتيم
+          none_of_the_above_83926: أعلاه لا ينطبق
+      disability_type_communications:
+        display_name: الاحتياجات الخاصة للاتصال
+      address_current:
+        display_name: العنوان الحالي
+      landmark_current:
+        display_name: العلامة الأرضية المميزة
+      location_current:
+        display_name: الموقع الحالي
+      address_is_permanent:
+        display_name: هل هذا العنوان ثابت؟
+      telephone_current:
+        display_name: رقم هاتف الطفل/تفاصيل أخرى للاتصال

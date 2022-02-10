@@ -1,0 +1,42 @@
+ar-SD:
+  protection_concern:
+    name: مشاكل الحماية
+    description: مشاكل الحماية
+    fields:
+      protection_status:
+        display_name: مزقف الحماية
+      urgent_protection_concern:
+        display_name: مشاكل حماية عاجلة؟
+      risk_level:
+        display_name: المستوى العام للمخاطر
+      displacement_status:
+        display_name: المجموعة السكانية
+      displacement_status_other:
+        display_name: إذا أخرى، رجاء التحديد
+      unhcr_protection_code:
+        display_name: رمز الحماية لمفوضية الأمم المتحدة السامية لشؤون اللاجئين
+        help_text: 'هذه الخانة تم إغفالها في v1.2 واستبدلت برمز احتياجات المفوضية
+
+          unchr_needs_code'
+      protection_concerns:
+        display_name: مشاكل الحماية
+      protection_concerns_other:
+        display_name: إذا أخرى، رجاء التحديد
+      unhcr_needs_codes:
+        display_name: رموز احتياجات مفوضية اللاجئين
+      disability_type:
+        display_name: نوع الإعاقة
+      immediate_concern_type_7c845f8:
+        display_name: نوع المشاكل العاجلة
+        option_strings_text:
+          health_care_975762: الرعاية الصحية
+          safety_257391: السلامة
+          interim_care_190311: الرعاية المؤقتة
+          counselling_105521: الإرشاد
+          other_747840: أخرى
+      if_other__please_specify_fae290f:
+        display_name: إذا أخرى، رجاء التحديد
+      summary_of_issue_aff345a:
+        display_name: تلخيص القضية
+      immediate_action_taken_referral_conducted_272975b:
+        display_name: الإجراء العاجل المتخذ/القيام بالإحالة

@@ -1,0 +1,42 @@
+ar-SD:
+  transitions:
+    name: الاستمارة الفرعية للإنتقال
+    description: الاستمارة الفرعية للإنتقال
+    fields:
+      type:
+        display_name: النوع
+      to_user_local:
+        display_name: المستخدم المحلي
+      to_user_remote:
+        display_name: مستخدم عن بُعد
+      to_user_local_status:
+        display_name: الوضع
+        option_strings_text:
+          in_progress: قيد الإجراء
+          pending: قيد النظر
+          accepted: مقبول
+          rejected: مرفوض
+          done: تم الإجراء
+      rejected_reason:
+        display_name: سبب الرفض (إذا لنطبق)
+      to_user_agency:
+        display_name: وكالة المُستخدم عن بُعد
+      notes:
+        display_name: ملاحظات
+      transitioned_by:
+        display_name: إحالة أو تحويل بواسطة
+      service:
+        display_name: الخدمة
+      is_remote:
+        display_name: هل كانت الإحالة أو التحويل لنظام عن بُعد؟
+        tick_box_label: 'نعم'
+      type_of_export:
+        display_name: ما هو نوع النقل الذي تريده؟
+      consent_overridden:
+        display_name: إبطال عدم الموافقة على التبادل
+        tick_box_label: 'نعم'
+      consent_individual_transfer:
+        display_name: هل تحصل المسؤول عن الحالة على موافقة الطفل على هذا التحويل؟
+        tick_box_label: 'نعم'
+      created_at:
+        display_name: تاريخ الإحالة أو التحويل

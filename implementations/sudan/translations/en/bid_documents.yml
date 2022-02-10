@@ -1,0 +1,8 @@
+---
+en:
+  bid_documents:
+    name: BID Records
+    description: BID Records
+    fields:
+      upload_bid_document:
+        display_name: BID Document

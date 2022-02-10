@@ -1,0 +1,59 @@
+ar-SD:
+  activities:
+    name: الأنشطة
+    description: الأنشطة
+    fields:
+      activities_child_in_school_or_training:
+        display_name: هل الطفل في المدرسه او مركز التدريب؟
+      activities_school_name:
+        display_name: اسم المدرسه
+      activities_reason_not_in_school:
+        display_name: إذا كانت الإجابة بالنفي، ما هو السبب؟
+        option_strings_text:
+          child_labour: عمالة الأطفال
+          early_marriage: الزواج المُبكر
+          financial_constraints: الصعوبات المالية
+          ignorance: الجهل
+          lack_of_infrastructure: عدم وجود بنيات تحتية
+          lack_of_access: صعوبة الوصول
+          lack_of_interest: عدم الاهتمام
+          children: الأطفال
+          pregnancy_child: الحمل/الطفل
+          sent_abroad_for_job: تم إرساله للخارج للعمل
+          Other: أخرى
+      activities_education_type:
+        display_name: إذا كانت الإجابة بنعم، ما هو نوع التعليم؟
+        option_strings_text:
+          accelerated_learning: التعلّم المُسرّع
+          early_childhood: الطفولة المُبكرة
+          non_formal_education: التعليم غير النظامي
+          primary: الأساس
+          secondary: ثانوي
+          vocational: مهني
+          vocational_training: التدريب المهني
+      activities_level_achieved:
+        display_name: إذا كان ذلك مناسبا، ما هو المستوى الذي تم الوصول إليه؟
+        option_strings_text:
+          carpentry: النجارة
+          gs1: GS1
+          level_1: المستوى 1
+          level_2: المستوى 2
+          level_3: المستوى 3
+          level_4: المستوى 4
+          tailoring: الخياطة
+          woodwork: أعمال الخشب
+          hairdressing: تصفيف الشعر
+      activities_training_start_date:
+        display_name: تاريخ بداية التدريب
+      activities_training_duration:
+        display_name: مدة التدريب
+      activities_notes:
+        display_name: التفاصيل الأخرى المتصلة بالمدرسة أو مركز التدريب
+      activities_other:
+        display_name: ما هي الأنشطة الأخرى التي يُشارك فيها الطفل؟
+        option_strings_text:
+          community_activities: الأنشطة المجتمعية
+          livelihood_activities: أنشطة كسب العيش
+          recreational_activities: الأنشطة الترفيهية
+      activities_other_notes:
+        display_name: تفاصيل أخرى عن الأنشطة الإضافية

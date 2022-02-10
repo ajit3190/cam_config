@@ -1,0 +1,49 @@
+---
+en:
+  felt_stigma_subform_section:
+    name: Nested Felt Stigma
+    description: Felt Stigma Subform
+    fields:
+      felt_stigma_scale:
+        display_name: Felt Stigma Scale
+      feelings_worthlessness:
+        display_name: "Feelings of worthlessness, of having no value"
+      feeling_detached:
+        display_name: Feeling detached or withdrawn from others
+      felt_stigma_date:
+        display_name: Date
+        guiding_questions: |-
+          This tool can be used by GBV case managers, as part of the survivor’s psychosocial assessment. It takes approximately 10-20 minutes to administer each of the questionnaires. The monitoring tool should be administered only after a minimum of three visits, in order for the most urgent needs of the survivors to be addressed and to give time for trust-building. For a one-time measure of psychosocial well-being and/or felt stigma, the tool only needs to be administered once.
+
+          To monitor change in survivors’ well-being over time, the monitoring tool questionnaire should be administered at baseline (typically, the fourth case management session with a survivor) and again after three additional sessions (typically at session 7). If possible, complete a final questionnaire at the end of the case management intervention plan, if it exceeds case management seven sessions.
+
+          With each client, you can choose to administer only one of the scales – the Psychosocial Functionality Scale or the Felt Stigma Scale - , or you can administer both of the scales (either during the same case management session or split across two sessions), depending on what aspects you and the client agree together to monitor.
+
+          The scales have been tested and validate for use with female survivors, 15 years old and over. The toolkit is not suitable for use with girls 14 years old or younger. For instructions on how to score, see the GBV Case Management Outcomes Toolkit.
+
+          Explain to the client: Thinking about the last four weeks, please tell me how much you have had these thoughts and feelings. You will tell me if it is:
+
+          • Not at all
+          • A little bit
+          • A moderate amount
+          • A lot
+      feeling_badly_treated:
+        display_name: Feeling badly treated by community members
+      feeling_shame:
+        display_name: Feeling shame
+      blaming_yourself:
+        display_name: Blaming yourself for past events
+      feeling_rejected:
+        display_name: Feeling rejected by everybody
+      feeling_stigma:
+        display_name: Feeling stigma
+      wanting_to_avoid_people:
+        display_name: Wanting to avoid other people or hide
+      feeling_family_gazes:
+        display_name: Feeling like your family gazes at you like they are blaming you
+      feeling_community_gaze:
+        display_name: Feeling like community members gaze at you like they are blaming you
+      felt_stigma_score:
+        display_name: Score
+      felt_stigma_score_notes:
+        display_name: Notes

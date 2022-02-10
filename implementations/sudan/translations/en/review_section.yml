@@ -1,0 +1,72 @@
+---
+en:
+  review_section:
+    name: Nested Review
+    description: Review Subform
+    fields:
+      review_form_date:
+        display_name: Date form completed
+        help_text: dd/mmm/yy
+      review_separator:
+        display_name: Details of review meeting
+      review_date:
+        display_name: Date of review meeting
+        help_text: dd/mmm/yy
+      previous_review_date:
+        display_name: Date of previous review meeting (if relevant)
+        help_text: dd/mmm/yy
+      was_child_present:
+        display_name: Was the child present?
+      how_child_review:
+        display_name: If no, how was the child involved in the review?
+      was_caregiver_present:
+        display_name: Was the caregiver present?
+      how_caregiver_review:
+        display_name: If no, how was the caregiver involved in the review?
+      outcome_review_separator:
+        display_name: Outcomes of review meeting
+      review_childs_situation:
+        display_name: Review on child's current situation
+        help_text: Describe the overall current situation of the child as discussed
+          in the review meeting
+      review_implementation:
+        display_name: Review on case plan implementation
+        help_text: Evaluate the status of actions taken and services provided as outlined
+          in the case plan and discussed during the review meeting.
+      review_progress_goal:
+        display_name: Review on progress towards the overall goal of the case plan
+        help_text: Evaluate the progress towards meeting the overall goal of the case
+          plan as discussed during the review meeting.
+      review_other_notes:
+        display_name: Other notes / observations during review meeting
+      next_steps_separator:
+        display_name: Next steps
+      review_situation_change:
+        display_name: Did the situation of the child change in such a way that warrants
+          another assessment to be conducted?
+      situation_change_details:
+        display_name: Please provide details
+      adjustments_case_plan:
+        display_name: Are any adjustments needed in the case plan?
+      adjustment_details:
+        display_name: Please provide details
+      risk_level_changed:
+        display_name: Has the risk level of the case changed?
+      action_conducted:
+        display_name: If yes, new risk level
+        option_strings_text:
+          high: High
+          medium: Medium
+          low: Low
+          'no': 'No'
+      risk_level_details:
+        display_name: If yes, please provide details
+      recommend_close_case:
+        display_name: Do you recommend to close the case?
+      close_case_details:
+        display_name: Please provide details
+      next_case_review:
+        display_name: Is there a need for a next case review?
+      date_next_review:
+        display_name: If yes, date of next review meeting
+        help_text: dd/mmm/yy

@@ -1,0 +1,51 @@
+---
+fr:
+  gbv_case_closure_form:
+    name: Clôture du cas
+    description: Clôture du cas
+    fields:
+      gbv_closure_approved:
+        display_name: Approuvé par le responsable
+        tick_box_label: 'Oui'
+      gbv_closure_approved_date:
+        display_name: Date
+      gbv_closure_approved_comments:
+        display_name: Commentaires du responsable
+      approval_status_gbv_closure:
+        display_name: Statut de l'approbation
+      created_at:
+        display_name: Date d'ouverture du cas
+      date_closure:
+        display_name: Date de clôture du cas
+      status:
+        display_name: Statut du cas
+      closure_assessment:
+        display_name: Évaluation de la clôture du cas
+      closure_checklist_header_section:
+        display_name: Liste de vérification de la clôture du cas
+      closure_reason:
+        display_name: Raisons de la clôture du dossier
+      closure_reason_explain:
+        display_name: Veuillez préciser
+      closure_safety_plan:
+        display_name: Le plan de sécurité de la survivante a été revue et est en place
+      closure_safety_plan_explain:
+        display_name: Veuillez préciser (plan de sécurité)
+      closure_case_plan_complete:
+        display_name: Les besoins de la survivante ont été rempli tels que décrits dans le Plan d'Action du Cas
+      closure_case_plan_complete_explain:
+        display_name: Veuillez préciser (complété et satisfaisant)
+      closure_no_further_support:
+        display_name: La survivante et le/la gestionnaire de cas se sont convenus qu'il n'y a plus besoin de soutien
+      closure_no_further_support_explain:
+        display_name: Veuillez préciser (pourquoi n'a plus besoin de soutien)
+      closure_resume_notification:
+        display_name: La survivante a été informée qu'elle peut reprendre les services à tout moment
+      closure_resume_notification_explain:
+        display_name: Veuillez préciser (reprendre les services)
+      closure_supervisor_review:
+        display_name: Le/la superviseur de cas a revu la demande de clôture du cas/plan de sortie
+      closure_supervisor_review_explain:
+        display_name: Veuillez préciser (revue du cas)
+      closure_completion_timing:
+        display_name: "Combien de temps cela vous a pris de compléter la clôture du cas pour ce cas?"

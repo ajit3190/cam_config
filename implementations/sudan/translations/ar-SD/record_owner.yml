@@ -1,0 +1,39 @@
+ar-SD:
+  record_owner:
+    name: معلومات السجل
+    description: معلومات السجل
+    fields:
+      current_owner_separator:
+        display_name: صاحب السجل الحالي
+      owned_by_text:
+        display_name: المجال/الحالة/المسؤول عن الحالة
+      owned_by:
+        display_name: رمز المسرول عن الحالة
+      reassigned_tranferred_on:
+        display_name: إعادة توزؤع/تحويل يوم
+      owned_by_agency:
+        display_name: الوكالة
+      telephone_agency:
+        display_name: هاتف الوكالة
+      assigned_user_names:
+        display_name: المستخدمين المكلفين الآخرين
+      database_operator_user_name:
+        display_name: المسؤول عن قاعدة البيانات
+      address_registration:
+        display_name: عنوان التسجيل
+      location_registration:
+        display_name: عنوان المكان
+      record_history_separator:
+        display_name: تاريخ السجل
+      created_by:
+        display_name: فتح السجل بواسطة
+      created_by_agency:
+        display_name: فُتح بالوكالة
+      previously_owned_by:
+        display_name: صاحب السجل السابق
+      previous_agency:
+        display_name: الوكالة السابقة
+      module_id:
+        display_name: النموذج
+      reopened_logs:
+        display_name: إعادة فتح الحالة

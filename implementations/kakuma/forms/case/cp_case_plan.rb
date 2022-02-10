@@ -1,0 +1,517 @@
+FormSection.create_or_update!(
+  {
+    name_en: "List of Interventions and Services",
+    description_en: "List of Interventions and Services",
+    unique_id: "cp_case_plan_subform_case_plan_interventions",
+    parent_form: "case",
+    visible: false,
+    order: 999,
+    order_form_group: 999,
+    order_subform: 1,
+    form_group_keyed: false,
+    editable: true,
+    core_form: true,
+    is_nested: true,
+    is_first_tab: false,
+    initial_subforms: 0,
+    subform_prevent_item_removal: false,
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: true,
+    header_message_link: "",
+    subform_append_only: false,
+    collapsed_field_names: [
+      "case_plan_timeframe"
+    ],
+    fields_attributes: [
+      {
+        name: "date_care_plan_planning",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Date of Care Plan Intervention",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false,
+        date_validation: "default_date_validation"
+      },
+      {
+        name: "reason_for_care_plan_update",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Reason for Care Plan Update ",
+        help_text_en: "Only fill out if after significant change to protection concerns- explain why the care plan was updated. ",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "type_action_cp",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Type of Action",
+        help_text_en: "",
+        option_strings_text_en: [
+          {
+            id: "family_tracing",
+            display_text: "Family Tracing"
+          },
+          {
+            id: "protection_and_safety_including_alternative_care_arrangements",
+            display_text: "Protection and Safety *including alternative care arrangements)"
+          },
+          {
+            id: "psychosocial",
+            display_text: "Psychosocial"
+          },
+          {
+            id: "education",
+            display_text: "Education"
+          },
+          {
+            id: "legal_and_documentation_including_registration_related",
+            display_text: "Legal and Documentation (including registration related)"
+          },
+          {
+            id: "health_and_nutrition",
+            display_text: "Health and Nutrition"
+          },
+          {
+            id: "basic_needs",
+            display_text: "Basic Needs"
+          },
+          {
+            id: "other",
+            display_text: "Other"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "intervention_service_to_be_provided",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Name of intervention / service to be provided",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "details_intervention_service_to_be_provided",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Details of intervention / service to be provided",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "case_plan_provider_and_contact_details",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Person / agency providing the service or implementing the intervention / services and contact details",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "intervention_service_goal",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Goal of intervention / service",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "case_plan_timeframe",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Expected timeframe (end date)",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "date_case_plan",
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Date Case Plan Initiated",
+        help_text_en: "This field is used for the Workflow status.",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "case_plan_monitoring_schedule",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Follow up / monitoring schedule",
+        option_strings_text_en: [
+          {
+            id: "one_time",
+            display_text: "One time"
+          },
+          {
+            id: "daily",
+            display_text: "Daily"
+          },
+          {
+            id: "weekly",
+            display_text: "Weekly"
+          },
+          {
+            id: "monthly",
+            display_text: "Monthly"
+          },
+          {
+            id: "other",
+            display_text: "Other"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "intervention_service_success",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "radio_button",
+        editable: true,
+        disabled: false,
+        display_name_en: "Successfully implemented?",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      }
+    ]
+  }
+)
+
+FormSection.create_or_update!(
+  {
+    name_en: "Care Plan",
+    description_en: "Care Plan",
+    unique_id: "cp_case_plan",
+    parent_form: "case",
+    visible: true,
+    order: 999,
+    order_form_group: 80,
+    order_subform: 0,
+    form_group_keyed: false,
+    form_group_id: "care_plan",
+    editable: true,
+    core_form: true,
+    is_nested: false,
+    is_first_tab: false,
+    initial_subforms: 0,
+    subform_prevent_item_removal: false,
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: true,
+    header_message_link: "",
+    subform_append_only: false,
+    fields_attributes: [
+      {
+        name: "case_plan_approved",
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "tick_box",
+        editable: false,
+        disabled: true,
+        display_name_en: "Approved by Manager",
+        tick_box_label_en: "Yes",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "case_plan_approved_date",
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: false,
+        disabled: true,
+        display_name_en: "Date",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "case_plan_approved_comments",
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: false,
+        disabled: true,
+        display_name_en: "Manager Comments",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "approval_status_case_plan",
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: true,
+        display_name_en: "Approval Status",
+        help_text_en: "",
+        option_strings_text_en: [
+          {
+            id: "pending",
+            display_text: "Pending"
+          },
+          {
+            id: "approved",
+            display_text: "Approved"
+          },
+          {
+            id: "rejected",
+            display_text: "Rejected"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "date_case_plan",
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Date Case Plan Initiated",
+        help_text_en: "This field is used for the Workflow status.",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "protection_concerns",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Protection Concerns",
+        multi_select: true,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-protection-concerns",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "careplan_participation_child",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "radio_button",
+        editable: true,
+        disabled: false,
+        display_name_en: "Was the child involved in creating the care plan?",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "careplan_participation_caregiver",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "radio_button",
+        editable: true,
+        disabled: false,
+        display_name_en: "Was the caregiver involved in creating the care plan?",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "careplan_participation_involvement",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "If no, explain why not:",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "case_plan_header",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "separator",
+        editable: true,
+        disabled: false,
+        display_name_en: "Intervention Plans and Services to be Provided",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "cp_case_plan_subform_case_plan_interventions",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "subform",
+        editable: true,
+        disabled: false,
+        display_name_en: "Intervention plans and services details",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        subform_sort_by: "case_plan_timeframe",
+        required: false,
+        subform_unique_id: "cp_case_plan_subform_case_plan_interventions"
+      },
+      {
+        name: "careplan_participation",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "radio_button",
+        editable: true,
+        disabled: false,
+        display_name_en: "Was the child and/or the caregiver involved in making the care plan",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      }
+    ]
+  }
+)
+

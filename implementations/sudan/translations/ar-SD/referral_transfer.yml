@@ -1,0 +1,13 @@
+ar-SD:
+  referral_transfer:
+    name: الإحالات والتحويلات
+    description: قائمة الإحالات والتحويلات
+    fields:
+      transfer_status:
+        display_name: موقف التحويل
+        option_strings_text:
+          in_progress: قيد الاجراء
+          accepted: تمت الموافقة
+          rejected: تم الرفض
+      transitions:
+        display_name: التحويلات والإحالات

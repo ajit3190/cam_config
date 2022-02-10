@@ -1,0 +1,7 @@
+ar-SD:
+  notes:
+    name: ملاحظات
+    description: ملاحظات
+    fields:
+      notes_section:
+        display_name: ملاحظات

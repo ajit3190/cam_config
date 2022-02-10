@@ -1,0 +1,23 @@
+---
+en:
+  bid_status:
+    name: BID Status
+    description: BID Status form
+    fields:
+      assessment_formal_bid:
+        display_name: Is a formal Best Interests Determination (BID) required?
+        help_text: Determined in-context in coordination with UNHCR.
+      assessment_bid_direction:
+        display_name: If yes, please select the direction of the BID
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Identifying
+            durable solutions and complementary pathways for unaccompanied children
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Determining
+            the most appropriate options for children at risk in exceptional circumstances
+            (including family reunification and temporary care)
+          possible_separation_of_a_child_from_parents_against_their_will: Possible
+            separation of a child from parents against their will
+      assessment_bid_details:
+        display_name: Provide details
+        help_text: Provide details and then continue with the UNHCR Best Interests
+          Determination (BID) form.

@@ -1,0 +1,59 @@
+---
+en:
+  family_details_section:
+    name: Nested Family Details
+    description: Family Details Subform
+    fields:
+      relation_name:
+        display_name: Name
+      relation:
+        display_name: How are they related to the child?
+      relation_lives_with_child:
+        display_name: Does this person live with the child?
+        tick_box_label: 'Yes'
+      relation_nickname:
+        display_name: Other names or spellings known by
+        help_text: e.g., nickname, second family name
+      relation_is_alive:
+        display_name: Is this family member alive?
+        option_strings_text:
+          unknown: Unknown
+          alive: Alive
+          dead: Dead
+      relation_death_details:
+        display_name: If dead, please provide details
+        help_text: 'Include date of death if known '
+      relation_age:
+        display_name: Age
+      relation_date_of_birth:
+        display_name: Date of Birth
+      relation_age_estimated:
+        display_name: Is the age estimated?
+        tick_box_label: 'Yes'
+      relation_national_id:
+        display_name: National ID
+      relation_unhcr_individual_id:
+        display_name: UNHCR Individual ID
+      relation_other_id:
+        display_name: Other ID
+      relation_ethnicity:
+        display_name: Ethnicity
+      relation_sub_ethnicity1:
+        display_name: Sub Ethnicity 1
+      relation_sub_ethnicity2:
+        display_name: Sub Ethnicity 2
+      relation_occupation:
+        display_name: Occupation
+      relation_address_current:
+        display_name: Current Address (if different from the child)
+      relation_landmark_current:
+        display_name: Current Landmark
+      relation_location_current:
+        display_name: Current Location
+      relation_telephone:
+        display_name: Telephone / other contact details
+      child_consent_relation_contact:
+        display_name: Does the child consent for this individual to be contacted?
+        tick_box_label: 'Yes'
+      no_consent_provide_details:
+        display_name: If no, provide details

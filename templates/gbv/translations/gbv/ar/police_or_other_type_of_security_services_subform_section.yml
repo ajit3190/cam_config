@@ -1,0 +1,18 @@
+---
+en:
+  police_or_other_type_of_security_services_subform_section:
+    name: نموذج فرعي للخدمات الشرطية وخدمات الأمن الأخرى المتداخلة
+    description: نموذج فرعي للخدمات الشرطية وخدمات الأمن الأخرى المتداخلة
+    fields:
+      service_police_referral:
+        display_name: هل قمت بإحالة العميل إلى الشرطة / خدمات أخرى؟
+      service_police_appointment_date:
+        display_name: تاريخ الموعد
+      service_police_appointment_time:
+        display_name: توقيت الموعد
+      service_police_provider:
+        display_name: مقدم الخدمة
+      service_police_location:
+        display_name: مكان تقديم الخدمة
+      service_police_referral_notes:
+        display_name: ملاحظات

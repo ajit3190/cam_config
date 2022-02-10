@@ -1,0 +1,24 @@
+ar-SD:
+  child_preferences_section:
+    name: رغبات الطفل
+    description: الاستمارة الفرعية لرغبات الطفل
+    fields:
+      wishes_name:
+        display_name: الشخص (الأشخاص) الذين يرغب الطفل في معرفة مكانهم
+        help_text: قم بتضمين تفاصيل عن تتبع الأقرباء والأسرة الممتدة
+      wishes_preference_relocated:
+        display_name: رغبة الطفل في اللحاق بذلك الشخص
+        option_strings_text:
+          first_choice: الرغبة الأولى
+          second_choice: الرغبة الثانية
+          third_choice: الرغبة الثالثة
+      wishes_relationship:
+        display_name: ما هي درجة قرابة هذا الشخص بالطفل؟
+      wishes_address:
+        display_name: آخر عنوان معروف
+      wishes_landmark:
+        display_name: معلم أرضي
+      wishes_location:
+        display_name: آخر مكان معروف
+      wishes_telephone:
+        display_name: الهاتف

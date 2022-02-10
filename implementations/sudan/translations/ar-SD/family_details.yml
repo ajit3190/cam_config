@@ -1,0 +1,13 @@
+ar-SD:
+  family_details:
+    name: تفاصيل الأسرة
+    description: تفاصيل الأسرة
+    fields:
+      family_size:
+        display_name: حجم الأسرة
+      family_notes:
+        display_name: ملاحظات عن الأسرة
+      childs_intended_address:
+        display_name: ما هو العنوان المتوقع للطفل؟
+      family_details_section:
+        display_name: تفاصيل السرة

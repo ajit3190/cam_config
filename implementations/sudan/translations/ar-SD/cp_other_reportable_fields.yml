@@ -1,0 +1,15 @@
+ar-SD:
+  cp_other_reportable_fields:
+    name: المجالات الأخرى التي يجب الإبلاغ عنها
+    description: المجالات الأخرى للإبلاغ
+    fields:
+      record_state:
+        display_name: سجل صالح؟
+      owned_by_agency:
+        display_name: وكالة إدارة الحالة
+      owned_by_location:
+        display_name: مكان المسؤول عن إدارة الحالة
+      has_referrals:
+        display_name: هل لهذه الحالة إحالات؟
+      has_case_plan:
+        display_name: هل للحالة خطة حالة؟

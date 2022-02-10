@@ -1,0 +1,117 @@
+ar-SD:
+  followup_subform_section:
+    name: المتابعة
+    description: الاستمارة الفرعية للمتابعة
+    fields:
+      followup_type:
+        display_name: نوع المتابعة
+      followup_service_type:
+        display_name: نوع الخدمة
+      followup_assessment_type:
+        display_name: نوع التقييم
+        option_strings_text:
+          personal_intervention_assessment: تقييم التدخلات الشخصية
+          medical_intervention_assessment: تقييم التدخلات الطبية
+          family_intervention_assessment: تقييم التدخلات الأسرية
+          community_intervention_assessment: تقييم التدخلات الأسرية
+          unhcr_intervention_assessment: تقييم تدخلت مفوضية الأمم المتحدة السامية لشؤون اللاجئين
+          ngo_intervention_assessment: تقييم تدخلات المنظمات غير الحكومية
+          economic_intervention_assessment: تقييم التدخلات الاقتصادية
+          education_intervention_assessment: تقييم التدخلات التعليمية
+          health_intervention_assessment: تقييم التدخلات الصحية
+          other_intervention_assessment: تقييم التدخلات الأخرى
+      protection_concern_type:
+        display_name: 'نوع مشاكل الحماية'
+      followup_needed_by_date:
+        display_name: المتابعة مطلوبة من
+        help_text: "(هذا المجال سيترك تنبيه في قائمة المهام)."
+      followup_date:
+        display_name: تاريخ بداية المتابعة
+      end_date_of_follow_up_cfb1032:
+        display_name: تاريخ نهاية المتابعة
+      case_worker__manager_and_other_participants_conducting_follow_up_588a5ee:
+        display_name: قام  المسؤول عن الحالة، والمدير والمشاركون الآخرون بإجراء المتابعة
+      followup_with:
+        display_name: المتابعة مع
+      followup_with_multi:
+        display_name: المتابعة مع
+      other_please_specify:
+        display_name: إذا آخرون، حدد
+      followed_up_through:
+        display_name: المتابعة من خلال
+        option_strings_text:
+          phone_call: مكالمة هاتفية
+          instant_message_sms_whatsapp: 'رسالة/رسائل قصيرة/واتساب '
+          email: بريد إلكتروني
+          social_media: تواصل اجتماعي
+          ad_hoc_home_visit_child_family: زيارة منزلية غير مخططة (الطفل/الأسرة)
+          scheduled_home_visit_child_family: زيارة منزلية مبرمجة (الطفل/الأسرة)
+          face_to_face_meeting_outside_of_home_child_family: مقابلة شخصية مباشرة خارج المنزل (الطفل/الأسرة)
+          face_to_face_meeting_service_provider_and_child_family: مقابلة شخصية مباشرة (مقدم الخدمات والطفل/الأسرة)
+          face_to_face_meeting_service_provider_only: مقابلة شخصية مباشرة (مقدم الخدمات فقط)
+          community_based_group: مجموعة مجتمعية
+          authorities: السلطات
+          other: أخرى
+      followup_other_specify:
+        display_name: إذا أخرى، رجاء التحديد
+      followed_specific_action:
+        display_name: متابعة تدابير/خدمات محددة من خطة الحالة؟
+      specify_action:
+        display_name: حدد ماهي التدابير/الخدمات (من خطة الحالة) التي تتم متابعتها أو اي أمر آخر تتم متابعته
+      purpose_followup:
+        display_name: الغرض من المتابعة
+        help_text: اوصف سبب متابعةهذه التدابير/الخدمات/الأمور المحددة
+      followup_result_separator:
+        display_name: نتيجة المتابعة
+      outcome_followup:
+        display_name: مخرجات المتابعة
+        help_text: مثلا، تفاصيل التدابير المتخذة/الخدمات المقدمة، ومخرجات التدابير المتخذة/الخدمات المقدمة، ةتفاصيل أي تغيير في وضع أحوال الطفل
+      action_conducted:
+        display_name: إذا تمت المتابعة، هل تم القيام بالإجراء/الخدمة من خطة الحالة؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unable_to_determine: لا استطيع التحديد
+      situation_changed:
+        display_name: إذا تمت المتابعة، هل تغيرت أحوال الطفل كثيرا؟
+        help_text: خلال القيام بالمتابعة، إذا ظلت حالة الطفل بدون تغيير أو ساءت - الأنشطة المخططة، التدابير أو زيارات المتابعة يجب تفصيلها فب قسم الخطوات التالية..
+        option_strings_text:
+          'yes': 'نعم'
+          improved: تحسنت
+          declined: تدهورت
+          'no': 'لا'
+          unable_to_determine: لا استطيع التحديد
+      next_steps_separator:
+        display_name: الخطوات التالية
+      need_follow_up_visit:
+        display_name: هل هناك حاجة لمزيد من المتابعة؟
+        help_text: هل هناك حاجة لمزيد من المتابعة، خلق استمارة فرعية جديدة لتلك المتابعة وادخال تاريخ المتابعة اللازمة آنذاك.
+      other_recommend_followup:
+        display_name: هل هناك أي توصيات في ضوء ما تم من متابعة
+      child_was_seen:
+        display_name: هل تمت رؤية الطفل/الشخص الراشد أثناء الزيارة؟
+      reason_child_not_seen:
+        display_name: إذا كانت الإجابة بالنفي، ما هو السبب؟
+        option_strings_text:
+          abducted: مختطف
+          at_school: في المدرسة
+          child_in_detention: الفل محتجز
+          moved_onto_street: في الشارع/السوق
+          moved_to_live_with_another_caregiver: يعيش مع مقدم رعاية آخر
+          visiting_friends_relatives: في زيارة لأصدقاء/اقارب
+          working: في العمل
+          other: أخرى، رجاء التحديد
+      reason_child_not_seen_other_details:
+        display_name: إذا أخرى، حدد
+      action_taken_already:
+        display_name: هل تم اتخاذ أي إجراء؟
+      action_taken_details:
+        display_name: تفاصيل حول الإجراء المُتخذ
+      action_taken_date:
+        display_name: تاريخ اتخاذ الإجراء
+      when_follow_up_visit_should_happen:
+        display_name: إذا كانت الإجابة بنعم،  هل توصي بالقيام بالزيارة التالية؟
+      recommend_case_closed:
+        display_name: إذا كانت الإجابة بالنفي،  هل توصي بإغلاق الحالة؟
+      followup_comments:
+        display_name: ملاحظات

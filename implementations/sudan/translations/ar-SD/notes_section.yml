@@ -1,0 +1,13 @@
+ar-SD:
+  notes_section:
+    name: الاستمارة الفرعيةللملاحظات
+    description: الاستمارة الفرعية للملاحظات
+    fields:
+      notes_date:
+        display_name: التاريخ
+      note_subject:
+        display_name: الموضوع
+      field_notes_subform_fields:
+        display_name: ملاحظات
+      note_created_by:
+        display_name: المدير

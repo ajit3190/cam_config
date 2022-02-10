@@ -1,0 +1,16 @@
+---
+en:
+  protection_concern:
+    name: Protection Concerns
+    description: Protection concerns
+    fields:
+      risk_level:
+        display_name: Risk Level
+      displacement_status:
+        display_name: Population Group
+      displacement_status_other:
+        display_name: If Other, please specify
+      protection_concerns:
+        display_name: Protection Concerns
+      protection_concerns_other:
+        display_name: If Other, please specify
