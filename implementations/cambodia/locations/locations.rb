@@ -4755,7 +4755,7 @@ locations = [
   Location.new(placename_i18n: { "en": "Trapeang Ruessei", "km": "ត្រពាំងឫស្សី" }, location_code:"3020304", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30203.3020304'),
   Location.new(placename_i18n: { "en": "Ou Peh", "km": "អូរប៉ិះ" }, location_code:"3020303", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30203.3020303'),
   Location.new(placename_i18n: { "en": "Cheyyou", "km": "ជយោ" }, location_code:"3020302", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30203.3020302'),
-  Location.new(placename_i18n: { "en": "Spueu Ka", "km": "ស្ពឺ "ក"" }, location_code:"3020301", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30203.3020301'),
+  Location.new(placename_i18n: { "en": "Spueu Ka", "km": "ស្ពឺ 'ក'" }, location_code:"3020301", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30203.3020301'),
   Location.new(placename_i18n: { "en": "Kromhun", "km": "ក្រុមហ៊ុន" }, location_code:"3020218", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30202.3020218'),
   Location.new(placename_i18n: { "en": "Roung Chakr", "km": "រោងចក្រ" }, location_code:"3020217", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30202.3020217'),
   Location.new(placename_i18n: { "en": "Sraong Chan", "km": "ស្រោងចាន់" }, location_code:"3020216", admin_level: 4, type: "village", hierarchy_path: 'KHM.3.302.30202.3020216'),
