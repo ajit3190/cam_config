@@ -16242,8 +16242,5 @@ locations = [
 begin
   InsertAllService.insert_all(Location, locations.values, 'location_code')
 rescue ActiveRecord::RecordNotUnique
-  puts "Skipping. Location #{loc.location_code} already exists!"
-rescue StandardError => e
-  puts "Cannot create #{loc.location_code}. Error #{e.message}"
-  raise e
+  log_errors(I18n.t('location upload error', message: "#{e.message[0..200]}..."))
 end
