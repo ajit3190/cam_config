@@ -16240,7 +16240,7 @@ locations = [
 ]
 
 begin
-  InsertAllService.insert_all(Location, locations.values, 'location_code')
+  InsertAllService.insert_all(Location, locations, 'location_code')
 rescue ActiveRecord::RecordNotUnique
   log_errors(I18n.t('location upload error', message: "#{e.message[0..200]}..."))
 end
