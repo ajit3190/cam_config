@@ -16242,5 +16242,5 @@ locations = [
 begin
   InsertAllService.insert_all(Location, locations, :location_code)
 rescue StandardError => e
-  puts "Cannot create locations. Error #{e.message)}"
+  puts "Cannot create locations. Error #{e.message}"
 end
