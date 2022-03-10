@@ -1,6 +1,6 @@
 # Automatically generated script to migrate locations from v1.7 to v2.0+
 
-Location.destroy_all
+Location.delete_all
 
 locations = [
   {placename_i18n: { "en": "Cambodia", "km": "កម្ពុជា" }, location_code:"KHM", admin_level: 0, type: "country", hierarchy_path: 'KHM'},
@@ -16241,6 +16241,6 @@ locations = [
 
 begin
   InsertAllService.insert_all(Location, locations, :location_code)
-rescue ActiveRecord::RecordNotUnique
-  log_errors(I18n.t('location upload error', message: "#{e.message[0..200]}..."))
+rescue StandardError => e
+  puts "Cannot create locations. Error #{e.message)}"
 end
