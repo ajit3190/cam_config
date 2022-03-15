@@ -29,8 +29,8 @@ create_or_update_system_setting(
       notes_section: "notes"
     },
     due_date_from_appointment_date: false,
-    notification_email_enabled: false,
-    welcome_email_enabled: false,
+    notification_email_enabled: true,
+    welcome_email_enabled: true,
     duplicate_export_field: "national_id_no",
     welcome_email_text_en: "",
     welcome_email_text_bn: "",

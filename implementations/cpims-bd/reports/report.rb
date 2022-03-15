@@ -14,7 +14,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -51,7 +51,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status"
+        attribute: "status"
       },
       {
         attribute: "record_state",
@@ -86,7 +86,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -124,7 +124,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -161,7 +161,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -198,7 +198,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status"
+        attribute: "status"
       },
       {
         attribute: "record_state",
@@ -262,7 +262,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "Open"
         ]
@@ -295,7 +295,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "Open"
         ]
@@ -332,7 +332,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status"
+        attribute: "status"
       },
       {
         attribute: "record_state",
@@ -365,7 +365,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "Open"
         ]
@@ -401,7 +401,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "Open"
         ]
