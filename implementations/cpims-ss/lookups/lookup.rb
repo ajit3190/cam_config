@@ -31,7 +31,155 @@ Lookup.create_or_update!(
     unique_id: "lookup-activities-education-type"
   }
 )
-
+Lookup.create_or_update!(
+  {
+    locked: false,
+    name_en: "Form Groups   Cp Case",
+    lookup_values_en: [
+      {
+        id: "inquirer",
+        dispaly_text: "Inquirer"
+      },
+      {
+        id: "ftr",
+        dispaly_text: "FTR"
+      },
+      {
+        id: "",
+        dispaly_text: ""
+      },
+      {
+        id: "identification_registration",
+        dispaly_text: "Identification / Registration"
+      },
+      {
+        id: "consent",
+        dispaly_text: "Consent"
+      },
+      {
+        id: "assessment",
+        dispaly_text: "Assessment"
+      },
+      {
+        id: "referrals_follow_up",
+        dispaly_text: "Referrals / Follow Up"
+      },
+      {
+        id: "family_partner_details",
+        dispaly_text: "Family / Partner Details"
+      },
+      {
+        id: "case_conference_details",
+        dispaly_text: "Case Conference Details"
+      },
+      {
+        id: "tracing_request",
+        dispaly_text: "Tracing Request"
+      },
+      {
+        id: "photos_and_audio",
+        dispaly_text: "Photos and Audio"
+      },
+      {
+        id: "record_owner",
+        dispaly_text: "Record Owner"
+      },
+      {
+        id: "safety_plan",
+        dispaly_text: "Safety Plan"
+      },
+      {
+        id: "case_plan",
+        dispaly_text: "Case Plan"
+      },
+      {
+        id: "consent_for_referrals",
+        dispaly_text: "Consent for Referrals"
+      },
+      {
+        id: "case_closure",
+        dispaly_text: "Case Closure"
+      },
+      {
+        id: "client_feedback",
+        dispaly_text: "Client Feedback"
+      },
+      {
+        id: "documents",
+        dispaly_text: "Documents"
+      },
+      {
+        id: "referrals_and_transfers",
+        dispaly_text: "Referrals and Transfers"
+      },
+      {
+        id: "survivor_assessment",
+        dispaly_text: "Survivor Assessment"
+      },
+      {
+        id: "consent_for_services",
+        dispaly_text: "Consent for Services"
+      },
+      {
+        id: "approvals",
+        dispaly_text: "Approvals"
+      },
+      {
+        id: "services_follow_up",
+        dispaly_text: "Services / Follow Up"
+      },
+      {
+        id: "bia_form",
+        dispaly_text: "BIA Form"
+      },
+      {
+        id: "record_information",
+        dispaly_text: "Record Information"
+      },
+      {
+        id: "action_plan",
+        dispaly_text: "Action Plan"
+      },
+      {
+        id: "notes",
+        dispaly_text: "Notes"
+      },
+      {
+        id: "cp_individual_details",
+        dispaly_text: "CP Individual Details"
+      },
+      {
+        id: "gbv_individual_details",
+        dispaly_text: "GBV Individual Details"
+      },
+      {
+        id: "perpetrator_details",
+        dispaly_text: "Perpetrator Details"
+      },
+      {
+        id: "alleged_perpetrator",
+        dispaly_text: "Alleged Perpetrator"
+      },
+      {
+        id: "cp_incident",
+        dispaly_text: "CP Incident"
+      },
+      {
+        id: "service_referral",
+        dispaly_text: "Service Referral"
+      },
+      {
+        id: "incident",
+        dispaly_text: "Incident"
+      },
+      {
+        id: "type_of_violence",
+        dispaly_text: "Type of Violence"
+      }
+    ]
+    unique_id: "lookup-form-group-cp-case"
+  }
+)
 Lookup.create_or_update!(
   {
     locked: false,
