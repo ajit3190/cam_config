@@ -38,139 +38,139 @@ Lookup.create_or_update!(
     lookup_values_en: [
       {
         id: "inquirer",
-        dispaly_text: "Inquirer"
+        display_text: "Inquirer"
       },
       {
         id: "ftr",
-        dispaly_text: "FTR"
+        display_text: "FTR"
       },
       {
         id: "identification_registration",
-        dispaly_text: "Identification / Registration"
+        display_text: "Identification / Registration"
       },
       {
         id: "consent",
-        dispaly_text: "Consent"
+        display_text: "Consent"
       },
       {
         id: "assessment",
-        dispaly_text: "Assessment"
+        display_text: "Assessment"
       },
       {
         id: "referrals_follow_up",
-        dispaly_text: "Referrals / Follow Up"
+        display_text: "Referrals / Follow Up"
       },
       {
         id: "family_partner_details",
-        dispaly_text: "Family / Partner Details"
+        display_text: "Family / Partner Details"
       },
       {
         id: "case_conference_details",
-        dispaly_text: "Case Conference Details"
+        display_text: "Case Conference Details"
       },
       {
         id: "tracing_request",
-        dispaly_text: "Tracing Request"
+        display_text: "Tracing Request"
       },
       {
         id: "photos_and_audio",
-        dispaly_text: "Photos and Audio"
+        display_text: "Photos and Audio"
       },
       {
         id: "record_owner",
-        dispaly_text: "Record Owner"
+        display_text: "Record Owner"
       },
       {
         id: "safety_plan",
-        dispaly_text: "Safety Plan"
+        display_text: "Safety Plan"
       },
       {
         id: "case_plan",
-        dispaly_text: "Case Plan"
+        display_text: "Case Plan"
       },
       {
         id: "consent_for_referrals",
-        dispaly_text: "Consent for Referrals"
+        display_text: "Consent for Referrals"
       },
       {
         id: "case_closure",
-        dispaly_text: "Case Closure"
+        display_text: "Case Closure"
       },
       {
         id: "client_feedback",
-        dispaly_text: "Client Feedback"
+        display_text: "Client Feedback"
       },
       {
         id: "documents",
-        dispaly_text: "Documents"
+        display_text: "Documents"
       },
       {
         id: "referrals_and_transfers",
-        dispaly_text: "Referrals and Transfers"
+        display_text: "Referrals and Transfers"
       },
       {
         id: "survivor_assessment",
-        dispaly_text: "Survivor Assessment"
+        display_text: "Survivor Assessment"
       },
       {
         id: "consent_for_services",
-        dispaly_text: "Consent for Services"
+        display_text: "Consent for Services"
       },
       {
         id: "approvals",
-        dispaly_text: "Approvals"
+        display_text: "Approvals"
       },
       {
         id: "services_follow_up",
-        dispaly_text: "Services / Follow Up"
+        display_text: "Services / Follow Up"
       },
       {
         id: "bia_form",
-        dispaly_text: "BIA Form"
+        display_text: "BIA Form"
       },
       {
         id: "record_information",
-        dispaly_text: "Record Information"
+        display_text: "Record Information"
       },
       {
         id: "action_plan",
-        dispaly_text: "Action Plan"
+        display_text: "Action Plan"
       },
       {
         id: "notes",
-        dispaly_text: "Notes"
+        display_text: "Notes"
       },
       {
         id: "cp_individual_details",
-        dispaly_text: "CP Individual Details"
+        display_text: "CP Individual Details"
       },
       {
         id: "gbv_individual_details",
-        dispaly_text: "GBV Individual Details"
+        display_text: "GBV Individual Details"
       },
       {
         id: "perpetrator_details",
-        dispaly_text: "Perpetrator Details"
+        display_text: "Perpetrator Details"
       },
       {
         id: "alleged_perpetrator",
-        dispaly_text: "Alleged Perpetrator"
+        display_text: "Alleged Perpetrator"
       },
       {
         id: "cp_incident",
-        dispaly_text: "CP Incident"
+        display_text: "CP Incident"
       },
       {
         id: "service_referral",
-        dispaly_text: "Service Referral"
+        display_text: "Service Referral"
       },
       {
         id: "incident",
-        dispaly_text: "Incident"
+        display_text: "Incident"
       },
       {
         id: "type_of_violence",
-        dispaly_text: "Type of Violence"
+        display_text: "Type of Violence"
       }
     ],
     unique_id: "lookup-form-group-cp-case"
