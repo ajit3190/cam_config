@@ -19,6 +19,21 @@ create_or_update_system_setting(
     export_config_id: {
       unhcr: "export-unhcr-csv"
     },
+    reporting_location_config: {
+      field_key: "owned_by_location",
+      admin_level: 2,
+      admin_level_map: {
+        '0': [
+          "country"
+        ],
+        '1': [
+          "province"
+        ],
+        '2': [
+          "district"
+        ]
+      }
+    },
     age_ranges: {
       primero: [0..5, 6..11, 12..17, 18..999],
       unhcr: [0..4, 5..11, 12..17, 18..59, 60..999]
