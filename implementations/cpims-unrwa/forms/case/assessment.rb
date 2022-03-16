@@ -296,7 +296,7 @@ FormSection.create_or_update!(
     form_group_keyed: false,
     form_group_id: "assessment",
     editable: true,
-    core_form: true,
+    core_form: false,
     is_nested: false,
     is_first_tab: false,
     initial_subforms: 0,

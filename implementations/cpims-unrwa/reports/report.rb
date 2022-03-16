@@ -94,7 +94,7 @@ Report.create_or_update!(
         ]
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -137,7 +137,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -176,7 +176,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -214,7 +214,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -258,7 +258,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -302,7 +302,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -350,7 +350,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -398,7 +398,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "closed"
         ]
@@ -435,7 +435,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "closed"
         ]
@@ -472,7 +472,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -509,7 +509,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -547,7 +547,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -591,7 +591,7 @@ Report.create_or_update!(
         ]
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -663,7 +663,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -700,7 +700,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -737,7 +737,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "closed"
         ]
@@ -774,7 +774,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -821,7 +821,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -870,7 +870,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_individuals",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "closed"
         ]
@@ -908,7 +908,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -956,7 +956,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_females_disabilities",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -994,7 +994,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_males_disabilities",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1032,7 +1032,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_persons_with_disabilities",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1071,7 +1071,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_seniors",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1110,7 +1110,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_children",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1149,7 +1149,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_individuals",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1194,7 +1194,7 @@ Report.create_or_update!(
         ]
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1233,7 +1233,7 @@ Report.create_or_update!(
         ]
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1272,7 +1272,7 @@ Report.create_or_update!(
         ]
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1305,7 +1305,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_males_older",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1344,7 +1344,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_seniors",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1383,7 +1383,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_females_disabilities",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1422,7 +1422,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_males_disabilities",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1461,7 +1461,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_persons_with_disabilities",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1500,7 +1500,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1539,7 +1539,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_males_children",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1584,7 +1584,7 @@ Report.create_or_update!(
         ]
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1621,7 +1621,7 @@ Report.create_or_update!(
         value: "01-Feb-2022"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1664,7 +1664,7 @@ Report.create_or_update!(
         ]
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1696,7 +1696,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1738,7 +1738,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1787,7 +1787,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_males",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "closed"
         ]
@@ -1825,7 +1825,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_males",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1863,7 +1863,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_females",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "closed"
         ]
@@ -1901,7 +1901,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_served_females",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1939,7 +1939,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -1978,7 +1978,7 @@ Report.create_or_update!(
     aggregate_counts_from: "number_of_females_disabilities",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -2022,7 +2022,7 @@ Report.create_or_update!(
         value: "30-Sep-2021"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -2071,7 +2071,7 @@ Report.create_or_update!(
         value: "31-Jan-2022"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2119,7 +2119,7 @@ Report.create_or_update!(
         value: "31-Jan-2022"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2156,7 +2156,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -2725,7 +2725,7 @@ Report.create_or_update!(
         value: "31-Jan-2022"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -2763,7 +2763,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2808,7 +2808,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2850,7 +2850,7 @@ Report.create_or_update!(
         value: "30-Nov-2021"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2892,7 +2892,7 @@ Report.create_or_update!(
         value: "30-Nov-2021"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2929,7 +2929,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
