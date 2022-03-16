@@ -176,7 +176,7 @@ Lookup.create_or_update!(
         id: "type_of_violence",
         dispaly_text: "Type of Violence"
       }
-    ]
+    ],
     unique_id: "lookup-form-group-cp-case"
   }
 )
