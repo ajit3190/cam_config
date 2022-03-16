@@ -37,10 +37,6 @@ Lookup.create_or_update!(
     name_en: "Form Groups   Cp Case",
     lookup_values_en: [
       {
-        id: "inquirer",
-        display_text: "Inquirer"
-      },
-      {
         id: "ftr",
         display_text: "FTR"
       },
@@ -67,10 +63,6 @@ Lookup.create_or_update!(
       {
         id: "case_conference_details",
         display_text: "Case Conference Details"
-      },
-      {
-        id: "tracing_request",
-        display_text: "Tracing Request"
       },
       {
         id: "photos_and_audio",
@@ -139,7 +131,16 @@ Lookup.create_or_update!(
       {
         id: "notes",
         display_text: "Notes"
-      },
+      }
+    ],
+    unique_id: "lookup-form-group-cp-case"
+  }
+)
+Lookup.create_or_update!(
+  {
+    locked: false,
+    name_en: "Form Groups   Cp Incident",
+    lookup_values_en: [
       {
         id: "cp_individual_details",
         display_text: "CP Individual Details"
@@ -171,9 +172,38 @@ Lookup.create_or_update!(
       {
         id: "type_of_violence",
         display_text: "Type of Violence"
+      },
+      {
+        id: "record_owner",
+        display_text: "Record Owner"
       }
     ],
-    unique_id: "lookup-form-group-cp-case"
+    unique_id: "lookup-form-group-cp-incident"
+  }
+)
+Lookup.create_or_update!(
+  {
+    locked: false,
+    name_en: "Form Groups   Cp Tracing Request",
+    lookup_values_en: [
+      {
+        id: "tracing_request",
+        display_text: "Tracing Request"
+      },
+      {
+        id: "photos_and_audio",
+        display_text: "Photos and Audio"
+      },
+      {
+        id: "record_owner",
+        display_text: "Record Owner"
+      },
+      {
+        id: "inquirer",
+        display_text: "Inquirer"
+      }
+    ],
+    unique_id: "lookup-form-group-cp-tracing-request"
   }
 )
 Lookup.create_or_update!(
