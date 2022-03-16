@@ -45,10 +45,6 @@ Lookup.create_or_update!(
         dispaly_text: "FTR"
       },
       {
-        id: "",
-        dispaly_text: ""
-      },
-      {
         id: "identification_registration",
         dispaly_text: "Identification / Registration"
       },
