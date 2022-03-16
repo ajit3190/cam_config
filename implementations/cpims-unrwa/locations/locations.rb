@@ -1,0 +1,97 @@
+# Automatically generated script to migrate locations from v1.7 to v2.0+
+
+Location.destroy_all
+
+locations = [
+  Location.new(placename_i18n: { "en": "Jordan" }, location_code:"F5", admin_level: 0, type: "country", hierarchy_path: 'F5'),
+  Location.new(placename_i18n: { "en": "Syria" }, location_code:"F4", admin_level: 0, type: "country", hierarchy_path: 'F4'),
+  Location.new(placename_i18n: { "en": "Lebanon" }, location_code:"F3", admin_level: 0, type: "country", hierarchy_path: 'F3'),
+  Location.new(placename_i18n: { "en": "Gaza" }, location_code:"F2", admin_level: 0, type: "country", hierarchy_path: 'F2'),
+  Location.new(placename_i18n: { "en": "West Bank" }, location_code:"F1", admin_level: 0, type: "country", hierarchy_path: 'F1'),
+  Location.new(placename_i18n: { "en": "Syria" }, location_code:"A59", admin_level: 1, type: "district", hierarchy_path: 'F4.A59'),
+  Location.new(placename_i18n: { "en": "Jordan" }, location_code:"A58", admin_level: 1, type: "district", hierarchy_path: 'F5.A58'),
+  Location.new(placename_i18n: { "en": "West Bank" }, location_code:"A57", admin_level: 1, type: "district", disabled: true, hierarchy_path: 'F1.A57'),
+  Location.new(placename_i18n: { "en": "Gaza" }, location_code:"A55", admin_level: 1, type: "district", hierarchy_path: 'F2.A55'),
+  Location.new(placename_i18n: { "en": "Lebanon" }, location_code:"A56", admin_level: 1, type: "district", hierarchy_path: 'F3.A56'),
+  Location.new(placename_i18n: { "en": "ZARKA" }, location_code:"A52", admin_level: 1, type: "district", disabled: true, hierarchy_path: 'F5.A52'),
+  Location.new(placename_i18n: { "en": "AMMAN NORTH" }, location_code:"A51", admin_level: 1, type: "district", disabled: true, hierarchy_path: 'F5.A51'),
+  Location.new(placename_i18n: { "en": "IRBED" }, location_code:"A50", admin_level: 1, type: "district", disabled: true, hierarchy_path: 'F5.A50'),
+  Location.new(placename_i18n: { "en": "AMMAN SOUTH" }, location_code:"A49", admin_level: 1, type: "district", disabled: true, hierarchy_path: 'F5.A49'),
+  Location.new(placename_i18n: { "en": "NORTH" }, location_code:"A44", admin_level: 1, type: "district", hierarchy_path: 'F4.A44'),
+  Location.new(placename_i18n: { "en": "CENTRAL" }, location_code:"A43", admin_level: 1, type: "district", hierarchy_path: 'F4.A43'),
+  Location.new(placename_i18n: { "en": "SOUTH" }, location_code:"A42", admin_level: 1, type: "district", hierarchy_path: 'F4.A42'),
+  Location.new(placename_i18n: { "en": "DAMASCUS" }, location_code:"A41", admin_level: 1, type: "district", hierarchy_path: 'F4.A41'),
+  Location.new(placename_i18n: { "en": "BEQAA" }, location_code:"A40", admin_level: 1, type: "district", hierarchy_path: 'F3.A40'),
+  Location.new(placename_i18n: { "en": "North" }, location_code:"A39", admin_level: 1, type: "district", hierarchy_path: 'F3.A39'),
+  Location.new(placename_i18n: { "en": "TYRE" }, location_code:"A38", admin_level: 1, type: "district", hierarchy_path: 'F3.A38'),
+  Location.new(placename_i18n: { "en": "SAIDA" }, location_code:"A37", admin_level: 1, type: "district", hierarchy_path: 'F3.A37'),
+  Location.new(placename_i18n: { "en": "BEIRUT" }, location_code:"A35", admin_level: 1, type: "district", hierarchy_path: 'F3.A35'),
+  Location.new(placename_i18n: { "en": "RAFAH" }, location_code:"A34", admin_level: 1, type: "district", hierarchy_path: 'F2.A34'),
+  Location.new(placename_i18n: { "en": "KHAN YOUNIS" }, location_code:"A33", admin_level: 1, type: "district", hierarchy_path: 'F2.A33'),
+  Location.new(placename_i18n: { "en": "DEIR EL-BALAH" }, location_code:"A32", admin_level: 1, type: "district", hierarchy_path: 'F2.A32'),
+  Location.new(placename_i18n: { "en": "NUSEIRAT" }, location_code:"A31", admin_level: 1, type: "district", hierarchy_path: 'F2.A31'),
+  Location.new(placename_i18n: { "en": "ZEITUN" }, location_code:"A30", admin_level: 1, type: "district", hierarchy_path: 'F2.A30'),
+  Location.new(placename_i18n: { "en": "RIMAL" }, location_code:"A29", admin_level: 1, type: "district", hierarchy_path: 'F2.A29'),
+  Location.new(placename_i18n: { "en": "JABALIA" }, location_code:"A28", admin_level: 1, type: "district", hierarchy_path: 'F2.A28'),
+  Location.new(placename_i18n: { "en": "NABLUS" }, location_code:"A4", admin_level: 1, type: "district", hierarchy_path: 'F1.A4'),
+  Location.new(placename_i18n: { "en": "HEBRON" }, location_code:"A3", admin_level: 1, type: "district", hierarchy_path: 'F1.A3'),
+  Location.new(placename_i18n: { "en": "JERUSALEM" }, location_code:"A2", admin_level: 1, type: "district", hierarchy_path: 'F1.A2'),
+  Location.new(placename_i18n: { "en": "Maghazi" }, location_code:"A54", admin_level: 1, type: "district", hierarchy_path: 'F2.A54'),
+  Location.new(placename_i18n: { "en": "Buraij" }, location_code:"A53", admin_level: 1, type: "district", hierarchy_path: 'F2.A53'),
+  Location.new(placename_i18n: { "en": "Middle Area" }, location_code:"A36", admin_level: 1, type: "district", hierarchy_path: 'F2.A36'),
+  Location.new(placename_i18n: { "en": "SFO" }, location_code:"O86", admin_level: 2, type: "governorate", hierarchy_path: 'F4.A59.O86'),
+  Location.new(placename_i18n: { "en": "JFO" }, location_code:"O85", admin_level: 2, type: "governorate", hierarchy_path: 'F5.A58.O85'),
+  Location.new(placename_i18n: { "en": "WFO" }, location_code:"O69", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A57.O69'),
+  Location.new(placename_i18n: { "en": "GFO" }, location_code:"O67", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A55.O67'),
+  Location.new(placename_i18n: { "en": "LFO" }, location_code:"O68", admin_level: 2, type: "governorate", hierarchy_path: 'F3.A56.O68'),
+  Location.new(placename_i18n: { "en": "Zarqa Area Office" }, location_code:"O65", admin_level: 2, type: "governorate", hierarchy_path: 'F5.A52.O65'),
+  Location.new(placename_i18n: { "en": "North Amman Area Office" }, location_code:"O64", admin_level: 2, type: "governorate", hierarchy_path: 'F5.A51.O64'),
+  Location.new(placename_i18n: { "en": "Irbid Area Office" }, location_code:"O63", admin_level: 2, type: "governorate", hierarchy_path: 'F5.A50.O63'),
+  Location.new(placename_i18n: { "en": "South Amman Area Office" }, location_code:"O66", admin_level: 2, type: "governorate", hierarchy_path: 'F5.A49.O66'),
+  Location.new(placename_i18n: { "en": "Aleppo Area Office" }, location_code:"O61", admin_level: 2, type: "governorate", hierarchy_path: 'F4.A44.O61'),
+  Location.new(placename_i18n: { "en": "Homs Area Office" }, location_code:"O60", admin_level: 2, type: "governorate", hierarchy_path: 'F4.A43.O60'),
+  Location.new(placename_i18n: { "en": "Derra Area Office" }, location_code:"O59", admin_level: 2, type: "governorate", hierarchy_path: 'F4.A42.O59'),
+  Location.new(placename_i18n: { "en": "Damascus C" }, location_code:"O73", admin_level: 2, type: "governorate", disabled: true, hierarchy_path: 'F4.A41.O73'),
+  Location.new(placename_i18n: { "en": "Damascus B Area Office" }, location_code:"O72", admin_level: 2, type: "governorate", hierarchy_path: 'F4.A41.O72'),
+  Location.new(placename_i18n: { "en": "Damascus A Area Office" }, location_code:"O58", admin_level: 2, type: "governorate", hierarchy_path: 'F4.A41.O58'),
+  Location.new(placename_i18n: { "en": "Beqaa Area Office" }, location_code:"O57", admin_level: 2, type: "governorate", hierarchy_path: 'F3.A40.O57'),
+  Location.new(placename_i18n: { "en": "Tripoli Area Office " }, location_code:"O56", admin_level: 2, type: "governorate", hierarchy_path: 'F3.A39.O56'),
+  Location.new(placename_i18n: { "en": "Tyre Area Office" }, location_code:"O55", admin_level: 2, type: "governorate", hierarchy_path: 'F3.A38.O55'),
+  Location.new(placename_i18n: { "en": "Saida Area Office" }, location_code:"O54", admin_level: 2, type: "governorate", hierarchy_path: 'F3.A37.O54'),
+  Location.new(placename_i18n: { "en": "CLA Area Office" }, location_code:"O47", admin_level: 2, type: "governorate", hierarchy_path: 'F3.A35.O47'),
+  Location.new(placename_i18n: { "en": "Rafah West SubArea Office" }, location_code:"O83", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A34.O83'),
+  Location.new(placename_i18n: { "en": "Rafah East SubArea Office" }, location_code:"O46", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A34.O46'),
+  Location.new(placename_i18n: { "en": "Khan Younis East SubArea Office" }, location_code:"O82", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A33.O82'),
+  Location.new(placename_i18n: { "en": "Khan Younis West SubArea Office" }, location_code:"O45", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A33.O45'),
+  Location.new(placename_i18n: { "en": "Maghazi SubArea Office" }, location_code:"O44", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A36.O44'),
+  Location.new(placename_i18n: { "en": "Deir Balah SubArea Office" }, location_code:"O11", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A36.O11'),
+  Location.new(placename_i18n: { "en": "Nuseirat South SubArea Office" }, location_code:"O43", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A36.O43'),
+  Location.new(placename_i18n: { "en": "Buraij SubArea Office" }, location_code:"O10", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A36.O10'),
+  Location.new(placename_i18n: { "en": "Nuseirat North SubArea Office" }, location_code:"O9", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A36.O9'),
+  Location.new(placename_i18n: { "en": "Gaza East SubArea Office" }, location_code:"O42", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A30.O42'),
+  Location.new(placename_i18n: { "en": "Gaza North SubArea Office" }, location_code:"O81", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A29.O81'),
+  Location.new(placename_i18n: { "en": "Gaza West SubArea Office" }, location_code:"O41", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A29.O41'),
+  Location.new(placename_i18n: { "en": "Jabalia South SubArea Office" }, location_code:"O80", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A28.O80'),
+  Location.new(placename_i18n: { "en": "Jabalia North SubArea Office" }, location_code:"O79", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A28.O79'),
+  Location.new(placename_i18n: { "en": "Beit-Hanoun Sub Area Office" }, location_code:"O40", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A28.O40'),
+  Location.new(placename_i18n: { "en": "Tulkarm Office" }, location_code:"O77", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A4.O77'),
+  Location.new(placename_i18n: { "en": "Jenin Office" }, location_code:"O76", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A4.O76'),
+  Location.new(placename_i18n: { "en": "Nablus Area Office" }, location_code:"O16", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A4.O16'),
+  Location.new(placename_i18n: { "en": "Bethlehem Office" }, location_code:"O75", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A3.O75'),
+  Location.new(placename_i18n: { "en": "Hebron Area Office" }, location_code:"O15", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A3.O15'),
+  Location.new(placename_i18n: { "en": "Jerusalem Office II" }, location_code:"O2", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A2.O2'),
+  Location.new(placename_i18n: { "en": "Jerusalem Office I" }, location_code:"O1", admin_level: 2, type: "governorate", hierarchy_path: 'F1.A2.O1'),
+  Location.new(placename_i18n: { "en": "Gaza South SubArea Office" }, location_code:"O84", admin_level: 2, type: "governorate", hierarchy_path: 'F2.A30.O84'),
+]
+
+Location.locations_by_code = locations.map { |l| [l.location_code, l] }.to_h
+locations.each(&:name_from_hierarchy)
+locations.each do |loc|
+  puts "Creating location #{loc.location_code}"
+  loc.save!
+rescue ActiveRecord::RecordNotUnique
+  puts "Skipping. Location #{loc.location_code} already exists!"
+rescue StandardError => e
+  puts "Cannot create #{loc.location_code}. Error #{e.message}"
+  raise e
+end
