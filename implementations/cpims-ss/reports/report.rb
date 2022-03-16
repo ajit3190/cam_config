@@ -2,12 +2,6 @@ Report.create_or_update!(
   {
     name_en: "Cases by Follow up by week",
     description_en: "",
-    name_fr: "Cases by Follow up by week",
-    description_fr: "",
-    name_ar: "Cases by Follow up by week",
-    description_ar: "",
-    name_es: "Cases by Follow up by week",
-    description_es: "",
     record_type: "reportable_follow_up",
     aggregate_by: [
       "owned_by_agency"
@@ -98,12 +92,6 @@ Report.create_or_update!(
   {
     name_en: "FTR Caseload Summary",
     description_en: "Number of FTR Cases",
-    name_fr: "FTR Caseload Summary",
-    description_fr: "",
-    name_ar: "FTR Caseload Summary",
-    description_ar: "",
-    name_es: "FTR Caseload Summary",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by",
@@ -152,12 +140,6 @@ Report.create_or_update!(
   {
     name_en: "Cases by  reunification status by year",
     description_en: "New cases reunified during the year",
-    name_fr: "Cases by  reunification status by week",
-    description_fr: "",
-    name_ar: "Cases by  reunification status by week",
-    description_ar: "",
-    name_es: "Cases by  reunification status by week",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "tracing_status"
@@ -226,12 +208,6 @@ Report.create_or_update!(
   {
     name_en: "CASELOAD1",
     description_en: "Number of cases by caseworkers",
-    name_fr: "CASELOAD1",
-    description_fr: "",
-    name_ar: "CASELOAD1",
-    description_ar: "",
-    name_es: "CASELOAD1",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "location_current3"
@@ -273,12 +249,6 @@ Report.create_or_update!(
   {
     name_en: "Reunified cases",
     description_en: "",
-    name_fr: "Reunified cases",
-    description_fr: "",
-    name_ar: "Reunified cases",
-    description_ar: "",
-    name_es: "Reunified cases",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by_agency"
@@ -314,12 +284,6 @@ Report.create_or_update!(
   {
     name_en: "Services Provided",
     description_en: "Sum of all Services undertaken for this Quarter",
-    name_fr: "Services Provided",
-    description_fr: "",
-    name_ar: "Services Provided",
-    description_ar: "",
-    name_es: "Services Provided",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "owned_by_agency"
@@ -345,12 +309,6 @@ Report.create_or_update!(
   {
     name_en: "Monthly Case Summary",
     description_en: "",
-    name_fr: "Monthly Case Summary",
-    description_fr: "",
-    name_ar: "Monthly Case Summary",
-    description_ar: "",
-    name_es: "Monthly Case Summary",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "location_interview2"
@@ -387,12 +345,6 @@ Report.create_or_update!(
   {
     name_en: "open cases",
     description_en: "open cases by case workers",
-    name_fr: "open cases",
-    description_fr: "",
-    name_ar: "open cases",
-    description_ar: "",
-    name_es: "open cases",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by"
@@ -447,12 +399,6 @@ Report.create_or_update!(
   {
     name_en: "Child Labor",
     description_en: "",
-    name_fr: "Child Labor",
-    description_fr: "",
-    name_ar: "Child Labor",
-    description_ar: "",
-    name_es: "Child Labor",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "location_current1",
@@ -495,12 +441,6 @@ Report.create_or_update!(
   {
     name_en: "Reunified Cases",
     description_en: "",
-    name_fr: "Reunified Cases",
-    description_fr: "",
-    name_ar: "Reunified Cases",
-    description_ar: "",
-    name_es: "Reunified Cases",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by_agency"
@@ -595,12 +535,6 @@ Report.create_or_update!(
   {
     name_en: "CWSNs",
     description_en: "",
-    name_fr: "CWSNs",
-    description_fr: "",
-    name_ar: "CWSNs",
-    description_ar: "",
-    name_es: "CWSNs",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "sex"
@@ -643,12 +577,6 @@ Report.create_or_update!(
   {
     name_en: "CEF Report",
     description_en: "",
-    name_fr: "CEF Report",
-    description_fr: "",
-    name_ar: "CEF Report",
-    description_ar: "",
-    name_es: "CEF Report",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "protection_concerns"
@@ -692,12 +620,6 @@ Report.create_or_update!(
   {
     name_en: "Analysis of Report",
     description_en: "",
-    name_fr: "Analysis of Report",
-    description_fr: "",
-    name_ar: "Analysis of Report",
-    description_ar: "",
-    name_es: "Analysis of Report",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by_agency"
@@ -797,12 +719,6 @@ Report.create_or_update!(
   {
     name_en: "Follow-Up Q3",
     description_en: "From July to Sept",
-    name_fr: "Follow-Up Q3",
-    description_fr: "",
-    name_ar: "Follow-Up Q3",
-    description_ar: "",
-    name_es: "Follow-Up Q3",
-    description_es: "",
     record_type: "reportable_follow_up",
     aggregate_by: [
       "owned_by_agency"
@@ -839,12 +755,6 @@ Report.create_or_update!(
   {
     name_en: "Services Provided Q3",
     description_en: "From Jan-Sept",
-    name_fr: "Services Provided Q3",
-    description_fr: "",
-    name_ar: "Services Provided Q3",
-    description_ar: "",
-    name_es: "Services Provided Q3",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "owned_by_agency"
@@ -885,12 +795,6 @@ Report.create_or_update!(
   {
     name_en: "New Registrations ",
     description_en: "",
-    name_fr: "New Registrations ",
-    description_fr: "",
-    name_ar: "New Registrations ",
-    description_ar: "",
-    name_es: "New Registrations ",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by_agency"
@@ -926,12 +830,6 @@ Report.create_or_update!(
   {
     name_en: "Weekly Report",
     description_en: "",
-    name_fr: "Weekly Report",
-    description_fr: "",
-    name_ar: "Weekly Report",
-    description_ar: "",
-    name_es: "Weekly Report",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by_agency",

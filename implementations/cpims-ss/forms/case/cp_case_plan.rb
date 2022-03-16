@@ -169,12 +169,6 @@ FormSection.create_or_update!(
   {
     name_en: "Case Plan",
     description_en: "Case Plan",
-    name_fr: "",
-    description_fr: "",
-    name_ar: "",
-    description_ar: "",
-    name_es: "",
-    description_es: "",
     unique_id: "cp_case_plan",
     parent_form: "case",
     visible: true,

@@ -33,32 +33,8 @@ create_or_update_system_setting(
     notification_email_enabled: true,
     welcome_email_enabled: true,
     welcome_email_text_en: "Click link below to log into Primero.  Please see your system administrator if you have any issues.",
-    welcome_email_text_fr: "",
-    welcome_email_text_ar: "",
-    welcome_email_text_es: "",
     base_language: "en",
     approvals_labels_en: {
-      assessment: "BIA",
-      case_plan: "Case Plan",
-      closure: "Closure",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
-    },
-    approvals_labels_fr: {
-      assessment: "BIA",
-      case_plan: "Plan d'action",
-      closure: "Clôture",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
-    },
-    approvals_labels_ar: {
-      assessment: "BIA",
-      case_plan: "خطة الحالة",
-      closure: "اغلاق ملف الحالة",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
-    },
-    approvals_labels_es: {
       assessment: "BIA",
       case_plan: "Case Plan",
       closure: "Closure",
