@@ -1,9 +1,13 @@
 FormSection.create_or_update!(
   {
-    name_en: "Assessment",
-    description_en: "Assessment form",
-    name_km: "ការ​ប៉ាន់​ប្រមាណ",
-    description_km: "ទម្រង់​ការ​ប៉ាន់ប្រមាណ",
+    name_i18n: {
+      en: "Assessment",
+      km: "ការ​ប៉ាន់​ប្រមាណ"
+    },
+    description_i18n: {
+      en: "Assessment form",
+      km: "ទម្រង់​ការ​ប៉ាន់ប្រមាណ"
+    },
     unique_id: "assessment",
     parent_form: "case",
     visible: false,
@@ -27,6 +31,7 @@ FormSection.create_or_update!(
     fields_attributes: [
       {
         name: "assessment_requested_by",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
@@ -34,9 +39,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Assessment requested by",
-        display_name_km: "បាន​ស្នើសុំ​ការ​ប៉ាន់ប្រមាណ​ដោយ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Assessment requested by",
+          km: "បាន​ស្នើសុំ​ការ​ប៉ាន់ប្រមាណ​ដោយ"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -51,11 +57,14 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: false,
         disabled: false,
-        display_name_en: "Assessment requested on",
-        help_text_en: "This field is used for the Workflow status.",
-        display_name_km: "បាន​ស្នើសុំ​ការ​ប៉ាន់​ប្រមាណ​នៅ",
-        help_text_km: "កន្លែង​បញ្ចូល​នេះ​ត្រូវ​បាន​ប្រើ​សម្រាប់​ស្ថានភាព​លំហូ​រការងារ។",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Assessment requested on",
+          km: "បាន​ស្នើសុំ​ការ​ប៉ាន់​ប្រមាណ​នៅ"
+        },
+        help_text_i18n: {
+          en: "This field is used for the Workflow status.",
+          km: "កន្លែង​បញ្ចូល​នេះ​ត្រូវ​បាន​ប្រើ​សម្រាប់​ស្ថានភាព​លំហូ​រការងារ។"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -70,9 +79,10 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: false,
         disabled: false,
-        display_name_en: "Date Case Plan Due",
-        display_name_km: "កាលបរិច្ឆេទ​ដល់​កំណត់​ផែនការករណី",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date Case Plan Due",
+          km: "កាលបរិច្ឆេទ​ដល់​កំណត់​ផែនការករណី"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",

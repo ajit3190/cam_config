@@ -1,7 +1,9 @@
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "A Greater Hope",
+    name_i18n: {
+      en: "A Greater Hope"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "agh",
@@ -12,7 +14,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Angkor Hospital For Children",
+    name_i18n: {
+      en: "Angkor Hospital For Children"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "ahc",
@@ -23,7 +27,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Anjali House",
+    name_i18n: {
+      en: "Anjali House"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "ajl",
@@ -34,7 +40,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Auscam Freedom Project",
+    name_i18n: {
+      en: "Auscam Freedom Project"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "auscam",
@@ -48,7 +56,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Bahamas Red Cross",
+    name_i18n: {
+      en: "Bahamas Red Cross"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "brc",
@@ -62,7 +72,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "CCCU",
+    name_i18n: {
+      en: "CCCU"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "cccu",
@@ -73,7 +85,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Cambodian Children's Trust",
+    name_i18n: {
+      en: "Cambodian Children's Trust"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "cct",
@@ -95,7 +109,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Children's Future International",
+    name_i18n: {
+      en: "Children's Future International"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "cfi",
@@ -112,7 +128,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Children In Families",
+    name_i18n: {
+      en: "Children In Families"
+    }
     order: 0,
     logo_enabled: false,
     agency_code: "cif",
@@ -129,7 +147,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Connect Street Services",
+    name_i18n: {
+      en: "Connect Street Services"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "css",
@@ -144,7 +164,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Cambodian Volunteers For Community Development Organization",
+    name_i18n: {
+      en: "Cambodian Volunteers For Community Development Organization"
+    }
     order: 0,
     logo_enabled: false,
     agency_code: "cvcd",
@@ -158,10 +180,14 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "MoSVY",
-    description_en: "",
-    name_km: "",
-    description_km: "",
+    name_i18n: {
+      en: "MoSVY",
+      km: ""
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "cwd",
@@ -172,10 +198,14 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: true,
-    name_en: "Demo",
-    description_en: "",
-    name_km: "",
-    description_km: "",
+    name_i18n: {
+      en: "Demo",
+      km: ""
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "demo",
@@ -194,10 +224,14 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "DoSVY",
-    description_en: "",
-    name_km: "",
-    description_km: "",
+    name_i18n: {
+      en: "DoSVY",
+      km: ""
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
     order: 0,
     logo_enabled: true,
     agency_code: "dosvy",
@@ -208,7 +242,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Flame Cambodia",
+    name_i18n: {
+      en: "Flame Cambodia"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "fco",
@@ -219,7 +255,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Friend International",
+    name_i18n: {
+      en: "Friend International"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "fit",
@@ -230,7 +268,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "First Step Cambodia",
+    name_i18n: {
+      en: "First Step Cambodia"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "fsc",
@@ -244,7 +284,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Friends International",
+    name_i18n: {
+      en: "Friends International"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "fsi",
@@ -255,7 +297,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Free To Shine",
+    name_i18n: {
+      en: "Free To Shine"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "fts",
@@ -269,7 +313,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Global Child Advocates",
+    name_i18n: {
+      en: "Global Child Advocates"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "gca",
@@ -280,7 +326,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "GENESIS COMMUNITY OF TRANSFORMATION",
+    name_i18n: {
+      en: "GENESIS COMMUNITY OF TRANSFORMATION"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "gct",
@@ -291,7 +339,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Hope for Justice",
+    name_i18n: {
+      en: "Hope for Justice"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "hfj",
@@ -306,7 +356,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Home of Love Cambodia",
+    name_i18n: {
+      en: "Home of Love Cambodia"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "hol",
@@ -317,7 +369,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Holt International Cambodia",
+    name_i18n: {
+      en: "Holt International Cambodia"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "holt",
@@ -332,7 +386,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "ICF",
+    name_i18n: {
+      en: "ICF"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "icf",
@@ -343,7 +399,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Indochina Starfish Foundation",
+    name_i18n: {
+      en: "Indochina Starfish Foundation"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "isf",
@@ -358,7 +416,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Kinnected Myanmar",
+    name_i18n: {
+      en: "Kinnected Myanmar"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "kmo",
@@ -374,7 +434,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "KOMAR RIKREAY CAMBODIA",
+    name_i18n: {
+      en: "KOMAR RIKREAY CAMBODIA"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "kmr",
@@ -390,7 +452,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Love Without Boundary",
+    name_i18n: {
+      en: "Love Without Boundary"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "lwb",
@@ -401,7 +465,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Monitoring and Evaluation Dashboard",
+    name_i18n: {
+      en: "Monitoring and Evaluation Dashboard"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "mande",
@@ -412,7 +478,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Mother's Heart Organisation",
+    name_i18n: {
+      en: "Mother's Heart Organisation"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "mho",
@@ -427,7 +495,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "M'lup Russey",
+    name_i18n: {
+      en: "M'lup Russey"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "mrs",
@@ -438,7 +508,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Mith Samlanh",
+    name_i18n: {
+      en: "Mith Samlanh"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "msl",
@@ -452,7 +524,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "M'lop Tapang",
+    name_i18n: {
+      en: "M'lop Tapang"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "mtp",
@@ -474,7 +548,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "OSCaR",
+    name_i18n: {
+      en: "OSCaR"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "my",
@@ -488,7 +564,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Myanmar training",
+    name_i18n: {
+      en: "Myanmar training"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "myan",
@@ -502,7 +580,9 @@ Agency.create_or_update!(
     name_en: "New Smile",
     order: 0,
     logo_enabled: false,
-    agency_code: "newsmile",
+    name_i18n: {
+      en: "New Smile"
+    },
     services: [
       "family_based_care",
       "social_work_case_work"
@@ -514,7 +594,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Pepy Empowering Youth",
+    name_i18n: {
+      en: "Pepy Empowering Youth"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "pepy",
@@ -529,7 +611,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Rok Kern",
+    name_i18n: {
+      en: "Rok Kern"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "rok",
@@ -540,7 +624,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Stellar Children Care Organization",
+    name_i18n: {
+      en: "Stellar Children Care Organization"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "scc",
@@ -556,7 +642,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Safe Haven",
+    name_i18n: {
+      en: "Safe Haven"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "shk",
@@ -574,7 +662,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Sepheo",
+    name_i18n: {
+      en: "Sepheo"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "spo",
@@ -591,7 +681,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Sunshine Cambodia",
+    name_i18n: {
+      en: "Sunshine Cambodia"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "ssc",
@@ -606,7 +698,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "This Life Cambodia",
+    name_i18n: {
+      en: "This Life Cambodia"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "tlc",
@@ -623,7 +717,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "The Mission Worldwide",
+    name_i18n: {
+      en: "The Mission Worldwide"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "tmw",
@@ -645,7 +741,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Tutorials",
+    name_i18n: {
+      en: "Tutorials"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "tutorials",
@@ -663,7 +761,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "UNICEF",
+    name_i18n: {
+      en: "UNICEF"
+    },
     order: 1,
     logo_enabled: false,
     agency_code: "UN",
@@ -674,7 +774,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Voice",
+    name_i18n: {
+      en: "Voice"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "voice",
@@ -694,7 +796,9 @@ Agency.create_or_update!(
 Agency.create_or_update!(
   {
     disabled: false,
-    name_en: "Women",
+    name_i18n: {
+      en: "Women"
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "wmo",

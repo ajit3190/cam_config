@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Child's Preferences",
-    description_en: "Child's Preferences Subform",
-    name_km: "ចំណង់ចំណូល​ចិត្ត​របស់​កុមារ Nested",
-    description_km: "ទម្រង់​រង​ចំណង់ចំណូលចិត្ត​របស់​កុមារ",
     unique_id: "child_preferences_section",
+    name_i18n: {
+      en: "Nested Child's Preferences",
+      km: "ចំណង់ចំណូល​ចិត្ត​របស់​កុមារ Nested"
+    },
+    description_i18n: {
+      en: "Child's Preferences Subform",
+      km: "ទម្រង់​រង​ចំណង់ចំណូលចិត្ត​របស់​កុមារ"
+    },
     parent_form: "case",
     visible: false,
     order: 10,
@@ -17,12 +21,13 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     collapsed_field_names: [
       "wishes_preference_relocated",
       "wishes_name"
@@ -30,164 +35,240 @@ FormSection.create_or_update!(
     fields_attributes: [
       {
         name: "wishes_name",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Person(s) child wishes to locate",
-        display_name_km: "មនុស្ស​ដែល​កុមារ​ចង់​ផ្លាស់ទៅ​នៅ​ជា​មួយ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Person(s) child wishes to locate",
+          km: "មនុស្ស​ដែល​កុមារ​ចង់​ផ្លាស់ទៅ​នៅ​ជា​មួយ"
+        },
+        order: 0,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 1630,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "child_preferences_section"
       },
       {
         name: "wishes_preference_relocated",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Preference of the child to be relocated with this person",
-        display_name_km: "ចំណូល​ចិត្ត​របស់​កុមារ​​ត្រូវ​ផ្លាស់ទី​នៅ​ជា​មួយ​មនុស្ស​ម្នាក់នេះ",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Preference of the child to be relocated with this person",
+          km: "ចំណូល​ចិត្ត​របស់​កុមារ​​ត្រូវ​ផ្លាស់ទី​នៅ​ជា​មួយ​មនុស្ស​ម្នាក់នេះ"
+        },
+        option_strings_text_i18n: [
           {
             id: "first_choice",
-            display_text: "First choice"
+            display_text: {
+              en: "First choice",
+              km: "ជម្រើស​ទីមួយ"
+            }
           },
           {
             id: "second_choice",
-            display_text: "Second choice"
+            display_text: {
+              en: "Second choice",
+              km: "ជម្រើស​ទីពីរ"
+            }
           },
           {
             id: "third_choice",
-            display_text: "Third choice"
+            display_text: {
+              en: "Third choice",
+              km: "ជម្រើស​ទីបី"
+            }
           }
         ],
-        option_strings_text_km: [
-          {
-            id: "first_choice",
-            display_text: "ជម្រើស​ទីមួយ"
-          },
-          {
-            id: "second_choice",
-            display_text: "ជម្រើស​ទីពីរ"
-          },
-          {
-            id: "third_choice",
-            display_text: "ជម្រើស​ទីបី"
-          }
-        ],
-        multi_select: false,
+        order: 1,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 1630,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "child_preferences_section"
       },
       {
         name: "wishes_relationship",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What is this person's relationship to the child?",
-        display_name_km: "តើ​មនុស្ស​ម្នាក់នេះ​មាន​ទំនាក់ទំនង​អ្វី​ជា​មួយ​កុមារ?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "What is this person's relationship to the child?",
+          km: "តើ​មនុស្ស​ម្នាក់នេះ​មាន​ទំនាក់ទំនង​អ្វី​ជា​មួយ​កុមារ?"
+        },
         option_strings_source: "lookup lookup-family-relationship",
+        order: 2,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_address",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Last Known Address",
-        display_name_km: "អាសយដ្ឋាន​ដែល​បាន​ស្គាល់​ចុងក្រោយ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Last Known Address",
+          km: "អាសយដ្ឋាន​ដែល​បាន​ស្គាល់​ចុងក្រោយ"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_landmark",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Landmark",
-        display_name_km: "ទីតាំងសម្គាល់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Landmark",
+          km: "ទីតាំងសម្គាល់"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_location",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Last Known Location",
-        display_name_km: "ទីតាំង​ដែល​បាន​ស្គាល់​ចុងក្រោយ",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Last Known Location",
+          km: "ទីតាំង​ដែល​បាន​ស្គាល់​ចុងក្រោយ"
+        },
         option_strings_source: "Location",
+        order: 5,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_telephone",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Telephone",
-        display_name_km: "លេខទូរសព្ទ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Telephone",
+          km: "លេខទូរសព្ទ"
+        },
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      }
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Child's Wishes",
-    description_en: "Child's Wishes",
-    name_km: "បំណង​របស់​កុមារ",
-    description_km: "បំណង​របស់​កុមារ",
     unique_id: "child_wishes",
+    name_i18n: {
+      en: "Child's Wishes",
+      km: "បំណង​របស់​កុមារ"
+    },
+    description_i18n: {
+      en: "Child's Wishes",
+      km: "បំណង​របស់​កុមារ"
+    },
     parent_form: "case",
     visible: false,
     order: 10,
@@ -201,397 +282,559 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "assessment_requested_by",
+        type: "text_field",
+        multi_select: false,
         visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Assessment requested by",
-        display_name_km: "បាន​ស្នើសុំ​ការ​ប៉ាន់ប្រមាណ​ដោយ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Assessment requested by",
+          km: "បាន​ស្នើសុំ​ការ​ប៉ាន់ប្រមាណ​ដោយ"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "assessment_requested_on",
+        type: "date_field",
+        multi_select: false,
         visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: false,
         disabled: false,
-        display_name_en: "Assessment requested on",
-        help_text_en: "This field is used for the Workflow status.",
-        display_name_km: "បាន​ស្នើសុំ​ការ​ប៉ាន់​ប្រមាណ​នៅ",
-        help_text_km: "កន្លែង​បញ្ចូល​នេះ​ត្រូវ​បាន​ប្រើ​សម្រាប់​ស្ថានភាព​លំហូ​រការងារ។",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Assessment requested on",
+          km: "បាន​ស្នើសុំ​ការ​ប៉ាន់​ប្រមាណ​នៅ"
+        },
+        help_text_i18n: {
+          en: "This field is used for the Workflow status.",
+          km: "កន្លែង​បញ្ចូល​នេះ​ត្រូវ​បាន​ប្រើ​សម្រាប់​ស្ថានភាព​លំហូ​រការងារ។"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "case_plan_due_date",
+        type: "date_field",
+        multi_select: false,
         visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: false,
         disabled: false,
-        display_name_en: "Date Case Plan Due",
-        display_name_km: "កាលបរិច្ឆេទ​ផុត​​កំណត់​ផែនការករណី",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date Case Plan Due",
+          km: "កាលបរិច្ឆេទ​ផុត​​កំណត់​ផែនការករណី"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_child_family_tracing",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does child want to trace family members?",
-        display_name_km: "តើ​កុមារ​ចង់​ស្វែងរក​សមាជិក​គ្រួសារ​ដែ​រឬទេ?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Does child want to trace family members?",
+          km: "តើ​កុមារ​ចង់​ស្វែងរក​សមាជិក​គ្រួសារ​ដែ​រឬទេ?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_reason_no_tracing",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "If the child does NOT want family tracing , explain why",
-        display_name_km: "ប្រសិន​បើ​កុមារ​មិន​ចង់​​ស្វែងរក​គ្រួសារ សូម​ពន្យល់​អំពី​មូលហេតុ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If the child does NOT want family tracing , explain why",
+          km: "ប្រសិន​បើ​កុមារ​មិន​ចង់​​ស្វែងរក​គ្រួសារ សូម​ពន្យល់​អំពី​មូលហេតុ"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_reunification",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Does the child want family reunification?",
-        display_name_km: "តើ​កុមារ​ចង់​ឲ្យ​មាន​ការ​បង្រួមបង្រួម​គ្រួសារ​ដែ​រឬទេ?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Does the child want family reunification?",
+          km: "តើ​កុមារ​ចង់​ឲ្យ​មាន​ការ​បង្រួមបង្រួម​គ្រួសារ​ដែ​រឬទេ?"
+        },
+        option_strings_text_i18n: [
           {
             id: "yes_as_soon_as_possible",
-            display_text: "Yes, as soon as possible"
+            display_text: {
+              en: "Yes, as soon as possible",
+              km: "បាទ/ចាស ឲ្យ​បាន​ឆាប់​តាម​ដែលអាច​ធ្វើ​បាន"
+            }
           },
           {
             id: "yes_but_later",
-            display_text: "Yes, but later"
+            display_text: {
+              en: "Yes, but later",
+              km: "បាទ/ចាស ប៉ុន្តែ​នៅ​ពេល​ក្រោយ"
+            }
           },
           {
             id: "not_sure",
-            display_text: "Not sure"
+            display_text: {
+              en: "Not sure",
+              km: "មិន​ប្រាកដ​"
+            }
           },
           {
             id: "no",
-            display_text: "No"
+            display_text: {
+              en: "No",
+              km: "ទេ"
+            }
           }
         ],
-        option_strings_text_km: [
-          {
-            id: "yes_as_soon_as_possible",
-            display_text: "បាទ/ចាស ឲ្យ​បាន​ឆាប់​តាម​ដែលអាច​ធ្វើ​បាន"
-          },
-          {
-            id: "yes_but_later",
-            display_text: "បាទ/ចាស ប៉ុន្តែ​នៅ​ពេល​ក្រោយ"
-          },
-          {
-            id: "not_sure",
-            display_text: "មិន​ប្រាកដ​"
-          },
-          {
-            id: "no",
-            display_text: "ទេ"
-          }
-        ],
-        multi_select: false,
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_reason_no_reunification",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "If 'No', 'Not sure', or 'Yes, but later', explain why",
-        display_name_km: "ប្រសិនបើ 'ទេ', 'មិនប្រាកដ' ឬ 'បាទ/ចាស​ ប៉ុន្តែ​ពេលក្រោយ' សូម​ពន្យល់​អំពី​មូលហេតុ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If 'No', 'Not sure', or 'Yes, but later', explain why",
+          km: "ប្រសិនបើ 'ទេ', 'មិនប្រាកដ' ឬ 'បាទ/ចាស​ ប៉ុន្តែ​ពេលក្រោយ' សូម​ពន្យល់​អំពី​មូលហេតុ"
+        },
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_contacted",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Has the child heard from/been in contact with any relatives?",
-        display_name_km: "តើ​កុមារ​បាន​ទទួល​ដំណឹង/មាន​ទំនាក់ទំនង​ជា​មួយ​សាច់ញាតិដែរ​ឬទេ?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Has the child heard from/been in contact with any relatives?",
+          km: "តើ​កុមារ​បាន​ទទួល​ដំណឹង/មាន​ទំនាក់ទំនង​ជា​មួយ​សាច់ញាតិដែរ​ឬទេ?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 7,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_contacted_details",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Please Give Details",
-        display_name_km: "សូម​ផ្ដល់​ព័ត៌មាន​លម្អិត",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Please Give Details",
+          km: "សូម​ផ្ដល់​ព័ត៌មាន​លម្អិត"
+        },
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "child_preferences_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Child's Preferences",
-        display_name_km: "ចំណង់ចំណូល​ចិត្ត​របស់​កុមារ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Child's Preferences",
+          km: "ចំណង់ចំណូល​ចិត្ត​របស់​កុមារ"
+        },
+        order: 9,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "child_preferences_section"
       },
       {
         name: "wishes_care_arrangement_desired",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the child wish to continue in the current care arrangement?",
-        display_name_km: "តើ​កុមារ​​ចង់​បន្ត​ស្នាក់​នៅ​ក្នុង​ការរៀបចំ​ថែទាំ​បច្ចុប្បន្ន​ដែរ​ឬទេ?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Does the child wish to continue in the current care arrangement?",
+          km: "តើ​កុមារ​​ចង់​បន្ត​ស្នាក់​នៅ​ក្នុង​ការរៀបចំ​ថែទាំ​បច្ចុប្បន្ន​ដែរ​ឬទេ?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 10,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_reason_no_care_arrangement",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "If the child does NOT want to stay in the current care arrangement, explain why",
-        display_name_km: "ប្រសិន​បើ​កុមារ​មិន​ចង់​ស្នាក់នៅ​ក្នុងការ​រៀបចំ​ថែទាំ​បច្ចុប្បន្ន សូម​ពន្យល់​អំពី​មូលហេតុ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If the child does NOT want to stay in the current care arrangement, explain why",
+          km: "ប្រសិន​បើ​កុមារ​មិន​ចង់​ស្នាក់នៅ​ក្នុងការ​រៀបចំ​ថែទាំ​បច្ចុប្បន្ន សូម​ពន្យល់​អំពី​មូលហេតុ"
+        },
+        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_care_arrangement_type_desired",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Type of care arrangement child wishes to have",
-        display_name_km: "ប្រភេទ​ការ​រៀបចំ​ថែទាំ​ដែល​កុមារ​ចង់​ឲ្យ​មាន",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Type of care arrangement child wishes to have",
+          km: "ប្រភេទ​ការ​រៀបចំ​ថែទាំ​ដែល​កុមារ​ចង់​ឲ្យ​មាន"
+        },
+        option_strings_text_i18n: [
           {
             id: "independent_living",
-            display_text: "Independent Living"
+            display_text: {
+              en: "Independent Living",
+              km: "ការ​រស់នៅ​ដោយ​ឯករាជ្យ"
+            }
           },
           {
             id: "alternative_interim_care",
-            display_text: "Alternative interim care"
+            display_text: {
+              en: "Alternative interim care",
+              km: "ការ​ថែទាំ​បណ្ដោះអាសន្ន​ជំនួស"
+            }
           },
           {
             id: "with_husband_wife_partner",
-            display_text: "With husband/wife/partner"
+            display_text: {
+              en: "With husband/wife/partner",
+              km: "ជា​មួយ​ប្ដី/ប្រពន្ធ/ដៃគូ"
+            }
           },
           {
             id: "other_family",
-            display_text: "Other family"
+            display_text: {
+              en: "Other family",
+              km: "គ្រួសារ​ផ្សេង"
+            }
           },
           {
             id: "dont_know",
-            display_text: "Don't know"
+            display_text: {
+              en: "Don't know",
+              km: "មិន​ដឹង"
+            }
           },
           {
             id: "other",
-            display_text: "Other"
+            display_text: {
+              en: "Other",
+              km: "ផ្សេងៗ"
+            }
           }
         ],
-        option_strings_text_km: [
-          {
-            id: "independent_living",
-            display_text: "ការ​រស់នៅ​ដោយ​ឯករាជ្យ"
-          },
-          {
-            id: "alternative_interim_care",
-            display_text: "ការ​ថែទាំ​បណ្ដោះអាសន្ន​ជំនួស"
-          },
-          {
-            id: "with_husband_wife_partner",
-            display_text: "ជា​មួយ​ប្ដី/ប្រពន្ធ/ដៃគូ"
-          },
-          {
-            id: "other_family",
-            display_text: "គ្រួសារ​ផ្សេង"
-          },
-          {
-            id: "dont_know",
-            display_text: "មិន​ដឹង"
-          },
-          {
-            id: "other",
-            display_text: "ផ្សេងៗ"
-          }
-        ],
-        multi_select: false,
+        order: 12,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_care_arrangement_type_other",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "If type of care arrangement child wishes to have is Other, specify",
-        display_name_km: "ប្រសិន​បើប្រភេទ​​ការរៀបចំ​ថែទាំ​ដែល​កុមារ​ចង់​បាន​ គឺ​ផ្សេងៗ សូម​បញ្ជាក់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If type of care arrangement child wishes to have is Other, specify",
+          km: "ប្រសិន​បើប្រភេទ​​ការរៀបចំ​ថែទាំ​ដែល​កុមារ​ចង់​បាន​ គឺ​ផ្សេងៗ សូម​បញ្ជាក់"
+        },
+        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_location_plan_live",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Where does the child wish/plan to live?",
-        display_name_km: "តើ​កុមារ​ចង់/មានគម្រោង​រស់នៅ​ទីណា?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Where does the child wish/plan to live?",
+          km: "តើ​កុមារ​ចង់/មានគម្រោង​រស់នៅ​ទីណា?"
+        },
         option_strings_source: "Location",
+        order: 14,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_address_plan_live",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Street where does the child wish/plan to live?",
-        display_name_km: "អាសយដ្ឋាន​ផ្លូវ​ដែល​កុមារ​ចង់/មាន​កម្រោង​រស់​នៅ?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Street where does the child wish/plan to live?",
+          km: "អាសយដ្ឋាន​ផ្លូវ​ដែល​កុមារ​ចង់/មាន​កម្រោង​រស់​នៅ?"
+        },
+        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "wishes_landmarks_plan_live",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Landmarks where does the child wish/plan to live?",
-        display_name_km: "ទីតាំង​ដែល​កុមារ​ចង់/មាន​កម្រោង​រស់​នៅ?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Landmarks where does the child wish/plan to live?",
+          km: "ទីតាំង​ដែល​កុមារ​ចង់/មាន​កម្រោង​រស់​នៅ?"
+        },
+        order: 16,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      }
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

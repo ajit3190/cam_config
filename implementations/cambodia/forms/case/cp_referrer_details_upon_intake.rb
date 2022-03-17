@@ -1,8 +1,12 @@
 FormSection.create_or_update!(
   {
-    name_en: "Referrer Details",
-    description_en: "Referrer Details upon Intake",
     unique_id: "cp_referrer_details_upon_intake",
+    name_i18n: {
+      en: "Referrer Details"
+    },
+    description_i18n: {
+      en: "Referrer Details upon Intake"
+    },
     parent_form: "case",
     visible: false,
     order: 40,
@@ -16,12 +20,17 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false
+    fields_attributes: [],
+    module_ids: [
+      "primeromodule-cp"
+    ]
   }
 )
 

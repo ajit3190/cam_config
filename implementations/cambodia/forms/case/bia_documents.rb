@@ -1,7 +1,11 @@
 FormSection.create_or_update!(
   {
-    name_en: "BIA Records",
-    description_en: "BIA Records",
+    name_i18n: {
+      en: "BIA Records"
+    },
+    description_i18n: {
+      en: "BIA Records"
+    },
     unique_id: "bia_documents",
     parent_form: "case",
     visible: false,
@@ -32,8 +36,10 @@ FormSection.create_or_update!(
         type: "document_upload_box",
         editable: false,
         disabled: false,
-        display_name_en: "BIA Document",
-        multi_select: false,
+        display_name_i18n: {
+          en: "BIA Document"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",

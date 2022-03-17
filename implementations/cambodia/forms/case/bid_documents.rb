@@ -1,7 +1,11 @@
 FormSection.create_or_update!(
   {
-    name_en: "BID Records",
-    description_en: "BID Records",
+    name_i18n: {
+      en: "BID Records"
+    },
+    description_i18n: {
+      en: "BID Records"
+    },
     unique_id: "bid_documents",
     parent_form: "case",
     visible: false,
@@ -32,8 +36,9 @@ FormSection.create_or_update!(
         type: "document_upload_box",
         editable: false,
         disabled: false,
-        display_name_en: "BID Document",
-        multi_select: false,
+        display_name_i18n: {
+          en: "BID Document"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",

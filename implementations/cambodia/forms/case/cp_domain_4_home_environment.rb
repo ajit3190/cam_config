@@ -1,8 +1,12 @@
 FormSection.create_or_update!(
   {
-    name_en: "Domain 4 - Home Environment",
-    description_en: "",
     unique_id: "cp_domain_4_home_environment",
+    name_i18n: {
+      en: "Domain 4 - Home Environment"
+    },
+    description_i18n: {
+      en: ""
+    },
     parent_form: "case",
     visible: true,
     order: 30,
@@ -16,12 +20,15 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false
+    fields_attributes: [],
+    module_ids: []
   }
 )
 

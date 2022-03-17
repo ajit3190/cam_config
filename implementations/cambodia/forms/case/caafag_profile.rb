@@ -1,9 +1,13 @@
 FormSection.create_or_update!(
   {
-    name_en: "CAAFAG Profile",
-    description_en: "CAAFAG Profile",
-    name_km: "កម្រង​ព័ត៌មាន CAAFAG",
-    description_km: "កម្រង​ព័ត៌មាន CAAFAG",
+    name_i18n: {
+      en: "CAAFAG Profile",
+      km: "កម្រង​ព័ត៌មាន CAAFAG"
+    },
+    description_i18n: {
+      en: "CAAFAG Profile",
+      km: "កម្រង​ព័ត៌មាន CAAFAG"
+    },
     unique_id: "caafag_profile",
     parent_form: "case",
     visible: false,
@@ -34,8 +38,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "UN DDR Number",
-        display_name_km: "លេខ UN DDR",
+        display_name_i18n: {
+          en: "UN DDR Number",
+          km: "លេខ UN DDR"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -51,98 +57,87 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "With which Armed Force or Armed Group was the child associated?",
-        display_name_km: "តើ​កងកម្លាំង​ប្រដាប់អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធណា​មួយ​ដែល​កុមារ​ត្រូ​វបាន​ភ្ជាប់​ជា​មួយ?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "With which Armed Force or Armed Group was the child associated?",
+          km: "តើ​កងកម្លាំង​ប្រដាប់អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធណា​មួយ​ដែល​កុមារ​ត្រូ​វបាន​ភ្ជាប់​ជា​មួយ?"
+        },
+        option_strings_text_i18n: [
           {
             id: "government_force",
-            display_text: "Government Force"
+            display_text: {
+              en: "Government Force",
+              km: "កងកម្លាំង​របស់​រដ្ឋាភិបាល"
+            }
           },
           {
             id: "ltte",
-            display_text: "LTTE"
+            display_text: {
+              en: "LTTE",
+              km: "LTTE"
+            }
           },
           {
             id: "ml24",
-            display_text: "Ml24"
+            display_text: {
+              en: "Ml24",
+              km: "Ml24"
+            }
           },
           {
             id: "non_government_forces",
-            display_text: "Non government forces"
+            display_text: {
+              en: "Non government forces",
+              km: "កងកម្លាំង​មិនមែន​របស់​រដ្ឋាភិបាល"
+            }
           },
           {
             id: "none",
-            display_text: "None"
+            display_text: {
+              en: "None",
+              km: "គ្មាន"
+            }
           },
           {
             id: "other_paramilitary_group",
-            display_text: "Other Paramilitary group"
+            display_text: {
+              en: "Other Paramilitary group",
+              km: "ក្រុម​យោធា​ផ្សេង"
+            }
           },
           {
             id: "sf",
-            display_text: "SF"
+            display_text: {
+              en: "SF",
+              km: "SF"
+            }
           },
           {
             id: "sla",
-            display_text: "SLA"
+            display_text: {
+              en: "SLA",
+              km: "SLA"
+            }
           },
           {
             id: "spla",
-            display_text: "SPLA"
+            display_text: {
+              en: "SPLA",
+              km: "SPLA"
+            }
           },
           {
             id: "tmvp",
-            display_text: "TMVP"
+            display_text: {
+              en: "TMVP",
+              km: "TMVP"
+            }
           },
           {
             id: "unknown",
-            display_text: "Unknown"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "government_force",
-            display_text: "កងកម្លាំង​របស់​រដ្ឋាភិបាល"
-          },
-          {
-            id: "ltte",
-            display_text: "LTTE"
-          },
-          {
-            id: "ml24",
-            display_text: "Ml24"
-          },
-          {
-            id: "non_government_forces",
-            display_text: "កងកម្លាំង​មិនមែន​របស់​រដ្ឋាភិបាល"
-          },
-          {
-            id: "none",
-            display_text: "គ្មាន"
-          },
-          {
-            id: "other_paramilitary_group",
-            display_text: "ក្រុម​យោធា​ផ្សេង"
-          },
-          {
-            id: "sf",
-            display_text: "SF"
-          },
-          {
-            id: "sla",
-            display_text: "SLA"
-          },
-          {
-            id: "spla",
-            display_text: "SPLA"
-          },
-          {
-            id: "tmvp",
-            display_text: "TMVP"
-          },
-          {
-            id: "unknown",
-            display_text: "មិន​ដឹង"
+            display_text: {
+              en: "Unknown",
+              km: "មិន​ដឹង"
+            }
           }
         ],
         multi_select: false,
@@ -160,74 +155,66 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If not forced, what was the main reason why the child became involved in the Armed Force or Armed Group? (type of recruitment)",
-        display_name_km: "ប្រសិន​បើ​មិន​ត្រូវ​បានបង្ខំ តើ​អ្វី​ជា​មូលហេតុ​ចម្បង​ដែល​កុមារ​ពាក់ព័ន្ធ​នៅ​ក្នុង​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុមប្រដាប់​អាវុធ? (ប្រភេទ​នៃ​ការ​ជ្រើសរើស)",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "If not forced, what was the main reason why the child became involved in the Armed Force or Armed Group? (type of recruitment)",
+          km: "ប្រសិន​បើ​មិន​ត្រូវ​បានបង្ខំ តើ​អ្វី​ជា​មូលហេតុ​ចម្បង​ដែល​កុមារ​ពាក់ព័ន្ធ​នៅ​ក្នុង​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុមប្រដាប់​អាវុធ? (ប្រភេទ​នៃ​ការ​ជ្រើសរើស)"
+        },
+        option_strings_text_i18n: [
           {
             id: "voluntary_enrollment",
-            display_text: "Voluntary enrollment"
+            display_text: {
+              en: "Voluntary enrollment",
+              km: "ការ​ចុះឈ្មោះ​ដោយ​ស្ម័គ្រ​ចិត្ត"
+            }
           },
           {
             id: "family_problems_abuse",
-            display_text: "Family problems/abuse"
+            display_text: {
+              en: "Family problems/abuse",
+              km: "បញ្ហា​​/មានការរំលោភបំពាន​ក្នុង​គ្រួសារ"
+            }
           },
           {
             id: "financial_reasons",
-            display_text: "Financial reasons"
+            display_text: {
+              en: "Financial reasons",
+              km: "ហេតុផល​ហិរញ្ញវត្ថុ"
+            }
           },
           {
             id: "lack_of_access_to_essential_services",
-            display_text: "Lack of access to essential services"
+            display_text: {
+              en: "Lack of access to essential services",
+              km: "ខ្វះខាត​ការ​ចូលប្រើប្រាស់​សេវាកម្ម​សំខាន់ៗ"
+            }
           },
           {
             id: "poverty",
-            display_text: "Poverty"
+            display_text: {
+              en: "Poverty",
+              km: "ភាព​ក្រីក្រ"
+            }
           },
           {
             id: "wanted_to_fight_for_their_beliefs",
-            display_text: "Wanted to fight for their beliefs"
+            display_text: {
+              en: "Wanted to fight for their beliefs",
+              km: "ចង់​ប្រយុទ្ធ​ដើម្បី​ជំនឿ​របស់​ពួកគេ"
+            }
           },
           {
             id: "wanted_to_follow_friends",
-            display_text: "Wanted to follow friends"
+            display_text: {
+              en: "Wanted to follow friends",
+              km: "ចង់តាម​មិត្តភ័ក្ដិ"
+            }
           },
           {
             id: "other",
-            display_text: "Other"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "voluntary_enrollment",
-            display_text: "ការ​ចុះឈ្មោះ​ដោយ​ស្ម័គ្រ​ចិត្ត"
-          },
-          {
-            id: "family_problems_abuse",
-            display_text: "បញ្ហា​​/មានការរំលោភបំពាន​ក្នុង​គ្រួសារ"
-          },
-          {
-            id: "financial_reasons",
-            display_text: "ហេតុផល​ហិរញ្ញវត្ថុ"
-          },
-          {
-            id: "lack_of_access_to_essential_services",
-            display_text: "ខ្វះខាត​ការ​ចូលប្រើប្រាស់​សេវាកម្ម​សំខាន់ៗ"
-          },
-          {
-            id: "poverty",
-            display_text: "ភាព​ក្រីក្រ"
-          },
-          {
-            id: "wanted_to_fight_for_their_beliefs",
-            display_text: "ចង់​ប្រយុទ្ធ​ដើម្បី​ជំនឿ​របស់​ពួកគេ"
-          },
-          {
-            id: "wanted_to_follow_friends",
-            display_text: "ចង់តាម​មិត្តភ័ក្ដិ"
-          },
-          {
-            id: "other",
-            display_text: "ផ្សេងៗ"
+            display_text: {
+              en: "Other",
+              km: "ផ្សេងៗ"
+            }
           }
         ],
         multi_select: false,
@@ -245,9 +232,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Other reason for enrollment",
-        display_name_km: "ហេតុផល​ផ្សេង​ទៀត​សម្រាប់​ការ​ចុះឈ្មោះ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Other reason for enrollment",
+          km: "ហេតុផល​ផ្សេង​ទៀត​សម្រាប់​ការ​ចុះឈ្មោះ"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -262,9 +250,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Name of Military Unit",
-        display_name_km: "ឈ្មោះ​អង្គភាព​យោធា",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Name of Military Unit",
+          km: "ឈ្មោះ​អង្គភាព​យោធា"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -279,9 +268,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Commander's Name",
-        display_name_km: "ឈ្មោះ​មេបញ្ជាការ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Commander's Name",
+          km: "ឈ្មោះ​មេបញ្ជាការ"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -296,9 +286,10 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Area of Military Unit",
-        display_name_km: "តំបន់​អង្គភាព​យោធា",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Area of Military Unit",
+          km: "តំបន់​អង្គភាព​យោធា"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -313,9 +304,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Location of Military Unit",
-        display_name_km: "ទីតាំង​អង្គភាព​យោធា",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Location of Military Unit",
+          km: "ទីតាំង​អង្គភាព​យោធា"
+        },
         hidden_text_field: false,
         option_strings_source: "Location",
         autosum_total: false,
@@ -331,82 +323,73 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What was the main role of the child?",
-        display_name_km: "តើ​កុមារ​មាន​តួនាទី​សំខាន់​ជា​អ្វី?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "What was the main role of the child?",
+          km: "តើ​កុមារ​មាន​តួនាទី​សំខាន់​ជា​អ្វី?"
+        },
+        option_strings_text_i18n: [
           {
             id: "combat",
-            display_text: "Combat"
+            display_text: {
+              en: "Combat",
+              km: "ការប្រយុទ្ធ"
+            }
           },
           {
             id: "combat_support",
-            display_text: "Combat support"
+            display_text: {
+              en: "Combat support",
+              km: "ជំនួយ​ក្នុងការ​ប្រយុទ្ធ"
+            }
           },
           {
             id: "combattant",
-            display_text: "Combattant"
+            display_text: {
+              en: "Combattant",
+              km: "អ្នកប្រយុទ្ធ"
+            }
           },
           {
             id: "commander_ranked_position",
-            display_text: "Commander/Ranked position"
+            display_text: {
+              en: "Commander/Ranked position",
+              km: "មេបញ្ជាការ/មុខតំណែង"
+            }
           },
           {
             id: "girlfriend",
-            display_text: "Girlfriend"
+            display_text: {
+              en: "Girlfriend",
+              km: "មិត្តស្រី"
+            }
           },
           {
             id: "girlfriend_wife_forced_sexual_activity",
-            display_text: "Girlfriend/Wife/Forced Sexual Activity"
+            display_text: {
+              en: "Girlfriend/Wife/Forced Sexual Activity",
+              km: "មិត្តស្រី/ប្រពន្ធ/សកម្មភាព​​​ផ្លូវភេទ​ដោយ​បង្ខំ"
+            }
           },
           {
             id: "non_combat",
-            display_text: "Non-Combat"
+            display_text: {
+              en: "Non-Combat",
+              km: "មិនមែន​ការ​ប្រយុទ្ធ"
+            }
           },
           {
             id: "non_combat_cook_guide_porter_etc",
-            display_text: "Non-Combat (cook, guide, porter, etc.)"
+            display_text: {
+              en: "Non-Combat (cook, guide, porter, etc.)",
+              km: "មិនមែន​ការ​ប្រយុទ្ធ (ចម្អិនអាហារ នាំផ្លូវ អ្នកកាន់អីវ៉ាន់ ។ល។)"
+            }
           },
           {
             id: "other",
-            display_text: "Other"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "combat",
-            display_text: "ការប្រយុទ្ធ"
-          },
-          {
-            id: "combat_support",
-            display_text: "ជំនួយ​ក្នុងការ​ប្រយុទ្ធ"
-          },
-          {
-            id: "combattant",
-            display_text: "អ្នកប្រយុទ្ធ"
-          },
-          {
-            id: "commander_ranked_position",
-            display_text: "មេបញ្ជាការ/មុខតំណែង"
-          },
-          {
-            id: "girlfriend",
-            display_text: "មិត្តស្រី"
-          },
-          {
-            id: "girlfriend_wife_forced_sexual_activity",
-            display_text: "មិត្តស្រី/ប្រពន្ធ/សកម្មភាព​​​ផ្លូវភេទ​ដោយ​បង្ខំ"
-          },
-          {
-            id: "non_combat",
-            display_text: "មិនមែន​ការ​ប្រយុទ្ធ"
-          },
-          {
-            id: "non_combat_cook_guide_porter_etc",
-            display_text: "មិនមែន​ការ​ប្រយុទ្ធ (ចម្អិនអាហារ នាំផ្លូវ អ្នកកាន់អីវ៉ាន់ ។ល។)"
-          },
-          {
-            id: "other",
-            display_text: "ផ្សេងៗ"
+            display_text: {
+              en: "Other",
+              km: "ផ្សេងៗ"
+            }
           }
         ],
         multi_select: false,
@@ -424,9 +407,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Did the child own/use a weapon",
-        display_name_km: "តើ​កុមារ​ជា​ម្ចាស់/ប្រើប្រាស់​អាវុធ​ឬ?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Did the child own/use a weapon",
+          km: "តើ​កុមារ​ជា​ម្ចាស់/ប្រើប្រាស់​អាវុធ​ឬ?"
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no-unknown",
         autosum_total: false,
@@ -442,9 +426,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Type of Weapon",
-        display_name_km: "ប្រភេទ​អាវុធ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Type of Weapon",
+          km: "ប្រភេទ​អាវុធ"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -459,9 +444,10 @@ FormSection.create_or_update!(
         type: "date_range",
         editable: true,
         disabled: false,
-        display_name_en: "When did the child join the Armed Force or Armed Group?",
-        display_name_km: "តើ​កុមារ​បាន​ចូលរួម​ក្នុង​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធ​នៅ​ពេល​ណា?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "When did the child join the Armed Force or Armed Group?",
+          km: "តើ​កុមារ​បាន​ចូលរួម​ក្នុង​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធ​នៅ​ពេល​ណា?"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -476,9 +462,10 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Place of registration (Village/Address/Area) - Address",
-        display_name_km: "កន្លែង​ចុះឈ្មោះ (ភូមិ/អាសយដ្ឋាន/តំបន់) - អាសយដ្ឋាន",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Place of registration (Village/Address/Area) - Address",
+          km: "កន្លែង​ចុះឈ្មោះ (ភូមិ/អាសយដ្ឋាន/តំបន់) - អាសយដ្ឋាន"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -493,9 +480,10 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Area of Mobilization",
-        display_name_km: "តំបន់​ចល័ត",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Area of Mobilization",
+          km: "តំបន់​ចល័ត"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -510,9 +498,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Location of Mobilization",
-        display_name_km: "ទីតាំង​ចល័ត",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Location of Mobilization",
+          km: "ទីតាំង​ចល័ត"
+        },
         hidden_text_field: false,
         option_strings_source: "Location",
         autosum_total: false,
@@ -528,9 +517,10 @@ FormSection.create_or_update!(
         type: "date_range",
         editable: true,
         disabled: false,
-        display_name_en: "When did the child leave the Armed Force or Armed Group?",
-        display_name_km: "តើ​កុមារ​ចាកចេញ​ពី​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធ​នៅ​ពេលណា?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "When did the child leave the Armed Force or Armed Group?",
+          km: "តើ​កុមារ​ចាកចេញ​ពី​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធ​នៅ​ពេលណា?"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -545,122 +535,108 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "How did the child leave the Armed Force or Armed Group?",
-        display_name_km: "តើ​កុមារ​ចាកចេញ​ពី​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធ​ដោយ​វិធី​ណា?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "How did the child leave the Armed Force or Armed Group?",
+          km: "តើ​កុមារ​ចាកចេញ​ពី​កងកម្លាំង​ប្រដាប់​អាវុធ ឬ​ក្រុម​ប្រដាប់​អាវុធ​ដោយ​វិធី​ណា?"
+        },
+        option_strings_text_i18n: [
           {
             id: "captured",
-            display_text: "Captured"
+            display_text: {
+              en: "Captured",
+              km: "គេ​ចាប់ខ្លួន"
+            }
           },
           {
             id: "deceased",
-            display_text: "Deceased"
+            display_text: {
+              en: "Deceased",
+              km: "ទទួលមរណភាព"
+            }
           },
           {
             id: "dissolution_of_the_group",
-            display_text: "Dissolution of the group"
+            display_text: {
+              en: "Dissolution of the group",
+              km: "ការ​រំលាយ​ក្រុម"
+            }
           },
           {
             id: "escape_runaway",
-            display_text: "Escape/Runaway"
+            display_text: {
+              en: "Escape/Runaway",
+              km: "រត់​គេច"
+            }
           },
           {
             id: "formal_ddr_program",
-            display_text: "Formal DDR program"
+            display_text: {
+              en: "Formal DDR program",
+              km: "កម្មវិធី DDR ផ្លូវការ"
+            }
           },
           {
             id: "locally_negotiated_demobilization",
-            display_text: "Locally negotiated demobilization"
+            display_text: {
+              en: "Locally negotiated demobilization",
+              km: "រំសាយ​ដោយ​បាន​ចរចា​ថ្នាក់​តំបន់"
+            }
           },
           {
             id: "normal",
-            display_text: "Normal"
+            display_text: {
+              en: "Normal",
+              km: "ធម្មតា"
+            }
           },
           {
             id: "other",
-            display_text: "Other (Please specify)"
+            display_text: {
+              en: "Other (Please specify)",
+              km: "ផ្សេងៗ (​សូម​បញ្ជាក់)"
+            }
           },
           {
             id: "released_handover_to_family",
-            display_text: "Released/Handover to family"
+            display_text: {
+              en: "Released/Handover to family",
+              km: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​គ្រួសារ"
+            }
           },
           {
             id: "released_handover_to_government",
-            display_text: "Released/Handover to government"
+            display_text: {
+              en: "Released/Handover to government",
+              km: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​រដ្ឋាភិបាល"
+            }
           },
           {
             id: "released_handover_to_organization",
-            display_text: "Released/Handover to Organization"
+            display_text: {
+              en: "Released/Handover to Organization",
+              km: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​អង្គភាព"
+            }
           },
           {
             id: "runaway",
-            display_text: "Runaway"
+            display_text: {
+              en: "Runaway",
+              km: "រត់គេច"
+            }
           },
           {
             id: "surrendered",
-            display_text: "Surrendered"
+            display_text: {
+              en: "Surrendered",
+              km: "បានចុះចាញ់"
+            }
           },
           {
             id: "unicef_ddr",
-            display_text: "UNICEF DDR"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "captured",
-            display_text: "គេ​ចាប់ខ្លួន"
-          },
-          {
-            id: "deceased",
-            display_text: "ទទួលមរណភាព"
-          },
-          {
-            id: "dissolution_of_the_group",
-            display_text: "ការ​រំលាយ​ក្រុម"
-          },
-          {
-            id: "escape_runaway",
-            display_text: "រត់​គេច"
-          },
-          {
-            id: "formal_ddr_program",
-            display_text: "កម្មវិធី DDR ផ្លូវការ"
-          },
-          {
-            id: "locally_negotiated_demobilization",
-            display_text: "រំសាយ​ដោយ​បាន​ចរចា​ថ្នាក់​តំបន់"
-          },
-          {
-            id: "normal",
-            display_text: "ធម្មតា"
-          },
-          {
-            id: "other",
-            display_text: "ផ្សេងៗ (​សូម​បញ្ជាក់)"
-          },
-          {
-            id: "released_handover_to_family",
-            display_text: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​គ្រួសារ"
-          },
-          {
-            id: "released_handover_to_government",
-            display_text: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​រដ្ឋាភិបាល"
-          },
-          {
-            id: "released_handover_to_organization",
-            display_text: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​អង្គភាព"
-          },
-          {
-            id: "runaway",
-            display_text: "រត់គេច"
-          },
-          {
-            id: "surrendered",
-            display_text: "បានចុះចាញ់"
-          },
-          {
-            id: "unicef_ddr",
-            display_text: "UNICEF DDR"
+            display_text: {
+              en: "UNICEF DDR",
+              km: "UNICEF DDR"
+            }
           }
         ],
         multi_select: false,
@@ -678,9 +654,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If Other, please specify",
-        display_name_km: "ប្រសិនបើ​ផ្សេងៗ សូម​បញ្ជាក់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If Other, please specify",
+          km: "ប្រសិនបើ​ផ្សេងៗ សូម​បញ្ជាក់"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -695,9 +672,10 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address of Demobilization",
-        display_name_km: "អាសយដ្ឋាន​រំសាយ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address of Demobilization",
+          km: "អាសយដ្ឋាន​រំសាយ"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -712,9 +690,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Location of Demobilization",
-        display_name_km: "ទីតាំង​រំសាយ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Location of Demobilization",
+          km: "ទីតាំង​រំសាយ"
+        },
         hidden_text_field: false,
         option_strings_source: "Location",
         autosum_total: false,
@@ -730,9 +709,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Has the Child been served any demobilization papers?",
-        display_name_km: "តើ​កុមារ​មាន​ឯកសារ​រំសាយ​ណា​មួយ​ដែរឬទេ?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Has the Child been served any demobilization papers?",
+          km: "តើ​កុមារ​មាន​ឯកសារ​រំសាយ​ណា​មួយ​ដែរឬទេ?"
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no-unknown",
         autosum_total: false,
@@ -748,82 +728,73 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Reason for release from Military",
-        display_name_km: "ហេតុផល​សម្រាប់​ការ​ដោះលែង​ពី​យោធា",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Reason for release from Military",
+          km: "ហេតុផល​សម្រាប់​ការ​ដោះលែង​ពី​យោធា"
+        },
+        option_strings_text_i18n: [
           {
             id: "captured",
-            display_text: "Captured"
+            display_text: {
+              en: "Captured",
+              km: "គេ​ចាប់ខ្លួន"
+            }
           },
           {
             id: "deceased",
-            display_text: "Deceased"
+            display_text: {
+              en: "Deceased",
+              km: "ទទួលមរណភាព"
+            }
           },
           {
             id: "dissolution_of_the_group",
-            display_text: "Dissolution of the group"
+            display_text: {
+              en: "Dissolution of the group",
+              km: "ការ​រំលាយ​ក្រុម"
+            }
           },
           {
             id: "formal_ddr_program",
-            display_text: "Formal DDR program"
+            display_text: {
+              en: "Formal DDR program",
+              km: "កម្មវិធី DDR ផ្លូវការ"
+            }
           },
           {
             id: "released_handover_to_government",
-            display_text: "Released/Handover to government"
+            display_text: {
+              en: "Released/Handover to government",
+              km: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​រដ្ឋាភិបាល"
+            }
           },
           {
             id: "released_handover_to_organization",
-            display_text: "Released/Handover to organization"
+            display_text: {
+              en: "Released/Handover to organization",
+              km: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​អង្គភាព"
+            }
           },
           {
             id: "released_handover_to_family",
-            display_text: "Released/Handover to family"
+            display_text: {
+              en: "Released/Handover to family",
+              km: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​គ្រួសារ"
+            }
           },
           {
             id: "runaway",
-            display_text: "Runaway"
+            display_text: {
+              en: "Runaway",
+              km: "រត់គេច"
+            }
           },
           {
             id: "surrendered",
-            display_text: "Surrendered"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "captured",
-            display_text: "គេ​ចាប់ខ្លួន"
-          },
-          {
-            id: "deceased",
-            display_text: "ទទួលមរណភាព"
-          },
-          {
-            id: "dissolution_of_the_group",
-            display_text: "ការ​រំលាយ​ក្រុម"
-          },
-          {
-            id: "formal_ddr_program",
-            display_text: "កម្មវិធី DDR ផ្លូវការ"
-          },
-          {
-            id: "released_handover_to_government",
-            display_text: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​រដ្ឋាភិបាល"
-          },
-          {
-            id: "released_handover_to_organization",
-            display_text: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​អង្គភាព"
-          },
-          {
-            id: "released_handover_to_family",
-            display_text: "បាន​ដោះលែង/ប្រគល់​ឲ្យ​គ្រួសារ"
-          },
-          {
-            id: "runaway",
-            display_text: "រត់គេច"
-          },
-          {
-            id: "surrendered",
-            display_text: "បានចុះចាញ់"
+            display_text: {
+              en: "Surrendered",
+              km: "បានចុះចាញ់"
+            }
           }
         ],
         multi_select: false,

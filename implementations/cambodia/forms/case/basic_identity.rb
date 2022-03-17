@@ -1,9 +1,13 @@
 FormSection.create_or_update!(
   {
-    name_en: "Child's Details",
-    description_en: "Basic identity information ",
-    name_km: "ព័ត៌មានអំពីកុមារ",
-    description_km: "ព័ត៌មានបឋមអំពីកុមារ",
+    name_i18n: {
+      en: "Child's Details",
+      km: "ព័ត៌មានអំពីកុមារ"
+    },
+    description_i18n: {
+      en: "Basic identity information ",
+      km: "ព័ត៌មានបឋមអំពីកុមារ"
+    },
     unique_id: "basic_identity",
     parent_form: "case",
     visible: true,
@@ -34,9 +38,13 @@ FormSection.create_or_update!(
         type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "Basic Information of the Child",
-        help_text_en: "",
-        display_name_km: "ព័ត៌មានបឋមអំពីកុមារ",
+        display_name_i18n: {
+          en: "Basic Information of the Child",
+          km: "ព័ត៌មានបឋមអំពីកុមារ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -52,47 +60,46 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Type of case ",
-        help_text_en: "",
-        display_name_km: "ប្រភេទករណី",
-        help_text_km: "",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Type of case ",
+          km: "ប្រភេទករណី"
+        },
+        help_text_i18n: {
+          en: "",
+          km: ""
+        },
+        option_strings_text_i18n: [
           {
             id: "children_in_community_44024",
-            display_text: "Children in community"
+            display_text: {
+              en: "Children in community",
+              km: "ករណីកុមារក្នុងសហគមន៍"
+            }
           },
           {
             id: "children_in_residential_care_70534",
-            display_text: "Children in residential care institution"
+            display_text: {
+              en: "Children in residential care institution",
+              km: "ករណីកុមារក្នុងកន្លែងថែទាំតាមមណ្ឌល"
+            }
           },
           {
             id: "children_in_community_based_care_74578",
-            display_text: "Children in community-based care"
+            display_text: {
+              en: "Children in community-based care",
+              km: "ករណីកុមារក្នុងកន្លែងថែទាំតាមសហគមន៍"
+            }
           },
           {
             id: "children_undergoing_reintegration_55427",
-            display_text: "Children undergoing reintegration"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "children_in_community_44024",
-            display_text: "ករណីកុមារក្នុងសហគមន៍"
-          },
-          {
-            id: "children_in_residential_care_70534",
-            display_text: "ករណីកុមារក្នុងកន្លែងថែទាំតាមមណ្ឌល"
-          },
-          {
-            id: "children_in_community_based_care_74578",
-            display_text: "ករណីកុមារក្នុងកន្លែងថែទាំតាមសហគមន៍"
-          },
-          {
-            id: "children_undergoing_reintegration_55427",
-            display_text: "ករណីកុមារសមាហរណកម្ម"
+            display_text: {
+              en: "Children undergoing reintegration",
+              km: "ករណីកុមារសមាហរណកម្ម"
+            }
           }
         ],
         multi_select: false,
+        option_strings_source: "",
         hidden_text_field: false,
         option_strings_source: "",
         autosum_total: false,
@@ -108,7 +115,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Long ID",
+        display_name_i18n: {
+          en: "Long ID"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -124,7 +133,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Short ID",
+        display_name_i18n: {
+          en: "Short ID"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -140,8 +151,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Case ID",
-        display_name_km: "លេខ​សម្គាល់ករណី",
+        display_name_i18n: {
+          en: "Case ID",
+          km: "លេខ​សម្គាល់ករណី"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -157,9 +170,13 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Child Code (MoSVY)",
-        help_text_en: "",
-        display_name_km: "លេខកូដកុមារ (កំណត់ដោយ ក្រសួង ស.អ.យ.)",
+        display_name_i18n: {
+          en: "Child Code (MoSVY)",
+          km: "លេខកូដកុមារ (កំណត់ដោយ ក្រសួង ស.អ.យ.)"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -175,10 +192,14 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: true,
-        display_name_en: "Child Code (OSCaR)",
-        help_text_en: "Note that if the case already has an OSCaR ID you cannot do an online referral back to OSCaR partners; you will have to do an external (PDF) referral instead.",
-        display_name_km: "លេខកូដកុមារ (កំណត់ដោយ OSCaR)",
-        help_text_km: "ប្រសិនបើករណីនេះមានលេខកូដកុមារពីប្រព័ន្ធ OSCaR  អ្នកមិនអាចធ្វើការបញ្ជូនករណីនេះតាមអនឡាញទៅទទួលសេវាពីអង្គការប្រើប្រាស់ប្រព័ន្ធ OSCaR ទេ។  តែអ្នកអាចបញ្ជូនករណីនេះទៅទទួលសេវាតាមរយះការនាំចេញជាឯកសារ PDF។",
+        display_name_i18n: {
+          en: "Child Code (OSCaR)",
+          km: "លេខកូដកុមារ (កំណត់ដោយ OSCaR)"
+        },
+        help_text_i18n: {
+          en: "Note that if the case already has an OSCaR ID you cannot do an online referral back to OSCaR partners; you will have to do an external (PDF) referral instead.",
+          km: "ប្រសិនបើករណីនេះមានលេខកូដកុមារពីប្រព័ន្ធ OSCaR  អ្នកមិនអាចធ្វើការបញ្ជូនករណីនេះតាមអនឡាញទៅទទួលសេវាពីអង្គការប្រើប្រាស់ប្រព័ន្ធ OSCaR ទេ។  តែអ្នកអាចបញ្ជូនករណីនេះទៅទទួលសេវាតាមរយះការនាំចេញជាឯកសារ PDF។"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -194,9 +215,13 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: true,
-        display_name_en: "Child Short ID (OSCaR)",
-        help_text_en: "",
-        display_name_km: "លេខកូដកុមារ (លេខកូដខ្លីកំណត់ដោយ OSCaR)",
+        display_name_i18n: {
+          en: "Child Short ID (OSCaR)",
+          km: "លេខកូដកុមារ (លេខកូដខ្លីកំណត់ដោយ OSCaR)"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -212,10 +237,14 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Other system ID",
-        help_text_en: "Tracking tool or other system ID",
-        display_name_km: "លេខសម្គាល់កុមារក្នុង​ប្រព័ន្ធ​ផ្សេង​ទៀត",
-        help_text_km: "លេខសម្គាល់កុមារក្នុងប្រព័ន្ធតាមដាន​ និងត្រួតពិនិត្យ​កុមារ ឬ ​ប្រព័ន្ធ​ផ្សេង​ទៀត",
+        display_name_i18n: {
+          en: "Other system ID",
+          km: "លេខសម្គាល់កុមារក្នុង​ប្រព័ន្ធ​ផ្សេង​ទៀត"
+        },
+        help_text_i18n: {
+          en: "Tracking tool or other system ID",
+          km: "លេខសម្គាល់កុមារក្នុងប្រព័ន្ធតាមដាន​ និងត្រួតពិនិត្យ​កុមារ ឬ ​ប្រព័ន្ធ​ផ្សេង​ទៀត"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -231,10 +260,14 @@ FormSection.create_or_update!(
         type: "tick_box",
         editable: false,
         disabled: true,
-        display_name_en: "Marked for mobile?",
-        tick_box_label_en: "Yes",
-        display_name_km: "សម្រាប់​ប្រើក្នុងទូរស័ព្ទ?",
-        tick_box_label_km: "បាទ/ច៎ាស",
+        display_name_i18n: {
+          en: "Marked for mobile?",
+          km: "សម្រាប់​ប្រើក្នុងទូរស័ព្ទ?"
+        },
+        tick_box_label_i18n: {
+          en: "Yes",
+          km: "បាទ/ច៎ាស"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -250,9 +283,13 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: true,
-        display_name_en: "Case Status",
-        help_text_en: "",
-        display_name_km: "ស្ថានភាព​ករណី",
+        display_name_i18n: {
+          en: "Case Status",
+          km: "ស្ថានភាព​ករណី"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-case-status",
@@ -270,10 +307,14 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "OSCaR Status",
-        help_text_en: "(If this case is a Referral from OSCaR.)",
-        display_name_km: "ស្ថានភាពករណីក្នុង OSCaR",
-        help_text_km: "(ប្រសិនបើករណីនេះ​គឺជាការបញ្ជូនពី OSCaR)",
+        display_name_i18n: {
+          en: "OSCaR Status",
+          km: "ស្ថានភាពករណីក្នុង OSCaR"
+        },
+        help_text_i18n: {
+          en: "(If this case is a Referral from OSCaR.)",
+          km: "(ប្រសិនបើករណីនេះ​គឺជាការបញ្ជូនពី OSCaR)"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -289,10 +330,14 @@ FormSection.create_or_update!(
         type: "tick_box",
         editable: false,
         disabled: true,
-        display_name_en: "Case Reopened?",
-        tick_box_label_en: "Yes",
-        display_name_km: "ករណី​​បើក​ឡើងវិញ?",
-        tick_box_label_km: "បាទ/ច៎ាស",
+        display_name_i18n: {
+          en: "Case Reopened?",
+          km: "ករណី​​បើក​ឡើងវិញ?"
+        },
+        tick_box_label_i18n: {
+          en: "Yes",
+          km: "បាទ/ច៎ាស"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -308,9 +353,13 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Intake Interview",
-        help_text_en: "",
-        display_name_km: "កាលបរិច្ឆេទ​សម្ភាសន៍​",
+        display_name_i18n: {
+          en: "Date of Intake Interview",
+          km: "កាលបរិច្ឆេទ​សម្ភាសន៍​"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -328,7 +377,9 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: false,
         disabled: false,
-        display_name_en: "Date Assessment Due",
+        display_name_i18n: {
+          en: "Date Assessment Due"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -344,8 +395,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: true,
-        display_name_en: "Full Name",
-        display_name_km: "ឈ្មោះ​ពេញ",
+        display_name_i18n: {
+          en: "Full Name",
+          km: "ឈ្មោះ​ពេញ"
+        },
         multi_select: false,
         hidden_text_field: true,
         autosum_total: false,
@@ -362,8 +415,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Surname",
-        display_name_km: "នាមត្រកូល",
+        display_name_i18n: {
+          en: "Surname",
+          km: "នាមត្រកូល"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -379,8 +434,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "First Name",
-        display_name_km: "នាមខ្លួន",
+        display_name_i18n: {
+          en: "First Name",
+          km: "នាមខ្លួន"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -412,8 +469,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Nickname",
-        display_name_km: "ឈ្មោះ​ហៅក្រៅ",
+        display_name_i18n: {
+          en: "Nickname",
+          km: "ឈ្មោះ​ហៅក្រៅ"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -430,8 +489,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Other Name",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Other Name"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -447,10 +507,13 @@ FormSection.create_or_update!(
         type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Did the child have a different name before separation?",
-        help_text_en: "",
-        display_name_km: "ឈ្មោះ​ផ្សេង​របស់កុមារមុន​ពេល​បែកពីគ្រួសារ​?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Did the child have a different name before separation?",
+          km: "ឈ្មោះ​ផ្សេង​របស់កុមារមុន​ពេល​បែកពីគ្រួសារ​?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
         autosum_total: false,
@@ -466,10 +529,13 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If yes, please provide name",
-        help_text_en: "",
-        display_name_km: "ប្រសិនបើ​មាន សូ​ម​បញ្ជាក់​ឈ្មោះ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If yes, please provide name",
+          km: "ប្រសិនបើ​មាន សូ​ម​បញ្ជាក់​ឈ្មោះ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -484,9 +550,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Sex",
-        display_name_km: "ភេទ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Sex",
+          km: "ភេទ"
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-gender",
         autosum_total: false,
@@ -503,9 +570,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Place of Birth",
-        display_name_km: "ទីកន្លែង​កំណើត",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Place of Birth",
+          km: "ទីកន្លែង​កំណើត"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -520,10 +588,13 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Birth",
-        help_text_en: "",
-        display_name_km: "ថ្ងៃខែឆ្នាំ​កំណើត",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of Birth",
+          km: "ថ្ងៃខែឆ្នាំ​កំណើត"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -540,9 +611,10 @@ FormSection.create_or_update!(
         type: "numeric_field",
         editable: true,
         disabled: false,
-        display_name_en: "Age",
-        display_name_km: "អាយុ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Age",
+          km: "អាយុ"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -558,10 +630,15 @@ FormSection.create_or_update!(
         type: "tick_box",
         editable: true,
         disabled: false,
-        display_name_en: "Is this the real age?",
-        help_text_en: "",
-        tick_box_label_en: "Yes",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Is this the real age?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        tick_box_label_i18n: {
+          en: "Yes"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -576,11 +653,14 @@ FormSection.create_or_update!(
         type: "tick_box",
         editable: true,
         disabled: false,
-        display_name_en: "Is the age estimated?",
-        tick_box_label_en: "Yes",
-        display_name_km: "អាយុ​ប៉ាន់ស្មាន​?",
-        tick_box_label_km: "បាទ/ច៎ាស",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Is the age estimated?",
+          km: "អាយុ​ប៉ាន់ស្មាន​?"
+        },
+        tick_box_label_i18n: {
+          en: "Yes",
+          km: "បាទ/ច៎ាស"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -595,10 +675,13 @@ FormSection.create_or_update!(
         type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the child have a birth certificate?",
-        help_text_en: "",
-        display_name_km: "តើកុមារមានសំបុត្រកំណើតដែរឬទេ?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Does the child have a birth certificate?",
+          km: "តើកុមារមានសំបុត្រកំណើតដែរឬទេ?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
         autosum_total: false,
@@ -614,8 +697,9 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Distinguishing Physical Characteristics",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Distinguishing Physical Characteristics"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -630,8 +714,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Ration Card Number",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Ration Card Number"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -646,8 +731,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "ICRC Ref No.",
-        multi_select: false,
+        display_name_i18n: {
+          en: "ICRC Ref No."
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -662,8 +748,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "RC ID No.",
-        multi_select: false,
+        display_name_i18n: {
+          en: "RC ID No."
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -678,9 +765,12 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Biometrics",
-        help_text_en: "For the Biometric ID number, if used.",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Biometrics"
+        },
+        help_text_i18n: {
+          en: "For the Biometric ID number, if used."
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -695,9 +785,12 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "proGres Case ID",
-        help_text_en: "UNHCR Asylum Seeker Certificate Number",
-        multi_select: false,
+        display_name_i18n: {
+          en: "proGres Case ID"
+        },
+        help_text_i18n: {
+          en: "UNHCR Asylum Seeker Certificate Number"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -712,9 +805,12 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "proGres Individual ID",
-        help_text_en: "This ID is shown on the tracking sheet.",
-        multi_select: false,
+        display_name_i18n: {
+          en: "proGres Individual ID"
+        },
+        help_text_i18n: {
+          en: "This ID is shown on the tracking sheet."
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -729,8 +825,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "UN Number",
-        multi_select: false,
+        display_name_i18n: {
+          en: "UN Number"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -745,10 +842,13 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Identification Card Number",
-        help_text_en: "",
-        display_name_km: "លេខ​អត្តសញ្ញាណ​ប័ណ្ណ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Identification Card Number",
+          km: "លេខ​អត្តសញ្ញាណ​ប័ណ្ណ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -763,9 +863,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Type of Other ID Document",
-        display_name_km: "ប្រភេទ​ឯកសារ​អត្តសញ្ញាណ​ផ្សេងទៀត",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Type of Other ID Document",
+          km: "ប្រភេទ​ឯកសារ​អត្តសញ្ញាណ​ផ្សេងទៀត"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -780,9 +881,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Number of Other ID Document",
-        display_name_km: "លេខ​ឯកសារ​អត្តសញ្ញាណ​ផ្សេង​ទៀត",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Number of Other ID Document",
+          km: "លេខ​ឯកសារ​អត្តសញ្ញាណ​ផ្សេង​ទៀត"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -797,8 +899,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Other Agency ID",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Other Agency ID"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -813,8 +916,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Other Agency Name",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Other Agency Name"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -829,8 +933,9 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "List of documents carried by the child",
-        multi_select: false,
+        display_name_i18n: {
+          en: "List of documents carried by the child"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -845,8 +950,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Nationality",
-        display_name_km: "ជនជាតិ",
+        display_name_i18n: {
+          en: "Nationality",
+          km: "ជនជាតិ"
+        },
         multi_select: true,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-country",
@@ -864,9 +971,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Current Civil/Marital Status",
-        display_name_km: "ស្ថានភាព​គ្រួសារ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Current Civil/Marital Status",
+          km: "ស្ថានភាព​គ្រួសារ"
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-marital-status",
         autosum_total: false,
@@ -882,9 +990,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Occupation",
-        display_name_km: "មុខរបរ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Occupation",
+          km: "មុខរបរ"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -899,59 +1008,55 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Who is the child's current caregiver?",
-        help_text_en: "",
-        display_name_km: "តើនរណាជាអ្នកថែទាំកុមារពេលបច្ចុប្បន្ន?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Who is the child's current caregiver?",
+          km: "តើនរណាជាអ្នកថែទាំកុមារពេលបច្ចុប្បន្ន?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        option_strings_text_i18n: [
           {
             id: "biological_family_08876",
-            display_text: "Biological family"
+            display_text: {
+              en: "Biological family",
+              km: "គ្រួសារបង្កើត"
+            }
           },
           {
             id: "kinship_care_06075",
-            display_text: "Kinship care"
+            display_text: {
+              en: "Kinship care",
+              km: "សាច់ញាតិ"
+            }
           },
           {
             id: "residential_care_55708",
-            display_text: "Residential care"
+            display_text: {
+              en: "Residential care",
+              km: "កន្លែងថែទាំកុមារ"
+            }
           },
           {
             id: "unaccompanied_56600",
-            display_text: "Unaccompanied"
+            display_text: {
+              en: "Unaccompanied",
+              km: "កុមារដែលគ្មានមនុស្សពេញវ័យនៅជាមួយ"
+            }
           },
           {
             id: "adoptive_parent_83233",
-            display_text: "Adoptive parent"
+            display_text: {
+              en: "Adoptive parent",
+              km: "ឪពុកម្តាយចិញ្ចឹម"
+            }
           },
           {
             id: "other_58378",
-            display_text: "Other"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "biological_family_08876",
-            display_text: "គ្រួសារបង្កើត"
-          },
-          {
-            id: "kinship_care_06075",
-            display_text: "សាច់ញាតិ"
-          },
-          {
-            id: "residential_care_55708",
-            display_text: "កន្លែងថែទាំកុមារ"
-          },
-          {
-            id: "unaccompanied_56600",
-            display_text: "កុមារដែលគ្មានមនុស្សពេញវ័យនៅជាមួយ"
-          },
-          {
-            id: "adoptive_parent_83233",
-            display_text: "ឪពុកម្តាយចិញ្ចឹម"
-          },
-          {
-            id: "other_58378",
-            display_text: "ផ្សេងទៀត"
+            display_text: {
+              en: "Other",
+              km: "ផ្សេងទៀត"
+            }
           }
         ],
         multi_select: false,
@@ -969,10 +1074,13 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If other, please specify",
-        help_text_en: "",
-        display_name_km: "បើផ្សេងទៀត សូមបញ្ជាក់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If other, please specify",
+          km: "បើផ្សេងទៀត សូមបញ្ជាក់"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -987,27 +1095,27 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If kinship care, please specify",
-        help_text_en: "",
-        display_name_km: "បើថែទាំដោយសាច់ញាតិ សូមបញ្ជាក់",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "If kinship care, please specify",
+          km: "បើថែទាំដោយសាច់ញាតិ សូមបញ្ជាក់"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        option_strings_text_i18n: [
           {
             id: "formal_placed_by_authority_50841",
-            display_text: "Formal (placed by authority)"
+            display_text: {
+              en: "Formal (placed by authority)",
+              km: "ទុកដាក់ជាផ្លូវការ (ដោយអាជ្ញាធរ)"
+            }
           },
           {
             id: "informal_04045",
-            display_text: "Informal"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "formal_placed_by_authority_50841",
-            display_text: "ទុកដាក់ជាផ្លូវការ (ដោយអាជ្ញាធរ)"
-          },
-          {
-            id: "informal_04045",
-            display_text: "ក្រៅផ្លូវការ"
+            display_text: {
+              en: "Informal",
+              km: "ក្រៅផ្លូវការ"
+            }
           }
         ],
         multi_select: false,
@@ -1025,60 +1133,56 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If foster care, please select all that apply",
-        help_text_en: "",
-        display_name_km: "បើថែទាំដោយគ្រួសារធម៌ សូមជ្រើសរើសចំលើយទាំងអស់ដែលពាក់ព័ន្ធ",
-        help_text_km: "",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "If foster care, please select all that apply",
+          km: "បើថែទាំដោយគ្រួសារធម៌ សូមជ្រើសរើសចំលើយទាំងអស់ដែលពាក់ព័ន្ធ"
+        },
+        help_text_i18n: {
+          en: "",
+          km: ""
+        },
+        option_strings_text_i18n: [
           {
             id: "formal_placed_by_authority_29560",
-            display_text: "Formal (placed by authority)"
+            display_text: {
+              en: "Formal (placed by authority)",
+              km: "ការថែទាំផ្លូវការ (ទុកដាក់ដោយអាជ្ញាធរ)"
+            }
           },
           {
             id: "informal_83284",
-            display_text: "Informal"
+            display_text: {
+              en: "Informal",
+              km: "ការថែទាំមិនផ្លូវការ"
+            }
           },
           {
             id: "short_term_19426",
-            display_text: "Short-term/emergency"
+            display_text: {
+              en: "Short-term/emergency",
+              km: "រយៈពេលខ្លី/បន្ទាន់"
+            }
           },
           {
             id: "long_term_29508",
-            display_text: "Long-term"
+            display_text: {
+              en: "Long-term",
+              km: "រយៈពេលវែង"
+            }
           },
           {
             id: "approved_carer_14926",
-            display_text: "Approved carer"
+            display_text: {
+              en: "Approved carer",
+              km: "អ្នកថែទាំដែលត្រូវបានផ្តល់សិទ្ធិ"
+            }
           },
           {
             id: "not_approved_carer_12876",
-            display_text: "Not approved carer"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "formal_placed_by_authority_29560",
-            display_text: "ការថែទាំផ្លូវការ (ទុកដាក់ដោយអាជ្ញាធរ)"
-          },
-          {
-            id: "informal_83284",
-            display_text: "ការថែទាំមិនផ្លូវការ"
-          },
-          {
-            id: "short_term_19426",
-            display_text: "រយៈពេលខ្លី/បន្ទាន់"
-          },
-          {
-            id: "long_term_29508",
-            display_text: "រយៈពេលវែង"
-          },
-          {
-            id: "approved_carer_14926",
-            display_text: "អ្នកថែទាំដែលត្រូវបានផ្តល់សិទ្ធិ"
-          },
-          {
-            id: "not_approved_carer_12876",
-            display_text: "អ្នកថែទាំដែលមិនត្រូវបានផ្តល់សិទ្ធិ"
+            display_text: {
+              en: "Not approved carer",
+              km: "អ្នកថែទាំដែលមិនត្រូវបានផ្តល់សិទ្ធិ"
+            }
           }
         ],
         multi_select: true,
@@ -1097,54 +1201,50 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If residential care, select the type",
-        help_text_en: "",
-        display_name_km: "ប្រសិនបើថែទាំដោយមណ្ឌល សូមជ្រើសរើសប្រភេទ",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "If residential care, select the type",
+          km: "ប្រសិនបើថែទាំដោយមណ្ឌល សូមជ្រើសរើសប្រភេទ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        option_strings_text_i18n: [
           {
             id: "rci_22502",
-            display_text: "RCI"
+            display_text: {
+              en: "RCI",
+              km: "មណ្ឌលថែទាំកុមារ"
+            }
           },
           {
             id: "transit_home_88184",
-            display_text: "Transit home"
+            display_text: {
+              en: "Transit home",
+              km: "ផ្ទះសំចត"
+            }
           },
           {
             id: "group_home_48619",
-            display_text: "Group home"
+            display_text: {
+              en: "Group home",
+              km: "ផ្ទះស្នាក់នៅជាក្រុម"
+            }
           },
           {
             id: "faith_based_pagoda_05962",
-            display_text: "Faith based/Pagoda"
+            display_text: {
+              en: "Faith based/Pagoda",
+              km: "ទីកន្លែងសាសនា/វត្តអារាម"
+            }
           },
           {
             id: "boarding_school_98684",
-            display_text: " Boarding school"
+            display_text: {
+              en: " Boarding school",
+              km: "អន្តេវាសិកដ្ឋាន"
+            }
           }
         ],
-        option_strings_text_km: [
-          {
-            id: "rci_22502",
-            display_text: "មណ្ឌលថែទាំកុមារ"
-          },
-          {
-            id: "transit_home_88184",
-            display_text: "ផ្ទះសំចត"
-          },
-          {
-            id: "group_home_48619",
-            display_text: "ផ្ទះស្នាក់នៅជាក្រុម"
-          },
-          {
-            id: "faith_based_pagoda_05962",
-            display_text: "ទីកន្លែងសាសនា/វត្តអារាម"
-          },
-          {
-            id: "boarding_school_98684",
-            display_text: "អន្តេវាសិកដ្ឋាន"
-          }
-        ],
-        multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1159,32 +1259,48 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Where is the child currently living?",
-        help_text_en: "",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Where is the child currently living?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        option_strings_text_i18n: [
           {
             id: "living_with_parent_s_54837",
-            display_text: "Living with parent(s)"
+            display_text: {
+              en: "Living with parent(s)"
+            }
           },
           {
             id: "living_with_kin_32390",
-            display_text: "Living with kin"
+            display_text: {
+              en: "Living with kin"
+            }
           },
           {
             id: "living_in_other_form_of_community_based_care_setting_42666",
-            display_text: "Living in other form of community-based care setting"
+            display_text: {
+              en: "Living in other form of community-based care setting"
+            }
           },
           {
             id: "living_in_same_rcf_15797",
-            display_text: "Living in same RCF"
+            display_text: {
+              en: "Living in same RCF"
+            }
           },
           {
             id: "living_in_another_rcf_15447",
-            display_text: "Living in another RCF"
+            display_text: {
+              en: "Living in another RCF"
+            }
           },
           {
             id: "other_54647",
-            display_text: "Other"
+            display_text: {
+              en: "Other"
+            }
           }
         ],
         multi_select: false,
@@ -1202,9 +1318,12 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If other, please specify",
-        help_text_en: "",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If other, please specify"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1219,11 +1338,14 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Current Address of the child",
-        help_text_en: "House number, street number and relevant landmarks",
-        display_name_km: "អាសយដ្ឋានបច្ចុប្បន្នរបស់កុមារ",
-        help_text_km: "លេខផ្ទះ លេខផ្លូវ និង ទីកន្លែងសម្គាល់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Current Address of the child",
+          km: "អាសយដ្ឋានបច្ចុប្បន្នរបស់កុមារ"
+        },
+        help_text_i18n: {
+          en: "House number, street number and relevant landmarks",
+          km: "លេខផ្ទះ លេខផ្លូវ និង ទីកន្លែងសម្គាល់"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1238,8 +1360,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Landmark",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Landmark"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1254,11 +1377,14 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Current Location",
-        help_text_en: "Enter country, province, district, commune, and village. This is required for an OSCaR referral.",
-        display_name_km: "ទីតាំង​បច្ចុប្បន្ន",
-        help_text_km: "សូមបញ្ចូល ប្រទេស::រាជធានី/ខេត្ត::ស្រុក/ខ័ណ្ឌ::ឃុំ/សង្កាត់::ភូមិ ។ តម្រូវសម្រាប់ការបញ្ជូនទៅប្រព័ន្ធ OSCaR",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Current Location",
+          km: "ទីតាំង​បច្ចុប្បន្ន"
+        },
+        help_text_i18n: {
+          en: "Enter country, province, district, commune, and village. This is required for an OSCaR referral.",
+          km: "សូមបញ្ចូល ប្រទេស::រាជធានី/ខេត្ត::ស្រុក/ខ័ណ្ឌ::ឃុំ/សង្កាត់::ភូមិ ។ តម្រូវសម្រាប់ការបញ្ជូនទៅប្រព័ន្ធ OSCaR"
+        },
         hidden_text_field: false,
         option_strings_source: "Location",
         autosum_total: false,
@@ -1274,8 +1400,9 @@ FormSection.create_or_update!(
         type: "tick_box",
         editable: true,
         disabled: false,
-        display_name_en: "Is this address permanent?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Is this address permanent?"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1290,11 +1417,14 @@ FormSection.create_or_update!(
         type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Is this address permanent?",
-        help_text_en: "",
-        display_name_km: "អាសយដ្ឋាន​អចិន្ត្រៃយ៍​?",
-        help_text_km: "",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Is this address permanent?",
+          km: "អាសយដ្ឋាន​អចិន្ត្រៃយ៍​?"
+        },
+        help_text_i18n: {
+          en: "",
+          km: ""
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
         autosum_total: false,
@@ -1310,9 +1440,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Current Telephone",
-        display_name_km: "លេខទូរស័ព្ទ​",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Current Telephone",
+          km: "លេខទូរស័ព្ទ​"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1327,8 +1458,9 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Birth Country",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Birth Country"
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-country",
         autosum_total: false,
@@ -1344,8 +1476,9 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Country of Origin",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Country of Origin"
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-country",
         autosum_total: false,
@@ -1361,9 +1494,10 @@ FormSection.create_or_update!(
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Last Address",
-        display_name_km: "អាសយដ្ឋាន​មុន (ចុងក្រោយបង្អស់)",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Last Address",
+          km: "អាសយដ្ឋាន​មុន (ចុងក្រោយបង្អស់)"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1378,8 +1512,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Last Landmark",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Last Landmark"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1394,8 +1529,9 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Last Location",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Last Location"
+        },
         hidden_text_field: false,
         option_strings_source: "Location",
         autosum_total: false,
@@ -1412,8 +1548,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Last Telephone",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Last Telephone"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1429,7 +1566,9 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Ethnicity/Clan/Tribe",
+        display_name_i18n: {
+          en: "Ethnicity/Clan/Tribe"
+        },
         multi_select: true,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-ethnicity",
@@ -1447,7 +1586,9 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Sub Ethnicity 1",
+        display_name_i18n: {
+          en: "Sub Ethnicity 1"
+        },
         multi_select: true,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-ethnicity",
@@ -1464,7 +1605,9 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Sub Ethnicity 2",
+        display_name_i18n: {
+          en: "Sub Ethnicity 2"
+        },
         multi_select: true,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-ethnicity",
@@ -1481,8 +1624,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Language",
-        display_name_km: "ភាសា",
+        display_name_i18n: {
+          en: "Language",
+          km: "ភាសា"
+        },
         multi_select: true,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-language",
@@ -1499,8 +1644,10 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Religion",
-        display_name_km: "សាសនា",
+        display_name_i18n: {
+          en: "Religion",
+          km: "សាសនា"
+        },
         multi_select: true,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-religion",
@@ -1517,10 +1664,13 @@ FormSection.create_or_update!(
         type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "For children living in Residential Care Facilities",
-        help_text_en: "",
-        display_name_km: "សម្រាប់កុមារដែលរស់នៅក្នុងកន្លែងថែទាំកុមារ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "For children living in Residential Care Facilities",
+          km: "សម្រាប់កុមារដែលរស់នៅក្នុងកន្លែងថែទាំកុមារ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -1535,10 +1685,13 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Name of Residential Care Facilities",
-        help_text_en: "",
-        display_name_km: "ឈ្មោះកន្លែងថែទាំកុមារ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Name of Residential Care Facilities",
+          km: "ឈ្មោះកន្លែងថែទាំកុមារ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-residential-care-facilities-2b22fbb",
         autosum_total: false,
@@ -1554,10 +1707,13 @@ FormSection.create_or_update!(
         type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the alternative care have a MoU with the Government",
-        help_text_en: "",
-        display_name_km: "មានកិច្ចព្រមព្រៀងជាមួយក្រសួង ស.អ.យ.?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Does the alternative care have a MoU with the Government",
+          km: "មានកិច្ចព្រមព្រៀងជាមួយក្រសួង ស.អ.យ.?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
         autosum_total: false,
@@ -1573,10 +1729,13 @@ FormSection.create_or_update!(
         type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the alternative care have authorization from MoSVY?",
-        help_text_en: "",
-        display_name_km: "មានលិខិតទទួលស្គាល់ពីក្រសួង ស.អ.យ.?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Does the alternative care have authorization from MoSVY?",
+          km: "មានលិខិតទទួលស្គាល់ពីក្រសួង ស.អ.យ.?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
         autosum_total: false,
@@ -1592,35 +1751,34 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What was the inspection result for the current or previous year?",
-        help_text_en: "",
-        display_name_km: "លទ្ធផលអធិការកិច្ចចុងក្រោយ",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "What was the inspection result for the current or previous year?",
+          km: "លទ្ធផលអធិការកិច្ចចុងក្រោយ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        option_strings_text_i18n: [
           {
             id: "above_minimum_standards_65426",
-            display_text: "Meets standard"
+            display_text: {
+              en: "Meets standard",
+              km: "អនុវត្តស្របតាមបទដ្ឋាន"
+            }
           },
           {
             id: "above_minimum_standards_92387",
-            display_text: "Does not meet standard"
+            display_text: {
+              en: "Does not meet standard",
+              km: "អនុវត្តមិនស្របតាមបទដ្ឋាន"
+            }
           },
           {
             id: "critical_41152",
-            display_text: "Critical"
-          }
-        ],
-        option_strings_text_km: [
-          {
-            id: "above_minimum_standards_65426",
-            display_text: "អនុវត្តស្របតាមបទដ្ឋាន"
-          },
-          {
-            id: "above_minimum_standards_92387",
-            display_text: "អនុវត្តមិនស្របតាមបទដ្ឋាន"
-          },
-          {
-            id: "critical_41152",
-            display_text: "អនុវត្តក្រោមបទដ្ឋានធ្ងន់ធ្ងរ"
+            display_text: {
+              en: "Critical",
+              km: "អនុវត្តក្រោមបទដ្ឋានធ្ងន់ធ្ងរ"
+            }
           }
         ],
         multi_select: false,

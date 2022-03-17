@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Notes Subform",
-    description_en: "Nested Notes Subform",
-    name_km: "ទម្រង់​រងកំណត់​សម្គាល់​ Nested",
-    description_km: "ទម្រង់​រងកំណត់​សម្គាល់​ Nested",
     unique_id: "notes_section",
+    name_i18n: {
+      en: "Nested Notes Subform",
+      km: "ទម្រង់​រងកំណត់​សម្គាល់​ Nested"
+    },
+    description_i18n: {
+      en: "Nested Notes Subform",
+      km: "ទម្រង់​រងកំណត់​សម្គាល់​ Nested"
+    },
     parent_form: "case",
     visible: false,
     order: 20,
@@ -17,12 +21,13 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     collapsed_field_names: [
       "note_subject",
       "note_created_by"
@@ -30,83 +35,134 @@ FormSection.create_or_update!(
     fields_attributes: [
       {
         name: "note_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date",
-        display_name_km: "កាលបរិច្ឆេទ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date",
+          km: "កាលបរិច្ឆេទ"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "note_subject",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Subject",
-        display_name_km: "ប្រធានបទ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Subject",
+          km: "ប្រធានបទ"
+        },
+        order: 1,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 1693,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "notes_section"
       },
       {
         name: "note_text",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Notes",
-        display_name_km: "កំណត់​សម្គាល់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Notes",
+          km: "កំណត់​សម្គាល់"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "note_created_by",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: true,
-        display_name_en: "Manager",
-        display_name_km: "អ្នក​គ្រប់គ្រង",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Manager",
+          km: "អ្នក​គ្រប់គ្រង"
+        },
+        order: 3,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 1693,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "notes_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Notes",
-    description_en: "Notes",
-    name_km: "កំណត់​សម្គាល់",
-    description_km: "កំណត់​សម្គាល់",
     unique_id: "notes",
+    name_i18n: {
+      en: "Notes",
+      km: "កំណត់​សម្គាល់"
+    },
+    description_i18n: {
+      en: "Notes",
+      km: "កំណត់​សម្គាល់"
+    },
     parent_form: "case",
     visible: true,
     order: 40,
@@ -120,34 +176,52 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "notes_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Notes",
-        help_text_en: "",
-        display_name_km: "កំណត់​សម្គាល់",
-        help_text_km: "",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Notes",
+          km: "កំណត់​សម្គាល់"
+        },
+        help_text_i18n: {
+          en: "",
+          km: ""
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        subform_sort_by: "notes_date",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        subform_section_configuration: {
+          subform_sort_by: "notes_date"
+        },
+        mandatory_for_completion: false,
         subform_unique_id: "notes_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

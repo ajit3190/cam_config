@@ -1,9 +1,14 @@
 Report.create_or_update!(
   {
-    name_en: "Case by protection concerns, sex and age",
-    description_en: "",
-    name_km: "ករណីបែងចែកតាមបញ្ហាជាកង្វល់ ភេទ និងអាយុ",
-    description_km: "",
+    name_i18n: {
+      en: "Case by protection concerns, sex and age",
+      km: "ករណីបែងចែកតាមបញ្ហាជាកង្វល់ ភេទ និងអាយុ"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "protection_concerns"
@@ -15,101 +20,121 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: true,
     group_dates_by: "week",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-protection-concerns-sex-and-age-19487fa"
+    unique_id: "case-by-protection-concerns-sex-and-age-19487fa",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Cases by Nationality",
-    description_en: "Number of cases broken down by nationality",
-    name_km: "ករណីបែងចែកតាមសញ្ជាតិ",
-    description_km: "ចំនួនករណីបែងចែកតាមសញ្ជាតិ",
+    name_i18n: {
+      en: "Cases by Nationality",
+      km: "ករណីបែងចែកតាមសញ្ជាតិ"
+    },
+    description_i18n: {
+      en: "Number of cases broken down by nationality",
+      km: "ចំនួនករណីបែងចែកតាមសញ្ជាតិ"
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "nationality"
     ],
+    disaggregate_by: [],
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "cases-by-nationality-3308d35"
+    unique_id: "cases-by-nationality-3308d35",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "case by admin level (Village level)",
-    description_en: "",
-    name_km: "ករណីបែងចែកតាមកម្រិតរដ្ឋបាល (កម្រិតភូមិ)",
-    description_km: "",
+    name_i18n: {
+      en: "case by admin level (Village level)",
+      km: "ករណីបែងចែកតាមកម្រិតរដ្ឋបាល (កម្រិតភូមិ)"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "location_current4"
     ],
+    disaggregate_by: [],
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-admin-level-village-level-0413437"
+    unique_id: "case-by-admin-level-village-level-0413437",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "CASE BY ADMIN LEVEL (District Level)",
-    description_en: "",
-    name_km: "ករណីបែងចែកតាមកម្រិតរដ្ឋបាល (កម្រិតស្រុក)",
-    description_km: "",
+    name_i18n: {
+      en: "CASE BY ADMIN LEVEL (District Level)",
+      km: "ករណីបែងចែកតាមកម្រិតរដ្ឋបាល (កម្រិតស្រុក)"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "location_current2"
@@ -120,67 +145,80 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-admin-level-district-level-33c5faf"
+    unique_id: "case-by-admin-level-district-level-33c5faf",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "CASE BY ADMIN LEVEL (Commune Level)",
-    description_en: "",
-    name_km: "ករណីបែងចែកតាមកម្រិតរដ្ឋបាល (កម្រិតឃុំ)",
-    description_km: "",
+    name_i18n: {
+      en: "CASE BY ADMIN LEVEL (Commune Level)",
+      km: "ករណីបែងចែកតាមកម្រិតរដ្ឋបាល (កម្រិតឃុំ)"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "location_current3"
     ],
+    disaggregate_by: [],
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-admin-level-commune-level-204a1a9"
+    unique_id: "case-by-admin-level-commune-level-204a1a9",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Cases by Age and Sex",
-    description_en: "Number of cases broken down by age and sex",
-    name_km: "ករណីបែងចែកតាមអាយុ និងភេទ",
-    description_km: "ចំនួនករណី បែងចែកតាមអាយុ និងភេទ",
+    name_i18n: {
+      en: "Cases by Age and Sex",
+      km: "ករណីបែងចែកតាមអាយុ និងភេទ"
+    },
+    description_i18n: {
+      en: "Number of cases broken down by age and sex",
+      km: "ចំនួនករណី បែងចែកតាមអាយុ និងភេទ"
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "age"
@@ -191,38 +229,44 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       },
       {
+        value: "31-Aug-2020",
         attribute: "registration_date",
-        constraint: "\u003c",
-        value: "31-Aug-2020"
+        constraint: "\u003c"
       }
     ],
     group_ages: true,
     group_dates_by: "date",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "cases-by-age-and-sex-45f2157"
+    unique_id: "cases-by-age-and-sex-45f2157",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Case by age​ and agency",
-    description_en: "Number of cases broken down by agency",
-    name_km: "ករណីបែងចែកតាមអាយុ  និងស្ថាប័ន",
-    description_km: "",
+    name_i18n: {
+      en: "Case by age​ and agency",
+      km: "ករណីបែងចែកតាមអាយុ  និងស្ថាប័ន"
+    },
+    description_i18n: {
+      en: "Number of cases broken down by agency",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "owned_by_agency"
@@ -234,32 +278,38 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
+        value: "31-Dec-2020",
         attribute: "registration_date",
-        constraint: "\u003e",
-        value: "31-Dec-2020"
+        constraint: "\u003e"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-age-and-agency-21fb81f"
+    unique_id: "case-by-age-and-agency-21fb81f",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Cases by Admin Level (Province) ",
-    description_en: "",
-    name_km: "ករណីតាមកម្រិតរដ្ខបាល (ខេត្ត)",
-    description_km: "",
+    name_i18n: {
+      en: "Cases by Admin Level (Province) ",
+      km: "ករណីតាមកម្រិតរដ្ខបាល (ខេត្ត)"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "owned_by_location1"
@@ -270,33 +320,39 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: true,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "cases-by-admin-level-province-caf83ad"
+    unique_id: "cases-by-admin-level-province-caf83ad",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Cases by Admin Level (Province - child tracking tool cases)",
-    description_en: "",
-    name_km: "ករណីតាមកម្រិតរដ្ខបាល (ខេត្ត - ទិន្នន័យពី child tracking tool)",
-    description_km: "",
+    name_i18n: {
+      en: "Cases by Admin Level (Province - child tracking tool cases)",
+      km: "ករណីតាមកម្រិតរដ្ខបាល (ខេត្ត - ទិន្នន័យពី child tracking tool)"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "owned_by_location1"
@@ -307,38 +363,44 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
+        value: "31-Aug-2020",
         attribute: "registration_date",
-        constraint: "\u003c",
-        value: "31-Aug-2020"
+        constraint: "\u003c"
       },
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "cases-by-admin-level-province-child-tracking-tool-cases-c4455f7"
+    unique_id: "cases-by-admin-level-province-child-tracking-tool-cases-c4455f7",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Type of Case",
-    description_en: "ប្រភេទករណីបែងចែកតាមភេទ និងខេត្ត",
-    name_km: "ប្រភេទករណី",
-    description_km: "",
+    name_i18n: {
+      en: "Type of Case",
+      km: "ប្រភេទករណី"
+    },
+    description_i18n: {
+      en: "ប្រភេទករណីបែងចែកតាមភេទ និងខេត្ត",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "owned_by_location1"
@@ -350,71 +412,84 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       },
       {
+        value: "31-Aug-2020",
         attribute: "registration_date",
-        constraint: "\u003e",
-        value: "31-Aug-2020"
+        constraint: "\u003e"
       }
     ],
     group_ages: false,
     group_dates_by: "month",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "type-of-case-97fd066"
+    unique_id: "type-of-case-97fd066",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Case registration by month",
-    description_en: "Case registrations over time",
-    name_km: "ការចុះព័ត៌មានកុមារ",
-    description_km: "ការចុះព័ត៌មានកុមារប្រចាំខែ",
+    name_i18n: {
+      en: "Case registration by month",
+      km: "ការចុះព័ត៌មានកុមារ"
+    },
+    description_i18n: {
+      en: "Case registrations over time",
+      km: "ការចុះព័ត៌មានកុមារប្រចាំខែ"
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "registration_date"
     ],
+    disaggregate_by: [],
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       },
       {
+        value: "01-Aug-2020",
         attribute: "registration_date",
-        constraint: "\u003e",
-        value: "01-Aug-2020"
+        constraint: "\u003e"
       }
     ],
     group_ages: false,
     group_dates_by: "month",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-registration-by-month-7297f7d"
+    unique_id: "case-registration-by-month-7297f7d",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Service Referral Types",
-    description_en: "Number of referrals between the apps by Referral Types",
-    name_km: "ប្រភេទនៃការបញ្ជូន",
-    description_km: "ចំនួននៃការបញ្ជូនរវាងប្រព័ន្ធ",
+    name_i18n: {
+      en: "Service Referral Types",
+      km: "ប្រភេទនៃការបញ្ជូន"
+    },
+    description_i18n: {
+      en: "Number of referrals between the apps by Referral Types",
+      km: "ចំនួននៃការបញ្ជូនរវាងប្រព័ន្ធ"
+    },
+    module_id: "primeromodule-cp",
     record_type: "reportable_service",
     aggregate_by: [
       "service_response_type"
@@ -425,33 +500,39 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "service-referral-types-dd5b6f0"
+    unique_id: "service-referral-types-dd5b6f0",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Case by disability types ",
-    description_en: "",
-    name_km: "ករណីបែងចែកតាមពិការភាព ",
-    description_km: "",
+    name_i18n: {
+      en: "Case by disability types ",
+      km: "ករណីបែងចែកតាមពិការភាព "
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "disability_type"
@@ -462,101 +543,121 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-disability-types-00982a9"
+    unique_id: "case-by-disability-types-00982a9",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Workflow Status",
-    description_en: "Cases broken down by current workflow status",
-    name_km: "ស្ថានភាពលំហូរការងារ",
-    description_km: "ចំនួនករណីបែងចែកតាមស្ថានភាពលំហូរការងារ",
+    name_i18n: {
+      en: "Workflow Status",
+      km: "ស្ថានភាពលំហូរការងារ"
+    },
+    description_i18n: {
+      en: "Cases broken down by current workflow status",
+      km: "ចំនួនករណីបែងចែកតាមស្ថានភាពលំហូរការងារ"
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "workflow_status"
     ],
+    disaggregate_by: [],
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: true,
     group_dates_by: "date",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "workflow-status-ead3ee1"
+    unique_id: "workflow-status-ead3ee1",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Caseload Summary",
-    description_en: "Number of cases for each case worker",
-    name_km: "បន្ទុកការងារកាន់ករណី",
-    description_km: "ចំនួនករណីបែងចែកតាមអ្នកកាន់ករណី",
+    name_i18n: {
+      en: "Caseload Summary",
+      km: "បន្ទុកការងារកាន់ករណី"
+    },
+    description_i18n: {
+      en: "Number of cases for each case worker",
+      km: "ចំនួនករណីបែងចែកតាមអ្នកកាន់ករណី"
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "owned_by"
     ],
+    disaggregate_by: [],
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "caseload-summary-3fc9cf2"
+    unique_id: "caseload-summary-3fc9cf2",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Case with size of family member (after migration Sep 2020)",
-    description_en: "",
-    name_km: "ករណីបែងចែកតាមចំនួនសមាជិកគ្រួសារ (ចាប់ពីខែកញ្ញា ឆ្នាំ២០២០)",
-    description_km: "",
+    name_i18n: {
+      en: "Case with size of family member (after migration Sep 2020)",
+      km: "ករណីបែងចែកតាមចំនួនសមាជិកគ្រួសារ (ចាប់ពីខែកញ្ញា ឆ្នាំ២០២០)"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "sex"
@@ -567,38 +668,44 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
+        value: "31-Aug-2020",
         attribute: "registration_date",
-        constraint: "\u003e",
-        value: "31-Aug-2020"
+        constraint: "\u003e"
       },
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-with-size-of-family-member-after-migration-sep-2020-4872c65"
+    unique_id: "case-with-size-of-family-member-after-migration-sep-2020-4872c65",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Case by risk level (after migration)",
-    description_en: "",
-    name_km: "ករណីបែងចែកតាមកម្រិតហានិភ័យ (ចាប់ពីខែកញ្ញា ឆ្នាំ២០២០)",
-    description_km: "",
+    name_i18n: {
+      en: "Case by risk level (after migration)",
+      km: "ករណីបែងចែកតាមកម្រិតហានិភ័យ (ចាប់ពីខែកញ្ញា ឆ្នាំ២០២០)"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "sex"
@@ -609,38 +716,44 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
+        value: "31-Aug-2020",
         attribute: "registration_date",
-        constraint: "\u003e",
-        value: "31-Aug-2020"
+        constraint: "\u003e"
       },
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-risk-level-after-migration-733cc23"
+    unique_id: "case-by-risk-level-after-migration-733cc23",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Follow up by province",
-    description_en: "",
-    name_km: "តាមដានករណីបែងចែកតាមខេត្ត",
-    description_km: "",
+    name_i18n: {
+      en: "Follow up by province",
+      km: "តាមដានករណីបែងចែកតាមខេត្ត"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "reportable_follow_up",
     aggregate_by: [
       "owned_by_location1"
@@ -651,43 +764,49 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       },
       {
+        value: "31-Aug-2020",
         attribute: "followup_date",
-        constraint: "\u003e",
-        value: "31-Aug-2020"
+        constraint: "\u003e"
       },
       {
+        value: "31-Aug-2020",
         attribute: "registration_date",
-        constraint: "\u003c",
-        value: "31-Aug-2020"
+        constraint: "\u003c"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "follow-up-by-province-ca57495"
+    unique_id: "follow-up-by-province-ca57495",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "case by RCIs",
-    description_en: "",
-    name_km: "ករណី​បែងចែកតាម RCIs",
-    description_km: "",
+    name_i18n: {
+      en: "case by RCIs",
+      km: "ករណី​បែងចែកតាម RCIs"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "name_of_residential_care_institution",
@@ -700,33 +819,39 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: true,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-rcis-1d756e8"
+    unique_id: "case-by-rcis-1d756e8",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "CASE BY SERVICE TYPES",
-    description_en: "",
-    name_km: "CASE BY SERVICE TYPES",
-    description_km: "",
+    name_i18n: {
+      en: "CASE BY SERVICE TYPES",
+      km: "CASE BY SERVICE TYPES"
+    },
+    description_i18n: {
+      en: "",
+      km: ""
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "service_response_types"
@@ -737,33 +862,39 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-by-service-types-25468ca"
+    unique_id: "case-by-service-types-25468ca",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Case status by case worker",
-    description_en: "Status of cases held by case workers",
-    name_km: "ស្ថានភាពករណី",
-    description_km: "ស្ថានភាពករណី បែងចែកតាមអ្នកកាន់ករណី",
+    name_i18n: {
+      en: "Case status by case worker",
+      km: "ស្ថានភាពករណី"
+    },
+    description_i18n: {
+      en: "Status of cases held by case workers",
+      km: "ស្ថានភាពករណី បែងចែកតាមអ្នកកាន់ករណី"
+    },
+    module_id: "primeromodule-cp",
     record_type: "case",
     aggregate_by: [
       "owned_by"
@@ -774,18 +905,19 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-cp",
-    unique_id: "case-status-by-case-worker-e1923ca"
+    unique_id: "case-status-by-case-worker-e1923ca",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 

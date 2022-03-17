@@ -1,9 +1,13 @@
 FormSection.create_or_update!(
   {
-    name_en: "Best Interest",
-    description_en: "Best Interest",
-    name_km: "ចំណាប់​អារម្មណ៍​ខ្លាំង​បំផុត",
-    description_km: "ចំណាប់​អារម្មណ៍​ខ្លាំង​បំផុត",
+    name_i18n: {
+      en: "Best Interest",
+      km: "ចំណាប់​អារម្មណ៍​ខ្លាំង​បំផុត"
+    },
+    description_i18n: {
+      en: "Best Interest",
+      km: "ចំណាប់​អារម្មណ៍​ខ្លាំង​បំផុត"
+    },
     unique_id: "best_interest",
     parent_form: "case",
     visible: false,
@@ -34,19 +38,27 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Was the report submitted to the body that decides the best interest of the child?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Was the report submitted to the body that decides the best interest of the child?"
+        },
+        option_strings_text_i18n: [
           {
             id: "submitted",
-            display_text: "Submitted"
+            display_text: {
+              en: "Submitted"
+            }
           },
           {
             id: "pending",
-            display_text: "Pending"
+            display_text: {
+              en: "Pending"
+            }
           },
           {
             id: "no",
-            display_text: "No"
+            display_text: {
+              en: "No"
+            }
           }
         ],
         multi_select: false,
@@ -64,8 +76,9 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of submission",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of submission"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -80,31 +93,45 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Recommendation",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Recommendation"
+        },
+        option_strings_text_i18n: [
           {
             id: "local_integration",
-            display_text: "Local integration"
+            display_text: {
+              en: "Local integration"
+            }
           },
           {
             id: "maintain_change_current_arrangements",
-            display_text: "Maintain/Change current arrangements"
+            display_text: {
+              en: "Maintain/Change current arrangements"
+            }
           },
           {
             id: "medical",
-            display_text: "Medical"
+            display_text: {
+              en: "Medical"
+            }
           },
           {
             id: "repatriation",
-            display_text: "Repatriation"
+            display_text: {
+              en: "Repatriation"
+            }
           },
           {
             id: "resettlement_to_3rd_country",
-            display_text: "Resettlement to 3rd country"
+            display_text: {
+              en: "Resettlement to 3rd country"
+            }
           },
           {
             id: "reunification",
-            display_text: "Reunification"
+            display_text: {
+              en: "Reunification"
+            }
           }
         ],
         multi_select: false,
@@ -122,8 +149,9 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Recommendation",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of Recommendation"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -138,8 +166,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Proposed Support",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Proposed Support"
+        },
+
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -154,8 +184,10 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Agency Responsible",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Agency Responsible"
+        },
+
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -170,8 +202,10 @@ FormSection.create_or_update!(
         type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the child accept the proposed support?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Does the child accept the proposed support?"
+        },
+        option_strings_source: "lookup lookup-yes-no",
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
         autosum_total: false,
@@ -187,8 +221,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If refused, why?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If refused, why?"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -203,8 +238,9 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Implementation",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of Implementation"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -219,8 +255,9 @@ FormSection.create_or_update!(
         type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Implementing Agency",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Implementing Agency"
+        },
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",

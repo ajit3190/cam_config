@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Tracing Action",
-    description_en: "Tracing Action Subform",
-    name_km: "សកម្មភាព​ស្វែងរក",
-    description_km: "ទម្រង់​ស្វែងរក",
     unique_id: "tracing_actions_section",
+    name_i18n: {
+      en: "Nested Tracing Action",
+      km: "សកម្មភាព​ស្វែងរក"
+    },
+    description_i18n: {
+      en: "Tracing Action Subform",
+      km: "ទម្រង់​ស្វែងរក"
+    },
     parent_form: "case",
     visible: false,
     order: 20,
@@ -17,237 +21,307 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     collapsed_field_names: [
-      "tracing_type",
-      "date_tracing"
+      "date_tracing",
+      "tracing_type"
     ],
     fields_attributes: [
       {
         name: "date_tracing",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of tracing",
-        display_name_km: "កាលបរិច្ឆេទ​ស្វែងរក​",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of tracing",
+          km: "កាលបរិច្ឆេទ​ស្វែងរក​"
+        },
+        order: 0,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 1709,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "tracing_actions_section"
       },
       {
         name: "tracing_type",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Type of action taken",
-        display_name_km: "ប្រភេទនៃការស្វែងរក",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Type of action taken",
+          km: "ប្រភេទនៃការស្វែងរក"
+        },
+        option_strings_text_i18n: [
           {
             id: "case_by_case_tracing",
-            display_text: "Case by Case Tracing"
+            display_text: {
+              en: "Case by Case Tracing",
+              km: "ការស្វែងរកតាមករណីនីមួយៗ"
+            }
           },
           {
             id: "individual_tracing",
-            display_text: "Individual Tracing"
+            display_text: {
+              en: "Individual Tracing",
+              km: "ការ​ស្វែងរកករណីម្នាក់ៗ"
+            }
           },
           {
             id: "mass_tracing",
-            display_text: "Mass Tracing"
+            display_text: {
+              en: "Mass Tracing",
+              km: "ការ​ស្វែងរក​ជាក្រុម"
+            }
           },
           {
             id: "photo_tracing",
-            display_text: "Photo Tracing"
+            display_text: {
+              en: "Photo Tracing",
+              km: "ការ​ស្វែងរកតាម​រូបថត"
+            }
           },
           {
             id: "referral_to_ngo",
-            display_text: "Referral to NGO"
+            display_text: {
+              en: "Referral to NGO",
+              km: "បញ្ជូន​ទៅ​អង្គការ​មិនមែន​រដ្ឋាភិបាល"
+            }
           },
           {
             id: "referral_to_icrc",
-            display_text: "Referral to ICRC"
+            display_text: {
+              en: "Referral to ICRC",
+              km: "បញ្ជូន​ទៅ ICRC"
+            }
           }
         ],
-        option_strings_text_km: [
-          {
-            id: "case_by_case_tracing",
-            display_text: "ការស្វែងរកតាមករណីនីមួយៗ"
-          },
-          {
-            id: "individual_tracing",
-            display_text: "ការ​ស្វែងរកករណីម្នាក់ៗ"
-          },
-          {
-            id: "mass_tracing",
-            display_text: "ការ​ស្វែងរក​ជាក្រុម"
-          },
-          {
-            id: "photo_tracing",
-            display_text: "ការ​ស្វែងរកតាម​រូបថត"
-          },
-          {
-            id: "referral_to_ngo",
-            display_text: "បញ្ជូន​ទៅ​អង្គការ​មិនមែន​រដ្ឋាភិបាល"
-          },
-          {
-            id: "referral_to_icrc",
-            display_text: "បញ្ជូន​ទៅ ICRC"
-          }
-        ],
-        multi_select: false,
+        order: 1,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 1709,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "tracing_actions_section"
       },
       {
         name: "address_tracing",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address/Village where the tracing action took place",
-        display_name_km: "អាសយដ្ឋាន/ភូមិ​ដែល​សកម្មភាព​ស្វែងរក​កើតឡើង",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address/Village where the tracing action took place",
+          km: "អាសយដ្ឋាន/ភូមិ​ដែល​សកម្មភាព​ស្វែងរក​កើតឡើង"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "location_tracing",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Location of Tracing",
-        display_name_km: "ទីតាំង​ស្វែងរក",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Location of Tracing",
+          km: "ទីតាំង​ស្វែងរក"
+        },
         option_strings_source: "Location",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "tracing_action_description",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Action taken and remarks",
-        display_name_km: "សកម្មភាព និង​កំណត់​សម្គាល់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Action taken and remarks",
+          km: "សកម្មភាព និង​កំណត់​សម្គាល់"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "tracing_outcome",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Outcome of tracing action",
-        display_name_km: "លទ្ធផល​នៃ​សកម្មភាព​ស្វែងរក",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Outcome of tracing action",
+          km: "លទ្ធផល​នៃ​សកម្មភាព​ស្វែងរក"
+        },
+        option_strings_text_i18n: [
           {
             id: "pending",
-            display_text: "Pending"
+            display_text: {
+              en: "Pending",
+              km: "កំពុង​រង់ចាំ"
+            }
           },
           {
             id: "successful",
-            display_text: "Successful"
+            display_text: {
+              en: "Successful",
+              km: "ជោគជ័យ"
+            }
           },
           {
             id: "unsuccessful",
-            display_text: "Unsuccessful"
+            display_text: {
+              en: "Unsuccessful",
+              km: "មិន​ជោគជ័យ"
+            }
           },
           {
             id: "yes",
-            display_text: "Yes"
+            display_text: {
+              en: "Yes",
+              km: "បាទ/ចា៎ស"
+            }
           }
         ],
-        option_strings_text_km: [
-          {
-            id: "pending",
-            display_text: "កំពុង​រង់ចាំ"
-          },
-          {
-            id: "successful",
-            display_text: "ជោគជ័យ"
-          },
-          {
-            id: "unsuccessful",
-            display_text: "មិន​ជោគជ័យ"
-          },
-          {
-            id: "yes",
-            display_text: "បាទ/ចា៎ស"
-          }
-        ],
-        multi_select: false,
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "next_steps_tracing",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If tracing is unsuccessful, what is the next step?",
-        help_text_en: "",
-        display_name_km: "ប្រសិនបើការស្វែងរកមិនបានជោគជ័យ តើត្រូវធ្វើអ្វីបន្តទៀត?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If tracing is unsuccessful, what is the next step?",
+          km: "ប្រសិនបើការស្វែងរកមិនបានជោគជ័យ តើត្រូវធ្វើអ្វីបន្តទៀត?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      }
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Tracing",
-    description_en: "Tracing",
-    name_km: "ការ​ស្វែងរក",
-    description_km: "ការ​ស្វែងរក",
     unique_id: "tracing",
+    name_i18n: {
+      en: "Tracing",
+      km: "ការ​ស្វែងរក"
+    },
+    description_i18n: {
+      en: "Tracing",
+      km: "ការ​ស្វែងរក"
+    },
     parent_form: "case",
     visible: true,
     order: 10,
@@ -261,386 +335,602 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "matched_tracing_request_id",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Matched Tracing Request ID",
-        display_name_km: "ផ្គូផ្គង​លេខកូដ​ស្វែងរក​",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Matched Tracing Request ID",
+          km: "ផ្គូផ្គង​លេខកូដ​ស្វែងរក​"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
         link_to_path: "tracing_request",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_separator",
+        type: "separator",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "Separation History: only applies to a child not living under parental care",
-        help_text_en: "",
-        display_name_km: "ប្រវត្តិបែកពីគ្រួសារ៖ អនុវត្តចំពោះតែកុមារដែលបែកពីឪពុក/ម្តាយ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Separation History: only applies to a child not living under parental care",
+          km: "ប្រវត្តិបែកពីគ្រួសារ៖ អនុវត្តចំពោះតែកុមារដែលបែកពីឪពុក/ម្តាយ"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "tracing_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Tracing Status",
-        display_name_km: "ស្ថានភាព​​ស្វែងរក",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Tracing Status",
+          km: "ស្ថានភាព​​ស្វែងរក"
+        },
         option_strings_source: "lookup lookup-tracing-status",
+        order: 2,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "date_of_separation",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Separation",
-        display_name_km: "កាលបរិច្ឆេទ​នៃការបែកពីគ្រួសារ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of Separation",
+          km: "កាលបរិច្ឆេទ​នៃការបែកពីគ្រួសារ"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
-      },
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_cause",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What was the main cause of separation?",
-        display_name_km: "មូលហេតុ​ចម្បង​",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "What was the main cause of separation?",
+          km: "មូលហេតុ​ចម្បង​"
+        },
         option_strings_source: "lookup lookup-separation-cause",
+        order: 4,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
-      },
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_cause_other",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If Other, please specify",
-        display_name_km: "ប្រសិនបើ​ផ្សេងទៀត សូម​បញ្ជាក់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If Other, please specify",
+          km: "ប្រសិនបើ​ផ្សេងទៀត សូម​បញ្ជាក់"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
-      },
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_other_applicable_causes",
+        type: "select_box",
+        multi_select: true,
         visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If applicable, what were other causes of separation? ",
-        display_name_km: "ប្រសិនបើ​មាន​ តើ​អ្វី​ជា​មូលហេតុ​​ផ្សេង​ទៀត​នៃការបែកចេញពីគ្រួសារ?",
-        multi_select: true,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "If applicable, what were other causes of separation? ",
+          km: "ប្រសិនបើ​មាន​ តើ​អ្វី​ជា​មូលហេតុ​​ផ្សេង​ទៀត​នៃការបែកចេញពីគ្រួសារ?"
+        },
         option_strings_source: "lookup lookup-separation-cause",
+        order: 6,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_details",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Circumstances of Separation (please provide details)",
-        help_text_en: "",
-        display_name_km: "សូម​ផ្ដល់​ព័ត៌មាន​លម្អិត",
-        help_text_km: "",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Circumstances of Separation (please provide details)",
+          km: "សូម​ផ្ដល់​ព័ត៌មាន​លម្អិត"
+        },
+        help_text_i18n: {
+          en: "",
+          km: ""
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_additional_movements",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Describe additional movements between place of separation and current location",
-        display_name_km: "ពិពណ៌នាអំពីការ​ផ្លាស់ទីរបស់កុមារ​រវាងទីកន្លែងដែលកុមារបែកគ្នា និងទីកន្លែងដែលកុមាររស់នៅបច្ចុប្បន្ន",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Describe additional movements between place of separation and current location",
+          km: "ពិពណ៌នាអំពីការ​ផ្លាស់ទីរបស់កុមារ​រវាងទីកន្លែងដែលកុមារបែកគ្នា និងទីកន្លែងដែលកុមាររស់នៅបច្ចុប្បន្ន"
+        },
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_witnessed_violence",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Did the child face or witness any type of violence, threat or harm during his/her journey?",
-        help_text_en: "",
-        display_name_km: "តើកុមារធ្លាប់ឃើញ ឬរងនូវអំពើហិង្សា, ការគំរាមកំហែង ឬគ្រោះថ្នាក់ក្នុងអំឡុងពេលធ្វើដំណើរដែរឬទេ?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Did the child face or witness any type of violence, threat or harm during his/her journey?",
+          km: "តើកុមារធ្លាប់ឃើញ ឬរងនូវអំពើហិង្សា, ការគំរាមកំហែង ឬគ្រោះថ្នាក់ក្នុងអំឡុងពេលធ្វើដំណើរដែរឬទេ?"
+        },
+        help_text_i18n: {
+          en: ""
+        },
         option_strings_source: "lookup lookup-yes-no-unknown",
+        order: 9,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "separation_witnessed_violence_comments",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Details about what the child faced / witnessed",
-        display_name_km: "ព័ត៌មានលម្អិតអំពីអ្វីដែលកុមារបានឃើញ/ជួបប្រទះ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Details about what the child faced / witnessed",
+          km: "ព័ត៌មានលម្អិតអំពីអ្វីដែលកុមារបានឃើញ/ជួបប្រទះ"
+        },
+        order: 10,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "address_separation",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Separation Address (Place)",
-        display_name_km: "អាសយដ្ឋានដែលបែកពីគ្រួសារ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Separation Address (Place)",
+          km: "អាសយដ្ឋានដែលបែកពីគ្រួសារ"
+        },
+        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "location_separation",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Separation Location",
-        display_name_km: "ទីតាំងបែក",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Separation Location",
+          km: "ទីតាំងបែក"
+        },
         option_strings_source: "Location",
+        order: 12,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
-      },
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false,
+        },
       {
         name: "additional_tracing_info",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Additional info that could help in tracing?",
-        display_name_km: "ព័ត៌មាន​បន្ថែម​​ដែល​អាច​ជួយ​ក្នុងការ​ស្វែងរក?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Additional info that could help in tracing?",
+          km: "ព័ត៌មាន​បន្ថែម​​ដែល​អាច​ជួយ​ក្នុងការ​ស្វែងរក?"
+        },
+        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "evacuation_status",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Has child been evacuated?",
-        display_name_km: "តើ​កុមារ​ត្រូវ​បាន​ជម្លៀស​​ចេញ​ដែរ​ឬទេ?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Has child been evacuated?",
+          km: "តើ​កុមារ​ត្រូវ​បាន​ជម្លៀស​​ចេញ​ដែរ​ឬទេ?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 14,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "evacuation_agent",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If yes, through which organization?",
-        display_name_km: "ប្រសិន​បើ​បាទ/ចា៎ស តើ​តាមរយៈ​អង្គការ​ណា​?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If yes, through which organization?",
+          km: "ប្រសិន​បើ​បាទ/ចា៎ស តើ​តាមរយៈ​អង្គការ​ណា​?"
+        },
+        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "evacuation_from",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Evacuated From",
-        display_name_km: "​ជម្លៀស​ចេញ​ពី",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Evacuated From",
+          km: "​ជម្លៀស​ចេញ​ពី"
+        },
+        order: 16,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "evacuation_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Evacuation Date",
-        display_name_km: "កាលបរិច្ឆេទនៃការ​ជម្លៀស​",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Evacuation Date",
+          km: "កាលបរិច្ឆេទនៃការ​ជម្លៀស​"
+        },
+        order: 17,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "evacuation_to",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Evacuated To",
-        display_name_km: "ជម្លៀស​ទៅ",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Evacuated To",
+          km: "ជម្លៀស​ទៅ"
+        },
+        order: 18,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "care_arrangements_arrival_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Arrival Date",
-        display_name_km: "កាលបរិច្ឆេ​ទ​មក​ដល់",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Arrival Date",
+          km: "កាលបរិច្ឆេ​ទ​មក​ដល់"
+        },
+        order: 19,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
-      },
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        },
       {
         name: "tracing_actions_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Tracing Actions",
-        display_name_km: "សកម្មភាព​ស្វែងរក",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Tracing Actions",
+          km: "សកម្មភាព​ស្វែងរក"
+        },
+        order: 20,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "tracing_actions_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )
