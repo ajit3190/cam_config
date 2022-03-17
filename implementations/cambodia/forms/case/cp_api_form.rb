@@ -472,7 +472,9 @@ FormSection.create_or_update!(
         editable: false,
         disabled: true,
         display_name_i18n: {
-          en: "},
+          en: "created_at",
+          km: "បានបង្កើតនៅ"
+        },
         order: 15,
         hidden_text_field: false,
         autosum_total: false,
