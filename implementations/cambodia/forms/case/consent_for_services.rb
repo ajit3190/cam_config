@@ -53,7 +53,7 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        },
+      },
       {
         name: "consent_for_services",
         type: "tick_box",
