@@ -130,7 +130,7 @@ Agency.create_or_update!(
     disabled: false,
     name_i18n: {
       en: "Children In Families"
-    }
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "cif",
