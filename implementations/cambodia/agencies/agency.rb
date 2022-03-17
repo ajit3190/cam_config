@@ -166,7 +166,7 @@ Agency.create_or_update!(
     disabled: false,
     name_i18n: {
       en: "Cambodian Volunteers For Community Development Organization"
-    }
+    },
     order: 0,
     logo_enabled: false,
     agency_code: "cvcd",
