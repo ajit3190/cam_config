@@ -462,7 +462,9 @@ FormSection.create_or_update!(
         mandatory_for_completion: false,
         },
       {
-        name: "multi_select: false,
+        name: "created_at",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: true,
