@@ -53,7 +53,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_security",
         type: "radio_button",
@@ -80,7 +79,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_security_organization",
         type: "text_field",
@@ -106,7 +104,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_psychosocial",
         type: "radio_button",
@@ -133,7 +130,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_psychosocial_organization",
         type: "text_field",
@@ -159,7 +155,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_health",
         type: "radio_button",
@@ -186,7 +181,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_health_organization",
         type: "text_field",
@@ -212,7 +206,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_safehouse",
         type: "radio_button",
@@ -239,7 +232,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_safehouse_organization",
         type: "text_field",
@@ -265,7 +257,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_legal",
         type: "radio_button",
@@ -292,7 +283,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_legal_organization",
         type: "text_field",
@@ -318,7 +308,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_protection",
         type: "radio_button",
@@ -345,7 +334,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_protection_organization",
         type: "text_field",
@@ -371,7 +359,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_livelihoods",
         type: "radio_button",
@@ -398,7 +385,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_livelihoods_organization",
         type: "text_field",
@@ -424,7 +410,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_other",
         type: "radio_button",
@@ -451,7 +436,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        ,
       {
         name: "consent_to_share_info_by_other_details",
         type: "text_field",
