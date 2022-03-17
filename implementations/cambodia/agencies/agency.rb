@@ -583,6 +583,7 @@ Agency.create_or_update!(
     name_i18n: {
       en: "New Smile"
     },
+    agency_code: "newsmile",
     services: [
       "family_based_care",
       "social_work_case_work"
