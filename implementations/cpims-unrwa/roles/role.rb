@@ -196,8 +196,7 @@ Role.create_or_update!(
         "view_protection_concerns_filter",
         "enable_disable",
         "change_log",
-        "close",
-        "reopen"
+        "close"
       ],
       dashboard: [
         "dash_reporting_location",
@@ -1292,8 +1291,7 @@ Role.create_or_update!(
       ],
       dashboard: [
         "case_overview",
-        "dash_flags",
-        "workflow"
+        "dash_flags"
       ]
     },
     form_section_read_write: {
