@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "সেবাসমূহের সাব-ফরম",
     unique_id: "services_section",
     parent_form: "case",
+    form_group_id: "services",
     visible: false,
     order: 30,
     order_form_group: 110,

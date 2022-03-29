@@ -740,6 +740,7 @@ FormSection.create_or_update!(
     description_bn: "যাচাইকরণ",
     unique_id: "verification",
     parent_form: "case",
+    form_group_id: "tracing", 
     visible: true,
     order: 30,
     order_form_group: 50,

@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "স্বাস্থ্য এবং নিরাপত্তা",
     unique_id: "health_and_safety",
     parent_form: "case",
+    form_group_id: "assessment",
     visible: true,
     order: 45,
     order_form_group: 20,

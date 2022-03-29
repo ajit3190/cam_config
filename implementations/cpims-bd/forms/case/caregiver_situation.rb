@@ -265,6 +265,7 @@ FormSection.create_or_update!(
     description_bn: "বর্তমান যত্মকারি / বসবাসের অবস্থা",
     unique_id: "caregiver_situation",
     parent_form: "case",
+    form_group_id: "identification_registration",
     visible: true,
     order: 55,
     order_form_group: 10,

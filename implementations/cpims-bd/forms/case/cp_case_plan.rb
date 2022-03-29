@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "কাজ এবং সেবাসমূহের তালিকা",
     unique_id: "cp_case_plan_subform_case_plan_interventions",
     parent_form: "case",
+    form_group_id: "case_plan",
     visible: false,
     order: 999,
     order_form_group: 999,

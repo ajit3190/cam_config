@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "অনুসন্ধানকারী",
     unique_id: "tracing_request_inquirer",
     parent_form: "tracing_request",
+    form_group_id: "inquirer",
     visible: true,
     order: 20,
     order_form_group: 20,

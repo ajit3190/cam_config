@@ -339,6 +339,7 @@ FormSection.create_or_update!(
     description_bn: "শিশুদের সাথে বয়স্কদের পুনঃএকত্রীকরণের বিস্তারিত তথ্য",
     unique_id: "reunification_details",
     parent_form: "case",
+    form_group_id: "tracing", 
     visible: true,
     order: 40,
     order_form_group: 50,

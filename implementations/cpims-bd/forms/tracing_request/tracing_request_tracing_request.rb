@@ -611,6 +611,7 @@ FormSection.create_or_update!(
     description_bn: "অনুসন্ধানের জন্য অনুরোধ",
     unique_id: "tracing_request_tracing_request",
     parent_form: "tracing_request",
+    form_group_id: "tracing_request",
     visible: true,
     order: 30,
     order_form_group: 30,

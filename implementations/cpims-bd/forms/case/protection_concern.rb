@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "সুরক্ষা উদ্বেগসমূহ",
     unique_id: "protection_concern",
     parent_form: "case",
+    form_group_id: "identification_registration",
     visible: true,
     order: 35,
     order_form_group: 10,

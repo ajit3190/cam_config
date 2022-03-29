@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "বাসা ফলোআপের সাবফ্রম",
     unique_id: "followup_subform_section",
     parent_form: "case",
+    form_group_id: "follow_up", 
     visible: false,
     order: 20,
     order_form_group: 110,

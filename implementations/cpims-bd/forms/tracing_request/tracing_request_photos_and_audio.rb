@@ -4,6 +4,7 @@ FormSection.create_or_update!(
     name_bn: "ছবি এবং অডিও .",
     unique_id: "tracing_request_photos_and_audio",
     parent_form: "tracing_request",
+    form_group_id: "photos_and_audio",
     visible: true,
     order: 40,
     order_form_group: 40,

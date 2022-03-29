@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "নথি সংরক্ষণকারী",
     unique_id: "tracing_request_record_owner",
     parent_form: "tracing_request",
+    form_group_id: "record_owner",
     visible: true,
     order: 0,
     order_form_group: 0,

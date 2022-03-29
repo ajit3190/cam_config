@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "কার্যক্রম",
     unique_id: "activities",
     parent_form: "case",
+    form_group_id: "assessment",
     visible: true,
     order: 55,
     order_form_group: 20,

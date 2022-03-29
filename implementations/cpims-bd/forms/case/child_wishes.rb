@@ -406,6 +406,7 @@ FormSection.create_or_update!(
     description_bn: "শিশুর শুভেচ্ছা",
     unique_id: "child_wishes",
     parent_form: "case",
+    form_group_id: "tracing", 
     visible: true,
     order: 20,
     order_form_group: 50,

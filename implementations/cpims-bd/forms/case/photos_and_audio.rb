@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "সব ছবি এবং একটি শিশু‘র নথি'র সঙ্গে সংযুক্ত অডিও ফাইল",
     unique_id: "photos_and_audio",
     parent_form: "case",
+    form_group_id: "photos_and_audio",
     visible: true,
     order: 10,
     order_form_group: 100,

@@ -181,6 +181,7 @@ FormSection.create_or_update!(
     description_bn: "অনুসন্ধান করা",
     unique_id: "tracing",
     parent_form: "case",
+    form_group_id: "tracing",  
     visible: true,
     order: 10,
     order_form_group: 50,

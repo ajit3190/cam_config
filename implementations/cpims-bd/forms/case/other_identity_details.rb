@@ -230,6 +230,7 @@ FormSection.create_or_update!(
     description_bn: "অন্যান্য বিস্তারিত ব্যক্তিগত পরিচয়",
     unique_id: "other_identity_details",
     parent_form: "case",
+    form_group_id: "identification_registration",
     visible: true,
     order: 65,
     order_form_group: 10,

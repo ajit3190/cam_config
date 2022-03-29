@@ -703,6 +703,7 @@ FormSection.create_or_update!(
     description_bn: "পরিবারের বিস্তারিত বর্ণনা",
     unique_id: "family_details",
     parent_form: "case",
+    form_group_id: "assessment",
     visible: true,
     order: 35,
     order_form_group: 20,

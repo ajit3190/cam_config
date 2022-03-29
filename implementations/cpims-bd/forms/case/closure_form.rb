@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "সমাপ্তি",
     unique_id: "closure_form",
     parent_form: "case",
+    form_group_id: "case_closure",
     visible: true,
     order: 21,
     order_form_group: 150,

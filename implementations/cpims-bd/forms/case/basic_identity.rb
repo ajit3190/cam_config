@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "কোনো বিচ্ছিন্ন বা সঙ্গীহীন বা অন্যান্য ঝুঁকিপূর্ণ শিশুর প্রাথমিক সনাক্তকরণ তথ্য",
     unique_id: "basic_identity",
     parent_form: "case",
+    form_group_id: "identification_registration",
     visible: true,
     order: 10,
     order_form_group: 10,

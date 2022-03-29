@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "তথ্যের গোপনীয়তা",
     unique_id: "consent",
     parent_form: "case",
+    form_group_id: "consent",
     visible: true,
     order: 5,
     order_form_group: 5,

@@ -400,6 +400,7 @@ FormSection.create_or_update!(
     description_bn: "সেবার ব্যবস্থা",
     unique_id: "care_arrangements",
     parent_form: "case",
+    form_group_id: "assessment",
     visible: true,
     order: 15,
     order_form_group: 20,

@@ -6,6 +6,7 @@ FormSection.create_or_update!(
     description_bn: "পরিবার এবং পরিবেশ",
     unique_id: "family_environment",
     parent_form: "case",
+    form_group_id: "assessment",
     visible: true,
     order: 75,
     order_form_group: 20,
