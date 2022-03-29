@@ -39,7 +39,6 @@ Lookup.create_or_update!(
   {
     locked: false,
     name_en: "Form Groups   Cp Case",
-    name_ar: "",
     lookup_values_en: [
       {
         id: "assessment",
