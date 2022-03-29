@@ -107,7 +107,7 @@ FormSection.create_or_update!(
     description_bn: "অন্যান্য মন্তব্য",
     unique_id: "notes",
     parent_form: "case",
-    form_group_id: "other_comments"
+    form_group_id: "other_comments",
     visible: true,
     order: 0,
     order_form_group: 7,
