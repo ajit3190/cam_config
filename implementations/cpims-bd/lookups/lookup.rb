@@ -38,6 +38,323 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   {
     locked: false,
+    name_en: "Form Groups   Cp Case",
+    name_ar: "",
+    lookup_values_en: [
+      [
+        {
+          id: "assessment",
+          display_text: "Assessment"
+        },
+        {
+          id: "survivor_assessment",
+          display_text: "Survivor Assessment"
+        },
+        {
+          id: "documents",
+          display_text: "Documents"
+        },
+        {
+          id: "action_plan",
+          display_text: "Action Plan"
+        },
+        {
+          id: "safety_plan",
+          display_text: "Safety Plan"
+        },
+        {
+          id: "section_8_interviewer_details",
+          display_text: "Section 8. Interviewer Details"
+        },
+        {
+          id: "case_closure",
+          display_text: "Case Closure"
+        },
+        {
+          id: "family_partner_details",
+          display_text: "Family / Partner Details"
+        },
+        {
+          id: "consent_for_services",
+          display_text: "Consent for Services"
+        },
+        {
+          id: "consent_for_referrals",
+          display_text: "Consent for Referrals"
+        },
+        {
+          id: "approvals",
+          display_text: "Approvals"
+        },
+        {
+          id: "identification_registration",
+          display_text: "Registration"
+        },
+        {
+          id: "bia_form",
+          display_text: "BIA Form"
+        },
+        {
+          id: "services",
+          display_text: "Services"
+        },
+        {
+          id: "referrals_and_transfers",
+          display_text: "Referrals and Transfers"
+        },
+        {
+          id: "photos_and_audio",
+          display_text: "Photos and Audio"
+        },
+        {
+          id: "case_plan",
+          display_text: "Case Plan"
+        },
+        {
+          id: "follow_up",
+          display_text: "Follow up"
+        },
+        {
+          id: "record_information",
+          display_text: "Record Information"
+        },
+        {
+          id: "consent",
+          display_text: "Consent"
+        },
+        {
+          id: "tracing",
+          display_text: "Tracing"
+        },
+        {
+          id: "other_comments",
+          display_text: "other comments"
+        }
+      ],
+      lookup_values_bn: [
+        {
+          id: "assessment",
+          display_text: "মূল্যায়ন"
+        },
+        {
+          id: "survivor_assessment",
+          display_text: "Survivor Assessment"
+        },
+        {
+          id: "documents",
+          display_text: "Documents"
+        },
+        {
+          id: "action_plan",
+          display_text: "Action Plan"
+        },
+        {
+          id: "safety_plan",
+          display_text: "Safety Plan"
+        },
+        {
+          id: "section_8_interviewer_details",
+          display_text: "Section 8. Interviewer Details"
+        },
+        {
+          id: "case_closure",
+          display_text: "সমাপ্তি"
+        },
+        {
+          id: "family_partner_details",
+          display_text: "Family / Partner Details"
+        },
+        {
+          id: "consent_for_services",
+          display_text: "Consent for Services"
+        },
+        {
+          id: "consent_for_referrals",
+          display_text: "Consent for Referrals"
+        },
+        {
+          id: "approvals",
+          display_text: "Approvals"
+        },
+        {
+          id: "identification_registration",
+          display_text: "নিবন্ধন"
+        },
+        {
+          id: "bia_form",
+          display_text: "BIA Form"
+        },
+        {
+          id: "services",
+          display_text: "সেবাসমূহ"
+        },
+        {
+          id: "referrals_and_transfers",
+          display_text: "উল্লেখ করা এবং স্থানান্তর করা"
+        },
+        {
+          id: "photos_and_audio",
+          display_text: "ছবি এবং অডিও"
+        },
+        {
+          id: "case_plan",
+          display_text: "বিষয় পরিকল্পনা"
+        },
+        {
+          id: "follow_up",
+          display_text: "ফলোআপ"
+        },
+        {
+          id: "record_information",
+          display_text: "তথ্য লিপিবদ্ধকরণ"
+        },
+        {
+          id: "consent",
+          display_text: "সম্মতি"
+        },
+        {
+          id: "tracing",
+          display_text: "অনুসন্ধান করা"
+        },
+        {
+          id: "other_comments",
+          display_text: "অন্যান্য মন্তব্য"
+        }
+      ],
+    unique_id: "lookup-form-group-cp-case"
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    locked: false,
+    name_en: "Form Groups   Cp Incident",
+    lookup_values_en: [
+      {
+        id: "cp_individual_details",
+        display_text: "CP Individual Details"
+      },
+      {
+        id: "gbv_individual_details",
+        display_text: "GBV Individual Details"
+      },
+      {
+        id: "perpetrator_details",
+        display_text: "Perpetrator Details"
+      },
+      {
+        id: "alleged_perpetrator",
+        display_text: "Alleged Perpetrator"
+      },
+      {
+        id: "cp_incident",
+        display_text: "CP Incident"
+      },
+      {
+        id: "service_referral",
+        display_text: "Service Referral"
+      },
+      {
+        id: "incident",
+        display_text: "Incident"
+      },
+      {
+        id: "type_of_violence",
+        display_text: "Type of Violence"
+      },
+      {
+        id: "record_owner",
+        display_text: "Record Owner"
+      }
+    ],
+    lookup_values_bn: [
+      {
+        id: "cp_individual_details",
+        display_text: "CP Individual Details"
+      },
+      {
+        id: "gbv_individual_details",
+        display_text: "GBV Individual Details"
+      },
+      {
+        id: "perpetrator_details",
+        display_text: "Perpetrator Details"
+      },
+      {
+        id: "alleged_perpetrator",
+        display_text: "Alleged Perpetrator"
+      },
+      {
+        id: "cp_incident",
+        display_text: "CP Incident"
+      },
+      {
+        id: "service_referral",
+        display_text: "Service Referral"
+      },
+      {
+        id: "incident",
+        display_text: "Incident"
+      },
+      {
+        id: "type_of_violence",
+        display_text: "Type of Violence"
+      },
+      {
+        id: "record_owner",
+        display_text: "Record Owner"
+      }
+    ],
+    unique_id: "lookup-form-group-cp-incident"
+  }
+)
+Lookup.create_or_update!(
+  {
+    locked: false,
+    name_en: "Form Groups   Cp Tracing Request",
+    lookup_values_en: [
+      {
+        id: "tracing_request",
+        display_text: "Tracing Request"
+      },
+      {
+        id: "photos_and_audio",
+        display_text: "Photos and Audio"
+      },
+      {
+        id: "record_owner",
+        display_text: "Record Owner"
+      },
+      {
+        id: "inquirer",
+        display_text: "Inquirer"
+      }
+    ],
+    lookup_values_bn: [
+      {
+        id: "tracing_request",
+        display_text: "Tracing Request"
+      },
+      {
+        id: "photos_and_audio",
+        display_text: "ছবি এবং অডিও"
+      },
+      {
+        id: "record_owner",
+        display_text: "নথির মালিক"
+      },
+      {
+        id: "inquirer",
+        display_text: "অনুসন্ধানকারী"
+      }
+    ],
+    unique_id: "lookup-form-group-cp-tracing-request"
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    locked: false,
     name_en: "Armed Force Group Name",
     name_bn: "সশস্ত্র বাহিনী দলের নাম",
     lookup_values_en: [
