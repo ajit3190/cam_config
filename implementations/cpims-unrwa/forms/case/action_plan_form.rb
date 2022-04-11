@@ -1406,7 +1406,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false
+        mandatory_for_completion: false,
         subform_unique_id: "action_plan_subform_section"
       },
       {
