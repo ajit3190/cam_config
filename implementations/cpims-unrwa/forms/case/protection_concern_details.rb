@@ -343,7 +343,7 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
-    header_message_link: ""
+    header_message_link: "",
     fields_attributes: [
       {
         name: "protection_concerns",
