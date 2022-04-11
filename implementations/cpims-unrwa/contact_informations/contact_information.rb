@@ -1,4 +1,4 @@
-ContactInformation.create!(
+ContactInformation.create_or_update!(
   {
     name: "Lama Dreakh",
     organization: "UNRWA",

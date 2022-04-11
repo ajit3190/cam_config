@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Photos and Audio",
-    description_en: "All Photo and Audio Files Associated with a Child Record",
-    name_ar: "الصور و الصوتيات",
-    description_ar: "",
     unique_id: "photos_and_audio",
+    name_i18n: {
+      ar: "الصور و الصوتيات",
+      en: "Photos and Audio"
+    },
+    description_i18n: {
+      ar: "",
+      en: "All Photo and Audio Files Associated with a Child Record"
+    },
     parent_form: "case",
     visible: true,
     order: 10,
@@ -18,45 +22,69 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: true,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "photos",
+        type: "photo_upload_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "photo_upload_box",
         editable: false,
         disabled: false,
-        display_name_en: "Current Photo Key",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Current Photo Key"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "recorded_audio",
+        type: "audio_upload_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "audio_upload_box",
         editable: false,
         disabled: false,
-        display_name_en: "Recorded Audio",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Recorded Audio"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Care Arrangements",
-    description_en: "Care Arrangements",
-    name_ar: "",
-    description_ar: "",
     unique_id: "care_arrangements",
+    name_i18n: {
+      ar: "",
+      en: "Care Arrangements"
+    },
+    description_i18n: {
+      ar: "",
+      en: "Care Arrangements"
+    },
     parent_form: "case",
     visible: false,
     order: 10,
@@ -18,416 +22,658 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "child_caregiver_status",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Is this a same caregiver as was previously entered for the child?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Is this a same caregiver as was previously entered for the child?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 0,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "child_caregiver_reason_change",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If this is a new caregiver, give the reason for the change",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "If this is a new caregiver, give the reason for the change"
+        },
+        option_strings_text_i18n: [
           {
             id: "abuse_exploitation",
-            display_text: "Abuse \u0026 Exploitation"
+            display_text: {
+              en: "Abuse \u0026 Exploitation"
+            }
           },
           {
             id: "death_of_caregiver",
-            display_text: "Death of Caregiver"
+            display_text: {
+              en: "Death of Caregiver"
+            }
           },
           {
             id: "Education",
-            display_text: "Education"
+            display_text: {
+              en: "Education"
+            }
           },
           {
             id: "ill_health_of_caregiver",
-            display_text: "Ill health of caregiver"
+            display_text: {
+              en: "Ill health of caregiver"
+            }
           },
           {
             id: "other",
-            display_text: "Other"
+            display_text: {
+              en: "Other"
+            }
           },
           {
             id: "poverty",
-            display_text: "Poverty"
+            display_text: {
+              en: "Poverty"
+            }
           },
           {
             id: "relationship_breakdown",
-            display_text: "Relationship Breakdown"
+            display_text: {
+              en: "Relationship Breakdown"
+            }
           }
         ],
-        multi_select: false,
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "care_arrangements_type",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What are the child's current care arrangements?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "What are the child's current care arrangements?"
+        },
+        option_strings_text_i18n: [
           {
             id: "stays_with_related_caregiver",
-            display_text: "Stays with related caregiver"
+            display_text: {
+              en: "Stays with related caregiver"
+            }
           },
           {
             id: "stays_with_unrelated_caregiver",
-            display_text: "Stays with unrelated caregiver"
+            display_text: {
+              en: "Stays with unrelated caregiver"
+            }
           },
           {
             id: "residential_care_center",
-            display_text: "Residential Care Center"
+            display_text: {
+              en: "Residential Care Center"
+            }
           },
           {
             id: "child_headed_household",
-            display_text: "Child Headed Household"
+            display_text: {
+              en: "Child Headed Household"
+            }
           },
           {
             id: "lives_with_peers_other_children",
-            display_text: "Lives with peers/other children"
+            display_text: {
+              en: "Lives with peers/other children"
+            }
           },
           {
             id: "independent_living",
-            display_text: "Independent Living"
+            display_text: {
+              en: "Independent Living"
+            }
           },
           {
             id: "other",
-            display_text: "Other (Please specify)"
+            display_text: {
+              en: "Other (Please specify)"
+            }
           }
         ],
-        multi_select: false,
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "care_arrangements_type_notes",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Care Arrangement Notes",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Care Arrangement Notes"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "care_agency_name",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Name of Agency Providing Care Arrangements",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Name of Agency Providing Care Arrangements"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "name_caregiver",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Name of Current Caregiver",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Name of Current Caregiver"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "relationship_caregiver",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Relationship of the Caregiver to the Child",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Relationship of the Caregiver to the Child"
+        },
         option_strings_source: "lookup lookup-family-relationship",
+        order: 6,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caregiver_id_type_and_no",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Caregiver's Identification - Type and Number",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Caregiver's Identification - Type and Number"
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caregiver_age",
+        type: "numeric_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "numeric_field",
         editable: true,
         disabled: false,
-        display_name_en: "Caregiver's Age",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Caregiver's Age"
+        },
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "address_caregiver",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address where the child is currently living?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address where the child is currently living?"
+        },
+        order: 9,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "location_caregiver",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Caregiver's Location",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Caregiver's Location"
+        },
         option_strings_source: "Location",
+        order: 10,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "telephone_caregiver",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Caregiver's Telephone",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Caregiver's Telephone"
+        },
+        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "care_arrangement_started_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "When did this care arrangement start?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "When did this care arrangement start?"
+        },
+        order: 12,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caregiver_location_status",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Is the caregiver's current location temporary",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Is the caregiver's current location temporary"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 13,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "address_caregiver_future",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "If yes, what is the future address?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If yes, what is the future address?"
+        },
+        order: 14,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "location_caregiver_future",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What is the future location?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "What is the future location?"
+        },
         option_strings_source: "Location",
+        order: 15,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "telephone_caregiver_future",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "What is the future telephone?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "What is the future telephone?"
+        },
+        order: 16,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caregiver_willing_to_continue",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Is caregiver willing to continue taking care of the child?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Is caregiver willing to continue taking care of the child?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 17,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caregiver_willing_to_continue_for_how_long",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If yes, for how long?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If yes, for how long?"
+        },
+        order: 18,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caregiver_know_family",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the caregiver know the family of the child?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Does the caregiver know the family of the child?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 19,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "other_information_from_caregiver",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Other information from the caregiver about the child and his/her family",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Other information from the caregiver about the child and his/her family"
+        },
+        order: 20,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

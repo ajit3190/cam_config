@@ -1,8 +1,12 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Tracing Action",
-    description_en: "Tracing Action Subform",
     unique_id: "tracing_actions_section",
+    name_i18n: {
+      en: "Nested Tracing Action"
+    },
+    description_i18n: {
+      en: "Tracing Action Subform"
+    },
     parent_form: "case",
     visible: false,
     order: 20,
@@ -15,169 +19,261 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     collapsed_field_names: [
-      "tracing_type",
-      "date_tracing"
+      "date_tracing",
+      "tracing_type"
     ],
     fields_attributes: [
       {
         name: "date_tracing",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of tracing",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of tracing"
+        },
+        order: 0,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 641,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "tracing_actions_section"
       },
       {
         name: "tracing_type",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Type of action taken",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Type of action taken"
+        },
+        option_strings_text_i18n: [
           {
             id: "case_by_case_tracing",
-            display_text: "Case by Case Tracing"
+            display_text: {
+              en: "Case by Case Tracing"
+            }
           },
           {
             id: "individual_tracing",
-            display_text: "Individual Tracing"
+            display_text: {
+              en: "Individual Tracing"
+            }
           },
           {
             id: "mass_tracing",
-            display_text: "Mass Tracing"
+            display_text: {
+              en: "Mass Tracing"
+            }
           },
           {
             id: "photo_tracing",
-            display_text: "Photo Tracing"
+            display_text: {
+              en: "Photo Tracing"
+            }
           },
           {
             id: "referral_to_ngo",
-            display_text: "Referral to NGO"
+            display_text: {
+              en: "Referral to NGO"
+            }
           },
           {
             id: "referral_to_icrc",
-            display_text: "Referral to ICRC"
+            display_text: {
+              en: "Referral to ICRC"
+            }
           }
         ],
-        multi_select: false,
+        order: 1,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 641,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "tracing_actions_section"
       },
       {
         name: "address_tracing",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address/Village where the tracing action took place",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address/Village where the tracing action took place"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "location_tracing",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Location of Tracing",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Location of Tracing"
+        },
         option_strings_source: "Location",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "tracing_action_description",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Action taken and remarks",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Action taken and remarks"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "tracing_outcome",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Outcome of tracing action",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Outcome of tracing action"
+        },
+        option_strings_text_i18n: [
           {
             id: "pending",
-            display_text: "Pending"
+            display_text: {
+              en: "Pending"
+            }
           },
           {
             id: "successful",
-            display_text: "Successful"
+            display_text: {
+              en: "Successful"
+            }
           },
           {
             id: "unsuccessful",
-            display_text: "Unsuccessful"
+            display_text: {
+              en: "Unsuccessful"
+            }
           },
           {
             id: "yes",
-            display_text: "Yes"
+            display_text: {
+              en: "Yes"
+            }
           }
         ],
-        multi_select: false,
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Tracing",
-    description_en: "Tracing",
-    name_ar: "",
-    description_ar: "",
     unique_id: "tracing",
+    name_i18n: {
+      ar: "",
+      en: "Tracing"
+    },
+    description_i18n: {
+      ar: "",
+      en: "Tracing"
+    },
     parent_form: "case",
     visible: false,
     order: 20,
@@ -191,361 +287,571 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "matched_tracing_request_id",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Matched Tracing Request ID",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Matched Tracing Request ID"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
         link_to_path: "tracing_request",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "separation_separator",
+        type: "separator",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "Separation History",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Separation History"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "tracing_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Tracing Status",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Tracing Status"
+        },
         option_strings_source: "lookup lookup-tracing-status",
+        order: 2,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "date_of_separation",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Separation",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of Separation"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false
       },
       {
         name: "separation_cause",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What was the main cause of separation?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "What was the main cause of separation?"
+        },
         option_strings_source: "lookup lookup-separation-cause",
+        order: 4,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false
       },
       {
         name: "separation_cause_other",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If Other, please specify",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If Other, please specify"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false
       },
       {
         name: "separation_other_applicable_causes",
+        type: "select_box",
+        multi_select: true,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If applicable, what were other causes of separation? ",
-        multi_select: true,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "If applicable, what were other causes of separation? "
+        },
         option_strings_source: "lookup lookup-separation-cause",
+        order: 6,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "separation_details",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Circumstances of Separation (please provide details)",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Circumstances of Separation (please provide details)"
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "separation_additional_movements",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Describe additional movements between place of separation and current location",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Describe additional movements between place of separation and current location"
+        },
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "separation_witnessed_violence",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Did the child face or witness any type of violence, threat or harm during his/her journey?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Did the child face or witness any type of violence, threat or harm during his/her journey?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 9,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "separation_witnessed_violence_comments",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Details about what the child faced / witnessed",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Details about what the child faced / witnessed"
+        },
+        order: 10,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "address_separation",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Separation Address (Place)",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Separation Address (Place)"
+        },
+        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "location_separation",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Separation Location",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Separation Location"
+        },
         option_strings_source: "Location",
+        order: 12,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false
       },
       {
         name: "additional_tracing_info",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Additional info that could help in tracing?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Additional info that could help in tracing?"
+        },
+        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "evacuation_status",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Has child been evacuated?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Has child been evacuated?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 14,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "evacuation_agent",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If yes, through which organization?",
-        multi_select: false,
+        display_name_i18n: {
+          en: "If yes, through which organization?"
+        },
+        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "evacuation_from",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Evacuated From",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Evacuated From"
+        },
+        order: 16,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "evacuation_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Evacuation Date",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Evacuation Date"
+        },
+        order: 17,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "evacuation_to",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Evacuated To",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Evacuated To"
+        },
+        order: 18,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "care_arrangements_arrival_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Arrival Date",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Arrival Date"
+        },
+        order: 19,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "tracing_actions_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Tracing Actions",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Tracing Actions"
+        },
+        order: 20,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "tracing_actions_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

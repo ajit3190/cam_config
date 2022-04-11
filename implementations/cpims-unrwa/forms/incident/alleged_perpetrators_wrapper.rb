@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Alleged Perpetrator Subform",
-    description_en: "Nested Alleged Perpetrator Subform",
-    name_ar: "النموذج الفرعي المتداخل للجاني المزعوم",
-    description_ar: "النموذج الفرعي المتداخل للجاني المزعوم",
     unique_id: "alleged_perpetrator",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل للجاني المزعوم",
+      en: "Nested Alleged Perpetrator Subform"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل للجاني المزعوم",
+      en: "Nested Alleged Perpetrator Subform"
+    },
     parent_form: "incident",
     visible: false,
     order: 10,
@@ -17,331 +21,411 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
+    collapsed_field_names: [
+      "primary_perpetrator"
+    ],
     fields_attributes: [
       {
         name: "primary_perpetrator",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Is this the primary perpetrator?",
-        display_name_ar: "هل هذا الجاني هو الجاني الرئيسي؟",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "هل هذا الجاني هو الجاني الرئيسي؟",
+          en: "Is this the primary perpetrator?"
+        },
+        option_strings_text_i18n: [
           {
             id: "primary",
-            display_text: "Primary"
+            display_text: {
+              ar: "رئيسي",
+              en: "Primary"
+            }
           },
           {
             id: "secondary",
-            display_text: "Secondary"
+            display_text: {
+              ar: "ثانوي",
+              en: "Secondary"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "primary",
-            display_text: "رئيسي"
-          },
-          {
-            id: "secondary",
-            display_text: "ثانوي"
-          }
-        ],
-        multi_select: false,
+        order: 0,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 645,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "alleged_perpetrator"
       },
       {
         name: "perpetrator_sex",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Sex of Alleged Perpetrator",
-        display_name_ar: "جنس الجاني المزعوم",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "جنس الجاني المزعوم",
+          en: "Sex of Alleged Perpetrator"
+        },
         option_strings_source: "lookup lookup-gender",
+        order: 1,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "former_perpetrator",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Past GBV by alledged perpetrator?",
-        display_name_ar: "هل ارتكب الجاني المزعوم حالات عنف قائم على اساس النوع الاجتماعي سابقة؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل ارتكب الجاني المزعوم حالات عنف قائم على اساس النوع الاجتماعي سابقة؟",
+          en: "Past GBV by alledged perpetrator?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 2,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_nationality",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Nationality of alleged perpetrator",
-        display_name_ar: "بلد الجاني المزعوم",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "بلد الجاني المزعوم",
+          en: "Nationality of alleged perpetrator"
+        },
         option_strings_source: "lookup lookup-nationality",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_ethnicity",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Clan or Ethnicity of alleged perpetrator",
-        display_name_ar: "قبيلة او طائفة الجاني المزعوم",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "قبيلة او طائفة الجاني المزعوم",
+          en: "Clan or Ethnicity of alleged perpetrator"
+        },
         option_strings_source: "lookup lookup-ethnicity",
+        order: 4,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "age_group",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Age group of alleged perpetrator",
-        display_name_ar: "الفئة العمرية للجاني المزعوم",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "الفئة العمرية للجاني المزعوم",
+          en: "Age group of alleged perpetrator"
+        },
+        option_strings_text_i18n: [
           {
             id: "0_11",
-            display_text: "0-11"
+            display_text: {
+              ar: "0-11",
+              en: "0-11"
+            }
           },
           {
             id: "12_17",
-            display_text: "12-17"
+            display_text: {
+              ar: "12-17",
+              en: "12-17"
+            }
           },
           {
             id: "18_25",
-            display_text: "18-25"
+            display_text: {
+              ar: "18-25",
+              en: "18-25"
+            }
           },
           {
             id: "26_40",
-            display_text: "26-40"
+            display_text: {
+              ar: "26-40",
+              en: "26-40"
+            }
           },
           {
             id: "41_60",
-            display_text: "41-60"
+            display_text: {
+              ar: "41-60",
+              en: "41-60"
+            }
           },
           {
             id: "61",
-            display_text: "61+"
+            display_text: {
+              ar: "فوق 61",
+              en: "61+"
+            }
           },
           {
             id: "unknown",
-            display_text: "Unknown"
+            display_text: {
+              ar: "غير معروف",
+              en: "Unknown"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "0_11",
-            display_text: "0-11"
-          },
-          {
-            id: "12_17",
-            display_text: "12-17"
-          },
-          {
-            id: "18_25",
-            display_text: "18-25"
-          },
-          {
-            id: "26_40",
-            display_text: "26-40"
-          },
-          {
-            id: "41_60",
-            display_text: "41-60"
-          },
-          {
-            id: "61",
-            display_text: "فوق 61"
-          },
-          {
-            id: "unknown",
-            display_text: "غير معروف"
-          }
-        ],
-        multi_select: false,
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "age_type",
+        type: "select_box",
+        multi_select: false,
         visible: false,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Age type of alleged perpetrator",
-        display_name_ar: "",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "",
+          en: "Age type of alleged perpetrator"
+        },
         option_strings_source: "lookup lookup-age-group-type",
+        order: 6,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_relationship",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Alleged perpetrator relationship with survivor",
-        display_name_ar: "علاقة الجاني المزعوم مع الناجية",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "علاقة الجاني المزعوم مع الناجية",
+          en: "Alleged perpetrator relationship with survivor"
+        },
         option_strings_source: "lookup lookup-perpetrator-relationship",
+        order: 7,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_occupation",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Main occupation of alleged perpetrator (if known)",
-        display_name_ar: "المهنة الرئيسية للجاني المزعوم (إذا كانت معروفة)",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "المهنة الرئيسية للجاني المزعوم (إذا كانت معروفة)",
+          en: "Main occupation of alleged perpetrator (if known)"
+        },
+        option_strings_text_i18n: [
           {
             id: "other",
-            display_text: "Other"
+            display_text: {
+              ar: "أخرى",
+              en: "Other"
+            }
           },
           {
             id: "unemployed",
-            display_text: "Unemployed"
+            display_text: {
+              ar: "عاطل عن العمل",
+              en: "Unemployed"
+            }
           },
           {
             id: "unknown",
-            display_text: "Unknown"
+            display_text: {
+              ar: "غير معروفة",
+              en: "Unknown"
+            }
           },
           {
             id: "occupation_1",
-            display_text: "Occupation 1"
+            display_text: {
+              ar: "مهنة 1",
+              en: "Occupation 1"
+            }
           },
           {
             id: "occupation_2",
-            display_text: "Occupation 2"
+            display_text: {
+              ar: "مهنة 2",
+              en: "Occupation 2"
+            }
           },
           {
             id: "occupation_3",
-            display_text: "Occupation 3"
+            display_text: {
+              ar: "مهنة 3",
+              en: "Occupation 3"
+            }
           },
           {
             id: "occupation_4",
-            display_text: "Occupation 4"
+            display_text: {
+              ar: "مهنة 4",
+              en: "Occupation 4"
+            }
           },
           {
             id: "occupation_5",
-            display_text: "Occupation 5"
+            display_text: {
+              ar: "مهنة 5",
+              en: "Occupation 5"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "other",
-            display_text: "أخرى"
-          },
-          {
-            id: "unemployed",
-            display_text: "عاطل عن العمل"
-          },
-          {
-            id: "unknown",
-            display_text: "غير معروفة"
-          },
-          {
-            id: "occupation_1",
-            display_text: "مهنة 1"
-          },
-          {
-            id: "occupation_2",
-            display_text: "مهنة 2"
-          },
-          {
-            id: "occupation_3",
-            display_text: "مهنة 3"
-          },
-          {
-            id: "occupation_4",
-            display_text: "مهنة 4"
-          },
-          {
-            id: "occupation_5",
-            display_text: "مهنة 5"
-          }
-        ],
-        multi_select: false,
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Alleged Perpetrator",
-    description_en: "Alleged Perpetrator",
-    name_ar: "الجاني المزعوم",
-    description_ar: "الجاني المزعوم",
     unique_id: "alleged_perpetrators_wrapper",
+    name_i18n: {
+      ar: "الجاني المزعوم",
+      en: "Alleged Perpetrator"
+    },
+    description_i18n: {
+      ar: "الجاني المزعوم",
+      en: "Alleged Perpetrator"
+    },
     parent_form: "incident",
     visible: true,
     order: 10,
@@ -355,31 +439,45 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "alleged_perpetrator",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Alleged Perpetrator",
-        display_name_ar: "الجاني المزعوم",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "الجاني المزعوم",
+          en: "Alleged Perpetrator"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "alleged_perpetrator"
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )

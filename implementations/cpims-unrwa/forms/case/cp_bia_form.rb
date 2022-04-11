@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "BIA Form",
-    description_en: "BIA Form",
-    name_ar: "",
-    description_ar: "",
     unique_id: "cp_bia_form",
+    name_i18n: {
+      ar: "",
+      en: "BIA Form"
+    },
+    description_i18n: {
+      ar: "",
+      en: "BIA Form"
+    },
     parent_form: "case",
     visible: false,
     order: 10,
@@ -18,177 +22,281 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "assessment_approved",
+        type: "tick_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "tick_box",
         editable: false,
         disabled: true,
-        display_name_en: "Approved by Manager",
-        tick_box_label_en: "Yes",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Approved by Manager"
+        },
+        tick_box_label_i18n: {
+          en: "Yes"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "assessment_approved_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: false,
         disabled: true,
-        display_name_en: "Date",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "assessment_approved_comments",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: false,
         disabled: true,
-        display_name_en: "Manager Comments",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Manager Comments"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "approval_status_assessment",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: false,
         disabled: true,
-        display_name_en: "Approval Status",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Approval Status"
+        },
         option_strings_source: "lookup lookup-approval-status",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "case_id_display",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Primero Case ID",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Primero Case ID"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "bia_header",
+        type: "separator",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "separator",
         editable: true,
         disabled: true,
-        display_name_en: "ASSESSMENT FORM (for completion for all Child Protection cases including UASC)",
-        multi_select: false,
+        display_name_i18n: {
+          en: "ASSESSMENT FORM (for completion for all Child Protection cases including UASC)"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "case_priority",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: true,
-        display_name_en: "Priority",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Priority"
+        },
+        option_strings_text_i18n: [
           {
             id: "2_days",
-            display_text: "2 days"
+            display_text: {
+              en: "2 days"
+            }
           },
           {
             id: "1_week",
-            display_text: "1 week"
+            display_text: {
+              en: "1 week"
+            }
           },
           {
             id: "30_days",
-            display_text: "30 days"
+            display_text: {
+              en: "30 days"
+            }
           },
           {
             id: "non_urgent",
-            display_text: "Non Urgent (enter date)"
+            display_text: {
+              en: "Non Urgent (enter date)"
+            }
           }
         ],
-        multi_select: false,
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "case_priority_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: true,
-        display_name_en: "Re-assessment date",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Re-assessment date"
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "cpims_id",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: true,
-        display_name_en: "CPIMS No",
-        multi_select: false,
+        display_name_i18n: {
+          en: "CPIMS No"
+        },
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

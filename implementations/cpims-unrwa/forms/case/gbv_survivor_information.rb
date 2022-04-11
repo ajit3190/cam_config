@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Survivor Information",
-    description_en: "Survivor Information",
-    name_ar: "معلومات عن الناجية",
-    description_ar: "معلومات عن الناجية",
     unique_id: "gbv_survivor_information",
+    name_i18n: {
+      ar: "معلومات عن الناجية",
+      en: "Survivor Information"
+    },
+    description_i18n: {
+      ar: "معلومات عن الناجية",
+      en: "Survivor Information"
+    },
     parent_form: "case",
     visible: true,
     order: 60,
@@ -18,508 +22,751 @@ FormSection.create_or_update!(
     is_first_tab: true,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "case_id",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Long ID",
-        display_name_ar: "الرمز التعريفي المطول",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "الرمز التعريفي المطول",
+          en: "Long ID"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "short_id",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: false,
         disabled: true,
-        display_name_en: "Case ID",
-        display_name_ar: "رقم تعريف الحالة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "رقم تعريف الحالة",
+          en: "Case ID"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "marked_for_mobile",
+        type: "tick_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "tick_box",
         editable: false,
         disabled: true,
-        display_name_en: "Marked for mobile?",
-        tick_box_label_en: "Yes",
-        display_name_ar: "تم تأشيرة في الهاتف المحمول",
-        tick_box_label_ar: "نعم",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "تم تأشيرة في الهاتف المحمول",
+          en: "Marked for mobile?"
+        },
+        tick_box_label_i18n: {
+          ar: "نعم",
+          en: "Yes"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Case Status",
-        display_name_ar: "الوضع الراهن للحالة",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "الوضع الراهن للحالة",
+          en: "Case Status"
+        },
         option_strings_source: "lookup lookup-case-status",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
         selected_value: "open",
-        required: true
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: true,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "name",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Name",
-        display_name_ar: "الاسم",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "الاسم",
+          en: "Name"
+        },
+        order: 4,
         hidden_text_field: true,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "survivor_code_no",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Survivor Code",
-        display_name_ar: "رمز الناجية",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "رمز الناجية",
+          en: "Survivor Code"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "age",
+        type: "numeric_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "numeric_field",
         editable: true,
         disabled: false,
-        display_name_en: "Age",
-        display_name_ar: "العمر",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "العمر",
+          en: "Age"
+        },
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "date_of_birth",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Birth",
-        display_name_ar: "تاريخ الميلاد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "تاريخ الميلاد",
+          en: "Date of Birth"
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        date_validation: "not_future_date"
+        date_validation: "not_future_date",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "sex",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Sex",
-        display_name_ar: "الجنس",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "الجنس",
+          en: "Sex"
+        },
         option_strings_source: "lookup lookup-gender",
+        order: 8,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "gbv_ethnicity",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Clan or Ethnicity",
-        display_name_ar: "الطائفة أو الإثنية",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "الطائفة أو الإثنية",
+          en: "Clan or Ethnicity"
+        },
         option_strings_source: "lookup lookup-ethnicity",
+        order: 9,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "country_of_origin",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Country of Origin",
-        display_name_ar: "البلد الأصلي",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "البلد الأصلي",
+          en: "Country of Origin"
+        },
         option_strings_source: "lookup lookup-country",
+        order: 10,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "gbv_nationality",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Nationality (if different than country of origin)",
-        display_name_ar: "الجنسية (إذا كانت مختلفة عن البلد الأصلي)",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "الجنسية (إذا كانت مختلفة عن البلد الأصلي)",
+          en: "Nationality (if different than country of origin)"
+        },
         option_strings_source: "lookup lookup-nationality",
+        order: 11,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "gbv_religion",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Religion",
-        display_name_ar: "الدين",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "الدين",
+          en: "Religion"
+        },
         option_strings_source: "lookup lookup-religion",
+        order: 12,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "maritial_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Current Civil/Marital Status",
-        display_name_ar: "الحالة المدنية / الزوجية الحالية",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "الحالة المدنية / الزوجية الحالية",
+          en: "Current Civil/Marital Status"
+        },
         option_strings_source: "lookup lookup-marital-status",
+        order: 13,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "dependents_no",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Number and age of children and other dependents",
-        display_name_ar: "عدد الأطفال والمعالين الآخرين وأعمارهم",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "عدد الأطفال والمعالين الآخرين وأعمارهم",
+          en: "Number and age of children and other dependents"
+        },
+        order: 14,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "occupation",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Occupation",
-        display_name_ar: "المهنة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "المهنة",
+          en: "Occupation"
+        },
+        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "gbv_displacement_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Displacement Status at time of report",
-        display_name_ar: "وضع النزوح في وقت الإبلاغ",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "وضع النزوح في وقت الإبلاغ",
+          en: "Displacement Status at time of report"
+        },
         option_strings_source: "lookup lookup-displacement-status",
+        order: 16,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "gbv_disability_type",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Is the Survivor a Person with Disabilities?",
-        display_name_ar: "هل تعاني الناجية من إعاقة؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل تعاني الناجية من إعاقة؟",
+          en: "Is the Survivor a Person with Disabilities?"
+        },
         option_strings_source: "lookup lookup-disability-type-with-no",
+        order: 17,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "unaccompanied_separated_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Is the Survivor an Unaccompanied Minor, Separated Child, or Other Vulnerable Child?",
-        display_name_ar: "هل الناجية من القصّر غير المصحوبين أو من الأطفال المنفصلين عن ذويهم أو من الأطفال المستضعفين من فئات أخرى؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل الناجية من القصّر غير المصحوبين أو من الأطفال المنفصلين عن ذويهم أو من الأطفال المستضعفين من فئات أخرى؟",
+          en: "Is the Survivor an Unaccompanied Minor, Separated Child, or Other Vulnerable Child?"
+        },
         option_strings_source: "lookup lookup-unaccompanied-separated-status",
+        order: 18,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "section_heading_child_survivors_less_than_18_years_old",
+        type: "separator",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "Child Survivors (less than 18 years old)",
-        display_name_ar: "الناجيات من الأطفال (دون الـ 18 من العمر)",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "الناجيات من الأطفال (دون الـ 18 من العمر)",
+          en: "Child Survivors (less than 18 years old)"
+        },
+        order: 19,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
         field_tags: [
           "child"
         ],
-        required: false
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "survivor_lives_alone",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "If the survivor is a child, does he/she live alone?",
-        display_name_ar: "هل الناجي طفل / هل الناجية طفلة، هل يعيش لوحده / تعيش لوحدها؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل الناجي طفل / هل الناجية طفلة، هل يعيش لوحده / تعيش لوحدها؟",
+          en: "If the survivor is a child, does he/she live alone?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 20,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
         field_tags: [
           "child"
         ],
-        required: false
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "survivor_caretaker",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If the survivor lives with someone, what is the relation between her/him and the caretaker?",
-        display_name_ar: "هل يعيش الناجي / تعيش الناجية مع شخص آخر يرعاها، ما العلاقة بينها وبين الشخص الراعي / مقدم الرعاية لها؟",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "هل يعيش الناجي / تعيش الناجية مع شخص آخر يرعاها، ما العلاقة بينها وبين الشخص الراعي / مقدم الرعاية لها؟",
+          en: "If the survivor lives with someone, what is the relation between her/him and the caretaker?"
+        },
+        option_strings_text_i18n: [
           {
             id: "parent_guardian",
-            display_text: "Parent/Guardian"
+            display_text: {
+              ar: "أحد الوالدين / وصي",
+              en: "Parent/Guardian"
+            }
           },
           {
             id: "relative",
-            display_text: "Relative"
+            display_text: {
+              ar: "أحد الأقرباء",
+              en: "Relative"
+            }
           },
           {
             id: "spouse_cohabitating",
-            display_text: "Spouse/Cohabitating"
+            display_text: {
+              ar: "زوج / شريك دون زواج",
+              en: "Spouse/Cohabitating"
+            }
           },
           {
             id: "other_please_specify",
-            display_text: "Other, please specify"
+            display_text: {
+              ar: "أخرى، يرجى التحديد",
+              en: "Other, please specify"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "parent_guardian",
-            display_text: "أحد الوالدين / وصي"
-          },
-          {
-            id: "relative",
-            display_text: "أحد الأقرباء"
-          },
-          {
-            id: "spouse_cohabitating",
-            display_text: "زوج / شريك دون زواج"
-          },
-          {
-            id: "other_please_specify",
-            display_text: "أخرى، يرجى التحديد"
-          }
-        ],
-        multi_select: false,
+        order: 21,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
         field_tags: [
           "child"
         ],
-        required: false
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "survivor_caretaker_other",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If other relation between her/him and the caretaker, please specify.",
-        display_name_ar: "في حال وجود علاقة أخرى بين الناجي/الناجية ومقدم الرعاية له/لها، يرجى التحديد.",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "في حال وجود علاقة أخرى بين الناجي/الناجية ومقدم الرعاية له/لها، يرجى التحديد.",
+          en: "If other relation between her/him and the caretaker, please specify."
+        },
+        order: 22,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
         field_tags: [
           "child"
         ],
-        required: false
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caretaker_marital_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What is the caretaker's current marital status?",
-        display_name_ar: "الحالة المدنية / الزوجية الراهنه لمقدم الرعاية للناجية",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "الحالة المدنية / الزوجية الراهنه لمقدم الرعاية للناجية",
+          en: "What is the caretaker's current marital status?"
+        },
         option_strings_source: "lookup lookup-marital-status-unknown",
+        order: 23,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
         field_tags: [
           "child"
         ],
-        required: false
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "caretaker_occupation",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "What is the caretaker's primary occupation?",
-        display_name_ar: "المهنة الرئيسية الحالية لمقدم الرعاية للناجية؟",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "المهنة الرئيسية الحالية لمقدم الرعاية للناجية؟",
+          en: "What is the caretaker's primary occupation?"
+        },
+        order: 24,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
         field_tags: [
           "child"
         ],
-        required: false
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )

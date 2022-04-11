@@ -1,8 +1,12 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Verification Subform",
-    description_en: "Nested Verification Subform",
     unique_id: "verification_subform_section",
+    name_i18n: {
+      en: "Nested Verification Subform"
+    },
+    description_i18n: {
+      en: "Nested Verification Subform"
+    },
     parent_form: "case",
     visible: false,
     order: 30,
@@ -15,416 +19,660 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     collapsed_field_names: [
-      "verification_inquirer_relationship",
-      "verification_name_inquirer"
+      "verification_name_inquirer",
+      "verification_inquirer_relationship"
     ],
     fields_attributes: [
       {
         name: "verification_name_inquirer",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Inquirer's Name",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Inquirer's Name"
+        },
+        order: 0,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 643,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "verification_subform_section"
       },
       {
         name: "verification_inquirer_relationship",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Relationship",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Relationship"
+        },
         option_strings_source: "lookup lookup-family-relationship",
+        order: 1,
+        hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 643,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "verification_subform_section"
       },
       {
         name: "verification_inquirer_sex",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Sex",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Sex"
+        },
         option_strings_source: "lookup lookup-gender",
+        order: 2,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_age",
+        type: "numeric_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "numeric_field",
         editable: true,
         disabled: false,
-        display_name_en: "Age",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Age"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_address_current",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_location",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Current Location",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Current Location"
+        },
         option_strings_source: "Location",
+        order: 5,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_phone_inquirer",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Phone",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Phone"
+        },
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_wants_to_care_for_child",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Do you want the child to come and live with you?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Do you want the child to come and live with you?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 7,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_able_to_care_for_child",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Are you able to care for him/her/them?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Are you able to care for him/her/them?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 8,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_alternate_caregiver_exists",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "If not, is there any other family member who could take the child?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "If not, is there any other family member who could take the child?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 9,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_alternate_caregiver_name",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Name of alternate caregiver",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Name of alternate caregiver"
+        },
+        order: 10,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_alternate_caregiver_relationship",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Relationship of Alternate Caregiver",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Relationship of Alternate Caregiver"
+        },
         option_strings_source: "lookup lookup-family-relationship",
+        order: 11,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_address_alternate_caregiver",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address of that person (alternative caregiver)",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address of that person (alternative caregiver)"
+        },
+        order: 12,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_location_alternate_caregiver",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Alternate Caregiver's Village/Area/Physical Address",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Alternate Caregiver's Village/Area/Physical Address"
+        },
+        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_comments",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Comments",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Comments"
+        },
+        order: 14,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_acceptance_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of acceptance to take care of child",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of acceptance to take care of child"
+        },
+        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_known_to_child",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the child know the adult requesting verification?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Does the child know the adult requesting verification?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 16,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_child_wishes_reunification_with",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the child wish to be reunified with that person?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Does the child wish to be reunified with that person?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 17,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquirer_information_match",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Does the information given by the child and adult match?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Does the information given by the child and adult match?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 18,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquierer_recommendation",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Do you recommend reunifcation and if not what other action?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Do you recommend reunifcation and if not what other action?"
+        },
+        option_strings_text_i18n: [
           {
             id: "yes",
-            display_text: "Yes"
+            display_text: {
+              en: "Yes"
+            }
           },
           {
             id: "no",
-            display_text: "No"
+            display_text: {
+              en: "No"
+            }
           },
           {
             id: "further_tracing",
-            display_text: "Further Tracing"
+            display_text: {
+              en: "Further Tracing"
+            }
           },
           {
             id: "long_term_alternative_care",
-            display_text: "Long Term Alternative Care"
+            display_text: {
+              en: "Long Term Alternative Care"
+            }
           },
           {
             id: "reunification",
-            display_text: "Reunification"
+            display_text: {
+              en: "Reunification"
+            }
           },
           {
             id: "reunification_enhanced_support",
-            display_text: "Reunification with Enhanced Support"
+            display_text: {
+              en: "Reunification with Enhanced Support"
+            }
           }
         ],
-        multi_select: false,
+        order: 19,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_inquierer_recommendation_comments",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Additional comments",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Additional comments"
+        },
+        order: 20,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "verification_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of Verification",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of Verification"
+        },
+        order: 21,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Verification",
-    description_en: "Verification",
-    name_ar: "",
-    description_ar: "",
     unique_id: "verification",
+    name_i18n: {
+      ar: "",
+      en: "Verification"
+    },
+    description_i18n: {
+      ar: "",
+      en: "Verification"
+    },
     parent_form: "case",
     visible: false,
     order: 30,
@@ -438,30 +686,44 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "verification_subform_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Verification",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Verification"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "verification_subform_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

@@ -1,8 +1,12 @@
 FormSection.create_or_update!(
   {
-    name_en: "CP Individual Details",
-    description_en: "CP Individual Details",
     unique_id: "cp_individual_details",
+    name_i18n: {
+      en: "CP Individual Details"
+    },
+    description_i18n: {
+      en: "CP Individual Details"
+    },
     parent_form: "incident",
     visible: true,
     order: 15,
@@ -16,201 +20,313 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "age",
+        type: "numeric_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "numeric_field",
         editable: true,
         disabled: false,
-        display_name_en: "Age",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Age"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false
       },
       {
         name: "cp_sex",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Sex",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Sex"
+        },
         option_strings_source: "lookup lookup-gender",
+        order: 1,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
-        matchable: true
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: true,
+        mandatory_for_completion: false
       },
       {
         name: "cp_nationality",
+        type: "select_box",
+        multi_select: true,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Nationality",
-        multi_select: true,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Nationality"
+        },
         option_strings_source: "lookup lookup-country",
+        order: 2,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "national_id_no",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "National ID Number",
-        multi_select: false,
+        display_name_i18n: {
+          en: "National ID Number"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "other_id_type",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Type of Other ID Document",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Type of Other ID Document"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "other_id_no",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Number of Other ID Document",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Number of Other ID Document"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "maritial_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Social Status",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Social Status"
+        },
         option_strings_source: "lookup lookup-marital-status",
+        order: 6,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "educational_status",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Educational Status",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "Educational Status"
+        },
+        option_strings_text_i18n: [
           {
             id: "illiterate",
-            display_text: "Illiterate"
+            display_text: {
+              en: "Illiterate"
+            }
           },
           {
             id: "basic",
-            display_text: "Basic"
+            display_text: {
+              en: "Basic"
+            }
           },
           {
             id: "secondary",
-            display_text: "Secondary"
+            display_text: {
+              en: "Secondary"
+            }
           },
           {
             id: "bachelor",
-            display_text: "Bachelor"
+            display_text: {
+              en: "Bachelor"
+            }
           },
           {
             id: "post_graduate_studies",
-            display_text: "Post-graduate Studies"
+            display_text: {
+              en: "Post-graduate Studies"
+            }
           }
         ],
-        multi_select: false,
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "occupation",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Occupation",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Occupation"
+        },
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "cp_disability_type",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Disability Type",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Disability Type"
+        },
         option_strings_source: "lookup lookup-disability-type",
+        order: 9,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

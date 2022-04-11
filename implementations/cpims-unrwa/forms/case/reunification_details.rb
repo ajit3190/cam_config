@@ -1,8 +1,12 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Reunification",
-    description_en: "Reunification Subform",
     unique_id: "reunification_details_section",
+    name_i18n: {
+      en: "Nested Reunification"
+    },
+    description_i18n: {
+      en: "Reunification Subform"
+    },
     parent_form: "case",
     visible: false,
     order: 20,
@@ -15,281 +19,439 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     collapsed_field_names: [
-      "relationship_reunified_adult",
-      "name_reunified_adult"
+      "name_reunified_adult",
+      "relationship_reunified_adult"
     ],
     fields_attributes: [
       {
         name: "name_reunified_adult",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Name of adult child was reunified with",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Name of adult child was reunified with"
+        },
+        order: 0,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 635,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "reunification_details_section"
       },
       {
         name: "relationship_reunified_adult",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Relationship of adult to child",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Relationship of adult to child"
+        },
+        order: 1,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 635,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "reunification_details_section"
       },
       {
         name: "address_reunified_adult",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "location_reunified_adult",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Location of adult with whom the child was reunified",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Location of adult with whom the child was reunified"
+        },
         option_strings_source: "Location",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "address_reunification",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Address where the reunification is taking place",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Address where the reunification is taking place"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "location_reunification",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Location where the reunifcation is taking place",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Location where the reunifcation is taking place"
+        },
         option_strings_source: "Location",
+        order: 5,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "reunification_type",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "What type of reunification?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "What type of reunification?"
+        },
+        option_strings_text_i18n: [
           {
             id: "case_by_case",
-            display_text: "Case by case"
+            display_text: {
+              en: "Case by case"
+            }
           },
           {
             id: "informal_spontaneous",
-            display_text: "Informal/Spontaneous"
+            display_text: {
+              en: "Informal/Spontaneous"
+            }
           },
           {
             id: "mass_tracing",
-            display_text: "Mass Tracing"
+            display_text: {
+              en: "Mass Tracing"
+            }
           },
           {
             id: "mediation",
-            display_text: "Mediation"
+            display_text: {
+              en: "Mediation"
+            }
           },
           {
             id: "other",
-            display_text: "Other (Please Specify)"
+            display_text: {
+              en: "Other (Please Specify)"
+            }
           },
           {
             id: "photo_tracing",
-            display_text: "Photo Tracing"
+            display_text: {
+              en: "Photo Tracing"
+            }
           },
           {
             id: "spontaneous",
-            display_text: "Spontaneous"
+            display_text: {
+              en: "Spontaneous"
+            }
           }
         ],
-        multi_select: false,
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "date_reunification",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Date of reunification",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Date of reunification"
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "child_reunited_with_verified_adult",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Was the child reunified with the verfified adult?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Was the child reunified with the verfified adult?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 8,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "not_reunited_with_verified_adult_reason",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "If not, what was the reason for the change?",
-        option_strings_text_en: [
+        display_name_i18n: {
+          en: "If not, what was the reason for the change?"
+        },
+        option_strings_text_i18n: [
           {
             id: "change_of_mind",
-            display_text: "Change of Mind"
+            display_text: {
+              en: "Change of Mind"
+            }
           },
           {
             id: "death",
-            display_text: "Death"
+            display_text: {
+              en: "Death"
+            }
           },
           {
             id: "death_of_adult",
-            display_text: "Death of Adult"
+            display_text: {
+              en: "Death of Adult"
+            }
           },
           {
             id: "failed_verification",
-            display_text: "Failed Verification"
+            display_text: {
+              en: "Failed Verification"
+            }
           },
           {
             id: "n_a",
-            display_text: "Not Applicable"
+            display_text: {
+              en: "Not Applicable"
+            }
           },
           {
             id: "other",
-            display_text: "Other (Please Specify)"
+            display_text: {
+              en: "Other (Please Specify)"
+            }
           }
         ],
-        multi_select: false,
+        order: 9,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "reunification_follow_up_needed",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Is there a need for follow up?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "Is there a need for follow up?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 10,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "closure_recommendation",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "If not, do you recommend that the case be closed?",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          en: "If not, do you recommend that the case be closed?"
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 11,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Reunification Details",
-    description_en: "Reunification Details",
-    name_ar: "",
-    description_ar: "",
     unique_id: "reunification_details",
+    name_i18n: {
+      ar: "",
+      en: "Reunification Details"
+    },
+    description_i18n: {
+      ar: "",
+      en: "Reunification Details"
+    },
     parent_form: "case",
     visible: false,
     order: 40,
@@ -303,30 +465,44 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "reunification_details_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Reunification Details",
-        multi_select: false,
+        display_name_i18n: {
+          en: "Reunification Details"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "reunification_details_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-cp"
     ]
   }
 )

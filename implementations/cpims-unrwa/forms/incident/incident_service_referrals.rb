@@ -1,10 +1,14 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Health/Medical Referral Subform",
-    description_en: "Nested Health/Medical Referral Subform",
-    name_ar: "النموذج الفرعي المتداخل للإحالة إلى خدمة صحية / طبية",
-    description_ar: "النموذج الفرعي المتداخل للإحالة إلى خدمة صحية / طبية",
     unique_id: "health_medical_referral_subform_section",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل للإحالة إلى خدمة صحية / طبية",
+      en: "Nested Health/Medical Referral Subform"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل للإحالة إلى خدمة صحية / طبية",
+      en: "Nested Health/Medical Referral Subform"
+    },
     parent_form: "incident",
     visible: false,
     order: 10,
@@ -17,127 +21,200 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
+    collapsed_field_names: [
+      "service_medical_referral"
+    ],
     fields_attributes: [
       {
         name: "service_medical_referral",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Did you refer the client to Health/Medical Services?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات صحية/طبية؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل قمت بإحالة العميل إلى خدمات صحية/طبية؟",
+          en: "Did you refer the client to Health/Medical Services?"
+        },
         option_strings_source: "lookup lookup-service-referred",
+        order: 0,
+        hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 654,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "health_medical_referral_subform_section"
       },
       {
         name: "service_medical_appointment_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Date",
-        display_name_ar: "تاريخ الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "تاريخ الموعد",
+          en: "Appointment Date"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_medical_appointment_time",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Time",
-        display_name_ar: "توقيت الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "توقيت الموعد",
+          en: "Appointment Time"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_medical_provider",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Provider",
-        display_name_ar: "مقدم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_medical_location",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Location",
-        display_name_ar: "مكان تقديم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مكان تقديم الخدمة",
+          en: "Service Location"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_medical_referral_notes",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Notes",
-        display_name_ar: "ملاحظات",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "ملاحظات",
+          en: "Notes"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Nested Psychosocial/Counseling Services Subform",
-    description_en: "Nested Psychosocial/Counseling Services Subform",
-    name_ar: "النموذج الفرعي المتداخل للخدمات النفسية الاجتماعية / خدمات تقديم المشورة",
-    description_ar: "النموذج الفرعي المتداخل للخدمات النفسية الاجتماعية / خدمات تقديم المشورة",
     unique_id: "psychosocial_counseling_services_subform_section",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل للخدمات النفسية الاجتماعية / خدمات تقديم المشورة",
+      en: "Nested Psychosocial/Counseling Services Subform"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل للخدمات النفسية الاجتماعية / خدمات تقديم المشورة",
+      en: "Nested Psychosocial/Counseling Services Subform"
+    },
     parent_form: "incident",
     visible: false,
     order: 10,
@@ -150,127 +227,200 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
+    collapsed_field_names: [
+      "service_psycho_referral"
+    ],
     fields_attributes: [
       {
         name: "service_psycho_referral",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Did you refer the client to Psychosocial/Counseling services?",
-        display_name_ar: "هل قمت بإحالة العميل إلى الخدمات النفسية الاجتماعية / خدمات تقديم المشورة؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل قمت بإحالة العميل إلى الخدمات النفسية الاجتماعية / خدمات تقديم المشورة؟",
+          en: "Did you refer the client to Psychosocial/Counseling services?"
+        },
         option_strings_source: "lookup lookup-service-referred",
+        order: 0,
+        hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 655,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "psychosocial_counseling_services_subform_section"
       },
       {
         name: "service_psycho_appointment_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Date",
-        display_name_ar: "تاريخ الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "تاريخ الموعد",
+          en: "Appointment Date"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_psycho_appointment_time",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Time",
-        display_name_ar: "وقت الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "وقت الموعد",
+          en: "Appointment Time"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_psycho_provider",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Provider",
-        display_name_ar: "مقدم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_psycho_service_location",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Location",
-        display_name_ar: "مكان تقديم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مكان تقديم الخدمة",
+          en: "Service Location"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_psycho_referral_notes",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Notes",
-        display_name_ar: "ملاحظات",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "ملاحظات",
+          en: "Notes"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Nested Legal Assistance Services Subform",
-    description_en: "Nested Legal Assistance Services Subform",
-    name_ar: "النموذج الفرعي المتداخل لخدمات المساعدة القانونية",
-    description_ar: "النموذج الفرعي المتداخل لخدمات المساعدة القانونية",
     unique_id: "legal_assistance_services_subform_section",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات المساعدة القانونية",
+      en: "Nested Legal Assistance Services Subform"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات المساعدة القانونية",
+      en: "Nested Legal Assistance Services Subform"
+    },
     parent_form: "incident",
     visible: false,
     order: 10,
@@ -283,411 +433,228 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
+    collapsed_field_names: [
+      "service_legal_referral"
+    ],
     fields_attributes: [
       {
         name: "service_legal_referral",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Did you refer the client to Legal services?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات المساعدة القانونية؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل قمت بإحالة العميل إلى خدمات المساعدة القانونية؟",
+          en: "Did you refer the client to Legal services?"
+        },
         option_strings_source: "lookup lookup-service-referred",
+        order: 0,
+        hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 656,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "legal_assistance_services_subform_section"
       },
       {
         name: "service_legal_appointment_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Date",
-        display_name_ar: "تاريخ الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "تاريخ الموعد",
+          en: "Appointment Date"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_legal_appointment_time",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Time",
-        display_name_ar: "وقت الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "وقت الموعد",
+          en: "Appointment Time"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_legal_provider",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Provider",
-        display_name_ar: "مقدم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_legal_location",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Location",
-        display_name_ar: "مكان تقديم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مكان تقديم الخدمة",
+          en: "Service Location"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_legal_referral_notes",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Notes",
-        display_name_ar: "ملاحظات",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "ملاحظات",
+          en: "Notes"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "pursue_legal_action",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
         type: "radio_button",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
         editable: true,
         disabled: false,
-        display_name_en: "Does the client want to pursue legal action?",
-        display_name_ar: "هل يريد العميل متابعة الإجراءات القانونية؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل يريد العميل متابعة الإجراءات القانونية؟",
+          en: "Does the client want to pursue legal action?"
+        },
         option_strings_source: "lookup lookup-yes-no-undecided",
+        order: 6,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Nested Police or Other Type of Security Services Subform",
-    description_en: "Nested Police or Other Type of Security Services Subform",
-    name_ar: "النموذج الفرعي المتداخل لخدمات الشرطة أو نوع آخر من الخدمات الأمنية",
-    description_ar: "النموذج الفرعي المتداخل لخدمات الشرطة أو نوع آخر من الخدمات الأمنية",
-    unique_id: "police_or_other_type_of_security_services_subform_section",
-    parent_form: "incident",
-    visible: false,
-    order: 10,
-    order_form_group: 100,
-    order_subform: 4,
-    form_group_keyed: false,
-    editable: true,
-    core_form: false,
-    is_nested: true,
-    is_first_tab: false,
-    initial_subforms: 1,
-    subform_prevent_item_removal: false,
-    display_help_text_view: false,
-    is_summary_section: false,
-    hide_subform_placeholder: false,
-    mobile_form: true,
-    header_message_link: "",
-    subform_append_only: false,
-    fields_attributes: [
-      {
-        name: "service_police_referral",
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: true,
-        type: "select_box",
-        editable: true,
-        disabled: false,
-        display_name_en: "Did you refer the client to Police/Other services?",
-        display_name_ar: "هل قمت بإحالة العميل إلى الشرطة / خدمات أخرى؟",
-        multi_select: false,
-        hidden_text_field: false,
-        option_strings_source: "lookup lookup-service-referred",
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_police_appointment_date",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "date_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Appointment Date",
-        display_name_ar: "تاريخ الموعد",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_police_appointment_time",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Appointment Time",
-        display_name_ar: "وقت الموعد",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_police_provider",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Service Provider",
-        display_name_ar: "مقدم الخدمة",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_police_location",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Service Location",
-        display_name_ar: "مكان تقديم الخدمة",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_police_referral_notes",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Notes",
-        display_name_ar: "ملاحظات",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      }
-    ]
-  }
-)
-
-FormSection.create_or_update!(
-  {
-    name_en: "Nested Livelihoods Services Subform",
-    description_en: "Nested Livelihoods Services Subform",
-    name_ar: "النموذج الفرعي المتداخل لخدمات سبل المعيشة",
-    description_ar: "النموذج الفرعي المتداخل لخدمات سبل المعيشة",
-    unique_id: "livelihoods_services_subform_section",
-    parent_form: "incident",
-    visible: false,
-    order: 10,
-    order_form_group: 100,
-    order_subform: 5,
-    form_group_keyed: false,
-    editable: true,
-    core_form: false,
-    is_nested: true,
-    is_first_tab: false,
-    initial_subforms: 1,
-    subform_prevent_item_removal: false,
-    display_help_text_view: false,
-    is_summary_section: false,
-    hide_subform_placeholder: false,
-    mobile_form: true,
-    header_message_link: "",
-    subform_append_only: false,
-    fields_attributes: [
-      {
-        name: "service_livelihoods_referral",
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: true,
-        type: "select_box",
-        editable: true,
-        disabled: false,
-        display_name_en: "Did you refer the client to a livelihoods program?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات سبل المعيشة؟",
-        multi_select: false,
-        hidden_text_field: false,
-        option_strings_source: "lookup lookup-service-referred",
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_livelihoods_appointment_date",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "date_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Appointment Date",
-        display_name_ar: "تاريخ الموعد",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_livelihoods_appointment_time",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Appointment Time",
-        display_name_ar: "وقت الموعد",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_livelihoods_provider",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Service Provider",
-        display_name_ar: "مقدم الخدمة",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_livelihoods_location",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Service Location",
-        display_name_ar: "مكان تقديم الخدمة",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "service_livelihoods_referral_notes",
-        visible: true,
-        mobile_visible: false,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "text_field",
-        editable: true,
-        disabled: false,
-        display_name_en: "Notes",
-        display_name_ar: "ملاحظات",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      }
-    ]
-  }
-)
-
-FormSection.create_or_update!(
-  {
-    name_en: "Nested Child Protection Services Subform",
-    description_en: "Nested Child Protection Services Subform",
-    name_ar: "النموذج الفرعي المتداخل لخدمات حماية الطفل",
-    description_ar: "النموذج الفرعي المتداخل لخدمات حماية الطفل",
     unique_id: "child_protection_services_subform_section",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات حماية الطفل",
+      en: "Nested Child Protection Services Subform"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات حماية الطفل",
+      en: "Nested Child Protection Services Subform"
+    },
     parent_form: "incident",
     visible: false,
     order: 10,
@@ -700,127 +667,612 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
+    collapsed_field_names: [
+      "service_protection_referral"
+    ],
     fields_attributes: [
       {
         name: "service_protection_referral",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Did you refer the client to Child Protection services?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات حماية الطفل؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل قمت بإحالة العميل إلى خدمات حماية الطفل؟",
+          en: "Did you refer the client to Child Protection services?"
+        },
         option_strings_source: "lookup lookup-service-referred",
+        order: 0,
+        hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 659,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "child_protection_services_subform_section"
       },
       {
         name: "service_protection_appointment_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Date",
-        display_name_ar: "تاريخ الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "تاريخ الموعد",
+          en: "Appointment Date"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_protection_appointment_time",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Time",
-        display_name_ar: "توقيت الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "توقيت الموعد",
+          en: "Appointment Time"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_protection_provider",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Provider",
-        display_name_ar: "مقدم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider"
+        },
+        order: 3,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_protection_location",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Location",
-        display_name_ar: "مكان تقديم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مكان تقديم الخدمة",
+          en: "Service Location"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_protection_referral_notes",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Notes",
-        display_name_ar: "ملاحظات",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "ملاحظات",
+          en: "Notes"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Service Referrals",
-    description_en: "Service Referrals",
-    name_ar: "الإحالة إلى الخدمات",
-    description_ar: "الإحالة إلى الخدمات",
+    unique_id: "livelihoods_services_subform_section",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات سبل المعيشة",
+      en: "Nested Livelihoods Services Subform"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات سبل المعيشة",
+      en: "Nested Livelihoods Services Subform"
+    },
+    parent_form: "incident",
+    visible: false,
+    order: 10,
+    order_form_group: 100,
+    order_subform: 5,
+    form_group_keyed: false,
+    editable: true,
+    core_form: false,
+    is_nested: true,
+    is_first_tab: false,
+    initial_subforms: 1,
+    subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: true,
+    header_message_link: "",
+    collapsed_field_names: [
+      "service_livelihoods_referral"
+    ],
+    fields_attributes: [
+      {
+        name: "service_livelihoods_referral",
+        type: "select_box",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: true,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "هل قمت بإحالة العميل إلى خدمات سبل المعيشة؟",
+          en: "Did you refer the client to a livelihoods program?"
+        },
+        option_strings_source: "lookup lookup-service-referred",
+        order: 0,
+        hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 658,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "livelihoods_services_subform_section"
+      },
+      {
+        name: "service_livelihoods_appointment_date",
+        type: "date_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "تاريخ الموعد",
+          en: "Appointment Date"
+        },
+        order: 1,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_livelihoods_appointment_time",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "وقت الموعد",
+          en: "Appointment Time"
+        },
+        order: 2,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_livelihoods_provider",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider"
+        },
+        order: 3,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_livelihoods_location",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "مكان تقديم الخدمة",
+          en: "Service Location"
+        },
+        order: 4,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_livelihoods_referral_notes",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "ملاحظات",
+          en: "Notes"
+        },
+        order: 5,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
+    ]
+  }
+)
+
+FormSection.create_or_update!(
+  {
+    unique_id: "police_or_other_type_of_security_services_subform_section",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات الشرطة أو نوع آخر من الخدمات الأمنية",
+      en: "Nested Police or Other Type of Security Services Subform"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل لخدمات الشرطة أو نوع آخر من الخدمات الأمنية",
+      en: "Nested Police or Other Type of Security Services Subform"
+    },
+    parent_form: "incident",
+    visible: false,
+    order: 10,
+    order_form_group: 100,
+    order_subform: 4,
+    form_group_keyed: false,
+    editable: true,
+    core_form: false,
+    is_nested: true,
+    is_first_tab: false,
+    initial_subforms: 1,
+    subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: true,
+    header_message_link: "",
+    collapsed_field_names: [
+      "service_police_referral"
+    ],
+    fields_attributes: [
+      {
+        name: "service_police_referral",
+        type: "select_box",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: true,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "هل قمت بإحالة العميل إلى الشرطة / خدمات أخرى؟",
+          en: "Did you refer the client to Police/Other services?"
+        },
+        option_strings_source: "lookup lookup-service-referred",
+        order: 0,
+        hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 657,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "police_or_other_type_of_security_services_subform_section"
+      },
+      {
+        name: "service_police_appointment_date",
+        type: "date_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "تاريخ الموعد",
+          en: "Appointment Date"
+        },
+        order: 1,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_police_appointment_time",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "وقت الموعد",
+          en: "Appointment Time"
+        },
+        order: 2,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_police_provider",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider"
+        },
+        order: 3,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_police_location",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "مكان تقديم الخدمة",
+          en: "Service Location"
+        },
+        order: 4,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
+        name: "service_police_referral_notes",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: false,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "ملاحظات",
+          en: "Notes"
+        },
+        order: 5,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
+    ]
+  }
+)
+
+FormSection.create_or_update!(
+  {
     unique_id: "incident_service_referrals",
+    name_i18n: {
+      ar: "الإحالة إلى الخدمات",
+      en: "Service Referrals"
+    },
+    description_i18n: {
+      ar: "الإحالة إلى الخدمات",
+      en: "Service Referrals"
+    },
     parent_form: "incident",
     visible: true,
     order: 10,
@@ -834,375 +1286,515 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "service_referred_from",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Who referred the client to you?",
-        display_name_ar: "من أحال العميل إليك؟",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "من أحال العميل إليك؟",
+          en: "Who referred the client to you?"
+        },
+        option_strings_text_i18n: [
           {
             id: "health_medical_services",
-            display_text: "Health / Medical Services"
+            display_text: {
+              ar: "خدمات صحية / طبية",
+              en: "Health / Medical Services"
+            }
           },
           {
             id: "psychosocial_counseling_services",
-            display_text: "Psychosocial / Counseling Services"
+            display_text: {
+              ar: "خدمات نفسية اجتماعية / خدمات تقديم المشورة",
+              en: "Psychosocial / Counseling Services"
+            }
           },
           {
             id: "police_other_security_actor",
-            display_text: "Police / Other Security Actor"
+            display_text: {
+              ar: "الشرطة / جهة أمنية أخرى",
+              en: "Police / Other Security Actor"
+            }
           },
           {
             id: "legal_assistance_services",
-            display_text: "Legal Assistance Services"
+            display_text: {
+              ar: "خدمات المساعدة القانونية",
+              en: "Legal Assistance Services"
+            }
           },
           {
             id: "livelihoods_program",
-            display_text: "Livelihoods Program"
+            display_text: {
+              ar: "برنامج سبل المعيشة",
+              en: "Livelihoods Program"
+            }
           },
           {
             id: "self_referral_first_point_of_contact",
-            display_text: "Self Referral / First Point of Contact"
+            display_text: {
+              ar: "إحالة ذاتية / نقطة الاتصال الأولى",
+              en: "Self Referral / First Point of Contact"
+            }
           },
           {
             id: "teacher_school_official",
-            display_text: "Teacher / School Official"
+            display_text: {
+              ar: "المعلم / مسؤول المدرسة",
+              en: "Teacher / School Official"
+            }
           },
           {
             id: "community_or_camp_leader",
-            display_text: "Community or Camp Leader"
+            display_text: {
+              ar: "أحد قادة المجتمع المحلي أو المخيم",
+              en: "Community or Camp Leader"
+            }
           },
           {
             id: "safe_house_shelter",
-            display_text: "Safe House / Shelter"
+            display_text: {
+              ar: "بيت آمن / مأوى",
+              en: "Safe House / Shelter"
+            }
           },
           {
             id: "other_humanitarian_or_development_actor",
-            display_text: "Other Humanitarian or Development Actor"
+            display_text: {
+              ar: "جهة فاعلة أخرى في مجال المساعدة الإنسانية أو التنمية",
+              en: "Other Humanitarian or Development Actor"
+            }
           },
           {
             id: "other_government_service",
-            display_text: "Other Government Service"
+            display_text: {
+              ar: "خدمة حكومية أخرى",
+              en: "Other Government Service"
+            }
           },
           {
             id: "other",
-            display_text: "Other"
+            display_text: {
+              ar: "خدمات أخرى",
+              en: "Other"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "health_medical_services",
-            display_text: "خدمات صحية / طبية"
-          },
-          {
-            id: "psychosocial_counseling_services",
-            display_text: "خدمات نفسية اجتماعية / خدمات تقديم المشورة"
-          },
-          {
-            id: "police_other_security_actor",
-            display_text: "الشرطة / جهة أمنية أخرى"
-          },
-          {
-            id: "legal_assistance_services",
-            display_text: "خدمات المساعدة القانونية"
-          },
-          {
-            id: "livelihoods_program",
-            display_text: "برنامج سبل المعيشة"
-          },
-          {
-            id: "self_referral_first_point_of_contact",
-            display_text: "إحالة ذاتية / نقطة الاتصال الأولى"
-          },
-          {
-            id: "teacher_school_official",
-            display_text: "المعلم / مسؤول المدرسة"
-          },
-          {
-            id: "community_or_camp_leader",
-            display_text: "أحد قادة المجتمع المحلي أو المخيم"
-          },
-          {
-            id: "safe_house_shelter",
-            display_text: "بيت آمن / مأوى"
-          },
-          {
-            id: "other_humanitarian_or_development_actor",
-            display_text: "جهة فاعلة أخرى في مجال المساعدة الإنسانية أو التنمية"
-          },
-          {
-            id: "other_government_service",
-            display_text: "خدمة حكومية أخرى"
-          },
-          {
-            id: "other",
-            display_text: "خدمات أخرى"
-          }
-        ],
-        multi_select: false,
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_referred_from_other",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "If survivor referred from Other, please specify.",
-        display_name_ar: "في حالة إحالة الناجية من قبل خدمات أخرى، يرجى التحديد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "في حالة إحالة الناجية من قبل خدمات أخرى، يرجى التحديد",
+          en: "If survivor referred from Other, please specify."
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "safe_house_safe_shelter_referral",
+        type: "separator",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "Safe House/Safe Shelter Referral",
-        display_name_ar: "إحالة من بيت آمن / مأوى آمن",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "إحالة من بيت آمن / مأوى آمن",
+          en: "Safe House/Safe Shelter Referral"
+        },
+        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_safehouse_referral",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Did you refer the client to a safe house/safe shelter?",
-        display_name_ar: "هل قمت بإحالة الناجية إلى خدمات بيت آمن / مأوى آمن؟",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل قمت بإحالة الناجية إلى خدمات بيت آمن / مأوى آمن؟",
+          en: "Did you refer the client to a safe house/safe shelter?"
+        },
         option_strings_source: "lookup lookup-service-referred",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_safehouse_appointment_date",
+        type: "date_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Date",
-        display_name_ar: "تاريخ الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "تاريخ الموعد",
+          en: "Appointment Date"
+        },
+        order: 4,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_safehouse_appointment_time",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Appointment Time",
-        display_name_ar: "وقت الموعد",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "وقت الموعد",
+          en: "Appointment Time"
+        },
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_safehouse_provider",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Provider",
-        display_name_ar: "مقدم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider"
+        },
+        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_safehouse_location",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Service Location",
-        display_name_ar: "مكان تقديم الخدمة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مكان تقديم الخدمة",
+          en: "Service Location"
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_safehouse_referral_notes",
+        type: "text_field",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "text_field",
         editable: true,
         disabled: false,
-        display_name_en: "Notes",
-        display_name_ar: "ملاحظات",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "ملاحظات",
+          en: "Notes"
+        },
+        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "health_medical_referral_subform_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Health/Medical Referral",
-        display_name_ar: "إحالة إلى خدمات صحية / طبية",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "إحالة إلى خدمات صحية / طبية",
+          en: "Health/Medical Referral"
+        },
+        order: 9,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "health_medical_referral_subform_section"
       },
       {
         name: "psychosocial_counseling_services_subform_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Psychosocial/Counseling Services",
-        display_name_ar: "خدمات نفسية اجتماعية / خدمات تقديم المشورة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "خدمات نفسية اجتماعية / خدمات تقديم المشورة",
+          en: "Psychosocial/Counseling Services"
+        },
+        order: 10,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "psychosocial_counseling_services_subform_section"
       },
       {
         name: "legal_assistance_services_subform_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Legal Assistance Services",
-        display_name_ar: "خدمات المساعدة القانونية",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "خدمات المساعدة القانونية",
+          en: "Legal Assistance Services"
+        },
+        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "legal_assistance_services_subform_section"
       },
       {
         name: "police_or_other_type_of_security_services_subform_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Police or Other Type of Security Services",
-        display_name_ar: "الشرطة / نوع آخر من الخدمات الأمنية",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "الشرطة / نوع آخر من الخدمات الأمنية",
+          en: "Police or Other Type of Security Services"
+        },
+        order: 12,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "police_or_other_type_of_security_services_subform_section"
       },
       {
         name: "livelihoods_services_subform_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Livelihoods Services",
-        display_name_ar: "برنامج سبل المعيشة",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "برنامج سبل المعيشة",
+          en: "Livelihoods Services"
+        },
+        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "livelihoods_services_subform_section"
       },
       {
         name: "child_protection_services_subform_section",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Child Protection Services",
-        display_name_ar: "خدمات حماية الطفل",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "خدمات حماية الطفل",
+          en: "Child Protection Services"
+        },
+        order: 14,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "child_protection_services_subform_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
