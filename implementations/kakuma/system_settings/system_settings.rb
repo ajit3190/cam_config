@@ -22,7 +22,7 @@ create_or_update_system_setting(
     },
     primary_age_range: "primero",
     approval_forms_to_alert: {
-      cp_recommended_follow_up_actions_referrals: "bia",
+      cp_recommended_follow_up_actions_referrals: "assessment",
       cp_case_plan: "case_plan",
       closure_form: "closure"
     },
