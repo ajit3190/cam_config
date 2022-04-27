@@ -1,0 +1,227 @@
+FormSection.create_or_update!(
+  {
+    name_en: "Incident Report/Child Victim",
+    description_en: "Incident Report",
+    unique_id: "cp_incident_report",
+    parent_form: "case",
+    visible: true,
+    order: 30,
+    order_form_group: 135,
+    order_subform: 0,
+    form_group_keyed: false,
+    editable: true,
+    core_form: false,
+    is_nested: false,
+    is_first_tab: false,
+    initial_subforms: 0,
+    subform_prevent_item_removal: false,
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: false,
+    header_message_link: "",
+    form_group_id: "legal_services",
+    fields_attributes: [
+      {
+        name: "incident_report_details",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Please describe the incident leading to the case or child’s referral to the police station, FSU, Ministry office, or community organization",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_date",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Date of report/referral",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_person_reporting",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Name of person reporting the case/referring the child",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_person_contact",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Contact detail of person reporting the case/referring the child",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_child_victim_of",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "What crime or abuse is the child a victim of ? ",
+        help_text_en: "",
+        multi_select: true,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-offences",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_child_victim_of_other",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "If other, please specify",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_perpetrator_child_relationship",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Relationship between child and perpetrator",
+        help_text_en: "",
+        option_strings_text_en: [
+          {
+            id: "parent",
+            display_text: "Parent"
+          },
+          {
+            id: "non_stranger",
+            display_text: "Non stranger"
+          },
+          {
+            id: "stranger",
+            display_text: "Stranger"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_perpetrator_child_relationship_stranger",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "If stranger, please specify",
+        help_text_en: "Description of relationship",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_action_taken",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "What action was taken on the case? ",
+        help_text_en: "",
+        option_strings_text_en: [
+          {
+            id: "investigation",
+            display_text: "Investigation"
+          },
+          {
+            id: "informal_resolution",
+            display_text: "Informal resolution"
+          },
+          {
+            id: "other",
+            display_text: "Other"
+          }
+        ],
+        multi_select: true,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "incident_report_action_taken_other",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: " If other, please specify",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      }
+    ]
+  }
+)
+

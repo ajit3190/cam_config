@@ -1,0 +1,166 @@
+FormSection.create_or_update!(
+  {
+    name_en: "Investigation",
+    description_en: "Investigation",
+    unique_id: "cp_investigation",
+    parent_form: "case",
+    visible: true,
+    order: 40,
+    order_form_group: 135,
+    order_subform: 0,
+    form_group_keyed: false,
+    editable: true,
+    core_form: false,
+    is_nested: false,
+    is_first_tab: false,
+    initial_subforms: 0,
+    subform_prevent_item_removal: false,
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: false,
+    header_message_link: "",
+    form_group_id: "legal_services",
+    fields_attributes: [
+      {
+        name: "investigation_investigating_officer",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Name of Investigating Officer",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "investigation_complete_date",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Date investigation completed ",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "investigation_legal_assistance",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Was legal assistance provided during the investigation or interrogation?",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "investigation_comments",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Other Notes or Comments ",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "investigation_outcome",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Outcome of Investigation:",
+        help_text_en: "",
+        option_strings_text_en: [
+          {
+            id: "diverted",
+            display_text: "Diverted"
+          },
+          {
+            id: "dropped",
+            display_text: "Dropped"
+          },
+          {
+            id: "charged_to_court",
+            display_text: "Charged to Court"
+          },
+          {
+            id: "other",
+            display_text: "Other"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "investigation_outcome_specify",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "If Other, please specify",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "investigation_outcome_details",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Details of outcome",
+        help_text_en: "",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      }
+    ]
+  }
+)
+
