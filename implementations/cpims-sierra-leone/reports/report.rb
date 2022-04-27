@@ -790,12 +790,6 @@ Report.create_or_update!(
   {
     name_en: "PSS Pillar Report August 14",
     description_en: "",
-    name_fr: "PSS Pillar Report August 14",
-    description_fr: "",
-    name_ar: "PSS Pillar Report August 14",
-    description_ar: "",
-    name_es: "PSS Pillar Report August 14",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "service_type",
@@ -880,12 +874,6 @@ Report.create_or_update!(
   {
     name_en: "Services",
     description_en: "",
-    name_fr: "Services",
-    description_fr: "",
-    name_ar: "Services",
-    description_ar: "",
-    name_es: "Services",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "service_type",
@@ -931,12 +919,6 @@ Report.create_or_update!(
   {
     name_en: "Services",
     description_en: "",
-    name_fr: "Services",
-    description_fr: "",
-    name_ar: "Services",
-    description_ar: "",
-    name_es: "Services",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "sex",
@@ -982,12 +964,6 @@ Report.create_or_update!(
   {
     name_en: "Services Provided by Partners",
     description_en: "",
-    name_fr: "Services Provided by Partners",
-    description_fr: "",
-    name_ar: "Services Provided by Partners",
-    description_ar: "",
-    name_es: "Services Provided by Partners",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "sex",
@@ -1340,12 +1316,6 @@ Report.create_or_update!(
   {
     name_en: "Qtrly Report on Services",
     description_en: "",
-    name_fr: "Qtrly Report on Services",
-    description_fr: "",
-    name_ar: "Qtrly Report on Services",
-    description_ar: "",
-    name_es: "Qtrly Report on Services",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "owned_by_agency"
@@ -1396,12 +1366,6 @@ Report.create_or_update!(
   {
     name_en: "Update for Danish Natcom Report - October 2021",
     description_en: "",
-    name_fr: "Update for Danish Natcom Report - October 2021",
-    description_fr: "",
-    name_ar: "Update for Danish Natcom Report - October 2021",
-    description_ar: "",
-    name_es: "Update for Danish Natcom Report - October 2021",
-    description_es: "",
     record_type: "reportable_protection_concern",
     aggregate_by: [
       "sex"
@@ -1481,12 +1445,6 @@ Report.create_or_update!(
   {
     name_en: "August Report",
     description_en: "",
-    name_fr: "August Report",
-    description_fr: "",
-    name_ar: "August Report",
-    description_ar: "",
-    name_es: "August Report",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "service_type"
@@ -1530,12 +1488,6 @@ Report.create_or_update!(
   {
     name_en: "List of Users",
     description_en: "",
-    name_fr: "List of Users",
-    description_fr: "",
-    name_ar: "List of Users",
-    description_ar: "",
-    name_es: "List of Users",
-    description_es: "",
     record_type: "reportable_protection_concern",
     aggregate_by: [
       "owned_by_agency"
@@ -1575,12 +1527,6 @@ Report.create_or_update!(
   {
     name_en: "Cases by District ",
     description_en: "",
-    name_fr: "Cases by District ",
-    description_fr: "",
-    name_ar: "Cases by District ",
-    description_ar: "",
-    name_es: "Cases by District ",
-    description_es: "",
     record_type: "reportable_protection_concern",
     aggregate_by: [
       "protection_concern_type"
@@ -1620,12 +1566,6 @@ Report.create_or_update!(
   {
     name_en: "Cases by District ",
     description_en: "",
-    name_fr: "Cases by District ",
-    description_fr: "",
-    name_ar: "Cases by District ",
-    description_ar: "",
-    name_es: "Cases by District ",
-    description_es: "",
     record_type: "reportable_protection_concern",
     aggregate_by: [
       "protection_concern_type"
@@ -1665,12 +1605,6 @@ Report.create_or_update!(
   {
     name_en: "GBV Services",
     description_en: "",
-    name_fr: "GBV Services",
-    description_fr: "",
-    name_ar: "GBV Services",
-    description_ar: "",
-    name_es: "GBV Services",
-    description_es: "",
     record_type: "reportable_protection_concern",
     aggregate_by: [
       "protection_concern_type"
@@ -1711,12 +1645,6 @@ Report.create_or_update!(
   {
     name_en: "GBV Services",
     description_en: "",
-    name_fr: "GBV Services",
-    description_fr: "",
-    name_ar: "GBV Services",
-    description_ar: "",
-    name_es: "GBV Services",
-    description_es: "",
     record_type: "reportable_protection_concern",
     aggregate_by: [
       "protection_concern_type"
@@ -1757,12 +1685,6 @@ Report.create_or_update!(
   {
     name_en: "GBV Services",
     description_en: "",
-    name_fr: "GBV Services",
-    description_fr: "",
-    name_ar: "GBV Services",
-    description_ar: "",
-    name_es: "GBV Services",
-    description_es: "",
     record_type: "reportable_service",
     aggregate_by: [
       "risk_level"
