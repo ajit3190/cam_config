@@ -12,7 +12,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -49,7 +49,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -83,7 +83,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -117,7 +117,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -159,7 +159,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -222,7 +222,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -257,7 +257,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -302,7 +302,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -337,7 +337,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -371,7 +371,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -408,7 +408,7 @@ Report.create_or_update!(
         attribute: "sex"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -439,7 +439,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -478,7 +478,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -512,7 +512,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -548,7 +548,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -592,7 +592,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -632,7 +632,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -668,7 +668,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -710,7 +710,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -753,7 +753,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -801,7 +801,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -843,7 +843,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -886,7 +886,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -931,7 +931,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -976,7 +976,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1019,7 +1019,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1057,7 +1057,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1092,7 +1092,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1129,7 +1129,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1163,7 +1163,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1201,7 +1201,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1236,7 +1236,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1291,7 +1291,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1333,7 +1333,7 @@ Report.create_or_update!(
         value: "31-Mar-2020"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1376,7 +1376,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1414,7 +1414,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1455,7 +1455,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1498,7 +1498,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1537,7 +1537,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1576,7 +1576,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1616,7 +1616,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1656,7 +1656,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1696,7 +1696,7 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1742,7 +1742,7 @@ Report.create_or_update!(
         attribute: "sex"
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1781,7 +1781,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1815,7 +1815,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1856,7 +1856,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1899,7 +1899,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1943,7 +1943,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -1985,7 +1985,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2021,7 +2021,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2065,7 +2065,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2112,7 +2112,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2156,7 +2156,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2203,7 +2203,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2247,7 +2247,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2290,7 +2290,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2332,7 +2332,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2367,7 +2367,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2409,7 +2409,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2445,7 +2445,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2490,7 +2490,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2532,7 +2532,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2571,7 +2571,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2621,7 +2621,7 @@ Report.create_or_update!(
         value: ""
       },
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2659,7 +2659,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2697,7 +2697,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2733,7 +2733,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2772,7 +2772,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2804,7 +2804,7 @@ Report.create_or_update!(
     aggregate_counts_from: "age",
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2839,7 +2839,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2882,7 +2882,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2928,7 +2928,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2959,7 +2959,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -2994,7 +2994,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3032,7 +3032,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open",
           "closed"
@@ -3064,7 +3064,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3101,7 +3101,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3138,7 +3138,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3175,7 +3175,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3212,7 +3212,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3255,7 +3255,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3301,7 +3301,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3347,7 +3347,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3393,7 +3393,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3430,7 +3430,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3467,7 +3467,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]
@@ -3504,7 +3504,7 @@ Report.create_or_update!(
     ],
     filters: [
       {
-        attribute: "child_status",
+        attribute: "status",
         value: [
           "open"
         ]

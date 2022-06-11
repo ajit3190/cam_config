@@ -42,14 +42,13 @@ create_or_update_system_setting(
     },
     due_date_from_appointment_date: false,
     notification_email_enabled: true,
-    welcome_email_enabled: false,
+    welcome_email_enabled: true,
     base_language: "en",
     approvals_labels_en: {
       assessment: "BIA",
       case_plan: "Case Plan",
       closure: "Closure",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
+      action_plan: "Action Plan"
     }
   }
 )

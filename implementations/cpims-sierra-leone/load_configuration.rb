@@ -53,6 +53,12 @@ require File.dirname(__FILE__) + '/user_groups/user_group.rb'
 puts 'WARNING! Seeding Users is turned off!'
 # require File.dirname(__FILE__) + '/users/default_users.rb'
 
+ puts 'Seeding admin users'
+require File.dirname(__FILE__) + '../../common/users/onboarding_admin_user.rb'
+
+ puts 'Seeding service accounts'
+require File.dirname(__FILE__) + '../../common/users/service_accounts.rb'
+
 puts 'Seeding Reports'
 Dir[File.dirname(__FILE__) + '/reports/*.rb'].sort.each(&method(:require))
 

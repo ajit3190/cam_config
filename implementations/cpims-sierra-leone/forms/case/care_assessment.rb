@@ -498,7 +498,7 @@ FormSection.create_or_update!(
     order_subform: 0,
     form_group_keyed: false,
     editable: true,
-    core_form: true,
+    core_form: false,
     is_nested: false,
     is_first_tab: false,
     initial_subforms: 0,
