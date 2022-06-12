@@ -11,4 +11,4 @@ ENV['PRIMERO_BOOTSTRAP'] = 'true'
 ActiveJob::Base.queue_adapter = :async
 
 puts "updating system settings"
-require File.dirname(__FILE__) + 'update_system_settings.rb'
+require File.dirname(__FILE__) + '/update_system_settings.rb'
