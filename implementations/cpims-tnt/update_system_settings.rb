@@ -7,7 +7,7 @@ def update_date_range_and_autopopulate_list
 	system_setting.age_ranges["primero"] = new_age_range
 	system_setting.age_ranges["unhcr"]   = new_age_range
 	new_autopopulate_list = {"field_key":"case_id_code","format":["registration_date.strftime('%Y/%m/%d')"],"separator":"-","auto_populated":true}
-	autopopulate_obj      = AutoPopulateInformation.new(a)
+	autopopulate_obj      = AutoPopulateInformation.new(new_autopopulate_list)
   system_setting.auto_populate_list << autopopulate_obj 
   system_setting.save
 end
