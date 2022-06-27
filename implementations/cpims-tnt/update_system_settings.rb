@@ -6,7 +6,7 @@ def update_date_range_and_autopopulate_list
 
 	return if system_setting.age_ranges["primero"] == new_age_range
 	system_setting.age_ranges         = { "primero" => new_age_range, "unhcr"=> new_age_range}
-	autopopulate_hash                 = {"field_key":"case_id_code","format":["registration_date.strftime('%Y/%m/%d')"],"separator":"-","auto_populated":true}
+	autopopulate_hash                 = {"field_key":"case_id_code","format":["registration_date.strftime(%Y/%m/%d)"],"separator":"-","auto_populated":true}
 	autopopulate_obj                  = AutoPopulateInformation.new(autopopulate_hash)
   new_autopopulate_list             = system_setting.auto_populate_list + [autopopulate_obj]
   system_setting.auto_populate_list = new_autopopulate_list
