@@ -133,7 +133,7 @@ locations = [
   Location.new(placename_i18n: { "en": "GARHANGA" }, location_code:"NGRA", admin_level: 3, type: "commune", hierarchy_path: 'NE.TAH.ITA.NGRA'),
   Location.new(placename_i18n: { "en": "MARADI ARRONDISSEMENT 3" }, location_code:"ARR3", admin_level: 3, type: "commune", hierarchy_path: 'NE.MRD.VIL.ARR3'),
   Location.new(placename_i18n: { "en": "OURO GUELADJO" }, location_code:"ORGJ", admin_level: 3, type: "commune", hierarchy_path: 'NE.TIL.SAY.ORGJ'),
-  Location.new(placename_i18n: { "en": "MARADI ARRONDISSEMENT 2" }, location_code:"ARR2", admin_level: 3, type: "commune", hierarchy_path: 'NE.MRD.VIL.ARR2'),
+  Location.new(placename_i18n: { "en": "MARADI ARRONDISSEMENT 2" }, location_code:"ARR4", admin_level: 3, type: "commune", hierarchy_path: 'NE.MRD.VIL.ARR2'),
   Location.new(placename_i18n: { "en": "TAJAE" }, location_code:"JAE", admin_level: 3, type: "commune", hierarchy_path: 'NE.TAH.ELIA.JAE'),
   Location.new(placename_i18n: { "en": "BADAGUICHIRI" }, location_code:"CHIRI", admin_level: 3, type: "commune", hierarchy_path: 'NE.TAH.ELIA.CHIRI'),
   Location.new(placename_i18n: { "en": "MARADI ARRONDISSEMENT 1" }, location_code:"ARR1", admin_level: 3, type: "commune", hierarchy_path: 'NE.MRD.VIL.ARR1'),
