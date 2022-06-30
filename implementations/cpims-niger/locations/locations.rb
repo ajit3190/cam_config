@@ -136,7 +136,7 @@ locations = [
   Location.new(placename_i18n: { "en": "MARADI ARRONDISSEMENT 2" }, location_code:"ARR4", admin_level: 3, type: "commune", hierarchy_path: 'NE.MRD.VIL.ARR2'),
   Location.new(placename_i18n: { "en": "TAJAE" }, location_code:"JAE", admin_level: 3, type: "commune", hierarchy_path: 'NE.TAH.ELIA.JAE'),
   Location.new(placename_i18n: { "en": "BADAGUICHIRI" }, location_code:"CHIRI", admin_level: 3, type: "commune", hierarchy_path: 'NE.TAH.ELIA.CHIRI'),
-  Location.new(placename_i18n: { "en": "MARADI ARRONDISSEMENT 1" }, location_code:"ARR1", admin_level: 3, type: "commune", hierarchy_path: 'NE.MRD.VIL.ARR1'),
+  Location.new(placename_i18n: { "en": "MARADI ARRONDISSEMENT 1" }, location_code:"ARR5", admin_level: 3, type: "commune", hierarchy_path: 'NE.MRD.VIL.ARR1'),
   Location.new(placename_i18n: { "en": "TAMA" }, location_code:"MTA", admin_level: 3, type: "commune", hierarchy_path: 'NE.TAH.BZA.MTA'),
   Location.new(placename_i18n: { "en": "TABOTAKI" }, location_code:"TAKI", admin_level: 3, type: "commune", hierarchy_path: 'NE.TAH.BZA.TAKI'),
   Location.new(placename_i18n: { "en": "TONDIKIWINDI" }, location_code:"TNWD", admin_level: 3, type: "commune", hierarchy_path: 'NE.TIL.OLM.TNWD'),
