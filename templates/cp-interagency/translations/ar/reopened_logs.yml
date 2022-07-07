@@ -1,0 +1,10 @@
+---
+ar:
+  reopened_logs:
+    name: أعيد فتح الحالة
+    description: نموذج فرعي لاعادة فتح الحالة
+    fields:
+      reopened_date:
+        display_name: تاريخ إعادة الفتح
+      reopened_user:
+        display_name: أعيد الفتح بواسطة

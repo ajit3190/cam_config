@@ -1,0 +1,31 @@
+ps-AF:
+  record_owner:
+    name: معلومات خوندي کړئ
+    description: معلومات خوندي کړئ
+    fields:
+      current_owner_separator:
+        display_name: اوسنی مالک
+      owned_by_text:
+        display_name: ساحه / قضیه / ټولنیز کارګران
+      owned_by:
+        display_name: د قضیې د کارکوونکي کوډ
+      reassigned_tranferred_on:
+        display_name: بیا ټاکل شوی / سپارل شوی
+      owned_by_agency:
+        display_name: اداره
+      assigned_user_names:
+        display_name: نور ټاکل شوي کارونکي
+      record_history_separator:
+        display_name: د ثبت تاریخ
+      created_by:
+        display_name: ثبت د چا لخوا شوی
+      created_by_agency:
+        display_name: د کومې ادارې لخوا
+      previously_owned_by:
+        display_name: مخکینی مالک
+      previous_agency:
+        display_name: مخکینی اداره
+      module_id:
+        display_name: انډول
+      reopened_logs:
+        display_name: قضیه دوباره پرانیستل شوې

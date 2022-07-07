@@ -1,0 +1,9 @@
+---
+ku-IQ:
+  other_documents:
+    name: بەلگەیێن دی
+    description: بەلگەیێن دی
+    fields:
+      other_documents:
+        display_name: بەلگەیێن دی
+        help_text: "دەستویردایی یە CSV فایلێ  ،PDF, TXT, DOC, DOCX, XLS, XLSx بتنێ"

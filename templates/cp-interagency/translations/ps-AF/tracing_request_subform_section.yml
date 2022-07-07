@@ -1,0 +1,57 @@
+ps-AF:
+  tracing_request_subform_section:
+    name: د شریک تعقیب د غوښتنې فرعي فورمه
+    description: د شریک تعقیب د غوښتنې فرعي فورمه
+    fields:
+      matched_case_id:
+        display_name: د قضیې نمبر سره ورته دي
+      tracing_request_status:
+        display_name: د تعقیب حالت
+      individual_details_section:
+        display_name: انفرادي توضیحات
+      name:
+        display_name: نوم
+      relation:
+        display_name: پلټونکی د ماشوم سره کوم تړاو لري؟
+      relation_child_lived_with_pre_separation:
+        display_name: ایا ماشوم د جلا کیدو دمخه له پلټونکي سره ژوند کاوه؟
+      name_nickname:
+        display_name: تخلص
+      name_other:
+        display_name: بل نوم
+      sex:
+        display_name: جنس
+      age:
+        display_name: عمر
+      date_of_birth:
+        display_name: د زیږون نيټه
+      physical_characteristics:
+        display_name: د فزیکي ځانګړتیاو تشخیص
+      inquirer_special_message:
+        display_name: د غوښتل شوي شخص لپاره ځانګړي پیغام
+      same_separation_details:
+        display_name: ایا د جلا کیدو توضیحات سره ورته دي کومې چې د پلټونکي په فورمه کې دي؟
+      separation_details_section:
+        display_name: د جلا کیدو معلومات ( که چیرته د پلټونکې فورمې سره فرق لري)
+      date_of_separation:
+        display_name: د جلا کیدو نیټه
+      separation_cause:
+        display_name: د بېلتون اصلي لامل څه و؟
+      separation_evacuation:
+        display_name: ایا جلاوالی د کور څخه د ایستلو په تړاو پیښ شوی؟
+      separation_details:
+        display_name: د جلا کیدو شرایط (مهرباني وکړئ توضیحات وړاندې کړئ)
+      address_separation:
+        display_name: د جلا کولو پته (ځای)
+      location_separation:
+        display_name: د جلا کولو موقعیت
+      address_last:
+        display_name: وروستی پته
+      landmark_last:
+        display_name: وروستی لویه نښه
+      location_last:
+        display_name: وروستی موقعیت
+      telephone_last:
+        display_name: وروستی تلیفون
+      additional_tracing_info:
+        display_name: اضافي معلومات چې تعقیب کې به مرسته وکړي؟

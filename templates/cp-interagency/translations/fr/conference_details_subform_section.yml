@@ -1,0 +1,91 @@
+fr:
+  conference_details_subform_section:
+    name: 'Détails de la conférence ce cas '
+    description: 'Détails de la conférence ce cas '
+    fields:
+      conference_date:
+        display_name: 'Date de la conférence de cas '
+      conference_reason:
+        display_name: 'Motif de la conférence de cas '
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: Retrait potentiel de l'enfant auprès de la personne en charge de l'enfant selon la  coutume/la loi (autorisé par l'autorité gouvernementale)
+          placement_of_a_child_into_alternative_care: Prise en charge alternative de l'enfant
+          situation_of_family_reunification_with_potential_harm_to_the_child: Situation de réunification familial pouvant nuire à l'enfant
+          relocation_of_the_child: 'Relocalisation de l''enfant '
+          complex_child_protection_case_requiring_a_multi_partner_intervention: 'Cas complexe de protection de l''enfance nécessitant une intervention multi acteurs '
+          other: Autre
+      conference_reason_other:
+        display_name: Si autre, précisez
+      conference_participants:
+        display_name: Participants
+        help_text: Listez chaque participant à la conférence. Indiquez leur nom, leur rôle ou leur relation avec l'enfant, leur organisation et un numéro de téléphone ou un courriel
+      conference_current_situation:
+        display_name: 'Bref résumé de la situation actuelle '
+        help_text: Mettre en évidence tous les principaux problèmes de protection, les modalités actuelles de prise en charge de l'enfant et un aperçu des raisons de la conférence de cas
+        guiding_questions: |-
+          Si la conférence de cas a lieu pendant l'étape de planification du cas : résumer les principaux facteurs de risque, les facteurs de protection et les besoins de l'enfant (et de la famille) sur la base de l'évaluation des besoins.
+          Si la conférence de cas a lieu pendant l'étape de suivi et d'examen : décrivez la situation globale actuelle de l'enfant.
+      conference_discussions_options:
+        display_name: Discussions sur les services/ interventions liées à l'intérêt supérieur de l'enfant
+        help_text: Énumérez les effets positifs et négatifs potentiels de chaque service sur l'enfant, et indiquez s'ils sont ou non appropriés et dans l'intérêt supérieur de l'enfant compte tenu de la situation du cas.
+        guiding_questions: Les participants discuteront des options possibles pour répondre aux défis rencontrés qui ont conduit à la conférence de cas. Le gestionnaire du cas doit prendre des notes détaillées pendant les discussions.
+      conference_outcome_recommendations:
+        display_name: Résultats et recommandations du panel
+        help_text: Résumez brièvement les justifications des décisions prises et les recommandations ci-dessous. Les actions prévues doivent être mises à jour dans les plans d'actions individuels par les gestionnaires de cas.
+      conference_case_status:
+        display_name: 'Statut du cas '
+        help_text: Si le cas doit être clôturé, veuillez remplir le formulaire de clôture.
+      conference_case_status_other:
+        display_name: Si autre, précisez
+      conference_other_assessment:
+        display_name: La situation de l'enfant a-t-elle évolué d'une manière qui justifie la réalisation d'une nouvelle évaluation ?
+      other_assessment_specify:
+        display_name: Veuillez préciser
+      conference_adjustments:
+        display_name: Des ajustements sont-ils nécessaires dans le plan d'action ?
+      adjustments_specify:
+        display_name: Veuillez préciser
+      conference_reason_multi:
+        display_name: 'Le niveau de risque du cas a - t - il changé ? '
+        option_strings_text:
+          'no': 'Non'
+          yes_changed_to_high: 'Oui, changé à haute '
+          yes_changed_to_medium: 'Oui, changé à moyen '
+          yes_change_to_low: 'Oui changé à faible '
+          yes_changed_to_no: 'Oui, changé à pas de risque '
+      risk_level_changed_specify:
+        display_name: Veuillez préciser
+      conference_case_transfer_reason:
+        display_name: Si le cas sera transféré, veuillez en indiquer la raison
+        guiding_questions: |-
+          Détails supplémentaires :
+          1) Une autre organisation est mieux placé pour superviser le cas en raison des services spécialisés requis par l'enfant.
+          2) L'enfant ou la famille change de lieu de résidence ; le cas sera transféré à l'organisation de protection de l'enfance qui travaille dans ce lieu.
+          3) Il y a des raisons organisationnelles pour transférer le cas de cet enfant ; le cas sera clos et transféré à une autre organisation.
+          4) L'enfant est déplacé pour des raisons de protection dans sa famille/communauté.
+          5) L'enfant a atteint l'âge de 18 ans et le cas est transféré à une autorité de protection fournissant des services aux personnes de 18 ans ou plus, car l'enfant souffre d'un handicap physique ou mental et a besoin d'une protection continue.
+        option_strings_text:
+          specialized_service: 1)  Services spécialisés requis
+          new_location: 2) Déménagement dans un nouveau lieu
+          organisational_reasons: '3) Raisons organisationnelles '
+          protection_concerns: 4) Relocalisation pour des raisons de protection
+          child_turned_18: 5) Enfant ayant atteint l'âge de 18 ans et nécessitant une protection permanente
+          other: 6) Autre
+      conference_case_transfer_reason_other:
+        display_name: Si autre, précisez
+      conference_followup_actions:
+        display_name: Actions de suivi/références/services requis et personnes responsables
+        guiding_questions: 'Veiller à ce que l''enfant/la personne qui s''occupe de l''enfant soit informé des résultats de la conférence de cas ainsi que de toutes les recommandations et actions requises. Les actions prévues doivent être mises à jour dans les plans d''action individuels par les personnes chargés de la gestion du cas '
+      details_anyone_disagrees:
+        display_name: Détails sur toute personne en désaccord avec certaines parties du plan d'action et pourquoi
+      was_child_present:
+        display_name: 'L''enfant était présent ? '
+      was_caregiver_present:
+        display_name: 'La personne en charge de l''enfant était présent ? '
+      conference_monitoring_schedule:
+        display_name: Suivi / calendrier de suivi
+        help_text: 'Par exemple, le suivi lundi de la semaine prochaine sur les services à fournir et la vendredi de la semaine prochaine sur la situation de l''enfant. Suivi et contrôle deux fois par semaine au minimum pour le mois à venir.
+
+          Si la situation évolue comme prévu/désiré, modifiez le calendrier de suivi en fonction de la réunion d''examen et du niveau de risque modifié à la fin de ce mois.'
+      date_next_conference:
+        display_name: Si nécessaire, date de la prochaine conférence de cas

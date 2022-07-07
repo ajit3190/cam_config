@@ -1,0 +1,50 @@
+ro:
+  interview_details:
+    name: Detalii Interviu
+    description: Detalii Interviu
+    fields:
+      interview_date:
+        display_name: Dată interviu
+      interviewer_name:
+        display_name: Nume Intervievator
+      interviewer_postion:
+        display_name: Poziție Intervievator
+      interviewer_agency:
+        display_name: Organizație/ instituție intervievator
+        option_strings_text:
+          agency_1: Organizație/ instituție 1
+          agency_2: Organizație/ instituție 2
+          agency_3: Organizație/ instituție 3
+          agency_4: Organizație/ instituție 4
+      address_interview:
+        display_name: Adresă Interviu
+      landmark_interview:
+        display_name: Repere Interviu
+      location_interview:
+        display_name: Locație Interviu
+      source_interview:
+        display_name: Informații obținute de la
+        option_strings_text:
+          child: Copil
+          caregiver: Îngrijitor
+          other: Altcineva, cine
+      source_interview_other:
+        display_name: Dacă informația este obținută de la Altcineva, te rugăm să detaliezi
+      other_org_interview_status:
+        display_name: A mai fost copilul intervievat de o altă organizație?
+      other_org_reference_no:
+        display_name: Nr. de referință dat copilului de către altă organizație
+      case_eligibility_criteria:
+        display_name: Cazul îndeplinește criteriile de eligibilitate?
+      source_identification_referral:
+        display_name: Sursa identificării/ referirii
+        option_strings_text:
+          child_family_member: Copil/membru de familie
+          community_members_cpc: Membrii comunității / CPC
+          school_personnel: Personalul școlii
+          health_personnel: Personalul sanitar
+          population_registration_services: Serviciile de înregistrare a populației
+          law_enforcement_agencies: Agențiile de aplicare a legii
+          humanitarian_agencies: Agenții umanitare
+      consent_form_completed:
+        display_name: Formularul de consimțământ și aviz completat?

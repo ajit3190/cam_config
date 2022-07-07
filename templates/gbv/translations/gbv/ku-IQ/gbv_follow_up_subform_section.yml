@@ -1,0 +1,50 @@
+---
+ku-IQ:
+  gbv_follow_up_subform_section:
+    name: "یا تێکەل GBV فورما نەسەرەکیا دیفچوونا "
+    description: "یا تێکەل GBV فورما نەسەرەکیا دیفچوونا "
+    fields:
+      gbv_assessment_progress_health_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن ساخلەمیێ شروڤە بکە
+      gbv_assessment_progress_psychosocial:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن پشتەڤانیا دەروونی
+      gbv_assessment_progress_psychosocial_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن پشتەڤانیا دەروونی شروڤە بکە
+      gbv_assessment_progress_justice:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن دادوەریێ یان یاسایی
+      gbv_assessment_progress_justice_text:
+        display_name: پێشڤچوونا بەرەف گەهشتن ب ئارمانجێن دادوەریێ یان یاسایی شروڤە بکە
+      gbv_assessment_other_goals_list:
+        display_name: ئارمانجێن دی (ل ڤێرە بکە لیست
+      gbv_assessment_other_goals:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن دی
+      gbv_assessment_other_goals_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن دی شروڤە بکە
+      followup_date:
+        display_name: رێکه فتی روونشتنا دیفچوونێ
+      service_type_provided:
+        display_name: جورێن خزمەتگوزاریێن ژ لایێ من یان رێکخراوا من ڤە هاتینە دابینکرن
+      follow_up_comments:
+        display_name: کومێنت
+        help_text: رزگاربوویی چ گوتە تە؟ وێ چ پێدڤیێن دی هەنە؟ چ ئاستەنگ د روونشنا دیفچوونێ دا هاتنە هەمبەر تە (بۆ نمونە رزگاربوو بەرهەڤ نەبوو)؟
+      need_follow_up_visit:
+        display_name: ئەرێ پێدڤی ب سەرەدانێن زێدەتر یێن دیفچوونێ هەیە؟
+      when_follow_up_visit_should_happen:
+        display_name: ئەگەر بەلێ، بۆ سەرەدانا بهێت تو چ دەم پێشنیار دکەی؟
+      follow_up_survivor_share_needs:
+        display_name: ل دەما ژڤانێ دیفچوونێ، ئەرێ رزگاربووی بەحسا چ پێدڤیێن نی یان ژی نیگەرانیا کر؟
+      follow_up_survivor_share_needs_text:
+        display_name: ئەگەر بەلێ، هیڤیدارین پێدڤیا وەسف بکەی و ل گۆری هندێ پێداچوونا پلانا کاری بکەی
+      recommend_case_closed:
+        display_name: ئەگەر هەمی پێدڤی هاتبنە جێبەجێکرن، تو پێشنیار دکەی کەیس بهێتە گرتن؟
+      case_action_plan_implementation_timing:
+        display_name: " بۆ جێبەجێکرنا پلانا کریارا کەیسی بۆ ڤێ ریدانێ چەند وەختێ تە پێڤە چوو؟"
+      progress_made_towards_goals:
+        display_name: پێشڤەچوون بەرەف ئارمانجا هەبوو
+        help_text: هەلسەنگاندنا پێشڤەچوونێ بکە یا هاتیە کرن بەرەف ئارمانجا رێکەفتن ل سەر هاتیە کرن ل سەر هەلسەنگاندنا رزگاربووی و پلانا کاری یا کەیسی
+      gbv_assessment_progress_safety:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن ئێمناهیێ
+      gbv_assessment_progress_safety_text:
+        display_name: پێشڤچوونا بەرەف ئارمانجێن ئێمناهێ شروڤە بکە
+      gbv_assessment_progress_health:
+        display_name: پێشڤەچوون بەرەف ئارمانجێن ساخلەمیێ

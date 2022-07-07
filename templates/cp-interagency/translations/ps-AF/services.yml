@@ -1,0 +1,7 @@
+ps-AF:
+  services:
+    name: خدمات
+    description: د خدماتو فورمه
+    fields:
+      services_section:
+        display_name: خدمات

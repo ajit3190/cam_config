@@ -1,0 +1,55 @@
+es-ES:
+  services_section:
+    name: Servicios anidados
+    description: Subformulario de Servicios
+    fields:
+      service_response_type:
+        display_name: Tipo de Respuesta
+      service_type:
+        display_name: Tipo de Servicio
+        guiding_questions: |-
+          1. Atención psicosocial básica: espacios seguros (incluidos espacios acogedores para niños y bebés), grupos entre pares, clubes juveniles, capacitación en habilidades para la vida y grupos de apoyo para cuidadores.
+          2. MHPSS no especializado enfocado: MHPSS a través de la gestión de casos de CP, Primeros Auxilios Psicológicos, intervención psicológica individual o grupal basada en evidencia / informada proporcionada por no especialistas, incluidos trabajadores sociales, trabajadores sociales, voluntarios comunitarios, trabajadores de la salud, etc. .
+          3. Atención especializada de MHPSS: atención psicológica, psiquiátrica u otra atención de salud mental personalizada proporcionada por profesionales de salud mental.
+      service_type_other:
+        display_name: Si otro, especificar
+      service_referral:
+        display_name: Tipo de remisión
+      service_response_day_time:
+        display_name: Fecha de la Remisión
+      service_appointment_date:
+        display_name: Fecha de Incio del Servicio
+      service_implementing_agency:
+        display_name: Agencia Implementadora
+      service_provider:
+        display_name: Proveedor de Servicio
+      service_delivery_location:
+        display_name: Locación de la entrega del servicio
+      service_implementing_agency_individual:
+        display_name: Nombre del proveedor de servicio
+      service_status_referred:
+        display_name: ¿Remitido?
+        tick_box_label: 'Sí'
+      service_location:
+        display_name: Ubicación del Servicio
+      service_referral_notes:
+        display_name: Notas
+      service_implemented:
+        display_name: Servicio implementado
+      service_implemented_day_time:
+        display_name: Servicio completado
+      details_service_provided:
+        display_name: Detalles/comentarios sobre el servicio prestado
+      recommendations_followup:
+        display_name: Recomendaciones para el seguimiento
+      accountability_separator:
+        display_name: Responsabilidad
+        help_text: Formas usadas por el Trabajador social para preguntarle al niño cómo se siente con respecto al servicio proporcionado (de manera apropiada para la edad, por ejemplo, eligiendo caras sonrientes)
+      focal_agency_location:
+        display_name: Nivel de satisfacción del niño/a con el servicio provisto
+      suggestions_improvement:
+        display_name: Sugerencias del niño/a para mejorarlo
+      caregivers_satisfaction:
+        display_name: Nivel de satisfacción del cuidador con el servicio provisto
+      caregivers_suggestions:
+        display_name: Sugerencias del cuidador para mejorarlo

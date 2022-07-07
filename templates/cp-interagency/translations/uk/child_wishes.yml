@@ -1,0 +1,45 @@
+uk:
+  child_wishes:
+    name: Побажання дитини
+    description: Побажання дитини
+    fields:
+      wishes_child_family_tracing:
+        display_name: Чи хоче дитина розшукати членів сім'ї?
+      wishes_reason_no_tracing:
+        display_name: Якщо дитина НЕ хоче розшукувати сім’ю, поясніть чому
+      wishes_reunification:
+        display_name: Чи хоче дитина возз'єднання сім'ї?
+        option_strings_text:
+          yes_as_soon_as_possible: Так, якнайшвидше
+          yes_but_later: Так, але пізніше
+          not_sure: Не впевнений
+          'no': 'Ні'
+      wishes_reason_no_reunification:
+        display_name: Якщо «Ні», «Не впевнений» або «Так, але пізніше», поясніть чому
+      wishes_contacted:
+        display_name: Чи контактувала дитина з родичами?
+      wishes_contacted_details:
+        display_name: Надайте деталі, будь ласка
+      child_preferences_section:
+        display_name: Уподобання Дитини
+      wishes_care_arrangement_desired:
+        display_name: Чи бажає дитина продовжувати жити в поточному режимі догляду?
+      wishes_reason_no_care_arrangement:
+        display_name: Якщо дитина НЕ хоче залишатися в поточному режимі догляду, поясніть чому
+      wishes_care_arrangement_type_desired:
+        display_name: Тип організації догляду, який бажає мати дитина
+        option_strings_text:
+          independent_living: Самостійне життя
+          alternative_interim_care: Альтернативний тимчасовий догляд
+          with_husband_wife_partner: З чоловіком/дружиною/партнером
+          other_family: Інша сім`я
+          dont_know: Не знаю
+          other: Інше
+      wishes_care_arrangement_type_other:
+        display_name: Якщо тип організації догляду за дитиною є Іншим, надайте більше деталей
+      wishes_location_plan_live:
+        display_name: Де дитина хоче/планує жити?
+      wishes_address_plan_live:
+        display_name: Вулиця, де дитина хоче/планує жити?
+      wishes_landmarks_plan_live:
+        display_name: Орієнтири, де дитина хоче/планує жити?

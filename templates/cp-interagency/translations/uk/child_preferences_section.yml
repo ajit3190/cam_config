@@ -1,0 +1,23 @@
+uk:
+  child_preferences_section:
+    name: Вкладені Уподобання Дитини
+    description: Уподобання Дитини Субформа
+    fields:
+      wishes_name:
+        display_name: Особа(и), яких дитина бажає знайти
+      wishes_preference_relocated:
+        display_name: Бажання дитини переселитися з цією особою
+        option_strings_text:
+          first_choice: Перший вибір
+          second_choice: Другий вибір
+          third_choice: Третій вибір
+      wishes_relationship:
+        display_name: Яке відношення ця людина має до дитини?
+      wishes_address:
+        display_name: Остання відома адреса
+      wishes_landmark:
+        display_name: Орієнтир
+      wishes_location:
+        display_name: Останнє відоме місцезнаходження
+      wishes_telephone:
+        display_name: Телефон

@@ -1,0 +1,106 @@
+ro:
+  basic_identity:
+    name: Detaliile Copilului
+    description: Informații de bază despre identitatea unui copil separat sau neînsoțit.
+    fields:
+      case_id_display:
+        display_name: ID Caz
+      cpims_id:
+        display_name: Cod Caz Anterior
+        help_text: ID CPIMS moștenit (sau alt sistem)
+      marked_for_mobile:
+        display_name: Marcat pentru mobil?
+        tick_box_label: 'Da'
+      child_status:
+        display_name: Status Caz
+      case_status_reopened:
+        display_name: Caz Redeschis?
+        tick_box_label: 'Da'
+      case_status_reopened_reasons:
+        display_name: Motiv Redeschidere
+        option_strings_text:
+          break_down_of_reunification_placement: Defalcarea reunificării/ plasamentului
+          death_of_caregiver_s: Decesul îngrijitorului(i)
+          physical_abuse_violence: Abuz fizic/ violență
+          sexual_abuse_violence: Abuz sexual/ violență
+          emotional_or_psychological_abuse_violence: Abuz psihic sau emoțional/ violență
+          physical_neglect: Neglijare fizică
+          emotional_neglect: Neglijare emoțională
+          medical_neglect: Neglijare medicală
+          educational_neglect: Neglijare emoțională
+          supervisory_neglect: Neglijare în supraveghere
+          abandonment: Abandon
+          child_labour: Copil care muncește
+          hazardous_work: Muncă periculoasă
+          sexual_exploitation: Exploatare sexuală
+          slavery_sale_trafficking_forced_labour: Sclavie/ vânzare/ traficare/ muncă forțată
+          in_conflict_with_the_law: În conflict cu legea
+          associated_with_armed_forces_or_groups: Asociat cu forțe sau grupuri armate
+          unaccompanied: Neacompaniat
+          separated: Separat
+          orphan: Orfan
+          functional_difficulties: Dificultăți funcționale (de exemplu, vedere, auz, mers, comunicare, memorie/ concentrare, îngrijire de sine)
+          psychosocial_distress: Distres psihosocial
+          substance_abuse_and_addiction_child: Abuz de substanțe și dependență (copil)
+          belongs_to_marginalised_discriminated_group: Aparține unui grup marginalizat/ discriminat
+          lack_of_documentation_birth_registration: Lipsa documentației/ certificatului de naștere
+          child_marriage: Copil căsătorit
+          fgm: FGM/ mutilarea genitală a femeilor
+          pregnancy_child_parent: Sarcina / copil părinte
+          inappropriate_care_arrangement: Aranjament inadecvat de îngrijire (de exemplu, >8 copii în gospodărie, abuz de substanțe din partea îngrijitorului, îngrijitor singur vulnerabil)
+          other: Altceva
+      name:
+        display_name: Nume întreg
+      name_first:
+        display_name: Prenume
+      name_middle:
+        display_name: Al doilea prenume
+      name_last:
+        display_name: Numele de familie
+      name_nickname:
+        display_name: Pseudonim
+      name_other:
+        display_name: Alt nume
+      registration_date:
+        display_name: Data Înregistrării
+      identification_date:
+        display_name: Dată Identificare/ Raportare Caz
+      assessment_due_date:
+        display_name: Dată scadentă Evaluare
+      sex:
+        display_name: Sex
+      age:
+        display_name: Vârsta
+      date_of_birth:
+        display_name: Data nașterii
+      estimated:
+        display_name: Este vârsta estimată?
+        tick_box_label: 'Da'
+      national_id_no:
+        display_name: Cod numeric personal
+      unhcr_individual_no:
+        display_name: ID unic UNHCR
+      other_id_type:
+        display_name: Alte tipuri de documente de identificare relevante
+      other_id_no:
+        display_name: Numărul altor documente de identificare relevante
+      nationality:
+        display_name: Naționalitate
+      ethnicity:
+        display_name: Etnie/ clan/ trib
+      sub_ethnicity_1:
+        display_name: Etnie secundară 1
+      sub_ethnicity_2:
+        display_name: Etnie secundară 2
+      language:
+        display_name: Limbi vorbite de către copil
+      religion:
+        display_name: Religie
+      displacement_status:
+        display_name: Grup din Populație
+      displacement_status_other:
+        display_name: Altceva, menționați
+      disability_type_communications:
+        display_name: Nevoi speciale de comunicare
+      telephone_current:
+        display_name: Numărul de telefon al copilului/ alte date de contact

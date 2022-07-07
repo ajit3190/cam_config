@@ -146,7 +146,7 @@ military_use_section = FormSection.create_or_update!(
   subform_append_only: false
 )
 
-attack_on_fields = [
+attack_on_hospitals_fields = [
   Field.new(
     'mobile_visible' => true,
     'required' => false,
@@ -226,14 +226,117 @@ attack_on_fields = [
   )
 ]
 
-attack_on_section = FormSection.create_or_update!(
-  name_en: 'Violation Attacks on schools and/or hospitals',
-  fields: attack_on_fields,
-  shared_subform: 'attack_on',
+attack_on_hospitals_section = FormSection.create_or_update!(
+  name_en: 'Violation Attacks hospitals',
+  fields: attack_on_hospitals_fields,
+  shared_subform: 'attack_on_hospitals',
   shared_subform_group: 'violations',
   is_summary_section: true,
-  description_en: 'Violation Attacks on schools and/or hospitals',
-  unique_id: 'attack_on_summary',
+  description_en: 'Violation Attacks hospitals',
+  unique_id: 'attack_on_hospitals_summary',
+  parent_form: 'incident',
+  visible: false,
+  order: 60,
+  order_form_group: 40,
+  order_subform: 1,
+  editable: true,
+  core_form: true,
+  is_nested: true,
+  is_first_tab: false,
+  initial_subforms: 1,
+  collapsed_field_names: ['facility_attack_type'],
+  mobile_form: false,
+  subform_append_only: false
+)
+
+attack_on_schools_fields = [
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => true,
+    'autosum_group' => 'attack_number_of_children_killed',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'violation_killed_tally',
+    'type' => 'tally_field',
+    'display_name_en' => 'Number of children killed',
+    'tally_en' => [
+      {
+        'id' => 'boys',
+        'display_text' => 'Boys'
+      },
+      {
+        'id' => 'girls',
+        'display_text' => 'Girls'
+      },
+      {
+        'id' => 'unknown',
+        'display_text' => 'Unknown'
+      }
+    ]
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => true,
+    'autosum_group' => 'attack_number_of_children_injured',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'violation_injured_tally',
+    'type' => 'tally_field',
+    'display_name_en' => 'Number of children injured',
+    'tally_en' => [
+      {
+        'id' => 'boys',
+        'display_text' => 'Boys'
+      },
+      {
+        'id' => 'girls',
+        'display_text' => 'Girls'
+      },
+      {
+        'id' => 'unknown',
+        'display_text' => 'Unknown'
+      }
+    ]
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'editable' => true,
+    'disabled' => false,
+    'name' => 'facility_attack_type',
+    'type' => 'select_box',
+    'multi_select' => true,
+    'visible' => false,
+    'display_name_en' => 'Type of education or health-related violation',
+    'option_strings_source' => 'lookup lookup-facility-attack-type'
+  )
+]
+
+attack_on_schools_section = FormSection.create_or_update!(
+  name_en: 'Violation Attacks hospitals',
+  fields: attack_on_schools_fields,
+  shared_subform: 'attack_on_schools',
+  shared_subform_group: 'violations',
+  is_summary_section: true,
+  description_en: 'Violation Attacks hospitals',
+  unique_id: 'attack_on_schools_summary',
   parent_form: 'incident',
   visible: false,
   order: 60,
@@ -373,12 +476,12 @@ sexual_violence_fields = [
 ]
 
 sexual_violence_summary = FormSection.create_or_update!(
-  name_en: 'Violation Rape and/or other forms of sexual violence Summary',
+  name_en: 'Violation Rape and other forms of sexual violence Summary',
   fields: sexual_violence_fields,
   shared_subform: 'sexual_violence',
   shared_subform_group: 'violations',
   is_summary_section: true,
-  description_en: 'Violation Rape and/or other forms of sexual violence Summary',
+  description_en: 'Violation Rape and other forms of sexual violence Summary',
   unique_id: 'sexual_violence_summary',
   parent_form: 'incident',
   visible: false,
@@ -795,7 +898,7 @@ mrm_summary_fields = [
     'type' => 'subform',
     'editable' => true,
     'subform_section' => sexual_violence_summary,
-    'display_name_en' => 'Rape and/or other forms of sexual violence',
+    'display_name_en' => 'Rape and other forms of sexual violence',
     'expose_unique_id' => true
   ),
   Field.new(
@@ -827,11 +930,29 @@ mrm_summary_fields = [
     'visible' => true,
     'disabled' => false,
     'multi_select' => false,
-    'name' => 'attack_on_summary',
+    'name' => 'attack_on_hospitals_summary',
     'type' => 'subform',
     'editable' => true,
-    'subform_section' => attack_on_section,
-    'display_name_en' => 'Attacks on schools and/or hospitals',
+    'subform_section' => attack_on_hospitals_section,
+    'display_name_en' => 'Attacks on hospitals',
+    'expose_unique_id' => true
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'attack_on_schools_summary',
+    'type' => 'subform',
+    'editable' => true,
+    'subform_section' => attack_on_schools_section,
+    'display_name_en' => 'Attacks on schools',
     'expose_unique_id' => true
   ),
   Field.new(

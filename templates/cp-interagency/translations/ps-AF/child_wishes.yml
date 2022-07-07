@@ -1,0 +1,45 @@
+ps-AF:
+  child_wishes:
+    name: د ماشوم هیلې
+    description: د ماشوم هیلې
+    fields:
+      wishes_child_family_tracing:
+        display_name: ایا ماشوم غواړي د کورنۍ غړي ومومي؟
+      wishes_reason_no_tracing:
+        display_name: که ماشوم د کورنۍ تعقیب ونه غواړي ، نو تشریح یې کړئ چې ولې
+      wishes_reunification:
+        display_name: ایا ماشوم د کورنۍ سره یوځای کیدل غواړي؟
+        option_strings_text:
+          yes_as_soon_as_possible: هو ، هرڅومره ژر چې امکان ولري
+          yes_but_later: هو ، مګر وروسته
+          not_sure: ډاډمن نه یم
+          'no': 'نه'
+      wishes_reason_no_reunification:
+        display_name: که 'نه' ، 'ډاډه نه یم' ، یا 'هو ، مګر وروسته' ، توضیح کړئ چې ولې
+      wishes_contacted:
+        display_name: ایا ماشوم له خپلو خپلوانو سره په اړیکه کې ده ؟
+      wishes_contacted_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_preferences_section:
+        display_name: د ماشوم غوره توبونه
+      wishes_care_arrangement_desired:
+        display_name: ایا ماشوم غواړي د پاملرنې اوسني ترتیب ته ادامه ورکړي؟
+      wishes_reason_no_care_arrangement:
+        display_name: که ماشوم نه غواړي د پاملرنې اوسني ترتیب کې پاتې شي ، نو ولې  تشریح يې کړئ
+      wishes_care_arrangement_type_desired:
+        display_name: 'د پاملرنې د ترتیب هغه ډول چې ماشوم یې غواړي '
+        option_strings_text:
+          independent_living: خپلواک ژوند
+          alternative_interim_care: د بدیل لنډمهاله پاملرنې
+          with_husband_wife_partner: د میړه / میرمن / یا له بل ملګري سره
+          other_family: بله کورنی
+          dont_know: نه پوهیږم
+          other: نور
+      wishes_care_arrangement_type_other:
+        display_name: که چیرې ماشوم د پاملرنې د تنظیم بل ډول غواړي ، نو مشخص یې کړئ
+      wishes_location_plan_live:
+        display_name: ماشوم چیرته / د ژوند کولو پلان لري؟
+      wishes_address_plan_live:
+        display_name: هغه کوڅه چېرته چې ماشوم د ژوند کولو پلان لري / غواړي؟
+      wishes_landmarks_plan_live:
+        display_name: د هغه ځای لویه نښه چیرته چې ماشوم پکې / د ژوند کولو پلان لري؟

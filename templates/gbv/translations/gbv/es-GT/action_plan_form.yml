@@ -1,0 +1,26 @@
+---
+es-GT:
+  action_plan_form:
+    name: Plan de acción
+    description: Plan de acción
+    fields:
+      action_plan_approved:
+        display_name: Aprobado por el/la responsable
+        tick_box_label: 'Sí'
+      action_plan_approved_date:
+        display_name: Fecha
+      action_plan_approved_comments:
+        display_name: Comentarios del/la responsable
+      approval_status_action_plan:
+        display_name: Estado de la aprobación
+      action_explanation_header:
+        display_name: 'Medidas'
+        help_text: Añada todas las necesidades que identificó en la evaluación. Use el botón “Añadir” para agregar otras necesidades que deban incluirse en el plan de acción.
+      action_plan_section:
+        display_name: Medidas
+      action_follow_up_header:
+        display_name: Seguimientos
+      gbv_follow_up_subform_section:
+        display_name: Seguimiento
+      service_referral_case_action_plan_timing:
+        display_name: "¿Cuánto tiempo le llevó elaborar, junto con la persona superviviente, el plan de acción para este caso?"

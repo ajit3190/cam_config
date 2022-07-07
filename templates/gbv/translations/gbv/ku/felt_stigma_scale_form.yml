@@ -1,0 +1,8 @@
+---
+ku:
+  felt_stigma_scale_form:
+    name: هەستكردن بە شەرمەزاری
+    description: هەستكردن بە شەرمەزاری
+    fields:
+      felt_stigma_section:
+        display_name: نموونەی لاوەكی هەستكردن بە شەرمەزاری

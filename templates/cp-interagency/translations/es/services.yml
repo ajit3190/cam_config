@@ -1,0 +1,7 @@
+es:
+  services:
+    name: Servicios
+    description: Formulario de servicios
+    fields:
+      services_section:
+        display_name: Servicios

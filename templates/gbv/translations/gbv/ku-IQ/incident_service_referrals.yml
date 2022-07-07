@@ -1,0 +1,49 @@
+---
+ku-IQ:
+  incident_service_referrals:
+    name: رەوانەکرنا خزمەتگوزاریان
+    description: رەوانەکرنا خزمەتگوزاریان
+    fields:
+      service_referred_from_other:
+        display_name: ئەگەر رزگاربوو هاتیە ره وانه کرن ژ لایەنێن دی ڤە، هیڤیدارین ئاماژێ پێ بکە
+      safe_house_safe_shelter_referral:
+        display_name: رەوانەکرنا مالا پاراستی یان پەناگەها ئارام
+      service_safehouse_referral:
+        display_name: ئەرێ تە بریکار رەوانەکریە مالەکا پاراستی یان پەناگەهەکا ئارام؟
+      legal_assistance_services_subform_section:
+        display_name: خزمەتگوزاریێن هاریکاریا یاسایی
+      police_or_other_type_of_security_services_subform_section:
+        display_name: پولیس یان جورێن دی یێن خزمەتگوزاریێن ئێمناهیێ
+      livelihoods_services_subform_section:
+        display_name: خزمەتگوزاریێن ژیارێ
+      child_protection_services_subform_section:
+        display_name: خزمەتگوزاریێن پاراستنا زاروکان
+      service_referred_from:
+        display_name: کێ بریکار رەوانەکريە دەف تە؟
+        option_strings_text:
+          health_medical_service: خزمەتگوزاریێن ساخلەمی یان پزیشکی
+          psychosocial_service: خزمەتگوزاریێن دەروونی یان شیرەتکاری
+          police_other_service: پولیس یان ئەکتەرێن دی یێن ئێمناهیێ
+          legal_assistance_service: خزمەتگوزاریێن هاریکاریا یاسایی
+          livelihoods_service: پرۆگرامێ ژیارێ
+          self_referral: کەسی بخو  خو رەوانەکريە یان خالا ئێکێ یا پەیوەندیێ
+          teacher_school_official: ماموستا یان بەرپرسێ قوتابخانێ
+          community_or_camp_leader: سەرکردێ جڤاکی یان کەمپێ
+          safehouse_service: خانیئ پاراستی یان پەناگەهـ
+          other_humanitarian_or_development_actor: ئەکتەرێن دی یێن مرۆڤایەتی یان پێشڤەبرنێ
+          other_government_service: خزمەتگوزاریێن دی یێن حکومی
+          other: یێن دی
+      service_safehouse_appointment_date:
+        display_name: رێکه فتی ژڤانی
+      service_safehouse_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_safehouse_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_safehouse_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_safehouse_referral_notes:
+        display_name: تێبینی
+      health_medical_referral_subform_section:
+        display_name: رەوانەکرنا ساخلەمی یان پزیشکی
+      psychosocial_counseling_services_subform_section:
+        display_name: خزمەتگوزاریێن دەروونی یان شیرەتکاریێ

@@ -1,0 +1,9 @@
+ro:
+  reopened_logs:
+    name: Caz Redeschis
+    description: Subformular Caz Redeschis
+    fields:
+      reopened_date:
+        display_name: Dată redeschidere
+      reopened_user:
+        display_name: Redeschis de către

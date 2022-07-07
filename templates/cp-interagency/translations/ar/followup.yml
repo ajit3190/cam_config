@@ -1,0 +1,8 @@
+---
+ar:
+  followup:
+    name: متابعة
+    description: متابعة
+    fields:
+      followup_subform_section:
+        display_name: متابعة

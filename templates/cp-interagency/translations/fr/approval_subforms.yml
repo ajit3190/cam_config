@@ -1,0 +1,19 @@
+fr:
+  approval_subforms:
+    name: Sous-formulaire d'approbation
+    description: Sous-formulaire d'approbation
+    fields:
+      approval_requested_for:
+        display_name: Approbation demandée pour
+      approval_response_for:
+        display_name: Approbation pour
+      approval_for_type:
+        display_name: Type de plan de prise en charge
+      approval_date:
+        display_name: Date
+      approval_manager_comments:
+        display_name: Commentaires du superviseur
+      approval_status:
+        display_name: Statut d'approbation
+      approved_by:
+        display_name: Approuvé par

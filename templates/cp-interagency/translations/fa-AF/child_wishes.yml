@@ -1,0 +1,45 @@
+fa-AF:
+  child_wishes:
+    name: آرزو های طفل
+    description: آرزو های طفل
+    fields:
+      wishes_child_family_tracing:
+        display_name: آیا طفلمی خواهد اعضای خانواده را ردیابی شود ؟
+      wishes_reason_no_tracing:
+        display_name: اگرطفل نمی خواهد خانواده را ردیابی کند ، دلیل آن را توضیح دهید
+      wishes_reunification:
+        display_name: آیا طفل خواستار پیوستن به خانواده است؟
+        option_strings_text:
+          yes_as_soon_as_possible: بلی هرچی به زودی ممکن
+          yes_but_later: 'بلی ولی بعد تر '
+          not_sure: 'باور ندارد '
+          'no': 'ده'
+      wishes_reason_no_reunification:
+        display_name: اگر "نه" باور ندارد "و با "بلی بعد تر "تشریح کنید که چرا؟
+      wishes_contacted:
+        display_name: آیا طفل  از اقارب چیزی شنیده / با آنها  در تماس بوده است؟
+      wishes_contacted_details:
+        display_name:  لطفآ جزییات را تشریح کنید
+      child_preferences_section:
+        display_name: ترجیعات طفل
+      wishes_care_arrangement_desired:
+        display_name: آآیا طفل تمایل به ادامه روند مراقبت فعلی دارد؟
+      wishes_reason_no_care_arrangement:
+        display_name: اگر طفل  نمی خواهد در مراقبت فعلی بماند ، دلیل آن را توضیح دهید
+      wishes_care_arrangement_type_desired:
+        display_name: نوع ترتیبات مراقبتی که طفل می خواهد داشته باشد
+        option_strings_text:
+          independent_living: زندگی مستقل
+          alternative_interim_care: مراقبت های موقت جایگزین
+          with_husband_wife_partner: 'با شوهر /خانم /شریک '
+          other_family: 'فامیل دیگر '
+          dont_know: نمیداند
+          other: وغیره
+      wishes_care_arrangement_type_other:
+        display_name: اگر  آرزوی طفل نوع ترتیبات  مراقبتی  دیگر است ، مشخص کنید
+      wishes_location_plan_live:
+        display_name: 'طفل آرزو /پلان دارد که در کجا زندگی کند '
+      wishes_address_plan_live:
+        display_name: سرک جایی است که طفل میخواهد در انجا زندگی کند ؟
+      wishes_landmarks_plan_live:
+        display_name: 'مشخص کنید که طفل در کجا آرزو دارد زندگی کند '

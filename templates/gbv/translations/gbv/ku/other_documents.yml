@@ -1,0 +1,9 @@
+---
+ku:
+  other_documents:
+    name: بەڵگەنامەکانی تر
+    description: بەڵگەنامەکانی تر
+    fields:
+      other_documents:
+        display_name: بەڵگەنامەی دیكە
+        help_text: "تەنها ئەم فایلانە رێپێدراونPDF, TXT, DOC, DOCX, XLS, XLSX, CSV"

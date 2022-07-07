@@ -1,0 +1,7 @@
+ro:
+  verification:
+    name: Verificare
+    description: Verificare
+    fields:
+      verification_subform_section:
+        display_name: Verificare

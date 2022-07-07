@@ -1,0 +1,23 @@
+fa-AF:
+  child_preferences_section:
+    name: ترجیعات پیچیده طفل
+    description: فورم  فرعی ترجیع طفل
+    fields:
+      wishes_name:
+        display_name: 'شخصی که طفل میخواهد با او باشد '
+      wishes_preference_relocated:
+        display_name: ترجیع  طفل برای بودن با این شخص
+        option_strings_text:
+          first_choice: اولین انتخاب
+          second_choice: انتخاب دوم
+          third_choice: انتخاب سوم
+      wishes_relationship:
+        display_name: شخص با طفل چی ارتباط دارد ؟
+      wishes_address:
+        display_name: آخرین آدرس شناخته شده
+      wishes_landmark:
+        display_name: نقطه عطف/نشان اختصاصی
+      wishes_location:
+        display_name: 'آخرین موقعیت شناخته شده '
+      wishes_telephone:
+        display_name: تلفون

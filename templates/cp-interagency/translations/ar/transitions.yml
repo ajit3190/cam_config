@@ -1,0 +1,43 @@
+---
+ar:
+  transitions:
+    name: "نموذج التحولات المتداخلة الفرعي "
+    description: نموذج التحولات الفرعي
+    fields:
+      type:
+        display_name: النوع
+      to_user_local:
+        display_name: مستخدم محلي
+      to_user_remote:
+        display_name: المستخدم عن بعد
+      to_user_local_status:
+        display_name: الحالة
+        option_strings_text:
+          in_progress: قيد التنفيذ
+          pending: قيد الانتظار
+          accepted: تمت الموافقة
+          rejected: تم الرفض
+          done: تم انجازه
+      rejected_reason:
+        display_name: سبب الرفض (إن وجد)
+      to_user_agency:
+        display_name: وكالة المستخدم عن بعد
+      notes:
+        display_name: الملاحظات
+      transitioned_by:
+        display_name: تم التحويل أو الإحالة بواسطة
+      service:
+        display_name: الخدمات
+      is_remote:
+        display_name: هل الإحالة أو التحويل إلى نظام عن بعد؟
+        tick_box_label: 'نعم'
+      type_of_export:
+        display_name: ما نوع التصدير الذي تريده
+      consent_overridden:
+        display_name: تم تجاوز إعداد عدم الموافقة على المشاركة
+        tick_box_label: 'نعم'
+      consent_individual_transfer:
+        display_name: هل حصل عامل الحالة على موافقة الطفل لإجراء هذا التحويل؟
+        tick_box_label: 'نعم'
+      created_at:
+        display_name: تاريخ الإحالة أو التحويل

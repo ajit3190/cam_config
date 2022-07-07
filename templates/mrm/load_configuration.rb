@@ -19,7 +19,7 @@ puts 'Seeding the system settings'
 require_relative 'system_settings/system_settings.rb'
 
 # # Seed the identity providers table
-# require_relative '../../common/idp.rb'
+require_relative '../../common/idp.rb'
 
 # # Create the forms
 puts '[Re-]Seeding the forms'

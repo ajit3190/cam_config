@@ -1,0 +1,31 @@
+fa-AF:
+  record_owner:
+    name: معلومات ثبت شده
+    description: معلومات ثبت شده
+    fields:
+      current_owner_separator:
+        display_name: صاحب فعلی
+      owned_by_text:
+        display_name: ساحه/ قضیه /کارمند اجتماعی
+      owned_by:
+        display_name: کود کارمند قضیه
+      reassigned_tranferred_on:
+        display_name: معرفی دوباره / انتقال
+      owned_by_agency:
+        display_name: موسسه
+      assigned_user_names:
+        display_name: سایر کاربران اختصاص داده شده
+      record_history_separator:
+        display_name: تاریخچه ثبت
+      created_by:
+        display_name: ثبت ایجاد شده توسط
+      created_by_agency:
+        display_name: 'توسط موسسه ایجاد شد '
+      previously_owned_by:
+        display_name: صاحب قبلی
+      previous_agency:
+        display_name: موسسه قبلی
+      module_id:
+        display_name: مدیول
+      reopened_logs:
+        display_name: قضیه دوباره باز شد

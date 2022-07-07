@@ -1,0 +1,100 @@
+uk:
+  care_arrangements_section:
+    name: Вкладений Порядок Догляду
+    description: Порядок Догляду Субформа
+    fields:
+      child_caregiver_reason_change:
+        display_name: Якщо це новий опікун, укажіть причину зміни
+        option_strings_text:
+          abuse_exploitation: Насильство та експлуатація
+          death_of_caregiver: Смерть опікуна
+          Education: Освіта
+          ill_health_of_caregiver: Погане здоров’я опікуна
+          other: Інше
+          poverty: Бідність
+          relationship_breakdown: Розрив стосунків
+      care_arrangements_type:
+        display_name: Які зараз умови догляду за дитиною?
+        option_strings_text:
+          parent_s: Батьки
+          step_parent: Прийомні батьки
+          customary_caregiver_s: Звичайний опікун
+          adult_sibling: Дорослий брат і сестра
+          kinship_care_extended_family: Родинний догляд / велика родина
+          foster_care: Прийомний вихователь
+          residential_care: Догляд за місцем проживання
+          kafala: Кафала
+          independent_living: Самостійне життя
+          child_headed_household: Господарство, яке очолює дитина
+          unrelated_adult: Неспоріднений дорослий
+          no_care_arrangement: Без організації догляду
+          other: Інше
+      care_arrangements_type_other:
+        display_name: Якщо інше, вкажіть
+      name_caregiver_separator:
+        display_name: Якщо не з батьками, то основна особа, яка доглядає за дитиною.
+      name_caregiver:
+        display_name: Ім`я поточного опікуна
+        help_text: "(Якщо дитина з батьками, перейдіть до Порядку Догляду.)"
+      nickname_caregiver:
+        display_name: Інші імена або написання опікуна відомі як
+        help_text: наприклад, псевдонім, друге прізвище
+      caregiver_age:
+        display_name: Вік опікуна
+      caregiver_dob:
+        display_name: Дата народження опікуна
+      age_estimated_caragiver:
+        display_name: Чи це приблизний вік?
+        tick_box_label: 'Так'
+      caregiver_sex:
+        display_name: Стать
+      caregiver_national_id:
+        display_name: Національние посвідчення особи
+      caregiver_unhcr_individual_id:
+        display_name: Посвідчення особи УВКБ ООН
+      caregiver_other_id:
+        display_name: Інше посвідчення особи
+      caregiver_related_child:
+        display_name: Чи опікун пов’язаний із дитиною?
+      relationship_caregiver:
+        display_name: Зв`язок з дитиною
+      caregiver_know_family:
+        display_name: Якщо вихователь не пов’язаний, чи знає сім’ю дитини?
+      family_size_under_18:
+        display_name: 'Розмір сім''ї: до 18 років'
+      family_size_over_18:
+        display_name: 'Розмір сім''ї: старше 18 років'
+      address_caregiver:
+        display_name: Адреса опікуна
+        guiding_questions: Введіть тут адресу та місцезнаходження опікуна, навіть якщо вони збігаються з поточною адресою дитини для відстеження, якщо дитина переїде або зміниться опікун.
+      location_caregiver:
+        display_name: Розташування опікуна
+      care_arrangement_started_date:
+        display_name: Коли розпочалася ця організація догляду?
+      caregiver_willing_to_continue:
+        display_name: Чи готовий опікун продовжувати піклуватися про дитину?
+        option_strings_text:
+          yes_short_term: Так, короткостроково
+          yes_long_term: Так, довгостроково
+          'no': 'Ні'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: Якщо так, то як довго?
+      caregiver_willing_to_continue_not_reason:
+        display_name: Якщо ви не бажаєте продовжувати догляд за дитиною, надайте деталі
+      caregiver_location_status:
+        display_name: Чи є поточне місцезнаходження опікуна тимчасовим
+      address_caregiver_future:
+        display_name: Якщо так, то яка майбутня адреса?
+      location_caregiver_future:
+        display_name: Яке майбутнє розташування?
+      telephone_caregiver_future:
+        display_name: Який майбутній номер телефону?
+      telephone_caregiver:
+        display_name: Телефон опікуна
+        help_text: Введіть поточний телефон/інші контактні дані опікуна
+      child_consent_caregiver_contacted:
+        display_name: Чи погоджується дитина на зв’язок з опікуном?
+      child_consent_caregiver_contacted_no_details:
+        display_name: 'Якщо ні, надайте, будь ласка, деталі:'
+      other_persons_living_in_household:
+        display_name: Інші особи, які проживають у домогосподарстві

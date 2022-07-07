@@ -1,0 +1,14 @@
+---
+ar:
+  notes_section:
+    name: نموذج فرعي متداخل للملاحظات
+    description: نموذج فرعي متداخل للملاحظات
+    fields:
+      notes_date:
+        display_name: التاريخ
+      note_subject:
+        display_name: الموضوع
+      field_notes_subform_fields:
+        display_name: الملاحظات
+      note_created_by:
+        display_name: المدير

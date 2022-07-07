@@ -1,0 +1,15 @@
+es:
+  protection_concern:
+    name: Necesidades de protección
+    description: Necesidades de protección
+    fields:
+      risk_level:
+        display_name: Nivel de riesgo
+      displacement_status:
+        display_name: Grupo de población
+      displacement_status_other:
+        display_name: Si otro, favor especificar
+      protection_concerns:
+        display_name: Necesidades de protección
+      protection_concerns_other:
+        display_name: Si otro, favor especificar

@@ -1,0 +1,13 @@
+uk:
+  notes_section:
+    name: Вкладена Субформа Нотатки
+    description: Вкладена Субформа Нотатки
+    fields:
+      notes_date:
+        display_name: Дата
+      note_subject:
+        display_name: Тема
+      field_notes_subform_fields:
+        display_name: Нотатки
+      note_created_by:
+        display_name: Менеджер

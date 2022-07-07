@@ -1,0 +1,50 @@
+fr:
+  interview_details:
+    name: 'Détails de l''interview '
+    description: 'Détails de l''interview '
+    fields:
+      interview_date:
+        display_name: 'Date de l''interview '
+      interviewer_name:
+        display_name: Nom de l'interviewer
+      interviewer_postion:
+        display_name: 'Fonction de l''interviewer '
+      interviewer_agency:
+        display_name: 'Organisation de l''interviewer '
+        option_strings_text:
+          agency_1: Organisation 1
+          agency_2: Organisation 2
+          agency_3: Organisation 3
+          agency_4: Organisation 4
+      address_interview:
+        display_name: Adresse de l'interview
+      landmark_interview:
+        display_name: Point de repère de l'interview
+      location_interview:
+        display_name: 'Lieu de l''interview '
+      source_interview:
+        display_name: Informations obtenues auprès de
+        option_strings_text:
+          child: Enfant
+          caregiver: 'Personne en charge de l''enfant '
+          other: Autre, précisez
+      source_interview_other:
+        display_name: Si vous avez obtenu des informations de la part d'autres personnes, veuillez préciser.
+      other_org_interview_status:
+        display_name: L'enfant a-t-il été interviewer par une autre organisation ?
+      other_org_reference_no:
+        display_name: Numéro de référence ou d'identification attribué à l'enfant par une autre organisation
+      case_eligibility_criteria:
+        display_name: Le cas correspond aux critères d'éligibilité ?
+      source_identification_referral:
+        display_name: Source d'identification/référence
+        option_strings_text:
+          child_family_member: Enfant / membre de la famille
+          community_members_cpc: 'Membres de la communauté / Comité de protection de l''enfant '
+          school_personnel: Personnel scolaire
+          health_personnel: 'Personnel sanitaire '
+          population_registration_services: 'Services d''identification '
+          law_enforcement_agencies: 'Forces de l''ordre '
+          humanitarian_agencies: 'Organisation humanitaire '
+      consent_form_completed:
+        display_name: Formulaire de consentement au partage de l'information rempli ?

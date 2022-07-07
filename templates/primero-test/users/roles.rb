@@ -859,6 +859,10 @@ gbv_cm_supervisor_permissions = [
       Permission::DASH_SHARED_FROM_MY_TEAM
 
     ]
+  ),
+  Permission.new(
+    resource: Permission::MANAGED_REPORT,
+    actions: [Permission::GBV_STATISTICS_REPORT]
   )
 ]
 
@@ -1316,6 +1320,59 @@ Role.create_or_update!(
 )
 
 ######################
+# MRM
+######################
+
+mrm_specialist_permissions = [
+  Permission.new(
+    resource: Permission::INCIDENT,
+    actions: [
+      Permission::READ,
+      Permission::WRITE,
+      Permission::CREATE,
+      Permission::FLAG,
+      Permission::EXPORT_LIST_VIEW,
+      Permission::EXPORT_CSV,
+      Permission::EXPORT_MRM_VIOLATION_XLS
+    ]
+  ),
+  Permission.new(
+    resource: Permission::REPORT,
+    actions: [
+      Permission::READ
+    ]
+  ),
+  Permission.new(
+    resource: Permission::MANAGED_REPORT,
+    actions: [Permission::GBV_STATISTICS_REPORT, Permission::VIOLATION_REPORT]
+  )
+]
+
+Role.create_or_update!(
+  unique_id: 'role-mrm-specialist',
+  name: 'MRM Specialist',
+  permissions: mrm_specialist_permissions,
+  group_permission: Permission::ALL,
+  modules: [PrimeroModule.mrm],
+  referral: false,
+  transfer: false,
+  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+                                                 mrm_reportable_fields incident_record_history military_use_violation_wrapper
+                                                 maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
+                                                 sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
+                                                 attack_on_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
+                                                 perpetrators_form response source_subform_section abduction group_victims_section
+                                                 individual_victims_subform_section military_use maiming recruitment killing
+                                                 sexual_violence attack_on denial_humanitarian_access killing_summary maiming_summary
+                                                 recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
+                                                 military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
+                                                 response_subform_section
+                                                 sources
+                                                 perpetrators
+                                                 responses])
+)
+
+######################
 # SUPERUSER
 ######################
 
@@ -1387,6 +1444,10 @@ superuser_permissions = [
   Permission.new(
     resource: Permission::CODE_OF_CONDUCT,
     actions: [Permission::MANAGE]
+  ),
+  Permission.new(
+    resource: Permission::MANAGED_REPORT,
+    actions: [Permission::GBV_STATISTICS_REPORT, Permission::VIOLATION_REPORT]
   )
 ]
 

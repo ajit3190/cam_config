@@ -1,0 +1,194 @@
+fa-AF:
+  caregiver_feedback_form:
+    name: باز دهی مراقبت کننده
+    description: باز دهی مراقبت کننده
+    fields:
+      caregiver_feedback_date_completed:
+        display_name: فرم تاریخ تکمیل شده
+      caregiver_feedback_separator_consent:
+        display_name: اجازه نامه و رضایت نامه
+        guiding_questions: |-
+          نمونه متن: "من می خواهم در مورد نحوه کارکارمند  قضیه با شما وطفل با شما صحبت کنم.
+
+          ما می خواهیم مطمئن شویم كه بهترین خدمات ممكن را به اطفال ارائه می دهیم ، بنابراین از شما می پرسیم كه مسسول قضیه چگونه به طفل شما كمك كرد و اگر كاری وجود دارد ما می توانیم متفاوت یا بهتر انجام دهیم.
+
+          اگر نمی خواهید لازم نیست چیزی به ما بگویید و نیازی نیست که دلایل خود را برای آن به من بگویید.
+
+          حتی اگر تصمیم بگیرید که چیزی به ما نگویید ، تأثیری درحمایت از اطفال شما از ما نخواهد داشت.
+
+          با این حال ، به اشتراک گذاشتن افکار و احساسات شما با ما ممکن است به ما در بهبود کارهایی که برای اطفال و خانواده های دیگر انجام می دهیم کمک کند.
+
+          هر چیزی که به ما بگویید به صورت محرم حفظ می شود. این بدان معنی است که اگرچه آنچه را که شما می گویید به اشتراک خواهیم گذاشت ، اما به کسی نخواهیم گفت که شما کسی هستید که به ما گفتید.
+
+          همچنین می توانید تصمیم بگیرید که شما تصمیم بگیرید که فقط به سوالات خاصی پاسخ ندهید ، یا نظر خود را عوض کنید بگیریدو هر زمان که بخواهید ادامه ندهید. "
+
+           
+      caregiver_feedback_consent_relationship:
+        display_name: 'قرابت مراقبت کننده با طفل'
+        option_strings_text:
+          primary_caregiver: مراقبت کننده اصلی
+          legal_guardian: سرپرست قانونی
+          other_family_member_close_to_the_child: اعضای دیگر فامیل که به طفل نزدیک است
+          unrelated_adult_close_to_the_child: 'کلان سالی که به طفل قرابت ندارد و به طفل نزدیک است '
+          other: وغیره
+      caregiver_feedback_consent_relationship_other:
+        display_name: 'اگر وغیره ,مشخص کنید '
+      caregiver_feedback_sex:
+        display_name: جنسیت مراقبت کننده
+      caregiver_feedback_dob:
+        display_name: تاریخ تولد مراقبت کننده .
+      caregiver_feedback_consent:
+        display_name: نراقبت کننده  اجازه دادهاست تا نظرات خود را در مورد روند مدیریت پرونده جمع آوری کند.
+        tick_box_label: 'بلی'
+      caregiver_feedback_consent_date:
+        display_name: تاریخ اجازه نامه و رضایت نامه
+      caregiver_feedback_separator_questions:
+        display_name: 'سوالات ذخش اول'
+        guiding_questions: |-
+          شما می توانید برای بازخورد سریع مثال بدهید  ، اما در پرسیدن سوالاتهدایت شونده دقیق باشید ا
+
+          این کار باید به لسان مراقبت کننده انجام شود و توسط کسی که مهارت و آموزش لازم را برای انجام مصاحبه و جمع آوری بازخورد دارد ، تسهیل می شود
+      caregiver_feedback_services_discovery:
+        display_name: چگونه از خدمات مدیریت پرونده [آِآرسی] مطلع شدید؟
+        option_strings_text:
+          caseworker_approached_me: 'از طریق کاررمند قضیه '
+          another_organization: موسسات دیگر
+          my_child: طفلم
+          family_friends: فامیل /رفقا
+          school: مکتب
+          community_leader: رهبران جامعه
+          community_based_child_protection_focal_point: فوکل پایت های محافظت طفل به سطح جامعه
+          authorities: 'اشخاص با صلاحیت '
+          saw_a_poster_information_leaflet: 'دیدن پوستر / جزوه اطلاعاتی '
+          cannot_recall: 'باز گویی نمیشود '
+          other: و غیره
+      caregiver_feedback_services_discovery_other:
+        display_name: 'اکر وغیره ,لطفآمشخص کنید '
+      caregiver_feedback_help_asked:
+        display_name: قبل از شروع کار با کارمند قضیه ، از شما پرسیده شد که آیا طفل  شما می خواهد از این طریق به او کمک شود؟
+        option_strings_text:
+          'yes': 'بلی '
+          'no': 'نه'
+          unknown: ناشناخته
+      caregiver_feedback_help_asked_details:
+        display_name: 'لطفآجزییات ارایه کنید '
+      caregiver_feedback_expectations:
+        display_name: شما از چه نوع پشتیبانی از [درج (نام موسسه کار با اداره قضیه ] توقع دارید؟
+        option_strings_text:
+          alternative_care: ' جایگزین برای مراقبت '
+          security_e_g_safe_shelter: امنیت (مثلآ سرپناه محفوظ)
+          education_formal: تعلیم (رسمی)
+          non_formal_education: 'تعلیم غیر رسمی '
+          family_tracing_and_reunification: ردیابی خانوادگی و ادغام مجدد
+          basic_psychosocial_support: حمایت اساسی روانی اجتماعی
+          focused_non_specialized_mhpss_care: 'تمرکز روی مراقبتهای غیر تخصصی MHPSS '
+          specialized_mhpss_services: خدمات تخصصی MHPSS
+          food: غذا
+          non_food_items: مواد غیر غذایی
+          cash_assistance: 'کمک های نقدی '
+          livelihoods: 'امرار معیشت '
+          medical: ادویه
+          nutrition: تغذی
+          legal_support: حمایت قانونی
+          documentation: مستند سازی
+          services_for_children_with_disabilities: 'خدمات برای اطفال دارای معیوبیت '
+          sexual_and_reproductive_health: صحت  جنسی و باروری
+          shelter: سرپناه
+          wash: 'شسنشو '
+          durable_solution_in_coordination_with_unhcr: راه حل دوامدار با همکاری UNHCR
+          relocation: جابجایی مجدد
+          other: وغیره
+      caregiver_feedback_expectations_other:
+        display_name: ' اکر وغیره ,لطفآ مشخص سازید '
+      caregiver_feedback_expectations_received:
+        display_name: آیا طفل شما ( شما و خانواده شما در صورت لزوم) از حمایتی که انتظار داشتید دریافت کنید برخوردار شده اند؟
+        option_strings_text:
+          'yes': 'بلی'
+          'no': 'نه'
+          unknown: ناشناخته
+      caregiver_feedback_expectations_received_details:
+        display_name: 'لطفآ توضیحات ارایه کنید '
+      caregiver_feedback_process_plan:
+        display_name: آیا کارمند قضیه پلان قضیه را با شما و طفل تان برای را تهیه کرده است تا بتواند حمایت مورد نیاز شما را بدست آورد؟
+        option_strings_text:
+          'yes': 'بلی'
+          'no': 'نه'
+          unknown: ناشناخته
+      caregiver_feedback_process_plan_details:
+        display_name: 'لطفآ جزیات ارایه کنید '
+      caregiver_feedback_process_connect:
+        display_name: یا کارمند قضیه طفل شما (و شما و خانواده شما- در صورت لزوم) را به خدماتی که می توانند به شما کمک کنند ارتباط داد ؟
+        option_strings_text:
+          'yes': 'بلی '
+          no_did_not_need_other_services: 'نه,به دیگر خدمات نیاز نداشت '
+          no_did_not_want_other_services: 'نه ,  دیگر خدمات را نخواست '
+          unknown: ناشناخته
+      caregiver_feedback_process_connect_details:
+        display_name: 'لطفآ جزییات ارایه کنید '
+      caregiver_feedback_process_consent:
+        display_name: زمانی که کارمند قضیه اطلاعاتی را راجع به فرزند شما (و شما و فامیل تان- در صورت لزوم) با دیگران به اشتراک می گذاشت ، از شما سال می شد که آیا شما موافقت می کنید که اطلاعات مربوط به خود و شرایط خود را با دیگران به اشتراک بگذارید؟
+        option_strings_text:
+          'yes': 'بلی'
+          'no': 'نه'
+          unknown: ناشناخته
+      caregiver_feedback_process_consent_details:
+        display_name: لطفا جزییات ارایه کنید
+      caregiver_feedback_process_closure:
+        display_name: آیا شما (و در صورت لزوم  طفل تان) تصمیم گرفتید که خدمات مدیریت قضیه [درج نام موسسه] را همراه با کارمند قضیه رامتوقف کنید؟
+        option_strings_text:
+          'yes': 'بلی '
+          'no': 'نه'
+          unknown: ناشناخته
+      caregiver_feedback_process_closure_details:
+        display_name: 'لطفآ جزییات را ارایه نمایید '
+      caregiver_feedback_questions_ii:
+        display_name: 'سوالات بخش دوم '
+        guiding_questions: "نمونه متن: \"برای چند سوال  بعدی ، من می خواهم از شما بپرسم که تا چه حدی با جمله ای که ذکر کردم موافقید.\nاگر کاملاً با این جمله موافقید ، می توانید به آن 10  نمره  بدهید. اگر کلاً با جمله موافق نیستید ، می توانید آن را 1 نمره بدهید \nهمچنین می توانید تصمیم بگیرید که با هر عدد دیگری بین 1 تا 10 پاسخ دهید ، هرچه بیشتر با جمله موافق باشید باید به 10 نزدیکتر باشد و هرچه بیشتر مخالف باشید به 1 نزدیکتر است. \""
+      caregiver_feedback_ii_explanation:
+        display_name: 'مسایل که از طرف کارمند قضیه توزیح شد فهمیدنش برایم مشکل بود '
+        help_text: 'نمبر را از 1 الی 10 انتخاب کنید '
+      caregiver_feedback_ii_explanation_details:
+        display_name: 'لطفآجزییات رایه دارید '
+      caregiver_feedback_ii_listening:
+        display_name: کارمند قضیه همیشه ، نظرات و احساسات من را می خواست و به آن  گوش می داد.
+        help_text: 'ز 1 الی 10 نمبر را انتخاب کنید '
+      caregiver_feedback_ii_listening_details:
+        display_name: 'لطفآ جزییات را ارایه کنید  '
+      caregiver_feedback_ii_pressured:
+        display_name: " من اغلب از طرف کارمند قضیه برای تصمیم گیری یا انجام کاری که نمی خواهم انجام دهم تحت فشار قرار می گرفتم \n\n "
+        help_text: از 1 الی 10 نمبر را انتخاب کنید
+      caregiver_feedback_ii_pressured_details:
+        display_name: لطفآ جزییات را ارایه کنید
+      caregiver_feedback_ii_followup:
+        display_name: کارمند قضیه در پیگیری کارهایی را که خودش میخواست  انجام می داد.
+        help_text: از 1 الی 10 نمبر را انتخاب کنید
+      caregiver_feedback_ii_followup_details:
+        display_name: لطفآ جزییات را ارایه کنید
+      caregiver_feedback_ii_visits:
+        display_name: کارمند قضیه  به ندرت به من و طفلم را ملاقات میکرد .
+        help_text: از 1 الی 10 نمبر را انتخاب کنید
+      caregiver_feedback_ii_visits_details:
+        display_name: لطفآ جزییات را ارایه کنید
+      caregiver_feedback_ii_support:
+        display_name: حمایت  کارمند قضیه از طفلم(و من و خانواده ام - در صورت لزوم) مفید بود.
+        help_text: ز 1 الی 10 نمبر را انتخاب کنید
+      caregiver_feedback_ii_support_details:
+        display_name: لطفآ جزییات را ارایه کنید
+      caregiver_feedback_ii_improvement:
+        display_name: از وقتی که من با کاررمند قضیه  کار می کنم وضعیت طفلم بهتر شده است.
+        help_text: ز 1 الی 10 نمبر را انتخاب کنید
+      caregiver_feedback_ii_improvement_details:
+        display_name: لطفآ جزییات را ارایه کنید
+      caregiver_feedback_ii_satisfaction:
+        display_name: به طور کلی ، من از پشتیبانی ارائه شده توسط کارمند قضیه بسیار راضی هستم.
+        help_text: از 1 الی 10 نمبر را انتخاب کنید
+      caregiver_feedback_ii_satisfaction_details:
+        display_name: لطفآ جزییات را ارایه کنید
+      caregiver_feedback_final_question:
+        display_name: آیا بازخورد یا نگرانی دیگری دارید که بخواهید با ما شریک کنید؟
+        option_strings_text:
+          'yes': 'بلی'
+          'no': 'نه'
+          unknown: ناشناخته
+      caregiver_feedback_final_question_details:
+        display_name: لطفآ جزییات را ارایه کنید

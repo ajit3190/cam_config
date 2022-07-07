@@ -1,0 +1,7 @@
+ro:
+  tracing_request_tracing_request:
+    name: Solicitare Urmărire
+    description: Solicitare Urmărire
+    fields:
+      tracing_request_subform_section:
+        display_name: Solicitare Urmărire

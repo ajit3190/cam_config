@@ -1,0 +1,58 @@
+fa-AF:
+  family_details_section:
+    name: مشخصات خانواده پیچیده
+    description: فورم جزییات فامیل
+    fields:
+      relation_name:
+        display_name: نام
+      relation:
+        display_name: 'به طفل چی قرابت دارد '
+      relation_lives_with_child:
+        display_name: 'آیا شخص با طفل زندگی میکند '
+        tick_box_label: 'بلی'
+      relation_nickname:
+        display_name: 'نام دیگری که با آن شناخته میشود '
+        help_text: مثلآ نام دوم ,تخلص و نام فامیلی
+      relation_is_alive:
+        display_name: آیا این عضو فامیل زنده است ؟
+        option_strings_text:
+          unknown: گفته نمیشود
+          alive: 'زنده است '
+          dead: مرده
+      relation_death_details:
+        display_name: 'اگر فوت کرده جزییات را ارایه کنید '
+        help_text: 'تاریخ فوت را اگر میدانید شامل سازید '
+      relation_age:
+        display_name: عمر
+      relation_date_of_birth:
+        display_name: تاریخ تولد
+      relation_age_estimated:
+        display_name: آیا تاریخ تخمینی است ؟
+        tick_box_label: 'بلی'
+      relation_national_id:
+        display_name: تذکره
+      relation_unhcr_individual_id:
+        display_name: کارت انقرادی UNHCR
+      relation_other_id:
+        display_name: شناختی کارت دیگر
+      relation_ethnicity:
+        display_name: 'قوم '
+      relation_sub_ethnicity1:
+        display_name: قومیت فرعی 1
+      relation_sub_ethnicity2:
+        display_name: قومیت فرعی 2
+      relation_occupation:
+        display_name: وظیفه
+      relation_address_current:
+        display_name: 'آدرس موجوده اکر با طفل نتفاوت باشد '
+      relation_landmark_current:
+        display_name: نشانی موجوده
+      relation_location_current:
+        display_name: موقعیت موجوده
+      relation_telephone:
+        display_name: تلفون/ دیکر جزیات ازتباط
+      child_consent_relation_contact:
+        display_name: 'آیا طفل رضایت دارد تا شخص با او در تماس باشد '
+        tick_box_label: 'بلی'
+      no_consent_provide_details:
+        display_name: 'اگر نه,جزییات زا ارایه بدارید '

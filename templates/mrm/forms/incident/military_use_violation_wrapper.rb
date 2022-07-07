@@ -48,10 +48,45 @@ military_use_subform_fields = [
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
+    'name' => 'military_use_date_range',
+    'type' => 'tick_box',
+    'tick_box_label_en' => 'Yes',
+    'display_name_en' => 'Is this a Date Range?'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
     'name' => 'military_use_duration',
-    'type' => 'date_range',
-    'display_name_en' => 'Duration of military use',
-    'help_text_en' => 'Select initial and end dates.'
+    'type' => 'date_field',
+    'display_name_en' => 'Duration (or start) of military use',
+    'help_text_en' => 'dd-mmm-yyyy (Date initiated)'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'military_use_duration_end_date',
+    'type' => 'date_field',
+    'display_name_en' => 'Military use end date',
+    'required' => false,
+    'help_text_en' => 'dd-mmm-yyyy',
+    'display_conditions_subform' => { 'eq' => { 'military_use_date_range' => true } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -130,7 +165,8 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'military_use_purpose_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details  "
+    'display_name_en' => "If ‘Other', please provide details  ",
+    'display_conditions_subform' => { 'in' => { 'military_use_purpose' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -164,7 +200,8 @@ military_use_subform_fields = [
     'type' => 'select_box',
     'multi_select' => true,
     'display_name_en' => "If 'Yes', please specify:",
-    'option_strings_source' => 'lookup lookup-violation-type'
+    'option_strings_source' => 'lookup lookup-violation-type',
+    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -197,7 +234,8 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'military_use_schools_section',
     'type' => 'separator',
-    'display_name_en' => 'Military use of school(s)'
+    'display_name_en' => 'Military use of school(s)',
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_school' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -216,7 +254,8 @@ military_use_subform_fields = [
     'display_name_en' => 'Type of school affected',
     'option_strings_source' => 'lookup lookup-school-type',
     'guiding_questions_en' => "'Schools' refer to all learning sites and education facilities, as determined by the local context, both formal and informal, secular or religious, providing early childhood, primary and secondary education as well as vocational training to children. 'Schools' include all school-related spaces, structures, infrastructure and grounds attached to them, such as water, sanitation and hygiene facilities. See 'Protect Schools+Hospitals - Guidance Note on Security Council Resolution 1998', 2014 (available at: https://childrenandarmedconflict.un.org/publications/AttacksonSchoolsHospitals.pdf), page 43.",
-    'help_text_en' => 'This field is required for reporting Military use of schools.'
+    'help_text_en' => 'This field is required for reporting Military use of schools.',
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_school' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -232,7 +271,13 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'school_type_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details   "
+    'display_name_en' => "If ‘Other', please provide details   ",
+    'display_conditions_subform' => {
+      'and' => [
+        { 'eq' => { 'military_use_type' => 'military_use_of_school' } },
+        { 'in' => { 'school_type' => %w[other] } }
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -249,7 +294,8 @@ military_use_subform_fields = [
     'type' => 'select_box',
     'multi_select' => true,
     'display_name_en' => 'Age level of students attending the affected school',
-    'option_strings_source' => 'lookup lookup-school-age-level'
+    'option_strings_source' => 'lookup lookup-school-age-level',
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_school' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -259,14 +305,15 @@ military_use_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
     'name' => 'school_students_sex',
     'type' => 'select_box',
     'display_name_en' => 'Sex of students',
-    'option_strings_source' => 'lookup lookup-school-sex-type'
+    'option_strings_source' => 'lookup lookup-school-sex-type',
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_school' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -283,7 +330,8 @@ military_use_subform_fields = [
     'name' => 'school_type_details',
     'type' => 'textarea',
     'display_name_en' => 'Details of affected school',
-    'help_text_en' => "E.g., school name, number of students attending the affected school, name and type of organization managing the facility (e.g. NGO-run, Government-run, community-based')."
+    'help_text_en' => "E.g., school name, number of students attending the affected school, name and type of organization managing the facility (e.g. NGO-run, Government-run, community-based').",
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_school' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -299,7 +347,8 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'military_use_hospitals_section',
     'type' => 'separator',
-    'display_name_en' => 'Military use of hospital(s)'
+    'display_name_en' => 'Military use of hospital(s)',
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_hospital' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -317,7 +366,8 @@ military_use_subform_fields = [
     'multi_select' => true,
     'display_name_en' => 'Type of healthcare facility affected',
     'option_strings_source' => 'lookup lookup-healthcare-facility-type',
-    'help_text_en' => 'This field is required for reporting Military use of hospitals.'
+    'help_text_en' => 'This field is required for reporting Military use of hospitals.',
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_hospital' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -333,7 +383,13 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'health_type_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details    "
+    'display_name_en' => "If ‘Other', please provide details    ",
+    'display_conditions_subform' => {
+      'and' => [
+        { 'eq' => { 'military_use_type' => 'military_use_of_hospital' } },
+        { 'in' => { 'health_type' => %w[other] } }
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -350,7 +406,8 @@ military_use_subform_fields = [
     'name' => 'health_type_details',
     'type' => 'textarea',
     'display_name_en' => 'Details of the affected healthcare facility',
-    'help_text_en' => "E.g. name(s) of affected facility/ies; hospital's patient capacity; name and type of organization managing the facility."
+    'help_text_en' => "E.g. name(s) of affected facility/ies; hospital's patient capacity; name and type of organization managing the facility.",
+    'display_conditions_subform' => { 'eq' => { 'military_use_type' => 'military_use_of_hospital' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -479,7 +536,8 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'facility_closed_duration',
     'type' => 'numeric_field',
-    'display_name_en' => 'For how long? (days)'
+    'display_name_en' => 'For how long? (days)',
+    'display_conditions_subform' => { 'eq' => { 'facility_closed' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -572,7 +630,7 @@ military_use_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -583,7 +641,7 @@ military_use_subform_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -596,7 +654,8 @@ military_use_subform_fields = [
     'name' => 'verified',
     'type' => 'select_box',
     'display_name_en' => 'Initial verification status as determined by the focal point',
-    'option_strings_source' => 'lookup lookup-verification-status'
+    'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -612,7 +671,9 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_focal_point',
     'type' => 'date_field',
-    'display_name_en' => 'Date of determination of verification status by focal point.'
+    'date_validation' => 'not_future_date',
+    'display_name_en' => 'Date of determination of verification status by focal point.',
+    'display_conditions_subform' => { 'eq' => { 'verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -622,7 +683,7 @@ military_use_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -645,12 +706,13 @@ military_use_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_ctfmr_technical',
     'type' => 'date_field',
+    'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of joint verification decision by the CTFMR co-chairs at the technical level.',
     'help_text_en' => 'This can be e.g., the date of the periodic meeting during which the CTFMR co-chairs at the technical level jointly review the incidents of grave violations and determine their verification status.'
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -664,6 +726,7 @@ military_use_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'Verification status as agreed by the CTFMR',
     'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification',
     'help_text_en' => "Please provide further details in the 'Additional details on verification process/decision' box.This field is required for reporting."
   ),
   Field.new(
@@ -681,7 +744,9 @@ military_use_subform_fields = [
     'name' => 'ctfmr_verified_date',
     'type' => 'date_field',
     'display_name_en' => 'Date of Verification decision by CTFMR',
-    'help_text_en' => ''
+    'date_validation' => 'not_future_date',
+    'help_text_en' => '',
+    'display_conditions_subform' => { 'eq' => { 'ctfmr_verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -699,6 +764,24 @@ military_use_subform_fields = [
     'type' => 'textarea',
     'display_name_en' => 'Additional details on verification process/decision',
     'help_text_en' => 'If verification is still pending or incident was excluded, please provide further details.'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'verified_ghn_reported',
+    'type' => 'select_box',
+    'display_name_en' => 'Specify the GHN in which this incident was included ',
+    'option_strings_source' => 'lookup lookup-verified-ghn-reported',
+    'help_text_en' => 'Please enter the year first (e.g. 2022), then you will be able to select between the four quarters of the year and the relevant GHN.'
   )
 ]
 
@@ -757,7 +840,8 @@ military_use_fields = [
     'subform_section' => military_use_subform,
     'display_name_en' => 'Military use of school(s) and/or hospital(s)',
     'expose_unique_id' => true,
-    'guiding_questions_en' => "The military use of schools and hospitals is not a grave violation per se under UN Security Council Resolution 1998. Therefore, reporting on military use of schools and hospitals should be reported upon in detail, but separately. For further guidance see 'Protect Schools+Hospitals - Guidance Note on Security Council Resolution 1998, 2014, available at: https://childrenandarmedconflict.un.org/publications/AttacksonSchoolsHospitals.pdf "
+    'guiding_questions_en' => "The military use of schools and hospitals is not a grave violation per se under UN Security Council Resolution 1998. Therefore, reporting on military use of schools and hospitals should be reported upon in detail, but separately. For further guidance see 'Protect Schools+Hospitals - Guidance Note on Security Council Resolution 1998, 2014, available at: https://childrenandarmedconflict.un.org/publications/AttacksonSchoolsHospitals.pdf",
+    'display_conditions_record' => { 'in' => { 'violation_category' => %w[military_use] } }
   )
 ]
 
@@ -777,5 +861,6 @@ FormSection.create_or_update!(
   is_first_tab: false,
   initial_subforms: 0,
   mobile_form: false,
-  form_group_id: 'violations'
+  form_group_id: 'violations',
+  display_conditions: { 'in' => { 'violation_category' => %w[military_use] } }
 )

@@ -1,0 +1,44 @@
+fr:
+  reunification_details_section:
+    name: Réunification
+    description: 'Sous formulaire réunification  '
+    fields:
+      name_reunified_adult:
+        display_name: 'Nom de l''adulte avec lequel l''enfant sera réunifié '
+      relationship_reunified_adult:
+        display_name: 'Lien entre l''enfant et l''adulte '
+      address_reunified_adult:
+        display_name: Adresse
+      location_reunified_adult:
+        display_name: Localisation de l'adulte avec lequel l'enfant a été réuni
+      address_reunification:
+        display_name: Adresse où la réunification a lieu
+      location_reunification:
+        display_name: 'Lieu ou la réunification aura lieu '
+      reunification_type:
+        display_name: 'Quel est le type de réunification ? '
+        option_strings_text:
+          case_by_case: 'Au cas par cas '
+          informal_spontaneous: 'Informelle/spontanée '
+          mass_tracing: Traçage de masse
+          mediation: Médiation
+          other: Autre (Veuillez préciser)
+          photo_tracing: 'Traçage par photo '
+          spontaneous: Spontané
+      date_reunification:
+        display_name: 'Date de la réunification '
+      child_reunited_with_verified_adult:
+        display_name: L'enfant a-t-il été réunifié avec l'adulte dont l'identité a été vérifiée ?
+      not_reunited_with_verified_adult_reason:
+        display_name: Si ce n'est pas le cas, quelle était la raison ?
+        option_strings_text:
+          change_of_mind: Changement d'avis
+          death: 'Décès '
+          death_of_adult: 'Décès de l''adulte '
+          failed_verification: 'Echec de la vérification '
+          n_a: 'Non applicable '
+          other: Autre (Veuillez préciser)
+      reunification_follow_up_needed:
+        display_name: Un suivi est-il nécessaire ?
+      closure_recommendation:
+        display_name: Si ce n'est pas le cas, recommandez-vous la clôture du cas ?

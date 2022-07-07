@@ -1,0 +1,57 @@
+ro:
+  tracing_request_subform_section:
+    name: Subformular Solicitare Urmărire Imbricat
+    description: Subformular Solicitare Urmărire Imbricat
+    fields:
+      matched_case_id:
+        display_name: Potrivire ID Caz
+      tracing_request_status:
+        display_name: Status Urmărire
+      individual_details_section:
+        display_name: Detalii individuale
+      name:
+        display_name: Nume
+      relation:
+        display_name: Care este legătura solicitantului cu copilul?
+      relation_child_lived_with_pre_separation:
+        display_name: Copilul a locuit cu solicitantul înainte de separare?
+      name_nickname:
+        display_name: Poreclă
+      name_other:
+        display_name: Alt nume
+      sex:
+        display_name: Sex
+      age:
+        display_name: Vârsta
+      date_of_birth:
+        display_name: Data nașterii
+      physical_characteristics:
+        display_name: Caracteristici fizice distinctive
+      inquirer_special_message:
+        display_name: Mesaj special pentru persoana căutată
+      same_separation_details:
+        display_name: Sunt aceleași detalii de separare ca și în Formularul Solicitant?
+      separation_details_section:
+        display_name: Detalii de separare (dacă diferă de formularul solicitantului)
+      date_of_separation:
+        display_name: Dată Separare
+      separation_cause:
+        display_name: Care a fost principala cauză a separării?
+      separation_evacuation:
+        display_name: Separarea a avut loc în legătură cu evacuarea?
+      separation_details:
+        display_name: Circumstanțele separării (te rugăm să furnizezi detalii)
+      address_separation:
+        display_name: Adresa de separare (Locul)
+      location_separation:
+        display_name: Locație separare
+      address_last:
+        display_name: Ultima adresă
+      landmark_last:
+        display_name: Ultimul reper
+      location_last:
+        display_name: Ultima locație
+      telephone_last:
+        display_name: Ultimul număr de telefon
+      additional_tracing_info:
+        display_name: Informații suplimentare care ar putea ajuta la urmărire?

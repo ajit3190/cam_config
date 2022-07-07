@@ -1,0 +1,12 @@
+---
+es-GT:
+  consent_for_services:
+    name: Consentimiento para recibir los servicios
+    description: Consentimiento para recibir los servicios
+    fields:
+      consent_services_header:
+        display_name: Consentimiento para recibir los servicios
+      consent_for_services:
+        display_name: "¿Prestó la persona superviviente su consentimiento para recibir los servicios que usted le ofreció?"
+        help_text: ''
+        tick_box_label: 'Sí'

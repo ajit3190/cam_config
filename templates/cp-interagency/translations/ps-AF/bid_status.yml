@@ -1,0 +1,17 @@
+ps-AF:
+  bid_status:
+    name: حالت BID د
+    description: د حالت فورمه BID
+    fields:
+      assessment_formal_bid:
+        display_name: ایا د رسمي غوره ګټو تشخیص اړین دی؟
+        help_text: د UNHCR  سره په همغږي کې په شرایطو ټاکل شوي.
+      assessment_bid_direction:
+        display_name: که هو وي نو مهرباني وکړئ د غوره ګټو هغه تګلاره وټاکی
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: د دوامداره حل لارو او او همدا ډول د تکمیلي لارو چارو پیژندل د داسې یو ماشوم لپاره چې له کورنی څخه جدا وي خو فعلآ د خپلو خپلوانو سره نه اوسیږي.
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: په استثنایی حالتونو کې د خطر سره د ماشومانو لپاره ترټولو مناسب اختیارونه مشخص کول (د کورنۍ بیا یوځای کیدو او لنډمهاله پاملرنې په شمول)
+          possible_separation_of_a_child_from_parents_against_their_will: د مور او پلار څخه د دوی د خوښې خلاف د ماشوم احتمالي جلا کیدل
+      assessment_bid_details:
+        display_name: توضیحات وړاندې کړئ
+        help_text: فورمې سره ادامه ورکړئ  کړئ او بیا د.توضیحات وړاندې UNHCR غوره ګټو تعقیب (BID) 

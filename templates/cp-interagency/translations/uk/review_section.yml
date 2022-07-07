@@ -1,0 +1,67 @@
+uk:
+  review_section:
+    name: Вкладений Огляд
+    description: Субформа Огляд
+    fields:
+      review_form_date:
+        display_name: Дата заповнення форми
+        help_text: дд/мм/рр
+      review_separator:
+        display_name: Деталі оглядової зустрічі
+      review_date:
+        display_name: Дата оглядової зустрічі
+        help_text: дд/мм/рр
+      previous_review_date:
+        display_name: Дата попереднього огляду (якщо доречно)
+        help_text: дд/мм/рр
+      was_child_present:
+        display_name: Дитина була присутня?
+      how_child_review:
+        display_name: Якщо ні, то як дитина брала участь у огляді?
+      was_caregiver_present:
+        display_name: Опікун був присутній?
+      how_caregiver_review:
+        display_name: Якщо ні, то як опікун брав участь у огляді?
+      outcome_review_separator:
+        display_name: Підсумки оглядової наради
+      review_childs_situation:
+        display_name: Огляд поточної ситуації дитини
+        help_text: Опишіть загальне поточне становище дитини, яке обговорювалося під час оглядової зустрічі
+      review_implementation:
+        display_name: Огляд виконання кейс плану
+        help_text: Оцініть стан вжитих дій та наданих послуг, як зазначено в кейс плані та обговорено під час оглядової зустрічі.
+      review_progress_goal:
+        display_name: Перевірка прогресу по відношенню до загальної мети кейс плану.
+        help_text: Оцініть прогрес у досягненні загальної мети кейс плану, як обговорювалося під час оглядової зустрічі.
+      review_other_notes:
+        display_name: Інші нотатки / зауваження під час оглядової зустрічі
+      next_steps_separator:
+        display_name: Наступні кроки
+      review_situation_change:
+        display_name: Чи змінилося становище дитини таким чином, що вимагало проведення ще однієї оцінки?
+      situation_change_details:
+        display_name: Надайте деталі, будь ласка
+      adjustments_case_plan:
+        display_name: Чи потрібні якісь корективи в кейс плані?
+      adjustment_details:
+        display_name: Надайте деталі, будь ласка
+      risk_level_changed:
+        display_name: Чи змінився рівень ризику справи?
+      action_conducted:
+        display_name: Якщо так, новий рівень ризику
+        option_strings_text:
+          high: Високий
+          medium: Середній
+          low: Низький
+          'no': 'Ні'
+      risk_level_details:
+        display_name: Якщо так, надайте деталі
+      recommend_close_case:
+        display_name: Рекомендуєте закрити справу?
+      close_case_details:
+        display_name: Надайте деталі, будь ласка
+      next_case_review:
+        display_name: Чи є потреба в наступному розгляді справи?
+      date_next_review:
+        display_name: Якщо так, то дата наступної зустрічі
+        help_text: дд/мм/рр

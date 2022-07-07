@@ -1,0 +1,106 @@
+uk:
+  basic_identity:
+    name: Подробиці про дитину
+    description: Основна ідентифікаційна інформація про розлучену дитину або дитину без супроводу.
+    fields:
+      case_id_display:
+        display_name: Кейс ID
+      cpims_id:
+        display_name: Попередній код кейсу
+        help_text: Застарілий ID CPIMS (або іншої системи).
+      marked_for_mobile:
+        display_name: Позначено для мобільного?
+        tick_box_label: 'Так'
+      child_status:
+        display_name: Статус кейсу
+      case_status_reopened:
+        display_name: Кейс перевідкрито?
+        tick_box_label: 'Так'
+      case_status_reopened_reasons:
+        display_name: Причина перевідкриття
+        option_strings_text:
+          break_down_of_reunification_placement: Розрив возз’єднання/розміщення
+          death_of_caregiver_s: Смерть опікуна(ів)
+          physical_abuse_violence: Фізичне насильств
+          sexual_abuse_violence: Сексуальне насильство
+          emotional_or_psychological_abuse_violence: Емоційне чи психологічне насильство
+          physical_neglect: Фізична занедбаність
+          emotional_neglect: Емоційна занедбаність
+          medical_neglect: Медична занедбаність
+          educational_neglect: Виховна занедбаність
+          supervisory_neglect: Наглядова недбалість
+          abandonment: Відмова
+          child_labour: Дитяча праця
+          hazardous_work: Шкідлива робота
+          sexual_exploitation: Сексуальна експлуатація
+          slavery_sale_trafficking_forced_labour: Рабство / продаж / торгівля людьми / примусова праця
+          in_conflict_with_the_law: Конфлікт із законом
+          associated_with_armed_forces_or_groups: Пов’язаний зі збройними силами чи угрупованнями
+          unaccompanied: Без супроводу
+          separated: Розділений
+          orphan: Сирота
+          functional_difficulties: Функціональні труднощі (наприклад, бачити, чути, ходити, спілкуватися, запам'ятовувати/концентруватися, самообслуговування)
+          psychosocial_distress: Психосоціальний дистрес
+          substance_abuse_and_addiction_child: Зловживання психоактивними речовинами та наркоманія (дитина)
+          belongs_to_marginalised_discriminated_group: Належить до маргіналізованої / дискримінованої групи
+          lack_of_documentation_birth_registration: Відсутність документації / свідоцтва про народження
+          child_marriage: Дитячий шлюб
+          fgm: Обрізання жіночих статевих органів
+          pregnancy_child_parent: Вагітність / дитяче батьківство
+          inappropriate_care_arrangement: Невідповідна організація догляду (наприклад, >8 дітей у сім'ї, опікуна, що зловживає психоактивними речовинами, один уразливий опікун)
+          other: Інше
+      name:
+        display_name: Повне ім`я
+      name_first:
+        display_name: Ім`я
+      name_middle:
+        display_name: По-батькові
+      name_last:
+        display_name: Прізвище
+      name_nickname:
+        display_name: Нікнейм
+      name_other:
+        display_name: Інше ім`я
+      registration_date:
+        display_name: Дата реєстрації
+      identification_date:
+        display_name: Дата виявлення/зголошення кейсу
+      assessment_due_date:
+        display_name: Дата оцінювання
+      sex:
+        display_name: Стать
+      age:
+        display_name: Вік
+      date_of_birth:
+        display_name: Дата народження
+      estimated:
+        display_name: Чи оцінений вік?
+        tick_box_label: 'Так'
+      national_id_no:
+        display_name: Національний ідентифікаційний номер
+      unhcr_individual_no:
+        display_name: Посвідчення особи УВКБ ООН
+      other_id_type:
+        display_name: Тип іншого відповідного документа, що посвідчує особу
+      other_id_no:
+        display_name: Номер іншого відповідного ідентифікатора
+      nationality:
+        display_name: Національність
+      ethnicity:
+        display_name: Етнічність/Клан/Плем’я
+      sub_ethnicity_1:
+        display_name: Підетнічність 1
+      sub_ethnicity_2:
+        display_name: Підетнічність 2
+      language:
+        display_name: Мови, якими розмовляє дитина
+      religion:
+        display_name: Релігія
+      displacement_status:
+        display_name: Група населення
+      displacement_status_other:
+        display_name: Якщо інше, вкажіть
+      disability_type_communications:
+        display_name: Особливі потреби в спілкуванні
+      telephone_current:
+        display_name: Телефон дитини / інші контактні дані

@@ -1,0 +1,23 @@
+ro:
+  child_preferences_section:
+    name: Preferințele Copilului Imbricate
+    description: Subformular Preferințele Copilului
+    fields:
+      wishes_name:
+        display_name: Persoana(ele) pe care copilul dorește să le găsească
+      wishes_preference_relocated:
+        display_name: Preferința copilului de a fi relocat cu această persoană
+        option_strings_text:
+          first_choice: Prima opțiune
+          second_choice: A doua opțiune
+          third_choice: A treia opțiune
+      wishes_relationship:
+        display_name: Care este relația acestei persoane cu copilul?
+      wishes_address:
+        display_name: Ultima adresă cunoscută
+      wishes_landmark:
+        display_name: Repere
+      wishes_location:
+        display_name: Ultima locație cunoscută
+      wishes_telephone:
+        display_name: Număr telefon

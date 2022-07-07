@@ -1,0 +1,8 @@
+fa-AF:
+  tracing_request_photos_and_audio:
+    name: 'عکس ها و صدا ها '
+    fields:
+      current_photo_key:
+        display_name: 'کلید های عکس های موجوده '
+      recorded_audio:
+        display_name: 'صدا های ثبت شده '

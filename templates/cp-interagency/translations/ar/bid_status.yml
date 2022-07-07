@@ -1,0 +1,18 @@
+---
+ar:
+  bid_status:
+    name: حالة تحديد  المصالح الفضلىBID
+    description: نموذج حالة BID
+    fields:
+      assessment_formal_bid:
+        display_name: هل يلزم تحديد رسمي للمصالح الفضلى (BID)؟
+        help_text: تحدد في نفس السياق بالتنسيق مع المفوضية.
+      assessment_bid_direction:
+        display_name: إذا كانت الإجابة بنعم ، يرجى تحديد اتجاه BID
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: تحديد الحلول الدائمة والمسارات التكميلية للأطفال غير المصحوبين بذويهم
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: تحديد أنسب الخيارات للأطفال المعرضين للخطر في ظروف استثنائية (بما في ذلك لم شمل الأسرة والرعاية المؤقتة)
+          possible_separation_of_a_child_from_parents_against_their_will: إمكانية فصل الطفل عن والديه رغماً عنهما
+      assessment_bid_details:
+        display_name: قدم التفاصيل
+        help_text: قدِّم التفاصيل ثم تابع استخدام نموذج تحديد المصالح الأفضل للمفوضية (BID).

@@ -1,0 +1,28 @@
+ro:
+  assessment_status:
+    name: Status Evaluare
+    description: Formular Status Evaluare
+    fields:
+      bia_approved:
+        display_name: Aprobat de Manager
+        tick_box_label: 'Da'
+      bia_approved_date:
+        display_name: Dată
+      bia_approved_comments:
+        display_name: Comentarii Manager
+      approval_status_bia:
+        display_name: Status Aprobare
+      assessment_header:
+        display_name: FORMULAR EVALUARE
+      assessment_requested_on:
+        display_name: Dată începere Evaluare
+        help_text: Acest câmp este utilizat pentru status Fluxuri.
+      assessment_completed_on:
+        display_name: Evaluare finalizată pe
+      case_plan_due_date:
+        display_name: Dată scadentă Plan Servicii
+        guiding_questions: |-
+          În funcție de nivelul de risc al cazului.
+          Ridicat: în termen de 3 zile de la evaluare.
+          Mediu: în termen de 1 săptămână de la evaluare.
+          Scăzut: în termen de 2 săptămâni de la evaluare.

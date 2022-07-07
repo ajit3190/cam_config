@@ -1,0 +1,23 @@
+fr:
+  child_preferences_section:
+    name: Préférences de l'enfant
+    description: 'Formulaire des préférences de l''enfant '
+    fields:
+      wishes_name:
+        display_name: 'Personne(s) que l''enfant aimerait localiser '
+      wishes_preference_relocated:
+        display_name: Préférence de l'enfant à être relocalisé avec cette personne
+        option_strings_text:
+          first_choice: 'Premier choix '
+          second_choice: 'Second choix '
+          third_choice: 'Troisième choix '
+      wishes_relationship:
+        display_name: Quelle est la relation de cette personne avec l'enfant ?
+      wishes_address:
+        display_name: 'Dernière adresse connue '
+      wishes_landmark:
+        display_name: Point de repère
+      wishes_location:
+        display_name: 'Dernier lieux connu '
+      wishes_telephone:
+        display_name: Téléphone

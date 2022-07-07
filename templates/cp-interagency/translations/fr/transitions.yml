@@ -1,0 +1,42 @@
+fr:
+  transitions:
+    name: 'Sous formulaire transition '
+    description: 'Sous formulaire transition '
+    fields:
+      type:
+        display_name: Type
+      to_user_local:
+        display_name: 'Utilisateur local '
+      to_user_remote:
+        display_name: 'Utilisateur à distance '
+      to_user_local_status:
+        display_name: 'Statut '
+        option_strings_text:
+          in_progress: En attente
+          pending: 'En attente '
+          accepted: 'Accepté '
+          rejected: 'Rejeté '
+          done: 'Fait '
+      rejected_reason:
+        display_name: 'Motif du rejet ( Si applicable) '
+      to_user_agency:
+        display_name: 'Organisation de l''utilisateur distant '
+      notes:
+        display_name: Notes
+      transitioned_by:
+        display_name: 'Transféré ou référé par '
+      service:
+        display_name: Service
+      is_remote:
+        display_name: 'Est-ce une référence ou un transfert à un système à distance ? '
+        tick_box_label: 'Oui'
+      type_of_export:
+        display_name: 'Quelle type d''exportation voulez vous ? '
+      consent_overridden:
+        display_name: 'Pas de consentement au partage des informations ourepassé '
+        tick_box_label: 'Oui'
+      consent_individual_transfer:
+        display_name: 'Le gestionnaire de cas a t-il le consentement de l''enfant pour effectuer ce transfert ? '
+        tick_box_label: 'Oui'
+      created_at:
+        display_name: 'Date de la référence ou du transfert '

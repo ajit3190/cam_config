@@ -1,0 +1,8 @@
+---
+ar:
+  immediate_concerns:
+    name: اهتمامات مباشرة
+    description: اهتمامات مباشرة
+    fields:
+      immediate_concern_section:
+        display_name: اهتمامات مباشرة

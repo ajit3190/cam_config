@@ -1,0 +1,44 @@
+ro:
+  reunification_details_section:
+    name: Reunificare Imbricată
+    description: Subformular Reunificare
+    fields:
+      name_reunified_adult:
+        display_name: Numele adultului cu care a fost reunit copilul
+      relationship_reunified_adult:
+        display_name: Legătura adultului cu copilul
+      address_reunified_adult:
+        display_name: Adresa
+      location_reunified_adult:
+        display_name: Locația adultului cu care copilul a fost reunit
+      address_reunification:
+        display_name: Address where the reunification is taking place
+      location_reunification:
+        display_name: Locația în care are loc reunificarea
+      reunification_type:
+        display_name: Ce tip de reunificare?
+        option_strings_text:
+          case_by_case: Caz cu caz
+          informal_spontaneous: Informală/ spontană
+          mass_tracing: Urmărire de grup
+          mediation: Mediere
+          other: Altceva (menționați)
+          photo_tracing: Urmărire Foto
+          spontaneous: Spontană
+      date_reunification:
+        display_name: Data reunificării
+      child_reunited_with_verified_adult:
+        display_name: Copilul a fost reunit cu adultul verificat?
+      not_reunited_with_verified_adult_reason:
+        display_name: Dacă nu, care a fost motivul schimbării?
+        option_strings_text:
+          change_of_mind: Și-a schimbat părerea
+          death: Deces
+          death_of_adult: Decesul adultului
+          failed_verification: Verificare eșuată
+          n_a: Nu se aplică
+          other: Altceva (menționați)
+      reunification_follow_up_needed:
+        display_name: Este nevoie de revenire?
+      closure_recommendation:
+        display_name: Dacă nu, recomanzi închiderea cazului?

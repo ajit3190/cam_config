@@ -1,0 +1,89 @@
+fa-AF:
+  conference_details_subform_section:
+    name: 'تفصیل کنفرانس '
+    description: تفصیل کنفرانس
+    fields:
+      conference_date:
+        display_name: تاریخ کنفرانس قضیه
+      conference_reason:
+        display_name: دلیل برای کنفرانس قضیه
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: ' حذف احتمالی طفل از مراقبت کننده  اصلی / عرفی / قانونی وی (به اجازه  توسط مقام دولتی)'
+          placement_of_a_child_into_alternative_care: جا بجا کردن طفل  در مراقبت های جایگزین
+          situation_of_family_reunification_with_potential_harm_to_the_child: وضعیت اادغام مجدد به فامیل خانواده با آسیب احتمالی به کودک
+          relocation_of_the_child: 'جا به جایی دوباره طفل '
+          complex_child_protection_case_requiring_a_multi_partner_intervention: وضیعت محافظتی بغرنج  از کودک که نیاز به مداخله چند جانبه  دارد
+          other: دیگر
+      conference_reason_other:
+        display_name: 'اگر دیگر ,لطفآمشخص کنید '
+      conference_participants:
+        display_name: اشتراک کننده گان
+        help_text: 'لست اشرکت کنندگان در کنفرانس را با درج . نام  ، نقش  یا ارتباط او با طفل ، موسسه  ,شماره تلفن تماس یا ایمیل را تهیه کنید '
+      conference_current_situation:
+        display_name: خلاصه ای از وضعیت موجود
+        help_text: همه موارد مهم محافظت ، ترتیب مراقبت فعلی طفل و مروری بر دلایل  مورد کنفرانس  را برجسته کنید
+        guiding_questions: |-
+          اگر کنفرانس قضیه  در مرحله پلان قضیه برگزار شد: عوامل اساسی خطر ، عوامل محافظتی و نیازهای طفل              (و خانواده) را بر اساس ارزیابی نیازها خلاصه کنید
+          اگر در مرحله پیگیری و بررسی کنفرانسقضیه  برگزار شد: وضعیت کلی طفل راتشریح  کنید.
+      conference_discussions_options:
+        display_name: بحث در مورد گزینه های خدمات / مداخلات مربوط به منافع طفل
+        help_text: تأثیرات مثبت و منفی خدمات  بالای  هرطفل را و با اینکه اگر خدمات مناسب به منافع علیای طفل نباشد وضعیت قضیه  ذکر کنید.
+        guiding_questions: شرکت کنندگان باید در مورد گزینه های احتمالی برای پاسخگویی به چالش های پیش روی قضیه که منجر به کنفرانس قصیه  شد ، بحث و گفتگو کنند  کارمند قضیه باید در هنگام بحث موضوعات را طور مفصل رایادداشت کند.
+      conference_outcome_recommendations:
+        display_name: نتیجه و پیشنهادات پنل ( اعضای ارشد)
+        help_text: 'توجیهات  برای تصامیم  که گرفته شده وپیشنهادات ذیل برای پلان شده عملی  و تازه برای پلان قضیه فردی توسط کارمند قضیه را خلاصه کنید '
+      conference_case_status:
+        display_name: 'حالت قضیه '
+        help_text: 'اگر قضیه بسته میشود لطفآفارم های قضیه را تکمیل کنید '
+      conference_case_status_other:
+        display_name: 'اکر وغیره ,لطفآ مشخص کنید '
+      conference_other_assessment:
+        display_name: آیا وضعیت کودک به گونه ای تغییر کرده که ارزیابی دیگری برای انجام آن ضروری باشد؟
+      other_assessment_specify:
+        display_name: لطفآ توضیحات ارایه کنید .
+      conference_adjustments:
+        display_name: آیا توجیهات برای پلان قضیه ضرورت است؟
+      adjustments_specify:
+        display_name: 'لطفجزییات ارایه کنید '
+      conference_reason_multi:
+        display_name: 'آبا سطح حطر قصیه تغیر کرده '
+        option_strings_text:
+          'no': 'نه'
+          yes_changed_to_high: بلی به سطح بالا تغیر کرده
+          yes_changed_to_medium: بلی در سطح نتوسط تغیر کرده
+          yes_change_to_low: بلی در سطح پایین تغیر کرده
+          yes_changed_to_no: 'بلی  تا سطح آخر تغیر کرده '
+      risk_level_changed_specify:
+        display_name: 'لطفآجزییات را ارایه کنید '
+      conference_case_transfer_reason:
+        display_name: 'اگر قضیه انفقال داده شده دلیل آنرا توضیح کنید '
+        guiding_questions: |-
+          وضیحات بیشتر:
+          1) آموسسه دیگری به دلیل خدمات تخصصی مورد نیاز طفل ، در مدیریت قضیه  بهتر است.
+          2) طفل  / خانواده به مکانی جدید منتقل می شوند. قضیه به موسسه حفاظت ازاطفال که در آن محل کار می کنند منتقل می شود.
+          3) دلایل سازمان داده شده  برای انتقال قضیه این طفل  وجود دارد. قضیه بسته و به موسسه  دیگری منتقل خواهد شد.
+          4)طفل به دلیل نگرانی از حمایت در خانواده / جامعه خود در حال انتقال است.
+          5) کودک 18 ساله شده است و قضیه به حمایت د خدمات به افراد که از  18 سال یا بالاتر است  نیاز دارد زیراطفل  دارای ناتوانی جسمی یا ذهنی است و نیاز به محافظت مدوامدار  دارد.
+        option_strings_text:
+          specialized_service: 1) به خدمات تخصصی مورد نیاز است
+          new_location: 'به جای جدید تقل مکان میکند '
+          organisational_reasons: 3) دلایل سازمانی
+          protection_concerns: 'اسکان مجدد به خاطر نگرانی های محافظتی '
+          child_turned_18: 'طفل 18 ساله شده ولی به خدمات محافظتی با ایجاب میکند '
+          other: وغیره
+      conference_case_transfer_reason_other:
+        display_name: 'اگر وغیره لطفآمشخص سازاد '
+      conference_followup_actions:
+        display_name: اقدامات / راجع سازی  / خدمات مورد نیاز و اشخاص مسئول را پیگیری کنید
+        guiding_questions: اطمینان حاصل کنید که طفل / مراقبت کننده  از نتیجه کنفرانس قضیه و همچنین تمام پیشنهادات  و اقدامات لازم آگاهی دارند . اقدامات پلان  شده توسط کارمند قضیه  / کارمند  اجتماعی / کارمندان موسسه  در برنامه ها جدید/اپ دت  شود
+      details_anyone_disagrees:
+        display_name: جزئیات کسی که با بخشهایی از پلان  مخالف باشد دلیل آن که چرا
+      was_child_present:
+        display_name: آیا طفل حاضر بود ؟
+      was_caregiver_present:
+        display_name: آیا مراقبت کننده حاضر بود؟
+      conference_monitoring_schedule:
+        display_name: 'تقسیماوقات پیگیری/ باز نگری '
+        help_text: 'طور مثال. هفته آینده دوشنبه در مورد خدمات ارائه شده و در هفته آینده شنبه در مورد وضعیت طفل پیگیری کنید. حداقل برای ماه آینده هفته ای دو بار پیگیری و نظارت کنید. اگر وضعیت مطابق اتوقع / مطلوب پیش رفت ، سپس پیگیری را تغییر دهید و برنامه بعدی را ماه آینده بر اساس جلسه بررسی و سطح خطر اصلاح در پایان ما پیگیری کنید  '
+      date_next_conference:
+        display_name: 'اگر لازم باشد تاریخ کنفرانس ذعدی را مشخص کنید '

@@ -87,7 +87,30 @@ pss_subform_section_fields = [
             'option_strings_source' => 'lookup lookup-psychosocial-functionality-scale'),
   Field.new('name' => 'pss_score',
             'type' => 'numeric_field',
-            'display_name_en' => 'Score'),
+            'calculation' => {
+              'type' => 'number',
+              'expression' => {
+                'avg' => [ 'giving_advice', 'exchanging_ideas', 'uniting_with_other_community',
+                  'asking_getting_help', 'making_important_decisions',
+                  'taking_part_in_family_decisions', 'learning_new_skills',
+                  'concentrating_on_your_tasks', 'interacting_dealing_people',
+                  'keeping_household_clean' ]
+              }
+            },
+            'display_name_en' => 'Average Score'),
+  Field.new('name' => 'pss_score_calc',
+            'type' => 'calculated',
+            'calculation' => {
+              'type' => 'number',
+              'expression' => {
+                'sum' => [ 'giving_advice', 'exchanging_ideas', 'uniting_with_other_community',
+                  'asking_getting_help', 'making_important_decisions',
+                  'taking_part_in_family_decisions', 'learning_new_skills',
+                  'concentrating_on_your_tasks', 'interacting_dealing_people',
+                  'keeping_household_clean' ]
+              }
+            },
+            'display_name_en': 'Total Score'),
   Field.new('name' => 'pss_score_notes',
             'mobile_visible' => true,
             'type' => 'textarea',

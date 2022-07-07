@@ -1,0 +1,42 @@
+es-ES:
+  transitions:
+    name: Subformulario de Transiciones Anidadas
+    description: Subformulario de Transiciones
+    fields:
+      type:
+        display_name: Tipo
+      to_user_local:
+        display_name: Usuario Local
+      to_user_remote:
+        display_name: Usuario Remoto
+      to_user_local_status:
+        display_name: Estatus
+        option_strings_text:
+          in_progress: En Progreso
+          pending: Pendiente
+          accepted: Aceptado
+          rejected: Rechazado
+          done: Hecho
+      rejected_reason:
+        display_name: Motivo del rechazo (si aplica)
+      to_user_agency:
+        display_name: Agencia de Usuario Remoto
+      notes:
+        display_name: Notas
+      transitioned_by:
+        display_name: 'Transferido o Referido por '
+      service:
+        display_name: Servicio
+      is_remote:
+        display_name: ¿Es la referencia o la transferencia a un sistema remoto?
+        tick_box_label: 'Sí'
+      type_of_export:
+        display_name: ¿Qué tipo de exportación quiere?
+      consent_overridden:
+        display_name: Sin consentimiento para compartir la configuración anulada
+        tick_box_label: 'Sí'
+      consent_individual_transfer:
+        display_name: ¿El trabajador social tenía el consentimiento del niño/a para hacer esta transferencia?
+        tick_box_label: 'Sí'
+      created_at:
+        display_name: Fecha de la transferencia

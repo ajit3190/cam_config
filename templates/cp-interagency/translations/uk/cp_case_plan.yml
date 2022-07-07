@@ -1,0 +1,48 @@
+uk:
+  cp_case_plan:
+    name: План кейсу
+    description: План кейсу
+    fields:
+      case_plan_approved:
+        display_name: Погоджено менеджером
+        tick_box_label: 'Так'
+      case_plan_approved_date:
+        display_name: Дата
+      case_plan_approved_comments:
+        display_name: Коментарі менеджера
+      approval_status_case_plan:
+        display_name: Статус погодження
+      case_plan_section_header:
+        display_name: План кейсу
+      date_case_plan:
+        display_name: Дата скалдання кейс плану
+        help_text: Це поле використовується для статусу робочого процесу.
+      date_case_plan_agreed:
+        display_name: Дата узгодження кейс плану
+      protection_concerns:
+        display_name: Занепокоєння щодо захисту
+      protection_concerns_other:
+        display_name: Якщо інше, вкажіть
+      case_plan_separator:
+        display_name: Загальна мета кейс плану
+      case_plan_goal:
+        display_name: Загальна мета
+        help_text: Визначте SMART (конкретну, вимірну, досяжну/узгоджену, реалістичну/релевантну та обмежену за часом) ціль
+      case_plan_header:
+        display_name: Плани втручання та надання послуг
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: Плани втручання та деталі послуг
+      approval_separator:
+        display_name: Погодження та угоди
+      interventions_names_involved:
+        display_name: Імена та відношення до дитини осіб, які беруть участь у складанні плану
+      interventions_details_disagree:
+        display_name: Деталі всіх, хто не згоден з частинами плану, і чому
+      interventions_child_involved:
+        display_name: Чи брала участь дитина в розробці кейс плану?
+      interventions_steps:
+        display_name: Якщо ні, то чому?
+      interventions_caregiver_involved:
+        display_name: Чи брав участь опікун у розробці кейс плану?
+      interventions_caregiver_steps:
+        display_name: Якщо ні, то чому?

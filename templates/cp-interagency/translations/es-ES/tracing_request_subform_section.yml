@@ -1,0 +1,57 @@
+es-ES:
+  tracing_request_subform_section:
+    name: Subformulario de Solicitud de Seguimiento Anidado
+    description: Subformulario de Solicitud de Seguimiento Anidado
+    fields:
+      matched_case_id:
+        display_name: ID de caso coincidente
+      tracing_request_status:
+        display_name: Estado de Rastreo
+      individual_details_section:
+        display_name: Detalles Individuales
+      name:
+        display_name: Nombre
+      relation:
+        display_name: ¿Cómo está el solicitante relacionado con el/la niño/a?
+      relation_child_lived_with_pre_separation:
+        display_name: ¿Vivía el/la niño/a con el solicitante antes de la separación?
+      name_nickname:
+        display_name: Apodo
+      name_other:
+        display_name: Otro Nombre
+      sex:
+        display_name: Sexo
+      age:
+        display_name: Edad
+      date_of_birth:
+        display_name: Fecha de Nacimiento
+      physical_characteristics:
+        display_name: Características Físicas Distintivas
+      inquirer_special_message:
+        display_name: Mensaje especial para la persona buscada
+      same_separation_details:
+        display_name: ¿Los mismos detalles de separación como el Formulario del Solicitante?
+      separation_details_section:
+        display_name: Detalles de la Separación (Si son diferentes al Formulario del Solicitante)
+      date_of_separation:
+        display_name: Fecha de la Separación
+      separation_cause:
+        display_name: ¿Cuál fue la principal razón de la separación?
+      separation_evacuation:
+        display_name: ¿Está la separación relacionada con la evacuación?
+      separation_details:
+        display_name: Circunstancias de la Separación (dar detalles)
+      address_separation:
+        display_name: Dirección de la Separación (Lugar)
+      location_separation:
+        display_name: Locación de la Separación
+      address_last:
+        display_name: Última Dirección
+      landmark_last:
+        display_name: Último Punto de Referencia
+      location_last:
+        display_name: Última Locación
+      telephone_last:
+        display_name: Último Teléfono
+      additional_tracing_info:
+        display_name: Información adicional que podría ayudar en el rastreo?

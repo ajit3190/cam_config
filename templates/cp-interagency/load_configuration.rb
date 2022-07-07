@@ -54,3 +54,17 @@ require_relative 'system_settings/contact_information.rb'
 
 puts 'Seeding Code of Conduct'
 require_relative '../../common/code_of_conduct.rb'
+
+puts "Loading Form Translations"
+I18n.available_locales.each do |locale|
+  files = Dir[File.dirname(__FILE__) + "/translations/#{locale.to_s}/*.yml"]
+  next if files.blank?
+
+  files.each do |file|
+    puts "Importing translations from #{file}"
+    opts = {file_name: file}
+
+    importer = Importers::YmlConfigImporter.new(opts)
+    importer.import
+  end
+end

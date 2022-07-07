@@ -75,8 +75,34 @@ perpetrator_subform_fields = [
     'option_strings_condition' => {
       'armed-force' => { 'eq' => { 'perpetrator_category' => 'armed_force' } },
       'armed-group' => { 'eq' => { 'perpetrator_category' => 'armed_group' } },
-      'other-party' => { 'eq' => { 'perpetrator_category' => 'other_party_to_the_conflict' } }
+      'other-party' => { 'eq' => { 'perpetrator_category' => 'other_party_to_the_conflict' } },
+      'unknown' => { 'eq' => { 'perpetrator_category' => 'unknown' } }
+    },
+    'display_conditions_subform' => {
+      'or' => [
+        { 'eq' => { 'perpetrator_category' => 'armed_force' } },
+        { 'eq' => { 'perpetrator_category' => 'armed_group' } },
+        { 'eq' => { 'perpetrator_category' => 'other_party_to_the_conflict' } },
+        { 'eq' => { 'perpetrator_category' => 'unknown' } }
+      ]
     }
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'perpetrator_category_crossfire',
+    'type' => 'textarea',
+    'display_name_en' => 'To which armed force, group, or other party did the crossfire perpetrator belong?',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_category' => 'crossfire' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -197,7 +223,8 @@ perpetrator_subform_fields = [
     'multi_select' => false,
     'name' => 'perpetrator_children_number',
     'type' => 'numeric_field',
-    'display_name_en' => 'If so, how many? (if known)'
+    'display_name_en' => 'If so, how many? (if known)',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_children' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -214,7 +241,8 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_children_number_estimate',
     'type' => 'tick_box',
     'tick_box_label_en' => 'Yes',
-    'display_name_en' => 'Is this number estimated? '
+    'display_name_en' => 'Is this number estimated?',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_children' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -330,7 +358,8 @@ perpetrator_subform_fields = [
     'multi_select' => false,
     'name' => 'arrest_details',
     'type' => 'textarea',
-    'display_name_en' => 'Please provide additional details'
+    'display_name_en' => 'Please provide additional details',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -347,7 +376,8 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_detention',
     'type' => 'select_box',
     'display_name_en' => 'Was the perpetrator detained?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-yes-no-unknown',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -363,7 +393,13 @@ perpetrator_subform_fields = [
     'multi_select' => false,
     'name' => 'details_detention',
     'type' => 'textarea',
-    'display_name_en' => 'Please provide additional details '
+    'display_name_en' => 'Please provide additional details',
+    'display_conditions_subform' => {
+      'and' => [
+        {'eq' => { 'perpetrator_arrest' => 'true' }},
+        {'eq' => { 'perpetrator_detention' => 'true' }}
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -380,7 +416,8 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_conviction',
     'type' => 'select_box',
     'display_name_en' => 'Was the perpetrator convicted?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-yes-no-unknown',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -396,7 +433,13 @@ perpetrator_subform_fields = [
     'multi_select' => false,
     'name' => 'details_conviction',
     'type' => 'textarea',
-    'display_name_en' => 'Please provide additional details  '
+    'display_name_en' => 'Please provide additional details',
+    'display_conditions_subform' => {
+      'and' => [
+        {'eq' => { 'perpetrator_arrest' => 'true' }},
+        {'eq' => { 'perpetrator_conviction' => 'true' }}
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,

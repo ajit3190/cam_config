@@ -1,0 +1,64 @@
+fr:
+  followup_subform_section:
+    name: 'Sous formulaire de suivi '
+    description: 'Sous formulaire de suivi '
+    fields:
+      followup_needed_by_date:
+        display_name: 'Nécessité d''un suivi par '
+        help_text: "(Ce champ créera un rappel dans la liste des tâches)."
+      followup_date:
+        display_name: 'Date du suivi '
+      followup_with_multi:
+        display_name: Suivi avec
+      other_please_specify:
+        display_name: Si autre, précisez
+      followed_up_through:
+        display_name: Suivi à travers
+        option_strings_text:
+          phone_call: 'Téléphone '
+          instant_message_sms_whatsapp: Message instantané/SMS/WhatsApp
+          email: Email
+          social_media: 'Médias sociaux '
+          ad_hoc_home_visit_child_family: Visite ad hoc à domicile (enfant/famille)
+          scheduled_home_visit_child_family: Visite à domicile programmée (enfant/famille)
+          face_to_face_meeting_outside_of_home_child_family: Rencontre en face à face hors du domicile (enfant/famille)
+          face_to_face_meeting_service_provider_and_child_family: Réunion en face à face (prestataire de services et enfant/famille)
+          face_to_face_meeting_service_provider_only: Réunion en face à face (prestataire de services uniquement)
+          community_based_group: 'Groupe de base au sein de la communauté '
+          authorities: 'Autorités '
+          other: Autre
+      followup_other_specify:
+        display_name: Si autre, précisez
+      followed_specific_action:
+        display_name: Suivi d'une action/service spécifique du plan d'action ?
+      specify_action:
+        display_name: Précisez quelle action/service (du plan d'action) a fait l'objet d'un suivi ou quel autre élément a fait l'objet d'un suivi
+      purpose_followup:
+        display_name: Objectif du suivi
+        help_text: Décrivez la raison du suivi de cette action/service/élément spécifique
+      followup_result_separator:
+        display_name: 'Résultats du suivi '
+      outcome_followup:
+        display_name: 'Résultat du suivi '
+        help_text: Par exemple, des détails sur les mesures prises/services fournis, les résultats des mesures prises/services fournis, des détails sur l'évolution de la situation de l'enfant
+      action_conducted:
+        display_name: S'il y a eu suivi, l'action/service spécifique du plan d'action a-t-il été mis en œuvre  ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          unable_to_determine: Impossible de déterminer
+      situation_changed:
+        display_name: S'il y a eu suivi, la situation de l'enfant a-t-elle changé de manière significative ?
+        option_strings_text:
+          'yes': 'Oui'
+          improved: Amélioré
+          declined: 'Détériorer '
+          'no': 'Non'
+          unable_to_determine: Impossible à déterminer
+      next_steps_separator:
+        display_name: 'Prochaines étapes '
+      need_follow_up_visit:
+        display_name: Un suivi supplémentaire est-il nécessaire ?
+        help_text: Si un suivi supplémentaire est nécessaire, créez un nouveau sous-formulaire pour ce suivi et saisissez la date à laquelle le suivi est nécessaire.
+      other_recommend_followup:
+        display_name: Y a-t-il d'autres recommandations basées sur le suivi effectué ?

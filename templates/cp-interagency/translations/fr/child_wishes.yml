@@ -1,0 +1,45 @@
+fr:
+  child_wishes:
+    name: Souhait de l'enfant
+    description: Souhait de l'enfant
+    fields:
+      wishes_child_family_tracing:
+        display_name: L'enfant veut-il retrouver les membres de sa famille ?
+      wishes_reason_no_tracing:
+        display_name: Si l'enfant ne souhaite PAS que sa famille soit recherchée, expliquez pourquoi
+      wishes_reunification:
+        display_name: L'enfant souhaite-t-il le une réunification familiale ?
+        option_strings_text:
+          yes_as_soon_as_possible: Oui, dès que possible
+          yes_but_later: Oui, mais plus tard
+          not_sure: 'Pas sûr '
+          'no': 'Non'
+      wishes_reason_no_reunification:
+        display_name: Si "Non", "Pas sûr" ou "Oui, mais plus tard", expliquez pourquoi
+      wishes_contacted:
+        display_name: L'enfant a-t-il eu des nouvelles de ses parents ou a-t-il été en contact avec eux ?
+      wishes_contacted_details:
+        display_name: 'Donnez des détails s''il vous plait '
+      child_preferences_section:
+        display_name: 'Préférences de l''enfant '
+      wishes_care_arrangement_desired:
+        display_name: L'enfant souhaite-t-il continuer la prise en charge actuel ?
+      wishes_reason_no_care_arrangement:
+        display_name: Si l'enfant ne veut pas continuer la prise en charge actuel, expliquez pourquoi
+      wishes_care_arrangement_type_desired:
+        display_name: Type de prise en charge que l'enfant souhaite avoir
+        option_strings_text:
+          independent_living: Vie autonome
+          alternative_interim_care: 'Prise en charge alternative '
+          with_husband_wife_partner: Avec son mari/ Femme / Partenaire
+          other_family: 'Autre famille '
+          dont_know: 'Ne sait pas '
+          other: Autre
+      wishes_care_arrangement_type_other:
+        display_name: Si le type de prise en charge que l'enfant souhaite avoir est "Autre", précisez
+      wishes_location_plan_live:
+        display_name: Où l'enfant souhaite-t-il ou prévoit-il vivre ?
+      wishes_address_plan_live:
+        display_name: Rue où l'enfant souhaite/prévoit il vivre ?
+      wishes_landmarks_plan_live:
+        display_name: Points de repère où l'enfant souhaite/prévoit il de vivre ?

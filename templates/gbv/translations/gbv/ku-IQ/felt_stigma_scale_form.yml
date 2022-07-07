@@ -1,0 +1,8 @@
+---
+ku-IQ:
+  felt_stigma_scale_form:
+    name: هەستکرن ب شەرمزاریێ
+    description: هەستکرن ب شەرمزاریێ
+    fields:
+      felt_stigma_section:
+        display_name: نموونا لاوەكی یا هەستكرن ب شەرمزاریێ

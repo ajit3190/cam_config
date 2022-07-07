@@ -16,7 +16,8 @@ create_or_update_role(
       actions: [
         Permission::READ,
         Permission::WRITE,
-        Permission::CREATE
+        Permission::CREATE,
+        Permission::FLAG
       ]
     ),
     Permission.new(
@@ -30,10 +31,10 @@ create_or_update_role(
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
-                                                 attack_on_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
+                                                 attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
                                                  perpetrators_form response source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
-                                                 sexual_violence attack_on denial_humanitarian_access killing_summary maiming_summary
+                                                 sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
                                                  military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
                                                  response_subform_section]),
@@ -42,8 +43,39 @@ create_or_update_role(
 )
 
 create_or_update_role(
+  unique_id: 'role-ip-supervisor',
+  name: 'IP Supervisor',
+  permissions: [
+    Permission.new(
+      resource: Permission::INCIDENT,
+      actions: [
+        Permission::READ,
+        Permission::WRITE,
+        Permission::CREATE,
+        Permission::FLAG
+      ]
+    )
+  ],
+  group_permission: Permission::GROUP,
+  modules: [PrimeroModule.mrm],
+  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+    mrm_reportable_fields incident_record_history military_use_violation_wrapper
+    maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
+    sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
+    attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
+    perpetrators_form response source_subform_section abduction group_victims_section
+    individual_victims_subform_section military_use maiming recruitment killing
+    sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
+    recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
+    military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
+    response_subform_section]),
+  referral: false,
+  transfer: false
+)
+
+create_or_update_role(
   unique_id: 'role-mrm-co-chair',
-  name: 'MRM Co-chair',
+  name: 'MRM Technical Co-chair',
   permissions: [
     Permission.new(
       resource: Permission::INCIDENT,
@@ -72,21 +104,21 @@ create_or_update_role(
     Permission.new(
       resource: Permission::MANAGED_REPORT,
       actions: [
-        Permission::VIOLATION_REPORT
+        Permission::VIOLATION_REPORT,
+        Permission::GHN_REPORT
       ]
     )
   ],
-
   group_permission: Permission::ALL,
   modules: [PrimeroModule.mrm],
   form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
-                                                 attack_on_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
+                                                 attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
                                                  perpetrators_form response source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
-                                                 sexual_violence attack_on denial_humanitarian_access killing_summary maiming_summary
+                                                 sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
                                                  military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
                                                  response_subform_section
@@ -122,20 +154,21 @@ create_or_update_role(
     Permission.new(
       resource: Permission::MANAGED_REPORT,
       actions: [
-        Permission::VIOLATION_REPORT
+        Permission::VIOLATION_REPORT,
+        Permission::GHN_REPORT
       ]
     )
   ],
-  group_permission: Permission::GROUP,
+  group_permission: Permission::SELF,
   modules: [PrimeroModule.mrm],
   form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
-                                                 attack_on_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
+                                                 attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
                                                  perpetrators_form response source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
-                                                 sexual_violence attack_on denial_humanitarian_access killing_summary maiming_summary
+                                                 sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
                                                  military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
                                                  response_subform_section]),
@@ -168,7 +201,8 @@ create_or_update_role(
     Permission.new(
       resource: Permission::MANAGED_REPORT,
       actions: [
-        Permission::VIOLATION_REPORT
+        Permission::VIOLATION_REPORT,
+        Permission::GHN_REPORT
       ]
     )
   ],
@@ -178,10 +212,10 @@ create_or_update_role(
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
-                                                 attack_on_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
+                                                 attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
                                                  perpetrators_form response source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
-                                                 sexual_violence attack_on denial_humanitarian_access killing_summary maiming_summary
+                                                 sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
                                                  military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
                                                  response_subform_section
@@ -244,17 +278,10 @@ create_or_update_role(
       ]
     ),
     Permission.new(
-      resource: Permission::AGENCY,
-      actions: [
-        Permission::READ,
-        Permission::CREATE,
-        Permission::WRITE
-      ]
-    ),
-    Permission.new(
       resource: Permission::MANAGED_REPORT,
       actions: [
-        Permission::VIOLATION_REPORT
+        Permission::VIOLATION_REPORT,
+        Permission::GHN_REPORT
       ]
     )
   ],
@@ -316,7 +343,8 @@ superuser_permissions = [
   Permission.new(
     resource: Permission::MANAGED_REPORT,
     actions: [
-      Permission::VIOLATION_REPORT
+      Permission::VIOLATION_REPORT,
+      Permission::GHN_REPORT
     ]
   )
 ]
@@ -327,4 +355,34 @@ create_or_update_role(
   permissions: superuser_permissions,
   group_permission: Permission::ALL,
   modules: [PrimeroModule.mrm]
+)
+
+create_or_update_role(
+  unique_id: 'role-unicef-field-officer',
+  name: 'Unicef Field Officer',
+  permissions: [
+    Permission.new(
+      resource: Permission::INCIDENT,
+      actions: [
+        Permission::READ,
+        Permission::WRITE,
+        Permission::FLAG
+      ]
+    )
+  ],
+  group_permission: Permission::ALL,
+  modules: [PrimeroModule.mrm],
+  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+    mrm_reportable_fields incident_record_history military_use_violation_wrapper
+    maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
+    sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
+    attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
+    perpetrators_form response source_subform_section abduction group_victims_section
+    individual_victims_subform_section military_use maiming recruitment killing
+    sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
+    recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
+    military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
+    response_subform_section]),
+  referral: false,
+  transfer: false
 )

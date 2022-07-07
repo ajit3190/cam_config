@@ -1,0 +1,82 @@
+fa-AF:
+  unhcr_bid_report_subform:
+    name: راپور پیچیده UNHCR BID
+    description: فورم فرعی UNHCR BID
+    fields:
+      bid_date:
+        display_name: تاریخ انترویوی BID
+      bid_participants:
+        display_name: 'تمام اشتراک کننده گان انترویو را کست کنید '
+        help_text: اشخاص یا مصاحبه شونده ، مصاحبه کننده و مترجم (در صورت لزوم) را شامل کنید.
+      bid_separation_status:
+        display_name: وضعیت جدایی کودک
+        option_strings_text:
+          unaccompanied: 'بی همرا '
+          separated: 'جدا شده '
+          orphan: یتیم
+          none_of_the_above: 'هیچکدام که در بالا ذکر است '
+      bid_purpose:
+        display_name: هدف BID
+        option_strings_text:
+          durable_solution: 'راه حل دلیمی '
+          family_reunification: 'الحاق فامیلی '
+          temporary_care_arrangements: ترتیب مراقبت موقت
+          separation_from_parents_caregiver: جدایی از والدین / مراقبت کننده
+          other: وغیره
+      bid_purpose_other:
+        display_name: 'اگر وغیره ,لطفآ مشخص سازید '
+      bid_priority:
+        display_name: الویت قضیه
+        option_strings_text:
+          emergency: عاجل
+          high: بلند
+          medium: میانه
+          low: پایین
+      bid_priority_reasons:
+        display_name: دلیل برای الویت
+      bid_specific_needs:
+        display_name: نیاز مندی مشخص طفل
+      bid_brief_summary:
+        display_name: 'لطفآمسایل کلیدی را مشخص کنید '
+        guiding_questions: ' مثلآ ترتیب مراقبت فعلی ، معلومات در مورد والدین و خانواده و گزینه های مورد نظر'
+      bid_separator_recommendations:
+        display_name: گزینه ها و پیشنهادات
+      bid_child_history:
+        display_name: لطفاً تاریخچه طفل را قبل و در حین پرواز / جدایی ثبت کنید.
+        guiding_questions: خاطرات طفل راجع به پرواز / جدایی و شواهد ارائه شده توسط افراد نزدیک به طفل  (در صورت مصاحبه) را ذکر کنید. نحوه تأیید این اطلاعات را مشخص کنید.
+      bid_current_situation:
+        display_name: لطفاً وضعیت زندگی فعلی طفل را شرح دهید
+        guiding_questions: |-
+          ترتیب مراقبت های فعلی ، شرایط زندگی ، محافظتی ، روابط با والدین رضاعی / خواهر و برادر / مراقبان مراقبت / سایر اعضای خانواده.
+          - شبکه های جامعه ، آموزش و حضور در مکتب  ؛
+          - ارزیابی سن و بلوغ طفل ، سلامت جسمی و روانی و ارزیابی نیازهای خاص. لطفاً بگویید با چه کسی تماس گرفته شده و چه کسی امعلومات  را ارائه کرده ، به عنوان مثال کودک ، خانواده ، افراد نزدیک به کودک ، مراقبت کننده گان  ، معلمان ، همسایگان ، کارمندان اجتماعی / کارمندان سازمان های غیردولتی.
+      bid_available_options:
+        display_name: 'لطفاً تمام گزینه های موجود و سازوکارهای پیگیری و هریک را تجزیه و تحلیل کنید '
+        guiding_questions: |-
+          طلفاً در توصیه مواردی که به نفع طفل است ، در زیر عناوین زیر به تمام عواملی که در چک لیست پیوست 9 وجود دارد ، رجوع کنید:
+          - دیدگاه های طفل
+          - فامیل و قرابت نزدیک
+          - محیط امن
+          - نیازهای توسعه و هویت
+      bid_final_recommendations:
+        display_name: لطفاً آخرین پیشنهادات و دلایل را ارائه دهید
+      bid_separator_panel_decision:
+        display_name: فیصله هیآت
+      bid_date_panel_decision:
+        display_name: 'تاریخ فیصله هیآت '
+      bid_panel_members:
+        display_name: نام و موسسه اعضای هیآت
+      bid_panel_decision:
+        display_name: 'هیآت '
+        option_strings_text:
+          approves_the_recommendations: پیشنهادات  را تآیید می کند
+          defers_decison_please_explain_why: اگر فیصله ها را به تآخیر میاندازد توضیح کنید که چرا؟
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: پیشنهادات ا تأیید نمی کند (لطفاً توضیح دهید که چرا؟و پیشنهادات هیئت را ارائه کنید )
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: باز کردن قضیه  (لطفاً توضیح دهید که چرا و چه کسی درخواست بازگشایی کرده است)
+          closes_the_case: بستن قضیه
+      bid_panel_decision_reasons:
+        display_name: دلایل مطلق برای این تصمیم
+      bid_panel_decision_actions:
+        display_name: اقدامات پیگیری مورد نیاز را شرح دهید
+      bid_panel_comments:
+        display_name: نظریات

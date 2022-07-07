@@ -1,0 +1,18 @@
+---
+en:
+  psychosocial_counseling_services_subform_section:
+    name: "نموونەی لاوەكی خزمەتگوزاری پێكەوەگرێدراوی دەروونی كۆمەڵایەتی/راوێژكاری "
+    description: "نموونەی لاوەكی خزمەتگوزاری پێكەوەگرێدراوی دەروونی كۆمەڵایەتی/راوێژكاری "
+    fields:
+      service_psycho_referral:
+        display_name: ئایا تۆ وەرگری خزمەتگوزاریت رەوانە كردووە بۆ خزمەتگوزارییەکانی دەروونی كۆمەڵایەتی/راوێژكاری
+      service_psycho_appointment_date:
+        display_name: "رێككەوتی چاوپێكەوتن\n "
+      service_psycho_appointment_time:
+        display_name: "رێككەوتی چاوپێكەوتن\n "
+      service_psycho_provider:
+        display_name: "دابینكاری خزمەتگوزاری\n "
+      service_psycho_service_location:
+        display_name: "شوێنی خزمەتگوزاری\n "
+      service_psycho_referral_notes:
+        display_name: "تێبینییەكان\n "

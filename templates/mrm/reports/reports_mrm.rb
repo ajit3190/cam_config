@@ -20,7 +20,7 @@ Report.create_or_update!(
     },
     {
       'attribute' => 'category',
-      'value' => ['attack_on']
+      'value' => ['attack_on_hospitals', 'attack_on_schools']
     },
     {
       'attribute' => 'facility_attack_type',
@@ -239,7 +239,7 @@ Report.create_or_update!(
     },
     {
       'attribute' => 'category',
-      'value' => ['attack_on']
+      'value' => ['attack_on_hospitals', 'attack_on_schools']
     },
     {
       'attribute' => 'school_type',
@@ -371,8 +371,8 @@ Report.create_or_update!(
 )
 
 Report.create_or_update!(
-  name_en: 'Rape and/or other forms of sexual violence',
-  description_en: 'Rape and/or other forms of sexual violence by CTFMR verification status',
+  name_en: 'Rape and other forms of sexual violence',
+  description_en: 'Rape and other forms of sexual violence by CTFMR verification status',
   module_id: PrimeroModule::MRM,
   record_type: 'violation',
   aggregate_by: ['ctfmr_verified'],
@@ -459,7 +459,7 @@ Report.create_or_update!(
     },
     {
       'attribute' => 'category',
-      'value' => ['attack_on']
+      'value' => ['attack_on_hospitals', 'attack_on_schools']
     },
     {
       'attribute' => 'health_type',

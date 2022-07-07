@@ -1,0 +1,8 @@
+---
+ar:
+  family_details:
+    name: تفاصيل العائلة
+    description: تفاصيل العائلة
+    fields:
+      family_details_section:
+        display_name: تفاصيل العائلة

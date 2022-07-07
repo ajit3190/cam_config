@@ -1,0 +1,58 @@
+uk:
+  family_details_section:
+    name: Вкладені Подробиці про сім'ю
+    description: Субформа Подробиці про сім'ю
+    fields:
+      relation_name:
+        display_name: Ім`я
+      relation:
+        display_name: Як вони пов’язані з дитиною?
+      relation_lives_with_child:
+        display_name: Ця людина проживає з дитиною?
+        tick_box_label: 'Так'
+      relation_nickname:
+        display_name: Інші імена або написання відомі як
+        help_text: наприклад, псевдонім, друге прізвище
+      relation_is_alive:
+        display_name: Цей член сім'ї живий?
+        option_strings_text:
+          unknown: Невідомо
+          alive: Живий
+          dead: Мертвий
+      relation_death_details:
+        display_name: Якщо помер, надайте деталі
+        help_text: 'Включіть дату смерті, якщо відома'
+      relation_age:
+        display_name: Вік
+      relation_date_of_birth:
+        display_name: Дата народження
+      relation_age_estimated:
+        display_name: Чи це приблизний вік?
+        tick_box_label: 'Так'
+      relation_national_id:
+        display_name: Національние посвідчення особи
+      relation_unhcr_individual_id:
+        display_name: Посвідчення особи УВКБ ООН
+      relation_other_id:
+        display_name: Інше посвідчення особи
+      relation_ethnicity:
+        display_name: Етнічність
+      relation_sub_ethnicity1:
+        display_name: Підетнічність 1
+      relation_sub_ethnicity2:
+        display_name: Підетнічність 2
+      relation_occupation:
+        display_name: Професія
+      relation_address_current:
+        display_name: Поточна адреса (якщо відрізняється від дитини)
+      relation_landmark_current:
+        display_name: Поточний орієнтир
+      relation_location_current:
+        display_name: Поточне місцерозташування
+      relation_telephone:
+        display_name: Телефон / інші контактні дані
+      child_consent_relation_contact:
+        display_name: Чи погоджується дитина, щоб цю особу проконтактували?
+        tick_box_label: 'Так'
+      no_consent_provide_details:
+        display_name: 'Якщо ні, надайте, будь ласка, деталі:'

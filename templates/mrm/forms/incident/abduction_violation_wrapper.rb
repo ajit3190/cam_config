@@ -63,7 +63,8 @@ abduction_subform_fields = [
     'multi_select' => false,
     'name' => 'abduction_purpose_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details"
+    'display_name_en' => "If ‘Other', please provide details",
+    'display_conditions_subform' => { 'in' => { 'abduction_purpose' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -164,7 +165,8 @@ abduction_subform_fields = [
     'type' => 'select_box',
     'multi_select' => true,
     'display_name_en' => "If 'Yes', please specify:",
-    'option_strings_source' => 'lookup lookup-violation-type'
+    'option_strings_source' => 'lookup lookup-violation-type',
+    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -198,7 +200,8 @@ abduction_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'If yes, how did the abduction end?',
     'multi_select' => true,
-    'option_strings_source' => 'lookup lookup-regained-freedom-how'
+    'option_strings_source' => 'lookup lookup-regained-freedom-how',
+    'display_conditions_subform' => { 'eq' => { 'abduction_regained_freedom' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -214,7 +217,13 @@ abduction_subform_fields = [
     'multi_select' => false,
     'name' => 'abduction_regained_freedom_how_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details "
+    'display_name_en' => "If ‘Other', please provide details ",
+    'display_conditions_subform' => {
+      'and' => [
+        {'eq' => { 'abduction_regained_freedom' => 'true' }},
+        {'in' => { 'abduction_regained_freedom_how' => %w[other] }}
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -306,7 +315,7 @@ abduction_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -317,7 +326,7 @@ abduction_subform_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -330,7 +339,8 @@ abduction_subform_fields = [
     'name' => 'verified',
     'type' => 'select_box',
     'display_name_en' => 'Initial verification status as determined by the focal point',
-    'option_strings_source' => 'lookup lookup-verification-status'
+    'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -346,7 +356,9 @@ abduction_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_focal_point',
     'type' => 'date_field',
-    'display_name_en' => 'Date of determination of verification status by focal point.'
+    'date_validation' => 'not_future_date',
+    'display_name_en' => 'Date of determination of verification status by focal point.',
+    'display_conditions_subform' => { 'eq' => { 'verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -356,7 +368,7 @@ abduction_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -379,12 +391,13 @@ abduction_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_ctfmr_technical',
     'type' => 'date_field',
+    'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of joint verification decision by the CTFMR co-chairs at the technical level.',
     'help_text_en' => 'This can be e.g., the date of the periodic meeting during which the CTFMR co-chairs at the technical level jointly review the incidents of grave violations and determine their verification status.'
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -398,6 +411,7 @@ abduction_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'Verification status as agreed by the CTFMR',
     'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification',
     'help_text_en' => "Please provide further details in the 'Additional details on verification process/decision' box.This field is required for reporting."
   ),
   Field.new(
@@ -415,7 +429,9 @@ abduction_subform_fields = [
     'name' => 'ctfmr_verified_date',
     'type' => 'date_field',
     'display_name_en' => 'Date of Verification decision by CTFMR',
-    'help_text_en' => ''
+    'date_validation' => 'not_future_date',
+    'help_text_en' => '',
+    'display_conditions_subform' => { 'eq' => { 'ctfmr_verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -433,6 +449,24 @@ abduction_subform_fields = [
     'type' => 'textarea',
     'display_name_en' => 'Additional details on verification process/decision',
     'help_text_en' => 'If verification is still pending or incident was excluded, please provide further details.'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'verified_ghn_reported',
+    'type' => 'select_box',
+    'display_name_en' => 'Specify the GHN in which this incident was included ',
+    'option_strings_source' => 'lookup lookup-verified-ghn-reported',
+    'help_text_en' => 'Please enter the year first (e.g. 2022), then you will be able to select between the four quarters of the year and the relevant GHN.'
   )
 ]
 
@@ -491,7 +525,8 @@ abduction_fields = [
     'subform_section' => abduction_subform,
     'display_name_en' => 'Abduction',
     'expose_unique_id' => true,
-    'guiding_questions_en' => "For the purposes of the MRM, the abduction of children is the removal, seizure or capture of a person under 18 years of age, either temporarily or permanently, for the purpose of any form of exploitation of the child or other unlawful purpose. The abduction must take place in a situation of armed conflict and be perpetrated by a party to conflict, including non-state armed groups and armed forces, and may take place within a country or across borders (see also MRM Field Manual, p. 6 and Annex 3: Abduction\u0026Detention – Clarification, pp. 70-71, 77; see also OSRSG-CAAC-UNICEF-DPKO Note to Country Task Forces on Monitoring and Reporting Abduction of Children, December 2016)."
+    'guiding_questions_en' => "For the purposes of the MRM, the abduction of children is the removal, seizure or capture of a person under 18 years of age, either temporarily or permanently, for the purpose of any form of exploitation of the child or other unlawful purpose. The abduction must take place in a situation of armed conflict and be perpetrated by a party to conflict, including non-state armed groups and armed forces, and may take place within a country or across borders (see also MRM Field Manual, p. 6 and Annex 3: Abduction\u0026Detention – Clarification, pp. 70-71, 77; see also OSRSG-CAAC-UNICEF-DPKO Note to Country Task Forces on Monitoring and Reporting Abduction of Children, December 2016).",
+    'display_conditions_record' => { 'in' => { 'violation_category' => %w[abduction] } }
   )
 ]
 
@@ -511,5 +546,6 @@ FormSection.create_or_update!(
   is_first_tab: false,
   initial_subforms: 0,
   mobile_form: false,
-  form_group_id: 'violations'
+  form_group_id: 'violations',
+  display_conditions: { 'in' => { 'violation_category' => %w[abduction] } }
 )

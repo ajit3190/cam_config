@@ -1,0 +1,48 @@
+ps-AF:
+  cp_case_plan:
+    name: د قضیې پلان
+    description: د قضیې پلان
+    fields:
+      case_plan_approved:
+        display_name: د مدیر لخوا منل شوی
+        tick_box_label: 'هو'
+      case_plan_approved_date:
+        display_name: نیټه
+      case_plan_approved_comments:
+        display_name: د مدیر تبصره
+      approval_status_case_plan:
+        display_name: د تاییدی وضعیت
+      case_plan_section_header:
+        display_name: د قضیې پلان
+      date_case_plan:
+        display_name: دقضیې پلان د پيل کیدو نیټه
+        help_text: دا ساحه د کاري جریان د حالت لپاره کارول کیږي
+      date_case_plan_agreed:
+        display_name: د قضیې پلان د منل کیدو نیټه
+      protection_concerns:
+        display_name: د ساتنې اندیښنې
+      protection_concerns_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      case_plan_separator:
+        display_name: د قضیې پلان عمومي هدف
+      case_plan_goal:
+        display_name: کلي هدف
+        help_text: ' سمارټ هدف مشخص کړئ (مشخص ، اندازه کولو ، لاسته راوړل / موافقه شوي ، واقعیت / اړوند ، او وخت پورې اړوند) هدف'
+      case_plan_header:
+        display_name: د مداخلې پلان او هغه خدمات چې باید ترسره شي
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: د مداخلې پلان او د خدماتو جزیات
+      approval_separator:
+        display_name: تصویب او موافقې
+      interventions_names_involved:
+        display_name: د پلان په جوړولو کې د دخیل کسانو د ماشوم سره اړیکه او نومونه یې
+      interventions_details_disagree:
+        display_name: د هغه چا توضیحات چې څوک د پلان له برخو سره موافق ندي او ولې
+      interventions_child_involved:
+        display_name: ایا ماشوم د قضیې په پلان جوړولو کې دخیل و؟
+      interventions_steps:
+        display_name: که نه ، ولې؟
+      interventions_caregiver_involved:
+        display_name: ایا د ماشوم سرپرست د قضیې په پلان جوړولو کې دخیل و؟
+      interventions_caregiver_steps:
+        display_name: که نه وي ، ولې؟

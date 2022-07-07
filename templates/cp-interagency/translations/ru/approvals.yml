@@ -1,0 +1,7 @@
+ru:
+  approvals:
+    name: Согласования
+    description: Согласования
+    fields:
+      approval_subforms:
+        display_name: Согласование

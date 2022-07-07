@@ -1,0 +1,15 @@
+ro:
+  protection_concern:
+    name: Preocupări Protecție
+    description: Preocupări protecție
+    fields:
+      risk_level:
+        display_name: Nivel Risk
+      displacement_status:
+        display_name: Grup din Populație
+      displacement_status_other:
+        display_name: Dacă altceva, te rugăm să detaliezi
+      protection_concerns:
+        display_name: Preocupări Protecție
+      protection_concerns_other:
+        display_name: Dacă altceva, te rugăm să detaliezi

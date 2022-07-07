@@ -71,7 +71,7 @@ Lookup.create_or_update!(
 )
 
 Lookup.create_or_update!(
-  unique_id: 'lookup-gbv-elapsed-time-range',
+  unique_id: 'lookup-elapsed-reporting-time',
   name_en: 'GBV Elapsed Reporting Time Range',
   lookup_values_en: [
     { id: '0_3_days', display_text: '0-3 Days' },
@@ -80,6 +80,29 @@ Lookup.create_or_update!(
     { id: '2_weeks_1_month', display_text: '2 Weeks - 1 Month' },
     { id: 'over_1_month', display_text: 'Over 1 month' }
   ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-gbv-incident-location-type',
+  name_en: 'GBV Incident Location Type',
+  lookup_values_en: [
+    { id: 'forest', display_text: 'Bush/Forest' },
+    { id: 'garden', display_text: 'Garden/Cultivated Field' },
+    { id: 'school', display_text: 'School' },
+    { id: 'road', display_text: 'Road' },
+    { id: 'clients_home', display_text: "Client's Home" },
+    { id: 'perpetrators_home', display_text: "Perpetrator's Home" },
+    { id: 'other', display_text: 'Other' },
+    { id: 'market', display_text: 'Market' },
+    { id: 'streamside', display_text: 'Streamside' },
+    { id: 'beach', display_text: 'Beach' },
+    { id: 'farm', display_text: 'Farm' },
+    { id: 'latrine', display_text: 'Latrine' },
+    { id: 'perpetrators_friends_home', display_text: "Perpetrator's Friend's Home" },
+    { id: 'entertainment_centre', display_text: 'Entertainment Centre' },
+    { id: 'unfinished_house', display_text: 'Unfinished House' },
+    { id: 'guest_house_hotel', display_text: 'Guest House - Hotel' }
+  ]
 )
 
 Lookup.create_or_update!(
@@ -283,11 +306,11 @@ Lookup.create_or_update!(
   name_en: 'Psychosocial Functionality Scale',
   locked: true,
   lookup_values: [
-    { id: 'scale_zero', display_text: 'Not difficult at all (0 pts)' },
-    { id: 'scale_one', display_text: 'A little bit difficult (1 pt)' },
-    { id: 'scale_two', display_text: 'Difficult (2 pts)' },
-    { id: 'scale_three', display_text: 'Very difficult (3 pts)' },
-    { id: 'scale_four', display_text: 'So difficult that you often cannot do it (4 pts)' }
+    { id: '0', display_text: 'Not difficult at all (0 pts)' },
+    { id: '1', display_text: 'A little bit difficult (1 pt)' },
+    { id: '2', display_text: 'Difficult (2 pts)' },
+    { id: '3', display_text: 'Very difficult (3 pts)' },
+    { id: '4', display_text: 'So difficult that you often cannot do it (4 pts)' }
   ].map(&:with_indifferent_access)
 )
 
@@ -296,10 +319,10 @@ Lookup.create_or_update!(
   name_en: 'Felt Stigma Scale',
   locked: true,
   lookup_values: [
-    { id: 'scale_zero', display_text: 'Not at all (0 pts)' },
-    { id: 'scale_one', display_text: 'A little bit (1 pt)' },
-    { id: 'scale_two', display_text: 'A moderate amount (2 pts)' },
-    { id: 'scale_three', display_text: 'A lot (3 pts)' }
+    { id: '0', display_text: 'Not at all (0 pts)' },
+    { id: '1', display_text: 'A little bit (1 pt)' },
+    { id: '2', display_text: 'A moderate amount (2 pts)' },
+    { id: '3', display_text: 'A lot (3 pts)' }
   ].map(&:with_indifferent_access)
 )
 
@@ -344,5 +367,19 @@ Lookup.create_or_update!(
     { id: 'scale_three', display_text: 'Not at all judgemental' },
     { id: 'scale_two', display_text: 'Somewhat judgemental' },
     { id: 'scale_one', display_text: 'Completely judgemental' }
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-gbv-case-context',
+  name_en: 'GBV Case Context',
+  locked: true,
+  lookup_values: [
+    { id: 'intimate_partner_violence', display_text: 'Intimate Partner Violence' },
+    { id: 'child_sexual_abuse', display_text: 'Child Sexual Abuse' },
+    { id: 'early_marriage', display_text: 'Early Marriage' },
+    { id: 'possible_sexual_exploitation', display_text: 'Possible Sexual Exploitation' },
+    { id: 'possible_sexual_slavery', display_text: 'Possible Sexual Slavery' },
+    { id: 'harmful_traditional_practice', display_text: 'Harmful Traditional Practice' }
   ].map(&:with_indifferent_access)
 )

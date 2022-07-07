@@ -1,0 +1,9 @@
+---
+ar:
+  tracing_request_photos_and_audio:
+    name: الصورة و الصوت
+    fields:
+      current_photo_key:
+        display_name: مفتاح الصورة الحالي
+      recorded_audio:
+        display_name: تسجيل صوتي

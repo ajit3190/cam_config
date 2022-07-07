@@ -1,0 +1,15 @@
+ps-AF:
+  protection_concern:
+    name: د ساتنې اندیښنې
+    description: د ساتنې اندیښنې
+    fields:
+      risk_level:
+        display_name: د خطر اندازه
+      displacement_status:
+        display_name: د نفوسو ډله
+      displacement_status_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      protection_concerns:
+        display_name: د ساتنې اندیښنې
+      protection_concerns_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ

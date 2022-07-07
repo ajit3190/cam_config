@@ -1,0 +1,37 @@
+ro:
+  cp_case_plan_subform_case_plan_interventions:
+    name: Lista intervențiilor și serviciilor
+    description: Lista intervențiilor și serviciilor
+    fields:
+      intervention_service_to_be_provided:
+        display_name: Numărul intervențiilor/ serviciilor de oferit
+      intervention_service_goal:
+        display_name: Nevoia adresată de intervenții/ servicii
+        guiding_questions: Conform cu rezultatul Evaluării, de ex. îngrijire alternativă, securitate (de exemplu, adăpost sigur), educație (formală), educație non-formală, urmărirea și reîntregirea familiei, sprijin psihosocial de bază, îngrijire MHPSS nespecializată, servicii specializate MHPSS, alimente, articole nealimentare, asistență cu bani, bunuri de strictă necesitate, medicale, de nutriție, suport juridic, documentare, servicii pentru copiii cu dizabilități, sănătate sexuală și reproductivă, adăpost, WASH, soluție durabilă, relocare.
+      case_plan_provider_and_contact_details:
+        display_name: Persoana/ organizația/ instituția care furnizează serviciul sau implementează intervenția/ serviciile și datele de contact
+      case_plan_timeframe:
+        display_name: Data scadentă
+        help_text: zz/ll/aa
+      case_plan_monitoring_schedule:
+        display_name: Revenire/ program monitorizare
+        guiding_questions: |-
+          De exemplu, revenire săptămâna viitoare, luni, cu privire la serviciile care urmează să fie furnizate și în săptămâna viitoare, vineri, cu privire la situația copilului. Reveniți și monitorizați cel puțin de două ori pe săptămână în următoarea lună.
+          Dacă situația progresează conform așteptărilor, atunci modificați programul de revenire și monitorizare începând cu luna viitoare, pe baza întâlnirii de revizuire și a nivelului de risc înregistrat la sfârșitul acestei luni.
+        option_strings_text:
+          one_time: O dată
+          daily: Zilnic
+          weekly: Săptămânal
+          monthly: Lunar
+          other: Altfel
+      case_plan_monitoring_schedule_notes:
+        display_name: Notițe revenire/ program monitorizare
+      interventions_status:
+        display_name: Status
+        option_strings_text:
+          pending: În așteptare
+          ongoing: În desfășurare
+          completed: Complet
+      interventions_notes:
+        display_name: Notițe
+        guiding_questions: De exemplu, punctele forte și barierele care fie pot ajuta/ sprijini progresul, fie pot împiedica realizarea

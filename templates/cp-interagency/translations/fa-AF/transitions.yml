@@ -1,0 +1,42 @@
+fa-AF:
+  transitions:
+    name: 'فورم فرعی پیچیده انتقال '
+    description: 'فورم فرعی انتقال '
+    fields:
+      type:
+        display_name: نوعیت
+      to_user_local:
+        display_name: کاربر محلی
+      to_user_remote:
+        display_name: کاربر از راه دور
+      to_user_local_status:
+        display_name: 'وضیعت '
+        option_strings_text:
+          in_progress: 'در پیشرفت '
+          pending: تعلیق
+          accepted: 'قبول شده '
+          rejected: رد شده
+          done: شده
+      rejected_reason:
+        display_name: دلیل رد شد (در صورت تطبیفق)
+      to_user_agency:
+        display_name: نهاد / موسسه کاربری از راه دور
+      notes:
+        display_name: 'یادداشت ها '
+      transitioned_by:
+        display_name: منتقل شده یاراجع شده توسط
+      service:
+        display_name: حدمات
+      is_remote:
+        display_name: آیا مراجعه یا انتقال به سیستم از راه دور است؟
+        tick_box_label: 'بلی '
+      type_of_export:
+        display_name: چه نوع بیرون رفت  را می خواهید
+      consent_overridden:
+        display_name: عدم رضایت برای به اشتراک گذاشتن تنظیمات لغو شده
+        tick_box_label: 'بلی '
+      consent_individual_transfer:
+        display_name: آیا کارمند قضیه رضایت کودک را برای انجام این انتقال داشته است؟
+        tick_box_label: 'بلی'
+      created_at:
+        display_name: تاریخ مراجعه یا انتقال

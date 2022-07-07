@@ -1,0 +1,77 @@
+---
+ar:
+  tracing_request_inquirer:
+    name: المستعلم
+    description: المستعلم
+    fields:
+      tracing_request_id:
+        display_name: الهوية الشخصية كاملة
+      short_id:
+        display_name: الهوية الشخصية للمستعلم
+      inquiry_date:
+        display_name: تاريخ الاستعلام
+      inquiry_status:
+        display_name: حالة الاستعلام
+      inquirer_details_section:
+        display_name: معلومات المستعلم
+      relation_name:
+        display_name: اسم المستعلم
+      relation_nickname:
+        display_name: لقب المستعلم
+      relation_age:
+        display_name: العمر
+      relation_date_of_birth:
+        display_name: تاريخ الميلاد
+      relation_language:
+        display_name: اللغة
+      relation_religion:
+        display_name: الدين
+      relation_ethnicity:
+        display_name: العرق
+      relation_sub_ethnicity1:
+        display_name: العرق الفرعي 1
+      relation_sub_ethnicity2:
+        display_name: العرق الفرعي 2
+      relation_nationality:
+        display_name: الجنسية
+      relation_comments:
+        display_name: تعليقات / تفاصيل اضافية
+      contact_information_section:
+        display_name: معلومات الاتصال
+      relation_address_current:
+        display_name: العنوان الحالي
+      relation_location_current:
+        display_name: الموقع الحالي
+      relation_address_is_permanent:
+        display_name: هل هذا موق دائم؟
+      relation_telephone:
+        display_name: الهاتف
+      separation_history_section:
+        display_name: تاريخ الانفصال
+      date_of_separation:
+        display_name: تاريخ الانفصال
+      separation_cause:
+        display_name: ما هو السبب الرئيسي للانفصال
+      separation_cause_other:
+        display_name: إذا كان  غير ذلك ، يرجى التحديد
+      separation_evacuation:
+        display_name: هل وقع الانفصال بسبب شيئ له علاقة بالإخلاء؟
+      separation_details:
+        display_name: ظروف الانفصال (يرجى تقديم التفاصيل)
+      address_separation:
+        display_name: عنوان الانفصال (مكان)
+      location_separation:
+        display_name: مكان الانفصال
+      address_last:
+        display_name: اخر عنوان
+      landmark_last:
+        display_name: آخر مَعلَم معروف
+      location_last:
+        display_name: آخر موقع
+      telephone_last:
+        display_name: اخر رقم هاتف
+      additional_tracing_info:
+        display_name: معلومات إضافية يمكن أن تساعد في عملية التتبع
+      disclosure_other_orgs:
+        display_name: هل يوافق المستعلم على مشاركة المعلومات التي تم جمعها مع المنظمات الأخرى؟
+        tick_box_label: 'نعم'

@@ -1,0 +1,7 @@
+es:
+  review:
+    name: Revisión de caso
+    description: Revisión de caso
+    fields:
+      review_section:
+        display_name: Revisión de caso

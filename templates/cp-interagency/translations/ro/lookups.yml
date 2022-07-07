@@ -1,0 +1,849 @@
+ro:
+  lookup-age-group-type:
+    name: Tip Categorie Vârstă
+    lookup_values:
+      adult: Adult
+      minor: Minor
+      unknown: Necunoscut
+  lookup-agency-office:
+    name: Biroul Organizației/ Instituției
+    lookup_values:
+      agency_office_1: Organizație/ instituție 1
+      agency_office_2: Organizație/ instituție 2
+      agency_office_3: Organizație/ instituție 3
+      agency_office_4: Organizație/ instituție 4
+      agency_office_5: Organizație/ instituție 5
+  lookup-approval-for:
+    name: Aprobare pentru
+    lookup_values:
+      bia: BIA/ Evaluare a interesului superior al copilului
+      case_plan: Plan Servicii
+      closure: Închidere
+  lookup-approval-status:
+    name: Status Aprobare
+    lookup_values:
+      requested: Solicitat
+      pending: În așteptare
+      approved: Aprobat
+      rejected: Respins
+  lookup-approval-type:
+    name: Tip Aprobare
+    lookup_values:
+      case_plan: Plan Servicii
+      action_plan: Plan Intervenții
+      service_provision: Furnizare Servicii
+  lookup-armed-force-group-name:
+    name: Denumire Grup Forțe Armate
+    lookup_values:
+      armed_force_or_group_1: Grup Forțe Armate 1
+      armed_force_or_group_2: Grup Forțe Armate 2
+      armed_force_or_group_3: Grup Forțe Armate 3
+      other_please_specify: Dacă altceva, te rugăm să detaliezi
+  lookup-armed-force-group-type:
+    name: Tip Grup Forțe Armate
+    lookup_values:
+      national_army: Armata Națională
+      security_forces: Forțe de Securitate
+      international_forces: Trupe Internaționale
+      police_forces: Trupe de Poliție
+      para-military_forces: Grupări Paramilitare
+      unknown: Necunoscut
+      other: Altceva
+  lookup-assessment-duration:
+    name: Durată Evaluare
+    lookup_values:
+      less_than_15_minutes: Mai puțin de 15 minute
+      16_30_minutes: 16-30 minute
+      31_minutes_1_hour: 31 minute-1 oră
+      1_2_hours: 1-2 ore
+      more_than_2_hours: Mai mult de 2 ore
+  lookup-assessment-progress:
+    name: Progres Evaluare
+    lookup_values:
+      n_a: Non răspuns
+      in_progress: În așteptare
+      met: Met
+  lookup-case-status:
+    name: Status Caz
+    lookup_values:
+      open: Deschis
+      closed: Închis
+      transferred: Transferat
+      duplicate: Duplicat
+  lookup-child-minor-age-group:
+    name: Grupa de vârstă a Copilului/ Minorului
+    lookup_values:
+      0_5_year_old: 0-5 ani
+      6_12_year_old: 6-12 ani
+      13_17_year_old: 13-17 ani
+  lookup-conference-case-status:
+    name: Status Conferință Caz
+    lookup_values:
+      open: Cazul va rămâne deschis
+      closed: Cazul va fi închis
+      transferred: Cazul va fi transferat
+      other: Altceva
+  lookup-country:
+    name: Țara
+    lookup_values:
+      afghanistan: Afganistan
+      albania: Albania
+      algeria: Algeria
+      andorra: Andorra
+      angola: Angola
+      antigua_and_barbuda: Antigua și Barbuda
+      argentina: Argentina
+      armenia: Armenia
+      australia: Australia
+      austria: Austria
+      azerbaijan: Azerbaijan
+      bahamas: Bahamas
+      bahrain: Bahrain
+      bangladesh: Bangladesh
+      barbados: Barbados
+      belarus: Belarus
+      belgium: Belgia
+      belize: Belize
+      benin: Benin
+      bhutan: Bhutan
+      bolivia: Bolivia
+      bosnia_and_herzegovina: Bosnia şi Herţegovina
+      botswana: Botswana
+      brazil: Brazilia
+      brunei: Brunei
+      bulgaria: Bulgaria
+      burkina_faso: Burkina Faso
+      burundi: Burundi
+      cabo_verde: Capul Verde
+      cambodia: Cambodgia
+      cameroon: Camerun
+      canada: Canada
+      central_african_republic: Republica Centrafricană
+      chad: Ciad
+      chile: Chile
+      china: China
+      colombia: Columbia
+      comoros: Comore
+      congo: Republica Congo
+      drc: Republica Democrată Congo
+      costa_rica: Costa Rica
+      cote_divoire: Coasta de Fildeş
+      croatia: Croația
+      cuba: Cuba
+      cyprus: Cipru
+      czech_republic: Republica Cehă
+      denmark: Danemarca
+      djibouti: Djibouti
+      dominica: Dominica
+      dominican_republic: Republica Dominicană
+      ecuador: Ecuador
+      egypt: Egipt
+      el_salvador: El Salvador
+      equatorial_guinea: Guineea Ecuatorială
+      eritrea: Eritrea
+      estonia: Estonia
+      ethiopia: Etiopia
+      fiji: Fiji
+      finland: Finlanda
+      france: Franța
+      gabon: Gabon
+      gambia: Gambia
+      georgia: Georgia
+      germany: Germania
+      ghana: Ghana
+      greece: Grecia
+      grenada: Grenada
+      guatemala: Guatemala
+      guinea: Guinea
+      guinea_bissau: Guinea-Bissau
+      guyana: Guyana
+      haiti: Haiti
+      honduras: Honduras
+      hungary: Ungaria
+      iceland: Islanda
+      india: India
+      indonesia: Indonezia
+      iran: Iran
+      iraq: Irak
+      ireland: Irlanda
+      israel: Israel
+      italy: Italia
+      jamaica: Jamaica
+      japan: Japonia
+      jordan: Iordania
+      kazakhstan: Kazakhstan
+      kenya: Kenya
+      kiribati: Kiribati
+      kosovo: Kosovo
+      kuwait: Kuweit
+      kyrgyzstan: Kyrgyzstan
+      laos: Laos
+      latvia: Letonia
+      lebanon: Liban
+      lesotho: Lesotho
+      liberia: Liberia
+      libya: Libia
+      liechtenstein: Liechtenstein
+      lithuania: Lituania
+      luxembourg: Luxemburg
+      macedonia: Macedonia
+      madagascar: Madagascar
+      malawi: Malawi
+      malaysia: Malaysia
+      maldives: Maldive
+      mali: Mali
+      malta: Malta 
+      marshall_islands: Insulele Marshall
+      mauritania: Mauritania
+      mauritius: Mauritius
+      mexico: Mexic
+      micronesia: Micronesia
+      moldova: Moldova
+      monaco: Monaco
+      mongolia: Mongolia
+      montenegro: Muntenegru
+      morocco: Maroc
+      mozambique: Mozambique
+      myanmar: Myanmar
+      namibia: Namibia
+      nauru: Nauru
+      nepal: Nepal
+      netherlands: Țările de Jos
+      new_zealand: Noua Zeelandă
+      nicaragua: Nicaragua
+      niger: Niger
+      nigeria: Nigeria
+      north_korea: Coreea de Nord
+      norway: Norvegia
+      oman: Oman
+      pakistan: Pakistan
+      palau: Palau
+      palestine: Palestina
+      panama: Panama
+      papua_new_guinea: Papua Noua Guinee
+      paraguay: Paraguay
+      peru: Peru
+      philippines: Filipine
+      poland: Polonia
+      portugal: Portugalia
+      qatar: Qatar
+      romania: România
+      russia: Rusia
+      rwanda: Rwanda
+      st_kitts_and_nevis: Saint Kitts şi Nevis
+      st_lucia: St. Lucia
+      st_vincent_and_the_grenadines: Saint Vincent și Grenadinele
+      samoa: Samoa
+      san_marino: San Marino
+      sao_tome_and_principe: São Tomé și Príncipe
+      saudi_arabia: Arabia Saudită
+      senegal: Senegal
+      serbia: Serbia
+      seychelles: Seychelles
+      sierra_leone: Sierra Leone
+      singapore: Singapore
+      slovakia: Slovacia
+      slovenia: Slovenia
+      solomon_islands: Insulele Solomon
+      somalia: Somalia
+      south_africa: Africa de Sud
+      south_korea: Coreea de Sud
+      south_sudan: Sudanul de Sud
+      spain: Spania
+      sri_lanka: Sri Lanka
+      sudan: Sudan
+      suriname: Surinam
+      swaziland: Swaziland
+      sweden: Suedia
+      switzerland: Elveția
+      syria: Siria
+      taiwan: Taiwan
+      tajikistan: Tadjikistan
+      tanzania: Tanzania
+      thailand: Thailanda
+      timor_leste: Timor-Leste
+      togo: Togo
+      tonga: Tonga
+      trinidad_and_tobago: Trinidad și Tobago
+      tunisia: Tunisia
+      turkey: Turcia
+      turkmenistan: Turkmenistan
+      tuvalu: Tuvalu
+      uganda: Uganda
+      ukraine: Ucraina
+      united_arab_emirates: Emiratele Arabe Unite
+      uk: UK (Marea Britanie)
+      usa: SUA (Statele Unite ale Americii)
+      uruguay: Uruguay
+      uzbekistan: Uzbekistan
+      vanuatu: Vanuatu
+      vatican: Vatican (Statul Cetății Vaticanului)
+      venezuela: Venezuela
+      vietnam: Vietnam
+      yemen: Yemen
+      zambia: Zambia
+      zimbabwe: Zimbabwe
+  lookup-cp-violence-type:
+    name: Tip Violență CP
+    lookup_values:
+      rape: Viol
+      sexual_assault: Agresiunea sexuală
+      physical_assault: Agresiune fizică
+      forced_marriage: Căsătorie forțată
+      denial_of_resources_opportunities_or_services: Refuzarea accesului la resurse, oportunități, servicii
+      psychological_emotional_abuse: Abuz emoțional, psihologic
+      non-gbv: Non-GBV
+  lookup-disability-type:
+    name: Tip dizabilitate
+    lookup_values:
+      mental_disability: Dizabilitate intelectuală
+      physical_disability: Dizabilitate fizică
+      both: Ambele
+  lookup-disability-type-with-mental-physical:
+    name: Tip de dizabilitate cu combinație intelectuală și fizică
+    lookup_values:
+      'no': 'Nu'
+      mental_disability: Dizabilitate intelectuală
+      physical_disability: Dizabilitate fizică
+      mental_physical_disability: Dizabilitate intelectuală și fizică
+  lookup-disability-type-with-no:
+    name: Tip dizabilitate
+    lookup_values:
+      'no': 'Nu'
+      mental_disability: Dizabilitate intelectuală
+      physical_disability: Dizabilitate fizică
+      both: Ambele
+  lookup-discovery-method:
+    name: Metodă descoperire
+    lookup_values:
+      family_or_friend: Familie sau prieten
+      referral: Referire de la o altă organizație
+      neighbor: Vecin sau membru al comunității
+      community_discussion: Discuții în comunitate
+      pamphlet: Flyer sau broșură văzute sau primite
+      other: Altceva
+  lookup-displacement-status:
+    name: Status strămutare
+    lookup_values:
+      asylum_seeker: Solicitant de azil
+      refugee: Refugiat
+      idp: Persoană strămutată intern (IDP)
+      migrant: Migrant
+      host:community: Comunitatea gazdă
+      returnee: Reîntors
+      stateless_person: Apatrid
+      resident: Locuiește în țară (nestrămutat)
+      foreign_national: Rezident străin
+      other: Altceva
+  lookup-ethnicity:
+    name: Etnie
+    lookup_values:
+      ethnicity1: Etnie1
+      ethnicity2: Etnie2
+      ethnicity3: Etnie3
+      ethnicity4: Etnie4
+      ethnicity5: Etnie5
+      ethnicity6: Etnie6
+      ethnicity7: Etnie7
+      ethnicity8: Etnie8
+      ethnicity9: Etnie9
+      ethnicity10: Etnie10
+  lookup-family-relationship:
+    name: Relație de familie
+    lookup_values:
+      mother: Mamă
+      father: Tată
+      aunt: Mătușă
+      uncle: Unchi
+      grandmother: Bunică
+      grandfather: Bunic
+      brother: Frate
+      sister: Soră
+      husband: Soț
+      wife: Soție
+      partner: Partener
+      other_family: Alt membru al familiei
+      other_nonfamily: Altcineva, nu din familie
+  lookup-followedup-with:
+    name: Revenire la
+    lookup_values:
+      child: Copil
+      caregiver_s_family: Îngrijitor(i)/ familie
+      service_provider_own_agency: Furnizor de servicii (organizația/ instituția proprie)
+      service_provider_referral: Furnizor de servicii (referire)
+      other: Altceva
+  lookup-followup-type:
+    name: Tip Revenire
+    lookup_values:
+      after_reunification: Revenire după Reunificare
+      in_care: Revenire la Îngrijire
+      for_service: Revenire pentru Servicii
+      for_assesment: Revenire pentru Evaluare
+  lookup-form-group-cp-case:
+    name: Formular Grupuri Caz CP
+    lookup_values:
+      record_information: Informații Înregistrare
+      approvals: Aprobări
+      case_conference_details: Detalii Conferință Caz
+      identification_registration: Identificare/ Înregistrare
+      data_confidentiality: Confidențialitatea datelor
+      review: Revizuire Secțiune
+      assessment: Evaluare
+      family_partner_details: Detalii familie/ partener
+      case_plan: Plan Servicii
+      services_follow_up: Servicii/ Revenire
+      closure: Închidere
+      feedback: Feedback
+      tracing: Urmărire
+      bia_form: Formular BIA/ Evaluare a interesului superior al copilului
+      photos_audio: Fotografii și Audio
+      other_documents: Alte Documente
+      referrals_transfers: Referiri și Transferuri
+      notes: Notițe
+  lookup-form-group-cp-incident:
+    name: Formular Grupuri Caz CP
+    lookup_values:
+      record_owner: Proprietar Înregistrare
+      perpetrator_details: Detalii Autor
+      cp_incident: Incident CP
+      cp_individual_details: Detalii individuale CP
+  lookup-form-group-cp-tracing-request:
+    name: Formular Grupuri Solicitare Urmărire CP
+    lookup_values:
+      record_owner: Proprietar Înregistrare
+      inquirer: Solicitant
+      tracing_request: Solicitare Urmărire
+      photos_audio: Fotografii și Audio
+      other_reportable_fields: Alte Câmpuri Raportabile
+  lookup-form-group-gbv-case:
+    name: Formular Grupuri Caz GBV/ Violență pe bază pe gen
+    lookup_values:
+      record_information: Informații Înregistrare
+      consent_for_services: Consimțământ pentru Servicii
+      documents: Documente
+      consent_for_referrals: Consimțământ pentru Referiri
+      safety_plan: Plan Siguranță
+      action_plan: Plan Intervenții
+      survivor_assessment: Evaluare Supraviețuitor
+      case_closure: Închidere Caz
+      client_feedback: Feedback Client
+      identification_registration: Identificare/ Înregistrare
+      referrals_transfers: Referiri și Transferuri
+      other_reportable_fields: Alte Câmpuri Raportabile
+  lookup-form-group-gbv-incident:
+    name: Formular Grupuri Incident GBV/ Violență pe bază pe gen
+    lookup_values:
+      gbv_individual_details: GBV Detalii individuale
+      incident: Incident
+      type_of_violence: Tip de violență
+      record_owner: Proprietar Înregistrare
+      alleged_perpetrator: Presupus Autor
+      service_referral: Serviciu Referire
+      other_reportable_fields: Alte Câmpuri Raportabile
+  lookup-further-action_needed:
+    name: E nevoie de acțiuni viitoare
+    lookup_values:
+      no_further_action_needed: Nu e nevoie de alte acțiuni
+      ongoing_monitoring: Monitorizare în desfășurare
+      urgent_intervention: Intervenție Urgentă
+  lookup-gbv-approval-types:
+    name: Tip Aprobare pentru Utilizatori GBV
+    lookup_values:
+      case_plan: Plan Servicii
+      closure: Închidere
+  lookup-gbv-reported-elsewhere:
+    name: Da, Nu sau Necunoscut
+    lookup_values:
+      'no': 'Nu'
+      gbvims-org: Da - Organizație GBVIMS
+      non-gbvims-org: Da - Organizație Non GBVIMS
+  lookup-gbv-sexual-violence-type:
+    name: Tip Violență GBV de natură sexuală
+    lookup_values:
+      rape: Viol
+      sexual_assault: Agresiunea sexuală
+      physical_assault: Agresiune fizică
+      forced_marriage: Căsătorie forțată
+      denial_of_resources_opportunities_or_services: Refuzarea accesului la resurse, oportunități, servicii
+      psychological_emotional_abuse: Abuz emoțional, psihologic
+      non-gbv: Non-GBV
+  lookup-gender:
+    name: Gen
+    lookup_values:
+      male: Masculin
+      female: Feminin
+  lookup-incident-identification:
+    name: Identificare Incident
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: Dezvăluire/ plângerea din partea persoanei abuzate sau a unui membru al familiei
+      discovered_by_service_provider: Descoperit de un furnizor de servicii
+      report_by_the_institution_providing_the_service_discovery: Raport de către instituția care furnizează serviciul (descoperire)
+      other: Altceva
+  lookup-incident-location:
+    name: Locație Incident
+    lookup_values:
+      home: Acasă
+      street: Strada
+      school: Școala
+      work_place: Loc de muncă
+      other: Altul
+  lookup-incident-status:
+    name: Status Incident
+    lookup_values:
+      open: Deschis
+      closed: Închis
+      duplicate: Duplicat
+  lookup-inquiry-status:
+    name: Status Solicitare
+    lookup_values:
+      open: Deschis
+      closed: Închis
+  lookup-language:
+    name: Limbă
+    lookup_values:
+      language1: Limbă1
+      language2: Limbă2
+      language3: Limbă3
+      language4: Limbă4
+      language5: Limbă5
+      language6: Limbă6
+      language7: Limbă7
+      language8: Limbă8
+      language9: Limbă9
+      language10: Limbă10
+  lookup-location-type:
+    name: Tip Locație
+    lookup_values:
+      country: Țara
+      region: Regiune
+      province: Provincie
+      district: District
+      governorate: Guvernorat
+      chiefdom: Teritoriu
+      state: Stat
+      city: Oraș
+      county: Județ
+      camp: Tabără
+      site: Sit
+      village: Sat
+      zone: Zonă
+      sub_district: Sub-district
+      locality: Localitate
+      prefecture: Prefectură
+      sub-prefecture: Sub-prefectură
+      commune: Comună
+      payam: Payam
+      parish: Parohie
+      municipality: Municipalitate
+      other: Altceva
+  lookup-marital-status:
+    name: Statut marital
+    lookup_values:
+      single: Singur/ă
+      married_cohabitating: Căsătorit/ă/ în Concubinaj
+      divorced_separated: Divorțat/ă/ Separat/ă
+      widowed: Văduv/ă
+  lookup-marital-status-unknown:
+    name: Statut marital
+    lookup_values:
+      single: Singur/ă
+      married_cohabitating: Căsătorit/ă/ în Concubinaj
+      divorced_separated: Divorțat/ă/ Separat/ă
+      widowed: Văduv/ă
+      unknown_not_applicable: Necunoscut/ Nu se aplică
+  lookup-marital-status-with-spouse:
+    name: Statut marital
+    lookup_values:
+      single: Singur/ă
+      married_cohabitating: Căsătorit/ă/ în Concubinaj
+      divorced_separated: Divorțat/ă/ Separat/ă
+      widowed: Văduv/ă
+      with_spouse: Cu partener
+  lookup-nationality:
+    name: Naționalitate
+    lookup_values:
+      nationality1: Naționalitate1
+      nationality2: Naționalitate2
+      nationality3: Naționalitate3
+      nationality4: Naționalitate4
+      nationality5: Naționalitate5
+      nationality6: Naționalitate6
+      nationality7: Naționalitate7
+      nationality8: Naționalitate8
+      nationality9: Naționalitate9
+      nationality10: Naționalitate10
+  lookup-number-range-one-to-ten:
+    name: Interval Numere de 1 la 10
+    lookup_values:
+      '1': '1'
+      '2': '2'
+      '3': '3'
+      '4': '4'
+      '5': '5'
+      '6': '6'
+      '7': '7'
+      '8': '8'
+      '9': '9'
+      '10': '10'
+  lookup-perpetrator-relationship:
+    name: Legătură Autor
+    lookup_values:
+      intimate_partner_former_partner: Partener intim/ Partener anterior
+      primary_caregiver: Principalul îngrijitor
+      family_other_than_spouse_or_caregiver: Familie, altcineva decât soțul/ soția sau îngrijitorul
+      supervisor_employer: Supervizor/ Angajator
+      schoolmate: Coleg/ă de școală
+      teacher_school_official: Profesor/ Personal didactic
+      service_provider: Furnizor servicii
+      cotenant_housemate: Coleg/ă de apartament/ de locuință
+      family_friend_neighbor: Prieten de familie/ Vecin
+      other_refugee_idp_returnee: Alt refugiat/ IDP/ Reîntors
+      other_resident_community_member: Alt membru rezident al comunității
+      other: Altceva
+      no_relation: Nicio legătură
+      unknown: Necunoscut
+  lookup-protection-concerns:
+    name: Preocupări Protecție
+    lookup_values:
+      physical_abuse_violence: Abuz fizic/ violență
+      sexual_abuse_violence: Abuz sexual/ violență
+      rape: Viol
+      emotional_or_psychological: Abuz psihic sau emoțional/ violență
+      neglect: Neglijare
+      abandonment: Abandon
+      child_labour: Copil care muncește (nu o formă periculoasă)
+      hazardous_work: Muncă periculoasă
+      sexual_exploitation: Exploatare sexuală
+      slavery_sale_abduction: Sclavie/ vânzare/ răpire/ traficare/ muncă forțată
+      in_conflict_with_the_law: În conflict cu legea
+      associated_with_armed: Asociat cu forțe sau grupuri armate
+      deprived_of_liberty: Privat de libertate / în detenție
+      serious_medical_condition: Afecțiune medicală gravă
+      functional_difficulty_seeing: Dificultate funcțională (văzut, chiar dacă poartă ochelari)
+      functional_difficulty_hearing: Dificultate funcțională (auz, chiar dacă folosește aparate auditive)
+      functional_difficulty_walking: Dificultate funcțională (mers sau folosirea unor părți ale corpului)
+      functional_difficulty_remembering: Dificultate funcțională (memorie sau concentrare)
+      difficulty_with_self_care: Dificultate în îngrijirea de sine, cum ar fi hrănirea sau îmbrăcarea propriei persoane (comparativ cu alți copii de aceeași vârstă)
+      difficulty_communicating: Dificultate de a comunica
+      unaccompanied: Neînsoţit
+      separated: Separat
+      orphan: Orfan
+      psychosocial_distress: Distres psihosocial
+      mental_disorder: Boală psihică
+      substance_abuse: Abuz de substanțe și dependență (copil)
+      belongs_to_marginalised: Aparține unui grup marginalizat/ discriminat
+      lack_of_documentation_birth_registration: Lipsa documentației/ certificatului de naștere
+      child_marriage: Copil căsătorit
+      female_genital_mutilation_fgm: Mutilarea genitală feminină (MGF)
+      pregnancy_child_parent: Sarcina / copil părinte
+      denial_of_resources_opportunities_or_services: Refuzarea accesului la resurse, oportunități, servicii
+      highly_vulnerable_care: Aranjament de îngrijire extrem de vulnerabil
+      child_survivor_of_explosive: Copil supraviețuitor al munițiilor explozive (EO)
+      other: Altceva
+  lookup-protection-status:
+    name: Status Protecție
+    lookup_values:
+      unaccompanied: Neacompaniat
+      separated: Separat
+  lookup-religion:
+    name: Religie
+    lookup_values:
+      religion1: Religie1
+      religion2: Religie2
+      religion3: Religie3
+      religion4: Religie4
+      religion5: Religie5
+      religion6: Religie6
+      religion7: Religie7
+      religion8: Religie8
+      religion9: Religie9
+      religion10: Religie10
+  lookup-reporting-location-type:
+    name: Tip Locație Raportare
+    lookup_values:
+      province: Provincie
+      district: District
+  lookup-risk-level:
+    name: Nivel Risc
+    lookup_values:
+      high: Ridicat
+      medium: Mediu
+      low: Redus
+  lookup-separation-cause:
+    name: Caz Separare
+    lookup_values:
+      abandoned: Abandonat
+      family_abuse_violence_neglect_exploitation: Abuz/ violență/ neglijare/ exploatare în familie
+      death_sickness_of_family_member: Decesul/ boala unui membru al familiei
+      separation_because_of_fleeing_violence_war: Separare din cauza violenței/ războiului
+      separation_because_of_fleeing_natural_disaster: Separare din cauza dezastrelor naturale
+      separation_because_of_fleeing_persecution: Separare pe fondul fugii de persecuție
+      search_for_employment: Căutare de muncă
+      search_for_educational_opportunities: Căutare de oportunități educaționale
+      search_for_services_support: Căutare de servicii/ suport
+      migration: Migrație
+      organized_population_movement_e_g_evacuation: Mișcarea organizată a populației (de exemplu, evacuare)
+      entrusted_into_the_care_of_individual_institution: Încredințat în grija unei persoane/ instituții
+      repatriation: Repatriere
+      poverty: Sărăcie
+      recruitment_into_armed_forces_or_armed_groups: Recrutare în forțe sau grupări armate
+      abducted_trafficked: Răpit/ traficat
+      arrest_detention: Arest/ detenție
+      other_please_specify: Dacă altceva, te rugăm să detaliezi
+  lookup-service-implemented:
+    name: Serviciu Implementat
+    lookup_values:
+      not_implemented: Neimplementat
+      implemented: Implementat
+  lookup-service-referred:
+    name: Serviciu Referit
+    lookup_values:
+      internal_referral: Referire Internă
+      external_referral: Referire Externă
+  lookup-service-referred-gbv:
+    name: Serviciu Referit GBV
+    lookup_values:
+      referred: Referire
+      no_referral_service_provided_by_your_agency: Non-referire, Serviciu furnizat de organizația/ instituția noastră
+      no_referral_services_already_received_from_another_agency: Non-referire, Serviciu furnizat de o altă organizație/ instituție
+      no_referral_service_not_applicable: Non-referire, Serviciu nu se aplică
+      no_referral_declined_by_survivor: Non-referire, Refuzat de către supraviețuitor
+      no_referral_service_unavailable: Non-referire, Serviciu indisponibil
+  lookup-service-response-type:
+    name: Tip Răspuns Serviciu
+    lookup_values:
+      service_provision: Furnizare Servicii
+  lookup-service-type:
+    name: Tip Serviciu
+    lookup_values:
+      alternative_care: Îngrijire alternativă
+      security_e_g_safe_shelter: Siguranță (de exemplu, un adăpost sigur)
+      education_formal: Educație (formală)
+      non_formal_education: Educație informală
+      family_tracing_and_reunification: Urmărire și reunificare familie
+      basic_psychosocial_support: Îngrijire psihosocială de bază
+      focuses_non_specialized_mhpss_care: Îngrijire non-specializată MHPSS/ sănătate mintală și suport psihosocial
+      specialized_mhpss_services: Îngrijire specializată MHPSS/ sănătate mintală și suport psihosocial
+      food: Mâncare
+      non_food_items: Lucruri non-alimentare
+      cash_assistance: Ajutor cu bani
+      livelihoods: Strictul necesar
+      medical: Medical
+      nutrition: Nutriție
+      legal_support: Asistență legală
+      documentation: Documentație
+      services_for_children_with_disabilities: Servicii pentru copii cu dizabilități
+      sexual_and_reproductive_health: Sănătate sexuală și reproductivă
+      shelter: Adăpost
+      wash: WASH/ apă, salubritate, igienă
+      durable_solution_in_coordination_with_unhcr: Soluții de durată (în coordonare cu UNHCR)
+      relocation: Relocare
+      other_please_specify: Altceva
+  lookup-time-of-day:
+    name: Momentul din Zi
+    lookup_values:
+      morning: Dimineața
+      noon: La prânz
+      evening: Seara
+      night: Noaptea
+  lookup-tracing-status:
+    name: Status Urmărire
+    lookup_values:
+      open: Deschis
+      tracing_in_progress: Urmărire în desfășurare
+      verified: Verificat
+      reunified: Reunificat
+      closed: Închis
+  lookup-transition-type:
+    name: Tip Tranziție
+    lookup_values:
+      referral: Referire
+      reassign: Reasignare
+      transfer: Transfer
+      transfer_request: Solicitare Transfer
+  lookup-unaccompanied-separated-status:
+    name: Status Neacompaniat Separat
+    lookup_values:
+      'no': 'Nu'
+      unaccompanied_minor: Minor Neacompaniat
+      separated_child: Copil Separat
+      other_vulnerable_child: Orfan sau Copil Vulnerabil
+  lookup-unhcr-needs-codes:
+    name: Coduri Nevoi UNHCR
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR-TP
+      cr-lw: CR-LW
+      cr-lo: CR-LO
+      cr-ne: CR-NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: SC-FC
+      ds-bd: DS-BD
+      ds-df: DS-DF
+      ds-pm: DS-PM
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-FR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HO
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-verification-status:
+    name: Status Verificare
+    lookup_values:
+      verified: Verificat
+      unverified: Neverificat
+      pending_verification: Verificare în desfășurare
+      falsely_attributed: Fals atribuit
+      rejected: Respins
+  lookup-workflow:
+    name: Fluxuri
+    lookup_values:
+      new: Caz nou
+      closed: Caz închis
+      reopened: Caz redeschis
+      service_provision: Furnizare serviciu
+      services_implemented: Toate serviciile de răspuns implementate
+      case_plan: Plan servicii
+  lookup-yes-no:
+    name: Da sau Nu
+    lookup_values:
+      'true': 'Da'
+      'false': 'Nu'
+  lookup-yes-no-not-applicable:
+    name: Da, Nu sau Nu se aplică
+    lookup_values:
+      'true': 'Da'
+      'false': 'Nu'
+      not_applicable: Nu se aplică
+  lookup-yes-no-undecided:
+    name: Da, Nu sau Indecis
+    lookup_values:
+      'true': 'Da'
+      'false': 'Nu'
+      undecided: Indecis
+  lookup-yes-no-unknown:
+    name: Da, Nu sau Necunoscut
+    lookup_values:
+      'true': 'Da'
+      'false': 'Nu'
+      unknown: Necunoscut

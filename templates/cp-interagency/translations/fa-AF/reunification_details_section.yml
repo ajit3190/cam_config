@@ -1,0 +1,44 @@
+fa-AF:
+  reunification_details_section:
+    name: 'اتحاد پیچیده '
+    description: 'فورم فرعی اتخاد /جابه جایی دوباره '
+    fields:
+      name_reunified_adult:
+        display_name: 'نام بزرگسالی را که طفل با آن یک جا میشود '
+      relationship_reunified_adult:
+        display_name: 'قرابت طفل با بزرگسال '
+      address_reunified_adult:
+        display_name: آدرس
+      location_reunified_adult:
+        display_name: موقعیت بزرگسالی که طفل با یکجا شده
+      address_reunification:
+        display_name: آدرس جاییکه یکجایی صورت میگیرد
+      location_reunification:
+        display_name: موقعیت  جاییکه یکجایی صورت میگیرد
+      reunification_type:
+        display_name: کدام نوع یکجایی
+        option_strings_text:
+          case_by_case: قضیه با قضیه
+          informal_spontaneous: غیررسمی / خود به خودی
+          mass_tracing: ردیابی دسته جمعی
+          mediation: پادرمیانی
+          other: 'وغبره ,لطفا مشخص کنید '
+          photo_tracing: 'عکاسی ردیابی '
+          spontaneous: خود جوش
+      date_reunification:
+        display_name: 'تاریخ جا به جایی '
+      child_reunited_with_verified_adult:
+        display_name: آیا طفل با بزرکسان تآیید شده بک جا شد ؟
+      not_reunited_with_verified_adult_reason:
+        display_name: اکر نه دلیل برای تغیر چی بود؟
+        option_strings_text:
+          change_of_mind: تغیر ذهن
+          death: مرگ
+          death_of_adult: مرگ بزرگسال
+          failed_verification: 'تآیید ناکام '
+          n_a: 'قابل تطبیق نیست '
+          other: 'وغیره, لطفا مشخص سازید '
+      reunification_follow_up_needed:
+        display_name: '؟اکر برای پیگیری نیاز است '
+      closure_recommendation:
+        display_name: اگر نه ,شما بسته شدن قضیه را پشنهاد میکنید ؟

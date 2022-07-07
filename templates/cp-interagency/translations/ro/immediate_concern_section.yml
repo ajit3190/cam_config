@@ -1,0 +1,18 @@
+ro:
+  immediate_concern_section:
+    name: Preocupări Imediate Imbricate
+    description: Subformular Preocupări Imediate
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: Tip Preocupare Imediată
+        option_strings_text:
+          health_care: Sănătate
+          safety: Siguranță
+          interim_care: Îngrijire temporară
+          other: Altceva
+      immediate_concerns_immediate_concern_type_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      immediate_concerns_immediate_concern_summary:
+        display_name: Rezumatul problemei
+      immediate_concerns_immediate_concern_action:
+        display_name: Acțiune imediată/ referire făcută

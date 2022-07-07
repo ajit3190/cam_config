@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
+require("#{File.dirname(__FILE__)}/onboarding_admin_user.rb")
+require("#{File.dirname(__FILE__)}/service_accounts.rb")
+
+return if ENV['PRIMERO_ID_EXTERNAL'] == 'true'
+return unless ENV['PRIMERO_DEFAULT_USERS'] == 'true'
+
 onboarding_agency_code = if ENV['PRIMERO_ONBOARDING_ADMIN_AGENCY_CODE'].present?
                            ENV['PRIMERO_ONBOARDING_ADMIN_AGENCY_CODE']
                          else

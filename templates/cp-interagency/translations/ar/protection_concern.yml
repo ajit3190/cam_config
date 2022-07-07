@@ -1,0 +1,16 @@
+---
+ar:
+  protection_concern:
+    name: مخاوف الحماية
+    description: مخاوف الحماية
+    fields:
+      risk_level:
+        display_name: مستوى الخطر
+      displacement_status:
+        display_name: المجموعة السكانية
+      displacement_status_other:
+        display_name: إذا اخترت  غير ذلك ، يرجى التحديد
+      protection_concerns:
+        display_name: مخاوف الحماية
+      protection_concerns_other:
+        display_name: إذا اخترت  غير ذلك ، يرجى التحديد

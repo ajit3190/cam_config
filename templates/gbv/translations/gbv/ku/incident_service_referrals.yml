@@ -1,0 +1,49 @@
+---
+ku:
+  incident_service_referrals:
+    name: رەوانەکردنی خزمەتگوزاری
+    description: رەوانەکردنی خزمەتگوزاری
+    fields:
+      service_referred_from_other:
+        display_name: ئەگەر رزگاربوو لەلایەن (هی تر)ەوە رەوانە کراوە، تكایە دەستنیشانی بكە
+      safe_house_safe_shelter_referral:
+        display_name: رەوانەکردنی خانەی ئارام / پەناگەی ئارام
+      service_safehouse_referral:
+        display_name: ئایا تۆ وەرگری خزمەتگوزاریت بۆ خانەی ئارام / پەناگە رەوانە کرد؟
+      legal_assistance_services_subform_section:
+        display_name: خزمەتگوزاری هاوکاری یاسایی
+      police_or_other_type_of_security_services_subform_section:
+        display_name: خزمەتگوزاری پۆلیس یان جۆری دیکەی ئاسایش
+      livelihoods_services_subform_section:
+        display_name: خزمەتگوزاریی دابینکردنی بژێوی ژیان
+      child_protection_services_subform_section:
+        display_name: خزمەتگوزاریی پاراستنی منداڵ
+      service_referred_from:
+        display_name: كێ وەرگری خزمەتگوزاری بۆ لای تۆ رەوانە کردووە؟
+        option_strings_text:
+          health_medical_service: خزمەتگوزارییە تەندروستی/پزیشكییەكان
+          psychosocial_service: خزمەتگوزارییە دەروونی-كۆمەڵایەتی/راوێژكارییەكان
+          police_other_service: پۆلیس/لایەنی دیكەی ئاسایش
+          legal_assistance_service: خزمەتگوزاری هاوكاری یاسایی
+          livelihoods_service: پرۆگرامی دابینكردنی بژێوی
+          self_referral: خۆ رەوانەكردن/یەكەم خاڵی پەیوەندی
+          teacher_school_official: مامۆستا / فەرمانبەری قوتابخانە
+          community_or_camp_leader: سەركردەی كۆمەڵگە یان كەمپ
+          safehouse_service: خانەی ئارام/پەناگە
+          other_humanitarian_or_development_actor: لایەنی تری مرۆیی یان پەرەپێدان
+          other_government_service: خزمەتگوزاریی تری حكومەت
+          other: هی تر
+      service_safehouse_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      service_safehouse_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_safehouse_provider:
+        display_name: دابینکەری خزمەتگوزاریی
+      service_safehouse_location:
+        display_name: شوێنی پێشکەشکردنی خزمەتگوزاریی
+      service_safehouse_referral_notes:
+        display_name: تێبینییەكان
+      health_medical_referral_subform_section:
+        display_name: رەوانەکردنی تەندروستی / پزیشكی
+      psychosocial_counseling_services_subform_section:
+        display_name: خزمەتگوزاری دەروونی کۆمەڵایەتیی / راوێژکاریی

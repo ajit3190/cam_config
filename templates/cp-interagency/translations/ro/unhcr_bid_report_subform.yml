@@ -1,0 +1,83 @@
+ro:
+  unhcr_bid_report_subform:
+    name: Raport BID UNHCR imbricat
+    description: Subformular Raport BID UNHCR
+    fields:
+      bid_date:
+        display_name: Dată Interviu BID/ Determinare interes superior
+      bid_participants:
+        display_name: Listează toți participanții la interviu
+        help_text: Include persoana/persoanele intervievate, intervievatorul și traducătorul (dacă este cazul)
+      bid_separation_status:
+        display_name: Status separare copil
+        option_strings_text:
+          unaccompanied: Neacompaniat
+          separated: Separat
+          orphan: Orfan
+          none_of_the_above: Niciuna dintre opțiuni
+      bid_purpose:
+        display_name: Scopul BID/ Determinare interes superior
+        option_strings_text:
+          durable_solution: Soluție de durată
+          family_reunification: Reunificare familie
+          temporary_care_arrangements: Aranjamente temporare de îngrijire
+          separation_from_parents_caregiver: Separarea de părinți/ îngrijitor
+          other: Altceva
+      bid_purpose_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      bid_priority:
+        display_name: Prioritatea cazului
+        option_strings_text:
+          emergency: Urgență
+          high: Ridicată
+          medium: Medie
+          low: Redusă
+      bid_priority_reasons:
+        display_name: Motivarea prioritizării
+      bid_specific_needs:
+        display_name: Nevoi specifice ale copilului
+      bid_brief_summary:
+        display_name: Rezumați problemele cheie
+        guiding_questions: de exemplu. aranjamentul actual de îngrijire, informații despre părinți și familie și opțiunile luate în considerare.
+      bid_separator_recommendations:
+        display_name: Opțiuni și recomandări
+      bid_child_history:
+        display_name: Te rugăm să înregistrezi istoricul copilului înainte și în timpul plecării/ separării
+        guiding_questions: Include amintirile copilului despre plecare/ separare și dovezile furnizate de persoanele apropiate copilului (dacă este intervievat). Indică modul în care au fost verificate aceste informații.
+      bid_current_situation:
+        display_name: Te rugăm să descrii situația actuală de viață a copilului
+        guiding_questions: |-
+          Include:
+          - Aranjamentul actual de îngrijire, condițiile de viață, siguranță, relațiile cu asistenții maternali/frații/îngrijitorii/alți membri ai familiei;
+          - Rețele comunitare, educație și frecvență școlară;
+          - Evaluarea vârstei și maturității copilului, a sănătății fizice și psihice și a oricărei nevoi specifice. Te rugăm să precizezi cine a fost contactat și cine a furnizat informații, de ex. copil, familie, persoane apropiate copilului, îngrijitori, profesori, vecini, asistenți sociali/personal ONG.
+      bid_available_options:
+        display_name: Te rugăm să indici toate opțiunile disponibile și mecanismele de revenire și să furnizezi o analiză pentru acestea.
+        guiding_questions: |-
+          Te rugăm să consulți toți factorii incluși în lista de verificare din Anexa 9 pentru a recomanda ceea ce este în interesul superior al copilului, sub următoarele titluri:
+          - Vederi ale copilului
+          - Familie și relații apropiate
+          - Mediu sigur
+          - Nevoile de dezvoltare și identitate
+      bid_final_recommendations:
+        display_name: Te rugăm să furnizezi recomandarea finală și să o motivezi
+      bid_separator_panel_decision:
+        display_name: Panel Decizii
+      bid_date_panel_decision:
+        display_name: Dată Panel decizii
+      bid_panel_members:
+        display_name: Numele și organizațiile/ instituțiile tuturor persoanelor din panel
+      bid_panel_decision:
+        display_name: 'Panelul'
+        option_strings_text:
+          approves_the_recommendations: Aprobă recomandările
+          defers_decison_please_explain_why: Amână decizia (te rugăm să explici de ce)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: Nu aprobă recomandările (te rugăm să explici de ce și să furnizezi recomandarea panelului)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: Redeschidere caz (te rugăm să explicați de ce și cine a solicitat redeschiderea)
+          closes_the_case: Închidere caz
+      bid_panel_decision_reasons:
+        display_name: Motivarea completă a aceastei decizii
+      bid_panel_decision_actions:
+        display_name: Descrie acțiunile de revenire necesare
+      bid_panel_comments:
+        display_name: Comentarii

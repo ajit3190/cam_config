@@ -1,0 +1,68 @@
+fr:
+  consent:
+    name: Accord et Consentement
+    description: Accord et Consentement
+    fields:
+      interview_subject:
+        display_name: Accord ou consentement obtenu de
+        option_strings_text:
+          child: Enfant
+          caregiver: Tuteur
+          other: Autre
+      consent_source_other:
+        display_name: Si autre, précisez
+      consent_notes:
+        display_name: Notes
+      consent_for_services:
+        display_name: Le consentement a été donné pour que l'enfant participe au processus de gestion de cas
+        help_text: Si le consentement n'a pas été donné, ne sélectionnez pas
+        tick_box_label: 'Oui'
+      consent_reporting:
+        display_name: Le consentement est donné pour le partage de données agrégées anonymes à des fins de production de rapports
+      consent_for_data_collection:
+        display_name: Le consentement a été donné au gestionnaire de cas assigné au dossier pour collecter et conserver des renseignements personnels concernant le dossier (nom, photos, détails sur la famille).
+      disclosure_other_orgs:
+        display_name: La personne consens à ce que le gestionnaire de cas assigné au dossier partage de l’information sur le dossier à d’autres prestataires de services dans les circonstances décrites ci-dessous.
+        help_text: Cela inclut le partage d'informations avec d'autres organisations fournissant des services, cela n'inclut pas le partage d'informations avec le HCR.
+        tick_box_label: 'Oui'
+      information_shared_services:
+        display_name: De l’information pourra être partagée en vue d’obtenir les services suivants
+        option_strings_text:
+          alternative_care: Prise en charge des enfants
+          cash_assistance: Aide financière
+          education_formal: Éducation (formelle)
+          family_tracing_and_reunification: Localisation de la famille et réunification familiale
+          food: Nourriture
+          gbv_survivor_support: Soutien pour un.e survivant.e de VBG
+          legal_support: Aide juridique
+          livelihoods: Moyen de subsistance
+          medical: Soins médicaux
+          mental_health: Services en santé mentale
+          non_food_items: Articles non alimentaires
+          non_formal_education: Éducation non formelle
+          nutrition: Nutrition
+          psychosocial_support: Soutien psychosocial
+          services_for_children_with_disabilities: Services pour enfants handicapés
+          shelter: Logement
+          sexual_and_reproductive_health: Soins de santé sexuelle et reproductive
+          rescue: Secours
+          wash: Eau, hygiène et assainissement (EHA)
+          case_transfer: Transfert de dossier
+          other: Autre
+      information_shared_services_other:
+        display_name: Si autre, précisez
+      unhcr_export_opt_out:
+        display_name: La personne qui donne son consentement accepte de partager des informations sur ce cas avec le HCR aux fins de supervision gestion des cas protection des personnes réfugiés.
+        tick_box_label: 'Oui'
+      withhold_details:
+        display_name: Ne pas transmettre de renseignements aux personnes ou organisations suivantes
+      disclosure_deny_details:
+        display_name: Ne pas transmettre les renseignements suivants
+      withholding_info_reason:
+        display_name: Motifs du refus de transmission de certains renseignements
+        option_strings_text:
+          fear: Peur de représailles à leur endroit ou à l’endroit d’un tiers
+          communicate_information: Volonté de communiquer eux-mêmes ces renseignements
+          others: Autre
+      withholding_info_other_reason:
+        display_name: Si d'autres raisons justifient la rétention d'informations, précisez

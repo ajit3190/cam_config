@@ -1,0 +1,7 @@
+ro:
+  followup:
+    name: Revenire
+    description: Revenire
+    fields:
+      followup_subform_section:
+        display_name: Revenire

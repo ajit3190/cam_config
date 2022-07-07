@@ -80,7 +80,8 @@ killing_subform_fields = [
     'multi_select' => false,
     'name' => 'attack_type_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details "
+    'display_name_en' => "If ‘Other', please provide details ",
+    'display_conditions_subform' => { 'eq' => { 'attack_type' => 'other' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -114,7 +115,8 @@ killing_subform_fields = [
     'multi_select' => false,
     'name' => 'weapon_type_other',
     'type' => 'text_field',
-    'display_name_en' => "If 'Other weapon', please specify"
+    'display_name_en' => "If 'Other weapon', please specify",
+    'display_conditions_subform' => { 'eq' => { 'weapon_type' => 'other' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -124,7 +126,7 @@ killing_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -182,7 +184,8 @@ killing_subform_fields = [
     'multi_select' => false,
     'name' => 'indiscriminate_nature_yes',
     'type' => 'text_field',
-    'display_name_en' => "If 'Yes', please specify "
+    'display_name_en' => "If 'Yes', please specify ",
+    'display_conditions_subform' => { 'eq' => { 'indiscriminate_nature' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -216,7 +219,8 @@ killing_subform_fields = [
     'type' => 'select_box',
     'multi_select' => true,
     'display_name_en' => "If 'Yes', please specify:",
-    'option_strings_source' => 'lookup lookup-violation-type'
+    'option_strings_source' => 'lookup lookup-violation-type',
+    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -325,7 +329,7 @@ killing_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -336,7 +340,7 @@ killing_subform_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -349,7 +353,8 @@ killing_subform_fields = [
     'name' => 'verified',
     'type' => 'select_box',
     'display_name_en' => 'Initial verification status as determined by the focal point',
-    'option_strings_source' => 'lookup lookup-verification-status'
+    'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -365,7 +370,9 @@ killing_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_focal_point',
     'type' => 'date_field',
-    'display_name_en' => 'Date of determination of verification status by focal point.'
+    'date_validation' => 'not_future_date',
+    'display_name_en' => 'Date of determination of verification status by focal point.',
+    'display_conditions_subform' => { 'eq' => { 'verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -375,7 +382,7 @@ killing_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -398,12 +405,13 @@ killing_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_ctfmr_technical',
     'type' => 'date_field',
+    'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of joint verification decision by the CTFMR co-chairs at the technical level.',
     'help_text_en' => 'This can be e.g., the date of the periodic meeting during which the CTFMR co-chairs at the technical level jointly review the incidents of grave violations and determine their verification status.'
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -417,6 +425,7 @@ killing_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'Verification status as agreed by the CTFMR',
     'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification',
     'help_text_en' => "Please provide further details in the 'Additional details on verification process/decision' box.This field is required for reporting."
   ),
   Field.new(
@@ -434,7 +443,9 @@ killing_subform_fields = [
     'name' => 'ctfmr_verified_date',
     'type' => 'date_field',
     'display_name_en' => 'Date of Verification decision by CTFMR',
-    'help_text_en' => ''
+    'date_validation' => 'not_future_date',
+    'help_text_en' => '',
+    'display_conditions_subform' => { 'eq' => { 'ctfmr_verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -452,6 +463,24 @@ killing_subform_fields = [
     'type' => 'textarea',
     'display_name_en' => 'Additional details on verification process/decision',
     'help_text_en' => 'If verification is still pending or incident was excluded, please provide further details.'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'verified_ghn_reported',
+    'type' => 'select_box',
+    'display_name_en' => 'Specify the GHN in which this incident was included ',
+    'option_strings_source' => 'lookup lookup-verified-ghn-reported',
+    'help_text_en' => 'Please enter the year first (e.g. 2022), then you will be able to select between the four quarters of the year and the relevant GHN.'
   )
 ]
 killing_subform = FormSection.create_or_update!(
@@ -509,7 +538,8 @@ killing_fields = [
     'subform_section' => killing_subform,
     'display_name_en' => 'Killing of Children',
     'expose_unique_id' => true,
-    'guiding_questions_en' => "For MRM purposes, 'killing' is defined as any action in the context of the armed conflict that results in the death of one or more children (see MRM Field Manual, p. 9 and Annex 4: Q \u0026 A Guidance on Security Council Resolution 1882, p. 5)."
+    'guiding_questions_en' => "For MRM purposes, 'killing' is defined as any action in the context of the armed conflict that results in the death of one or more children (see MRM Field Manual, p. 9 and Annex 4: Q \u0026 A Guidance on Security Council Resolution 1882, p. 5).",
+    'display_conditions_record' => { 'in' => { 'violation_category' => %w[killing] } }
   )
 ]
 
@@ -529,5 +559,6 @@ FormSection.create_or_update!(
   is_first_tab: false,
   initial_subforms: 0,
   mobile_form: false,
-  form_group_id: 'violations'
+  form_group_id: 'violations',
+  display_conditions: { 'in' => { 'violation_category' => %w[killing] } }
 )

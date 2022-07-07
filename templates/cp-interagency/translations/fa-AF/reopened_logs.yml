@@ -1,0 +1,9 @@
+fa-AF:
+  reopened_logs:
+    name: 'قضیه باز گشایی شد '
+    description: فورم فرعی بازگشایی قضیه
+    fields:
+      reopened_date:
+        display_name: تاریح باز گشایی
+      reopened_user:
+        display_name: باز گشایی شد توسط

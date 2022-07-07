@@ -1,0 +1,138 @@
+es:
+  closure_form:
+    name: Cierre
+    description: Cierre
+    fields:
+      closure_approved:
+        display_name: Aprobado por Gerencia
+        tick_box_label: 'Sí'
+      closure_approved_date:
+        display_name: Fecha
+      closure_approved_comments:
+        display_name: Comentarios de Gerencia
+      approval_status_closure:
+        display_name: Estatus de aprobación
+      approval_obtained_child:
+        display_name: Aprobado por el/la niño/a
+        tick_box_label: 'Sí'
+      approval_obtained_caregiver:
+        display_name: Aprobado por el cuidador
+        tick_box_label: 'Sí'
+      approval_obtained_details:
+        display_name: Favor dar detalles
+        help_text: Incluir detalles de contacto y relación del cuidador con el/la niño/a
+      child_status:
+        display_name: Estatus del caso
+      date_closure:
+        display_name: Fecha de cierre
+      closure_reason:
+        display_name: Principal razón para el cierre del caso
+        option_strings_text:
+          overall_goal_of_the_case_plan: Se cumplió el objetivo general del plan del caso, el/la niño/a está a salvo de daños, se apoya el cuidado y el bienestar del niño/a y no hay preocupaciones adicionales
+          child_has_turned_18_years_old: El/la niño/a ha cumplido 18 años (asegúrese de que exista un plan de transición y que el caso sepa dónde y cómo acceder a la ayuda)
+          relocation_of_child_to_an_area: Reubicación del niño/a a un área donde no hay una agencia para transferir el caso
+          child_departed_for_a_durable_solution: El/la niño/a partió en busca de una solución duradera donde no hay una agencia para transferir el caso
+          child_no_longer_contactable: No se logra contactar al niño/a (esperar al menos 3 meses antes de cerrar el caso)
+          death_of_child: Muerte del niño/a
+          no_further_action_possible_required: No hay más acciones posibles/requeridas
+          case_opened_in_error: El caso se abrió por error
+          other: Otro
+      closure_reason_other:
+        display_name: 'Si otro, favor especificar'
+      closure_details:
+        display_name: Dar más detalles sobre las razones de cierre del caso
+      closure_situation_child_separator:
+        display_name: Situación del niño/a al cierre del caso
+      closure_how_long_case_opened:
+        display_name: Por cuánto tiempo ha estado el caso abierto
+        help_text: En semanas
+      closure_current_situation:
+        display_name: 'Breve resumen de la situación actual del caso '
+        help_text: Describa el historial y la situación actual del caso, incluidos los últimos servicios prestados/acciones tomadas
+      closure_child_moving_separator:
+        display_name: Si el/la niño/a se está mudando a una nueva ubicación
+      closure_new_child_location:
+        display_name: Nueva dirección/ubicación donde el/la niño/a está viviendo
+        help_text: Proporcione tantos detalles como sea posible sobre la ubicación para que otros puedan encontrarla, por ejemplo, casa, punto de referencia, calle, ciudad/pueblo, distrito, provincia (adaptar según el contexto)
+      closure_new_telephone_contact_details:
+        display_name: Teléfono/Otros datos de contacto
+      closure_care_arrangements_separator:
+        display_name: Arreglos de cuidado al cierre
+      closure_current_care_arrangement:
+        display_name: Arreglos de cuidado/estilo de vida actual del niño/a
+        option_strings_text:
+          parent_s: Padre, madre o ambos
+          step_parent: Padrastro/madrastra
+          customary_caregiver_s: Cuidador (es) habitual
+          kafala: Kafala
+          independent_living: Vida independiente
+          child_headed_household: Niño/niña cabeza de hogar
+          adult_sibling: Hermano/a adulto
+          kinship_care_extended_family: Cuidado por parentesco/familia extendida
+          foster_care: Orfanato
+          residential_care: Atención residencial
+          unrelated_adult: Adulto sin parentesco
+          no_care_arrangement: Sin arreglo de cuidado
+          other: Otro
+      closure_current_care_arrangement_other:
+        display_name: Si otro, favor especificar
+      closure_current_care_arrangement_permanent:
+        display_name: Si es el arreglo de cuidado permanente
+      closure_current_care_arrangement_permanent_no:
+        display_name: Si no, favor especificar por qué
+      primary_caregiver_separator:
+        display_name: Detalles del cuidador principal
+      name_caregiver_closing:
+        display_name: Nombre del cuidador
+      relationship_caregiver_closing:
+        display_name: Relación con el/la niño/a
+      address_caregiver_closing:
+        display_name: Dirección del cuidador
+      location_caregiver_closing:
+        display_name: Ubicación del cuidador
+      closure_caregiver_contact_details:
+        display_name: Teléfono/otros detalles de contacto del cuidador
+      closure_arrangements_separator:
+        display_name: Arreglos establecidos para apoyar de manera exitosa el cierre del caso
+      case_closure_process:
+        display_name: Describa el proceso de cierre del caso
+        help_text: Proporcione detalles de las reuniones celebradas para discutir el cierre del caso, ej. entre el gestor de casos y el niño, entre el gestor de casos y el (los) cuidador (es), entre el gestor de casos y el supervisor.
+      closure_discussed_child:
+        display_name: ¿El cierre de caso ha sido discutido y aprobado con el/la niño/a?
+      closure_discussed_child_no:
+        display_name: Si no, favor especificar por qué
+      closure_discussed_caregiver:
+        display_name: ¿El cierre del caso ha sido discutido y aprobado con el/los cuidador (es)?
+      closure_discussed_caregiver_no:
+        display_name: Si no, especificar por qué
+      closure_child_feedback_form:
+        display_name: ¿Se han recopilado comentarios del niño/a sobre el proceso de gestión de casos mediante el "formulario de retroalimentación del niño/a"?
+      closure_child_feedback_form_no:
+        display_name: Si no, favor especificar por qué
+      closure_caregiver_feedback_form:
+        display_name: ¿Se han recopilado comentarios del cuidador/a sobre el proceso de gestión de casos mediante el "formulario de retroalimentación del cuidador/a"?
+      closure_caregiver_feedback_form_no:
+        display_name: Si no, especificar por qué
+      closure_final_followup_meeting:
+        display_name: '¿Se ha planeado una reunión final de seguimiento en tres meses con el/la niño/a y/o cuidador/a para asegurarse que la situación permanece estable? '
+      closure_final_followup_meeting_no:
+        display_name: Si no, especificar por qué
+      closure_child_case_file_complete:
+        display_name: ¿Está el expediente del caso completo y al día con toda la documentación relevante incluida?
+      closure_child_case_file_complete_no:
+        display_name: Si no, especificar por qué
+      closure_case_file_stored:
+        display_name: ¿Cómo se archivará el expediente del caso?
+        option_strings_text:
+          electronically: Electrónicamente
+          hard_copy: En físico
+          both: Ambos
+      closure_case_file_stored_date:
+        display_name: ¿Hasta qué fecha permanecerá el expediente del caso archivado?
+      closure_child_told_contact_support:
+        display_name: ¿Se le ha dicho al niño/a a quien contactar en caso de tener preguntas, dudas o para acceder a algún tipo de apoyo si lo requiere?
+      closure_child_told_contact_support_no:
+        display_name: Si no, especificar por qué
+      closure_child_contact_support:
+        display_name: ¿A quién se le ha dicho al niño/a que puede contactar en caso de tener preguntas, dudas o para acceder a algún tipo de apoyo si lo requiere?
+        help_text: Proporcione los nombres y detalles de contacto

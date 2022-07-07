@@ -1,0 +1,56 @@
+---
+ar:
+  services_section:
+    name: الخدمات المتداخلة
+    description: نموذج الخدمات الفرعي
+    fields:
+      service_response_type:
+        display_name: نوع الاستجابة
+      service_type:
+        display_name: نوع الخدمة
+        guiding_questions: |-
+          1. الرعاية النفسية الاجتماعية الأساسية - المساحات الآمنة (بما في ذلك المساحات الصديقة للأطفال ) ، ومجموعات الأقران ، ونوادي الشباب ، والتدريب على المهارات الحياتية ومجموعات دعم مقدمي الرعاية
+          2. الصحة النفسية والدعم النفسي الاجتماعي المركزة وغير المتخصصة - الصحة النفسية والدعم النفسي الاجتماعي من خلال إدارة حالة (حماية الطفل) ، والإسعافات الأولية النفسية ، والتدخل النفسي القائم على الأدلة / الفردية أو الجماعية المستندة إلى الأدلة المقدمة من قبل غير المتخصصين بما في ذلك الأخصائيون الاجتماعيون ، والعاملين في الحالة ، والمتطوعين المجتمعيين ، والعاملين الصحيين ، إلخ.
+           3. الرعاية المتخصصة في مجال الصحة النفسية والدعم النفسي الاجتماعي - رعاية نفسية أو نفسية أو رعاية صحية نفسية فردية أخرى يقدمها اختصاصيو الصحة النفسية.
+      service_type_other:
+        display_name: إذا كانت الإجابة أخرى يرجى التحديد
+      service_referral:
+        display_name: نوع الإحالة
+      service_response_day_time:
+        display_name: تاريخ الإحالة
+      service_appointment_date:
+        display_name: تاريخ بدء الخدمة
+      service_implementing_agency:
+        display_name: الوكالة (الجهة) المنفذة
+      service_provider:
+        display_name: مقدم الخدمة
+      service_delivery_location:
+        display_name: موقع تقديم الخدمة
+      service_implementing_agency_individual:
+        display_name: اسم مقدم الخدمة
+      service_status_referred:
+        display_name: هل تمت الاحالة؟
+        tick_box_label: 'نعم'
+      service_location:
+        display_name: موقع الخدمة
+      service_referral_notes:
+        display_name: الملاحظات
+      service_implemented:
+        display_name: تم تنفيذ الخدمة
+      service_implemented_day_time:
+        display_name: اكتملت الخدمة
+      details_service_provided:
+        display_name: تفاصيل / تعليقات على الخدمة المقدمة
+      recommendations_followup:
+        display_name: توصيات من أجل المتابعة
+      accountability_separator:
+        display_name: المسائلة (المحاسبة)
+        help_text: اخصائي الحالة يسأل الطفل(ة) عن مشاعرهم حول الخدمة المقدمة بطريقة مناسبة للفئة العمرية، (على سبيل المثال التقاط الوجوه المبتسمة)
+      focal_agency_location:
+        display_name: مستوى رضا الطفل عن الخدمة المقدمة
+      suggestions_improvement:
+        display_name: اقتراحات الطفل للتحسين
+      caregivers_satisfaction:
+        display_name: مستوى رضا مقدم الرعاية عن الخدمة المقدمة
+      caregivers_suggestions:
+        display_name: اقتراحات مقدم الرعاية للتحسين

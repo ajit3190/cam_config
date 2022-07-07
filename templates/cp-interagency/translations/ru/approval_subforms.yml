@@ -1,0 +1,19 @@
+ru:
+  approval_subforms:
+    name: Согласование
+    description: Согласование
+    fields:
+      approval_requested_for:
+        display_name: Согласование запрашивается для
+      approval_response_for:
+        display_name: Согласование для
+      approval_for_type:
+        display_name: Тип плана
+      approval_date:
+        display_name: Дата
+      approval_manager_comments:
+        display_name: Комментарии руководителя
+      approval_status:
+        display_name: Статус согласования
+      approved_by:
+        display_name: Согласовал

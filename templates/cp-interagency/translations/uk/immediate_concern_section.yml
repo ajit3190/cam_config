@@ -1,0 +1,18 @@
+uk:
+  immediate_concern_section:
+    name: Вкладені Негайні проблеми
+    description: Субформа Негайні проблеми
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: Тип негайної проблеми
+        option_strings_text:
+          health_care: Охорона здоров'я
+          safety: Безпека
+          interim_care: Тимчасовий догляд
+          other: Інше
+      immediate_concerns_immediate_concern_type_other:
+        display_name: Якщо інше, вкажіть
+      immediate_concerns_immediate_concern_summary:
+        display_name: Підсумок прблеми
+      immediate_concerns_immediate_concern_action:
+        display_name: Негайно вжиті заходи/здійснено направлення

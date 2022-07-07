@@ -1,0 +1,18 @@
+---
+es-GT:
+  health_medical_referral_subform_section:
+    name: Subformulario anidado sobre la derivación a servicios médicos o de salud
+    description: Subformulario anidado sobre la derivación a servicios médicos o de salud
+    fields:
+      service_medical_referral:
+        display_name: "¿Derivó usted al/a la cliente a servicios médicos o de salud?"
+      service_medical_appointment_date:
+        display_name: Fecha de la cita
+      service_medical_appointment_time:
+        display_name: Hora de la cita
+      service_medical_provider:
+        display_name: Proveedor del servicio
+      service_medical_location:
+        display_name: Ubicación del servicio
+      service_medical_referral_notes:
+        display_name: Notas

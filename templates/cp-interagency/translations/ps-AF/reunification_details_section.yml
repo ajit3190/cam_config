@@ -1,0 +1,44 @@
+ps-AF:
+  reunification_details_section:
+    name: بیا یو ځای کیدنه
+    description: د بیا یو ځای کیدو فرعي فورمه
+    fields:
+      name_reunified_adult:
+        display_name: د هغه بالغ شخص نوم چې ماشوم ورسره یو ځای شوی ده
+      relationship_reunified_adult:
+        display_name: د بالغ شخص اړیکه له ماشوم سره
+      address_reunified_adult:
+        display_name: پته
+      location_reunified_adult:
+        display_name: د مشر شخص موقعیت چې ورسره ماشوم یوځای شوی و
+      address_reunification:
+        display_name: هغه پته چېرته چې یو ځای کیدنه ترسره کیږي
+      location_reunification:
+        display_name: موقعیت چېرته چې یو ځای کیدنه ترسره کیږي
+      reunification_type:
+        display_name: کوم ډول یوځای کیدنه
+        option_strings_text:
+          case_by_case: د قضیې له مخې قضیه
+          informal_spontaneous: غیر رسمي / ناڅاپي
+          mass_tracing: ' ډله ایز تعقیب'
+          mediation: منځګړیتوب
+          other: که نور وي (مهرباني وکړئ مشخص یې کړئ)
+          photo_tracing: ' انځوریز تعقیب'
+          spontaneous: په خپله خوښه
+      date_reunification:
+        display_name: د بیا یوځای کیدو نیټه
+      child_reunited_with_verified_adult:
+        display_name: ایا ماشوم د تایید شوي مشر شخص سره یوځای شوی؟
+      not_reunited_with_verified_adult_reason:
+        display_name: که نه وي، د بدلون لامل څه و؟
+        option_strings_text:
+          change_of_mind: د فکر بدلون
+          death: مړینه
+          death_of_adult: مشر شخص مړینه
+          failed_verification: نابریالی تصدیق
+          n_a: د عملې کیدو وړ نه ده
+          other: که نور وي (مهرباني وکړئ مشخص یې کړئ)
+      reunification_follow_up_needed:
+        display_name: ایا د تعقیب لپاره اړتیا شته؟
+      closure_recommendation:
+        display_name: که نه وي، ایا تاسو وړاندیز کوئ چې قضیه د وتړل شي؟

@@ -1,0 +1,7 @@
+ps-AF:
+  conference_details_container:
+    name: د قضیې کنفرانس توضیحات
+    description: د قضیې کنفرانس توضیحات
+    fields:
+      conference_details_subform:
+        display_name: د قضیې کنفرانس توضیحات

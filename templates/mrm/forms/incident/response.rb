@@ -86,7 +86,8 @@ response_subform_fields = [
     'multi_select' => false,
     'name' => 'intervention_task_force_type_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details"
+    'display_name_en' => "If ‘Other', please provide details",
+    'display_conditions_subform' => { 'in' => { 'intervention_task_force_type' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -177,7 +178,8 @@ response_subform_fields = [
     'multi_select' => false,
     'name' => 'intervention_follow_up_due_date',
     'type' => 'date_field',
-    'display_name_en' => 'If pending, please indicate due date:'
+    'display_name_en' => 'If pending, please indicate due date:',
+    'display_conditions_subform' => { 'eq' => { 'intervention_follow_up_type' => 'pending' } }
   ),
   Field.new(
     'mobile_visible' => true,

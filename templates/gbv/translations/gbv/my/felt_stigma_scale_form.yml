@@ -1,0 +1,8 @@
+---
+my:
+  felt_stigma_scale_form:
+    name: လူမှုရေးအမဲစက်ရှိသည်ဟုခံစားရခြင်း
+    description: လူမှုရေးအမဲစက်ရှိသည်ဟုခံစားရခြင်း
+    fields:
+      felt_stigma_section:
+        display_name: လူမှုရေးအမဲစက်ရှိသည်ဟုခံစားရခြင်း ဖောင်ပုံစံခွဲ

@@ -1,0 +1,50 @@
+ps-AF:
+  interview_details:
+    name: د مرکې توضیحات
+    description: د مرکې توضیحات
+    fields:
+      interview_date:
+        display_name: د مصاحبې نیټه
+      interviewer_name:
+        display_name: د مرکه کونکي نوم
+      interviewer_postion:
+        display_name: د مرکه کونکی د وظیفې مفام
+      interviewer_agency:
+        display_name: د مرکه کونکي اداره
+        option_strings_text:
+          agency_1: لمړی اداره
+          agency_2: دوهمه اداره
+          agency_3: دریمه اداره
+          agency_4: څلورمه اداره
+      address_interview:
+        display_name: د مصاحبې پته
+      landmark_interview:
+        display_name: د مرکې د ځای لویه نښه
+      location_interview:
+        display_name: د مرکې ځای
+      source_interview:
+        display_name: معلومات له چا څخه ترلاسه شوي
+        option_strings_text:
+          child: ماشوم
+          caregiver: سرپرست
+          other: که نور وي ، مهرباني وکړئ مشخص کړئ
+      source_interview_other:
+        display_name: که معلومات له بل چا څخه ترلاسه شوي وي ، مهرباني وکړئ مشخص کړئ.
+      other_org_interview_status:
+        display_name: ایا له ماشوم سره د بل کوم سازمان یا ادارې لخوا مرکه شوې؟
+      other_org_reference_no:
+        display_name: د ریفرنس شمیره، چې د بلې ادارې لخوا ماشوم ته ورکړل شوي
+      case_eligibility_criteria:
+        display_name: قضیه اصولي معیارونه پوره کوي؟
+      source_identification_referral:
+        display_name: د پیژندنې / راجع کولو سرچینه
+        option_strings_text:
+          child_family_member: د ماشوم / کورنۍ غړي
+          community_members_cpc: د ټولنې غړي / CPC
+          school_personnel: د ښوونځي کارمندان
+          health_personnel: روغتیایي پرسونل
+          population_registration_services: د نفوس د ثبت خدمتونه
+          law_enforcement_agencies: د قانون پلي کونکي ادارې
+          humanitarian_agencies: بشردوستانه ادارې
+      consent_form_completed:
+        display_name: د رضایت فورمه ډکه شوه؟

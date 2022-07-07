@@ -1,0 +1,8 @@
+---
+ar:
+  conference_details_container:
+    name: تفاصيل مؤتمر الحالة
+    description: تفاصيل مؤتمر الحالة
+    fields:
+      conference_details_subform:
+        display_name: تفاصيل مؤتمر الحالة

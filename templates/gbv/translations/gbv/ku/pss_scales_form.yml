@@ -1,0 +1,8 @@
+---
+ku:
+  pss_scales_form:
+    name: باشی و سەلامەتی دەروونی و كۆمەڵایەتی
+    description: باشی و سەلامەتی دەروونی و كۆمەڵایەتی
+    fields:
+      pss_section:
+        display_name: فۆرمی لاوەكی دەروونی و كۆمەڵایەتی

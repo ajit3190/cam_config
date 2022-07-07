@@ -1,0 +1,68 @@
+fa-AF:
+  consent:
+    name: 'اجازه نامه و رضایت نامه '
+    description: 'اجازه نامه و رضایت نامه '
+    fields:
+      interview_subject:
+        display_name: 'فورم های موجوده اجازه نامه و رضایت نامه '
+        option_strings_text:
+          child: طفل
+          caregiver: مراقبت کننده
+          other: وغیره
+      consent_source_other:
+        display_name: 'اکر وغیره ,مشخص کنید '
+      consent_notes:
+        display_name: تذکر
+      consent_for_services:
+        display_name: به طفل برای شرکت در جریان مدیریت قضیه اجازه داده شده است
+        help_text: 'اگر رضایت ندارد انتخاب نشود '
+        tick_box_label: 'بلی '
+      consent_reporting:
+        display_name: رضایت برای  اطلاعات غیرقابل شناسایی  برای راپور داده می شود
+      consent_for_data_collection:
+        display_name: 'رضایت  نامه  به کارمند قضیه  ای که به قضیه  اختصاص داده شده است برای جمع آوری و ذخیره معلونات شخصی قضیه (ب مثالآ ، نام ، عکس ، مشخصات خانواده) داده شده اشت '
+      disclosure_other_orgs:
+        display_name: شخص  ارائه دهنده رضایت موافقت می کند که امعلومات مربوط به این قضیه را با توجه به جزئیات شرح داده شده در ذیل با سایر ارائه دهندگان خدمات در میان بگذارد.
+        help_text: این شامل اشتراک اطلاعات با سایر سازمانهای اعرضه کننده  خدمات می باشد ، و شامل اشتراک معلومات  با کمیساریای عالی پناهندگان سازمان ملل متحد UNHCR نمی باشد.
+        tick_box_label: 'بلی'
+      information_shared_services:
+        display_name: 'معلومات به خدمات ذیل شریک شده میتواند '
+        option_strings_text:
+          alternative_care: مراقبت جایگزین
+          cash_assistance: کمک نقدی
+          education_formal: تعلیمات (رسمی)
+          family_tracing_and_reunification: پیگیری  اتحاد خانواده
+          food: غذا
+          gbv_survivor_support: 'حمایت از قربانی خشونت های مبنی بر جندر '
+          legal_support: 'حمایت قانونی '
+          livelihoods: 'امرار معیشت '
+          medical: ادویه
+          mental_health: 'صحت روانی '
+          non_food_items: اقلام غیر غذایی
+          non_formal_education: تعلیمات غیر رسمی
+          nutrition: تغذی
+          psychosocial_support: 'حمایت روانی اجتماعی '
+          services_for_children_with_disabilities: 'خدمات برای اطفال دارلیی معلولیت '
+          shelter: سرپناه
+          sexual_and_reproductive_health: صحت جتسی و باروری
+          rescue: نجات
+          wash: واش
+          case_transfer: 'انتقال پول '
+          other: وغیره
+      information_shared_services_other:
+        display_name: 'اگر وغیرهع لطفامشخص کنید '
+      unhcr_export_opt_out:
+        display_name: شخص ارائه دهنده رضایت نامه  موافقت می کند تا معلومات مربوط به این قضیه را برای  حمایت از مدیریت قضیه مهاجرین بت UNHCR در میان بگذارد.
+        tick_box_label: 'بلی'
+      withhold_details:
+        display_name: از ارایه معلومات  خاص خودداری کنید
+      disclosure_deny_details:
+        display_name: از ارایه کدام معلومات خاص باید خودداری کرد
+      withholding_info_reason:
+        display_name: دلیل برای خودداری از ارایه معلومات
+        option_strings_text:
+          fear: ترس از آسیب رساندن به خود یا دیگران
+          communicate_information: می خواهند خودشان با آنها ارتباط برقرار کنند
+          others: وغیره
+      withholding_info_other_reason:
+        display_name: اگر دلیل دیگری برای جلو گیری ز ارایه معلومات موجود  است  لطفاً مشخص کنید

@@ -1,0 +1,50 @@
+---
+es-GT:
+  pss_subform_section:
+    name: Subformulario anidado sobre bienestar psicosocial
+    description: Subformulario anidado sobre bienestar psicosocial
+    fields:
+      psychosocial_functionality_scale:
+        display_name: Escala de funcionalidad psicosocial
+      pss_date:
+        display_name: Fecha
+        guiding_questions: |-
+          Los gestores de casos de violencia de género pueden emplear esta herramienta como parte de la evaluación psicosocial de la persona superviviente. Para administrar cada uno de los cuestionarios se requieren entre 10 y 20 minutos. La herramienta de seguimiento debe administrarse después de un mínimo de tres visitas, a fin de satisfacer las necesidades más urgentes de las personas supervivientes y dar tiempo para que se genere una relación de confianza. Para obtener una medición única del bienestar psicosocial o la estigmatización percibida, no es necesario administrar la herramienta más de una vez.
+
+          Para hacer un seguimiento del cambio en el bienestar de las personas supervivientes a lo largo del tiempo, el cuestionario debe administrarse en la línea de base (por lo general, la cuarta sesión de gestión del caso con la persona superviviente) y nuevamente después de otras tres sesiones (generalmente en la séptima sesión). Si es posible, complete un último cuestionario al finalizar el plan de intervención si la gestión del caso ha incluido más de siete sesiones.
+
+          Con cada cliente, puede optar por administrar solo una de las escalas —la escala de funcionalidad psicosocial o la escala de estigmatización percibida— o ambas (ya sea durante la misma sesión de gestión del caso o en dos sesiones), dependiendo de los aspectos de los cuales usted y el/la cliente hayan acordado hacer un seguimiento.
+
+          Las escalas han sido probadas y validadas para su uso con mujeres supervivientes de 15 años o mayores. El kit de herramientas no es adecuado para su uso con niñas de menos de 15 años. Para obtener instrucciones sobre la manera de calcular las puntuaciones, consulte el kit de herramientas sobre los resultados de la gestión de casos de violencia de género.
+
+          Explique al/a la cliente: “Le haré unas preguntas acerca de ciertas tareas y actividades, y usted me indicará en qué medida le ha resultado difícil llevarlas a cabo en las últimas cuatro semanas. Podrá optar por una de las respuestas siguientes:
+
+          • Nada difícil
+          • Difícil
+          • Algo difícil
+          • Muy difícil
+          • Tan difícil que a menudo no puedo hacerlo”
+      giving_advice:
+        display_name: Aconsejar a un miembro de la familia
+      exchanging_ideas:
+        display_name: Intercambiar ideas con otras personas
+      uniting_with_other_community:
+        display_name: Unirse a otros miembros de la comunidad para realizar tareas en favor de la comunidad
+      asking_getting_help:
+        display_name: Pedir ayuda a una persona o una organización cuando la necesitaba
+      making_important_decisions:
+        display_name: Tomar decisiones importantes sobre su vida cotidiana
+      taking_part_in_family_decisions:
+        display_name: Participar en las decisiones familiares
+      learning_new_skills:
+        display_name: Aprender nuevas competencias
+      concentrating_on_your_tasks:
+        display_name: "Centrarse en sus tareas o responsabilidades "
+      interacting_dealing_people:
+        display_name: Interactuar o tratar con personas desconocidas
+      keeping_household_clean:
+        display_name: Mantener limpia su casa
+      pss_score:
+        display_name: Puntuación
+      pss_score_notes:
+        display_name: Notas

@@ -1,0 +1,7 @@
+fr:
+  tracing_request_tracing_request:
+    name: 'Demande de traçage '
+    description: 'Demande de traçage '
+    fields:
+      tracing_request_subform_section:
+        display_name: 'Demande de traçage '

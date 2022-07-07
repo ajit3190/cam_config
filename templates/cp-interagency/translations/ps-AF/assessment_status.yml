@@ -1,0 +1,28 @@
+ps-AF:
+  assessment_status:
+    name: د ارزونې حالت
+    description: د ارزونې د حالت فورمه
+    fields:
+      bia_approved:
+        display_name: د مدیر لخوا منظور شوی
+        tick_box_label: 'هو'
+      bia_approved_date:
+        display_name: نیټه
+      bia_approved_comments:
+        display_name: د مدیر څرکندون/تبصره
+      approval_status_bia:
+        display_name: د منظوري حالت
+      assessment_header:
+        display_name: د ارزونې فومه
+      assessment_requested_on:
+        display_name: د ارزونې د پیل نیټه
+        help_text: دغه برخه د کار د جریان لپاره استعالیږي
+      assessment_completed_on:
+        display_name: 'ارزونه په کوم تاریخ بشپړه شوې '
+      case_plan_due_date:
+        display_name: هغه نیټه چې د قضیې پلان ورباندې بشپړ کیږي
+        guiding_questions: |-
+          د قضیې د خطر په اندازې پورې اړه لري
+          لوړ: له ارزونې وروسته په دریو ورځو کې
+          منځنی: له ارزونې وروسته د یوې اونی په جریان کې
+          ټیټ: له ارزونې وروسته د دوه اونیو په جریان کې

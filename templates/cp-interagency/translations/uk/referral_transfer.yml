@@ -1,0 +1,13 @@
+uk:
+  referral_transfer:
+    name: Реферали та трансфери
+    description: Список трансферів і рефералів
+    fields:
+      transfer_status:
+        display_name: Статус трансферу
+        option_strings_text:
+          in_progress: В процесі
+          accepted: Прийнято
+          rejected: Відхилено
+      transitions:
+        display_name: Трансфери і реферали

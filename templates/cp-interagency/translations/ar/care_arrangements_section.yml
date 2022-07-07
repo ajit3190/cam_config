@@ -1,0 +1,101 @@
+---
+ar:
+  care_arrangements_section:
+    name: ترتيبات الرعاية المتداخلة
+    description: نموذج فرعي لترتيبات الرعاية
+    fields:
+      child_caregiver_reason_change:
+        display_name: إذا كان هناك مقدم رعاية جديدًا ، فاذكر سبب التغيير
+        option_strings_text:
+          abuse_exploitation: سوء المعاملة والاستغلال
+          death_of_caregiver: وفاة مقدم الرعاية
+          Education: التعليم
+          ill_health_of_caregiver: اعتلال صحة مقدم الرعاية
+          other: أخرى
+          poverty: الفقر
+          relationship_breakdown: انهيار العلاقة
+      care_arrangements_type:
+        display_name: ما هي ترتيبات رعاية الطفل الحالية؟
+        option_strings_text:
+          parent_s: احد الوالدين (او كلاهما)
+          step_parent: زوجة الاب / زوج الام
+          customary_caregiver_s: مقدم(ي) رعاية عُرفي
+          adult_sibling: شقيق (ة) بالغ
+          kinship_care_extended_family: رعاية القرابة / الأسرة الممتدة
+          foster_care: رعاية بالتبني
+          residential_care: الرعاية السكنية
+          kafala: الكفالة
+          independent_living: العيش المستقل
+          child_headed_household: اسرة يعيلها طفل
+          unrelated_adult: بالغ غير ذي صلة
+          no_care_arrangement: لايوجد ترتيب رعاية
+          other: آخر
+      care_arrangements_type_other:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      name_caregiver_separator:
+        display_name: إذا لم يكن مع الوالدين ، الشخص الرئيسي الذي يعتني بالطفل.
+      name_caregiver:
+        display_name: اسم مقدم الرعاية الحالي
+        help_text: "(إذا كان الطفل مع الوالدين ، فانتقل إلى ترتيبات الرعاية.)"
+      nickname_caregiver:
+        display_name: الاسماء او التهجئات الاخرى المعروف بها مقدم الرعاية
+        help_text: على سبيل المثال ، الاسم المستعار واسم العائلة الثاني
+      caregiver_age:
+        display_name: عمر مقدم الرعاية
+      caregiver_dob:
+        display_name: تاريخ ميلاد مقدم الرعاية (DOB)
+      age_estimated_caragiver:
+        display_name: هل العمر مقدر؟
+        tick_box_label: 'نعم'
+      caregiver_sex:
+        display_name: الجنس
+      caregiver_national_id:
+        display_name: الهوية الوطنية
+      caregiver_unhcr_individual_id:
+        display_name: هوية الفردية الخاصة بالمفوضية السامية لشؤون اللاجئين
+      caregiver_other_id:
+        display_name: هوية أخرى
+      caregiver_related_child:
+        display_name: هل مقدم الرعاية مرتبط بالطفل؟
+      relationship_caregiver:
+        display_name: العلاقة بالطفل
+      caregiver_know_family:
+        display_name: إذا لم يكن هناك صلة قرابة ، فهل يعرف مقدم الرعاية عائلة الطفل؟
+      family_size_under_18:
+        display_name: 'حجم الأسرة: أقل من 18 سنة'
+      family_size_over_18:
+        display_name: 'حجم الأسرة: فوق 18 سنة'
+      address_caregiver:
+        display_name: عنوان مقدم الرعاية
+        guiding_questions: أدخل عنوان مقدم الرعاية  وموقعه هنا حتى لو كان نفس العنوان الحالي للطفل لإمكانية التتبع إذا انتقل الطفل أو تغير مقدم الرعاية
+      location_caregiver:
+        display_name: موقع مقدم الرعاية
+      care_arrangement_started_date:
+        display_name: متى بدأ ترتيب الرعاية هذا؟
+      caregiver_willing_to_continue:
+        display_name: هل مقدم الرعاية على استعداد لمواصلة رعاية الطفل؟
+        option_strings_text:
+          yes_short_term: نعم ، على المدى القصير
+          yes_long_term: نعم ، على المدى الطويل
+          'no': 'لا'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: إذا كانت الإجابة نعم ، فإلى متى؟
+      caregiver_willing_to_continue_not_reason:
+        display_name: إذا لم تكن على استعداد لمواصلة رعاية الطفل ، فقدم التفاصيل
+      caregiver_location_status:
+        display_name: هل الموقع الحالي لمقدم الرعاية مؤقت
+      address_caregiver_future:
+        display_name: إذا كانت الإجابة نعم ، فما هو العنوان المستقبلي؟
+      location_caregiver_future:
+        display_name: ما هو الموقع المستقبلي؟
+      telephone_caregiver_future:
+        display_name: ما هو رقم الهاتف المستقبلي؟
+      telephone_caregiver:
+        display_name: رقم هاتف مقدم الرعاية
+        help_text: أدخل رقم الهاتف الحالي لمقدم الرعاية / تفاصيل الاتصال الأخرى
+      child_consent_caregiver_contacted:
+        display_name: هل يوافق الطفل على الاتصال بمقدم الرعاية؟
+      child_consent_caregiver_contacted_no_details:
+        display_name: إذا كانت الإجابة "لا" ، قدِّم التفاصيل
+      other_persons_living_in_household:
+        display_name: الأشخاص الآخرون الذين يعيشون في المنزل

@@ -1,0 +1,83 @@
+es-ES:
+  unhcr_bid_report_subform:
+    name: Informe de BID del ACNUR anidado
+    description: Subformulario del Informe de BID del ACNUR
+    fields:
+      bid_date:
+        display_name: Fecha de la entrevista BID
+      bid_participants:
+        display_name: Listado de todos los participantes en la entrevista
+        help_text: 'Incluya la/s persona/s entrevistada/s, el entrevistador y el intérprete (cuando aplique)  '
+      bid_separation_status:
+        display_name: Estado de separación del niño
+        option_strings_text:
+          unaccompanied: No acompañado
+          separated: Separado
+          orphan: Huérfano/a
+          none_of_the_above: Ninguno de los anteriores
+      bid_purpose:
+        display_name: Propósito del BID
+        option_strings_text:
+          durable_solution: Solución duradera
+          family_reunification: Reunificación familiar
+          temporary_care_arrangements: Arreglos de cuidado temporal
+          separation_from_parents_caregiver: Separación de los padres/cuidador(es)
+          other: Otro
+      bid_purpose_other:
+        display_name: Si otro, favor especificar
+      bid_priority:
+        display_name: Prioridad del caso
+        option_strings_text:
+          emergency: Emergencia
+          high: Alto
+          medium: Medio
+          low: Bajo
+      bid_priority_reasons:
+        display_name: Motivos para esta prioridad
+      bid_specific_needs:
+        display_name: Necesidades específicas del niño/a
+      bid_brief_summary:
+        display_name: Favor resumir brevemente los puntos claves
+        guiding_questions: Ej. acuerdo de cuidado actual, información sobre los padres y la familia, y las opciones bajo consideración.
+      bid_separator_recommendations:
+        display_name: Opciones y recomendaciones
+      bid_child_history:
+        display_name: Registre el historial del niño antes y durante el vuelo/separación.
+        guiding_questions: Incluya los recuerdos del niño/a sobre la huida/separación y las pruebas proporcionadas por personas cercanas al niño/a (si se entrevistó). Indique cómo se ha verificado esta información.
+      bid_current_situation:
+        display_name: Describa la situación de vida actual del niño/a
+        guiding_questions: |-
+          Incluir:
+          - Arreglos actuales de cuidado, condiciones de vida, seguridad, relaciones con los padres adoptivos/hermanos/cuidadores/otros miembros de la familia;
+          - Redes comunitarias, educación y asistencia escolar;
+          - Evaluación de la edad y madurez del niño/a, su salud física y mental y cualquier evaluación de necesidades específicas. Indique quién ha sido contactado y quién proporcionó información, Ej. niño/a, familia, personas cercanas al niño/a, cuidadores, maestros, vecinos, trabajadores sociales/personal de ONG.
+      bid_available_options:
+        display_name: Indique todas las opciones disponibles y los mecanismos de seguimiento y análisis de cada una.
+        guiding_questions: |-
+          Consulte todos los factores incluidos en la lista de verificación del Anexo 9 al recomendar qué es lo mejor para el/la niño/a, bajo los siguientes encabezados:
+          - Percepción del niño/a
+          - Familia y relaciones cercanas.
+          - Ambiente seguro
+          - Necesidades de desarrollo e identidad.
+      bid_final_recommendations:
+        display_name: Proporcione la recomendación final y las razones.
+      bid_separator_panel_decision:
+        display_name: Decisión del Panel
+      bid_date_panel_decision:
+        display_name: Fecha de la decisión del panel
+      bid_panel_members:
+        display_name: Nombres y organizaciones de todos los miembros del panel
+      bid_panel_decision:
+        display_name: 'El panel:'
+        option_strings_text:
+          approves_the_recommendations: Aprueba las recomendaciones
+          defers_decison_please_explain_why: Aplaza la decisión (por favor explique por qué)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: No aprueba las recomendaciones (explique por qué y proporcione la recomendación del panel)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: Reabre el caso (explique por qué y quién solicitó la reapertura)
+          closes_the_case: Cierra el caso
+      bid_panel_decision_reasons:
+        display_name: Razones para esta decisión
+      bid_panel_decision_actions:
+        display_name: Describa las acciones de seguimiento requeridas
+      bid_panel_comments:
+        display_name: Comentarios

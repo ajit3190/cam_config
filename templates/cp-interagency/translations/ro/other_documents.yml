@@ -1,0 +1,7 @@
+ro:
+  other_documents:
+    name: Alte Documente
+    description: Alte Documente
+    fields:
+      upload_other_document:
+        display_name: Alt Document

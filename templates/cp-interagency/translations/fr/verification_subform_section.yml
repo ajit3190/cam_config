@@ -1,0 +1,56 @@
+fr:
+  verification_subform_section:
+    name: 'Sous formulaire de vérification '
+    description: 'Sous formulaire de vérification '
+    fields:
+      verification_name_inquirer:
+        display_name: 'Nom du demandeur '
+      verification_inquirer_relationship:
+        display_name: 'Relation '
+      verification_inquirer_sex:
+        display_name: Sexe
+      verification_inquirer_age:
+        display_name: Age
+      verification_inquirer_address_current:
+        display_name: Adresse
+      verification_inquirer_location:
+        display_name: 'Localisation actuelle '
+      verification_phone_inquirer:
+        display_name: 'Téléphone '
+      verification_inquirer_wants_to_care_for_child:
+        display_name: Voulez-vous que l'enfant vienne vivre avec vous ?
+      verification_inquirer_able_to_care_for_child:
+        display_name: Êtes-vous en mesure de vous occuper de lui/elle ?
+      verification_alternate_caregiver_exists:
+        display_name: Sinon, y a-t-il un autre membre de la famille qui pourrait prendre en charge  l'enfant ?
+      verification_alternate_caregiver_name:
+        display_name: 'Nom de la personne en charge de l''enfant '
+      verification_alternate_caregiver_relationship:
+        display_name: 'Relation avec la personne en charge de l''enfant '
+      verification_address_alternate_caregiver:
+        display_name: 'Adresse de la personne ( En charge de l''enfant ) '
+      verification_location_alternate_caregiver:
+        display_name: 'Village/région/adresse physique de en charge de l''enfant '
+      verification_comments:
+        display_name: 'Commentaires '
+      verification_acceptance_date:
+        display_name: Date d'acceptation de la prise en charge de l'enfant
+      verification_inquirer_known_to_child:
+        display_name: L'enfant connaît-il l'adulte qui demande la vérification ?
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: L'enfant souhaite-t-il être réunifier avec cette personne ?
+      verification_inquirer_information_match:
+        display_name: Les informations données par l'enfant et l'adulte correspondent-elles ?
+      verification_inquierer_recommendation:
+        display_name: Recommandez-vous la réunification, et dans le cas contraire, quelles autres mesures ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          further_tracing: Poursuite de la recherche
+          long_term_alternative_care: 'Prise en charge à long terme ou adoption '
+          reunification: Réunification
+          reunification_enhanced_support: Réunification avec un soutien renforcé
+      verification_inquierer_recommendation_comments:
+        display_name: 'Commentaires additionnels '
+      verification_date:
+        display_name: 'Date de vérification '

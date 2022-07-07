@@ -1,0 +1,13 @@
+ps-AF:
+  notes_section:
+    name: د یادښت فرعي فورمه
+    description: د یادښت فرعي فورمه
+    fields:
+      notes_date:
+        display_name: نیټه
+      note_subject:
+        display_name: موضوع
+      field_notes_subform_fields:
+        display_name: یادښت
+      note_created_by:
+        display_name: مدیر

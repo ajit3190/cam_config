@@ -1,0 +1,36 @@
+ps-AF:
+  cp_case_plan_subform_case_plan_interventions:
+    name: د مداخلو او خدماتو لیست
+    description: د مداخلو او خدماتو لیست
+    fields:
+      intervention_service_to_be_provided:
+        display_name: مداخلې او هغه خدمات چې ورکول کیږي
+      intervention_service_goal:
+        display_name: مداخلې ضرورت / او خدمت ته رسیدګي
+        guiding_questions: لکه څنګه چې په ارزونه کې پیژندل شوي ، د بیلګې په توګه. بدیل پاملرنه ، امنیت (د بیلګې په توګه خوندي استوګنځي) ​​، تعلیم (رسمي) ، غیر رسمي تعلیم ، د کورنۍ تعقیب او یوځای کول ، رواني ټولنیز ملاتړ ، متمرکز غیر متخصص MHPSS پاملرنه ، متخصص MHPSS خدمتونه ، خواړه ، غیر خواړه توکي ، نغدي مرسته ، معیشت ، طبي ، تغذیه ، حقوقي ملاتړ ، اسناد ، د معلولیت لرونکو ماشومانو لپاره خدمتونه ، جنسي او د زیږون روغتیا ، پناه ځای ، WASH ، دوامدار حل ، ځای په ځای کول.
+      case_plan_provider_and_contact_details:
+        display_name: 'شخص / اداره چې خدمت چمتو کوي یا مداخله /  د اړیکې توضیحات '
+      case_plan_timeframe:
+        display_name: د اجرا تاریخ
+        help_text: dd/mm/yy
+      case_plan_monitoring_schedule:
+        display_name: ' د  تعقیب / څارنې مهال ویش'
+        guiding_questions: |-
+          د مثال په توګه راتلونکې اونۍ دوشنبه د چمتو شوو خدماتو په اړه تعقیب او راتلونکې اونۍ جمعه د ماشوم وضعیت په اړه. د راتلوونکې میاشتې لپاره لږترلږه په اونۍ کې باید دوه ځله تعقیب او څارنه ترسره شي. که چیرې وضعیت ]چې څنګه يې هیله کیږي پرمختګ وکړي ، نو بیا د بیاکتنې ناستې او خطر کچې د اصلاج پراساس د میاشتې په پای کې دراتلونکې میاشت تعقیب او نظارت مهالویش بدل کړئ.
+        option_strings_text:
+          one_time: یو ځل
+          daily: ورځنۍ
+          weekly: اونيز
+          monthly: میاشتنی
+          other: نور
+      case_plan_monitoring_schedule_notes:
+        display_name: د تعقیب د مهالویش یاداشت
+      interventions_status:
+        display_name: حالت
+        option_strings_text:
+          pending: ' پاتې دي'
+          ongoing: په جریان کې دي
+          completed: بشپړ شوي دي
+      interventions_notes:
+        display_name: یاداشت
+        guiding_questions: د مثال په توګه ، قوتونه او خنډونه چې کولی شي د پرمختګ کې مرسته وکړي  یا د لاسته راوړنې په وړاندې خنډ شي

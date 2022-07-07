@@ -1,0 +1,100 @@
+fa-AF:
+  care_arrangements_section:
+    name: ترتیب مراقبت  مکان
+    description: 'فارم هابیفرعی ترتیب مراقبت '
+    fields:
+      child_caregiver_reason_change:
+        display_name: اگر این یک مراقبتکننده جدید است ، دلیل تغییر را بیان کنید
+        option_strings_text:
+          abuse_exploitation: سوی استفاده /استثمار
+          death_of_caregiver: فوت مراقبت مننده
+          Education: تعلیم
+          ill_health_of_caregiver: صحت مراقبت کننده
+          other: وغیره
+          poverty: فقر
+          relationship_breakdown: خرابی رابطه
+      care_arrangements_type:
+        display_name: اقدامات مراقبت فعلی طفل چیست
+        option_strings_text:
+          parent_s: والدین
+          step_parent: 'مادر و با پدر اندر '
+          customary_caregiver_s: مراقبت کننده گان عرفی
+          adult_sibling: خواهر و برادر بزرگسال
+          kinship_care_extended_family: 'مراقبت  خویشاوندی / خانواده های که باهم زندکی میکنند '
+          foster_care: مراقبت از طفل کسی دیگر
+          residential_care: مراقبت های مسکونی
+          kafala: کلافه
+          independent_living: زندگی مستقل
+          child_headed_household: طفل سرپرست خانواده
+          unrelated_adult: بزرگسال بی ارتباط
+          no_care_arrangement: برای مراقبت ترتیب گرفته نشده
+          other: وغیره
+      care_arrangements_type_other:
+        display_name: اگر و غیره لطفآ مضخص سازید
+      name_caregiver_separator:
+        display_name: اگر با والدین نیست ، شخص اصلی که از کودک مراقبت می کند.
+      name_caregiver:
+        display_name: اسم مراقبت کننده فعلی
+        help_text: "(اگر کودک در کنار والدین است ، پروسه مراقبت را ترتیب دهید )."
+      nickname_caregiver:
+        display_name: 'نام های دیگر و یا  الفبای که مراقبت کننده با آن شناخته میشود '
+        help_text: . ، نام مستعار ، نام خانوادگییا تخلص
+      caregiver_age:
+        display_name: عمر مراقبت کننده
+      caregiver_dob:
+        display_name: تاریخ تولد مراقبت کننده
+      age_estimated_caragiver:
+        display_name: آیا سن تخمینی است؟
+        tick_box_label: 'بلی'
+      caregiver_sex:
+        display_name: جنس
+      caregiver_national_id:
+        display_name: نمبر تذکره
+      caregiver_unhcr_individual_id:
+        display_name: شناختی کارد شخصی UNHCR
+      caregiver_other_id:
+        display_name: شناسنامه دیگر
+      caregiver_related_child:
+        display_name: 'آیا مراقبت کننده با طفل قرابت دارد '
+      relationship_caregiver:
+        display_name: نوع قرابت با طفل
+      caregiver_know_family:
+        display_name: آکر قرابت ندارد آیا مراقبت کننده فابیل طفل را میشناسند؟
+      family_size_under_18:
+        display_name: 'تعداد فامیل پایین تر از 18'
+      family_size_over_18:
+        display_name: 'تعداد فامیل بالا تر از 18'
+      address_caregiver:
+        display_name: آدرس مراقبت کننده
+        guiding_questions: آدرس و مکان مراقبت کننده را در اینجا وارد کنید حتی اگر همان آدرس فعلی کودک برای ردیابی در صورت که  طفل ویا مراقبت کننده  نقل مکان میکنند.
+      location_caregiver:
+        display_name: موقعیت مراقبت کننده
+      care_arrangement_started_date:
+        display_name: 'ترتیبات مراقبتی چی وقت آغاز شد '
+      caregiver_willing_to_continue:
+        display_name: آیا مراقبت کننده حاضر است تا ازمراقبت از طفل ادامه دهد؟
+        option_strings_text:
+          yes_short_term: بلی .برای کوتا مدت
+          yes_long_term: 'بلی ,برای دراز مدت '
+          'no': 'نه'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: اگر بلی ,برای چی مدت؟
+      caregiver_willing_to_continue_not_reason:
+        display_name: اگر نمیخواهد به مراقبت از طفل ادامه دهد جزییات را توضیح دهید.
+      caregiver_location_status:
+        display_name: یا موقعیت مراقبت کننده موقتی است؟
+      address_caregiver_future:
+        display_name: اگر بلی , آدرس بعدی کجا است ؟
+      location_caregiver_future:
+        display_name: 'موقعیت آینده کجاست؟ '
+      telephone_caregiver_future:
+        display_name: 'نمبر تلفون آینده چند است '
+      telephone_caregiver:
+        display_name: تلفون مراقبت کننده
+        help_text: 'نمبر تلفون مراقبت کننده کننده و جزییات دیگر را داخل کنید '
+      child_consent_caregiver_contacted:
+        display_name: آیا طفل اجازه تماس با مراقبت کننده را میدهد؟
+      child_consent_caregiver_contacted_no_details:
+        display_name: اگر نه, جزییات را تشریح کنید
+      other_persons_living_in_household:
+        display_name: اشخاص دیگر که در خانواده زندگی میکنند

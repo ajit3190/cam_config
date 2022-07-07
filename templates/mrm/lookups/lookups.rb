@@ -15,7 +15,7 @@ Lookup.create_or_update!(
     { id: 'other_party_1', display_text: 'Other Party 1', tags: %w[other-party] }.with_indifferent_access,
     { id: 'other_party_2', display_text: 'Other Party 2', tags: %w[other-party] }.with_indifferent_access,
     { id: 'other_party_3', display_text: 'Other Party 3', tags: %w[other-party] }.with_indifferent_access,
-    { id: 'unknown', display_text: 'Unknown', tags: %w[armed-force armed-group other-party] }.with_indifferent_access
+    { id: 'unknown', display_text: 'Unknown', tags: %w[unknown] }.with_indifferent_access
   ]
 )
 
@@ -51,6 +51,7 @@ Lookup.create_or_update!(
     { id: 'armed_force', display_text: 'Armed force' }.with_indifferent_access,
     { id: 'armed_group', display_text: 'Armed group' }.with_indifferent_access,
     { id: 'other_party_to_the_conflict', display_text: 'Other party to the conflict' }.with_indifferent_access,
+    { id: 'crossfire', display_text: 'Crossfire' }.with_indifferent_access,
     { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
   ]
 )
@@ -148,7 +149,10 @@ Lookup.create_or_update!(
     { id: 'transferred_on_vehicle_floor', display_text: 'Transferred on Vehicle Floor' }.with_indifferent_access,
     { id: 'verbal_abuse', display_text: 'Verbal abuse' }.with_indifferent_access,
     { id: 'attempt_to_recruit_as_informant', display_text: 'Attempt to recruit as informant' }.with_indifferent_access,
-    { id: 'position_abuse_attempt_to_sexual_abuse', display_text: 'Position abuse, Attempt to sexual abuse' }.with_indifferent_access
+    { id: 'position_abuse', display_text: 'Position abuse' }.with_indifferent_access,
+    { id: 'attempt_to_sexual_abuse', display_text: 'Attempt to sexual abuse' }.with_indifferent_access,
+    { id: 'position_abuse_attempt_to_sexual_abuse', display_text: 'Position abuse, Attempt to sexual abuse' }.with_indifferent_access,
+    { id: 'sexual_abuse', display_text: 'Sexual abuse' }.with_indifferent_access
   ]
 )
 
@@ -241,6 +245,9 @@ Lookup.create_or_update!(
     { id: 'secular', display_text: 'Secular' }.with_indifferent_access,
     { id: 'formal', display_text: 'Formal' }.with_indifferent_access,
     { id: 'informal', display_text: 'Informal' }.with_indifferent_access,
+    { id: 'female_only_school', display_text: 'Female only school' }.with_indifferent_access,
+    { id: 'male_only_school', display_text: 'Male only school' }.with_indifferent_access,
+    { id: 'mixed_co-ed_school', display_text: 'Mixed co-ed school' }.with_indifferent_access,
     { id: 'other', display_text: 'Other' }.with_indifferent_access
   ]
 )
@@ -263,9 +270,10 @@ Lookup.create_or_update!(
     { id: 'killing', display_text: 'Killing' }.with_indifferent_access,
     { id: 'maiming', display_text: 'Maiming' }.with_indifferent_access,
     { id: 'recruitment', display_text: 'Recruitment and/or use' }.with_indifferent_access,
-    { id: 'sexual_violence', display_text: 'Rape and/or other grave sexual violence' }.with_indifferent_access,
+    { id: 'sexual_violence', display_text: 'Rape and other forms of sexual violence' }.with_indifferent_access,
     { id: 'abduction', display_text: 'Abduction' }.with_indifferent_access,
-    { id: 'attack_on', display_text: 'Attacks on schools and/or hospitals' }.with_indifferent_access,
+    { id: 'attack_on_hospitals', display_text: 'Attacks on hospitals' }.with_indifferent_access,
+    { id: 'attack_on_schools', display_text: 'Attacks on schools' }.with_indifferent_access,
     { id: 'military_use', display_text: 'Military use of schools and/or hospitals' }.with_indifferent_access,
     { id: 'denial_humanitarian_access', display_text: 'Denial of humanitarian access for children' }.with_indifferent_access
   ]
@@ -323,7 +331,7 @@ Lookup.create_or_update!(
     { id: 'tear_gas', display_text: 'Tear gas' }.with_indifferent_access,
     { id: 'unmaned_aerial_vehicle', display_text: 'Unmaned aerial vehicle' }.with_indifferent_access,
     { id: 'water_cannons', display_text: 'Water cannons' }.with_indifferent_access,
-    { id: 'other_weapon', display_text: 'Other weapon' }.with_indifferent_access,
+    { id: 'other', display_text: 'Other weapon' }.with_indifferent_access,
     { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
   ]
 )
@@ -358,7 +366,8 @@ Lookup.create_or_update!(
     { id: 'arrest_search_operations', display_text: 'Arrest/search operations' }.with_indifferent_access,
     { id: 'single_murder', display_text: 'Single murder' }.with_indifferent_access,
     { id: 'result_of_torture', display_text: 'Result of torture' }.with_indifferent_access,
-    { id: 'cruel_or_inhumane_treatment', display_text: 'Cruel or inhumane treatment' }.with_indifferent_access
+    { id: 'cruel_or_inhumane_treatment', display_text: 'Cruel or inhumane treatment' }.with_indifferent_access,
+    { id: 'intercommunal_violence', display_text: 'Intercommunal violence' }.with_indifferent_access
   ]
 )
 
@@ -460,14 +469,14 @@ Lookup.create_or_update!(
   unique_id: 'lookup-facility-attack-type',
   name_en: 'Facility Attack Type',
   lookup_values_en: [
-    { id: 'attack_on_school_s', display_text: 'Attack on school(s)' }.with_indifferent_access,
-    { id: 'attack_on_education_personnel', display_text: 'Attack on education personnel' }.with_indifferent_access,
-    { id: 'threat_of_attack_on_school_s', display_text: 'Threat of attack on school(s)' }.with_indifferent_access,
-    { id: 'other_interference_with_education', display_text: 'Other interference with education' }.with_indifferent_access,
-    { id: 'attack_on_hospital_s', display_text: 'Attack on hospital(s)' }.with_indifferent_access,
-    { id: 'attack_on_medical_personnel', display_text: 'Attack on medical personnel' }.with_indifferent_access,
-    { id: 'threat_of_attack_on_hospital_s', display_text: 'Threat of attack on hospital(s)' }.with_indifferent_access,
-    { id: 'other_interference_with_healthcare', display_text: 'Other interference with healthcare' }.with_indifferent_access
+    { id: 'attack_on_school_s', display_text: 'Attack on school(s)', tags: %w[armed-on-school] }.with_indifferent_access,
+    { id: 'attack_on_education_personnel', display_text: 'Attack on education personnel', tags: %w[armed-on-school] }.with_indifferent_access,
+    { id: 'threat_of_attack_on_school_s', display_text: 'Threat of attack on school(s)', tags: %w[armed-on-school] }.with_indifferent_access,
+    { id: 'other_interference_with_education', display_text: 'Other interference with education', tags: %w[armed-on-school] }.with_indifferent_access,
+    { id: 'attack_on_hospital_s', display_text: 'Attack on hospital(s)', tags: %w[armed-on-hospital] }.with_indifferent_access,
+    { id: 'attack_on_medical_personnel', display_text: 'Attack on medical personnel', tags: %w[armed-on-hospital] }.with_indifferent_access,
+    { id: 'threat_of_attack_on_hospital_s', display_text: 'Threat of attack on hospital(s)', tags: %w[armed-on-hospital] }.with_indifferent_access,
+    { id: 'other_interference_with_healthcare', display_text: 'Other interference with healthcare', tags: %w[armed-on-hospital] }.with_indifferent_access
   ]
 )
 
@@ -580,5 +589,40 @@ Lookup.create_or_update!(
     { id: 'school_supplies', display_text: 'School supplies' }.with_indifferent_access,
     { id: 'wash', display_text: 'WASH' }.with_indifferent_access,
     { id: 'other_essential_supplies', display_text: 'Other essential supplies' }.with_indifferent_access
+  ]
+)
+
+lookup_values = ((Date.today.year..(Date.today + 30.year).year).to_a + (2005..Date.today.last_year.year).to_a).each_with_object([]) do |year, acc|
+  (1..4).each do |quarter|
+    acc << { id: "#{year}-q#{quarter}", display_text: "Q#{quarter} #{year}" }.with_indifferent_access
+  end
+end
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-verified-ghn-reported',
+  name_en: 'GHN in which this incident was included ',
+  lookup_values_en: lookup_values
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-denial-personnel',
+  name_en: 'Denial personnel type',
+  lookup_values_en: [
+    { id: 'humanitarian_personnel_killed', display_text: 'Humanitarian personnel was killed' }.with_indifferent_access,
+    { id: 'humanitarian_personnel_injured', display_text: 'Humanitarian personnel was injured' }.with_indifferent_access,
+    { id: 'humanitarian_personnel_abducted', display_text: 'Humanitarian personnel was abducted' }.with_indifferent_access,
+    { id: 'humanitarian_personnel_threatened', display_text: 'Humanitarian personnel was threatened' }.with_indifferent_access,
+    { id: 'humanitarian_personnel_hijacked', display_text: 'Humanitarian vehicle was hijacked' }.with_indifferent_access
+  ]
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-violation-tally-options',
+  name_en: 'Denial personnel type',
+  lookup_values_en: [
+    { id: 'boys', display_text: 'Boys' }.with_indifferent_access,
+    { id: 'girls', display_text: 'Girls' }.with_indifferent_access,
+    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access,
+    { id: 'total', display_text: 'Total' }.with_indifferent_access
   ]
 )

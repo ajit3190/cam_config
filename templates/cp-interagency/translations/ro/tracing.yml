@@ -1,0 +1,47 @@
+ro:
+  tracing:
+    name: Urmărire
+    description: Urmărire
+    fields:
+      matched_tracing_request_id:
+        display_name: Potrivire ID Solicitare Urmărire
+      separation_separator:
+        display_name: Istoric Separare
+      tracing_status:
+        display_name: Status Urmărire
+      date_of_separation:
+        display_name: Dată Separare
+      separation_cause:
+        display_name: Care a fost principala cauză a separării?
+      separation_cause_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      separation_other_applicable_causes:
+        display_name: 'Dacă este cazul, ce alte cauze ale separării au mai fost?'
+      separation_details:
+        display_name: Circumstanțele separării (furnizați detalii)
+      separation_additional_movements:
+        display_name: 'Descrierea mutărilor adiționale dintre locul separării și locația actuală '
+      separation_witnessed_violence:
+        display_name: Copilul s-a confruntat cu sau a asistat la vreun tip de violență, amenințare sau vătămare în timpul călătoriei sale?
+      separation_witnessed_violence_comments:
+        display_name: Detalii despre cu ce s-a confruntat/ la ce a asistat copilul
+      address_separation:
+        display_name: Adresă Separare (Loc)
+      location_separation:
+        display_name: Locație Separare
+      additional_tracing_info:
+        display_name: Informații suplimentare care ar putea ajuta la Urmărire?
+      evacuation_status:
+        display_name: Copilul a fost evacuat?
+      evacuation_agent:
+        display_name: Dacă da, prin ce organizație?
+      evacuation_from:
+        display_name: Evacuat din
+      evacuation_date:
+        display_name: Dată Evacuare
+      evacuation_to:
+        display_name: Evacuat la
+      care_arrangements_arrival_date:
+        display_name: Dată Sosire
+      tracing_actions_section:
+        display_name: Acțiuni Urmărire

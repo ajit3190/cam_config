@@ -1,0 +1,50 @@
+---
+ku:
+  gbv_follow_up_subform_section:
+    name: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ بەدواداچوونی توندوتیژیی لەسەر بنەمای جێندەر
+    description: فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ بەدواداچوونی توندوتیژیی لەسەر بنەمای جێندەر
+    fields:
+      gbv_assessment_progress_health_text:
+        display_name: ئاستی بەرەوپێشچوون بەرەو ئامانجەكانی چاودێری تەندروستی روون بكەوە
+      gbv_assessment_progress_psychosocial:
+        display_name: بەرەوپێشچوون بەرەو ئامانجەكانی پشتگیری دەروونیی کۆمەڵایەتیی
+      gbv_assessment_progress_psychosocial_text:
+        display_name: ئاستی بەرەوپێشچوون بەرەو ئامانجەكانی پشتگیری دەروونیی کۆمەڵایەتیی روون بکەوە
+      gbv_assessment_progress_justice:
+        display_name: بەرەوپێشچوون بەرەو ئامانجەکانی بواری دادوەری/یاسایی
+      gbv_assessment_progress_justice_text:
+        display_name: ئاستی بەرەوپێشچوون بەرەو گەیشتن بە ئامانجی دەستگەیشتن بە خزمەتگوزاریی دادوەری/یاسایی روون بکەوە
+      gbv_assessment_other_goals_list:
+        display_name: ئامانجی دیكە (لێرە ریزیان بكە)
+      gbv_assessment_other_goals:
+        display_name: بەرەوپێشچوون بەرەو ئامانجی دیكە
+      gbv_assessment_other_goals_text:
+        display_name: بەرەوپێشچوون بەرەو ئامانجی دیكە روون بكەوە
+      followup_date:
+        display_name: رێككەوتی دانیشتنی بەدواداچوون
+      service_type_provided:
+        display_name: جۆری ئەو خزمەتگوزارییەی لەلایەن من / رێكخراوەكەمەوە پێشكەش دەكرێت
+      follow_up_comments:
+        display_name: كۆمێنتەكان
+        help_text: رزگاربووەكە چی پێ ووتی؟ ئایا چ پێویستییەكی زیاتری هەبوو؟  ئایا لە دانیشتنی بەدواداچووندا دووچاری چ دژوارییەك بوویتەوە ( بۆ نموونە، رزگاربووان نەهاتن) ؟
+      need_follow_up_visit:
+        display_name: ئایا سەردانی زیاتر پێویستە بۆ بەدواداچوون؟
+      when_follow_up_visit_should_happen:
+        display_name: ئەگەر بەڵێ، پێشنیاز دەكەی كەی سەردانی داهاتوو ئەنجام بدرێت؟
+      follow_up_survivor_share_needs:
+        display_name: ئایا رزگاربووەكە باسی هیچ پێویستییەكی تازە یان نیگەرانییەکی کردووە لەکاتی سەردانی بەدواداچووندا؟
+      follow_up_survivor_share_needs_text:
+        display_name: ئەگەر بەڵێ، تكایە وەسفی پێویستییەكان بكە و بە پێی ئەمە پێداچوونەوە بە پلانی كاری كەیسەكە بكە
+      recommend_case_closed:
+        display_name: ئەگەر پێویستییەكان هاتوونەتەدی، ئایا پێشنیازی ئەوە دەكەی كە كەیسەكە دابخرێت؟
+      case_action_plan_implementation_timing:
+        display_name: ماوەی چەندت پێچوو بۆ جێبەجێکردنی (پلانی كاری كەیس)ەكە بۆ ئەم رووداوە؟
+      progress_made_towards_goals:
+        display_name: بەرەوپێشچوونی بەدیهاتوو بەرەو ئامانجەكان
+        help_text: هەڵسەنگاندن بكە بۆ ئاستی بەرەوپێشچوون بەرەو ئەو ئامانجانەی كە لە پلانی كاری كەیس و هەڵسەنگاندنی رزگاربوودا رەزامەندیان لەسەر دراوە
+      gbv_assessment_progress_safety:
+        display_name: بەرەوپێشچوون بەرەو ئامانجەكانی بواری سەلامەتی
+      gbv_assessment_progress_safety_text:
+        display_name: ئاستی بەرەوپێشچوون بەرەو ئامانجەكانی سەلامەتی روون بكەوە
+      gbv_assessment_progress_health:
+        display_name: ئاستی بەرەوپێشچوون بەرەو ئامانجەكانی بواری چاودێری تەندروستی

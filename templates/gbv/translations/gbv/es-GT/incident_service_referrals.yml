@@ -1,0 +1,49 @@
+---
+es-GT:
+  incident_service_referrals:
+    name: Derivaciones de/a otros servicios
+    description: Derivaciones de/a otros servicios
+    fields:
+      service_referred_from_other:
+        display_name: "Si la persona superviviente ha sido derivada por otro servicio, especifique cuál."
+      safe_house_safe_shelter_referral:
+        display_name: Derivación a una casa segura/albergue
+      service_safehouse_referral:
+        display_name: "¿Derivó usted a el/la cliente a una casa segura/albergue?"
+      legal_assistance_services_subform_section:
+        display_name: Servicios de asistencia jurídica
+      police_or_other_type_of_security_services_subform_section:
+        display_name: Policía u otros servicios de seguridad
+      livelihoods_services_subform_section:
+        display_name: Servicios de medios de vida
+      child_protection_services_subform_section:
+        display_name: "Servicios de protección de la infancia "
+      service_referred_from:
+        display_name: "¿Quién le derivó al/a la cliente?"
+        option_strings_text:
+          health_medical_service: Servicios médicos o de salud
+          psychosocial_service: Servicios de apoyo psicosocial o de asesoramiento
+          police_other_service: Policía u otro agente de seguridad
+          legal_assistance_service: Servicios de asistencia jurídica
+          livelihoods_service: Programa de medios de vida
+          self_referral: Autoderivación / primer punto de contacto
+          teacher_school_official: Docente / funcionario escolar
+          community_or_camp_leader: Líder comunitario o de campamento
+          safehouse_service: Casa refugio o albergue
+          other_humanitarian_or_development_actor: Otro agente del ámbito humanitario o del desarrollo
+          other_government_service: Otro servicio público
+          other: Otro
+      service_safehouse_appointment_date:
+        display_name: Fecha de la cita
+      service_safehouse_appointment_time:
+        display_name: Hora de la cita
+      service_safehouse_provider:
+        display_name: Proveedor del servicio
+      service_safehouse_location:
+        display_name: Ubicación del servicio
+      service_safehouse_referral_notes:
+        display_name: Notas
+      health_medical_referral_subform_section:
+        display_name: Servicios médicos o de salud
+      psychosocial_counseling_services_subform_section:
+        display_name: Servicios de apoyo psicosocial o de asesoramiento

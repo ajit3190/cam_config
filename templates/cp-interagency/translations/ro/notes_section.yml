@@ -1,0 +1,13 @@
+ro:
+  notes_section:
+    name: Subformular Notițe
+    description: Subformular Notițe
+    fields:
+      notes_date:
+        display_name: Dată
+      note_subject:
+        display_name: Subiect
+      field_notes_subform_fields:
+        display_name: Notițe
+      note_created_by:
+        display_name: Manager

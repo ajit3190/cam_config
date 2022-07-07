@@ -1,0 +1,48 @@
+es-ES:
+  cp_case_plan:
+    name: Plan del Caso
+    description: Plan del Caso
+    fields:
+      case_plan_approved:
+        display_name: Aprobado por Gerencia
+        tick_box_label: 'Sí'
+      case_plan_approved_date:
+        display_name: Fecha
+      case_plan_approved_comments:
+        display_name: Comentarios de Gerencia
+      approval_status_case_plan:
+        display_name: Estatus de Aprobación
+      case_plan_section_header:
+        display_name: Plan del Caso
+      date_case_plan:
+        display_name: Fecha de Inicio del Plan de Caso
+        help_text: Este campo se utiliza para el estado del flujo de trabajo
+      date_case_plan_agreed:
+        display_name: Fecha de Acuerdo del Plan del Caso
+      protection_concerns:
+        display_name: Inquietudes de Protección
+      protection_concerns_other:
+        display_name: Si otro, favor especificar
+      case_plan_separator:
+        display_name: Objetivo general del plan del caso
+      case_plan_goal:
+        display_name: Objetivo general
+        help_text: Definir un objetivo SMART (específico, medible, alcanzable/acordado, realista/relevante y con límite de tiempo)
+      case_plan_header:
+        display_name: Planes de intervención y servicios que se proporcionarán
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: Planes de intervención y detalles de los servicios
+      approval_separator:
+        display_name: Aprobación y acuerdos
+      interventions_names_involved:
+        display_name: Nombres y relación con el/la niño/a de las personas involucradas en la elaboración del plan
+      interventions_details_disagree:
+        display_name: Detalles de cualquier persona que no esté de acuerdo con partes del plan y por qué
+      interventions_child_involved:
+        display_name: ¿Estuvo el/la niño/a involucrado en el desarrollo del plan del caso?
+      interventions_steps:
+        display_name: Si no, ¿por qué?
+      interventions_caregiver_involved:
+        display_name: ¿Estuvo el cuidador involucrado en el desarrollo del plan de caso?
+      interventions_caregiver_steps:
+        display_name: Si no, ¿por qué?

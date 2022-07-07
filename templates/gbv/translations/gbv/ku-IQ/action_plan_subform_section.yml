@@ -1,0 +1,39 @@
+---
+ku-IQ:
+  action_plan_subform_section:
+    name: پلانا کاری یا تێکەل
+    description: فورما نەسەرەکیا پلانا کاری
+    fields:
+      service_provided:
+        display_name: ئەرێ خزمەتگۆزاری هاتە دابینکرن؟
+      service_provided_date:
+        display_name: ئەگەر بەلێ، خزمەتگۆزاری کەنگی هاتە دابینکرن؟
+      action_taken_details:
+        display_name: هووردەکاری ل سەر کارێ هاتیە ئەنجامدان
+      service_type:
+        display_name: جورێ پێدڤیێ
+      service_appointment_date:
+        display_name: رێکه فتی ژڤانی
+      action_plan_description:
+        display_name: و ه سفا پلانا کاری بکه بو ده ستنیشانکرنا پێدڤیی
+      service_intervertion_type:
+        display_name: جۆرێ دەستوێردانێ
+      service_referral:
+        display_name: دێ رزگاربوو چەوا گەهیتە ڤێ خزمەتگۆزاریێ؟
+      service_referral_written_consent:
+        display_name: " ئەرێ تە رازەمەندی ژ رزگاربوویی وەرگرتیە بۆ ئاشکراکرنا پێزانینێن کەسوکی بۆ مه ره ما ره وانه کرنێ؟ "
+      service_referral_name:
+        display_name: ناڤ، سازی یان ئاژانسێ\ یان رێخکراوێ  دەستنیشانکه گەر یا گونجایی بیت
+      service_appointment_time:
+        display_name: دەمێ ژڤانی
+      service_provider:
+        display_name: دابینکەرێ خزمەتگوزاریێ
+      service_location:
+        display_name: جهێ خزمەتگوزاریێ
+      service_referral_notes:
+        display_name: تێبینی
+        help_text: ئاستەنگ، و ژێدەر و تێبینیێن دی دیارکە
+      service_referral_mandatory_reporting:
+        display_name: "ئەگەر جێبەجێکرنا قانونێن راپورتکرنێ نەچاری بیت، تە ریدان بو پولیس یان دەسەلاتا گشتی راپورتکریە؟  "
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: "ئەگەر بەلێ، تە رزگاربووی و یان چاڤدێرێن وێ ژ قانونا نەچاریا راپورتکرنێ ژ بەری دروستکرنا راپورتێ ئاگەهدارکریە؟ "

@@ -1,0 +1,106 @@
+es-ES:
+  basic_identity:
+    name: Detalles del niño
+    description: Información básica de la identidad del niño separado o no acompañado
+    fields:
+      case_id_display:
+        display_name: Identificación del Caso
+      cpims_id:
+        display_name: Código anterior del caso
+        help_text: Identificación en el Sistema Legal CPIMS (u otro sistema)
+      marked_for_mobile:
+        display_name: Marcado para móviles?
+        tick_box_label: 'Sí'
+      child_status:
+        display_name: Estado del caso
+      case_status_reopened:
+        display_name: Caso Reabierto?
+        tick_box_label: 'Sí'
+      case_status_reopened_reasons:
+        display_name: Razones para Reabrirlo
+        option_strings_text:
+          break_down_of_reunification_placement: Ruptura de la reunificación/localización
+          death_of_caregiver_s: Muerte del cuidador (es)
+          physical_abuse_violence: Abuso físico/violencia
+          sexual_abuse_violence: Abuso sexual/violencia
+          emotional_or_psychological_abuse_violence: Abuso emocional o psicológico/violencia
+          physical_neglect: Negligencia física
+          emotional_neglect: Negligencia emocional
+          medical_neglect: Negligencia médica
+          educational_neglect: Negligencia educativa
+          supervisory_neglect: Supervisión negligente
+          abandonment: Abandono
+          child_labour: Trabajo infantil
+          hazardous_work: Trabajo peligroso
+          sexual_exploitation: Explotación sexual
+          slavery_sale_trafficking_forced_labour: Esclavitud/venta/tráfico/trabajo forzado
+          in_conflict_with_the_law: En conflicto con la ley
+          associated_with_armed_forces_or_groups: Asociado con fuerzas o grupos armados
+          unaccompanied: No acompañados
+          separated: Separados
+          orphan: Huérfano
+          functional_difficulties: Dificultades funcionales (p.ej. visión, audición, marcha, comunicación, memoria/concentración, autocuidado)
+          psychosocial_distress: Estrés psicosocial
+          substance_abuse_and_addiction_child: Abuso de sustancias y adicción (niño)
+          belongs_to_marginalised_discriminated_group: Pertenece a grupos marginalizados/discriminados
+          lack_of_documentation_birth_registration: Falta de documentación/registro de nacimiento
+          child_marriage: Matrimonio infantil
+          fgm: MGF
+          pregnancy_child_parent: Embarazo/Paternidad/Maternidad del Niño
+          inappropriate_care_arrangement: Cuidado inapropiado (p.ej. >8 niños en casa, abuso de sustancias del cuidador, cuidador solo y vulnerable)
+          other: Otro
+      name:
+        display_name: Nombre completo
+      name_first:
+        display_name: Primer nombre
+      name_middle:
+        display_name: Segundo Nombre
+      name_last:
+        display_name: Apellido
+      name_nickname:
+        display_name: Apodo
+      name_other:
+        display_name: Otro nombre
+      registration_date:
+        display_name: Fecha de Registro
+      identification_date:
+        display_name: Fecha del Caso Identificado/Reportado
+      assessment_due_date:
+        display_name: Fecha de vencimiento de la evaluación
+      sex:
+        display_name: Sexo
+      age:
+        display_name: Edad
+      date_of_birth:
+        display_name: Fecha de Nacimiento
+      estimated:
+        display_name: Es la edad estimada?
+        tick_box_label: 'Sí'
+      national_id_no:
+        display_name: Número de Identidad
+      unhcr_individual_no:
+        display_name: Identificación Individual de ACNUR
+      other_id_type:
+        display_name: Otro documento de identificación relevante
+      other_id_no:
+        display_name: Otro número de identificación relevante
+      nationality:
+        display_name: Nacionalidad
+      ethnicity:
+        display_name: Etnia/Clan/Tribu
+      sub_ethnicity_1:
+        display_name: Sub Etnia 1
+      sub_ethnicity_2:
+        display_name: Sub Etnia 2
+      language:
+        display_name: Idiomas hablados por el niño
+      religion:
+        display_name: Religión
+      displacement_status:
+        display_name: Grupo poblacional
+      displacement_status_other:
+        display_name: Si otro, favor especificar
+      disability_type_communications:
+        display_name: Necesidades especiales de comunicación
+      telephone_current:
+        display_name: Teléfono del niño/detalles de otro contacto

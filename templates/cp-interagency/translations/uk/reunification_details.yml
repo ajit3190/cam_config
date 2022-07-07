@@ -1,0 +1,7 @@
+uk:
+  reunification_details:
+    name: Деталі возз'єднання
+    description: Деталі возз'єднання
+    fields:
+      reunification_details_section:
+        display_name: Деталі возз'єднання

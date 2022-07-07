@@ -1,0 +1,20 @@
+---
+ar:
+  approval_subforms:
+    name: نموذج الموافقة الفرعي
+    description: نموذج الموافقة الفرعي
+    fields:
+      approval_requested_for:
+        display_name: طلب الموافقة على
+      approval_response_for:
+        display_name: الموافقة على
+      approval_for_type:
+        display_name: نوع خطة الحالة
+      approval_date:
+        display_name: التاريخ
+      approval_manager_comments:
+        display_name: تعليقات المدير
+      approval_status:
+        display_name: حالة الموافقة
+      approved_by:
+        display_name: تمّت الموافقة عليه من قبل

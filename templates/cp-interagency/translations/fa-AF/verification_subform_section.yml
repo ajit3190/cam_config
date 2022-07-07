@@ -1,0 +1,56 @@
+fa-AF:
+  verification_subform_section:
+    name: فارم  فرعی تأیید پیچیده
+    description: فارم فرعی تأیید پیچیده
+    fields:
+      verification_name_inquirer:
+        display_name: نام پرسشگر
+      verification_inquirer_relationship:
+        display_name: قرابت
+      verification_inquirer_sex:
+        display_name: جنس
+      verification_inquirer_age:
+        display_name: عمر
+      verification_inquirer_address_current:
+        display_name: آدرس
+      verification_inquirer_location:
+        display_name: موقعیت موجوده
+      verification_phone_inquirer:
+        display_name: تلفون
+      verification_inquirer_wants_to_care_for_child:
+        display_name: آیا شما میخواهید که این طفل با شما زندگی کند ؟
+      verification_inquirer_able_to_care_for_child:
+        display_name: آیا شما توان مراقبت از او / آنها را دارید؟
+      verification_alternate_caregiver_exists:
+        display_name: آگر نه , اآیا کسی دیگر است ارین جا فامیل دیگر است که از طفل مراقبت کند؟
+      verification_alternate_caregiver_name:
+        display_name: 'نام مراقبت کننده بدیل '
+      verification_alternate_caregiver_relationship:
+        display_name: 'قرابت با مراقبت کننده بدیل '
+      verification_address_alternate_caregiver:
+        display_name: آدرس آن شخص (مراقبت کننده بدیل )
+      verification_location_alternate_caregiver:
+        display_name: 'آدرس فزیکی /قریه/ساحه/ آدرش فزیکی مراقبت کننده '
+      verification_comments:
+        display_name: نظریات
+      verification_acceptance_date:
+        display_name: تاریخ قبولی مراقبت از طفل
+      verification_inquirer_known_to_child:
+        display_name: آیا طفل بزرگسالی را که درخواست تأیید می کند می شناسد؟
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: آیاآرزوی  دارد  با آن شخص داده شود شود؟
+      verification_inquirer_information_match:
+        display_name: آیا معلومات  داده شده توسط کودک و بزرگسال با هم  مطابقت دارند؟
+      verification_inquierer_recommendation:
+        display_name: آیا پیوستن مجدد را توصیه می کنید و اگر نه چه اقدام دیگریرا پیشنهاد میکنید ؟
+        option_strings_text:
+          'yes': 'بلی '
+          'no': 'نه'
+          further_tracing: ردیابی بعدی
+          long_term_alternative_care: '        ببدیل مراقبت دوامدار '
+          reunification: 'الحاق مجدد '
+          reunification_enhanced_support: پیوستن مجدد با پشتیبانی وسیع
+      verification_inquierer_recommendation_comments:
+        display_name: نظریات اضافی
+      verification_date:
+        display_name: 'تاریخ تآیید '

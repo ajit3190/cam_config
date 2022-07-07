@@ -1,0 +1,29 @@
+ro:
+  tracing_actions_section:
+    name: Acțiuni Urmărire Imbricate
+    description: Subformular Acțiuni Urmărire
+    fields:
+      date_tracing:
+        display_name: Dată urmărire
+      tracing_type:
+        display_name: Tip de acțiune
+        option_strings_text:
+          case_by_case_tracing: Caz în funcție de Urmărire Caz
+          individual_tracing: Urmărire Individuală
+          mass_tracing: Urmărire de grup
+          photo_tracing: Urmărire Foto
+          referral_to_ngo: Referire către ONG
+          referral_to_icrc: Referire căte ICRC
+      address_tracing:
+        display_name: Adresa/ satul unde a avut loc acțiunea de urmărire
+      location_tracing:
+        display_name: Locație Urmărire
+      tracing_action_description:
+        display_name: Acțiuni făcute și remarci
+      tracing_outcome:
+        display_name: Rezultat Urmărire
+        option_strings_text:
+          pending: În desfășurare
+          successful: Cu succes
+          unsuccessful: Fără succes
+          'yes': 'Da'

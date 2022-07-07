@@ -1,0 +1,26 @@
+---
+ku:
+  action_plan_form:
+    name: "پلانی کار "
+    description: "پلانی کار "
+    fields:
+      action_plan_approved:
+        display_name: "پەسەندكراوە لەلایەن بەڕێوەبەرەوە "
+        tick_box_label: 'بەڵێ'
+      action_plan_approved_date:
+        display_name: رێككەوت
+      action_plan_approved_comments:
+        display_name: سەرنجەكانی بەڕێوەبەر
+      approval_status_action_plan:
+        display_name: باری پەسەندكردن
+      action_explanation_header:
+        display_name: 'كردارەكان'
+        help_text: تكایە هەموو ئەو پێداویستییانە زیادبكە كە لە هەڵسەنگاندنەكەدا دەستنیشانت کردن. دوگمەی "زیادكردن" بەكاربێنە بۆ زیادكردنی پێداویستی تر كە دەبێ ببێتە بەشێك لە پلانی كار.
+      action_plan_section:
+        display_name: كردارەكان
+      action_follow_up_header:
+        display_name: بەدواداچوونەكان
+      gbv_follow_up_subform_section:
+        display_name: بەدواداچوون
+      service_referral_case_action_plan_timing:
+        display_name: دانانی پلانی كار بۆ كەیسەكە لەگەڵ رزگاربوو بۆ ئەم كەیسە لای تۆ چەندی خایاند؟

@@ -1,0 +1,18 @@
+uk:
+  summary_and_conclusions:
+    name: Підсумки та висновки
+    description: Форма Підсумки та висновки
+    fields:
+      assessment_summary:
+        display_name: Підсумки
+        help_text: Підсумуйте ключові фактори ризику, захисні фактори та потреби на основі розділів оцінки вище та врахуйте погляди/побажання дитини (і сім’ї).
+      protection_concerns:
+        display_name: Занепокоєння щодо захисту
+        help_text: Спільне поле з формою Занепокоєння щодо захисту.
+      protection_concerns_other:
+        display_name: Якщо інше, вкажіть
+      risk_level:
+        display_name: Рівень ризику
+        help_text: Це поле також є у формі Занепокоєння щодо захисту. Якщо рівень ризику відсутній, справа може бути закрита.
+      assessment_risk_level_reasons:
+        display_name: Підсумок причин рівня ризику

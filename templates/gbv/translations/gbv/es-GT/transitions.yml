@@ -1,0 +1,40 @@
+---
+es-GT:
+  transitions:
+    name: Subformulario anidado para transiciones
+    description: Subformulario para transiciones
+    fields:
+      type:
+        display_name: Tipo
+      to_user_local:
+        display_name: Usuario local
+      to_user_remote:
+        display_name: Usuario a distancia
+      to_user_local_status:
+        display_name: Estado
+        option_strings_text:
+          in_progress: En curso
+          pending: Pendiente
+          accepted: Aceptada
+          rejected: Denegada
+          done: Efectuada
+      rejected_reason:
+        display_name: Motivos de la denegación (si es aplicable)
+      to_user_agency:
+        display_name: Organismo del usuario a distancia
+      notes:
+        display_name: Notas
+      transitioned_by:
+        display_name: Transferida o remitida por
+      service:
+        display_name: Servicio
+      is_remote:
+        display_name: "¿Se ha remitido o transferido a un sistema a distancia?"
+        tick_box_label: 'Sí'
+      type_of_export:
+        display_name: "¿Qué tipo de exportación desea?"
+      consent_overridden:
+        display_name: Se ha anulado la configuración que impide difundir la información
+        tick_box_label: 'Sí'
+      created_at:
+        display_name: Fecha de la remisión o transferencia

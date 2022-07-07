@@ -1,0 +1,29 @@
+uk:
+  tracing_actions_section:
+    name: Вкладена Дія Відстеження
+    description: Субформа Дія Відстеження
+    fields:
+      date_tracing:
+        display_name: Дата відстеження
+      tracing_type:
+        display_name: Тип вжитої дії
+        option_strings_text:
+          case_by_case_tracing: Відстеження від випадку до випадку
+          individual_tracing: Індивідуальне відстеження
+          mass_tracing: Масове відстеження
+          photo_tracing: Відстеження фотографій
+          referral_to_ngo: Звернення до неурядових організацій
+          referral_to_icrc: Звернення до Міжнародного комітету Червоного Хреста
+      address_tracing:
+        display_name: Адреса/Село, де відбулося відстеження
+      location_tracing:
+        display_name: Розташування відстеження
+      tracing_action_description:
+        display_name: Вжиті заходи та зауваження
+      tracing_outcome:
+        display_name: Результат відстеження
+        option_strings_text:
+          pending: Очікується
+          successful: Успішно
+          unsuccessful: Неуспішно
+          'yes': 'Так'

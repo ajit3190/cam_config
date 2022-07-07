@@ -1,0 +1,139 @@
+---
+ar:
+  closure_form:
+    name: الإغلاق
+    description: الإغلاق
+    fields:
+      closure_approved:
+        display_name: تمّت الموافقة عليه من قبل المدير
+        tick_box_label: 'نعم'
+      closure_approved_date:
+        display_name: التاريخ
+      closure_approved_comments:
+        display_name: تعليقات المدير
+      approval_status_closure:
+        display_name: حالة الموافقة
+      approval_obtained_child:
+        display_name: تمّت الموافقة عليه من قبل الطفل
+        tick_box_label: 'نعم'
+      approval_obtained_caregiver:
+        display_name: تمّت الموافقة عليه من قبل مقدم الرعاية
+        tick_box_label: 'نعم'
+      approval_obtained_details:
+        display_name: يرجى تقديم تفاصيل
+        help_text: قم بتضمين تفاصيل الاتصال وعلاقة مقدم الرعاية بالطفل
+      child_status:
+        display_name: وضع الحالة
+      date_closure:
+        display_name: تاريخ الإغلاق
+      closure_reason:
+        display_name: سبب رئيسي لاغلاق الحالة
+        option_strings_text:
+          overall_goal_of_the_case_plan: تم تحقيق الهدف خطة الحالة العام ، والطفل في مأمن من الأذى ، و تم دعم رعاية الطفل ورفاهيته ولا توجد مخاوف إضافية
+          child_has_turned_18_years_old: بلغ الطفل 18 عامًا (تأكد من وجود خطة انتقالية وأن الحالة تعرف مكان وكيفية الوصول إلى الدعم)
+          relocation_of_child_to_an_area: نقل الطفل إلى منطقة لا توجد فيها وكالة لنقل الحالة إليها
+          child_departed_for_a_durable_solution: غادر الطفل من أجل حل دائم حيث لا توجد وكالة لنقل القضية إليها
+          child_no_longer_contactable: لم يعد الطفل متاح للاتصال (انتظر 3 أشهر على الأقل قبل إغلاق القضية)
+          death_of_child: موت الطفل
+          no_further_action_possible_required: لا يوجد أي إجراء آخر ممكن / مطلوب
+          case_opened_in_error: تم فتح الحالة بالخطأ
+          other: غير ذلك
+      closure_reason_other:
+        display_name: 'إذا كانت الإجابة أخرى يرجى التحديد'
+      closure_details:
+        display_name: قدّم المزيد من التفاصيل حول سبب إغلاق القضية
+      closure_situation_child_separator:
+        display_name: حالة الطفل عند إغلاق الحالة
+      closure_how_long_case_opened:
+        display_name: منذ متى تم فتح هذه القضية
+        help_text: "في أسابيع "
+      closure_current_situation:
+        display_name: ملخص موجز عن الوضع الحالي للقضية
+        help_text: صف التاريخ والوضع الحالي للحالة ، بما في ذلك آخر الخدمات المقدمة / الإجراءات المتخذة
+      closure_child_moving_separator:
+        display_name: إذا كان الطفل ينتقل إلى مكان جديد
+      closure_new_child_location:
+        display_name: العنوان / الموقع  الجديد الذي يعيش فيه الطفل
+        help_text: قدم أكبر قدر ممكن من التفاصيل حول الموقع حتى يتمكن الآخرون من العثور عليه ، على سبيل المثال منزل ، مَعلم ، شارع ، مدينة / قرية ، منطقة ، مقاطعة (تكيّف وفقًا للسياق)
+      closure_new_telephone_contact_details:
+        display_name: هاتف / تفاصيل الاتصال الأخرى
+      closure_care_arrangements_separator:
+        display_name: ترتيب الرعاية عند الإغلاق
+      closure_current_care_arrangement:
+        display_name: ترتبيات الطفل الرعوية\المعيشية الحالية
+        option_strings_text:
+          parent_s: والد\والدين
+          step_parent: زوجة الاب / زوج الام
+          customary_caregiver_s: مقدم(ي) رعاية عُرفي
+          kafala: الكفالة
+          independent_living: العيش المستقل
+          child_headed_household: اسرة يُعيلها طفل
+          adult_sibling: شقيق (ة) بالغ
+          kinship_care_extended_family: رعاية القرابة / الأسرة الممتدة (العشيرة)
+          foster_care: رعاية بالتبني
+          residential_care: الرعاية السكنية
+          unrelated_adult: بالغ غير ذي صلة
+          no_care_arrangement: لايوجد ترتيب رعاية
+          other: غير ذلك
+      closure_current_care_arrangement_other:
+        display_name: إذا كانت الإجابة أخرى يرجى التحديد
+      closure_current_care_arrangement_permanent:
+        display_name: هل هذا هو ترتيب الرعاية الدائمة
+      closure_current_care_arrangement_permanent_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      primary_caregiver_separator:
+        display_name: تفاصيل مقدم الرعاية الرئيسي
+      name_caregiver_closing:
+        display_name: إسم مقدم الرعاية
+      relationship_caregiver_closing:
+        display_name: العلاقة بالطفل
+      address_caregiver_closing:
+        display_name: عنوان مقدم الرعاية
+      location_caregiver_closing:
+        display_name: موقع مقدم الرعاية
+      closure_caregiver_contact_details:
+        display_name: هاتف مقدم الرعاية / تفاصيل الاتصال الأخرى
+      closure_arrangements_separator:
+        display_name: ترتيبات اتّخذت لدعم إغلاق الناجح للقضية
+      case_closure_process:
+        display_name: صف عملية إغلاق القضية
+        help_text: قدم تفاصيل عن الاجتماعات التي عقدت لمناقشة إغلاق القضية ، على سبيل المثال بين أخصائي الحالة والطفل ، وبين أخصائي الحالة ومقدم (مقدمي) الرعاية ، وبين أخصائي الحالة والمشرف.
+      closure_discussed_child:
+        display_name: هل تمّت مناقشة إغلاق الحالة والاتفاق عليها مع الطفل؟
+      closure_discussed_child_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      closure_discussed_caregiver:
+        display_name: هل تمّت مناقشة إغلاق الحالة والاتفاق عليها مع مقدم (مقدمي) الرعاية؟
+      closure_discussed_caregiver_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      closure_child_feedback_form:
+        display_name: هل تم جمع التغذية الراجعة عن عملية إدارة الحالة من الطفل باستخدام "نموذج التغذية الراجعة لالطفل"؟
+      closure_child_feedback_form_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      closure_caregiver_feedback_form:
+        display_name: هل تم جمع التغذية الراجعة حول عملية إدارة الحالة من مقدم الرعاية باستخدام "نموذج التغذية الراجعة لمقدم الرعاية"؟
+      closure_caregiver_feedback_form_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      closure_final_followup_meeting:
+        display_name: هل تم التخطيط لعقد اجتماع متابعة نهائي في غضون 3 أشهر مع الطفل و / أو مقدم (مقدمي) الرعاية لضمان بقاء الوضع مستقرًا؟
+      closure_final_followup_meeting_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      closure_child_case_file_complete:
+        display_name: هل ملف حالة الطفل كامل ومُحدَّث و يشمل جميع الوثائق ذات الصلة؟
+      closure_child_case_file_complete_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      closure_case_file_stored:
+        display_name: كيف سيتم تخزين ملف الحالة ؟
+        option_strings_text:
+          electronically: الكترونيا
+          hard_copy: نسخة ورقية
+          both: كلاهما
+      closure_case_file_stored_date:
+        display_name: حتى أي تاريخ سيتم تخزين ملف حالة الطفل؟
+      closure_child_told_contact_support:
+        display_name: هل تم إخبار الطفل بمن سوف يتصل\تتصل إذا كانت لديه\ها أسئلة أو مخاوف أو للحصول على الدعم إذا لزم الأمر؟
+      closure_child_told_contact_support_no:
+        display_name: إذا كانت الإجابة لا ، يرجى تحديد السبب
+      closure_child_contact_support:
+        display_name: من هو الشخص الذي يقال للطفل ان يتصل به إذا كانت لديه أسئلة أو مخاوف أو للحصول على الدعم إذا لزم الأمر؟
+        help_text: قدم اسماء و تفاصيل اتصال

@@ -1,0 +1,29 @@
+es:
+  tracing_actions_section:
+    name: Acción de Rastreo Anidada
+    description: Subformulario de la Acción de Rastreo
+    fields:
+      date_tracing:
+        display_name: Fecha de rastreo
+      tracing_type:
+        display_name: Tipo de acción tomada
+        option_strings_text:
+          case_by_case_tracing: Rastreo Caso a Caso
+          individual_tracing: Rastreo individual
+          mass_tracing: Rastreo Masivo
+          photo_tracing: Rastreo de Fotos
+          referral_to_ngo: Remisión a ONG
+          referral_to_icrc: Remisión a CICR
+      address_tracing:
+        display_name: Dirección/pueblo donde tuvo lugar la acción de rastreo
+      location_tracing:
+        display_name: Ubicación de rastreo
+      tracing_action_description:
+        display_name: Medidas tomadas y observaciones
+      tracing_outcome:
+        display_name: Resultados de la acción de rastreo
+        option_strings_text:
+          pending: Pendiente
+          successful: Exitoso
+          unsuccessful: Sin éxito
+          'yes': 'Sí'

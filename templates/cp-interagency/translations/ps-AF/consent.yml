@@ -1,0 +1,68 @@
+ps-AF:
+  consent:
+    name: ' رضایت'
+    description: رضایت
+    fields:
+      interview_subject:
+        display_name: ر ضایت له چا اخیستل شوی
+        option_strings_text:
+          child: ماشوم
+          caregiver: د ماشوم سرپرست
+          other: نور
+      consent_source_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      consent_notes:
+        display_name: یادونه
+      consent_for_services:
+        display_name: د قضیې مدیریت پروسې کې د ماشوم د ګډون لپاره رضایت ورکړل شوی
+        help_text: که رضایت نه وي ورکړل شوی ، بیا یې مه غوره کوئ
+        tick_box_label: 'هو'
+      consent_reporting:
+        display_name: د داسې معلوماتو لپاره چې د شناخت وړ نه وي د هغو لپاره رضایت ورکړل شوی
+      consent_for_data_collection:
+        display_name: د قضیې په اړه ګمارل شوي قضیې کارکوونکي ته رضایت ورکړل شوی ترڅو د قضیې په اړه شخصي معلومات راټول کړي او زیرمه یې کړي  (د مثال په توګه نوم ، عکس ، د کورنۍ توضیحات)
+      disclosure_other_orgs:
+        display_name: هغه فرد چې رضایت ورکوي موافقه کوي چې د لاندې توضیحاتو سره سم د دې قضیې په اړه معلومات د نورو خدماتو چمتو کونکو سره شریک کړي.
+        help_text: پدې کې د نورو ادارو سره د معلوماتو شریک کول شامل دي، پدې کې له UNHCR سره د معلوماتو شریک کول شامل نه دي
+        tick_box_label: 'نور'
+      information_shared_services:
+        display_name: د لاندې خدماتو لپاره معلومات شریک کیدی شي
+        option_strings_text:
+          alternative_care: بدیله پاملرنه
+          cash_assistance: نغدي مرسته
+          education_formal: رسمي (رسمي)
+          family_tracing_and_reunification: د کورنۍ تعقیب او بیا یوځای کیدل
+          food: خواړه
+          gbv_survivor_support: '  ژغورل شوي شخص ملاتړ  GBVد '
+          legal_support: قانوني ملاتړ
+          livelihoods: معیشت
+          medical: طبي
+          mental_health: ' ذهنی روغتیا'
+          non_food_items: غیر خوراکي توکي
+          non_formal_education: غیر رسمي تعلیم
+          nutrition: 'تغذیه '
+          psychosocial_support: روانی - ټولنیز ملاتړ
+          services_for_children_with_disabilities: د معلولیت لرونکو ماشومانو لپاره خدمتونه
+          shelter: سرپناه
+          sexual_and_reproductive_health: جنسي او د زیږون روغتیا
+          rescue: ژغورل
+          wash: WASH
+          case_transfer: د قضیې لیږد
+          other: نور
+      information_shared_services_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      unhcr_export_opt_out:
+        display_name: هغه څوک چې رضایت ورکوي موافقه کوي چې د دې قضیې په اړه معلومات UNHCR سره د مهاجرینو د محافظت قضیې مدیریت اهدافو لپاره شریک کړي.
+        tick_box_label: 'هو'
+      withhold_details:
+        display_name: ځانګړي معلومات له ځانه سره وساتئ
+      disclosure_deny_details:
+        display_name: کوم ځانګړي معلومات باید له ځان سره وساتل شي
+      withholding_info_reason:
+        display_name: د معلوماتو ساتلو لپاره دلیل
+        option_strings_text:
+          fear: خپل ځان یا نورو ته د زیان ویره
+          communicate_information: غواړي پخپله معلومات شریک کړي
+          others: نور
+      withholding_info_other_reason:
+        display_name: که د معلوماتو ساتلو لپاره بل دلیل وي ، مهرباني وکړئ مشخص کړئ

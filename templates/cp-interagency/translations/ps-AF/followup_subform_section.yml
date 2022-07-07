@@ -1,0 +1,64 @@
+ps-AF:
+  followup_subform_section:
+    name: د تعقیب فرعي فورمه
+    description: د تعقیب فرعي فورمه
+    fields:
+      followup_needed_by_date:
+        display_name: تعقیب ضرورت د چا لخوا ده
+        help_text: "(دغه ساحه به موږ ته د ندې په جریان کې یو یاداشت راکړې) "
+      followup_date:
+        display_name: د تعقیب نیټه
+      followup_with_multi:
+        display_name: تعقیب له چا سره شوی؟
+      other_please_specify:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      followed_up_through:
+        display_name: تعقیب د کومې لارې شوی
+        option_strings_text:
+          phone_call: 'د ټلیفون له لارې '
+          instant_message_sms_whatsapp: Instant message/SMS/WhatsApp
+          email: ایمیل
+          social_media: ټولنیزه میډیا
+          ad_hoc_home_visit_child_family: 'ناڅاپا له کور څخه لیدنه '
+          scheduled_home_visit_child_family: د مهالویش له مخې له کور څخه  لیدنه (ماشوم / کورنۍ)
+          face_to_face_meeting_outside_of_home_child_family: له کوره بهر د ماشوم سره مخامخ ناسته (ماشوم / کورنۍ)
+          face_to_face_meeting_service_provider_and_child_family: مخامخ خبرې (د خدمت چمتو کونکي او ماشوم / کورنۍ)
+          face_to_face_meeting_service_provider_only: مخامخ خبرې (یوازې د خدمت چمتو کونکی)
+          community_based_group: د ټولنې دیو ګروپ په واسطه
+          authorities: چارواکي
+          other: نور
+      followup_other_specify:
+        display_name: که نور ، مهرباني وکړئ مشخص کړئ
+      followed_specific_action:
+        display_name: د قضیې پلان څخه د ځانګړي کړنې / خدماتو تعقیب؟
+      specify_action:
+        display_name: مشخص کړئ چې کوم عمل / خدمت (د قضیې پلان څخه) تعقیب شوی یا کوم بل عنصر تعقیب شوي
+      purpose_followup:
+        display_name: د تعقیب هدف
+        help_text: پدې ځانګړي کړنې / خدمت / عنصر باندې تعقیب دلیل بیان کړئ
+      followup_result_separator:
+        display_name: د تعقیب نتیجه
+      outcome_followup:
+        display_name: د تعقیب پایله
+        help_text: د مثال په توګه د ترسره شوي کړنې / چمتو شوي خدمت په اړه توضیحات ، ورکړل شوي د ترسره شوي خدمت / خدمت پایلې ، د ماشوم د حالت د بدلون په اړه توضیحات
+      action_conducted:
+        display_name: که چیرې تعقیب شوی وي ، ایا د قضیې پلان څخه ځانګړې کړنه / خدمت ترسره شوی؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unable_to_determine: نشو کولای چې معلوم یې کړو
+      situation_changed:
+        display_name: که تعقیب شوی وي ، ایا د ماشوم وضعیت د پام وړ بدلون موندلی؟
+        option_strings_text:
+          'yes': 'هو'
+          improved: ښه شوی
+          declined: ټیټ شوی
+          'no': 'نه'
+          unable_to_determine: نشو کولای چې معلوم یې کړو
+      next_steps_separator:
+        display_name: نور ګامونه
+      need_follow_up_visit:
+        display_name: ایا د بل تعقیب لپاره اړتیا شتون لري؟
+        help_text: که چیرې د بل تعقیب لپاره اړتیا شتون ولري نو د بل فرعي فورم لپاره نیټه ولیکئ
+      other_recommend_followup:
+        display_name: ایا د شوی تعقیب پر اساس نور کوم وړاندیزونه شته؟

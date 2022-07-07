@@ -1,0 +1,7 @@
+fa-AF:
+  tracing_request_tracing_request:
+    name: 'درخواست ردبابی '
+    description: 'درخواست ردبابی '
+    fields:
+      tracing_request_subform_section:
+        display_name: 'درخواست ردبابی '

@@ -1,0 +1,7 @@
+fr:
+  conference_details_container:
+    name: 'Détails de la conférence de cas '
+    description: 'Détails de la conférence de cas '
+    fields:
+      conference_details_subform:
+        display_name: 'Détails de la conférence de cas '

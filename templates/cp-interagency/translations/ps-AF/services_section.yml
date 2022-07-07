@@ -1,0 +1,57 @@
+ps-AF:
+  services_section:
+    name: ' خدمتونه'
+    description: د خدماتو فرعي فورمه
+    fields:
+      service_response_type:
+        display_name: د ځواب ډول
+      service_type:
+        display_name: د خدمت ډول
+        guiding_questions: |-
+           اروایی - ټولنیز پاملرنه - خوندي ځایونه (د ماشوم سره د دوستانه ځایونو په شمول) ، د همزولو ډلې ، د ځوانانو کلبونه ، د ژوند مهارتونو لپاره روزنه او د سرپرست د ملاتړ ګروپ.
+
+          او د قضیې مدیریت له لارې  متخصصMHPSS رواني لومړنۍ مرستې ، د شواهدو پراساس / باخبره رواني مداخله چې د غیر چمتو شوې وي، پشمول د ټولنیز کارمندانو ، قضیې کارمندانو ، ټولنې رضاکارانو ، روغتیا کارانو ، او نورو.
+
+          تخصص - د رواني روغتیا پاملرنه چې د رواني روغتیا متخصصینو لخوا چمتو شوي وي.
+      service_type_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص یې کړئ
+      service_referral:
+        display_name: د راجع کولو ډول
+      service_response_day_time:
+        display_name: د راجع کولو نیټه
+      service_appointment_date:
+        display_name: ' خدماتو دپیل نیټه'
+      service_implementing_agency:
+        display_name: پلي کونکي اداره
+      service_provider:
+        display_name: خدمت چمتو کونکی
+      service_delivery_location:
+        display_name: د خدمت د وړاندې کولو ځای
+      service_implementing_agency_individual:
+        display_name: د خدمت چمتو کونکي نوم
+      service_status_referred:
+        display_name: راجع شوې؟
+        tick_box_label: 'هو'
+      service_location:
+        display_name: د خدمت ځای
+      service_referral_notes:
+        display_name: یادونه
+      service_implemented:
+        display_name: خدمت ورته شوی
+      service_implemented_day_time:
+        display_name: خدمت بشپړ شو
+      details_service_provided:
+        display_name: 'د چمتو شوو خدماتو په اړه تبصره '
+      recommendations_followup:
+        display_name: د تعقیب لپاره وړاندیزونه
+      accountability_separator:
+        display_name: حساب ورکول
+        help_text: د قضیې کارکوونکی له ماشوم څخه پوښتنه کوي چې دوی د چمتو شوو حدماتو په اړه څنګه احساس کوي(د مثال په توګه د عمر په اساس، یا هم ورین تندی )
+      focal_agency_location:
+        display_name: د چمتو شوو خدماتو په اړه د ماشوم د رضایت کچه
+      suggestions_improvement:
+        display_name: د ښه والي لپاره د ماشوم وړاندیزونه
+      caregivers_satisfaction:
+        display_name: د چمتو شوو خدماتو په اړه د ماشوم د سرپرست د رضایت کچه
+      caregivers_suggestions:
+        display_name: د ښه والي لپاره د ماشوم د سرپرست وړاندیزونه

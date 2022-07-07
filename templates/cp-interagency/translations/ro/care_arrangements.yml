@@ -1,0 +1,21 @@
+ro:
+  care_arrangements:
+    name: Aranjament de îngrijire
+    description: Aranjament de îngrijire
+    fields:
+      child_current_location:
+        display_name: Adresa actuală a copilului
+      address_current:
+        display_name: Adresa actuală
+        help_text: Acolo unde nu există o adresă, vă rugăm să furnizați repere sau descrierea locației curente
+      location_current:
+        display_name: Locația actuală
+      address_child_future:
+        display_name: Dacă copilul plănuiește să se mute, care este adresa viitoare?
+        help_text: Acolo unde nu există o adresă, vă rugăm să furnizați repere sau descrierea locației actuale
+      location_child_future:
+        display_name: Care este locația viitoare?
+      telephone_child_future:
+        display_name: Care este numărul de telefon viitor?
+      care_arrangements_section:
+        display_name: Aranjament de îngrijire

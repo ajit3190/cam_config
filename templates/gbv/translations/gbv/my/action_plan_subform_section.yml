@@ -1,0 +1,39 @@
+---
+my:
+  action_plan_subform_section:
+    name: လုပ်ငန်းအစီအစဉ် အဆင့်ဆင့်
+    description: လုပ်ငန်းအစီအစဉ် ဖောင်ပုံစံခွဲ
+    fields:
+      service_provided:
+        display_name: ဝန်ဆောင်မှုပေးခဲ့ပါသလား။
+      service_provided_date:
+        display_name: ပေးခဲ့သည့်ဆိုပါက မည်သည့်အချိန်က ဝန်ဆောင်မှုကိုပေးခဲ့ပါသလဲ.
+      action_taken_details:
+        display_name: ဆောင်ရွက်ခဲ့ပြီးသော လုပ်ဆောင်ချက်ကို အသေးစိတ်ဖေါ်ပြပါ။
+      service_type:
+        display_name: လိုအပ်ချက်အမျိုးအစား
+      service_appointment_date:
+        display_name: ချိန်းဆိုသည့် ရက်စွဲ
+      action_plan_description:
+        display_name: ဤလိုအပ်ချက်ကို ဖြေရှင်းရန် လုပ်ဆောင်ချက်အစီအစဉ်ကို ဖေါ်ပြပါ။
+      service_intervertion_type:
+        display_name: ကြားဝင်ကူညီဆောင်ရွက်ပေးမှု ပုံစံအမျိုးအစား
+      service_referral:
+        display_name: ရှင်သန်ကျန်ရစ်သူက ဤဝန်ဆောင်မှုအား  မည်သို့ရယူပါမည်နည်း။
+      service_referral_written_consent:
+        display_name: "လွှဲပြောင်းညွှန်းပို့ခြင်းပြုလုပ်ရန်အတွက် ကိုယ်ရေးအချက်အလက်များကို လွှဲပြောင်းပေးရန် ရှင်သန်ကျန်ရစ်သူထံမှ သဘောတူခွင့်ပြုချက်ကို သင်ရရှိခဲ့ပါသလား။  "
+      service_referral_name:
+        display_name: အမည်၊ ဌာန သို့မဟုတ် အေဂျင်စီ/ အဖွဲ့အစည်းကို သက်ဆိုင်ပါကဖေါ်ပြပါ။
+      service_appointment_time:
+        display_name: ချိန်းဆိုသည့် အချိန်
+      service_provider:
+        display_name: ဝန်ဆောင်မှုပေးသူ
+      service_location:
+        display_name: ဝန်ဆောင်မှုပေးသည့် နေရာ
+      service_referral_notes:
+        display_name: မှတ်ချက်များ
+        help_text: စိန်ခေါ်မှုများ၊ အရင်းအမြစ်များနှင့် အခြားထည့်သွင်းစဉ်းစားရန် သင့်လျှော်သည့် အရာများကို အသားပေးဖေါ်ပြပါ။
+      service_referral_mandatory_reporting:
+        display_name: "အကယ်၍ မဖြစ်မနေအစီရင်ခံရန် လိုအပ်သော ဥပဒေများကျင့်သုံးပါက ထိုအဖြစ်အပျက်ကို ရဲ/ အများပြည်သူဆိုင်ရာ အာဏာပိုင်များထံ သင်အစီရင်ခံခဲ့ပါသလား?"
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: အကယ်၍ အစီရင်ခံခဲ့လျှင်၊ အစီရင်ခံစာမထုတ်ပြန်မီ ရှင်သန်ကျန်ရစ်သူ (နှင့်/ သို့မဟုတ်) သူမ၏ စောင့်ရှောက်သူအား မဖြစ်မနေပြုလုပ်ရမည့် တိုင်ကြားခြင်းနှင့် ပတ်သက်သည့် ဥပဒေများအကြောင်း ရှင်းပြခဲ့ပါသလား။

@@ -1,0 +1,17 @@
+uk:
+  bid_status:
+    name: Статус НІД
+    description: Форма BID статус
+    fields:
+      assessment_formal_bid:
+        display_name: Чи вимагаються формальні Найкращі Інтереси Дитини(BID)?
+        help_text: Визначається в контексті за координацією з УВКБ ООН.
+      assessment_bid_direction:
+        display_name: Якщо так, будь ласка, виберіть напрямок BID
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Визначення довготривалих рішень та додаткових шляхів для дітей без супроводу
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Визначення найбільш підходящих варіантів для дітей з групи ризику за виняткових обставин (включаючи возз’єднання сім’ї та тимчасовий догляд)
+          possible_separation_of_a_child_from_parents_against_their_will: Можливе відділення дитини від батьків проти їх волі
+      assessment_bid_details:
+        display_name: Надайте деталі
+        help_text: Надайте деталі, а потім перейдіть до форми УВКБ ООН щодо визначення Найкращих Інтересів Дитини (BID).

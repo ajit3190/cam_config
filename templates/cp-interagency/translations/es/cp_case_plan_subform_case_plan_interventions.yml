@@ -1,0 +1,37 @@
+es:
+  cp_case_plan_subform_case_plan_interventions:
+    name: Listado de Intervenciones y Servicios
+    description: Listado de Intervenciones y Servicios
+    fields:
+      intervention_service_to_be_provided:
+        display_name: Nombre de la intervención/ servicio a brindar
+      intervention_service_goal:
+        display_name: Necesidad que la intervención/ servicio está cubriendo
+        guiding_questions: Como se identificó en la evaluación, Ej. cuidados alternativos, seguridad (por ejemplo, refugio seguro), educación (formal), educación no formal, localización y reunificación familiar, apoyo psicosocial básico, atención MHPSS no especializada enfocada, servicios MHPSS especializados, alimentos, artículos no alimentarios, asistencia en efectivo, medios de vida, atención médica, nutrición, apoyo legal, documentación, servicios para niños con discapacidad, salud sexual y reproductiva, vivienda, WASH, solución duradera, reubicación.
+      case_plan_provider_and_contact_details:
+        display_name: Persona/agencia brindando el servicio o implementando la intervención/servicios y los detalles de contacto
+      case_plan_timeframe:
+        display_name: Fecha de Vencimiento
+        help_text: dd/mm/aa
+      case_plan_monitoring_schedule:
+        display_name: Cronograma de seguimiento/monitoreo
+        guiding_questions: |-
+          Por ejemplo, haga un seguimiento el lunes de la próxima semana sobre los servicios que se brindarán y el viernes de la próxima semana sobre la situación del niño/a. Seguimiento y control dos veces por semana como mínimo para el próximo mes.
+          Si la situación progresa como se esperaba/deseaba, cambie el calendario de seguimiento y monitoreo el próximo mes según la reunión de revisión y el nivel de riesgo modificado al final de este mes.
+        option_strings_text:
+          one_time: Una vez
+          daily: Diario
+          weekly: Semanal
+          monthly: Mensual
+          other: Otro
+      case_plan_monitoring_schedule_notes:
+        display_name: Notas del cronograma de seguimiento/monitoreo
+      interventions_status:
+        display_name: Estatus
+        option_strings_text:
+          pending: Pendiente
+          ongoing: En proceso
+          completed: Completado
+      interventions_notes:
+        display_name: Notas
+        guiding_questions: Por ejemplo, fortalezas y barreras que pueden ayudar/progresar u obstaculizar el logro

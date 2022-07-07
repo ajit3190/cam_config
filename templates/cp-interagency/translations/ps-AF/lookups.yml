@@ -1,0 +1,849 @@
+ps-AF:
+  lookup-age-group-type:
+    name: د عمر ګروپ ډول
+    lookup_values:
+      adult: بالغ
+      minor: کوچنی
+      unknown: نامعلوم
+  lookup-agency-office:
+    name: اداره
+    lookup_values:
+      agency_office_1: لمړی اداره
+      agency_office_2: دوهمه اداره
+      agency_office_3: دریمه اداره
+      agency_office_4: څلورمه اداره
+      agency_office_5: پینځمه اداره
+  lookup-approval-for:
+    name: منظوري د څه لپاره
+    lookup_values:
+      bia: Bia
+      case_plan: د قضیې پلان
+      closure: بندول
+  lookup-approval-status:
+    name: د تاییدی وضعیت
+    lookup_values:
+      requested: غوښتنه شوې
+      pending: منتظر
+      approved: منظور شوی
+      rejected: رد شو
+  lookup-approval-type:
+    name: د تایید ډول
+    lookup_values:
+      case_plan: د قضیې پلان
+      action_plan: د عمل یا د کړنې پلان
+      service_provision: د خدمتونو برابرول
+  lookup-armed-force-group-name:
+    name: د وسله وال ځواک د ډلې نوم
+    lookup_values:
+      armed_force_or_group_1: د وسلوال ځواک لمړی ګروپ
+      armed_force_or_group_2: د وسلوال ځواک دوهم ګروپ
+      armed_force_or_group_3: د وسلوال ځواک دریم ګروپ
+      other_please_specify: که نور وي ، مهرباني وکړئ مشخص کړئ
+  lookup-armed-force-group-type:
+    name: د وسلوال ځواک د ګروپ ډول
+    lookup_values:
+      national_army: ملي اردو
+      security_forces: امنیتي ځواکونه
+      international_forces: نړیوال ځواکونه
+      police_forces: د پولیسو ځواک
+      para-military_forces: پارا - نظامي ځواکونه
+      unknown: نامعلوم
+      other: نور
+  lookup-assessment-duration:
+    name: د ارزونې موده
+    lookup_values:
+      less_than_15_minutes: له ۱۵ دقیقو څخه لږ وخت
+      16_30_minutes: ۱۶-۳۰ دقیقې
+      31_minutes_1_hour: دقیقې ۳۱   -  ۱ ساعت
+      1_2_hours: ۱-۲ ساعتونه
+      more_than_2_hours: له ۲ ساعتونو څخه ډیر
+  lookup-assessment-progress:
+    name: د ارزونې جریان
+    lookup_values:
+      n_a: د عملې کیدو وړ نه ده
+      in_progress: په جریان کې ده
+      met: رسیدګی ورته شوې
+  lookup-case-status:
+    name: د قضیې حالت
+    lookup_values:
+      open: خلاص
+      closed: تړل شوې
+      transferred: لیږدول شوې
+      duplicate: تکرار
+  lookup-child-minor-age-group:
+    name: ' ماشوم / کوچنې عمر ګروپ'
+    lookup_values:
+      0_5_year_old: ۱-۵ کلن
+      6_12_year_old: ۶-۱۲ کلن
+      13_17_year_old: ۱۳-۱۷ کلن
+  lookup-conference-case-status:
+    name: د قضيې د کنفرانس حالت
+    lookup_values:
+      open: قضیه به پرانیستل شوې پاتې وي
+      closed: قضیه به وتړل شي
+      transferred: قضیه به ولیږدول شي
+      other: نور
+  lookup-country:
+    name: هیواد
+    lookup_values:
+      afghanistan: افغانستان
+      albania: البانیا
+      algeria: الجریا
+      andorra: اندورا
+      angola: انګولا
+      antigua_and_barbuda: انتیګا او باربودا
+      argentina: ارجنټینا
+      armenia: ارمانیا
+      australia: اسټرلیا
+      austria: اسټریا
+      azerbaijan: ازربایجان
+      bahamas: باهماس
+      bahrain: بحرین
+      bangladesh: بنګلادیش
+      barbados: بربادوس
+      belarus: بیلاروس
+      belgium: بلجیم
+      belize: بلیز
+      benin: بینن
+      bhutan: بوتهان
+      bolivia: بولیویا
+      bosnia_and_herzegovina: بوسنیا او هرزیګونیا
+      botswana: بوتسوانا
+      brazil: برازیل
+      brunei: بروني
+      bulgaria: بلغاریا
+      burkina_faso: برکینا فاسو
+      burundi: بروندي
+      cabo_verde: کابویرد
+      cambodia: کامبوډیا
+      cameroon: کامرون
+      canada: کاناډا
+      central_african_republic: د مرکزي افریقا جمهوریت
+      chad: چاد
+      chile: چلي
+      china: چین
+      colombia: کولمبیا
+      comoros: کامروس
+      congo: ' جمهوري کانګو'
+      drc: ' ډیموکراتیک کانګو'
+      costa_rica: کاستاریکا
+      cote_divoire: کوت دیلویري
+      croatia: کروشیا
+      cuba: کیوبا
+      cyprus: سیفروس
+      czech_republic: ژیک جمهوریت
+      denmark: ډنمارک
+      djibouti: ډیژبوټي
+      dominica: دومینېکا
+      dominican_republic: ډومینېکا جمهوریت
+      ecuador: اکوادور
+      egypt: مصر
+      el_salvador: اسوادور
+      equatorial_guinea: ایکواټوریل ګانیا
+      eritrea: ایریټرا
+      estonia: استوانیا
+      ethiopia: ایتوفیا
+      fiji: فیجي
+      finland: فنلنډ
+      france: فرانسه
+      gabon: ګابن
+      gambia: ګامبیا
+      georgia: جورجیا
+      germany: جرمني
+      ghana: ګانا
+      greece: یونان
+      grenada: ګریناډا
+      guatemala: ګواتیمالا
+      guinea: ګانا
+      guinea_bissau: ګینابیسا
+      guyana: ګویانا
+      haiti: هاتي
+      honduras: هندوراس
+      hungary: هنګري
+      iceland: ایسلنډ
+      india: انډیا
+      indonesia: اندونیزیا
+      iran: ایران
+      iraq: عراق
+      ireland: ایرلنډ
+      israel: اسرایل
+      italy: ایټالیا
+      jamaica: جامیکا
+      japan: جاپان
+      jordan: جوردان
+      kazakhstan: قزاقستان
+      kenya: کینیا
+      kiribati: کیرباتي
+      kosovo: کوسو
+      kuwait: کويټ
+      kyrgyzstan: قرغزستان
+      laos: لاوس
+      latvia: لاتیویا
+      lebanon: لبنان
+      lesotho: لیستو
+      liberia: لایبریا
+      libya: لیبیا
+      liechtenstein: لیکتینستین
+      lithuania: لیتوانیا
+      luxembourg: لوګزامبورګ
+      macedonia: مقدونیا
+      madagascar: مادګسکار
+      malawi: ملوي
+      malaysia: مالیزیا
+      maldives: مالدیپ
+      mali: مالي
+      malta: مالتا
+      marshall_islands: مارشال ایسلنډ
+      mauritania: ماریتینیا
+      mauritius: ماریتیوس
+      mexico: مکسیکو
+      micronesia: میکرونسیا
+      moldova: مولدوا
+      monaco: موناکو
+      mongolia: مانګولیا
+      montenegro: مونټینیګرو
+      morocco: موراکو
+      mozambique: موزمبیک
+      myanmar: ماینامار
+      namibia: مامیبیا
+      nauru: نارو
+      nepal: نیپال
+      netherlands: نیدرلینډ
+      new_zealand: نیوزلینډ
+      nicaragua: نیکارګوا
+      niger: نیجر
+      nigeria: نایجریا
+      north_korea: شاملي کوریا
+      norway: ناروې
+      oman: عمان
+      pakistan: پاکستان
+      palau: پالو
+      palestine: فلسطین
+      panama: پاناما
+      papua_new_guinea: فافو نیو ګانا
+      paraguay: پاراګوای
+      peru: پیرو
+      philippines: فلپین
+      poland: پولینډ
+      portugal: پورتاګال
+      qatar: قطر
+      romania: رومانیا
+      russia: روسیه
+      rwanda: رواندا
+      st_kitts_and_nevis: ایس ټي کیت او نیویس
+      st_lucia: ایس ټي لوشیا
+      st_vincent_and_the_grenadines: ایس ټي وینسیټ او ګرینډینس
+      samoa: ساماو
+      san_marino: سان مارینو
+      sao_tome_and_principe: ساو ټوم او فرینسیف
+      saudi_arabia: سعودی عربستان
+      senegal: سینیګال
+      serbia: سابریا
+      seychelles: سیچلیس
+      sierra_leone: سیرالیون
+      singapore: سینګاپور
+      slovakia: سلواکیا
+      slovenia: سلوانیا
+      solomon_islands: د سلومن جزیرې
+      somalia: سومالیا
+      south_africa: جنوبي افریقا
+      south_korea: جنوبي کوریا
+      south_sudan: جنوبي سوډان
+      spain: هسپانیا
+      sri_lanka: سریلینکا
+      sudan: سوډان
+      suriname: سرینیم
+      swaziland: سوزیلنډ
+      sweden: سویډن
+      switzerland: سوټزرلنډ
+      syria: سریا
+      taiwan: تایوان
+      tajikistan: تاجکستان
+      tanzania: تانزنیا
+      thailand: تایلنډ
+      timor_leste: تیمر لیستي
+      togo: توګو
+      tonga: تونګا
+      trinidad_and_tobago: ترینیډاد او توباګو
+      tunisia: تونیشیا
+      turkey: ترکیه
+      turkmenistan: ترکمنستان
+      tuvalu: توالو
+      uganda: یوګانډا
+      ukraine: اوکراین
+      united_arab_emirates: متحده عربي امارات
+      uk: برتانیا
+      usa: امریکا
+      uruguay: یوروګوای
+      uzbekistan: ازبکستان
+      vanuatu: وانوټا
+      vatican: واتیکان
+      venezuela: وینزویلا
+      vietnam: ویتنام
+      yemen: یمن
+      zambia: زمبیا
+      zimbabwe: زمبابوې
+  lookup-cp-violence-type:
+    name: سیفي ویلینس تایف
+    lookup_values:
+      rape: زنا
+      sexual_assault: جنسي زورونه
+      physical_assault: فریکي هجوم
+      forced_marriage: په زوره واده
+      denial_of_resources_opportunities_or_services: د سرچینو ، فرصتونو یا خدماتو څخه انکار
+      psychological_emotional_abuse: رواني / احساساتي ناوړه ګټه اخیستنه
+      non-gbv: ' پسې اړه نه لريGBV '
+  lookup-disability-type:
+    name: د معلولیت ډول
+    lookup_values:
+      mental_disability: ذهني معلولیت
+      physical_disability: فزیکي معلولیت
+      both: دواړه
+  lookup-disability-type-with-mental-physical:
+    name: د معلولیت ډول د ذهني او فزیکي ترکیب سره
+    lookup_values:
+      'no': 'نه'
+      mental_disability: ذهني ناتواني
+      physical_disability: فزیکي معلولیت
+      mental_physical_disability: رواني او فزیکي معلولیت
+  lookup-disability-type-with-no:
+    name: د معلولیت ډول
+    lookup_values:
+      'no': 'نه'
+      mental_disability: ذهني ناتواني
+      physical_disability: فزیکي معلولیت
+      both: دواړه
+  lookup-discovery-method:
+    name: د کشف طریقه
+    lookup_values:
+      family_or_friend: کورنۍ یا ملګری
+      referral: د بلې ادارې څخه راجع شوی
+      neighbor: ګاونډی یا د ټولنې غړی
+      community_discussion: د ټولنې بحث
+      pamphlet: معلوماتي ورقه مو ولیده یا مو تر لاسه کړه
+      other: نور
+  lookup-displacement-status:
+    name: د بې ځایه کیدو وضعیت
+    lookup_values:
+      asylum_seeker: پناه غوښتونکی
+      refugee: مهاجر
+      idp: داخلي بې ځایه شوی شخص
+      migrant: مهاجر
+      host:community: کوربه ټولنه
+      returnee: بیرته راستنیدونکی
+      stateless_person: بې دولته شخص
+      resident: ملي استوګن (چې بې ځایه شوی نه وي)
+      foreign_national: بهرنی ملي اوسیدونکی
+      other: هو
+  lookup-ethnicity:
+    name: توکم
+    lookup_values:
+      ethnicity1: لمړی توکم
+      ethnicity2: دوهم توکم
+      ethnicity3: دریم توکم
+      ethnicity4: څلورم توکم
+      ethnicity5: پینځم توکم
+      ethnicity6: شپږم توکم
+      ethnicity7: اووم توکم
+      ethnicity8: اتم توکم
+      ethnicity9: نهم توکم
+      ethnicity10: لسم توکم
+  lookup-family-relationship:
+    name: د کورنی اړېکه
+    lookup_values:
+      mother: مور
+      father: پلار
+      aunt: ترور
+      uncle: تره
+      grandmother: نیا
+      grandfather: نیکه
+      brother: ورور
+      sister: خور
+      husband: خاوند
+      wife: میرمن
+      partner: شریک
+      other_family: بله کورنی
+      other_nonfamily: بله غیر فاملي
+  lookup-followedup-with:
+    name: تعقیب له چا سره شوی
+    lookup_values:
+      child: ماشوم
+      caregiver_s_family: د سرپرست کورنی
+      service_provider_own_agency: د خدمت چمتو کونکی (خپله اداره)
+      service_provider_referral: د خدمت چمتو کونکی (راجع کول)
+      other: نور
+  lookup-followup-type:
+    name: د تعقیب ډول
+    lookup_values:
+      after_reunification: د بیا یو ځای کیدو څخه وروسته تعقیب
+      in_care: 'تعقیب له پاملرنې سره '
+      for_service: د خدمت لپاره تعقیب
+      for_assesment: د ارزیابی لپاره تعقیب
+  lookup-form-group-cp-case:
+    name: د ګروپونو شکل
+    lookup_values:
+      record_information: معلومات خوندي کړئ
+      approvals: منظوري
+      case_conference_details: ' قضیې د کنفرانس توضیحات'
+      identification_registration: ثبت او پيژندنه
+      data_confidentiality: د معلوماتو محرمیت
+      review: 'د بیا کتنې برخه '
+      assessment: ارزیابي
+      family_partner_details: د کورنی او شریک معلومات
+      case_plan: د قضیې پلان
+      services_follow_up: 'خدمات او تعقیب '
+      closure: بندول
+      feedback: فیډبیک
+      tracing: تعقیبول
+      bia_form: '    فورمه BIA  د  '
+      photos_audio: عکسونه او آډیو
+      other_documents: نور اسناد
+      referrals_transfers: ارجاعات او لیږدونې
+      notes: یاداشات
+  lookup-form-group-cp-incident:
+    name: ' پیښه  CP  د ګروپونو شکل او د '
+    lookup_values:
+      record_owner: د ثبت څښتن
+      perpetrator_details: د مرتک شخص معلومات
+      cp_incident: ' پیښه CP د '
+      cp_individual_details: انفرادي توضیحات  CP د
+  lookup-form-group-cp-tracing-request:
+    name: 'د تعقیب غوښتنهCPد ګروپونو شکل  د '
+    lookup_values:
+      record_owner: د ثبت څښتن
+      inquirer: پلټونکی
+      tracing_request: د تعقیب غوښتنه
+      photos_audio: عکسونه او آډیو
+      other_reportable_fields: د راپور ورکولو نورې ساحې
+  lookup-form-group-gbv-case:
+    name: ' قضيې GBVد ګروپونو شکل د '
+    lookup_values:
+      record_information: د ثبت معلومات
+      consent_for_services: دخدماتو لپاره رضایت
+      documents: سندونه
+      consent_for_referrals: د راجع کولو لپاره رضایت
+      safety_plan: د خوندیتوب پلان
+      action_plan: کاري پلان
+      survivor_assessment: د ژغورل شوي شخص ارزیابي
+      case_closure: د قضیې بندول
+      client_feedback: د مراجعه کوونکي فیډبیک
+      identification_registration: 'پیژندنه / ثبت '
+      referrals_transfers: ارجاعات او لیږدونې
+      other_reportable_fields: د راپور ورکولو نورې ساحې
+  lookup-form-group-gbv-incident:
+    name: 'پیښه GBV د ګروپونو شکل د '
+    lookup_values:
+      gbv_individual_details: '    انفرادي توضیحات GBVد'
+      incident: پیښه
+      type_of_violence: د خشونت ډول
+      record_owner: د ثبت څښتن
+      alleged_perpetrator: هغه مرتکب شخص چې ادعا ورباندې شوې
+      service_referral: د خدمت لپاره ارجاع
+      other_reportable_fields: د راپور ورکولو نور ساحې
+  lookup-further-action_needed:
+    name: نورو اقداماتو ته اړتیا ده
+    lookup_values:
+      no_further_action_needed: نورو  اقداماتو ته اړتیا نشته
+      ongoing_monitoring: روانه څارنه
+      urgent_intervention: بېړنۍ مداخله
+  lookup-gbv-approval-types:
+    name: '  کارونکو لپاره د تصویب ډول GBV د'
+    lookup_values:
+      case_plan: د قضيې پلان
+      closure: بندول
+  lookup-gbv-reported-elsewhere:
+    name: هو، نه او یا نامعلوم
+    lookup_values:
+      'no': 'نه'
+      gbvims-org: 'اداره GBVISM - هو  '
+      non-gbvims-org: اداره GBVISM هو- غیر
+  lookup-gbv-sexual-violence-type:
+    name: ' جنسي تاوترخوالي ډول GBV د'
+    lookup_values:
+      rape: جنسي تیری
+      sexual_assault: جنسي تیری
+      physical_assault: فزیکي برید
+      forced_marriage: جبري واده
+      denial_of_resources_opportunities_or_services: د سرچینو ، فرصتونو یا خدماتو څخه انکار
+      psychological_emotional_abuse: رواني / احساساتي ناوړه ګټه اخیستنه
+      non-gbv: GBVغیر
+  lookup-gender:
+    name: جنس
+    lookup_values:
+      male: نارینه
+      female: ښځینه
+  lookup-incident-identification:
+    name: د پیښې پیژندنه
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: افشا کول او یا شکایت د کورنی د غړې لخوا او یا هم د هغه شخص لخوا چې ناوړه استفاده ورڅخه شوې
+      discovered_by_service_provider: د خدمت چمتو کونکي لخوا کشف شو
+      report_by_the_institution_providing_the_service_discovery: د خدمت چمتو کونکي ادارې لخوا راپور (کشف)
+      other: نور
+  lookup-incident-location:
+    name: د پیښې ځای
+    lookup_values:
+      home: کور
+      street: کوڅه
+      school: ښوونځی
+      work_place: د کاري ځای
+      other: نور
+  lookup-incident-status:
+    name: د پیښې وضعیت
+    lookup_values:
+      open: خلاص
+      closed: تړل شوی
+      duplicate: دوهم ځلي
+  lookup-inquiry-status:
+    name: د پلټنې حالت
+    lookup_values:
+      open: خلاص
+      closed: تړل شوی
+  lookup-language:
+    name: ژبه
+    lookup_values:
+      language1: اوله ژبه
+      language2: دوهمه ژبه
+      language3: دریمه ژبه
+      language4: څلورمه ژبه
+      language5: پینځمه ژبه
+      language6: شپږمه ژبه
+      language7: 'اوومه ژبه '
+      language8: اتمه ژبه
+      language9: نهمه ژبه
+      language10: لسمه ژبه
+  lookup-location-type:
+    name: د ځای ډول
+    lookup_values:
+      country: هیواد
+      region: سیمه
+      province: ولایت
+      district: ولسوالي
+      governorate: والي
+      chiefdom: چيفډوم
+      state: ایالت
+      city: ښار
+      county: هیواد
+      camp: کمپ
+      site: سیمه
+      village: کلی
+      zone: سیمه
+      sub_district: فرعي ولسوالی
+      locality: Locality
+      prefecture: 'اداره '
+      sub-prefecture: فرعي اداره
+      commune: خواله کول
+      payam: پیغام
+      parish: پاریش
+      municipality: ښاروالی
+      other: نور
+  lookup-marital-status:
+    name: مدني حالت
+    lookup_values:
+      single: مجرد
+      married_cohabitating: واده شوی
+      divorced_separated: طلاق ورکړل شوی / جلا شوی
+      widowed: کونډ شوی/ کونډه
+  lookup-marital-status-unknown:
+    name: مدني حالت
+    lookup_values:
+      single: مجرد
+      married_cohabitating: واده شوی
+      divorced_separated: طلاق ورکړل شوی / جلا شوی
+      widowed: کونډ شوی/ کونډه
+      unknown_not_applicable: 'نامعلوم '
+  lookup-marital-status-with-spouse:
+    name: مدني حالت
+    lookup_values:
+      single: مجرد
+      married_cohabitating: واده شوی
+      divorced_separated: طلاق ورکړل شوی / جلا شوی
+      widowed: کونډ شوی/ کونډه
+      with_spouse: له خاوند سره
+  lookup-nationality:
+    name: ملت
+    lookup_values:
+      nationality1: اول ملت
+      nationality2: دهم ملت
+      nationality3: دریم ملت
+      nationality4: څلورم ملت
+      nationality5: پینځم ملت
+      nationality6: شپږم ملت
+      nationality7: اووم ملت
+      nationality8: اتم ملت
+      nationality9: نهم ملت
+      nationality10: لسم ملت
+  lookup-number-range-one-to-ten:
+    name: د عددو شمیر له یو څخه تر لسو
+    lookup_values:
+      '1': '۱'
+      '2': '۲'
+      '3': '۳'
+      '4': '۴'
+      '5': '۵'
+      '6': '۶'
+      '7': '۷'
+      '8': '۸'
+      '9': '۹'
+      '10': '۱۰'
+  lookup-perpetrator-relationship:
+    name: له مرتکب شخص سره اړېکه
+    lookup_values:
+      intimate_partner_former_partner: پخوانی ملګری
+      primary_caregiver: لومړني سرپرست
+      family_other_than_spouse_or_caregiver: کورنی له خاوند یا له سرپرست څخه بغیر
+      supervisor_employer: نظارت کونکی / پر کار ګمارونکی
+      schoolmate: د ښوونځي ملګری
+      teacher_school_official: ښوونکی
+      service_provider: خدمت چمتو کونکی
+      cotenant_housemate: د کور ملګری
+      family_friend_neighbor: ګاونډي
+      other_refugee_idp_returnee: نور مهاجر / داخلې بې ځایه شوی / بیرته راستنیدونکی
+      other_resident_community_member: د ټولنې نور اوسیدونکي
+      other: نور
+      no_relation: اړیکه یې سره نشته
+      unknown: نامعلوم
+  lookup-protection-concerns:
+    name: د ساتنې انديښنې
+    lookup_values:
+      physical_abuse_violence: فزیکي ناوړه ګټه اخیستنه / تاوتریخوالی
+      sexual_abuse_violence: جنسي ناوړه ګټه اخیستنه / زورزياتی
+      rape: زنا
+      emotional_or_psychological: احساساتي یا رواني ناوړه ګټه اخیستنه / تاوتریخوالی
+      neglect: غفلت
+      abandonment: پریښودنه
+      child_labour: د ماشومانو کار (ترټولو بد نه)
+      hazardous_work: خطرناک کار
+      sexual_exploitation: جنسي استثمار
+      slavery_sale_abduction: غلامي / پلور / اختطاف / قاچاق / جبري کار
+      in_conflict_with_the_law: د قانون سره په ټکر کې
+      associated_with_armed: د وسله والو ځواکونو یا ډلو سره ملګرتیا
+      deprived_of_liberty: له ازادی څخه محرمیت / په توقیف کې
+      serious_medical_condition: جدي طبي حالت
+      functional_difficulty_seeing: په کار کولو کې ستونزه حتی که عینکې هم اچوي
+      functional_difficulty_hearing: په کار کولو کې ستونزه حتی که د اوریدو لپاره کومه اله هم استمالوي
+      functional_difficulty_walking: 'په کار کې ستونزه '
+      functional_difficulty_remembering: یو څه په یاد لرولو کې ستونزه
+      difficulty_with_self_care: د ځان پاملرنې سره ستونزه لکه پخپله خواړه خوړل یا جامې اغوستل (د ورته عمر نورو ماشومانو په پرتله)
+      difficulty_communicating: په خبرو اترو  کې مشکل
+      unaccompanied: داسې ماشوم چې  له کورنی او مور او پلار څخه جدا وي خو فعلآ له خپلو خپلوانو سره نه اوسي
+      separated: داسې ماشوم چې له کورنی او مور او پلار څخه جدا وي خو فعلآ له خپلو خپلوانو سره اوسي
+      orphan: یتیم
+      psychosocial_distress: روانی ټولنیز تکلیف
+      mental_disorder: ذهني ګډوډي
+      substance_abuse: اوږد مهاله ناوړه ګټه اخیستنه
+      belongs_to_marginalised: څنډې ته شوې کورنی / داسې ګروپ چې تبعیض ورسره شوی وي
+      lack_of_documentation_birth_registration: د اسنادو یا د زیږون د ثبت نشتوالی
+      child_marriage: د ماشوم واده
+      female_genital_mutilation_fgm: د ښځینه تناسلي الې پرې کول (FGM)
+      pregnancy_child_parent: حمل
+      denial_of_resources_opportunities_or_services: د سرچینو ، فرصتونو یا خدماتو څخه انکار
+      highly_vulnerable_care: د ډیر زیان لیدونکي پاملرنې تنظیم
+      child_survivor_of_explosive: له چاودیدونکي توکو څخه د ماشوم ژوندي پاتې کیدل (EO)
+      other: نور
+  lookup-protection-status:
+    name: د محافظت وضعیت
+    lookup_values:
+      unaccompanied: داسې ماشوم چې له کورنی او مور او پلار څخه جدا وي خو فعلآ له خپلو خپلوانو سره نه اوسي
+      separated: داسې ماشوم چې له کورنی او مور او پلار څخه جدا وي خو فعلآ له خپلو خپلوانو سره اوسي
+  lookup-religion:
+    name: دین
+    lookup_values:
+      religion1: اول دین
+      religion2: دوهم دین
+      religion3: دریم دین
+      religion4: څلورم دین
+      religion5: پینځم دین
+      religion6: شپږم دین
+      religion7: اووم دین
+      religion8: اتم دین
+      religion9: نهم دین
+      religion10: لسم دین
+  lookup-reporting-location-type:
+    name: د راپور ورکول د ځای ډول
+    lookup_values:
+      province: ولایت
+      district: ولسوالي
+  lookup-risk-level:
+    name: د خطر کچه
+    lookup_values:
+      high: لوړ
+      medium: منځنی
+      low: ټیټ
+  lookup-separation-cause:
+    name: د بیلتون دلیل
+    lookup_values:
+      abandoned: پریښودل شوی
+      family_abuse_violence_neglect_exploitation: د کورنۍ ناوړه چلند / تاوتریخوالی / غفلت / استثمار
+      death_sickness_of_family_member: د کورنۍ د غړي ناروغي / مړینه
+      separation_because_of_fleeing_violence_war: د تاوتریخوالي او یا هم د جنګ له امله بیلتون
+      separation_because_of_fleeing_natural_disaster: د طبعي ناورین له امله بیلتون
+      separation_because_of_fleeing_persecution: د اعدام د تيښتې له امله بیلتون
+      search_for_employment: د کار موندنې لپاره لټون
+      search_for_educational_opportunities: د زده کړې د فرصتونو لپاره لټون
+      search_for_services_support: د خدماتو / ملاتړ لپاره لټون
+      migration: مهاجرت
+      organized_population_movement_e_g_evacuation: د وګړو منظم تګ (د بیلګې په توګه ایستل)
+      entrusted_into_the_care_of_individual_institution: د فرد یا د یوې ادارې پاملرنې ته سپارل شوی
+      repatriation: بیرته ستنیدل
+      poverty: عربت
+      recruitment_into_armed_forces_or_armed_groups: په وسله والو ځواکونو یا وسله والو ډلو کې استخدام
+      abducted_trafficked: تښتول شوی / قاچاق شوی
+      arrest_detention: نیول / توقیف
+      other_please_specify: که نور وي ، مهرباني وکړئ مشخص یې کړئ
+  lookup-service-implemented:
+    name: خدمت تطبیق شوی
+    lookup_values:
+      not_implemented: نه دې پلی شوی
+      implemented: تطبیق شوی
+  lookup-service-referred:
+    name: خدماتو ته راجع شوی
+    lookup_values:
+      internal_referral: داخلي ارجاع
+      external_referral: خارجي ارجاع
+  lookup-service-referred-gbv:
+    name: خدماتو ته ارجاع  GBV د
+    lookup_values:
+      referred: راجع شوی ده
+      no_referral_service_provided_by_your_agency: نه ده راجع شوی / خدمات ستاسو د ادارې لخوا ورته ترسره شوي دي
+      no_referral_services_already_received_from_another_agency: نه ده راجع شوی / خدمات د بلې ادارې لخوا ورته ترسره شوي دي
+      no_referral_service_not_applicable: نه ده راجع شوی ، خدمت د تطبیق وړ ندی
+      no_referral_declined_by_survivor: نه ده راجع شوی،  د ژغورل شوي شخص لخوا رد شوی
+      no_referral_service_unavailable: نه ده راجع شوی، خدمت شتون نه لري
+  lookup-service-response-type:
+    name: د خدمت د ځواب ډول
+    lookup_values:
+      service_provision: د خدماتو ورکړه
+  lookup-service-type:
+    name: د خدمت ډول
+    lookup_values:
+      alternative_care: بدیل پاملرنه
+      security_e_g_safe_shelter: امنیت (د بیلګې په توګه خوندي سرپناه)
+      education_formal: ښوونه (رسمي)
+      non_formal_education: غیر رسمي تعلیم
+      family_tracing_and_reunification: د کورنۍ تعقیب او یوځای کیدل
+      basic_psychosocial_support: لومړنی رواني - ټولنیزه پاملرنه
+      focuses_non_specialized_mhpss_care: غیر متخصص-متمرکز MHPSS
+      specialized_mhpss_services: ' متخصص-متمرکز MHPSS'
+      food: خواړه
+      non_food_items: غیر خوراکي توکي
+      cash_assistance: نغدي مرسته
+      livelihoods: معیشت
+      medical: طبي
+      nutrition: تغذیه
+      legal_support: قانوني ملاتړ
+      documentation: لاسوندونه/ اسناد
+      services_for_children_with_disabilities: د معلولیت لرونکو ماشومانو لپاره خدمتونه
+      sexual_and_reproductive_health: جنسي او د زیږون روغتیا
+      shelter: سرپناه
+      wash: WASH
+      durable_solution_in_coordination_with_unhcr: '     سره په همغږۍ اوږدمهاله حل UNHCR د '
+      relocation: ځای په ځای کول
+      other_please_specify: نور
+  lookup-time-of-day:
+    name: د ورځې وخت
+    lookup_values:
+      morning: سهار
+      noon: غرمه
+      evening: ماښام
+      night: شپه
+  lookup-tracing-status:
+    name: د تعقیب حالت
+    lookup_values:
+      open: خلاص
+      tracing_in_progress: تعقیب ادامه لري
+      verified: تصدیق شوی
+      reunified: دوباره ورسره یو ځای شوی
+      closed: تړل شوی
+  lookup-transition-type:
+    name: د لیږد ډول
+    lookup_values:
+      referral: ارجاع
+      reassign: دوباره سپارل
+      transfer: لیږل
+      transfer_request: د لیږد غوښتنه
+  lookup-unaccompanied-separated-status:
+    name: د بیلتون حالت
+    lookup_values:
+      'no': 'نه'
+      unaccompanied_minor: 'د کوچني ماشوم بیلتون '
+      separated_child: داسې ماشوم چې له کورنی او مور او پلار څخه جدا وي خو فعلآ له خپلو خپلوانو سره اوسي
+      other_vulnerable_child: یتیم یا زیان لیدونکی ماشوم
+  lookup-unhcr-needs-codes:
+    name: 'کوډونو ته اړتیا لريUNHCR '
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR-TP
+      cr-lw: CR-LW
+      cr-lo: CR-LO
+      cr-ne: CR-NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: SC-FC
+      ds-bd: DS-BD
+      ds-df: DS-DF
+      ds-pm: DS-PM
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-FR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HO
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-verification-status:
+    name: د تایید وضعیت
+    lookup_values:
+      verified: تصدیق شوی
+      unverified: Unverified
+      pending_verification: تصدیق په انتظار کې ده
+      falsely_attributed: په غلط ډول منسوب شوی
+      rejected: رد شو
+  lookup-workflow:
+    name: کاري جریان
+    lookup_values:
+      new: نوې قضیه
+      closed: قضیه بنده شوې
+      reopened: قضیه بیا پرانستل شوې
+      service_provision: د خدماتو ورکړه
+      services_implemented: د ځواب ویلو ټول خدمتونه پلي شوي
+      case_plan: د قضیې پلان
+  lookup-yes-no:
+    name: هو یا نه
+    lookup_values:
+      'true': 'هو'
+      'false': 'نه'
+  lookup-yes-no-not-applicable:
+    name: هو، نه او یا دعملې وړ نه ده
+    lookup_values:
+      'true': 'هو'
+      'false': 'نه'
+      not_applicable: د عملې کیدو وړ نه ده
+  lookup-yes-no-undecided:
+    name: هو، نه، تصمیم نه ده ورباندې نیول شوی
+    lookup_values:
+      'true': 'هو'
+      'false': 'نه'
+      undecided: تصمیم نه ده نیول شوی
+  lookup-yes-no-unknown:
+    name: هو،نه او یا نامعلوم
+    lookup_values:
+      'true': 'هو'
+      'false': 'نه'
+      unknown: نامعلوم

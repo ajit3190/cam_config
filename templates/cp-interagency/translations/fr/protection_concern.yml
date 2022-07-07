@@ -1,0 +1,15 @@
+fr:
+  protection_concern:
+    name: Préoccupations en matière de protection
+    description: Préoccupations en matière de protection
+    fields:
+      risk_level:
+        display_name: 'Niveau de risque '
+      displacement_status:
+        display_name: Groupe de population
+      displacement_status_other:
+        display_name: Si autre, précisez
+      protection_concerns:
+        display_name: Préoccupations en matière de protection
+      protection_concerns_other:
+        display_name: Si autre, précisez

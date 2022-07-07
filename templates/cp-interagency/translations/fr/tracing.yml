@@ -1,0 +1,47 @@
+fr:
+  tracing:
+    name: 'Traçage '
+    description: 'Traçage '
+    fields:
+      matched_tracing_request_id:
+        display_name: 'ID de la demande de traçage correspondante '
+      separation_separator:
+        display_name: 'Historique de la séparation '
+      tracing_status:
+        display_name: 'Statut du traçage '
+      date_of_separation:
+        display_name: 'Date de la séparation '
+      separation_cause:
+        display_name: Quelle était la principale cause de la séparation ?
+      separation_cause_other:
+        display_name: Si autre, précisez
+      separation_other_applicable_causes:
+        display_name: 'Le cas échéant, quelles étaient les autres causes de la séparation ? '
+      separation_details:
+        display_name: Circonstances de la séparation (veuillez fournir des détails)
+      separation_additional_movements:
+        display_name: Décrire les mouvements supplémentaires entre le lieu de séparation et le lieu actuel
+      separation_witnessed_violence:
+        display_name: L'enfant a-t-il été confronté ou témoin d'un type quelconque de violence, de menace ou de préjudice au cours de son voyage ?
+      separation_witnessed_violence_comments:
+        display_name: Détails sur ce à quoi l'enfant a été confronté / témoin
+      address_separation:
+        display_name: Adresse de séparation (lieu)
+      location_separation:
+        display_name: Lieu de séparation
+      additional_tracing_info:
+        display_name: Des informations supplémentaires qui pourraient aider au traçage ?
+      evacuation_status:
+        display_name: L'enfant a t-il été évacué ?
+      evacuation_agent:
+        display_name: Si oui, par l'intermédiaire de quelle organisation ?
+      evacuation_from:
+        display_name: 'Evacué de '
+      evacuation_date:
+        display_name: 'Date d''évacuation '
+      evacuation_to:
+        display_name: Évacué vers
+      care_arrangements_arrival_date:
+        display_name: 'Date d''arrivé '
+      tracing_actions_section:
+        display_name: 'Action de traçage '

@@ -1,0 +1,8 @@
+uk:
+  tracing_request_photos_and_audio:
+    name: Фото та аудіо
+    fields:
+      current_photo_key:
+        display_name: Поточний ключ фото
+      recorded_audio:
+        display_name: Записане аудіо

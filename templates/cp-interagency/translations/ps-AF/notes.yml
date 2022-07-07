@@ -1,0 +1,7 @@
+ps-AF:
+  notes:
+    name: یادښت
+    description: یادښت
+    fields:
+      notes_section:
+        display_name: یادښت

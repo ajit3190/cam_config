@@ -1,0 +1,26 @@
+---
+ku-IQ:
+  action_plan_form:
+    name: پلانا کاری
+    description: پلانا کاری
+    fields:
+      action_plan_approved:
+        display_name: ژ لایێ رێڤەبەری ڤە هاتیە پەسەندکرن
+        tick_box_label: 'بەلێ'
+      action_plan_approved_date:
+        display_name: رێکەفت
+      action_plan_approved_comments:
+        display_name: کومێنتێن رێڤەبەری
+      approval_status_action_plan:
+        display_name: بارودوخێ پەسەندکرێ
+      action_explanation_header:
+        display_name: 'كرياره كان'
+        help_text: هیڤیدارین هەمی پێدڤیێن تە د هەلسەنگاندنێ دا دەستنیشانکرین زێدە بکە. دوکما زێدەکرنێ بکاربینە بۆ زێدەکرنا پێدڤیێن دی کو پێدڤیە پشکەک بن ژ پلانا کاری
+      action_plan_section:
+        display_name: كرياره كان
+      action_follow_up_header:
+        display_name: دیفچوون
+      gbv_follow_up_subform_section:
+        display_name: دیفچوون
+      service_referral_case_action_plan_timing:
+        display_name: تە چەند دەم بو پێشفه برنا پلانا کار کەیسی دگەل رزگاربووی  ڤی کەیسی دەربازکر؟

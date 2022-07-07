@@ -1,0 +1,27 @@
+ro:
+  tracing_request_record_owner:
+    name: Proprietar Înregistrare
+    description: Proprietar Înregistrare
+    fields:
+      current_owner_section:
+        display_name: Proprietar Actual
+      caseworker_name:
+        display_name: Asistentul social/ responsabilul de caz
+      owned_by:
+        display_name: Cod responsabil de caz
+      owned_by_agency:
+        display_name: Organizație/ instituție
+      assigned_user_names:
+        display_name: Alți utilizatori asignați
+      record_history_section:
+        display_name: Istoric Înregistrări
+      created_by:
+        display_name: Înregistrare creată de
+      created_organization:
+        display_name: Creată de organizația/ instituția
+      previously_owned_by:
+        display_name: Proprietar anterior
+      previous_agency:
+        display_name: Organizație/ instituție anterioară
+      module_id:
+        display_name: Modul

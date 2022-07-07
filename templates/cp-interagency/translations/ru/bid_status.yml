@@ -1,0 +1,17 @@
+ru:
+  bid_status:
+    name: Статус BID
+    description: Бланк статуса BID
+    fields:
+      assessment_formal_bid:
+        display_name: Требуется ли официальное определение наилучших интересов ребенка (BID)?
+        help_text: Определен в контексте и при согласовании с УВКБ ООН.
+      assessment_bid_direction:
+        display_name: Если да, пожалуйста, выберите вид BID
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Определение долгосрочных вариантов решений и дополнительных возможностей для детей без сопровождения
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Определение наиболее подходящих вариантов для детей, находящихся в группе риска, в исключительных обстоятельствах (включая воссоединение семьи и временный уход)
+          possible_separation_of_a_child_from_parents_against_their_will: Возможное отлучение ребенка от родителей против их воли
+      assessment_bid_details:
+        display_name: Укажите подробную информацию
+        help_text: Укажите подробную информацию, а затем продолжите заполнение бланка UNHCR Best Interests Determination (BID).

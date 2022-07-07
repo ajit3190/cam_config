@@ -1,0 +1,47 @@
+ps-AF:
+  tracing:
+    name: تعقیب
+    description: تعقیب
+    fields:
+      matched_tracing_request_id:
+        display_name: د تعقیب د غوښتنې نمبر سره ورته دي
+      separation_separator:
+        display_name: د جلا کیدو تاریخچه
+      tracing_status:
+        display_name: د تعقیب حالت
+      date_of_separation:
+        display_name: د جلاکیدو نيټه
+      separation_cause:
+        display_name: د بیلتون اصلي دلیل څه وه ؟
+      separation_cause_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      separation_other_applicable_causes:
+        display_name: 'که د تطبیق وړ وي ، نو د جلا کیدو نور لاملونه کوم وو؟'
+      separation_details:
+        display_name: د جلا کیدو حالت (مهرباني وکړئ توضیحات وړاندې کړئ)
+      separation_additional_movements:
+        display_name: د جلا کیدو د ځای او اوسني موقعیت تر مینځ د اضافي حرکتونه تشریح ورکړئ
+      separation_witnessed_violence:
+        display_name: ایا ماشوم د خپل سفر په جریان کې د کوم ډول تاوتریخوالي ، ګواښ یا زیان سره مخ شوی یا یې لیدلی؟
+      separation_witnessed_violence_comments:
+        display_name: 'د هغه څه په اړه جزئیات چې ماشوم ورسره مخ شوی '
+      address_separation:
+        display_name: د جلا کولو پته (ځای)
+      location_separation:
+        display_name: د جلا کیدو ځای
+      additional_tracing_info:
+        display_name: نور اضافي معلومات چې تعقیب کې به مرسته وکړي
+      evacuation_status:
+        display_name: ایا ماشوم را ایستل شوی دی؟
+      evacuation_agent:
+        display_name: که هو وي ، د کوم سازمان له لارې؟
+      evacuation_from:
+        display_name: له څه شي څخه رایستل شوی؟
+      evacuation_date:
+        display_name: د رایستل کیدو نیټه
+      evacuation_to:
+        display_name: څه ته راویستل شو
+      care_arrangements_arrival_date:
+        display_name: د راتګ نیټه
+      tracing_actions_section:
+        display_name: 'تعقیبي کړنې '

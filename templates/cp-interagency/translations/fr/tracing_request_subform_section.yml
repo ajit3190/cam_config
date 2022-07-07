@@ -1,0 +1,57 @@
+fr:
+  tracing_request_subform_section:
+    name: 'Demande de traçage '
+    description: 'Sous formulaire demande de traçage '
+    fields:
+      matched_case_id:
+        display_name: 'ID des cas correspondant '
+      tracing_request_status:
+        display_name: 'Statut du traçage '
+      individual_details_section:
+        display_name: 'Détails individuel '
+      name:
+        display_name: Nom
+      relation:
+        display_name: Quel est le lien du demandeur avec l'enfant ?
+      relation_child_lived_with_pre_separation:
+        display_name: L'enfant vivait-il avec le demandeur avant la séparation ?
+      name_nickname:
+        display_name: Surnom
+      name_other:
+        display_name: 'Autre nom '
+      sex:
+        display_name: Sexe
+      age:
+        display_name: Age
+      date_of_birth:
+        display_name: 'Date de naissance '
+      physical_characteristics:
+        display_name: 'Caractéristiques physique distinctives '
+      inquirer_special_message:
+        display_name: Message spécial pour la personne recherchée
+      same_separation_details:
+        display_name: Mêmes détails de séparation que sur le formulaire du demandeur?
+      separation_details_section:
+        display_name: 'Détails de la séparation (Si différent du formulaire du demandeur ) '
+      date_of_separation:
+        display_name: 'Date de la séparation '
+      separation_cause:
+        display_name: 'Quelle était la cause principale de la séparation ? '
+      separation_evacuation:
+        display_name: 'La séparation a - t -elle eu lieu lors d''une évacuation ? '
+      separation_details:
+        display_name: Circonstances de la séparation (veuillez fournir des détails)
+      address_separation:
+        display_name: Adresse de séparation (lieu)
+      location_separation:
+        display_name: Lieu de séparation
+      address_last:
+        display_name: 'Dernière adresse connue '
+      landmark_last:
+        display_name: Point de repère
+      location_last:
+        display_name: 'Dernier lieux connu '
+      telephone_last:
+        display_name: Téléphone
+      additional_tracing_info:
+        display_name: Des informations supplémentaires qui pourraient aider au traçage ?

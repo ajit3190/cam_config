@@ -1,0 +1,6 @@
+es:
+  cp_unhcr_bid_report_form:
+    name: Reporte BID
+    fields:
+      unhcr_bid_report_subform:
+        display_name: Reporte ACNUR BID

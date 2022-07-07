@@ -1,0 +1,7 @@
+ro:
+  services:
+    name: Servicii
+    description: Formular Servicii
+    fields:
+      services_section:
+        display_name: Servicii

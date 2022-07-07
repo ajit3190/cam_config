@@ -1,0 +1,55 @@
+ro:
+  services_section:
+    name: Servicii Imbricate
+    description: Subformular Servicii
+    fields:
+      service_response_type:
+        display_name: Tip Răspuns
+      service_type:
+        display_name: Tip Serviciu
+        guiding_questions: |-
+          1. Îngrijire psihosocială de bază – Spații sigure (inclusiv spații prietenoase pentru copii și bebeluși), grupuri, cluburi de tineret, grupuri de formare a abilităților și grupuri de sprijin pentru îngrijitori.
+          2. MHPSS nespecializat – MHPSS prin managementul de caz CP, primul ajutor psihologic, intervenție psihologică individuală sau de grup bazată pe dovezi/informate furnizată de nespecialiști, inclusiv asistenți sociali, responsabili de caz, voluntari comunitari, asistenți medicali etc. .
+          3. Îngrijire specializată MHPSS – Îngrijire psihologică, psihiatrică sau altă îngrijire individuală de sănătate mintală oferită de profesioniști în sănătate mintală.
+      service_type_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      service_referral:
+        display_name: Tip Referire
+      service_response_day_time:
+        display_name: Dată Referire
+      service_appointment_date:
+        display_name: Dată începere serviciu
+      service_implementing_agency:
+        display_name: Organizația/ instituția care implementează
+      service_provider:
+        display_name: Furnizor servicii
+      service_delivery_location:
+        display_name: Locație furnizare servicii
+      service_implementing_agency_individual:
+        display_name: Denumire furnizor servicii
+      service_status_referred:
+        display_name: Referit?
+        tick_box_label: 'Da'
+      service_location:
+        display_name: Locație serviciu
+      service_referral_notes:
+        display_name: Notițe
+      service_implemented:
+        display_name: Serviciu implementat
+      service_implemented_day_time:
+        display_name: Serviciu finalizat
+      details_service_provided:
+        display_name: Detalii despre serviciul furnizat
+      recommendations_followup:
+        display_name: Recomandări de revenire
+      accountability_separator:
+        display_name: Responsabilitate
+        help_text: Responsabilul de caz ar trebui să îl întrebe pe copil ce părere are despre serviciul oferit (într-o manieră adecvată vârstei, de exemplu, utilizând fețe zâmbitoare)
+      focal_agency_location:
+        display_name: Nivelul de satisfacție al copilului cu serviciile oferite
+      suggestions_improvement:
+        display_name: Sugestii de îmbunătățire ale copilului
+      caregivers_satisfaction:
+        display_name: Nivelul de satisfacție al îngrijitorului față de serviciile oferite
+      caregivers_suggestions:
+        display_name: Sugestii de îmbunătățire ale îngrijitorului

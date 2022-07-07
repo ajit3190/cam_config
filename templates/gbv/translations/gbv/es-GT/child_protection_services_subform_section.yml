@@ -1,0 +1,18 @@
+---
+es-GT:
+  child_protection_services_subform_section:
+    name: "Subformulario anidado sobre servicios de protección de la infancia "
+    description: "Subformulario anidado sobre servicios de protección de la infancia "
+    fields:
+      service_protection_referral:
+        display_name: "¿Derivó usted al/a la cliente a servicios de protección de la infancia ?"
+      service_protection_appointment_date:
+        display_name: Fecha de la cita
+      service_protection_appointment_time:
+        display_name: Hora de la cita
+      service_protection_provider:
+        display_name: Proveedor del servicio
+      service_protection_location:
+        display_name: Ubicación del servicio
+      service_protection_referral_notes:
+        display_name: Notas

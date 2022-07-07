@@ -100,7 +100,8 @@ source_subform_fields = [
       'multi_select' => false,
       'name' => 'primary_reporting_organization_other',
       'type' => 'textarea',
-      'display_name_en' => "If ‘Other', please provide details"
+      'display_name_en' => "If ‘Other', please provide details",
+      'display_conditions_subform' => { 'eq' => { 'primary_reporting_organization' => 'other' } }
     ),
     Field.new(
       'mobile_visible' => true,
@@ -116,6 +117,7 @@ source_subform_fields = [
       'multi_select' => false,
       'name' => 'source_interview_date',
       'type' => 'date_field',
+      'date_validation' => 'not_future_date',
       'display_name_en' => 'Date of the interview/source collection'
     ),
     Field.new(
@@ -126,7 +128,7 @@ source_subform_fields = [
       'autosum_total' => false,
       'autosum_group' => '',
       'hide_on_view_page' => false,
-      'visible' => true,
+      'visible' => false,
       'editable' => true,
       'disabled' => false,
       'multi_select' => false,
@@ -143,7 +145,7 @@ source_subform_fields = [
       'autosum_total' => false,
       'autosum_group' => '',
       'hide_on_view_page' => false,
-      'visible' => true,
+      'visible' => false,
       'editable' => true,
       'disabled' => false,
       'multi_select' => false,
@@ -259,7 +261,8 @@ source_subform_fields = [
       'multi_select' => false,
       'name' => 'source_type_other',
       'type' => 'text_field',
-      'display_name_en' => "If ‘Other', please provide details "
+      'display_name_en' => "If ‘Other', please provide details",
+      'display_conditions_subform' => { 'eq' => { 'source_type' => 'other' } }
     ),
     Field.new(
       'mobile_visible' => true,
@@ -432,7 +435,8 @@ source_subform_fields = [
       'name' => 'source_requires_services',
       'type' => 'radio_button',
       'display_name_en' => 'If the source is a child, does he/she require services?',
-      'option_strings_source' => 'lookup lookup-yes-no'
+      'option_strings_source' => 'lookup lookup-yes-no',
+      'display_conditions_subform' => { 'eq' => { 'source_age' => 'child' } }
     ),
     Field.new(
       'mobile_visible' => true,
@@ -487,7 +491,8 @@ source_subform_fields = [
       'name' => 'source_consent_with_whom_other',
       'type' => 'text_field',
       'display_name_en' => "If ‘Other', please provide details  ",
-      'help_text_en' => 'E.g. on the specific CTFMR member/UN agency/NGO/partner/service provider the victim/adult caregiver consented to sharing personal details with'
+      'help_text_en' => 'E.g. on the specific CTFMR member/UN agency/NGO/partner/service provider the victim/adult caregiver consented to sharing personal details with',
+      'display_conditions_subform' => { 'in' => { 'source_consent_with_whom' => %w[other] } }
     ),
     Field.new(
       'mobile_visible' => true,

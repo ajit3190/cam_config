@@ -1,0 +1,67 @@
+---
+es-GT:
+  gbv_incident_form:
+    name: Incidente de violencia de género
+    description: Incidente de violencia de género
+    fields:
+      incident_id:
+        display_name: Número de identificación completo
+      short_id:
+        display_name: Número de incidente
+      marked_for_mobile:
+        display_name: "¿Marcado para celular?"
+        tick_box_label: 'Sí'
+      incident_code:
+        display_name: Código del incidente
+      incidentid_ir:
+        display_name: Número de incidente RI
+        help_text: Número de incidente para RI
+      status:
+        display_name: Estado del incidente
+      consent_reporting:
+        display_name: La persona superviviente ha dado su consentimiento para difundir información no identificable con fines de notificación
+      date_of_first_report:
+        display_name: Fecha de la entrevista
+      incident_date:
+        display_name: Fecha del incidente
+      incident_description:
+        display_name: Descripción del incidente
+      incident_location:
+        display_name: Lugar del incidente
+      displacement_incident:
+        display_name: Etapa de desplazamiento en el momento del incidente
+        option_strings_text:
+          not_displaced: No desplazada / comunidad de origen
+          pre_displacement: Predesplazamiento
+          during_flight: Durante la huida
+          during_refuge: Durante el período de refugio
+          during_return_transit: Durante la repatriación / en tránsito
+          post_displacement: Después del desplazamiento
+      incident_timeofday:
+        display_name: Momento en que tuvo lugar el incidente
+        option_strings_text:
+          morning: Por la mañana (entre la salida del sol y el mediodía)
+          afternoon: Por la tarde (entre el mediodía y la puesta del sol)
+          evening_night: Por la noche (entre la puesta del sol y la salida del sol)
+          unknown: Desconocido / no aplicable
+      incident_location_type:
+        display_name: Tipo de lugar en el que ocurrió el incidente
+        option_strings_text:
+          forest: Monte/selva
+          garden: Jardín/terreno cultivado
+          school: Escuela
+          road: Carretera
+          clients_home: Domicilio del/de la cliente
+          perpetrators_home: Domicilio del autor
+          other: Otro
+          market: Mercado
+          streamside: Orilla de un río
+          beach: Playa
+          farm: Granja
+          latrine: Letrina
+          perpetrators_friends_home: Domicilio de una amistad del autor
+          entertainment_centre: Centro recreativo
+          unfinished_house: Obra en construcción
+          guest_house_hotel: Casa de huéspedes u hotel
+      incident_camp_town:
+        display_name: Campamento o localidad donde tuvo lugar el incidente

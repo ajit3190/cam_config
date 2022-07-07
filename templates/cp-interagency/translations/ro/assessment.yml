@@ -1,0 +1,105 @@
+ro:
+  assessment:
+    name: Evaluare
+    description: Formular Evaluare
+    fields:
+      assessment_home_visit:
+        display_name: A fost efectuată o vizită la domiciliu ca parte a evaluării?
+      assessment_home_visit_details:
+        display_name: 'Dacă nu, te rugăm să furnizezi detalii:'
+      assessment_child_seen:
+        display_name: Copilul a fost văzut individual/ singur?
+      assessment_child_seen_details:
+        display_name: 'Dacă nu, te rugăm să furnizezi detalii:'
+      assessment_separator:
+        display_name: Opiniile și Dorințele copilului și ale îngrijitorilor
+      assessment_child_views:
+        display_name: Opiniile copilului
+        help_text: Descrie opiniile și dorințele copilului cu privire la situația sa. Această secțiune poate fi extinsă pentru a include propriile cuvinte, mărturii și/sau desene ale copilului (de exemplu, cu privire la situația lor, la familie și/sau cu privire la călătoria făcută).
+      assessment_caregiver_views:
+        display_name: Opiniile îngrijitorilor
+        help_text: Descrie opiniile și dorințele îngrijitorilor cu privire la situația copilului.
+      assessment_needs_separator:
+        display_name: Evaluarea Nevoilor
+        guiding_questions: |-
+          Descrie când și de unde ai obținut informațiile - informațiile pot proveni dintr-o varietate de surse (de exemplu, rapoarte scrise despre copil, observații, interviuri cu copilul și familia, activități creative precum desenul sau povestiri făcute împreună cu copilul, chestionare și liste de verificare, discuții cu alte organizații și cu cei care cunosc copilul, vizite la domiciliu).
+          Citează informațiile din surse la primă mână.
+          Descrie dacă informațiile sunt susținute și verificate de orice altceva.
+          Acolo unde este relevant, descrie atât istoricul, cât și situația actuală.
+          Descrie de câte ori ai asistat la o situație sau câte persoane au raportat îngrijorarea.
+          Oferă clarificări în analiza oricărei situații.
+          Poate fi mai ușor să identifici nevoile decât serviciile necesare. De exemplu. ai putea spune că un copil are nevoie de educație, mai degrabă decât să spui că trebuie să meargă la școală, deoarece există multe moduri diferite de a oferi copilului o educație.
+      assessment_physical_wellbeing:
+        display_name: Bunăstare fizică și sănătate
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          Exemplu. Dezvoltarea fizică a copilului este cea așteptată în funcție de vârsta lui?
+          Are copilul vreo afecțiune de sănătate (semne de afecțiuni respiratorii cum ar fi tuse, nas care curge; dinți murdari; miros puternic din gură)?
+          Copilul are răni? Are copilul vreo deficiență/ dizabilități psihice, fizice sau senzoriale?
+          Copilul este însărcinat? Copilul este obosit/ epuizat? Îmbrăcămintea copilului este murdară sau în stare proastă în comparație cu alți copii din comunitate)?
+      assessment_emotional_wellbeing:
+        display_name: Bunăstare emoțională, cunoștințe și abilități
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          Exemplu. Cum se simte copilul în general? Copilul suferă de depresie sau stima de sine scăzută? Se simte copilul fericit? Are copilul vreo frică și/sau coșmar?
+          Este copilul anxios? Se simte copilul amorțit sau pare detașat? Copilul se confruntă cu multă furie, vinovăție sau lipsă de speranță?
+          Copilul este prea lipicios sau independent în funcție de vârsta lui? Descrieți cum se confruntă cu eșecurile din viață?
+          Are copilul cunoștințe și abilități esențiale, cum ar fi identificarea și reglarea emoțiilor și comportamentului, identificarea de soluții adecvate pentru conflicte, implicarea în jocul cooperant, interpretarea corectă a comportamentelor și emoțiilor celorlalți. Se simți bine cu sine și cu ceilalți?
+      assessment_social_relationships:
+        display_name: Relații sociale cu semenii, familia și comunitatea
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          Exemplu. Copilul participă la activități sociale? Copilul este retras social?
+          Descrie calitatea și frecvența contactului copilului cu semenii, familia și alți adulți din viața copilului (copilul evită contactul cu vreunul dintre ei; se distanțează vreunul dintre ei de copil și, dacă da, care sunt motivele? evită membrii familiei interacțiunea cu copilul în anumite locuri (de exemplu în public)?
+          Ce ton al vocii adoptă atunci când interacționează cu copilul? Descrie modul în care aceasta afectează bunăstarea copilului.
+      assessment_education:
+        display_name: Educație, muncă, timp liber și interese
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          De exemplu. Ce educație a primit copilul? Este copilul înscris și participă în mod regulat la vreun program educațional?
+          Descrie mediul școlar. Există opțiuni și oportunități pentru copil în ceea ce privește educația?
+          Ce face copilul în timpul liber? Descrie interesele copilului? Copilul este implicat în activități care contravin legii?
+          Copilul lucrează? Descrie tipul de muncă, frecvența muncii și modul în care aceasta afectează bunăstarea copilului. Dacă copilul lucrează, cum sunt folosiți banii câștigați/ pe ce cheltuiește copilul?
+      assessment_documentation:
+        display_name: Documentație
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          Exemplu. Copilul are documente de înregistrare de la naștere? Copilul are alte acte de înregistrare/ identificare?
+          Copilului îi lipsește vreo documentație necesară pentru protecția sa și/sau pentru a accesa serviciile acum sau în viitor? Descrie modul în care aceasta afectează bunăstarea copilului.
+      assessment_living_environment_family_separator:
+        display_name: Condiții de viață și Familie
+      assessment_living_environment_family:
+        display_name: Condiții de viață și Familie
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          Exemplu. Care este aranjamentul actual de locuit (tip de adăpost; intimitate)? Descrie relația dintre copil și restul familiei.
+          Descrie abilitatea și capacitatea adulților din familie de a proteja copilul și de a răspunde nevoilor acestuia.
+          Descrie situația mijloacelor de existență a familiei/gospodăriei? Cu cine altcineva locuiește copilul și care este dinamica mediului de viață?
+          Cine doarme in aceeasi camera cu copilul? Câte mese mănâncă copilul/ gospodăria pe zi? Este aceasta diferită de alte gospodării din comunitatea copilului?
+          Descrie rolul copilului și dacă copilul este tratat diferit față de ceilalți copii din mediul de viață? Descrie condițiile de viață.
+          Are copilul acces sigur la apă potabilă, duș și toaletă? Copilul se simte în siguranță acolo unde locuiește?
+          Descrie modul în care aceasta afectează bunăstarea copilului. Descrie distanța până la și opțiunile de accesare a serviciilor.
+      assessment_care_arrangement_separator:
+        display_name: Aranjament de îngrijire
+      assessment_care_arrangment:
+        display_name: Aranjament de îngrijire
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          Exemplu. Care este aranjamentul actual de îngrijire și cât de stabil/ permanent este aranjamentul? Este aranjamentul de îngrijire adecvat dat fiind vârsta și situația?
+          Cum a fost aranjată îngrijirea (aranjată de părinții copilului înainte de a părăsi țara de origine; spontan în țara de origine; spontan în țara actuală; aranjată de o organizație; aranjată de comunitate);
+          Descrie relația dintre copil și îngrijitor. Îngrijitorul/familia are grijă de alte UASC? Îngrijitorul are legătură cu copilul (dacă da, care este relația?;
+          Îngrijitorul este în contact cu părinții copilului? Care sunt dorințele părinților (dacă se cunosc); Care sunt dorințele copilului?
+      assessment_community_separator:
+        display_name: Comunitate
+      assessment_community:
+        display_name: Comunitate, siguranță și securitate, integrare și sprijin
+        help_text: 'Factori de risc, factori de protecție și nevoi identificate:'
+        guiding_questions: |-
+          Exemplu. Descrie orice îngrijorare cu privire la siguranța și securitatea copilului (de exemplu, violența în comunitate, practici tradiționale dăunătoare, situația la locul de muncă, percepțiile comunității despre violență/abuz; riscul recrutării de către forțe sau grupuri armate)?
+          Are copilul libertate de mișcare (este situația lui diferită de a restului comunității, și de a altor copii, în general)?
+          Descrie modul în care aceasta afectează bunăstarea copilului.
+          Sunt copilul și/ sau familia acceptați în comunitate/ izolați? Copilul și/ sau familia se simt discriminați în accesarea serviciilor?
+          Se simt copilul și/ sau familia vizați de vreun grup? Copilul sau familia se confruntă cu cereri de servicii neadecvate în schimbul sprijinului?
+          Copilului sau familiei i s-a acordat recunoașterea oficială pentru a rămâne în locația actuală? Copilul este exclus din activități sau grupuri din comunitate?
+          Se confruntă copilul cu vreo discriminare, cu prejudecăți sau agresiune în comunitate?
+          Descrie disponibilitatea și accesul la asistență/ servicii în cadrul comunității (inclusiv mecanismele de protecție ale comunității).

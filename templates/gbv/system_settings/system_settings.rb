@@ -32,6 +32,11 @@ create_or_update_system_setting(
     admin_level: 2,
     admin_level_map: { '1' => ['province'], '2' => ['district'] }
   },
+  incident_reporting_location_config: {
+    field_key: 'incident_location',
+    admin_level: 2,
+    admin_level_map: { '1' => ['province'], '2' => ['district'] }
+  },
   primary_age_range: 'primero',
   age_ranges: {
     'primero' => [0..5, 6..11, 12..17, 18..AgeRange::MAX],

@@ -1,0 +1,18 @@
+fa-AF:
+  immediate_concern_section:
+    name: نگرانی های فوری پیچیده
+    description: 'فورم های فرعی نگرانی های فوری '
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: نوعیت نگرانی های فوری
+        option_strings_text:
+          health_care: مراقبت صحی
+          safety: امنیت
+          interim_care: مراقبت موقت
+          other: وغیره
+      immediate_concerns_immediate_concern_type_other:
+        display_name: 'اگر وغیره,لطفآ مشخص سازید '
+      immediate_concerns_immediate_concern_summary:
+        display_name: خلاصه موصوع
+      immediate_concerns_immediate_concern_action:
+        display_name: اقدام فوری انجام شده / اراچع سازی انجام شده است

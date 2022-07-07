@@ -1,0 +1,13 @@
+fa-AF:
+  referral_transfer:
+    name: اانتقال و راجع سازی
+    description: لست انتقال و راجع سازی
+    fields:
+      transfer_status:
+        display_name: حالت انتقال
+        option_strings_text:
+          in_progress: در پیشرفت
+          accepted: 'قبول شد '
+          rejected: رد شد
+      transitions:
+        display_name: 'انتقال و راجع سازی ها '

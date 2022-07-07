@@ -47,6 +47,23 @@ individual_victims_subform_fields = [
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
+    'name' => 'individual_multiple_violations',
+    'type' => 'tick_box',
+    'tick_box_label_en' => 'Yes',
+    'display_name_en' => 'Is the victim associated with more than one violation?'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
     'name' => 'individual_sex',
     'type' => 'select_box',
     'display_name_en' => 'Sex of the victim',
@@ -169,8 +186,8 @@ individual_victims_subform_fields = [
     'multi_select' => false,
     'name' => 'child_consent_follow_up',
     'type' => 'radio_button',
-    'display_name_en' => 'Is the victim and/or adult caregiver willing to be contacted again about the violations?',
-    'help_text_en' => 'E.g. on the specific CTFMR member/UN agency/NGO/partner/service provider with whom the victim/adult caregiver consented to share personal details',
+    'display_name_en' => 'Is the victim and/or adult caregiver willing to be contacted again about the violations for other investigation purposes?',
+    'help_text_en' => '',
     'option_strings_source' => 'lookup lookup-yes-no'
   ),
   Field.new(
@@ -187,7 +204,24 @@ individual_victims_subform_fields = [
     'multi_select' => false,
     'name' => 'child_consent_for_reporting',
     'type' => 'radio_button',
-    'display_name_en' => 'Does the victim consent to sharing non-personally identifiable data with the CTFMR for reporting purposes?',
+    'display_name_en' => 'Does the victim consent to the use of their non-identifiable personal information for CTFMR anonymized reporting purposes?',
+    'option_strings_source' => 'lookup lookup-yes-no'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'child_consent_data_sharing_yes_no',
+    'type' => 'radio_button',
+    'display_name_en' => "Does the victim and/or adult caregiver consent to share the vcitim's name and other personal details for referral to response services?",
     'option_strings_source' => 'lookup lookup-yes-no'
   ),
   Field.new(
@@ -226,7 +260,8 @@ individual_victims_subform_fields = [
         'id' => 'other',
         'display_text' => 'Other'
       }
-    ]
+    ],
+    'display_conditions_subform' => { 'eq' => { 'child_consent_data_sharing_yes_no' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -243,7 +278,13 @@ individual_victims_subform_fields = [
     'name' => 'child_consent_data_sharing_other',
     'type' => 'textarea',
     'display_name_en' => "If ‘Other', please provide details",
-    'help_text_en' => 'E.g. on the specific CTFMR member/UN agency/NGO/partner/service provider with whom the victim/adult caregiver consented to share personal details'
+    'help_text_en' => 'E.g. on the specific CTFMR member/UN agency/NGO/partner/service provider with whom the victim/adult caregiver consented to share personal details',
+    'display_conditions_subform' => {
+      'and' => [
+        {'eq' => { 'child_consent_data_sharing_yes_no' => 'true' }},
+        {'in' => { 'child_consent_data_sharing' => %w[other] }}
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -290,7 +331,8 @@ individual_victims_subform_fields = [
         'id' => 'mental_and_physical_disability',
         'display_text' => 'Mental and physical disability'
       }
-    ]
+    ],
+    'display_conditions_subform' => { 'in' => { 'individual_vulnerabilities' => %w[disabled] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -340,7 +382,8 @@ individual_victims_subform_fields = [
     'name' => 'reasons_deprivation_liberty',
     'type' => 'select_box',
     'display_name_en' => 'What are the reasons for the deprivation of liberty?',
-    'option_strings_source' => 'lookup lookup-reasons-deprivation-liberty'
+    'option_strings_source' => 'lookup lookup-reasons-deprivation-liberty',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -355,9 +398,10 @@ individual_victims_subform_fields = [
     'disabled' => false,
     'name' => 'entity_responsible_deprivation_liberty',
     'type' => 'select_box',
-    'multi_select' => true,
+    'multi_select' => false,
     'display_name_en' => 'Select the entity responsible for the deprivation of liberty',
-    'option_strings_source' => 'lookup lookup-perpetrator-category-type'
+    'option_strings_source' => 'lookup lookup-perpetrator-category-type',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -370,45 +414,19 @@ individual_victims_subform_fields = [
     'visible' => true,
     'editable' => true,
     'disabled' => false,
-    'name' => 'armed_force_appropiate',
+    'multi_select' => false,
+    'name' => 'armed_force_group_party_name',
     'type' => 'select_box',
-    'multi_select' => true,
-    'display_name_en' => 'If armed force, please select as appropriate',
-    'option_strings_source' => 'lookup lookup-armed-force-name'
-  ),
-  Field.new(
-    'mobile_visible' => true,
-    'required' => false,
-    'show_on_minify_form' => false,
-    'hidden_text_field' => false,
-    'autosum_total' => false,
-    'autosum_group' => '',
-    'hide_on_view_page' => false,
-    'visible' => true,
-    'editable' => true,
-    'disabled' => false,
-    'name' => 'armed_group_appropiate',
-    'type' => 'select_box',
-    'multi_select' => true,
-    'display_name_en' => 'If armed group, please select as appropriate',
-    'option_strings_source' => 'lookup lookup-armed-group-name'
-  ),
-  Field.new(
-    'mobile_visible' => true,
-    'required' => false,
-    'show_on_minify_form' => false,
-    'hidden_text_field' => false,
-    'autosum_total' => false,
-    'autosum_group' => '',
-    'hide_on_view_page' => false,
-    'visible' => true,
-    'editable' => true,
-    'disabled' => false,
-    'name' => 'armed_party_appropiate',
-    'type' => 'select_box',
-    'multi_select' => true,
-    'display_name_en' => 'If other party to the conflict, please select as appropriate',
-    'option_strings_source' => 'lookup lookup-other-party-name'
+    'display_name_en' => 'To which armed force, group, or other party did the perpetrator belong?',
+    'option_strings_source' => 'lookup lookup-armed-force-group-or-other-party',
+    'guiding_questions_en' => 'CTFMRs should ensure that the lists of perpetrators in the MRM IMS are as comprehensive and up-to-date as possible. In case new parties need to be added to the list, or should an armed force change its name, please contact the MRM Technical Reference Group.',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } },
+    'option_strings_condition' => {
+      'armed-force' => { 'eq' => { 'entity_responsible_deprivation_liberty' => 'armed_force' } },
+      'armed-group' => { 'eq' => { 'entity_responsible_deprivation_liberty' => 'armed_group' } },
+      'other-party' => { 'eq' => { 'entity_responsible_deprivation_liberty' => 'other_party_to_the_conflict' } },
+      'unknown' => { 'eq' => { 'entity_responsible_deprivation_liberty' => 'unknown' } }
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -425,7 +443,8 @@ individual_victims_subform_fields = [
     'type' => 'select_box',
     'multi_select' => true,
     'display_name_en' => 'Please select the facilty where the victims(s) was/were being held',
-    'option_strings_source' => 'lookup lookup-detention-facility-type'
+    'option_strings_source' => 'lookup lookup-detention-facility-type',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -441,7 +460,13 @@ individual_victims_subform_fields = [
     'multi_select' => false,
     'name' => 'other_facilty_victims_held',
     'type' => 'text_field',
-    'display_name_en' => "If 'Other', please provide details "
+    'display_name_en' => "If 'Other', please provide details ",
+    'display_conditions_subform' => {
+      'and' => [
+        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' }},
+        {'in' => { 'facilty_victims_held' => %w[other] }}
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -457,7 +482,25 @@ individual_victims_subform_fields = [
     'multi_select' => false,
     'name' => 'details_reasons_deprivation_liberty',
     'type' => 'textarea',
-    'display_name_en' => 'Please provide details on the reasons for deprivation of liberty'
+    'display_name_en' => 'Please provide details on the reasons for deprivation of liberty',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => false,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'length_deprivation_liberty',
+    'type' => 'date_field',
+    'display_name_en' => 'Date of deprivation of liberty',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -471,9 +514,49 @@ individual_victims_subform_fields = [
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
-    'name' => 'length_deprivation_liberty',
-    'type' => 'date_range',
-    'display_name_en' => 'Please select length of deprivation of liberty'
+    'name' => 'depriviation_liberty_date_range',
+    'type' => 'tick_box',
+    'tick_box_label_en' => 'Yes',
+    'display_name_en' => 'Is this a Date Range?',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'depriviation_liberty_date',
+    'type' => 'date_field',
+    'display_name_en' => 'Date of the deprivation of liberty',
+    'date_validation' => 'not_future_date',
+    'help_text_en' => 'dd-mmm-yyyy (Start date if this is a date range)',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'depriviation_liberty_end_date',
+    'type' => 'date_field',
+    'display_name_en' => 'End date of the deprivation of liberty',
+    'required' => false,
+    'help_text_en' => 'dd-mmm-yyyy',
+    'date_validation' => 'not_future_date',
+    'display_conditions_subform' => { 'eq' => { 'depriviation_liberty_date_range' => true } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -490,7 +573,8 @@ individual_victims_subform_fields = [
     'name' => 'torture_punishment_while_deprivated_liberty',
     'type' => 'select_box',
     'display_name_en' => 'Was/were the child(ren) subject to torture or other cruel, inhuman or degrading treatment or punishment while deprived of liberty',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-yes-no-unknown',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -507,7 +591,13 @@ individual_victims_subform_fields = [
     'type' => 'select_box',
     'multi_select' => true,
     'display_name_en' => 'What type of torture or other cruel, inhuman or degrading treatment or punishment was the child subjected to?',
-    'option_strings_source' => 'lookup lookup-ill-treatment-violations'
+    'option_strings_source' => 'lookup lookup-ill-treatment-violations',
+    'display_conditions_subform' => {
+      'and' => [
+        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' }},
+        {'eq' => { 'torture_punishment_while_deprivated_liberty' => 'true' }}
+      ]
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -523,7 +613,13 @@ individual_victims_subform_fields = [
     'multi_select' => false,
     'name' => 'other_torture_punishment_while_deprivated_liberty',
     'type' => 'textarea',
-    'display_name_en' => 'If yes, please provide details.'
+    'display_name_en' => 'If yes, please provide details.',
+    'display_conditions_subform' => {
+      'and' => [
+        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' }},
+        {'eq' => { 'torture_punishment_while_deprivated_liberty' => 'true' }}
+      ]
+    }
   )
 ]
 individual_victims_subform = FormSection.create_or_update!(

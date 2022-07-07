@@ -1,0 +1,188 @@
+---
+ar:
+  caregiver_feedback_form:
+    name: ملاحظات مقدم الرعاية
+    description: ملاحظات مقدم الرعاية
+    fields:
+      caregiver_feedback_date_completed:
+        display_name: تاريخ استكمال النموذج
+      caregiver_feedback_separator_consent:
+        display_name: القبول و الموافقة
+        guiding_questions: |-
+          نموذج نصي : اريد ان اتحدث معك بشأن طريقة عمل اخصائي الحالة معك و مع طفلك.
+          نريد أن نتأكد من أننا نقدم أفضل خدمة ممكنة للأطفال ، لذلك نسأل كيف ساعد أخصائي الحالة طفلك وما إذا كان هناك أي شيء يمكننا القيام به بشكل مختلف او بشكل أفضل.
+          لا يتعين عليك إخبارنا بأي شيء إذا كنت لا تريد ذلك ولا يتعين عليك إخباري بأسبابك لذلك
+          حتى إذا قررت عدم إخبارنا بأي شيء ، فلن يؤثر ذلك على الدعم الذي يتلقاه طفلك من قبلنا. 
+          على اي حال ,مشاركة مشاعرك و افكارك معنا يمكن ان يساعدنا في تحسين ما نقدمه للاطفال و العلائلات الاخرى
+          كل شيء تخبرنا به سيبقى سرا. هذا يعني أنه على الرغم من أننا سنشارك ما تقوله ، إلا أننا لن نخبر أي شخص أنك انت من أخبرتنا به
+          ايمكنك أيضًا أن تقرر عدم الإجابة على أسئلة معينة فقط ، أو تغيير رأيك وتقرر عدم الاستمرار متى شئت ". 
+      caregiver_feedback_consent_relationship:
+        display_name: 'علاقة مقدم الرعاية مع الطفل'
+        option_strings_text:
+          primary_caregiver: مقدم الرعاية الرئيسي
+          legal_guardian: حارس قانوني
+          other_family_member_close_to_the_child: أحد أفراد الأسرة المقربين من الطفل
+          unrelated_adult_close_to_the_child: "شخص بالغ ليس من العائلة و لكن مقرب من الطفل "
+          other: آخر / آخرين
+      caregiver_feedback_consent_relationship_other:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      caregiver_feedback_sex:
+        display_name: جنس مقدم الرعاية
+      caregiver_feedback_dob:
+        display_name: تاريخ ميلاد مقدم الرعاية
+      caregiver_feedback_consent:
+        display_name: "تم منح الإذن من قبل مقدم/ة الرعاية لجمع ملاحظاته/ها حول عملية ادارة الحالة "
+        tick_box_label: 'نعم'
+      caregiver_feedback_consent_date:
+        display_name: تاريخ القبول/الموافقة
+      caregiver_feedback_separator_questions:
+        display_name: 'الاسئلة : الجزء الاول'
+        guiding_questions: |-
+          يمكنك ان تطرح امثلة لتحفيز التغذية الرجعية ولكن كن حذرًا بشأن طرح الأسئلة الإرشادية. - يجب إجراؤها بلغة مقدم الرعاية ، وتيسيرها من قبل شخص لديه المهارات والتدريب اللازمين لإجراء المقابلات وجمع الملاحظات.
+      caregiver_feedback_services_discovery:
+        display_name: كيف تعرفت على خدمات ادارة حالة  ( ادخل اسم المؤسسة)؟
+        option_strings_text:
+          caseworker_approached_me: "تواصلت معي اخصائية حالة "
+          another_organization: منظمة اخرى
+          my_child: طفلي
+          family_friends: عائلة/اصدقاء
+          school: مدرسة
+          community_leader: المُختار ( مسؤول المنطقة)
+          community_based_child_protection_focal_point: جهة التنسيق المجتمعية لحماية الطفل
+          authorities: السلطات
+          saw_a_poster_information_leaflet: شاهدت ملصق / نشرة إعلامية
+          cannot_recall: لا أذكر
+          other: طريقة اخرى
+      caregiver_feedback_services_discovery_other:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      caregiver_feedback_help_asked:
+        display_name: قبل أن تبدأ العمل مع أخصائي الحالة ، هل سُئلت عما إذا كان طفلك يرغب في الحصول على المساعدة بهذه الطريقة؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      caregiver_feedback_help_asked_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_expectations:
+        display_name: "ما نوع الدعم الذي كنت تتوقعه من [أدخل اسم وكالة إدارة الحالة]؟"
+        option_strings_text:
+          alternative_care: رعاية بديلة
+          security_e_g_safe_shelter: "الحماية ( مثال: مأوى آمن)"
+          education_formal: تعليم( رسمي)
+          non_formal_education: تعليم غير رسمي
+          family_tracing_and_reunification: البحث عن العائلات ولم شملها
+          basic_psychosocial_support: الدعم النفسي والاجتماعي الأساسي
+          focused_non_specialized_mhpss_care: رعاية مركزة غير متخصصة في مجال الصحة النفسية والدعم النفسي الاجتماعي
+          specialized_mhpss_services: خدمات متخصصة في مجال الصحة النفسية  و الدعم النفسي الاجتماعي
+          food: غذاء
+          non_food_items: مواد غير غذائية
+          cash_assistance: مساعدة نقدية
+          livelihoods: سبل العيش
+          medical: طبية
+          nutrition: التغذية
+          legal_support: دعم قانوني
+          documentation: توثيق
+          services_for_children_with_disabilities: خدمات للأطفال ذوي الاحتياجات الخاصة
+          sexual_and_reproductive_health: الصحة الجنسية والإنجابية
+          shelter: مأوى
+          wash: غسل
+          durable_solution_in_coordination_with_unhcr: حل دائم (بالتنسيق مع المفوضية السامية لحقوق اللاجئين)
+          relocation: ترحيل
+          other: غير ذلك
+      caregiver_feedback_expectations_other:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      caregiver_feedback_expectations_received:
+        display_name: هل حصل طفلك ( او انت او عائلتك - حيثما أمكن )  على الدعم الذي كان يتوقع ان يحصل عليه؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      caregiver_feedback_expectations_received_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_process_plan:
+        display_name: "هل وضع أخصائي الحالة خطة [خطة حالة] معك ومع طفلك لتزويدك بالدعم الذي يحتاجه طفلك؟"
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      caregiver_feedback_process_plan_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_process_connect:
+        display_name: هل قام أخصائي الحالة بتوصيل طفلك (وأنت وعائلتك - إن أمكن) بخدمات  كانت قادرة على مساعدتك؟
+        option_strings_text:
+          'yes': 'نعم'
+          no_did_not_need_other_services: "لا , لم احتاج لالخدمات الاخرى"
+          no_did_not_want_other_services: "لا , لم أرد الخدمات الاخرى"
+          unknown: غير معروف
+      caregiver_feedback_process_connect_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_process_consent:
+        display_name: في كل مرة شارك فيها أخصائي الحالة معلومات عن طفلك (او عنك او عن عائلتك - حيثما امكن) مع الآخرين ، هل سُئلت عما إذا كنت توافق على مشاركة هذه المعلومات عنك وعن حالتك مع هؤلاء الاخرين؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      caregiver_feedback_process_consent_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_process_closure:
+        display_name: "هل اتخذت أنت (وطفلك - ان امكن) قرارًا بإيقاف خدمات إدارة الحالة التي تقدمها [أدخل اسم الوكالة] مع أخصائي الحالة؟"
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      caregiver_feedback_process_closure_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_questions_ii:
+        display_name: 'الاسئلة : الجزء الثاني'
+        guiding_questions: |-
+          نموذج نصي: "بالنسبة للأسئلة القليلة التالية ، سوف أسألك إلى أي مدى توافق على الجملة التي أذكرها.
+          إذا كنت توافق تمامًا على الجملة ، فيمكنك إعطاؤها 10. إذا كنت لا توافق على الجملة على الإطلاق ، فيمكنك إعطاؤها 1.
+          يمكنك أيضًا أن تجيب بأي رقم بين 1 و 10 ، فكلما كنت توافق على الجملة ، يجب أن يكون الرقم أقرب إلى 10 ، وكلما كنت لا توافق ، يجب أن يكون الرقم أقرب إلى 1. "
+      caregiver_feedback_ii_explanation:
+        display_name: شرح أخصائي الحالة الأمور بطريقة يصعب علي فهمها.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_explanation_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_ii_listening:
+        display_name: لطالما طلب أخصائي الحالة آرائي و استمع اليها و الى مشاعري.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_listening_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_ii_pressured:
+        display_name: غالبًا ما شعرت بضغوط من أخصائي الحالة لاتخاذ قرار أو القيام بشيء لم أرغب في فعله.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_pressured_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_ii_followup:
+        display_name: تابع أخصائي الحالة وفعل الأشياء التي قال أنه سيفعلها.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_followup_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_ii_visits:
+        display_name: نادراً ما زارني أخصائي الحالة أنا وطفلي.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_visits_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_ii_support:
+        display_name: كان الدعم الذي قدمه أخصائي الحالة لطفلي (أو لي أو لعائلتي - حيثما امكن) مفيدًا.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_support_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_ii_improvement:
+        display_name: تحسنت حالة طفلي منذ أن  عملت مع أخصائي الحالة.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_improvement_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_ii_satisfaction:
+        display_name: بشكل عام ، أنا مرتاح جدًا للدعم المقدم من أخصائي الحالة.
+        help_text: اختر رقمًا بين 1 و 10
+      caregiver_feedback_ii_satisfaction_details:
+        display_name: يرجى تقديم تفاصيل
+      caregiver_feedback_final_question:
+        display_name: هل لديك أي ملاحظات أو مخاوف أخرى تود مشاركتها؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unknown: غير معروف
+      caregiver_feedback_final_question_details:
+        display_name: يرجى تقديم تفاصيل

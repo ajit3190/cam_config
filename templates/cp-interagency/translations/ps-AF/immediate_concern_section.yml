@@ -1,0 +1,18 @@
+ps-AF:
+  immediate_concern_section:
+    name: عاجلې اندیښنې
+    description: د عاجلو اندیښنو فرعي فارم
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: د عاجلې اندیښنې ډول
+        option_strings_text:
+          health_care: روغتیایي پاملرنه
+          safety: خوندیتوب
+          interim_care: لنډمهاله پاملرنه
+          other: نور
+      immediate_concerns_immediate_concern_type_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      immediate_concerns_immediate_concern_summary:
+        display_name: د مسالې لنډیز
+      immediate_concerns_immediate_concern_action:
+        display_name: سمدستي اقدامات چې ترسره شوي / چاته راجع شوی

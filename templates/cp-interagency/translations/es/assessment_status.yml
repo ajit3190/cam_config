@@ -1,0 +1,24 @@
+es:
+  assessment_status:
+    name: Estado de evaluación
+    description: Formato de Evaluación de Estado
+    fields:
+      bia_approved:
+        display_name: Aprobado por el/la gerente
+        tick_box_label: 'si'
+      bia_approved_date:
+        display_name: Fecha
+      bia_approved_comments:
+        display_name: Comentarios del Gerente
+      approval_status_bia:
+        display_name: Estado de Aprobación
+      assessment_header:
+        display_name: FORMULARIO DE EVALUACIÓN
+      assessment_requested_on:
+        display_name: Fecha de inicio de la evaluación
+        help_text: Este campo se utiliza para el estado del flujo de trabajo
+      assessment_completed_on:
+        display_name: Evaluación completada el
+      case_plan_due_date:
+        display_name: Fecha de vencimiento del plan del caso
+        guiding_questions: "Dependiendo del nivel de riesgo del caso. \nAlto: dentro de los 3 días posteriores a la evaluación. \nMedio: dentro de 1 semana después de la evaluación. \nBajo: dentro de las 2 semanas posteriores a la evaluación."

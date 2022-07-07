@@ -19,6 +19,11 @@ create_or_update_system_setting(
   case_code_format: [],
   auto_populate_list: [],
   reporting_location_config: { field_key: 'owned_by_location', admin_level: 2 },
+  incident_reporting_location_config: {
+    field_key: 'incident_location',
+    admin_level: 2,
+    admin_level_map: { '1' => ['province'], '2' => ['district'] }
+  },
   # violation_config: {
   #   'killing' => { 'field_id' => 'weapon_type', 'lookup_id' => 'lookup-weapon-type' },
   #   'maiming' => { 'field_id' => 'weapon_type', 'lookup_id' => 'lookup-weapon-type' },

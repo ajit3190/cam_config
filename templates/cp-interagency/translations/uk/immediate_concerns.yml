@@ -1,0 +1,7 @@
+uk:
+  immediate_concerns:
+    name: Негайні Проблеми
+    description: Негайні Проблеми
+    fields:
+      immediate_concern_section:
+        display_name: Негайні Проблеми

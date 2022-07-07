@@ -1,0 +1,7 @@
+uk:
+  other_documents:
+    name: Інші документи
+    description: Інші документи
+    fields:
+      upload_other_document:
+        display_name: Інший документ

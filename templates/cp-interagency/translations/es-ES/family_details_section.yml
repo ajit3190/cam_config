@@ -1,0 +1,58 @@
+es-ES:
+  family_details_section:
+    name: Detalles de la Familia Anidados
+    description: Subformulario de los Detalles de la Familia
+    fields:
+      relation_name:
+        display_name: Nombre
+      relation:
+        display_name: ¿Cómo se relacionan con el/la niño/a?
+      relation_lives_with_child:
+        display_name: ¿Esta persona vive con el/la niño/a?
+        tick_box_label: 'Sí'
+      relation_nickname:
+        display_name: Otros nombres conocidos
+        help_text: Ej. apodos, segundo apellido de la familia
+      relation_is_alive:
+        display_name: ¿Está vivo este miembro de la familia?
+        option_strings_text:
+          unknown: Desconocido
+          alive: Vivo
+          dead: Fallecido
+      relation_death_details:
+        display_name: Si está fallecido, favor dar detalles
+        help_text: 'Incluir la fecha del fallecimiento si se conoce'
+      relation_age:
+        display_name: Edad
+      relation_date_of_birth:
+        display_name: Fecha de Nacimiento
+      relation_age_estimated:
+        display_name: ¿Es la edad estimada?
+        tick_box_label: 'Sí'
+      relation_national_id:
+        display_name: Identidad Nacional
+      relation_unhcr_individual_id:
+        display_name: Identidad Individual ACNUR
+      relation_other_id:
+        display_name: Otra Identidad
+      relation_ethnicity:
+        display_name: Etnia
+      relation_sub_ethnicity1:
+        display_name: Sub Etnia 1
+      relation_sub_ethnicity2:
+        display_name: Sub Etnia 2
+      relation_occupation:
+        display_name: Ocupación
+      relation_address_current:
+        display_name: Dirección Actual (si es diferente a la del niño/a)
+      relation_landmark_current:
+        display_name: Punto de Referencia Actual
+      relation_location_current:
+        display_name: Ubicación Actual
+      relation_telephone:
+        display_name: Teléfono/Otros detalles de contacto
+      child_consent_relation_contact:
+        display_name: ¿El/la niño/a da su consentimiento para que este individuo sea contactado?
+        tick_box_label: 'Sí'
+      no_consent_provide_details:
+        display_name: Si no, dar detalles

@@ -1,0 +1,100 @@
+fr:
+  care_arrangements_section:
+    name: Prise en charge
+    description: 'Formulaire de prise en charge '
+    fields:
+      child_caregiver_reason_change:
+        display_name: S'il s'agit d'une nouvelle personne en charge de l'enfant, indiquez la raison du changement
+        option_strings_text:
+          abuse_exploitation: 'Exploitation et abus '
+          death_of_caregiver: 'Décès de la personne en charge '
+          Education: Éducation
+          ill_health_of_caregiver: 'Maladie de la personne en charge '
+          other: Autre
+          poverty: 'Pauvreté '
+          relationship_breakdown: Rupture de la relation
+      care_arrangements_type:
+        display_name: Quelles sont les modalités actuelles de prise en charge de l'enfant ?
+        option_strings_text:
+          parent_s: Parent(s)
+          step_parent: Belle-mère ou beau-père
+          customary_caregiver_s: Parent(s)-substitut
+          adult_sibling: Frère ou sœur d’âge adulte
+          kinship_care_extended_family: Famille élargie ou étendue de l’enfant
+          foster_care: Famille d’accueil
+          residential_care: Établissement
+          kafala: Recueil légal (kafala)
+          independent_living: Vie autonome
+          child_headed_household: Foyer sous la responsabilité d’un enfant
+          unrelated_adult: Adulte sans lien de parenté
+          no_care_arrangement: Aucune prise en charge
+          other: Autre
+      care_arrangements_type_other:
+        display_name: Si autre, précisez
+      name_caregiver_separator:
+        display_name: Nom du tuteur de l’enfant, s’il ne vit pas avec ses parents
+      name_caregiver:
+        display_name: Nom du tuteur de l’enfant
+        help_text: "(S’il vit avec ses parents, passez à la section concernant les renseignements sur la famille)"
+      nickname_caregiver:
+        display_name: Autres noms ou autres façons d’écrire le nom du tuteur de l’enfant
+        help_text: p. ex. surnom, deuxième nom de famille
+      caregiver_age:
+        display_name: Âge du tuteur
+      caregiver_dob:
+        display_name: Date de naissance du tuteur (DN)
+      age_estimated_caragiver:
+        display_name: S’agit-il d’une estimation?
+        tick_box_label: 'Oui'
+      caregiver_sex:
+        display_name: Sexe
+      caregiver_national_id:
+        display_name: Numéro de carte d’identité nationale
+      caregiver_unhcr_individual_id:
+        display_name: Numéro d’identification de l’UNHCR
+      caregiver_other_id:
+        display_name: Aure ID
+      caregiver_related_child:
+        display_name: Le tuteur de l’enfant a-t-elle un lien de parenté avec lui ?
+      relationship_caregiver:
+        display_name: Lien avec l’enfant
+      caregiver_know_family:
+        display_name: S'il n'y a pas de lien de parenté, le tuteur connaît-il la famille de l'enfant ?
+      family_size_under_18:
+        display_name: 'Taille de la famille : Personnes de moins de 18 ans'
+      family_size_over_18:
+        display_name: 'Taille de la famille : Personnes de plus de 18 ans'
+      address_caregiver:
+        display_name: Adresse du tuteur
+        guiding_questions: Indiquez ici l'adresse et la localisation du tuteur de l'enfant, même si elle est identique à l'adresse actuelle de l'enfant, afin d'assurer la traçabilité en cas de déménagement ou de changement du tuteur.
+      location_caregiver:
+        display_name: 'Localisation de la personne en charge '
+      care_arrangement_started_date:
+        display_name: À quand remonte la prise en charge ?
+      caregiver_willing_to_continue:
+        display_name: Le tuteur de l’enfant est-il prêt à continuer à le prendre en charge ?
+        option_strings_text:
+          yes_short_term: Oui, à court terme
+          yes_long_term: Oui, à long terme
+          'no': 'Non'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: Si oui, pour combien de temps ?
+      caregiver_willing_to_continue_not_reason:
+        display_name: 'S''il n''est pas disposé à continuer à s''occuper de l''enfant, expliquez pourquoi :'
+      caregiver_location_status:
+        display_name: 'Le lieu de résidence de la personne en charge de l''enfant est-il temporaire ? '
+      address_caregiver_future:
+        display_name: Si oui, quelle est la future adresse ?
+      location_caregiver_future:
+        display_name: 'Quelle est la future localisation ? '
+      telephone_caregiver_future:
+        display_name: 'Quelle est le future numéro de téléphone '
+      telephone_caregiver:
+        display_name: 'Téléphone de la personne en charge '
+        help_text: Indiquez le numéro de téléphone actuel de la personne en charge/les autres coordonnées
+      child_consent_caregiver_contacted:
+        display_name: L'enfant consent-il à ce que la personne qui s'occupe de lui soit contactée ?
+      child_consent_caregiver_contacted_no_details:
+        display_name: 'Si non, veuillez préciser :'
+      other_persons_living_in_household:
+        display_name: Autres personnes vivant dans le ménage

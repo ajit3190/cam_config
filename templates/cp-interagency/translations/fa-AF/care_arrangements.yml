@@ -1,0 +1,21 @@
+fa-AF:
+  care_arrangements:
+    name: 'ترتیب مراقبت '
+    description: 'ترتیب مراقبت '
+    fields:
+      child_current_location:
+        display_name: آدرس فعلی طفل
+      address_current:
+        display_name: آدرس بعلی
+        help_text: درصورتی که آدرسی وجود ندارد ، لطفاً مکان های مشخص یا توضیحات مکان فعلی را ارائه دهید
+      location_current:
+        display_name: موقعیت فعلی
+      address_child_future:
+        display_name: 'اگر طفل پلان تغیر محل دارد  آدرس بعدی کجاست '
+        help_text: درصورتی که آدرسی وجود ندارد ، لطفاً مکان های مشخص یا توضیحات مکان فعلی را ارائه دهید
+      location_child_future:
+        display_name: موقعیت بعدی کجاست؟
+      telephone_child_future:
+        display_name: 'نمبر تلفون بعدی چند است '
+      care_arrangements_section:
+        display_name: 'ترتیب مراقبت '

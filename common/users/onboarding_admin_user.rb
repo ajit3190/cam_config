@@ -32,4 +32,9 @@ if ENV['PRIMERO_ID_EXTERNAL'] == 'true'
 end
 
 user = User.create!(user_hash)
+
+if user&.identity_provider&.unique_id == 'primeroims'
+  IdentitySyncService.sync!(user)
+end
+
 OnboardMailer.onboard(user.id).deliver_now

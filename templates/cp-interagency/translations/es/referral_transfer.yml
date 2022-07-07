@@ -1,0 +1,13 @@
+es:
+  referral_transfer:
+    name: Remisiones y transferencias
+    description: Lista de transferencias y remisiones
+    fields:
+      transfer_status:
+        display_name: Estatus de transferencia
+        option_strings_text:
+          in_progress: En progreso
+          accepted: Aceptado
+          rejected: Rechazado
+      transitions:
+        display_name: Transferencias y remisiones

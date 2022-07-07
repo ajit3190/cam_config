@@ -1,0 +1,19 @@
+fa-AF:
+  approval_subforms:
+    name: تآیید فورم های فرعی
+    description: تآیید فورم های فرعی
+    fields:
+      approval_requested_for:
+        display_name: 'درخواست تآیید '
+      approval_response_for:
+        display_name: 'ـایید برای '
+      approval_for_type:
+        display_name: نوعیت پلان قضیه
+      approval_date:
+        display_name: تاریخ
+      approval_manager_comments:
+        display_name: تبصره مدیر
+      approval_status:
+        display_name: مرحله تایید
+      approved_by:
+        display_name: تآیید توسط

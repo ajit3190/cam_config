@@ -1,0 +1,7 @@
+fr:
+  verification:
+    name: 'Vérification '
+    description: 'Vérification '
+    fields:
+      verification_subform_section:
+        display_name: 'Vérification '

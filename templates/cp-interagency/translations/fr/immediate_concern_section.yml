@@ -1,0 +1,18 @@
+fr:
+  immediate_concern_section:
+    name: Problèmes de protection
+    description: 'Formulaire problèmes de protection immédiat '
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: 'Type de problème de protection immédiat '
+        option_strings_text:
+          health_care: 'Soins de santé '
+          safety: 'Sécurité '
+          interim_care: Soins intermédiaires
+          other: Autre
+      immediate_concerns_immediate_concern_type_other:
+        display_name: Si autre, précisez
+      immediate_concerns_immediate_concern_summary:
+        display_name: Résumé du problème
+      immediate_concerns_immediate_concern_action:
+        display_name: Mesures immédiates prises/ référence effectué

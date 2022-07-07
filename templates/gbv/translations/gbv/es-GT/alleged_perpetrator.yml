@@ -1,0 +1,44 @@
+---
+es-GT:
+  alleged_perpetrator:
+    name: Subformulario anidado sobre el presunto autor
+    description: Subformulario anidado sobre el presunto autor
+    fields:
+      primary_perpetrator:
+        display_name: "¿Se trata del autor primario?"
+        option_strings_text:
+          primary: Primario
+          secondary: Secundario
+      perpetrator_sex:
+        display_name: Sexo del presunto autor
+      former_perpetrator:
+        display_name: Antecedentes de violencia de género del presunto autor
+      perpetrator_nationality:
+        display_name: Nacionalidad del presunto autor
+      perpetrator_ethnicity:
+        display_name: Clan o etnia del presunto autor
+      age_group:
+        display_name: Grupo de edad del presunto autor
+        option_strings_text:
+          '0_11': 0-11
+          '12_17': 12-17
+          '18_25': 18-25
+          '26_40': 26-40
+          '41_60': 41-60
+          61+: Mayor de 61 años
+          unknown: Desconocido
+      age_type:
+        display_name: Categoría de edad del presunto autor
+      perpetrator_relationship:
+        display_name: Relación del presunto autor con la persona superviviente
+      perpetrator_occupation:
+        display_name: Ocupación principal del presunto autor (si se conoce)
+        option_strings_text:
+          other: Otra
+          unemployed: Desempleado
+          unknown: Desconocida
+          occupation_1: Ocupación 1
+          occupation_2: Ocupación 2
+          occupation_3: Ocupación 3
+          occupation_4: Ocupación 4
+          occupation_5: Ocupación 5

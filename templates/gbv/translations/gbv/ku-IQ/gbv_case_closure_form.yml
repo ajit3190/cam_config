@@ -1,0 +1,51 @@
+---
+ku-IQ:
+  gbv_case_closure_form:
+    name: گرتنا کەیسی
+    description: گرتنا کەیسی
+    fields:
+      gbv_closure_approved:
+        display_name: ژ لایێ رێڤەبەری ڤە هاتیە پەسەندکرن
+        tick_box_label: 'بەلێ'
+      gbv_closure_approved_date:
+        display_name: رێکەفت
+      gbv_closure_approved_comments:
+        display_name: کومێنتێن رێڤەبەری
+      approval_status_gbv_closure:
+        display_name: بارودوخێ پەسەندکرنێ
+      created_at:
+        display_name: مێژوویا ڤەکرنا کەیسی
+      date_closure:
+        display_name: مێژوویا گرتنا کەیسی
+      status:
+        display_name: بارودوخێ کەیسی
+      closure_assessment:
+        display_name: هەلسەنگاندنا گرتنێ
+      closure_checklist_header_section:
+        display_name: لیستا دیفچوونا گرتنێ
+      closure_reason:
+        display_name: ئەگەرێ گرتنا کەیسی
+      closure_reason_explain:
+        display_name: شروڤەکرن
+      closure_safety_plan:
+        display_name: "پێداچوون د پلانا ئێمناهیا رزگاربووی دا هاتیە کرن و د جهێ خودایە "
+      closure_safety_plan_explain:
+        display_name: (شروڤە بکە (پلانا ئێمناهیێ
+      closure_case_plan_complete:
+        display_name: پێدڤیێن رزگاربوویی وەک د پلانا کریارا کەیسی دا هاتینە وەسفکرن هاتینە جێبەجێکرن
+      closure_case_plan_complete_explain:
+        display_name: شروڤە بکە (تمامکرن و رازەمەندی
+      closure_no_further_support:
+        display_name: بریکار و کارمەندێ جڤاکیێ رزگاربووی رازەمەندن کو چ پشتەڤانیەکا دی پێدڤی نینە
+      closure_no_further_support_explain:
+        display_name: شروڤە بکە (چ پێدڤی ب پشتەڤانیا پتر نینە
+      closure_resume_notification:
+        display_name: رزگاربووی هاتیە ئاگەهدارکرن کو هەر دەمەکێ وێ دڤێت دشێت بەردەوامیێ بدەتە خزمەتگوزاریا
+      closure_resume_notification_explain:
+        display_name: شروڤە بکە (بەردەوامیدان ب خزمەتگۆزاریا)
+      closure_supervisor_review:
+        display_name: سەرپەرشتێ کەیسی پێداچوون د گرتن یان پلانا بدوماهیک هاتنا دا کریە
+      closure_supervisor_review_explain:
+        display_name: شروڤە بکە (پێداچوون د کەیسی دا
+      closure_completion_timing:
+        display_name: تە چەند دەم بۆ تماکرنا گرتنا ڤی کەیسی دەربازکر؟

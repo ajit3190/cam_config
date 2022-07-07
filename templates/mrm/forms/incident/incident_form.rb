@@ -117,9 +117,26 @@ incident_fields = [
     'multi_select' => false,
     'name' => 'date_of_first_report',
     'type' => 'date_field',
+    'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of initial report to CTFMR member'
   ),
-  # TODO: This field originally is data_range type
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'is_incident_date_range',
+    'type' => 'tick_box',
+    'tick_box_label_en' => 'Yes',
+    'display_name_en' => 'Is this a Date Range?'
+  ),
   Field.new(
     'mobile_visible' => true,
     'show_on_minify_form' => false,
@@ -135,7 +152,27 @@ incident_fields = [
     'type' => 'date_field',
     'display_name_en' => 'Date of the incident',
     'required' => true,
+    'date_validation' => 'not_future_date',
     'help_text_en' => 'dd-mmm-yyyy (This field is mandatory)'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'incident_date_end',
+    'type' => 'date_field',
+    'display_name_en' => 'Incident end date',
+    'required' => false,
+    'help_text_en' => 'End Date',
+    'date_validation' => 'not_future_date',
+    'display_conditions_record' => { 'eq' => { 'is_incident_date_range' => true } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -290,7 +327,8 @@ incident_fields = [
     'multi_select' => false,
     'name' => 'incident_location_type_other',
     'type' => 'text_field',
-    'display_name_en' => "If 'Other', please provide details"
+    'display_name_en' => "If 'Other', please provide details",
+    'display_conditions_record' => { 'eq' => { 'incident_location_type' => 'other' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -317,7 +355,7 @@ incident_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -333,7 +371,7 @@ incident_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,

@@ -1,0 +1,67 @@
+fa-AF:
+  review_section:
+    name: بررسی پیچیده
+    description: بررسی فورم فرعی
+    fields:
+      review_form_date:
+        display_name: 'تاریخ تکمیل فورم '
+        help_text: روز /ما/سال
+      review_separator:
+        display_name: جزئیات بررسی جلسه
+      review_date:
+        display_name: 'تاریخ جلسه بررسی '
+        help_text: روز/ما/سال
+      previous_review_date:
+        display_name: تاریخ جلسه بررسی قبلی (اگر ارتباط داشته باشد )
+        help_text: روز/ما/سال
+      was_child_present:
+        display_name: آیا طفل حاضر بود ؟
+      how_child_review:
+        display_name: اگر نه ,چگونه طفل در بررسی دخیل بود ؟
+      was_caregiver_present:
+        display_name: آیا مراقبت کننده حاضر بود؟
+      how_caregiver_review:
+        display_name: اکر نه, چگ.نه مراقبت کننده در بررسی دخیل بود ؟
+      outcome_review_separator:
+        display_name: نتیجه جلسه بررسی
+      review_childs_situation:
+        display_name: بررسی وضیعت موجوده طفل
+        help_text: وضعیت کلی طفل  را همانطور که در جلسه بررسی بحث شد ، توصیف کنید
+      review_implementation:
+        display_name: بررسی اجرای قضیه
+        help_text: وضعیت اقدامات انجام شده و خدمات ارائه شده را همانطور که در پلان قضیه  ذکر شده و در جلسه بررسی مورد بحث قرار گرفته است ، ارزیابی کنید.
+      review_progress_goal:
+        display_name: 'بررسی پیشرفت به جهت  هدف کلی پلان قضیه '
+        help_text: یشرفت در دستیابی به هدف کلی قضیه را همانطور که در جلسه بررسی بحث شد ، ارزیابی کنید.
+      review_other_notes:
+        display_name: سایر یادداشت ها / مشاهدات در دوران جلسه بررسی
+      next_steps_separator:
+        display_name: قدم بعدی
+      review_situation_change:
+        display_name: آیا وضعیت طفل به گونه ای تغییر کرده که ارزیابی دیگری برای انجام آن ضروری باشد؟
+      situation_change_details:
+        display_name: 'لطفآ جزییات را تشریح کنید '
+      adjustments_case_plan:
+        display_name: آیا تنظیماتی درپلان قضیه  نیاز است؟
+      adjustment_details:
+        display_name: 'لطفآ جزییات را تشریح کنید '
+      risk_level_changed:
+        display_name: آیا میزان خطر قضیه  تغییر کرده است؟
+      action_conducted:
+        display_name: 'اکر بلی میزان جدید خطر '
+        option_strings_text:
+          high: 'بلند '
+          medium: میانه
+          low: پایین
+          'no': 'نه'
+      risk_level_details:
+        display_name: 'اگر بلی ,جزییات را تشریح کنید '
+      recommend_close_case:
+        display_name: آیا پیشنهاد می کنیدکه قضیه اببندید؟
+      close_case_details:
+        display_name: 'لطفآ جزییات را تشریح کنید '
+      next_case_review:
+        display_name: آیا نیازی به بررسی بعدی  قضیه است؟
+      date_next_review:
+        display_name: اگر بله ، تاریخ جلسه بررسی بعدی
+        help_text: 'روز /ما /سال '

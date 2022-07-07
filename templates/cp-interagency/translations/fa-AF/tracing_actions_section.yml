@@ -1,0 +1,29 @@
+fa-AF:
+  tracing_actions_section:
+    name: 'عملکرد پیچیده ردیابی '
+    description: 'فورم فرعی عملکرد ردیابی '
+    fields:
+      date_tracing:
+        display_name: تاریخ ردیابی
+      tracing_type:
+        display_name: نوع اقدام انجام شده
+        option_strings_text:
+          case_by_case_tracing: 'رد یابی قضیه با قضیه '
+          individual_tracing: 'رد یابی انفرادی '
+          mass_tracing: ردیابی دسته جمعی
+          photo_tracing: رد یابی عکاسی شده
+          referral_to_ngo: 'راجع شده به موسسات غیر دولتی '
+          referral_to_icrc: 'به ICRC راجع شده '
+      address_tracing:
+        display_name: آدرس / دقریه ای که اقدام ردیابی در آن انجام شده است
+      location_tracing:
+        display_name: 'موقعیت رد یابی '
+      tracing_action_description:
+        display_name: 'اقدام انجام شده و نظریات '
+      tracing_outcome:
+        display_name: 'نتیجه اقدانات ردیابی '
+        option_strings_text:
+          pending: در حالت تعلیق
+          successful: موفق
+          unsuccessful: ناکام
+          'yes': 'بلی'

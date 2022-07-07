@@ -1,0 +1,736 @@
+---
+es-GT:
+  lookup-legitimate-basis:
+    name: Fundamento legítimo
+    lookup_values:
+      consent: Consentimiento
+      contract: Contrato
+      vital_interests: Intereses vitales
+      beneficiary_interests: Intereses de la persona beneficiaria
+      legal_obligation: Obligación jurídica
+      other_legitimate_interests: Otros intereses legítimos
+  lookup-legitimate-basis-explanations:
+    name: Explicación del fundamento legítimo
+    lookup_values:
+      consent: "El consentimiento de la persona interesada, o del/la representante del/de la menor en su caso."
+      contract: "A fin de preparar o cumplir un contrato con la persona interesada, incluido un contrato laboral."
+      vital_interests: A fin de proteger la vida o la integridad física o mental de la persona interesada u otra persona.
+      beneficiary_interests: "A fin de proteger o promover los intereses de las personas a las que atiende su organización y, en particular, aquellos intereses que su organización debe, en virtud de su mandato, proteger o promover."
+      legal_obligation: Cumplimiento de una obligación jurídica pública a la que está sujeta su organización.
+      other_legitimate_interests: |-
+        Otros intereses legítimos de su organización en consonancia con su mandato,
+         incluidos la interposición, el ejercicio o la defensa de acciones judiciales, o a efectos de la rendición de cuentas de su organización.
+  lookup-case-status:
+    name: Estado del caso
+    lookup_values:
+      open: Abierto
+      closed: Cerrado
+      transferred: Transferido
+      duplicate: Duplicado
+  lookup-gender:
+    name: Género
+    lookup_values:
+      male: Masculino
+      female: Femenino
+  lookup-approval-type:
+    name: Tipo de aprobación
+    lookup_values:
+      case_plan: Plan del caso
+      action_plan: Plan de acción
+      service_provision: Prestación de servicio
+  lookup-incident-status:
+    name: Estado del incidente
+    lookup_values:
+      open: Abierto
+      closed: Cerrado
+      duplicate: Duplicado
+  lookup-followup-type:
+    name: Tipo de seguimiento
+    lookup_values:
+      after_reunification: Seguimiento después de la reunificación
+      in_care: Seguimiento en cuanto a la atención
+      for_service: Seguimiento sobre servicio
+      for_assesment: Seguimiento para la evaluación
+      client_request_review_data: El/la cliente solicita que se examinen sus datos
+      client_request_copy_data: El/la cliente solicita una copia de sus datos
+  lookup-approval-status:
+    name: Estado de aprobación
+    lookup_values:
+      requested: Solicitada
+      pending: Pendiente
+      approved: Aprobada
+      rejected: Denegada
+  lookup-service-response-type:
+    name: Tipo de respuesta del servicio
+    lookup_values:
+      service_provision: Prestación de servicio
+  lookup-inquiry-status:
+    name: Estado de la solicitud
+    lookup_values:
+      open: Abierta
+      closed: Cerrada
+  lookup-reporting-location-type:
+    name: Tipo de lugar en el que se notificó el incidente
+    lookup_values:
+      province: Provincia
+      district: Distrito
+  lookup-separation-cause:
+    name: Causa de la separación
+    lookup_values:
+      abandoned: Abandono
+      family_abuse_violence_neglect_exploitation: Abuso/violencia/negligencia/explotación familiar
+      death_sickness_of_family_member: Muerte o enfermedad de un miembro de la familia
+      separation_because_of_fleeing_violence_war: Separación debido a la necesidad de huir de la violencia o de una guerra
+      separation_because_of_fleeing_natural_disaster: Separación debido a la necesidad de huir de un desastre natural
+      separation_because_of_fleeing_persecution: Separación debido a la necesidad de huir a causa de una persecución
+      search_for_employment: Búsqueda de empleo
+      search_for_educational_opportunities: Búsqueda de oportunidades educativas
+      search_for_services_support: Búsqueda de servicios/apoyo
+      migration: Migración
+      organized_population_movement_e_g_evacuation: "Movimiento organizado de población (por ejemplo, una evacuación)"
+      entrusted_into_the_care_of_individual_institution: Puesta al cuidado de una persona o institución
+      repatriation: Repatriación
+      poverty: Pobreza
+      recruitment_into_armed_forces_or_armed_groups: Reclutamiento por fuerzas o grupos armados
+      abducted_trafficked: Secuestro/tráfico
+      arrest_detention: Arresto/detención
+      other_please_specify: Otros (especifique)
+  lookup-religion:
+    name: Religión
+    lookup_values:
+      religion1: Religión1
+      religion2: Religión2
+      religion3: Religión3
+      religion4: Religión4
+      religion5: Religión5
+      religion6: Religión6
+      religion7: Religión7
+      religion8: Religión8
+      religion9: Religión9
+      religion10: Religión10
+  lookup-marital-status:
+    name: Estado civil
+    lookup_values:
+      single: Soltero/a
+      married_cohabitating: Casado/a o en pareja de hecho
+      divorced_separated: Divorciado/a o separado/a
+      widowed: Viudo/a
+  lookup-risk-level:
+    name: nivel_riesgo
+    lookup_values:
+      high: Alto
+      medium: Medio
+      low: Bajo
+  lookup-service-implemented:
+    name: Servicio prestado
+    lookup_values:
+      not_implemented: No prestado
+      implemented: Prestado
+  lookup-pdf-header:
+    name: Encabezado PDF
+    lookup_values:
+      pdf_header_1: Encabezado 1 PDF
+      pdf_header_2: Encabezado 2 PDF
+      pdf_header_3: Encabezado 3 PDF
+  lookup-tracing-status:
+    name: Estado de la localización de familiares
+    lookup_values:
+      open: Abierto
+      tracing_in_progress: Localización de familiares en curso
+      verified: Verificado
+      reunified: Reunificación realizada
+      closed: Cerrado
+  lookup-gbv-service-type:
+    name: Tipo de servicio
+    lookup_values:
+      safehouse_service: Servicio de casa refugio
+      health_medical_service: Servicio médico/de salud
+      psychosocial_service: Servicio psicosocial
+      police_other_service: Policía/otro servicio
+      legal_assistance_service: Servicio de asistencia jurídica
+      livelihoods_service: Servicios de medios de vida
+      child_protection_service: "Servicios de protección de la infancia "
+      education_service: Servicio educativo
+      nfi_clothes_shoes_service: Servicio de suministro de artículos no alimentarios/ropa/calzado
+      water_sanitation_service: Servicio de agua/saneamiento
+      registration_service: Servicio de registro
+      food_service: Servicio de suministro de alimentos
+      cash_assistance: Asistencia en efectivo
+      personal_goal: Objetivo personal
+      other_service: Otro servicio
+  lookup-gbv-intervention-type:
+    name: Tipo de intervención
+    lookup_values:
+      personal_goal: Objetivo o servicio personal
+      referral_service: Servicio de derivación
+  lookup-yes-no:
+    name: “Sí” o “No”
+    lookup_values:
+      'true': 'Sí'
+      'false': 'No'
+  lookup-yes-no-unknown:
+    name: "“Sí”, “No” o “Se desconoce”"
+    lookup_values:
+      'true': 'Sí'
+      'false': 'No'
+      unknown: Se desconoce
+  lookup-yes-no-undecided:
+    name: "“Sí”, “No” o “Aún no lo ha decidido”"
+    lookup_values:
+      'true': 'Sí'
+      'false': 'No'
+      undecided: Aún no lo ha decidido
+  lookup-yes-no-not-applicable:
+    name: "“Sí”, “No” o “No aplicable”"
+    lookup_values:
+      'true': 'Sí'
+      'false': 'No'
+      not_applicable: No aplicable
+  lookup-yes-no-not-applicable-needs-not-met:
+    name: "“Sí”, “No” o “No aplicable o no se han satisfecho las necesidades”"
+    lookup_values:
+      'true': 'Sí'
+      'false': 'No'
+      not_applicable: No aplicable o no se han satisfecho las necesidades
+  lookup-transition-type:
+    name: Tipo de transición
+    lookup_values:
+      referral: Derivación
+      reassign: Reasignación
+      transfer: Tranferencia
+      transfer_request: Solicitud de transferencia
+  lookup-country:
+    name: País
+    lookup_values:
+      afghanistan: Afganistán
+      albania: Albania
+      algeria: Argelia
+      andorra: Andorra
+      angola: Angola
+      antigua_and_barbuda: Antigua y Barbuda
+      argentina: Argentina
+      armenia: Armenia
+      australia: Australia
+      austria: Austria
+      azerbaijan: Azerbaiyán
+      bahamas: Bahamas
+      bahrain: Bahrein
+      bangladesh: Bagladesh
+      barbados: Barbados
+      belarus: Belarús
+      belgium: Bélgica
+      belize: Belice
+      benin: Benin
+      bhutan: Bhután
+      bolivia: Bolivia
+      bosnia_and_herzegovina: Bosnia y Herzegovina
+      botswana: Botswana
+      brazil: Brasil
+      brunei: Brunei
+      bulgaria: Bulgaria
+      burkina_faso: Burkina Faso
+      burundi: Burundi
+      cabo_verde: Cabo Verde
+      cambodia: Camboya
+      cameroon: Camerún
+      canada: Canadá
+      central_african_republic: República Centroafricana
+      chad: Chad
+      chile: Chile
+      china: China
+      colombia: Colombia
+      comoros: Comoras
+      congo: República del Congo
+      drc: República Democrática del Congo
+      costa_rica: Costa Rica
+      cote_divoire: Côte d'Ivoire
+      croatia: Croacia
+      cuba: Cuba
+      cyprus: Chipre
+      czech_republic: República Checa
+      denmark: Dinamarca
+      djibouti: Djibouti
+      dominica: Dominica
+      dominican_republic: República Dominicana
+      ecuador: Ecuador
+      egypt: Egipto
+      el_salvador: El Salvador
+      equatorial_guinea: Guinea Ecuatorial
+      eritrea: Eritrea
+      estonia: Estonia
+      ethiopia: Etiopía
+      fiji: Fiji
+      finland: Finlandia
+      france: Francia
+      gabon: Gabón
+      gambia: Gambia
+      georgia: Georgia
+      germany: Alemania
+      ghana: Ghana
+      greece: Grecia
+      grenada: Granada
+      guatemala: Guatemala
+      guinea: Guinea
+      guinea_bissau: Guinea-Bissau
+      guyana: Guyana
+      haiti: Haití
+      honduras: Honduras
+      hungary: Hungría
+      iceland: Islandia
+      india: India
+      indonesia: Indonesia
+      iran: Irán
+      iraq: Iraq
+      ireland: Irlanda
+      israel: Israel
+      italy: Italia
+      jamaica: Jamaica
+      japan: Japón
+      jordan: Jordania
+      kazakhstan: Kazajstán
+      kenya: Kenya
+      kiribati: Kiribati
+      kosovo: Kosovo
+      kuwait: Kuwait
+      kyrgyzstan: Kirguistán
+      laos: Laos
+      latvia: Letonia
+      lebanon: Líbano
+      lesotho: Lesotho
+      liberia: Liberia
+      libya: Libia
+      liechtenstein: Liechtenstein
+      lithuania: Lituania
+      luxembourg: Luxemburgo
+      macedonia: Macedonia
+      madagascar: Madagascar
+      malawi: Malawi
+      malaysia: Malasia
+      maldives: Maldivas
+      mali: Malí
+      malta: Malta
+      marshall_islands: Islas Marshall
+      mauritania: Mauritania
+      mauritius: Mauricio
+      mexico: México
+      micronesia: Micronesia
+      moldova: Moldova
+      monaco: Mónaco
+      mongolia: Mongolia
+      montenegro: Montenegro
+      morocco: Marruecos
+      mozambique: Mozambique
+      myanmar: Myanmar
+      namibia: Namibia
+      nauru: Nauru
+      nepal: Nepal
+      netherlands: Países Bajos
+      new_zealand: Nueva Zelandia
+      nicaragua: Nicaragua
+      niger: Níger
+      nigeria: Nigeria
+      north_korea: Corea del Norte
+      norway: Noruega
+      oman: Omán
+      pakistan: Pakistán
+      palau: Palau
+      palestine: Palestina
+      panama: Panamá
+      papua_new_guinea: Papua Nueva Guinea
+      paraguay: Paraguay
+      peru: Perú
+      philippines: Filipinas
+      poland: Polonia
+      portugal: Portugal
+      qatar: Qatar
+      romania: Rumania
+      russia: Rusia
+      rwanda: Rwanda
+      st_kitts_and_nevis: Saint Kitts y Nevis
+      st_lucia: Santa Lucía
+      st_vincent_and_the_grenadines: San Vicente y las Granadinas
+      samoa: Samoa
+      san_marino: San Marino
+      sao_tome_and_principe: Santo Tomé y Príncipe
+      saudi_arabia: Arabia Saudita
+      senegal: Senegal
+      serbia: Serbia
+      seychelles: Seychelles
+      sierra_leone: Sierra Leona
+      singapore: Singapur
+      slovakia: Eslovaquia
+      slovenia: Eslovenia
+      solomon_islands: Islas Salomón
+      somalia: Somalia
+      south_africa: Sudáfrica
+      south_korea: Corea del Sur
+      south_sudan: Sudán del Sur
+      spain: España
+      sri_lanka: Sri Lanka
+      sudan: Sudán
+      suriname: Suriname
+      swaziland: Swazilandia
+      sweden: Suecia
+      switzerland: Suiza
+      syria: Siria
+      taiwan: Taiwán
+      tajikistan: Tayikistán
+      tanzania: Tanzania
+      thailand: Tailandia
+      timor_leste: Timor-Leste
+      togo: Togo
+      tonga: Tonga
+      trinidad_and_tobago: Trinidad y Tabago
+      tunisia: Túnez
+      turkey: Turquía
+      turkmenistan: Turkmenistán
+      tuvalu: Tuvalu
+      uganda: Uganda
+      ukraine: Ucrania
+      united_arab_emirates: Emiratos Árabes Unidos
+      uk: Reino Unido
+      usa: EE. UU. (Estados Unidos de América)
+      uruguay: Uruguay
+      uzbekistan: Uzbekistán
+      vanuatu: Vanuatu
+      vatican: Ciudad del Vaticano (Santa Sede)
+      venezuela: Venezuela
+      vietnam: Viet Nam
+      yemen: Yemen
+      zambia: Zambia
+      zimbabwe: Zimbabwe
+  lookup-priority-level:
+    name: nivel_de_prioridad
+    lookup_values:
+      high: Alto (en un plazo de 24 horas)
+      medium: Medio (en un plazo de 72 horas)
+      low: Bajo
+  lookup-service-referred-gbv:
+    name: Derivación del caso de violencia de género
+    lookup_values:
+      referred: Derivado
+      no_referral_service_provided_by_your_agency: No derivado; servicio prestado por su organismo
+      no_referral_services_already_received_from_another_agency: No derivado; servicios ya recibidos de otros organismos
+      no_referral_service_not_applicable: No derivado; servicio no aplicable
+      no_referral_declined_by_survivor: No derivado; derivación rechazada por la persona superviviente
+      no_referral_service_unavailable: No derivado; servicio no disponible
+  lookup-assessment-duration:
+    name: Duración de la evaluación
+    lookup_values:
+      less_than_15_minutes: Menos de 15 minutos
+      16_30_minutes: 16-30 minutos
+      31_minutes_1_hour: 31 minutos-1 hora
+      1_2_hours: 1-2 horas
+      more_than_2_hours: Más de 2 horas
+  lookup-age-group-type:
+    name: Tipo de grupo de edad
+    lookup_values:
+      adult: Adulto/a
+      minor: Menor
+      unknown: Desconocido
+  lookup-agency-office:
+    name: Oficina del organismo
+    lookup_values:
+      agency_office_1: Oficina 1 del organismo
+      agency_office_2: Oficina 2 del organismo
+      agency_office_3: Oficina 3 del organismo
+      agency_office_4: Oficina 4 del organismo
+      agency_office_5: Oficina 5 del organismo
+  lookup-assessment-progress:
+    name: Progresos de la evaluación
+    lookup_values:
+      n_a: No aplicable
+      in_progress: En curso
+      met: Realizada
+  lookup-gbv-approval-types:
+    name: Tipo de aprobación para supervivientes de violencia de género
+    lookup_values:
+      case_plan: Plan para el caso
+      closure: Cierre
+  lookup-child-minor-age-group:
+    name: Grupo de edad del/la niño/a o menor
+    lookup_values:
+      0_5_year_old: 0-5 años
+      6_12_year_old: 6-12 años
+      13_17_year_old: 13-17 años
+  lookup-marital-status-unknown:
+    name: Estado civil
+    lookup_values:
+      single: Soltero/a
+      married_cohabitating: "Casado/a o pareja de hecho "
+      divorced_separated: Divorciado/a o separado/a
+      unknown_not_applicable: Desconocido/no aplicable
+  lookup-psychosocial-functionality-scale:
+    name: Escala de funcionalidad psicosocial
+    lookup_values:
+      scale_zero: Nada difícil (0 puntos)
+      scale_one: Algo difícil (1 punto)
+      scale_two: Difícil (2 puntos)
+      scale_three: Muy difícil (3 puntos)
+      scale_four: Tan difícil que a menudo no puedo hacerlo (4 puntos)
+  lookup-felt-stigma-scale:
+    name: Escala de estigmatización percibida
+    lookup_values:
+      scale_zero: Nada (0 puntos)
+      scale_one: Un poco (1 punto)
+      scale_two: Moderadamente (2 puntos)
+      scale_three: Mucho (3 puntos)
+  lookup-three-point-agreement-scale-comfortable:
+    name: Escala de evaluación de la comodidad en 3 puntos
+    lookup_values:
+      scale_one: Nada cómodo/a
+      scale_two: Algo cómodo/a
+      scale_three: Completamente cómodo/a
+  lookup-three-point-agreement-scale-friendly:
+    name: Escala de evaluación de la amabilidad en tres puntos
+    lookup_values:
+      scale_one: Nada amable
+      scale_two: Algo amable
+      scale_three: Muy amable
+  lookup-three-point-agreement-scale-judgemental:
+    name: Escala de evaluación de la crítica en tres puntos
+    lookup_values:
+      scale_three: Muy crítico
+      scale_two: Bastante crítico
+      scale_one: Nada crítico
+  lookup-unaccompanied-separated-status:
+    name: Estado de no acompañado/a o separado/a
+    lookup_values:
+      'no': 'No'
+      unaccompanied_minor: Menor no acompañado/a
+      separated_child: Niño/a separado/a
+      other_vulnerable_child: Nino/a huérfano/a o vulnerable
+  lookup-three-point-agreement-scale:
+    name: Escala de evaluación de la aceptación en tres puntos
+    lookup_values:
+      scale_one: Ninguna
+      scale_two: Bastante
+      scale_three: Completa
+  lookup-perpetrator-relationship:
+    name: Relación con el autor
+    lookup_values:
+      intimate_partner_former_partner: Pareja / expareja
+      primary_caregiver: Cuidador primario
+      family_other_than_spouse_or_caregiver: Miembro de la familia distinto del/ de la esposo/a o del cuidador/a
+      supervisor_employer: Supervisor/empleador
+      schoolmate: Compañero de escuela
+      teacher_school_official: Docente / funcionario escolar
+      service_provider: Proveedor de servicios
+      cotenant_housemate: Coinquilino
+      family_friend_neighbor: Amigo de la familia / vecino
+      other_refugee_idp_returnee: Otra persona refugiada / desplazada interna / retornada
+      other_resident_community_member: Otro residente de la comunidad
+      other: Otro
+      no_relation: Sin relación
+      unknown: Desconocido
+  lookup-discovery-method:
+    name: Fuente de la información
+    lookup_values:
+      family_or_friend: Familiar o amigo
+      referral: Derivación de otra organización
+      neighbor: Vecino o miembro de la comunidad
+      community_discussion: Charla comunitaria
+      pamphlet: Folleto o panfleto que vio o recibió
+      other: Otra
+  lookup-gbv-case-closure-reason:
+    name: Motivo del cierre del caso
+    lookup_values:
+      case_closure_suvivor_needs_met: Las necesidades de la persona superviviente se han satisfecho en la medida de lo posible
+      case_closure_suvivor_no_contact: "No ha habido ningún contacto con la persona superviviente durante un período determinado (por ejemplo, más de 30 días)"
+      case_closure_suvivor_request: La persona superviviente solicita que se cierre el caso
+      case_closure_suvivor_left: La persona superviviente se ha marchado de la zona o ya no vive allí
+      case_closure_case_transferred: El caso se transfirió a otra organización
+      case_closure_funding_constraints: El caso se cerró por falta de fondos del proveedor de servicios
+  lookup-ethnicity:
+    name: Etnia
+    lookup_values:
+      ethnicity1: Etnia1
+      ethnicity2: Etnia2
+      ethnicity3: Etnia3
+      ethnicity4: Etnia4
+      ethnicity5: Etnia5
+      ethnicity6: Etnia6
+      ethnicity7: Etnia7
+      ethnicity8: Etnia8
+      ethnicity9: Etnia9
+      ethnicity10: Etnia10
+  lookup-location-type:
+    name: Tipo de ubicación
+    lookup_values:
+      country: País
+      region: Región
+      province: Provincia
+      district: Distrito
+      governorate: Gobernación
+      chiefdom: Jefatura
+      state: Estado
+      city: Ciudad
+      county: Condado
+      camp: Campamento
+      site: Emplazamiento
+      village: Aldea
+      zone: Zona
+      sub_district: Subdistrito
+      locality: Localidad
+      prefecture: Prefectura
+      sub-prefecture: Subprefectura
+      commune: Comuna
+      payam: Payam
+      parish: Parroquia
+      municipality: Municipalidad
+      other: Otra
+  lookup-gbv-sexual-violence-type:
+    name: Tipo de violencia sexual o de género
+    lookup_values:
+      rape: Violación
+      sexual_assault: Abuso sexual
+      physical_assault: Agresión física
+      forced_marriage: Matrimonio forzado
+      denial_of_resources_opportunities_or_services: "Denegación de recursos, oportunidades o servicios"
+      psychological_emotional_abuse: Abuso psicológico / emocional
+      non-gbv: Violencia no relacionada con el género
+  lookup-nationality:
+    name: Nacionalidad
+    lookup_values:
+      nationality1: Nacionalidad1
+      nationality2: Nacionalidad2
+      nationality3: Nacionalidad3
+      nationality4: Nacionalidad4
+      nationality5: Nacionalidad5
+      nationality6: Nacionalidad6
+      nationality7: Nacionalidad7
+      nationality8: Nacionalidad8
+      nationality9: Nacionalidad9
+      nationality10: Nacionalidad10
+  lookup-protection-concerns:
+    name: Preocupaciones en materia de protección
+    lookup_values:
+      physical_abuse_violence: Abuso o violencia físicos
+      sexual_abuse_violence: Abuso o violencia sexuales
+      rape: Violación
+      emotional_or_psychological: Abuso o violencia emocionales o psicológicos
+      neglect: Negligencia
+      abandonment: Abandono
+      child_labour: Trabajo infantil (no las peores formas)
+      hazardous_work: Trabajo peligroso
+      sexual_exploitation: Explotación sexual
+      slavery_sale_abduction: Esclavitud / venta / secuestro / tráfico / trabajo forzado
+      in_conflict_with_the_law: En conflicto con la ley
+      associated_with_armed: Asociado/a con fuerzas o grupos armados
+      deprived_of_liberty: Privado/a de libertad / detenido/a
+      serious_medical_condition: Enfermedad grave
+      functional_difficulty_seeing: "Dificultad funcional (para ver, incluso con lentes)"
+      functional_difficulty_hearing: "Dificultad funcional (para oír, incluso con audífonos)"
+      functional_difficulty_walking: Dificultad funcional (para caminar o usar partes de su cuerpo)
+      functional_difficulty_remembering: Dificultad funcional (para recordar o concentrarse)
+      difficulty_with_self_care: "Dificultades para el cuidado personal, por ejemplo, para alimentarse o vestirse (en comparación con otros/as niños/as de la misma edad)"
+      difficulty_communicating: Dificultades para comunicarse
+      unaccompanied: No acompañado/a
+      separated: Separado/a
+      orphan: Huérfano/a
+      psychosocial_distress: Problemas psicosociales
+      mental_disorder: Trastornos mentales
+      substance_abuse: Abuso de sustancias y adicción (niño/a)
+      belongs_to_marginalised: Pertenencia a un grupo marginado/discriminado
+      lack_of_documentation_birth_registration: Falta de documentación o de registro de nacimiento
+      child_marriage: Matrimonio infantil
+      female_genital_mutilation_fgm: Mutilación genital femenina
+      pregnancy_child_parent: Embarazo / padre niño / madre niña
+      denial_of_resources_opportunities_or_services: "Denegación de recursos, oportunidades o servicios"
+      highly_vulnerable_care: Arreglo de atención muy vulnerable
+      child_survivor_of_explosive: Niño/a superviviente de municiones explosivas
+      other: Otro
+  lookup-service-type:
+    name: Tipo de servicio
+    lookup_values:
+      alternative_care: Modalidades alternativas de atención
+      security_e_g_safe_shelter: "Seguridad (por ejemplo, casa refugio)"
+      education_formal: Educación (formal)
+      non_formal_education: Educación no formal
+      family_tracing_and_reunification: Localización y reunificación de la familia
+      basic_psychosocial_support: Atención psicosocial básica
+      focuses_non_specialized_mhpss_care: Servicio focalizado y no especializado de salud mental y apoyo psicosocial
+      specialized_mhpss_services: Servicio especializado de salud mental y apoyo psicosocial
+      food: Alimentos
+      non_food_items: Artículos no alimentarios
+      cash_assistance: Asistencia en efectivo
+      livelihoods: Medios de vida
+      medical: Médico
+      nutrition: Nutrición
+      legal_support: Apoyo jurídico
+      documentation: Documentación
+      services_for_children_with_disabilities: Servicios para niños/as con discapacidad
+      sexual_and_reproductive_health: Salud sexual y reproductiva
+      shelter: Alojamiento
+      wash: "Agua, saneamiento e higiene (WASH)"
+      durable_solution_in_coordination_with_unhcr: Solución duradera (en coordinación con el ACNUR)
+      relocation: Reubicación
+      other_please_specify: Otro
+  lookup-service-referred:
+    name: Servicio al que se derivó
+    lookup_values:
+      internal_referral: Derivación interna
+      external_referral: Derivación externa
+      referred: Derivado/a
+      service_provided_by_your_agency: Servicio prestado por su organismo
+      services_already_received_from_another_agency: Servicios ya recibidos de otro organismo
+      service_not_applicable: Servicio no aplicable
+      referral_declined_by_survivor: Derivación rechazada por la persona superviviente
+      service_unavailable: Servicio no disponible
+  lookup-displacement-status:
+    name: Situación de desplazamiento
+    lookup_values:
+      asylum_seeker: Solicitante de asilo
+      refugee: Refugiado/a
+      idp: Desplazado/a interno/a
+      migrant: Migrante
+      host_community: Comunidad de acogida
+      returnee: Retornado/a
+      stateless_person: Apátrida
+      resident: Residente
+      foreign_national: Ciudadano/a extranjero/a
+      other: Otra
+  lookup-gbv-reported-elsewhere:
+    name: "“Sí”, “No” o “Desconocido”"
+    lookup_values:
+      'no': 'No'
+      gbvims-org: Sí (organización/organismo del GBVIMS)
+      non-gbvims-org: Sí (organización/organismo no usuario del GBVIMS)
+  lookup-workflow:
+    name: Flujo de trabajo
+    lookup_values:
+      new: Caso nuevo
+      closed: Caso cerrado
+      reopened: Caso reabierto
+      service_provision: Prestación de servicio
+      services_implemented: Se prestaron todos los servicios de respuesta
+      case_plan: Plan del caso
+  lookup-form-group-gbv-case:
+    name: "Grupos de formularios: caso de violencia de género"
+    lookup_values:
+      record_information: Información del expediente
+      consent_for_services: Consentimiento para recibir los servicios
+      documents: Documentos
+      consent_for_referrals: Consentimiento para ser derivado/a
+      safety_plan: Plan de seguridad
+      action_plan: Plan de acción
+      survivor_assessment: Evaluación de la persona superviviente
+      case_closure: Cierre del caso
+      client_feedback: Satisfacción del cliente
+      identification_registration: Identificación / registro
+      referrals_transfers: Derivaciones y transferencias
+      other_reportable_fields: Otros campos notificables
+      pss_scales: Escala de funcionalidad psicosocial
+      felt_stigma_scale: Escala de estigmatización percibida
+      referral: Derivación
+  lookup-form-group-gbv-incident:
+    name: "Grupos de formularios: incidente de violencia de género"
+    lookup_values:
+      gbv_individual_details: Detalles del incidente de violencia de género
+      incident: Incidente
+      type_of_violence: Tipo de violencia
+      record_owner: Responsable del expediente
+      alleged_perpetrator: Presunto autor
+      service_referral: Derivación a otros servicios
+      other_reportable_fields: Otros campos notificables
+      record_information: Información del expediente

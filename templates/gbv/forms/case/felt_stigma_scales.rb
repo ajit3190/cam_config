@@ -86,7 +86,28 @@ felt_stigma_subform_section_fields = [
             'option_strings_source' => 'lookup lookup-felt-stigma-scale'),
   Field.new('name' => 'felt_stigma_score',
             'type' => 'numeric_field',
-            'display_name_en' => 'Score'),
+            'calculation' => {
+              'type' => 'number',
+              'expression' => {
+                'avg' => [ 'feelings_worthlessness', 'feeling_detached', 'feeling_badly_treated',
+                  'feeling_shame', 'blaming_yourself', 'feeling_rejected',
+                  'feeling_stigma', 'wanting_to_avoid_people', 'feeling_family_gazes',
+                  'feeling_community_gaze' ]
+              }
+            },
+            'display_name_en' => 'Average Score'),
+  Field.new('name' => 'felt_stigma_score_calc',
+            'type' => 'calculated',
+            'calculation' => {
+              'type' => 'number',
+              'expression' => {
+                'sum' => [ 'feelings_worthlessness', 'feeling_detached', 'feeling_badly_treated',
+                  'feeling_shame', 'blaming_yourself', 'feeling_rejected',
+                  'feeling_stigma', 'wanting_to_avoid_people', 'feeling_family_gazes',
+                  'feeling_community_gaze' ]
+              }
+            },
+            'display_name_en': 'Total Score'),
   Field.new('name' => 'felt_stigma_score_notes',
             'mobile_visible' => true,
             'type' => 'textarea',

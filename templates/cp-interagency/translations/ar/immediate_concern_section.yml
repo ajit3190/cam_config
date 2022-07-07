@@ -1,0 +1,19 @@
+---
+ar:
+  immediate_concern_section:
+    name: مخاوف فورية متداخلة
+    description: النموذج الفرعي للمخاوف الفورية
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: نوغ المخاوف الفورية
+        option_strings_text:
+          health_care: الرعاية الصحية
+          safety: السلامة
+          interim_care: رعاية مؤقتة
+          other: أخرى
+      immediate_concerns_immediate_concern_type_other:
+        display_name: إذا اخترت  غير ذلك ، يرجى التحديد
+      immediate_concerns_immediate_concern_summary:
+        display_name: ملخص المشكلة او القضية
+      immediate_concerns_immediate_concern_action:
+        display_name: " الإجراءات الفورية التي اتخذت/ إجراء الإحالة"

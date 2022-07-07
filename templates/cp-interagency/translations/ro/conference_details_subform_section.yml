@@ -1,0 +1,89 @@
+ro:
+  conference_details_subform_section:
+    name: Detalii Conferință
+    description: Detalii Conferință
+    fields:
+      conference_date:
+        display_name: Dată Conferință Caz
+      conference_reason:
+        display_name: Motiv Conferință Caz
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: O mutare potențială a unui copil de la îngrijitorul principal/ obișnuit/ legal (autorizat de autoritatea guvernamentală)
+          placement_of_a_child_into_alternative_care: Plasarea unui copil în îngrijire alternativă
+          situation_of_family_reunification_with_potential_harm_to_the_child: Situație de reîntregire a familiei cu potențial dăunător asupra copilului
+          relocation_of_the_child: Relocarea copilului
+          complex_child_protection_case_requiring_a_multi_partner_intervention: Caz complex de protecție a copilului care necesită o intervenție multipartenerială
+          other: Altceva
+      conference_reason_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      conference_participants:
+        display_name: Participanți
+        help_text: Listează fiecare participant la conferință. Include numele lor, rolul sau relația lor cu copilul, organizația și un număr de telefon sau e-mail de contact
+      conference_current_situation:
+        display_name: Scurt rezumat al situației actuale
+        help_text: Evidențiază toate problemele majore de protecție, aranjamentul actual de îngrijire a copilului și furnizează o prezentare generală a motivelor conferinței de caz
+        guiding_questions: |-
+          Dacă conferința de caz se ține în timpul etapei de planificare a cazului: rezumați factorii cheie de risc, factorii de protecție și nevoile copilului (și familiei) pornind de la evaluarea nevoilor
+          Dacă se ține conferința de caz în timpul etapei de urmărire și revizuire: descrieți situația actuală generală a copilului.
+      conference_discussions_options:
+        display_name: Discuții privind opțiunile de servicii/ intervenții legate de interesul superior al copilului
+        help_text: Enumeră potențialele efecte pozitive și negative asupra copilului ale fiecărei opțiuni de serviciu și dacă acestea sunt sau nu adecvate și în interesul superior al copilului, dată fiind situația cazului.
+        guiding_questions: Participanții ar trebui să discute posibile opțiuni pentru a răspunde provocărilor cu care se confruntă cazul care a dus la conferința de caz. Responsabilul de caz ar trebui să ia notițe detaliate în timpul discuțiilor.
+      conference_outcome_recommendations:
+        display_name: Rezultatul și recomandările panelului
+        help_text: Rezumă justificările deciziilor luate și recomandările de mai jos. Acțiunile planificate trebuie să fie actualizate în planurile individuale de caz de către responsabilii de caz.
+      conference_case_status:
+        display_name: Status Caz
+        help_text: Dacă cazul va fi închis, te rugăm să completezi formularul de închidere.
+      conference_case_status_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      conference_other_assessment:
+        display_name: S-a schimbat situația copilului în așa fel încât să justifice o altă evaluare?
+      other_assessment_specify:
+        display_name: Te rugăm să furnizezi detalii
+      conference_adjustments:
+        display_name: Sunt necesare ajustări în planul de servicii?
+      adjustments_specify:
+        display_name: Te rugăm să furnizezi detalii
+      conference_reason_multi:
+        display_name: S-a schimbat nivelul de risc al cazului?
+        option_strings_text:
+          'no': 'Nu'
+          yes_changed_to_high: Da, a crescut
+          yes_changed_to_medium: Da, a devenit mediu
+          yes_change_to_low: Da, s-a redus
+          yes_changed_to_no: Da, s-a schimbat în nu
+      risk_level_changed_specify:
+        display_name: Te rugăm să furnizezi detalii
+      conference_case_transfer_reason:
+        display_name: Dacă cazul va fi transferat, te rugăm să furnizezi motivul
+        guiding_questions: |-
+          Detalii suplimentare:
+          1) O altă organizație/ instituție este mai bine plasată pentru a gestiona cazul datorită serviciilor specializate solicitate de copil.
+          2) Copilul/familia se mută într-o nouă locație; cazul va fi transferat la Agenția pentru Protecția Copilului care lucrează în acea locație.
+          3) Există motive organizatorice pentru transferarea cazului acestui copil; cazul va fi închis și transferat unei alte organizații/ instituții.
+          4) Copilul este relocat din cauza problemelor de protecție în familia/comunitatea sa.
+          5) Copilul a împlinit 18 ani și cazul este transferat către o autoritate de protecție care oferă servicii persoanelor de 18 ani sau peste, deoarece copilul are un handicap fizic sau psihic și necesită protecție continuă.
+        option_strings_text:
+          specialized_service: 1) Sunt necesare servicii specializate
+          new_location: 2) Mutare într-o nouă locație
+          organisational_reasons: 3) Motive organizatorice
+          protection_concerns: 4) Relocare din cauza problemelor de protecție
+          child_turned_18: 5) Copilul a împlinit 18 ani și necesită protecție continuă
+          other: 6) Altceva
+      conference_case_transfer_reason_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      conference_followup_actions:
+        display_name: Reveniri/ referiri/ serviciile necesare și persoanele responsabile
+        guiding_questions: Asigură-te că copilul/ îngrijitorul este informat despre rezultatul conferinței de caz, precum și despre toate recomandările și acțiunile necesare. Acțiunile planificate vor fi actualizate în planuri individuale de caz de către Responsabilii de caz/ Asistentul social/ personalul organizației/ instituției.
+      details_anyone_disagrees:
+        display_name: Detalii despre oricine nu este de acord cu anumite părți ale planului și de ce
+      was_child_present:
+        display_name: Copilul a fost prezent?
+      was_caregiver_present:
+        display_name: A fost îngrijitorul prezent?
+      conference_monitoring_schedule:
+        display_name: Revenire/ program monitorizare
+        help_text: De exemplu, revenire săptămâna viitoare, luni, cu privire la serviciile care urmează să fie furnizate și în săptămâna viitoare, vineri, cu privire la situația copilului. Reveniți și monitorizați cel puțin de două ori pe săptămână în următoarea lună. Dacă situația progresează conform așteptărilor, atunci modificați programul de revenire și monitorizare începând cu luna viitoare, pe baza întâlnirii de revizuire și a nivelului de risc înregistrat la sfârșitul acestei luni.
+      date_next_conference:
+        display_name: Dacă este necesar, notează data următoarei conferințe de caz

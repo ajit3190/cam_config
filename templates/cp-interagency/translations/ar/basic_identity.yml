@@ -1,0 +1,107 @@
+---
+ar:
+  basic_identity:
+    name: تفاصيل الطفل
+    description: معلومات الهوية الأساسية لطفل منفصل أو غير مصحوب بذويه
+    fields:
+      case_id_display:
+        display_name: هوية الحالة
+      cpims_id:
+        display_name: رمز الحالة السابق
+        help_text: معرّف CPIMS القديم (أو نظام آخر)
+      marked_for_mobile:
+        display_name: معرف الجوال
+        tick_box_label: 'نعم'
+      child_status:
+        display_name: وضع الحالة
+      case_status_reopened:
+        display_name: هل أعيد فتح الحالة؟
+        tick_box_label: 'نعم'
+      case_status_reopened_reasons:
+        display_name: سبب اعادة فتح الحالة
+        option_strings_text:
+          break_down_of_reunification_placement: انفصال الشمل / التنسيب
+          death_of_caregiver_s: وفاة مقدم(ة) الرعاية
+          physical_abuse_violence: الاعتداء  / العنف الجسدي
+          sexual_abuse_violence: الاعتداء / العنف  الجنسي
+          emotional_or_psychological_abuse_violence: الإساءة العاطفية أو النفسية / العنف
+          physical_neglect: الإهمال الجسدي
+          emotional_neglect: الاهمال العاطفي
+          medical_neglect: الاهمال الطبي
+          educational_neglect: الاهمال التعليمي
+          supervisory_neglect: الاهمال الاشرافي
+          abandonment: الهجر
+          child_labour: عمالة الاطفال
+          hazardous_work: الاعمال الخطيرة
+          sexual_exploitation: الاستغلال الجنسي
+          slavery_sale_trafficking_forced_labour: العبودية / البيع / الإتجار / العمل القسري
+          in_conflict_with_the_law: في نزاع مع القانون
+          associated_with_armed_forces_or_groups: مرتبط بقوات أو مجموعات مسلحة
+          unaccompanied: من غير مرافق
+          separated: المنفصلين
+          orphan: اليتيم
+          functional_difficulties: صعوبات وظيفية (تشهد على سبيل المثال، والسمع، والمشي، والتواصل، والتذكر / التركيز، والرعاية الذاتية)
+          psychosocial_distress: الضائقة النفسية
+          substance_abuse_and_addiction_child: تعاطي المخدرات والإدمان (طفل)
+          belongs_to_marginalised_discriminated_group: ينتمي إلى فئة مهمشة / معرضة للتمييز
+          lack_of_documentation_birth_registration: عدم وجود وثائق / تسجيل الميلاد
+          child_marriage: زواج الاطفال
+          fgm: ختان الإناث
+          pregnancy_child_parent: الحمل / (الاب او الام) الطفل
+          inappropriate_care_arrangement: ترتيب رعاية غير مناسب (على سبيل المثال> 8 أطفال في المنزل ، أو تعاطي المخدرات من قبل مقدم الرعاية ، أو مقدم رعاية عازب ضعيف)
+          other: أخرى
+      name:
+        display_name: الاسم الكامل
+      name_first:
+        display_name: الاسم الاول
+      name_middle:
+        display_name: الاسم الاوسط
+      name_last:
+        display_name: الكنية
+      name_nickname:
+        display_name: اللقب
+      name_other:
+        display_name: اسم آخر
+      registration_date:
+        display_name: تاريخ التسجيل
+      identification_date:
+        display_name: تاريخ تحديد الحالة / الإبلاغ عنها
+      assessment_due_date:
+        display_name: تاريخ استحقاق التقييم
+      sex:
+        display_name: الجنس
+      age:
+        display_name: العمر
+      date_of_birth:
+        display_name: تاريخ الميلاد
+      estimated:
+        display_name: هل العمر تقديري؟
+        tick_box_label: 'نعم'
+      national_id_no:
+        display_name: رقم الهوية الوطنية
+      unhcr_individual_no:
+        display_name: هوية الفردية الخاصة بالمفوضية السامية لشؤون اللاجئين
+      other_id_type:
+        display_name: نوع وثيقة الهوية الأخرى ذات الصلة
+      other_id_no:
+        display_name: رقم الهوية الأخرى ذات الصلة
+      nationality:
+        display_name: الجنسية
+      ethnicity:
+        display_name: العرق / العشيرة / القبيلة
+      sub_ethnicity_1:
+        display_name: العرق الفرعي 1
+      sub_ethnicity_2:
+        display_name: العرق الفرعي 2
+      language:
+        display_name: اللغات التي يتحدث بها الطفل
+      religion:
+        display_name: الدين
+      displacement_status:
+        display_name: المجموعة السكانية
+      displacement_status_other:
+        display_name: يرجى التحديد إن كنت اخترت غير ذلك
+      disability_type_communications:
+        display_name: احتياجات الاتصال الخاصة
+      telephone_current:
+        display_name: هاتف الطفل / تفاصيل الاتصال الأخرى

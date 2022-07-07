@@ -1,0 +1,18 @@
+fa-AF:
+  summary_and_conclusions:
+    name: 'خلاصه و جمع بندی '
+    description: 'فورم جمع بندی و خلاصه '
+    fields:
+      assessment_summary:
+        display_name: خلاصه
+        help_text: عوامل خطر ، عوامل محافظتی و نیازهای اصلی را بر اساس بخشهای ارزیابی فوق را  جمع بندی کرده و نظرات / آرزو های  های طفل  (و خانواده) را در نظر بگیرید.
+      protection_concerns:
+        display_name: 'نگرانی های امنیتی '
+        help_text: ساحات  مشترک با فورم نگرانی های محافظتی     .
+      protection_concerns_other:
+        display_name: 'اگر وغیره علطفآمشخص سازید '
+      risk_level:
+        display_name: 'سطح خطر '
+        help_text: .این قسمت نیز در فرم  نگرانی های محافظتی  ها قرار دارد. در صورت عدم وجود سطح خطر ، قضیه ممکن است بسته شود.
+      assessment_risk_level_reasons:
+        display_name: 'خلاصه دلایل برای سطح خطر '

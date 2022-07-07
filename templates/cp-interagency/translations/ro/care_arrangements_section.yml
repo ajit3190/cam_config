@@ -1,0 +1,100 @@
+ro:
+  care_arrangements_section:
+    name: Aranjamente Caz Imbricate
+    description: Subformular Aranjamente Caz
+    fields:
+      child_caregiver_reason_change:
+        display_name: Dacă acesta este un nou îngrijitor, indică motivul schimbării
+        option_strings_text:
+          abuse_exploitation: Abuz și Exploatare
+          death_of_caregiver: Decesul îngrijitorului
+          Education: Educație
+          ill_health_of_caregiver: Sănătatea precară a îngrijitorului
+          other: Altceva
+          poverty: Sărăcie
+          relationship_breakdown: Ruperea legăturilor
+      care_arrangements_type:
+        display_name: Care sunt aranjamentele actuale de îngrijire asociate copilului?
+        option_strings_text:
+          parent_s: Părinții
+          step_parent: Părinte vitreg
+          customary_caregiver_s: Îngrijitorii obișnuiți
+          adult_sibling: Soră/ frate adult
+          kinship_care_extended_family: Îngrijirea prin rude/ familie extinsă
+          foster_care: Asistență maternală
+          residential_care: Orfelinat
+          kafala: Kafala
+          independent_living: Trai independent/ pe cont propriu
+          child_headed_household: Gospodărie condusă de copil
+          unrelated_adult: Adult neînrudit
+          no_care_arrangement: Niciun aranjament de îngrijire
+          other: Altceva
+      care_arrangements_type_other:
+        display_name: Altceva, menționați
+      name_caregiver_separator:
+        display_name: Dacă nu este cu părinții, cine este persoana care îngrijește copilul în principal.
+      name_caregiver:
+        display_name: Numele îngrijitorului actual
+        help_text: "(Dacă copilul este cu părinții, mergeți la Aranjamente de îngrijire)"
+      nickname_caregiver:
+        display_name: Alt nume după care este cunoscut îngrijitorul
+        help_text: de exemplu, porecla, al doilea nume de familie
+      caregiver_age:
+        display_name: Vârsta îngrijitorului
+      caregiver_dob:
+        display_name: Data nașterii îngrijitorului (DOB)
+      age_estimated_caragiver:
+        display_name: Vârsta este estimată?
+        tick_box_label: 'Da'
+      caregiver_sex:
+        display_name: Sex
+      caregiver_national_id:
+        display_name: Cod numeric personal
+      caregiver_unhcr_individual_id:
+        display_name: ID unic UNHCR
+      caregiver_other_id:
+        display_name: Alt ID
+      caregiver_related_child:
+        display_name: Îngrijitorul este înrudit cu copilul?
+      relationship_caregiver:
+        display_name: Relația cu copilul
+      caregiver_know_family:
+        display_name: Dacă nu sunt rude, îngrijitorul cunoaște familia copilului?
+      family_size_under_18:
+        display_name: 'Dimensiunea familiei: sub 18'
+      family_size_over_18:
+        display_name: 'Dimensiunea familiei: peste 18'
+      address_caregiver:
+        display_name: Adresa Îngrijitorului
+        guiding_questions: Adaugă aici adresa și locația îngrijitorului, chiar dacă sunt aceleași cu adresa actuală a copilului pentru urmărire, în cazul în care copilul se mută sau dacă se schimbă îngrijitorul.
+      location_caregiver:
+        display_name: Locația Îngrijitorului
+      care_arrangement_started_date:
+        display_name: Când a început acest aranjament de îngrijire?
+      caregiver_willing_to_continue:
+        display_name: Îngrijitorul este dispus să continue să aibă grijă de copil?
+        option_strings_text:
+          yes_short_term: Da, pe termen scurt
+          yes_long_term: Da, pe termen lung
+          'no': 'Nu'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: Dacă da, pentru cât timp?
+      caregiver_willing_to_continue_not_reason:
+        display_name: Dacă nu doriți să continuați îngrijirea copilului, furnizați detalii
+      caregiver_location_status:
+        display_name: Locația actuală a îngrijitorului este temporară
+      address_caregiver_future:
+        display_name: Dacă da, care este adresa viitoare?
+      location_caregiver_future:
+        display_name: Care este locația viitoare?
+      telephone_caregiver_future:
+        display_name: Care este viitorul număr de telefon?
+      telephone_caregiver:
+        display_name: Numărul de telefon al Îngrijitorului
+        help_text: Introduceți telefonul curent al îngrijitorului/ alte detalii de contact
+      child_consent_caregiver_contacted:
+        display_name: Copilul este de acord ca îngrijitorul să fie contactat?
+      child_consent_caregiver_contacted_no_details:
+        display_name: 'Dacă nu, te rugăm să furnizezi detalii:'
+      other_persons_living_in_household:
+        display_name: Alte persoane care locuiesc în gospodărie

@@ -1,0 +1,42 @@
+ro:
+  transitions:
+    name: Subformular Tranziții Imbricate
+    description: Subformular Tranziții
+    fields:
+      type:
+        display_name: Tip
+      to_user_local:
+        display_name: Utilizator Local
+      to_user_remote:
+        display_name: Utilizator la Distanță
+      to_user_local_status:
+        display_name: Status
+        option_strings_text:
+          in_progress: În desfășurare
+          pending: În așteptare
+          accepted: Acceptat
+          rejected: Respins
+          done: Îndeplinit
+      rejected_reason:
+        display_name: Motiv respingere (dacă este cazul)
+      to_user_agency:
+        display_name: Organizația/ instituția Utilizatorului la Distanță
+      notes:
+        display_name: Notițe
+      transitioned_by:
+        display_name: Transferat sau Referit de
+      service:
+        display_name: Serviciu
+      is_remote:
+        display_name: Este referirea sau transferul către un sistem distant?
+        tick_box_label: 'Da'
+      type_of_export:
+        display_name: Ce tip de export preferi
+      consent_overridden:
+        display_name: Rescriere Niciun Consimțământ pentru Partajare Setare
+        tick_box_label: 'Da'
+      consent_individual_transfer:
+        display_name: Responsabilul de caz a avut acordul copilului pentru a face acest transfer?
+        tick_box_label: 'Da'
+      created_at:
+        display_name: Dată referire sau transfer

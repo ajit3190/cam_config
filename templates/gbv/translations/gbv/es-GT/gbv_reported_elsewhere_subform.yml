@@ -1,0 +1,18 @@
+---
+es-GT:
+  gbv_reported_elsewhere_subform:
+    name: Subformulario para incidentes de violencia de género notificados en otro servicio
+    description: Subformulario para incidentes de violencia de género notificados en otro servicio
+    fields:
+      gbv_reported_elsewhere_organization_type:
+        display_name: Tipo de proveedor de servicios donde la persona superviviente notificó el incidente
+        option_strings_text:
+          health_medical_service: Servicios de salud o médicos
+          psychosocial_service: Servicios de apoyo psicosocial o de asesoramiento
+          police_other_service: Policía u otro agente de seguridad
+          legal_assistance_service: Servicios de asistencia jurídica
+          livelihoods_service: Programa de medios de vida
+          safehouse_service: Casa refugio o albergue
+          other: Otro
+      gbv_reported_elsewhere_organization_provider:
+        display_name: Nombre del proveedor de servicios

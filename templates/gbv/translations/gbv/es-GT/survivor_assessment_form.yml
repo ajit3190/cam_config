@@ -1,0 +1,132 @@
+---
+es-GT:
+  survivor_assessment_form:
+    name: Evaluación de la persona superviviente
+    description: Evaluación de la persona superviviente
+    fields:
+      assessment_family_situation:
+        display_name: Situación familiar de la persona superviviente (para adultos)
+        guiding_questions: |-
+          Situación familiar de la persona superviviente (para adultos)
+
+          Situación familiar de la persona superviviente (si se trata de una persona adulta):
+
+          ¿Está casada o vive en pareja? (si el autor no es su esposo/a o pareja, ¿sabe este/a lo que le ocurrió)
+
+          ¿Tiene hijos/as? En caso afirmativo, ¿cuántos, y de qué edad? ¿Viven sus hijos con ella?
+
+          ¿Qué otros miembros de la familia están presentes en la vida cotidiana de la persona superviviente? ¿Tiene esta otros parientes que estén presentes en su vida?
+      assessment_current_living_situation:
+        display_name: Alojamiento actual de la persona superviviente
+        guiding_questions: |-
+          Alojamiento actual de la persona superviviente
+
+          ¿Dispone la persona superviviente de un lugar en el que vivir? ¿Dónde? ¿Quién vive con ella? ¿Vive con su esposo/a o pareja? ¿Vive cerca algún pariente?
+      assssment_survivor_occupation:
+        display_name: Ocupación o función de la persona superviviente
+        guiding_questions: |-
+          Ocupación o función de la persona superviviente
+
+          ¿La persona superviviente trabaja? ¿Trabaja en casa? ¿Tiene un empleo remunerado? ¿Trabaja a tiempo parcial o a jornada completa? ¿Desempeña alguna función especial en la comunidad en la que vive?
+      assessment_child_considerations:
+        display_name: Consideraciones especiales para el caso de niños/as supervivientes
+        guiding_questions: |-
+          Consideraciones especiales para el caso de niños/as supervivientes
+
+          ¿Vive el niño o la niña con sus padres? (si sus padres o tutores no son los autores, ¿saben estos lo que le ocurrió?)
+
+          ¿Qué otros miembros de la familia están presentes en la vida cotidiana de la persona superviviente?
+
+          ¿Tiene esta otros parientes que estén presentes en su vida?
+      assessment_presenting_problem:
+        display_name: Razones por las que la persona superviviente solicita los servicios de gestión del caso
+        guiding_questions: |-
+          Razones por las que la persona superviviente solicita los servicios de gestión del caso
+
+          Averiguar qué problemas, preocupaciones o cuestiones han llevado a la persona superviviente a solicitar asistencia/apoyo.
+          Entre los motivos pueden incluirse, por ejemplo, la seguridad inmediata, la seguridad de los hijos/as, la necesidad de acceso a recursos económicos o asistencia médica, la percepción de los demás, etc.
+      assessment_emotional_state_end:
+        display_name: Describa qué le ocurrió a la persona superviviente en sus palabras.
+        guiding_questions: |-
+          Describa qué le ocurrió a la persona superviviente con sus propias palabras.
+
+          Describa, en palabras de la persona superviviente, qué le ocurrió (no lo sugiera).
+
+          ¿Qué le ocurrió a la persona superviviente?
+
+          ¿Qué tipo de violencia se produjo?
+
+          ¿Cuándo sucedió?
+
+          ¿Qué impulsó a la persona superviviente a solicitar los servicios?
+
+          ¿Cuáles son sus principales preocupaciones?
+
+          ¿Qué tipo de ayuda desea recibir?
+      assessment_main_concerns_header:
+        display_name: Puntos clave de la evaluación
+        guiding_questions: |-
+          Puntos clave de la evaluación
+
+          Resuma los puntos clave de la evaluación relacionados con la naturaleza, el momento, la frecuencia y la gravedad de la violencia reportada, qué relación tienen el o los autores con la persona superviviente y si estos pueden acceder fácilmente a la persona superviviente, con el fin de determinar el riesgo. Valorar su bienestar emocional, su capacidad de realizar las tareas diarias, su sensación general de seguridad en el mundo y su capacidad de confiar en los demás. Determinar qué necesidades tiene (necesidades en materia de seguridad o salud, de apoyo psicosocial, jurídicas o en materia de justicia, prácticas/materiales u otras necesidades), así como sus puntos fuertes y sus estrategias de afrontamiento, a fin de determinar si necesita apoyo psicosocial y efectuar las derivaciones apropiadas y oportunas.
+      assessment_current_situation:
+        display_name: Situación actual y riesgos inminentes
+        guiding_questions: "Situación actual y riesgos inminentes\n\nDeterminar qué situaciones, circunstancias y personas continúan dañando a la persona superviviente o representan un riesgo para ella. \n\n¿Saben el o los autores dónde se encuentra la persona superviviente en este momento? En caso afirmativo, ¿cree ella que el/los autor/es podrían ir a buscarla allá?\n\n¿Cuándo tuvo lugar el incidente (fecha/hora)? ¿Está la persona superviviente sangrando o tiene una lesión aguda o un dolor intenso (especialmente lesiones en la cabeza)? ¿Hubo penetración vaginal/anal forzada? ¿Se utilizaron la fuerza física o armas? ¿Con qué frecuencia ha experimentado la persona superviviente otros episodios de violencia similares a este?\n\n¿Qué relación tiene la persona superviviente con el autor? ¿Tiene el autor acceso a un arma? ¿Puede el autor acceder fácilmente a la persona superviviente (por ejemplo, vive en el mismo hogar, vecindario, etc.)? ¿Tiene el autor antecedentes de violencia contra otras personas, de abuso de drogas o alcohol, o de depresión u otros problemas de salud mental?\n\n¿Ha buscado la persona superviviente ayuda con anterioridad, o ha recibido ya atención y tratamiento? ¿Manifiesta la persona superviviente tener o haber tenido pensamientos suicidas? (En este caso, siga el protocolo de evaluación del riesgo de suicidio)"
+      assessment_emotional_state_header:
+        display_name: Perfil de la persona superviviente
+        help_text: "Proporcione la información demográfica básica sobre la persona superviviente (sexo, edad, situación de desplazamiento y cualquier otra información pertinente, entre otros datos)."
+        guiding_questions: |-
+          Perfil de la persona superviviente
+
+          ¿Es la persona superviviente una mujer, un hombre, una niña, un niño o una persona con otra identidad de género?
+
+          ¿Qué edad tiene la persona superviviente? ¿Es un niño/a o un adulto/a?
+
+          ¿Tiene la persona superviviente la condición de residente, refugiada o desplazada interna?
+      assessment_safety_needs:
+        display_name: Necesidades en materia de seguridad
+        guiding_questions: |-
+          Necesidades en materia de seguridad
+
+          ¿Estará la persona superviviente en peligro inmediato cuando abandone las instalaciones? ¿Se siente segura en su casa? (Nota: existen herramientas que pueden ayudar al/la asistente social a determinar estos factores, como la escala de seguridad). ¿Alguna vez ha tratado la persona superviviente de obtener ayuda de alguien más? ¿Alguna vez ha intentado irse? ¿Existen aspectos del perfil del autor o del tipo de violencia que la exponen a un peligro inmediato?
+      assessment_health_needs:
+        display_name: Necesidades en materia de salud
+        guiding_questions: |-
+          Necesidades en materia de salud
+
+          ¿Necesita o desea el/la cliente atención médica?
+
+           ¿Ocurrió el último incidente en las últimas 120 horas?
+
+          ¿Desearía la persona superviviente obtener más información sobre las opciones que tiene en materia de medicación y chequeo médico?
+
+          ¿Se queja de dolores físicos, lesiones, sangrado o secreciones?
+      assessment_psychosocial_needs:
+        display_name: Necesidades de apoyo psicosocial
+        guiding_questions: "Necesidades de apoyo psicosocial\n\n¿Cómo describe la persona superviviente su estado emocional?\n\nA partir de sus observaciones, ¿cómo describiría la apariencia y el comportamiento de la persona superviviente? ¿Hay algo extraño o inusual en su apariencia o comportamiento en este momento? ¿Cuál es su percepción de su grado de funcionamiento? (Preste atención a ciertos indicios, por ejemplo, si la persona superviviente dejó de salir de su casa, de realizar sus actividades diarias o de hablar o ver a familiares y amistades, o si sus patrones de sueño y sus hábitos alimenticios están alterados).\n\n¿Se siente la persona superviviente triste o desesperanzada por su situación o su vida la mayor parte del tiempo? ¿Se queja de dolores físicos? ¿Habla de otros cambios o dificultades importantes?\n\n¿Qué tipo de apoyo social tiene la persona superviviente? ¿Con quién le gusta hablar o pasar tiempo fuera de su casa? ¿Tiene amistades o personas en las que pueda confiar? ¿Quiénes son sus fuentes de apoyo emocional? ¿Ha podido ponerse en contacto con estos apoyos sociales desde el incidente? ¿Cómo la han ayudado? ¿Qué personas, elementos, ideas o experiencias de su vida considera ella que le dan esperanza y fortaleza? \n\n¿Con qué activos cuenta la persona superviviente (por ejemplo, personas, conocimientos, habilidades, ingresos, vivienda)? ¿Tiene mecanismos de afrontamiento positivos? ¿Cuáles? ¿La religión o la fe desempeñan un papel importante en su vida? ¿Ha podido recurrir a su fe o su práctica religiosa desde el incidente? ¿Le ha esto ayudado? ¿Cómo?"
+      assessment_legal_needs:
+        display_name: Necesidades jurídicas/en materia de justicia
+        guiding_questions: |-
+          Necesidades jurídicas/en materia de justicia
+
+          ¿Desea la persona superviviente presentar una denuncia ante las autoridades formales o emprender acciones legales?
+
+          ¿Qué aspectos debe la persona superviviente tener en cuenta a la hora de decidir emprender acciones legales (riesgos, beneficios, tiempo, costo)? ¿Es para ella prioritario emprender acciones legales? ¿Qué información necesita el/la cliente para tomar una decisión al respecto?
+
+          ¿Desea la persona superviviente obtener más información sobre sus derechos conforme a la legislación u opciones para presentar su caso ante el sistema judicial formal o el sistema de justicia tradicional/informal? ¿Entiende las diferencias entre la manera en que el caso se gestionaría a través de los mecanismos judiciales formales y la manera en que se gestionaría a través de los mecanismos de justicia tradicionales?
+      assessment_material_needs:
+        display_name: Necesidades prácticas/materiales
+        guiding_questions: |-
+          Necesidades prácticas/materiales
+
+          ¿Dispone la persona superviviente de algún ingreso?
+
+          ¿Dispone de alimentos, ropa, crédito telefónico, transporte, etc.?
+
+          ¿Con qué apoyos cuenta, por ejemplo, en su familia y en la comunidad, o en otros ámbitos?
+
+          ¿Influye la falta de ingresos de la persona superviviente en su grado de seguridad?
+
+          ¿La falta de ingresos o de acceso a ellos de la persona superviviente la expone a ser víctima de violencia?
+      assessment_completion_timing:
+        display_name: "¿Cuánto tiempo le llevó completar la evaluación de este caso?"

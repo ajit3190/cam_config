@@ -1,0 +1,30 @@
+---
+ar:
+  tracing_actions_section:
+    name: إجراء التتبع المتداخل
+    description: "نموذج إجراء التتبع الفرعي "
+    fields:
+      date_tracing:
+        display_name: تاريخ التتبع
+      tracing_type:
+        display_name: نوع الاجراء المُتخذ
+        option_strings_text:
+          case_by_case_tracing: تتبع كل حالة على حدة
+          individual_tracing: التتبع الفردي
+          mass_tracing: التتبع الجماعي
+          photo_tracing: تتبع الصور
+          referral_to_ngo: الإحالة إلى منظمة غير حكومية
+          referral_to_icrc: الاحالة الى اللجنة الدولية للصليب الأحمر
+      address_tracing:
+        display_name: العنوان / القرية التي تم فيها التتبع
+      location_tracing:
+        display_name: موقع التتبع
+      tracing_action_description:
+        display_name: الإجراءات المتخذة والملاحظات
+      tracing_outcome:
+        display_name: نتيجة إجراء التتبع
+        option_strings_text:
+          pending: قيد الانتظار
+          successful: ناجح
+          unsuccessful: غير ناجح
+          'yes': 'نعم'

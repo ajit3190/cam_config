@@ -1,0 +1,28 @@
+fr:
+  assessment_status:
+    name: État d'avancement de l'évaluation
+    description: Formulaire d'état d'avancement de l'évaluation
+    fields:
+      bia_approved:
+        display_name: Approuvé par le superviseur
+        tick_box_label: 'Oui'
+      bia_approved_date:
+        display_name: Date
+      bia_approved_comments:
+        display_name: Commentaires du superviseur
+      approval_status_bia:
+        display_name: Statut d'approbation
+      assessment_header:
+        display_name: FORMULAIRE D’ÉVALUATION
+      assessment_requested_on:
+        display_name: Date de début de l'évaluation
+        help_text: Ce champ est utilisé pour le statut du Workflow.
+      assessment_completed_on:
+        display_name: Évaluation terminée le
+      case_plan_due_date:
+        display_name: Date d'échéance du plan de prise en charge
+        guiding_questions: |-
+          En fonction du niveau de risque du cas.
+          Élevé : dans les 3 jours qui suivent l’évaluation.
+          Moyen : dans la semaine qui suit l’évaluation.
+          Faible : dans les 2 semaines qui suivent l’évaluation.

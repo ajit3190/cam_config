@@ -1,0 +1,48 @@
+---
+es-GT:
+  gbv_sexual_violence:
+    name: Tipo de violencia
+    description: Tipo de violencia
+    fields:
+      gbv_sexual_violence_type:
+        display_name: Tipo de violencia durante el incidente
+        guiding_questions: |-
+          Los seis tipos principales de violencia de género y sus definiciones son las siguientes:
+
+          1. Violación: penetración vaginal, anal u oral no consentida (aunque sea parcial) con el pene u otra parte del cuerpo. También incluye la penetración vaginal o anal no consentida con un objeto. Como ejemplos se pueden citar, aunque no a título exhaustivo, la violación en grupo, la violación conyugal, la sodomía o sexo oral forzado. Este tipo de violencia de género no incluye la tentativa de violación, ya que en este caso no hay penetración.
+
+          2. Abuso sexual: cualquier forma de contacto sexual no consentido que no dé como resultado o no incluya la penetración. Como ejemplos se pueden citar, aunque no a título exhaustivo, la tentativa de violación, los besos, las caricias o los tocamientos no deseados en los senos, los genitales y los glúteos, y la mutilación o ablación genital femenina. Este tipo de violencia de género no incluye la violación, ya que esta implica la penetración.
+
+          3. Agresión física: violencia física que no es de índole sexual. Como ejemplos se pueden citar, aunque no a título exhaustivo, los golpes, las bofetadas, los estrangulamientos, los cortes, los empujones, las quemaduras, los disparos o el uso de cualquier arma, los ataques con ácido o cualquier otro acto que resulte en dolor físico, malestar o lesión. Este tipo de violencia de género no incluye la mutilación o ablación genital femenina o el asesinato por honor.
+
+          4. Matrimonio forzado: matrimonio de una persona en contra de su voluntad.
+
+          5. Denegación de recursos, oportunidades o servicios: denegación del acceso legítimo a recursos o bienes económicos o medios de vida, a la educación, a la atención de la salud o a otros servicios sociales. Como ejemplos se pueden citar, aunque no a título exhaustivo: que se impida a una viuda recibir una herencia, que la pareja de la víctima o un miembro de su familia se apodere de sus ingresos, que se impida a mujer usar anticonceptivos, o que se impida a una niña asistir a la escuela. Este tipo de violencia de género no incluye los casos de pobreza general.
+
+          6. Abuso psicológico/emocional: infligir dolor o lesiones mentales o emocionales. Como ejemplos se pueden citar, aunque no a título exhaustivo, las amenazas de violencia física o sexual, la intimidación, la humillación, el aislamiento forzado, el acoso, el acoso verbal, la atención no deseada, los comentarios, gestos o palabras escritas de naturaleza sexual o amenazante, y la destrucción de objetos preciados.
+      non_gbv_type_notes:
+        display_name: "Si no se trató de un incidente de violencia de género, descríbalo"
+      harmful_traditional_practice:
+        display_name: "¿Constituye el incidente una práctica tradicional nociva?"
+        option_strings_text:
+          'no': 'no'
+          type_of_practice_1: Tipo de práctica 1
+          type_of_practice_2: Tipo de práctica 2
+          type_of_practice_3: Tipo de práctica 3
+          type_of_practice_4: Tipo de práctica 4
+          type_of_practice_5: Tipo de práctica 5
+      goods_money_exchanged:
+        display_name: "¿Se intercambiaron dinero, bienes o servicios en el contexto del incidente?"
+      abduction_status_time_of_incident:
+        display_name: Tipo de secuestro durante el incidente
+        option_strings_text:
+          none: Ninguno
+          forced_conscription: Alistamiento forzado
+          trafficked: Tráfico
+          other_abduction_kidnapping: Otro tipo de secuestro o rapto
+      gbv_reported_elsewhere:
+        display_name: "¿Ha notificado el/la cliente este incidente en algún otro servicio?"
+      gbv_reported_elsewhere_subform:
+        display_name: "En caso afirmativo, ¿dónde?"
+      gbv_previous_incidents:
+        display_name: "¿Había sido ya el/la cliente víctima de otros incidentes de violencia de género?"

@@ -1,0 +1,7 @@
+fa-AF:
+  family_details:
+    name: جزییات فامیل
+    description: جزییات فامیل
+    fields:
+      family_details_section:
+        display_name: جزییات فامیل

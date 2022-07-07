@@ -1,0 +1,17 @@
+fr:
+  bid_status:
+    name: Statut de DISE
+    description: Formulaire du statut de DISE
+    fields:
+      assessment_formal_bid:
+        display_name: Une procédure officielle de détermination de l’intérêt supérieur de l’enfant (DISE) est-elle requise ?
+        help_text: Décision à prendre selon le contexte, en coordination avec l’UNHCR.
+      assessment_bid_direction:
+        display_name: Si oui, veuillez sélectionner la direction de la DIS
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Trouver des solutions durables et des modes de prise en charge complémentaires pour les enfants non accompagnés
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Déterminer les options les plus appropriées pour les enfants à risque qui vivent des circonstances exceptionnelles (y compris la réunification familiale et la prise en charge temporaire)
+          possible_separation_of_a_child_from_parents_against_their_will: Envisager de retirer l’enfant de sa famille contre la volonté de ses parents
+      assessment_bid_details:
+        display_name: Veuillez préciser
+        help_text: Donnez des précisions, puis passez au Formulaire de détermination de l’intérêt supérieur de l’enfant (DISE) de l’UNHCR.

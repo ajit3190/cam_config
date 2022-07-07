@@ -1,0 +1,56 @@
+ro:
+  verification_subform_section:
+    name: Subformular Verificare
+    description: Subformular Verificare
+    fields:
+      verification_name_inquirer:
+        display_name: Numele Solicitantului
+      verification_inquirer_relationship:
+        display_name: Legătura
+      verification_inquirer_sex:
+        display_name: Sex
+      verification_inquirer_age:
+        display_name: Vârsta
+      verification_inquirer_address_current:
+        display_name: Adresa
+      verification_inquirer_location:
+        display_name: Locația actuală
+      verification_phone_inquirer:
+        display_name: Număr telefon
+      verification_inquirer_wants_to_care_for_child:
+        display_name: Doriți ca copilul să vină să locuiască cu dumneavoastră?
+      verification_inquirer_able_to_care_for_child:
+        display_name: Puteți să aveți grijă de el/ea/ei?
+      verification_alternate_caregiver_exists:
+        display_name: Dacă nu, mai există vreun alt membru al familiei care ar putea lua copilul?
+      verification_alternate_caregiver_name:
+        display_name: Numele îngrijitorului alternativ
+      verification_alternate_caregiver_relationship:
+        display_name: Legătura cu îngrijitorul alternativ
+      verification_address_alternate_caregiver:
+        display_name: Adresa acelei persoane (îngrijitor alternativ)
+      verification_location_alternate_caregiver:
+        display_name: Satul/ zona/ adresa fizică a îngrijitorului alternativ
+      verification_comments:
+        display_name: Comentarii
+      verification_acceptance_date:
+        display_name: Data acceptului pentru îngrijirea copilului
+      verification_inquirer_known_to_child:
+        display_name: Copilul cunoaște adultul care solicită verificarea?
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: Copilul dorește să fie reunit cu acea persoană?
+      verification_inquirer_information_match:
+        display_name: Informațiile oferite de copil și de adult se potrivesc?
+      verification_inquierer_recommendation:
+        display_name: Recomanzi reunificarea? Dacă nu, ce altă acțiune recomanzi?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          further_tracing: Continuare Urmărire
+          long_term_alternative_care: Îngrijire alternativă pe termen lung
+          reunification: Reunificare
+          reunification_enhanced_support: Reunificare cu suport acordat
+      verification_inquierer_recommendation_comments:
+        display_name: Comentarii adiționale
+      verification_date:
+        display_name: Data verificării

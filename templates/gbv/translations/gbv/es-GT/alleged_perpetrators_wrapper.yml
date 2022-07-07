@@ -1,0 +1,8 @@
+---
+es-GT:
+  alleged_perpetrators_wrapper:
+    name: Presunto autor
+    description: Presunto autor
+    fields:
+      alleged_perpetrator:
+        display_name: Presunto autor

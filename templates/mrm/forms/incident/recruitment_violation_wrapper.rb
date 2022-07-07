@@ -63,7 +63,8 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'factors_of_recruitment_other',
     'type' => 'text_field',
-    'display_name_en' => "If 'Other', please provide details"
+    'display_name_en' => "If 'Other', please provide details",
+    'display_conditions_subform' => { 'in' => { 'factors_of_recruitment' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -96,7 +97,8 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'recruitment_campaign',
     'type' => 'textarea',
-    'display_name_en' => 'If yes, please provide additional details'
+    'display_name_en' => 'If yes, please provide additional details',
+    'display_conditions_subform' => { 'eq' => { 'recruitment_campaign_details' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -129,7 +131,8 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 're_recruitment_details',
     'type' => 'textarea',
-    'display_name_en' => 'If yes, please provide details:'
+    'display_name_en' => 'If yes, please provide details:',
+    'display_conditions_subform' => { 'eq' => { 're_recruitment' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -193,7 +196,8 @@ recruitment_subform_fields = [
         'id' => 'other',
         'display_text' => 'Other'
       }
-    ]
+    ],
+    'display_conditions_subform' => { 'eq' => { 'child_role' => 'combatant' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -209,7 +213,8 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'child_role_combatant_other',
     'type' => 'text_field',
-    'display_name_en' => "If 'Other', please provide details  "
+    'display_name_en' => "If 'Other', please provide details  ",
+    'display_conditions_subform' => { 'in' => { 'child_role_combatant' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -251,7 +256,8 @@ recruitment_subform_fields = [
         'id' => 'other',
         'display_text' => 'Other'
       }
-    ]
+    ],
+    'display_conditions_subform' => { 'eq' => { 'child_role' => 'non_combatant' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -267,7 +273,8 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'child_role_noncombatant_other',
     'type' => 'text_field',
-    'display_name_en' => "If 'Other', please provide details   "
+    'display_name_en' => "If 'Other', please provide details   ",
+    'display_conditions_subform' => { 'in' => { 'child_role_noncombatant' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -334,7 +341,24 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'recruited_child_recruitment_number',
     'type' => 'numeric_field',
-    'display_name_en' => "If 'Yes', please provide estimate"
+    'display_name_en' => "If 'Yes', please provide estimate",
+    'display_conditions_subform' => { 'eq' => { 'recruited_child_witness' => 'true' } }
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'end_of_association_section',
+    'type' => 'separator',
+    'display_name_en' => 'End of association'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -367,7 +391,8 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'released_number',
     'type' => 'numeric_field',
-    'display_name_en' => "If 'Yes', how many? "
+    'display_name_en' => "If 'Yes', how many? ",
+    'display_conditions_subform' => { 'eq' => { 'released_indicator' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -384,7 +409,8 @@ recruitment_subform_fields = [
     'name' => 'released_number_estimated',
     'type' => 'tick_box',
     'tick_box_label_en' => 'Yes',
-    'display_name_en' => 'Is this number estimated?'
+    'display_name_en' => 'Is this number estimated?',
+    'display_conditions_subform' => { 'eq' => { 'released_indicator' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -400,7 +426,8 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'date_child_leave',
     'type' => 'date_field',
-    'display_name_en' => "If 'Yes', when did the children leave the armed group?"
+    'display_name_en' => "If 'Yes', when did the children leave the armed group?",
+    'display_conditions_subform' => { 'eq' => { 'released_indicator' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -417,7 +444,8 @@ recruitment_subform_fields = [
     'name' => 'estimated_date',
     'type' => 'tick_box',
     'tick_box_label_en' => 'Yes',
-    'display_name_en' => 'Is the date estimated?'
+    'display_name_en' => 'Is the date estimated?',
+    'display_conditions_subform' => { 'eq' => { 'released_indicator' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -463,7 +491,8 @@ recruitment_subform_fields = [
         'id' => 'formal_release_demobilisation_process',
         'display_text' => 'Formal release/demobilisation process'
       }
-    ]
+    ],
+    'display_conditions_subform' => { 'eq' => { 'released_indicator' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -480,7 +509,7 @@ recruitment_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'Was/were the victim(s) deprived of liberty due to alleged association with armed forces/groups?',
     'option_strings_source' => 'lookup lookup-yes-no-unknown',
-    'help_text_en' => "This should be reflected as necessary in the 'Killing', 'Maiming' and/or 'Rape and/or other grave sexual violence' forms as appropriate.",
+    'help_text_en' => "This should be reflected as necessary in the 'Killing', 'Maiming' and/or 'Rape and other forms of sexual violence' forms as appropriate.",
     'visible' => false
   ),
   Field.new(
@@ -515,7 +544,8 @@ recruitment_subform_fields = [
     'multi_select' => true,
     'display_name_en' => 'If armed force, please select as appropriate',
     'option_strings_source' => 'lookup lookup-armed-force-name',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'in' => { 'deprivation_liberty_perpetrator' => %w[armed_force] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -532,7 +562,8 @@ recruitment_subform_fields = [
     'multi_select' => true,
     'display_name_en' => 'If armed group, please select as appropriate',
     'option_strings_source' => 'lookup lookup-armed-group-name',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'in' => { 'deprivation_liberty_perpetrator' => %w[armed_group] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -549,7 +580,8 @@ recruitment_subform_fields = [
     'multi_select' => true,
     'display_name_en' => 'If other party to the conflict, please select as appropriate',
     'option_strings_source' => 'lookup lookup-other-party-name',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'in' => { 'deprivation_liberty_perpetrator' => %w[other_party_to_the_conflict] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -566,7 +598,8 @@ recruitment_subform_fields = [
     'multi_select' => true,
     'display_name_en' => 'Please select the facilty where the victims(s) was/were being held',
     'option_strings_source' => 'lookup lookup-detention-facility-type',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'eq' => { 'child_role_association_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -582,7 +615,8 @@ recruitment_subform_fields = [
     'name' => 'child_role_association_other',
     'type' => 'text_field',
     'display_name_en' => "If 'Other', please provide details ",
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'in' => { 'child_role_association' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -598,7 +632,8 @@ recruitment_subform_fields = [
     'name' => 'deprivation_of_liberty_reasons',
     'type' => 'textarea',
     'display_name_en' => 'Please provide details on the reasons for deprivation of liberty',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'eq' => { 'child_role_association_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -636,7 +671,8 @@ recruitment_subform_fields = [
         'display_text' => 'More than a year'
       }
     ],
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'eq' => { 'child_role_association_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -652,7 +688,8 @@ recruitment_subform_fields = [
     'name' => 'deprivation_of_liberty_exceed_year',
     'type' => 'text_field',
     'display_name_en' => 'If deprivation of liberty exceeded a year, please precise exact duration',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'eq' => { 'deprivation_of_liberty_length' => %w[more_than_a_year] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -670,7 +707,8 @@ recruitment_subform_fields = [
     'display_name_en' => 'Was/were the child(ren) subject to torture or other cruel, inhuman or degrading treatment or punishment while deprived of liberty',
     'option_strings_source' => 'lookup lookup-yes-no-unknown',
     'help_text_en' => 'e.g. strip-searching, verbal and physical violence.',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'eq' => { 'child_role_association_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -686,7 +724,8 @@ recruitment_subform_fields = [
     'name' => 'torture_details',
     'type' => 'textarea',
     'display_name_en' => 'If yes, please provide details.',
-    'visible' => false
+    'visible' => false,
+    'display_conditions_subform' => { 'eq' => { 'child_role_torture' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -720,7 +759,8 @@ recruitment_subform_fields = [
     'type' => 'select_box',
     'multi_select' => true,
     'display_name_en' => "If 'Yes', please specify:",
-    'option_strings_source' => 'lookup lookup-violation-type'
+    'option_strings_source' => 'lookup lookup-violation-type',
+    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -754,7 +794,8 @@ recruitment_subform_fields = [
     'name' => 'additional_notes',
     'type' => 'textarea',
     'display_name_en' => 'Additional details',
-    'help_text_en' => 'E.g. what factors contributed to the child(ren) leaving the armed force/group? (e.g. sick/injured; financial reasons; family pressure; community pressure; UN/NGO advocacy; Government pressure; pressure by other party to the conflict; discretion of armed force/armed group; political/security developments, e.g. peace process)'
+    'help_text_en' => 'E.g. what factors contributed to the child(ren) leaving the armed force/group? (e.g. sick/injured; financial reasons; family pressure; community pressure; UN/NGO advocacy; Government pressure; pressure by other party to the conflict; discretion of armed force/armed group; political/security developments, e.g. peace process)',
+    'display_conditions_subform' => { 'eq' => { 'released_indicator' => 'true' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -830,7 +871,7 @@ recruitment_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -841,7 +882,7 @@ recruitment_subform_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -854,7 +895,8 @@ recruitment_subform_fields = [
     'name' => 'verified',
     'type' => 'select_box',
     'display_name_en' => 'Initial verification status as determined by the focal point',
-    'option_strings_source' => 'lookup lookup-verification-status'
+    'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -870,7 +912,9 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_focal_point',
     'type' => 'date_field',
-    'display_name_en' => 'Date of determination of verification status by focal point.'
+    'date_validation' => 'not_future_date',
+    'display_name_en' => 'Date of determination of verification status by focal point.',
+    'display_conditions_subform' => { 'eq' => { 'verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -880,7 +924,7 @@ recruitment_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
@@ -903,12 +947,13 @@ recruitment_subform_fields = [
     'multi_select' => false,
     'name' => 'verification_date_ctfmr_technical',
     'type' => 'date_field',
+    'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of joint verification decision by the CTFMR co-chairs at the technical level.',
     'help_text_en' => 'This can be e.g., the date of the periodic meeting during which the CTFMR co-chairs at the technical level jointly review the incidents of grave violations and determine their verification status.'
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -922,6 +967,7 @@ recruitment_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'Verification status as agreed by the CTFMR',
     'option_strings_source' => 'lookup lookup-verification-status',
+    'selected_value' => 'report_pending_verification',
     'help_text_en' => "Please provide further details in the 'Additional details on verification process/decision' box.This field is required for reporting."
   ),
   Field.new(
@@ -939,7 +985,9 @@ recruitment_subform_fields = [
     'name' => 'ctfmr_verified_date',
     'type' => 'date_field',
     'display_name_en' => 'Date of Verification decision by CTFMR',
-    'help_text_en' => ''
+    'date_validation' => 'not_future_date',
+    'help_text_en' => '',
+    'display_conditions_subform' => { 'eq' => { 'ctfmr_verified' => 'verified' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -957,6 +1005,24 @@ recruitment_subform_fields = [
     'type' => 'textarea',
     'display_name_en' => 'Additional details on verification process/decision',
     'help_text_en' => 'If verification is still pending or incident was excluded, please provide further details.'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'verified_ghn_reported',
+    'type' => 'select_box',
+    'display_name_en' => 'Specify the GHN in which this incident was included ',
+    'option_strings_source' => 'lookup lookup-verified-ghn-reported',
+    'help_text_en' => 'Please enter the year first (e.g. 2022), then you will be able to select between the four quarters of the year and the relevant GHN.'
   )
 ]
 
@@ -1015,7 +1081,8 @@ recruitment_fields = [
     'subform_section' => recruitment_subform,
     'display_name_en' => 'Recruitment and/or use of children',
     'expose_unique_id' => true,
-    'guiding_questions_en' => 'Recruitment of children: refers to compulsory, forced or voluntary conscription or enlistment of children into any kind of armed force or armed group(s) under the age stipulated in the international treaties applicable to the armed force or armed group in question. Use of children: refers to the use of children by armed forces or armed groups in any capacity, including, but not limited to, children, boys and girls, used as fighters, cooks, porters, messengers, spies and collaborators. It does not only refer to a child who is taking or has taken a direct part in hostilities. (see MRM Field Manual, 2014, page 11).'
+    'guiding_questions_en' => 'Recruitment of children: refers to compulsory, forced or voluntary conscription or enlistment of children into any kind of armed force or armed group(s) under the age stipulated in the international treaties applicable to the armed force or armed group in question. Use of children: refers to the use of children by armed forces or armed groups in any capacity, including, but not limited to, children, boys and girls, used as fighters, cooks, porters, messengers, spies and collaborators. It does not only refer to a child who is taking or has taken a direct part in hostilities. (see MRM Field Manual, 2014, page 11).',
+    'display_conditions_record' => { 'in' => { 'violation_category' => %w[recruitment] } }
   )
 ]
 
@@ -1035,5 +1102,6 @@ FormSection.create_or_update!(
   is_first_tab: false,
   initial_subforms: 0,
   mobile_form: false,
-  form_group_id: 'violations'
+  form_group_id: 'violations',
+  display_conditions: { 'in' => { 'violation_category' => %w[recruitment] } }
 )

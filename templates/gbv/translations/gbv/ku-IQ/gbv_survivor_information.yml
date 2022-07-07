@@ -1,0 +1,62 @@
+---
+ku-IQ:
+  gbv_survivor_information:
+    name: پێزانینێن رزگاربووی
+    description: پێزانینێن رزگاربووی
+    fields:
+      gbv_religion:
+        display_name: ئاین
+      maritial_status:
+        display_name: بارودوخێ نوکە یێ مەدەنی یان هەڤژینیێ؟
+      dependents_no:
+        display_name: ژمارە و تەمەنێ زاروکان و که سیئن دیئن نزیک
+      occupation:
+        display_name: کار
+      gbv_displacement_status:
+        display_name: بارودوخێ ئاوارەبوونێ ل دەمێ نڤیسینا راپورتێ
+      gbv_disability_type:
+        display_name: ئەرێ رزگاربوو کەسەکێ خودان پێدڤیێن تایبەتە؟
+      unaccompanied_separated_status:
+        display_name: ئەرێ رزگاربوو کەسەکێ ل ژێر تەمەنێ یاسایی یە و یێ بتنێ یە، زاروکەکێ جودابوویی یە ژ خێزانا خو یان ژ زاروکێن دی یێن لاوازە؟
+      section_heading_child_survivors_less_than_18_years_old:
+        display_name: رزگاربوویێن زاروك (ل ژێر تەمەنێ ١٨ سالیێ
+      survivor_lives_alone:
+        display_name: ئەرێ رزگاربوو زاروکە، ئەرێ ئەو بتنێ دژیت؟
+      survivor_caretaker:
+        display_name: ئەرێ رزگاربوو دگەل کەسەکی دژیت، پەیوەندی دناڤبەرا وێ/وی و چاڤدئری چیە؟
+        option_strings_text:
+          parent_guardian: دەیباب یان پارێزڤان
+          relative: کەس و کار
+          spouse_cohabitating: هەڤژین
+          other: یێن دی، هیڤیدارین دەستنیشان بکە
+      survivor_caretaker_other:
+        display_name: ئەگەر پەیوەندیێن دی دناڤبەرا وئ/وی و چاڤدێری هه بن، هیڤیدارین دیار بکەی
+      caretaker_marital_status:
+        display_name: بارودوخێ هەڤژینیێ چاڤدێری چییە؟
+      caretaker_occupation:
+        display_name: کارێ سەرەکی یێ چاڤدێری چییە؟
+      gbv_nationality:
+        display_name: نەتەوە، (ئەگەر وەك وەلاتێ رەسەن نەبیت)
+      case_id:
+        display_name: ناسناما درێژ
+      short_id:
+        display_name: ناسناما کەیسی
+      marked_for_mobile:
+        display_name: دەستنینشانکریە بۆ موبایلێ؟
+        tick_box_label: 'بەلێ'
+      status:
+        display_name: بارودوخێ کەیسی
+      name:
+        display_name: ناڤ
+      survivor_code_no:
+        display_name: کودێ رزگاربووی
+      age:
+        display_name: تەمەن
+      date_of_birth:
+        display_name: رێکه فتا ژدایکبوونێ
+      sex:
+        display_name: رەگەز
+      gbv_ethnicity:
+        display_name: هوز یان نەژاد
+      country_of_origin:
+        display_name: "وەلاتێ رەسەن "

@@ -1,0 +1,8 @@
+---
+ku-IQ:
+  pss_scales_form:
+    name: سلامەتیا دەروونی
+    description: سلامەتیا دەروونی
+    fields:
+      pss_section:
+        display_name: نمونا لاوەکی یا پشتەڤانیا دەروونی

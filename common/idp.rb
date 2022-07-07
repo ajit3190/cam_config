@@ -141,6 +141,16 @@ create_or_update_identity_provider(
 )
 
 create_or_update_identity_provider(
+  name: 'Gmail',
+  unique_id: 'gmail',
+  provider_type: 'b2c',
+  configuration: {
+    user_domain: 'gmail.com',
+    domain_hint: 'google.com'
+  }
+)
+
+create_or_update_identity_provider(
   name: 'Quoin',
   unique_id: 'quoin',
   provider_type: 'b2c',
@@ -157,5 +167,15 @@ create_or_update_identity_provider(
   configuration: {
     user_domain: 'jozian.com',
     domain_hint: 'google.com'
+  }
+)
+
+create_or_update_identity_provider(
+  name: 'UNRWA',
+  unique_id: 'unrwa',
+  provider_type: 'b2c',
+  configuration: {
+    user_domain: 'unrwa.org',
+    domain_hint: 'unrwa.org'
   }
 )

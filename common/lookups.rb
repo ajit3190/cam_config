@@ -182,6 +182,19 @@ Lookup.create_or_update!(
   ]
 )
 
+Lookup.create_or_update!(
+  unique_id: 'lookup-displacement-incident',
+  name_en: 'Stage of displacement at time of incident',
+  lookup_values_en: [
+    { id: 'not_displaced', display_text: 'Not Displaced / Home Community' },
+    { id: 'pre_displacement', display_text: 'Pre-displacement' },
+    { id: 'during_flight', display_text: 'During Flight' },
+    { id: 'during_refuge', display_text: 'During Refuge' },
+    { id: 'during_return_transit', display_text: 'During Return / Transit' },
+    { id: 'post_displacement', display_text: 'Post-Displacement' }
+  ]
+)
+
 # Note that the nationality lookup is unused.
 # Usually nationalities are pulled from the country lookup below.
 Lookup.create_or_update!(
@@ -210,6 +223,47 @@ Lookup.create_or_update!(
     { id: 'pdf_header_1', display_text: 'PDF Header 1' },
     { id: 'pdf_header_2', display_text: 'PDF Header 2' },
     { id: 'pdf_header_3', display_text: 'PDF Header 3' }
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-number-of-perpetrators',
+  name_en: 'Number of Perpetrators',
+  lookup_values_en: [
+    { id: 'equal_to_1', display_text: '1' },
+    { id: 'equal_to_2', display_text: '2' },
+    { id: 'equal_to_3', display_text: '3' },
+    { id: 'more_than_3', display_text: 'More than 3' },
+    { id: 'unknown', display_text: 'Unknown' }
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-perpetrator-age-group',
+  name_en: 'Alleged perpetrator Age groups ',
+  lookup_values_en: [
+    { id: '0_11', display_text: '0-11' },
+    { id: '12_17', display_text: '12-17' },
+    { id: '18_25', display_text: '18-25' },
+    { id: '26_40', display_text: '26-40' },
+    { id: '41_60', display_text: '41-60' },
+    { id: '61', display_text: '61+' },
+    { id: 'unknown', display_text: 'Unknown' }
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-perpetrator-occupation',
+  name_en: 'Alleged Perpetrator Occupations',
+  lookup_values_en: [
+    { id: 'other', display_text: 'Other' },
+    { id: 'unemployed', display_text: 'Unemployed' },
+    { id: 'unknown', display_text: 'Unknown' },
+    { id: 'occupation_1', display_text: 'Occupation 1' },
+    { id: 'occupation_2', display_text: 'Occupation 2' },
+    { id: 'occupation_3', display_text: 'Occupation 3' },
+    { id: 'occupation_4', display_text: 'Occupation 4' },
+    { id: 'occupation_5', display_text: 'Occupation 5' }
   ].map(&:with_indifferent_access)
 )
 

@@ -1,0 +1,39 @@
+---
+ku:
+  action_plan_subform_section:
+    name: پلانی كاری بەیەکەوەگرێدراو
+    description: فۆرمی لاوەكی پلانی كار
+    fields:
+      service_provided:
+        display_name: "ئایا خزمەتگوزاری دابینكرا؟ "
+      service_provided_date:
+        display_name: "ئەگەر بەڵێ، كەی خزمەتگوزارییەكە دابین كرا؟ "
+      action_taken_details:
+        display_name: ووردەكاری لەبارەی كارە ئەنجامدراوەكان
+      service_type:
+        display_name: جۆری پێویستیی
+      service_appointment_date:
+        display_name: رێكەوتی چاوپێکەوتن
+      action_plan_description:
+        display_name: وەسفی پلانی كار بكە بۆ چارەسەركردنی ئەم پێداویستییە
+      service_intervertion_type:
+        display_name: جۆرەكانی دەستێوەردان
+      service_referral:
+        display_name: چۆن رزگاربووەكە دەستی بە خزمەتگوزاری دەگات
+      service_referral_written_consent:
+        display_name: ئایا رەزامەندی نووسراوت لە رزگاربوو بەدەستهێنا بۆ ئاشكراكردنی زانیاری كەسی بۆ ئامانجی رەوانەكردن
+      service_referral_name:
+        display_name: بە گوێرەی پێویست ناوێك، دامەزراوەیەك یان ئاژانسێك/رێكخراوێكی دیاری بكە
+      service_appointment_time:
+        display_name: كاتی چاوپێکەوتن
+      service_provider:
+        display_name: پێشكەشكاری خزمەتگوزاریی
+      service_location:
+        display_name: شوێنی پێشکەشکردنی خزمەتگوزاریی
+      service_referral_notes:
+        display_name: تێبینیەكان
+        help_text: "تیشك بخەرەسەر دژواری، و سەرچاوە و پرسە پەیوەندیدارەكانی دیكە "
+      service_referral_mandatory_reporting:
+        display_name: لەحاڵەتی هەبوونی یاسای رێپۆرتکردنی ناچاریی، ئایا پۆلیس/دەزگای حکومیت لە رووداوەکە ئاگادار کردەوە؟
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: "ئەگەر بەڵێ، ئایا تۆ پێش ئامادەكردنی ریپۆرتەكە، زانیاریت لەبارەی یاسا ناچارییەکانی ریپۆرتكردن بە رزگاربووەكەو / یان چاودێریكەرەکەی داوە؟ "

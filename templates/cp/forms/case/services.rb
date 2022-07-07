@@ -79,22 +79,26 @@ services_subform = [
   Field.new({
     "name" => "service_external_referral_header",
     "type" => "separator",
-    "display_name_en" => "External referral details"
+    "display_name_en" => "External referral details",
+    "display_conditions_subform" => { 'eq' => { 'service_external_referral' => true } }
   }),
   Field.new({
     "name" => "service_provider",
     "type" => "text_field",
-    "display_name_en" => "Service Provider"
+    "display_name_en" => "Service Provider",
+    "display_conditions_subform" => { 'eq' => { 'service_external_referral' => true } }
   }),
   Field.new({
     "name" => "service_implementing_agency_external",
     "type" => "text_field",
-    "display_name_en" => "Implementing Agency"
+    "display_name_en" => "Implementing Agency",
+    "display_conditions_subform" => { 'eq' => { 'service_external_referral' => true } }
   }),
   Field.new({
     "name" => "service_location",
     "type" => "text_field",
-    "display_name_en" => "Service Location"
+    "display_name_en" => "Service Location",
+    "display_conditions_subform" => { 'eq' => { 'service_external_referral' => true } }
   }),
   Field.new({
     "name" => "service_referral_notes",

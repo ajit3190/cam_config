@@ -1,0 +1,735 @@
+---
+my:
+  lookup-legitimate-basis:
+    name: အခြေခံ တရားဝင်မှု
+    lookup_values:
+      consent: သဘောတူညီမှု
+      contract: စာချုပ်
+      vital_interests: အလွန်အရေးကြီးသော ကိစ္စရပ်များ
+      beneficiary_interests: အကျိုးခံစားခွင့်ရှိသူ၏ အကျိုးစီးပွား
+      legal_obligation: တရားဥပဒေရေးရာ တာဝန်ယူမှု
+      other_legitimate_interests: အခြား တရားဝင် အကျိုးစီးပွားများ
+  lookup-legitimate-basis-explanations:
+    name: တရားဝင်မှုအပေါ် အခြေပြုသော ဖြေရှင်းချက်မျာ
+    lookup_values:
+      consent: သတင်းအချက်လက် အကြောင်းအရာ သို့မဟုတ် သင့်လျော်မည့် ကလေးသူငယ်ကို ကိုယ်စားပြုသူ​၏ သဘောတူညီချက်
+      contract: အလုပ်အကိုင်စာချုပ် အပါဝင် အချက်အလက် အကြောင်းအရာနှင့် စာချုပ်တစ်ခု ပြင်ဆင်ရန် သို့မဟုတ် လုပ်ဆောင်ရန်
+      vital_interests: အချက်အလက် သို့မဟုတ် အခြားသူ တဦး​၏ ဘဝ၊ ရုပ်ပိုင်း စိတ်ပိုင်း ပြီးပြည့်စုံမှုကို ကာကွယ်ရန်
+      beneficiary_interests: သင့်အဖွဲ့အစည်းက ဝန်ဆောင်မှုပေးနေသော လူများ၏ အကျိုးစီးပွားကို ကာကွယ်ရန် သို့မဟုတ် မြှင့်တင်ရန်၊ အထူးသဖြင့် ထိုအကျိုးစီးပွားများကို သင့်အဖွဲ့အစည်းက ကာကွယ်ရန် သို့မဟုတ် မြှင့်တင်ရန် တာဝန်ပေးထားသည်။
+      legal_obligation: သင့်အဖွဲ့အစည်းလိုက်နာရမည်ဖြစ်သော အများပြည်သူနှင့်သက်ဆိုင်သည့် ဉပဒေဆိုင်ရာ တာဝန်ဝတ္တရားကိုလိုက်နာခြင်း
+      other_legitimate_interests: |-
+        တည်ထောင်မှု၊ ကျင့်သုံးမှု၊ သို့မဟုတ် တရားဝင် တောင်းဆိုမှုများမှ ကာကွယ်ပေးမှု သို့မဟုတ် သင့်အဖွဲ့အစည်း​၏ တာဝန်ယူမှု တာဝန်ခံမှု တို့ အပါအဝင် သင့် အဖွဲ့အစည်း​၏ အခြား တရားဝင် အကျိုးစီးပွားတို့သည် ၎င်း​၏ လုပ်ပိုင်ခွင့်နှင့် ကိုက်ညီပါသည်။
+  lookup-case-status:
+    name: အမှုဖြစ်ရပ်အခြေအနေ
+    lookup_values:
+      open: ဖွင့်လှစ်သည်
+      closed: ပိတ်သိမ်းသည်
+      transferred: လွှဲပြောင်းခဲ့သည်
+      duplicate: ပုံစံတူပွားသည်
+  lookup-gender:
+    name: ကျား/မ
+    lookup_values:
+      male: အမျိုးသား
+      female: အမျိုးသမီး
+  lookup-approval-type:
+    name: အတည်ပြုမှု အမျိုးအစား
+    lookup_values:
+      case_plan: အမှုဖြစ်ရပ် အစီအစဉ်
+      action_plan: လုပ်ငန်းအစီအစဉ်
+      service_provision: ပေးအပ်သည့် ဝန်ဆောင်မှု
+  lookup-incident-status:
+    name: ဖြစ်စဉ်အခြေအနေ
+    lookup_values:
+      open: ဖွင့်လှစ်သည်
+      closed: ပိတ်သိမ်းသည်
+      duplicate: ပုံစံတူပွားသည်
+  lookup-followup-type:
+    name: နောက်ဆက်တွဲအမျိုးအစား
+    lookup_values:
+      after_reunification: မိသားစုပြန်လည်ပေါင်းစည်းပြီး နောက်ဆက်တွဲ
+      in_care: စောင့်ရှောက်မှုအတွက်နောက်ဆက်တွဲ
+      for_service: ဝန်ဆောင်မှုအတွက်နောက်ဆက်တွဲ
+      for_assesment: အကဲဖြတ်ဆန်းစစ်မှုအတွက်နောက်ဆက်တွဲ
+      client_request_review_data: အချက်အလက်များကို ပြန်လည်သုံးသပ်ရန် ဝန်ဆောင်မှုရယူသူမှ တောင်းဆိုခြင်း
+      client_request_copy_data: အချက်အလက်များ၏ မိတ္တူကို ဝန်ဆောင်မှုရယူသူမှ တောင်းဆိုခြင်း
+  lookup-approval-status:
+    name: အတည်ပြုမှု အခြေအနေ
+    lookup_values:
+      requested: တောင်းဆိုခဲ့သည်
+      pending: ဆိုင်းငံ့ထားသည်
+      approved: အတည်ပြုပြီးဖြစ်သည်
+      rejected: ငြင်းပယ်ခဲ့သည်
+  lookup-service-response-type:
+    name: ဝန်ဆောင်မှုဆိုင်ရာတုံ့ပြန်မှုအမျိုးအစား
+    lookup_values:
+      service_provision: ပေးအပ်သည့် ဝန်ဆောင်မှု
+  lookup-inquiry-status:
+    name: စုံစမ်းမေးမြန်းမှု အခြေအနေ
+    lookup_values:
+      open: ဖွင့်လှစ်သည်
+      closed: ပိတ်သိမ်းသည်
+  lookup-reporting-location-type:
+    name: အစီရင်ခံတင်ပြသည့် နေရာအမျိုးအစား
+    lookup_values:
+      province: ပြည်နယ်/ဒေသ
+      district: ခရိုင်
+  lookup-separation-cause:
+    name: ခွဲခွာရခြင်း အကြောင်းရင်း
+    lookup_values:
+      abandoned: စွန့်ခွာ/စွန့်ပစ်ခဲ့သည်
+      family_abuse_violence_neglect_exploitation: မိသားစု အလွဲသုံးစားမှု / အကြမ်းဖက်မှု/ လျစ်လျူရှုမှု/ ခေါင်းပုံဖြတ် အမြတ်ထုတ်မှု
+      death_sickness_of_family_member: မိသားစုဝင် သေဆုံးခြင်း/ နာမကျန်းဖြစ်ခြင်း
+      separation_because_of_fleeing_violence_war: အကြမ်းဖက်ခြင်း/ ပဋိပက္ခဖြစ်ရသည်ဟု ခံစားရခြင်းကြောင့် ခွဲခွာခြင်း
+      separation_because_of_fleeing_natural_disaster: သဘာဝဘေးအန္တရာယ်ဖြစ်သည်ဟု ခံစားရခြင်းကြောင့် ခွဲခွာခြင်း
+      separation_because_of_fleeing_persecution: ညှဉ်းပန်းနှိပ်စက်သည်ဟု ခံစားရခြင်းကြောင့် ခွဲခွာခြင်း
+      search_for_employment: အလုပ်အကိုင်အတွက် ရှာဖွေသည်
+      search_for_educational_opportunities: ပညာရေးအခွင့်အလမ်းများအတွက် ရှာဖွေသည်
+      search_for_services_support: ဝန်ဆောင်မှုများ/ အထောက်အပံ့ အတွက် ရှာဖွေသည်
+      migration: ရွှေ့ပြောင်းသွားလာခြင်း
+      organized_population_movement_e_g_evacuation: စုစည်းထားသော လူဦးရေလှုပ်ရှားမှု (ဥပမာ- ရွှေ့ပြောင်းခြင်း/ ထွက်ခွာခြင်း)
+      entrusted_into_the_care_of_individual_institution: တစ်စုံတစ်ဦး/ အဖွဲ့အစည်း ၏စောင့်ရှောက်မှုသို့ ယုံကြည်စွာအပ်နှင်းသည်
+      repatriation: နေရပ်ပြန်ခြင်း
+      poverty: ဆင်းရဲနွမ်းပါးမှု
+      recruitment_into_armed_forces_or_armed_groups: လက်နက်ကိုင်တပ်ဖွဲ့များ သို့မဟုတ် လက်နက်ကိုင်အဖွဲ့များ သို့ ခေါ်ယူခြင်း/စုဆောင်းခြင်း
+      abducted_trafficked: ဖမ်းဆီးခေါ်ဆောင်သွားသည်/လူကုန်ကူးခံရသည်။
+      arrest_detention: ဖမ်းဆီးခြင်း/ ထိန်းသိမ်းခြင်း
+      other_please_specify: အခြားရှိပါက ကျေးဇူးပြု၍ ဖေါ်ပြပါ။
+  lookup-religion:
+    name: ကိုးကွယ်သည့်ဘာသာ
+    lookup_values:
+      religion1: ကိုးကွယ်သည့်ဘာသာ (၁)
+      religion2: ကိုးကွယ်သည့်ဘာသာ (၂)
+      religion3: ကိုးကွယ်သည့်ဘာသာ (၃)
+      religion4: ကိုးကွယ်သည့်ဘာသာ (၄)
+      religion5: ကိုးကွယ်သည့်ဘာသာ (၅)
+      religion6: ကိုးကွယ်သည့်ဘာသာ (၆)
+      religion7: ကိုးကွယ်သည့်ဘာသာ (၇)
+      religion8: ကိုးကွယ်သည့်ဘာသာ (၈)
+      religion9: ကိုးကွယ်သည့်ဘာသာ (၉)
+      religion10: ကိုးကွယ်သည့်ဘာသာ (၁၀)
+  lookup-marital-status:
+    name: အိမ်ထောင်ရေးအခြေအနေ
+    lookup_values:
+      single: အိမ်ထောင်မရှိသူ
+      married_cohabitating: လက်ထပ်ပြီးသူ၊အတူတကွနေထိုင်သူ
+      divorced_separated: အိမ်ထောင်ကွဲ၊ကွဲကွာနေသူ
+      widowed: မုဆိုးဖို/ မုဆိုးမ
+  lookup-risk-level:
+    name: အန္တရာယ်ရှိမှုအဆင့်
+    lookup_values:
+      high: မြင့်မား
+      medium: အလယ်အလတ်
+      low: နိမ့်
+  lookup-service-implemented:
+    name: ဝန်ဆောင်မှုကို အကောင်အထည်ဖေါ်ပြီးစီးခဲ့သည်။
+    lookup_values:
+      not_implemented: အကောင်အထည်ဖော်ခြင်းမရှိပါ
+      implemented: အကောင်အထည်ဖေါ်ပြီးစီးခဲ့သည်၊
+  lookup-pdf-header:
+    name: PDF ခေါင်းစီး
+    lookup_values:
+      pdf_header_1: PDF ခေါင်းစီး ၁
+      pdf_header_2: PDF ခေါင်းစီး ၂
+      pdf_header_3: PDF ခေါင်းစီး ၃
+  lookup-tracing-status:
+    name: ခြေရာကောက်သည့်အခြေအနေ
+    lookup_values:
+      open: ဖွင့်လှစ်သည်
+      tracing_in_progress: တိုးတက်မှုအခြေအနေအတွက်ခြေရာကောက်ခြင်း
+      verified: စိစစ်ပြီး
+      reunified: ပြန်လည်ပေါင်းစည်းခဲ့သည်
+      closed: ပိတ်သိမ်းသည်
+  lookup-gbv-service-type:
+    name: ဝန်ဆောင်မှု အမျိုးအစား
+    lookup_values:
+      safehouse_service: လုံခြုံအိမ် ဝန်ဆောင်မှု
+      health_medical_service: ကျန်းမာရေး/ ဆေးကုသမှုဆိုင်ရာ ဝန်ဆောင်မှုများ
+      psychosocial_service: စိတ်လူမှုပိုင်းဆိုင်ရာဝန်ဆောင်မှု
+      police_other_service: ရဲ သို့မဟုတ် အခြားဝန်ဆောင်မှု
+      legal_assistance_service: တရားဥပဒေရေးရာအကူအညီပေးသည့်ဝန်ဆောင်မှုများ
+      livelihoods_service: အသက်မွေးဝမ်းကျောင်းဆိုင်ရာဝန်ဆောင်မှုများ
+      child_protection_service: ကလေးသူငယ်ကာကွယ်စောင့်ရှောက်ရေးဝန်ဆောင်မှုများ
+      education_service: ပညာရေးဝန်ဆောင်မှု
+      nfi_clothes_shoes_service: အစားအသောက်မဟုတ်သောပစ္စည်းများ / အဝတ်အထည်များ/ ဖိနပ်များ ဝန်ဆောင်မှု
+      water_sanitation_service: ရေ / သန့်ရှင်းရေး ဝန်ဆောင်မှု
+      registration_service: မှတ်ပုံတင်ခြင်း ဝန်ဆောင်မှု
+      food_service: အစားအသောက်ဝန်ဆောင်မှု
+      cash_assistance: ငွေကြေးအထောက်အပံ့
+      personal_goal: မိမိအတွက် ချမှတ်လိုသည့် ပန်းတိုင်
+      other_service: အခြားဝန်ဆောင်မှု
+  lookup-gbv-intervention-type:
+    name: ကူညီဖြေရှင်းပေးခဲ့သည့် နည်းလမ်း
+    lookup_values:
+      personal_goal: မိမိအတွက် ချမှတ်လိုသည့် ပန်းတိုင် သို့မဟုတ် ဝန်ဆောင်မှု
+      referral_service: ညွှန်းပို့ပေးသည့် ဝန်ဆောင်မှု
+  lookup-yes-no:
+    name: "ဟုတ်ပါသည်၊ သို့မဟုတ် မဟုတ်ပါ "
+    lookup_values:
+      'true': 'ဟုတ်ပါသည်။'
+      'false': 'မဟုတ်ပါ'
+  lookup-yes-no-unknown:
+    name: ဟုတ်၊ မဟုတ် သို့မဟုတ် မသိပါ
+    lookup_values:
+      'true': 'ဟုတ်ပါသည်။'
+      'false': 'မဟုတ်ပါ'
+      unknown: မသိ
+  lookup-yes-no-undecided:
+    name: ဟုတ်ပါသည်၊ မဟုတ်ပါ သို့မဟုတ် မဆုံးဖြတ်နိုင်ပါ
+    lookup_values:
+      'true': 'ဟုတ်ပါသည်။'
+      'false': 'မဟုတ်ပါ'
+      undecided: မဆုံးဖြတ်နိုင်ပါ
+  lookup-yes-no-not-applicable:
+    name: ဟုတ်ပါသည်၊ မဟုတ်ပါ သို့မဟုတ် မသက်ဆိုင်ပါ
+    lookup_values:
+      'true': 'ဟုတ်ပါသည်။'
+      'false': 'မဟုတ်ပါ'
+      not_applicable: မသက်ဆိုင်ပါ
+  lookup-yes-no-not-applicable-needs-not-met:
+    name: ဟုတ်ပါသည်၊ မဟုတ်ပါ သို့မဟုတ် မသက်ဆိုင်ပါ သို့မဟုတ် လိုအပ်ချက်များနှင့် မကိုက်ညီပါ။
+    lookup_values:
+      'true': 'ဟုတ်ပါသည်'
+      'false': 'မဟုတ်ပါ'
+      not_applicable: မသက်ဆိုင်ပါ သို့မဟုတ် လိုအပ်ချက်များနှင့် မကိုက်ညီပါ။
+  lookup-transition-type:
+    name: ကြားစခန်း အမျိုးအစား
+    lookup_values:
+      referral: ညွှန်းပို့ခြင်း
+      reassign: ပြန်လည်တာဝန်ပေးသည်။
+      transfer: လွှဲပြောင်းခြင်း
+      transfer_request: လွှဲပြောင်းရန် တောင်းဆိုမှု
+  lookup-country:
+    name: နိုင်ငံ
+    lookup_values:
+      afghanistan: အာဖဂန်နစ္စတန်
+      albania: အယ်လ်ဘေးနီးယား
+      algeria: အယ်လ်ဂျီးရီးယား
+      andorra: အန်ဒိုရာ
+      angola: အင်ဂိုလာ
+      antigua_and_barbuda: အင်တီဂွာနှင့် ဘာဘူဒါ
+      argentina: အာဂျင်တီးနား
+      armenia: အာမေးနီးယား
+      australia: သြစတြေးလျ
+      austria: သြစတြီးယား
+      azerbaijan: အဇာဘိုင်ဂျန်
+      bahamas: ဘဟားမား
+      bahrain: ဘာရိန်း
+      bangladesh: ဘင်္ဂလားဒေ့ရှ်
+      barbados: ဘာဘေးဒိုးစ်
+      belarus: ဘီလာရုစ်
+      belgium: ဘယ်လ်ဂျီယံ
+      belize: ဘေလီဇ်
+      benin: ဘီနင်
+      bhutan: ဘူတန်
+      bolivia: ဘိုလီးဗီးယား
+      bosnia_and_herzegovina: ဘော့စနီးယားနှင့်ဟာဇီဂိုဗီးနား
+      botswana: ဘော့ဆွာနာ
+      brazil: ဘရာဇီး
+      brunei: ဘရူနိုင်း
+      bulgaria: ဘူဂေးရီးယား
+      burkina_faso: ဘာကီနာ ဖဆို
+      burundi: ဘူရွန်ဒီ
+      cabo_verde: ကဘို ဗာဒီ
+      cambodia: ကမ္ဘောဒီးယား
+      cameroon: ကင်မရွန်း
+      canada: ကနေဒါ
+      central_african_republic: ဗဟိုအာဖရိကပြည်ထောင်စု
+      chad: ချက်ဒ်
+      chile: ချီလီ
+      china: တရုတ်
+      colombia: ကိုလံဘီယာ
+      comoros: ကိုမိုရော့စ်
+      congo: ကွန်ဂိုသမ္မတနိုင်ငံ
+      drc: ကွန်ဂိုဒီမိုကရက်တစ်သမ္မတနိုင်ငံ
+      costa_rica: ကော့စတာရီကာ
+      cote_divoire: အိုင်ဗရီကို့စ်
+      croatia: ခရိုအေးရှား
+      cuba: ကျူးဘား
+      cyprus: ဆိုက်ပရပ်စ်
+      czech_republic: ချက်သမ္မတနိုင်ငံ
+      denmark: ဒိန်းမတ်
+      djibouti: ဂျီဘူတီ
+      dominica: ဒိုမီနီကာ
+      dominican_republic: ဒိုမီနီကန်သမ္မတနိုင်ငံ
+      ecuador: အီကွေဒေါ
+      egypt: အီဂျစ်
+      el_salvador: အယ်ဆဗေဒေါ
+      equatorial_guinea: အီကွေတာ ဂီနီ
+      eritrea: အီရီထရီးယား
+      estonia: အက်စ်တိုးနီးယား
+      ethiopia: အီသီယိုးပီးယား
+      fiji: ဖီဂျီ
+      finland: ဖင်လန်
+      france: ပြင်သစ်
+      gabon: ဂါဘွန်း
+      gambia: ဂမ်ဘီယာ
+      georgia: ဂျော်ဂျီယာ
+      germany: ဂျာမနီ
+      ghana: ဂါနာ
+      greece: ဂရိ
+      grenada: ဂရီနာဒါ
+      guatemala: ဂွာတီမာလာ
+      guinea: "ဂီနီ "
+      guinea_bissau: ဂီနီ -ဘီဆော
+      guyana: ဂိုင်ယာနာ
+      haiti: ဟေတီ
+      honduras: ဟွန်ဒူးရပ်စ်
+      hungary: ဟန်ဂေရီ
+      iceland: အိုက်စလန်
+      india: အိန္ဒိယ
+      indonesia: အင်ဒိုနီးရှား
+      iran: အီရန်
+      iraq: အီရတ်
+      ireland: အိုင်ယာလန်
+      israel: အစ္စရေး
+      italy: အီတလီ
+      jamaica: ဂျမေကာ
+      japan: ဂျပန်
+      jordan: ဂျော်ဒန်
+      kazakhstan: ကာဇက်စတန်
+      kenya: ကင်ညာ
+      kiribati: ခီရီဘာတီ
+      kosovo: ကိုဆိုဗို
+      kuwait: ကူဝိတ်
+      kyrgyzstan: ကာဂျစ္စတန်
+      laos: လာအို
+      latvia: လတ်ဗီးယား
+      lebanon: လက်ဘနွန်
+      lesotho: လီဆိုသို
+      liberia: လိုက်ဘေးရီးယား
+      libya: လစ်ဗျား
+      liechtenstein: လစ်တန်စတိန်း
+      lithuania: လစ်သူယေးနီးယား
+      luxembourg: လူဇင်ဘတ်
+      macedonia: မက်ဆီဒိုးနီးယား
+      madagascar: မာဒါဂက်စကား
+      malawi: မာလာဝီ
+      malaysia: မလေးရှား
+      maldives: မော်လ်ဒိုက်
+      mali: မာလီ
+      malta: မော်လတာ
+      marshall_islands: မာရှယ်ကျွန်းစု
+      mauritania: မောရီတေးနီးယား
+      mauritius: မော်ရေးရှပ်
+      mexico: မက္ကစီကို
+      micronesia: မိုက်ခရိုနီးရှား
+      moldova: မော်လ်ဒိုဗာ
+      monaco: မိုနာကို
+      mongolia: မွန်ဂိုလီးယား
+      montenegro: မွန်တီနီဂရိုး
+      morocco: မော်ရိုကို
+      mozambique: မိုဇမ်ဘစ်
+      myanmar: မြန်မာ
+      namibia: နမီးဘီးယား
+      nauru: နော်ရူး
+      nepal: နီပေါ
+      netherlands: နယ်သာလန်
+      new_zealand: နယူးဇီလန်
+      nicaragua: နီကာရာဂွာ
+      niger: နိုင်ဂျာ
+      nigeria: နိုင်ဂျီးရီးယား
+      north_korea: မြောက်ကိုရီးယား
+      norway: နော်ဝေ
+      oman: အိုမန်
+      pakistan: ပါကစ္စတန်
+      palau: ပလောအို
+      palestine: ပါလက်စတိုင်း
+      panama: ပနားမား
+      papua_new_guinea: ပါပူဝါနယူးဂီနီ
+      paraguay: ပါရာဂွေး
+      peru: ပီရူး
+      philippines: ဖိလစ်ပိုင်
+      poland: ပိုလန်
+      portugal: ပေါ်တူဂီ
+      qatar: ကာတာ
+      romania: ရိုမေးနီးယား
+      russia: ရုရှား
+      rwanda: ရဝမ်ဒါ
+      st_kitts_and_nevis: စိန့်ကစ်နှင့် နီဗစ်
+      st_lucia: စိန့် လူစီယာ
+      st_vincent_and_the_grenadines: စိန့်ဗင်းဆင့်နှင့်ဂရီနေဒိုင်း
+      samoa: ဆာမိုအာ
+      san_marino: စန်မာရီနို
+      sao_tome_and_principe: ဆော်တုန်းမ် နှင့် ပရင်စီပီ
+      saudi_arabia: ဆော်ဒီအာရေဗျ
+      senegal: ဆီနီဂေါ
+      serbia: ဆားဘီးယား
+      seychelles: ဆေးရှဲလ်
+      sierra_leone: ဆီးရီးယားလီယွန်း
+      singapore: စင်္ကာပူ
+      slovakia: စလိုဗက်ကီးယား
+      slovenia: ဆလိုဗေးနီးယား
+      solomon_islands: ဆော်လမွန်ကျွန်းစု
+      somalia: ဆိုမာလီယာ
+      south_africa: တောင်အာဖရိက
+      south_korea: တောင်ကိုရီးယား
+      south_sudan: တောင်ဆူဒန်
+      spain: စပိန်
+      sri_lanka: သီရိလင်္ကာ
+      sudan: ဆူဒန်
+      suriname: ဆူရာနမ်
+      swaziland: ဆွာဇီလန်
+      sweden: ဆွီဒင်
+      switzerland: ဆွစ်ဇာလန်
+      syria: ဆီးရီးယား
+      taiwan: ထိုင်ဝမ်
+      tajikistan: တာဂျစ်ကစ္စတန်
+      tanzania: တန်ဇန်းနီးယား
+      thailand: ထိုင်းနိုင်ငံ
+      timor_leste: တီမော - လက်စ်တီ
+      togo: တိုဂို
+      tonga: တွန်ဂါ
+      trinidad_and_tobago: ထရီနီဒက်နှင့်တိုဘာဂို
+      tunisia: တူနီးရှား
+      turkey: တူရကီ
+      turkmenistan: တာ့ခ်မင်နစ်စတန်
+      tuvalu: တူဗာလူ
+      uganda: ယူဂန်ဒါ
+      ukraine: ယူကရိန်း
+      united_arab_emirates: အာရပ်စော်ဘွားများနိုင်ငံ
+      uk: ယူကေ (ယူနိုက်တက်ကင်းဒမ်း)
+      usa: ယူအက်စ်အေ (အမေရိကန်ပြည်ထောင်စု)
+      uruguay: ဥရုဂွေး
+      uzbekistan: ဥဇဘက်ကစ္စတန်
+      vanuatu: ဗနူတူး
+      vatican: ဗာတီကန်စီးတီး (ဟိုလီစီး)
+      venezuela: ဗင်နီဇွဲလား
+      vietnam: ဗီယက်နမ်
+      yemen: ယီမင်
+      zambia: ဇမ်ဘီယာ
+      zimbabwe: ဇင်ဘာဘွေ
+  lookup-priority-level:
+    name: ဦးစားပေးမှု_အဆင့်
+    lookup_values:
+      high: မြင့်မားသည် (၂၄ နာရီအတွင်း)
+      medium: အလယ်အလတ် (၇၂ နာရီအတွင်း)
+      low: အနိမ့်
+  lookup-service-referred-gbv:
+    name: ဝန်ဆောင်မှုအား ကျား၊ မအခြေပြုအကြမ်းဖက်မှုသို့ လွှဲပြောင်းညွှန်းပို့ပေးပြီး
+    lookup_values:
+      referred: လွှဲပြောင်းညွှန်းပို့ပေးခဲ့သည်၊
+      no_referral_service_provided_by_your_agency: လွှဲပြောင်းညွှန်းပို့ခြင်းမပြုလုပ်ခဲ့ပါ။ ကျွန်ုပ်အဖွဲ့အစည်းကကိုယ်တိုင်ဝန်ဆောင်မှုပေးခဲ့သည်၊
+      no_referral_services_already_received_from_another_agency: လွှဲပြောင်းညွှန်းပို့ခြင်းမပြုလုပ်ခဲ့ပါ။ အခြားအဖွဲ့အစည်းမှ ဝန်ဆောင်မှုရယူခဲ့ပြီးဖြစ်သည်။
+      no_referral_service_not_applicable: လွှဲပြောင်းညွှန်းပို့ခြင်းမပြုလုပ်ခဲ့ပါ။ ဝန်ဆောင်မှုမသက်ဆိုင်ပါ
+      no_referral_declined_by_survivor: လွှဲပြောင်းညွှန်းပို့ခြင်းမပြုလုပ်ခဲ့ပါ။ ရှင်သန်ကျန်ရစ်သူကငြင်းဆိုခဲ့သည်။
+      no_referral_service_unavailable: လွှဲပြောင်းညွှန်းပို့ခြင်းမပြုလုပ်ခဲ့ပါ။ ဝန်ဆောင်မှုမရှိသောကြောင့်
+  lookup-assessment-duration:
+    name: အကဲဖြတ်ဆန်းစစ်သည့်ကာလ
+    lookup_values:
+      less_than_15_minutes: (၁၅) မိနစ်အောက်
+      16_30_minutes: ၁၆-၃၀ မိနစ်
+      31_minutes_1_hour: (၃၁) မိနစ် - (၁) နာရီ
+      1_2_hours: ၁-၂ နာရီ
+      more_than_2_hours: (၂) နာရီ အထက်
+  lookup-age-group-type:
+    name: အသက်အုပ်စု အမျိုးအစား
+    lookup_values:
+      adult: အရွယ်ရောက်ပြီးသူ
+      minor: အရွယ်မရောက်သေးသူ
+      unknown: မသိ
+  lookup-agency-office:
+    name: အေဂျင်စီရုံး
+    lookup_values:
+      agency_office_1: အေဂျင်စီရုံး ၥ
+      agency_office_2: အေဂျင်စီရုံး ၂
+      agency_office_3: အေဂျင်စီရုံး ၃
+      agency_office_4: အေဂျင်စီရုံး ၄
+      agency_office_5: အေဂျင်စီရုံး ၅
+  lookup-assessment-progress:
+    name: အကဲဖြတ်ဆန်းစစ်ခြင်း တိုးတက်မှု
+    lookup_values:
+      n_a: မရရှိနိုင်ပါ
+      in_progress: ဆောင်ရွက်ဆဲ
+      met: ပြည့်မှီ
+  lookup-gbv-approval-types:
+    name: GBV အသုံးပြုသူများအတွက် အတည်ပြုမှုအမျိုးအစား
+    lookup_values:
+      case_plan: အမှုဖြစ်ရပ် အစီအစဉ်
+      closure: ပိတ်သိမ်းခြင်း
+  lookup-child-minor-age-group:
+    name: ကလေးသူငယ် / အသက်မပြည့်သေးသည့်အုပ်စု
+    lookup_values:
+      0_5_year_old: ၀-၅ နှစ်အရွယ်
+      6_12_year_old: ၆-၁၂ နှစ်အရွယ်
+      13_17_year_old: ၁၃-၁၇ နှစ်အရွယ်
+  lookup-marital-status-unknown:
+    name: အိမ်ထောင်ရေးအခြေအနေ
+    lookup_values:
+      single: အိမ်ထောင်မရှိသူ
+      married_cohabitating: လက်ထပ်ပြီးသူ/အတူတကွနေထိုင်သူ
+      divorced_separated: အိမ်ထောင်ကွဲ၊ကွဲကွာနေသူ
+      unknown_not_applicable: မသိ/ မသက်ဆိုင်
+  lookup-psychosocial-functionality-scale:
+    name: စိတ်လူမှုပိုင်းဆိုင်ရာ လုပ်ဆောင်နိုင်စွမ်းတိုင်းတာမှု
+    lookup_values:
+      scale_zero: လုံးဝ မခက်ခဲပါ (၀ မှတ်)
+      scale_one: နည်းနည်း ခက်ခဲသည် (၁ မှတ်)
+      scale_two: ခက်ခဲသည် (၂ မှတ်)
+      scale_three: အလွန်ခက်ခဲသည် (၃မှတ်)
+      scale_four: မကြာခဏ မလုပ်နိုင်လောက်အောင် ခက်ခဲလွန်းသည် (၄ မှတ်)
+  lookup-felt-stigma-scale:
+    name: လူမှုရေးအမဲစက်ရှိသည်ဟုခံစားရခြင်း တိုင်းတာမှု
+    lookup_values:
+      scale_zero: လုံးဝမရှိပါ (၀ မှတ်)
+      scale_one: အနည်းငယ်ရှိသည် (၁ မှတ်)
+      scale_two: အလယ်အလတ် ပမာဏရှိသည် (၂ မှတ်)
+      scale_three: အများကြီး ရှိသည် (၃ မှတ်)
+  lookup-three-point-agreement-scale-comfortable:
+    name: သက်တောင့်သက်သာဖြစ်မှုအပေါ် သဘောတူညီမှု အတိုင်းအတာ သုံးရပ်
+    lookup_values:
+      scale_one: လုံးဝ အဆင်မပြေပါ။
+      scale_two: အတန်သင့် အဆင်ပြေသည်
+      scale_three: လုံးဝ အဆင်ပြေသည်။
+  lookup-three-point-agreement-scale-friendly:
+    name: ရင်းနှီးဖော်ရွေမှု အပေါ် သဘောတူညီမှု အတိုင်းအတာ သုံးရပ်
+    lookup_values:
+      scale_one: လုံးဝရင်းနှီးဖော်ရွေမှု မရှိပါ။
+      scale_two: အတန်သင့် ရင်းနှီးဖော်ရွေသည်။
+      scale_three: လုံးဝရင်းနှီးဖော်ရွေမှု ရှိပါသည်။
+  lookup-three-point-agreement-scale-judgemental:
+    name: အကဲဖြတ်မှုအပေါ် သဘောတူညီမှု အတိုင်းအတာ သုံးရပ်
+    lookup_values:
+      scale_three: လုံးဝ အကဲဖြတ်ခဲ့သည်။
+      scale_two: အတန်သင့် အကဲဖြတ်ခဲ့သည်။
+      scale_one: လုံးဝ အကဲမဖြတ်ခဲ့ပါ။
+  lookup-unaccompanied-separated-status:
+    name: အဖေါ်မပါခြင်း၊ အုပ်ထိန်းသူနှင့်ကွဲကွာနေသည့် အခြေအနေ
+    lookup_values:
+      'no': 'မဟုတ်ပါ'
+      unaccompanied_minor: ပြုစုစောင့်ရှောက်သူ မရှိသည့် အရွယ်မရောက်သေးသူ
+      separated_child: အုပ်ထိန်းသူနှင့် ကွဲကွာနေသော ကလေးငယ်
+      other_vulnerable_child: မိဘမဲ့ သို့မဟုတ် ထိခိုက်လွယ်သောကလေး
+  lookup-three-point-agreement-scale:
+    name: ကူညီပေးခဲ့မှု အပေါ် သဘောတူတိုင်းတာမှု သုံးရပ်
+    lookup_values:
+      scale_one: လုံးဝ အကူညီ မရခဲ့ပါ။
+      scale_two: အတန်သင့် ကူညီခဲ့သည်။
+      scale_three: အပြည့်ဝ ကူညီခဲ့သည်။
+  lookup-perpetrator-relationship:
+    name: ရှင်သန်ကျန်ရစ်သူနှင့် ကျူးလွန်သူတော်စပ်ပုံ
+    lookup_values:
+      intimate_partner_former_partner: ရင်းနှီးသောကျွမ်း၀င်သောလက်တွဲဖော် / အရင်ကလက်တွဲဖေါ်
+      primary_caregiver: အဓိကစောင့်ရှောက်သူ
+      family_other_than_spouse_or_caregiver: အိမ်ထောင်ဖက် သို့မဟုတ် စောင့်ရှောက်သူ မဟုတ်သည့် အခြားမိသားစု
+      supervisor_employer: ကြီးကြပ်သူ/ အလုပ်ရှင်
+      schoolmate: အတန်းဖော်
+      teacher_school_official: ဆရာ၊ဆရာမ / ကျောင်းမှ တာဝန်ရှိသူ
+      service_provider: ဝန်ဆောင်မှုပေးသူ
+      cotenant_housemate: ပူးတွဲအိမ်ငှား / အတူနေသူ
+      family_friend_neighbor: မိသားစု၊မိတ်ဆွေ/ အိမ်နီးချင်း
+      other_refugee_idp_returnee: အခြားဒုက္ခသည် / ပြည်တွင်း၌နေရပ်စွန့်ခွါပြောင်းရွှေ့နေသူ/ နေရပ်ပြန်သူ
+      other_resident_community_member: အခြာ;ဒေသခံရပ်ရွာအဖွဲ့ဝင်
+      other: အခြား
+      no_relation: ဆွေမျိုးမတော်သူ
+      unknown: မသိ
+  lookup-discovery-method:
+    name: ရှာဖွေတွေ့ရှိမှု နည်းလမ်း
+    lookup_values:
+      family_or_friend: မိသားစု သို့မဟုတ် မိတ်ဆွေ၊သူငယ်ချင်း
+      referral: အခြားအဖွဲ့အစည်းမှ လွှဲပြောင်းညွန်းပို့ခဲ့သည်။
+      neighbor: အိမ်နီးချင်း သို့မဟုတ် ရပ်ရွာလူထုအဖွဲ့ဝင်
+      community_discussion: ရပ်ရွာလူထုအတွင်း ဆွေးနွေးမှု
+      pamphlet: သင်မြင်ခဲ့ သို့မဟုတ် ရရှိခဲ့သည့် လက်ကမ်းကြော်ငြာ သို့မဟုတ် လက်ကမ်းစာစောင်
+      other: အခြား
+  lookup-gbv-case-closure-reason:
+    name: ဖြစ်ရပ်ပိတ်သိမ်းရသည့် အကြောင်းရင်း
+    lookup_values:
+      case_closure_suvivor_needs_met: ရှင်သန်ကျန်ရစ်သူ၏ လိုအပ်ချက်များကို တတ်နိုင်သမျှအတိုင်းအတာအထိ ဖြည့်ဆည်းခဲ့ပြီးဖြစ်ပါသည်။
+      case_closure_suvivor_no_contact: သတ်မှတ်ထားသောအချိန်ကာလတစ်ခု (ဥပမာ- ရက်ပေါင်း ၃၀ ကျော်) အတွင်း  ရှင်သန်ကျန်ရစ်သူနှင့် ဆက်အသွယ်မရရှိခဲ့ပါ။
+      case_closure_suvivor_request: ရှင်သန်ကျန်ရစ်သူက အမှုဖြစ်ရပ် ပိတ်သိမ်းရန် တောင်းဆိုခဲ့သည်။
+      case_closure_suvivor_left: ရှင်သန်ကျန်ရစ်သူသည် ထိုဒေသမှထွက်ခွာသွားခဲ့သည် (သို့မဟုတ်) ထိုနေရာတွင် နေထိုင်ခြင်းမရှိတော့ပါ။
+      case_closure_case_transferred: အဆိုပါအမှုဖြစ်ရပ်အား အခြားအဖွဲ့အစည်းသို့လွှဲပြောင်းခဲ့သည်။
+      case_closure_funding_constraints: ဝန်ဆောင်မှုပေးသူ၏ ရန်ပုံငွေအကန့်အသတ်ကြောင့် အမှုဖြစ်ရပ်အားပိတ်သိမ်းခဲ့သည်။
+  lookup-ethnicity:
+    name: လူမျိုးစု
+    lookup_values:
+      ethnicity1: လူမျိုးစု (၁)
+      ethnicity2: လူမျိုးစု (၂)
+      ethnicity3: လူမျိုးစု (၃)
+      ethnicity4: လူမျိုးစု (၄)
+      ethnicity5: လူမျိုးစု (၅)
+      ethnicity6: လူမျိုးစု (၆)
+      ethnicity7: လူမျိုးစု (၇)
+      ethnicity8: လူမျိုးစု (၈)
+      ethnicity9: လူမျိုးစု (၉)
+      ethnicity10: လူမျိုးစု (၁၀)
+  lookup-location-type:
+    name: တည်နေရာအမျိုးအစား
+    lookup_values:
+      country: နိုင်ငံ
+      region: ဒေသ
+      province: တိုင်းဒေသကြီး/ ပြည်နယ်
+      district: ခရိုင်
+      governorate: အုပ်ချုပ်ရေးမှူး
+      chiefdom: အကြီးအကဲ
+      state: ပြည်နယ်
+      city: မြို့
+      county: ကောင်တီ
+      camp: စခန်း
+      site: နေရာ
+      village: ကျေးရွာ
+      zone: ဇုံ၊နယ်မြေ
+      sub_district: ခရိုင်ခွဲ
+      locality: နေရာဒေသ
+      prefecture: စီရင်စု
+      sub-prefecture: စီရင်စုခွဲ
+      commune: အသိုင်းအဝန်း
+      payam: ကြောက်ရွံ့ခြင်း
+      parish: နယ်ပယ်ဒေသ
+      municipality: မြို့တော်
+      other: အခြား
+  lookup-gbv-sexual-violence-type:
+    name: ကျား၊ မအခြေပြု လိင်အကြမ်းဖက်မှုအမျိုးအစား
+    lookup_values:
+      rape: မုဒိန်းမှု
+      sexual_assault: လိင်ပိုင်းဆိုင်ရာလက်ရောက်ကျူးလွန်ခြင်း
+      physical_assault: ရုပ်ပိုင်းဆိုင်ရာလက်ရောက်ကျူးလွန်ခြင်း
+      forced_marriage: အတင်းအဓမ္မလက်ထပ်စေခြင်း
+      denial_of_resources_opportunities_or_services: အရင်းအမြစ်များ၊ အခွင့်အလမ်းများ သို့မဟုတ် ဝန်ဆောင်မှုများကို ပေးရန်ငြင်းပယ်ခြင်း
+      psychological_emotional_abuse: စိတ်ပိုင်းဆိုင်ရာ / စိတ်ခံစားမှုဆိုင်ရာ အလွဲသုံးစားမှု
+      non-gbv: ကျား၊ မ အခြေပြုအကြမ်းဖက်မှု မဟုတ်သော
+  lookup-nationality:
+    name: နိုင်ငံသား
+    lookup_values:
+      nationality1: နိုင်ငံသား (၁)
+      nationality2: နိုင်ငံသား (၂)
+      nationality3: နိုင်ငံသား (၃)
+      nationality4: နိုင်ငံသား (၄)
+      nationality5: နိုင်ငံသား (၅)
+      nationality6: နိုင်ငံသား (၆)
+      nationality7: နိုင်ငံသား (၇)
+      nationality8: နိုင်ငံသား (၈)
+      nationality9: နိုင်ငံသား (၉)
+      nationality10: နိုင်ငံသား (၁၀)
+  lookup-protection-concerns:
+    name: ကာကွယ်စောင့်ရှောက်ရေးဆိုင်ရာစိုးရိမ်ပူပန်မှုများ
+    lookup_values:
+      physical_abuse_violence: ရုပ်ပိုင်းဆိုင်ရာအလွဲသုံးစားမှု/ အကြမ်းဖက်မှု
+      sexual_abuse_violence: လိင်ပိုင်းဆိုင်ရာအလွဲသုံးစားမှု/ အကြမ်းဖက်မှု
+      rape: မုဒိန်းမှု
+      emotional_or_psychological: စိတ်ခံစားမှု သို့မဟုတ် စိတ်ပိုင်းဆိုင်ရာနှိပ်စက်ခြင်း / အကြမ်းဖက်မှု
+      neglect: လျစ်လျူရှုသည်
+      abandonment: စွန့်ပစ်ခြင်း
+      child_labour: ကလေးလုပ်သား (အဆိုးဆုံးပုံစံမဟုတ်ပါ)၊
+      hazardous_work: အန္တရာယ်ရှိသောအလုပ်
+      sexual_exploitation: လိင်ပိုင်းဆိုင်ရာအမြတ်ထုတ်ခြင်း
+      slavery_sale_abduction: ကျွန်ပြုခြင်း/ရောင်းချခြင်း/ပြန်ပေးဆွဲခြင်း/လူကုန်ကူးခြင်း/အဓမ္မလုပ်အားပေးခိုင်းစေခြင်း။
+      in_conflict_with_the_law: ဥပဒေနှင့် ငြိစွန်းနေသော
+      associated_with_armed: လက်နက်ကိုင်တပ်ဖွဲ့များ သို့မဟုတ် လက်နက်ကိုင်အဖွဲ့များ နှင့် ဆက်စပ်နေသည်
+      deprived_of_liberty: လွတ်လပ်မှု ကင်းမဲ့ခြင်း/ အချုပ်အနှောင်
+      serious_medical_condition: ဆိုးရွားပြင်ထန်သော ကျန်းမာရေးအခြေအနေ
+      functional_difficulty_seeing: "လုပ်ဆောင်နိုင်မှု အခက်အခဲ (အမြင်အာရုံ, မျက်မှန်တပ်ထားသည့်တိုင်အောင်)"
+      functional_difficulty_hearing: "လုပ်ဆောင်နိုင်မှု အခက်အခဲ (အကြားအာရုံ, နားကြားကိရိယာအကူတပ်ထားသည့်တိုင်)"
+      functional_difficulty_walking: လုပ်ဆောင်နိုင်မှု အခက်အခဲ (လမ်းလျှောက်ခြင်း သို့မဟုတ် သူ/သူမ​၏ ခန္ဓာကိုယ်အစိတ်ပိုင်းတို့ကို အသုံးပြု၍)
+      functional_difficulty_remembering: လုပ်ဆောင်နိုင်မှု အခက်အခဲ (မှတ်မိနိုင်မှု သို့မဟုတ် စိတ်အာရုံစုစည်းနိုင်မှု)
+      difficulty_with_self_care: မိမိဘာသာ အစာစားခြင်း သို့မဟုတ် အဝတ်အစားဝတ်ခြင်း စသည့် မိမိကိုယ်ကို ဂရုစိုက်နိုင်မှုတွင် အခက်ါခဲရှိခြင်း (အသက်ရွယ်တူညီသော အခြားကလေးများနှင့် နှိုင်းယှဉ်လျှင်)
+      difficulty_communicating: ပေါင်းသင်းဆက်ဆံရေး ခက်ခဲမှု
+      unaccompanied: အဖေါ်မပါခြင်း
+      separated: ခွဲခွာခြင်း
+      orphan: မိဘမဲ့
+      psychosocial_distress: စိတ်လူမှုပိုင်းဆိုင်ရာ ဆင်းရဲဒုက္ခ
+      mental_disorder: စိတ်ကစဉ့်ကလျားဖြစ်ခြင်း
+      substance_abuse: အရက်၊ မူးယစ်ဆေးဝါး တလွဲသုံးစွဲခြင်း နှင့် စွဲလမ်းခြင်း (ကလေး)
+      belongs_to_marginalised: ဘေးဖယ်ခံထားရသည့် / ခွဲခြားဆက်ဆံခံရသော အုပ်စုတွင်ပါဝင်သည်
+      lack_of_documentation_birth_registration: စာရွက်စာတမ်း အထောက်အထား / မွေးစာရင်း မရှိခြင်း
+      child_marriage: ကလေးသူငယ် လက်ထပ်ထိမ်းမြားခြင်း
+      female_genital_mutilation_fgm: အမျိုးသမီးလိင်အင်္ဂါဖြတ်တောက်ခြင်း
+      pregnancy_child_parent: ကိုယ်ဝန် / ကလေးမိဘ
+      denial_of_resources_opportunities_or_services: အရင်းအမြစ်များ၊ အခွင့်အလမ်းများ သို့မဟုတ် ဝန်ဆောင်မှုများကို ပေးရန်ငြင်းပယ်ခြင်း
+      highly_vulnerable_care: အလွန်ထိခိုက်လွယ်သောစောင့်ရှောက်မှုအစီအစဉ်
+      child_survivor_of_explosive: ပေါက်ကွဲစေတတ်သော လက်နက်မှ ရှင်သန်ကျန်ရစ်သူ ကလေး
+      other: အခြား
+  lookup-service-type:
+    name: ဝန်ဆောင်မှုအမျိုးအစား
+    lookup_values:
+      alternative_care: အခြား စောင့်ရှောက်မှုနည်းလမ်း
+      security_e_g_safe_shelter: လုံခြုံမှု (ဥပမာ- ဘေးကင်းလုံခြုံသော ခိုလှုံရာဂေဟာ)
+      education_formal: ကျောင်းအခြေပြု/ကျောင်းတွင်း ပညာရေး
+      non_formal_education: ကျောင်းပြင်ပ ပညာရေး
+      family_tracing_and_reunification: "မိသားစု ခြေရာခံခြင်းနှင့် ပြန်လည်ပေါင်းစည်းခြင်း "
+      basic_psychosocial_support: အခြေခံ စိတ်လူမှုဆက်ဆံရေးဆိုင်ရာစောင့်ရှောက်မှု
+      focuses_non_specialized_mhpss_care: အထူးပြုထားခြင်းမဟုတ်သည့် စိတ်ကျန်းမာရေးနှင့် စိတ်လူမှုဆက်ဆံရေးအထောက်အပံ့ ကို ဦးတည်သော
+      specialized_mhpss_services: အထူးပြုထားသော စိတ်ကျန်းမာရေးနှင့် စိတ်လူမှုဆက်ဆံရေးအထောက်အပံ့ ကူညီစောင့်ရှောက်မှု
+      food: အစားအစာ
+      non_food_items: အစားအသောက်မဟုတ်သောပစ္စည်းများ
+      cash_assistance: ငွေကြေးအထောက်အပံ့
+      livelihoods: အသက်မွေးဝမ်းကြောင်း
+      medical: ဆေးဘက်ဆိုင်ရာ
+      nutrition: အစာအာဟာရ
+      legal_support: ဥပဒေရေးရာ အထောက်အပံ့
+      documentation: စာရွက်စာတမ်း အထောက်အထားမှတ်တမ်းပြုစုခြင်း
+      services_for_children_with_disabilities: မသန်စွမ်းကလေးများအတွက် ဝန်ဆောင်မှုများ
+      sexual_and_reproductive_health: လိင် နှင့် မျိုးဆက်ပွားကျန်းမာရေး
+      shelter: ခိုလှုံရာဂေဟာ
+      wash: ရေ/ပတ်ဝန်းကျင် သန့်ရှင်းရေးနှင့် တကိုယ်ရည်သန့်ရှင်းရေး
+      durable_solution_in_coordination_with_unhcr: ရည်ရှည်တည်တံ့သောဖြေရှင်းနည်း (UNHCR နှင့် ညှိနှိုင်းဆောင်ရွက်၍)
+      relocation: ပြောင်းရွှေ့အခြေချခြင်း
+      other_please_specify: အခြား
+  lookup-service-referred:
+    name: ဝန်ဆောင်မှုကိုလွှဲပြောင်းညွန်းပို့ပေးပြီးဖြစ်သည်။
+    lookup_values:
+      internal_referral: အဖွဲ့အစည်းတွင်း ညွှန်းပို့ခြင်း
+      external_referral: အဖွဲ့အစည်းပြင်ပသို့ ညွှန်းပို့ခြင်း
+      referred: လွှဲပြောင်းညွန်းပို့ပေးခဲ့သည်၊
+      service_provided_by_your_agency: ကျွန်ုပ်တို့အဖွဲ့အစည်းကဝန်ဆောင်မှုပေးခဲ့ပါသည်။
+      services_already_received_from_another_agency: အခြားအဖွဲ့အစည်းက ဝန်ဆောင်မှုရယူခဲ့ပြီးဖြစ်သည်။
+      service_not_applicable: ဝန်ဆောင်မှုနှင့်အကျုံးမဝင်ပါ
+      referral_declined_by_survivor: လွှဲပြောင်းညွှန်းပို့မှုအား ရှင်သန်ကျန်ရစ်သူကငြင်းဆိုခဲ့သည်။
+      service_unavailable: ဝန်ဆောင်မှု မရရှိနိုင်ပါ။
+  lookup-displacement-status:
+    name: နေရပ်စွန့်ခွါရွှေ့ပြောင်းရမှု အခြေအနေ
+    lookup_values:
+      asylum_seeker: ခိုလှုံခွင့်တောင်းခံသူ
+      refugee: ဒုက္ခသည်
+      idp: ပြည်တွင်း၌နေရပ်စွန့်ခွါပြောင်းရွှေ့နေသူ
+      migrant: ရွှေ့ပြောင်းသွားလာသူ
+      host_community: ဒေသခံ လူထု
+      returnee: နေရပ်ပြန်သူ
+      stateless_person: နိုင်ငံမဲ့ဖြစ်နေသူ
+      resident: နေထိုင်သူ/ ဒေသခံ
+      foreign_national: နိုင်ငံခြားသား
+      other: အခြား
+  lookup-gbv-reported-elsewhere:
+    name: ဟုတ်ပါသည်၊ မဟုတ်ပါ သို့မဟုတ် မသိပါ
+    lookup_values:
+      'no': 'မဟုတ်ပါ'
+      gbvims-org: ဟုတ်ပါသည်- ကျား၊ မအခြေပြုအကြမ်းဖက်မှု သတင်းအချက်အလက်စီမံခန့်ခွဲမှုစနစ်အသုံးပြုသည့် အဖွဲ့အစည်း/ အေဂျင်စီ
+      non-gbvims-org: ဟုတ်- ကျား၊ မအခြေပြုအကြမ်းဖက်မှု သတင်းအချက်အလက်စီမံခန့်ခွဲမှုစနစ် အသုံးမပြုသည့် အဖွဲ့အစည်း/ အေဂျင်စီ
+  lookup-workflow:
+    name: လုပ်ငန်းအသွားအလာ
+    lookup_values:
+      new: အမှုဖြစ်ရပ်အသစ်
+      closed: အမှုဖြစ်ရပ် ပိတ်သိမ်းခြင်း
+      reopened: အမှုဖြစ်ရပ်ပြန်ဖွင့်ခြင်း
+      service_provision: ပေးအပ်သည့် ဝန်ဆောင်မှု
+      services_implemented: တုံ့ပြန်မှုဆိုင်ရာဝန်ဆောင်မှုအားလုံးကို အကောင်အထည်ဖေါ်ပြီးစီးခဲ့သည်။
+      case_plan: အမှုဖြစ်ရပ် အစီအစဉ်
+  lookup-form-group-gbv-case:
+    name: ဖောင်ပုံစံ အုပ်စုများ - ကျား၊ မ အခြေပြုအကြမ်းဖက်မှုဖြစ်ရပ်
+    lookup_values:
+      record_information: သတင်းအချက်အလက်မှတ်တမ်း တင်ခြင်း
+      consent_for_services: ဝန်ဆောင်မှုများအတွက် အသိပေးသဘောတူညီမှု
+      documents: စာရွက်စာတမ်းများ
+      consent_for_referrals: ညွှန်းပို့ပေးခြင်းများအတွက် အသိပေးသဘောတူညီမှု
+      safety_plan: ဘေးကင်းလုံခြုံမှုအစီအစဉ်
+      action_plan: လုပ်ဆောင်ချက် အစီအစဉ်
+      survivor_assessment: ရှင်သန်ကျန်ရစ်သူအား အကဲဖြတ်ဆန်းစစ်ခြင်း
+      case_closure: ဖြစ်ရပ်ပိတ်သိမ်းခြင်း
+      client_feedback: ဝန်ဆောင်မှုရယူသူ၏ တုန့်ပြန်ချက်/အကြံပြုချက်
+      identification_registration: မည်သူမည်ဝါဖြစ်ကြောင်းသတ်မှတ်ခြင်း / မှတ်ပုံတင်ခြင်း
+      referrals_transfers: ညွှန်းပို့ခြင်းနှင့် လွှဲပြောင်းခြင်းများ
+      other_reportable_fields: အခြား အစီရင်ခံ တင်ပြနိုင်သော နယ်ပယ်များ
+      pss_scales: စိတ်လူမှုပိုင်းဆိုင်ရာ လုပ်ဆောင်နိုင်စွမ်းတိုင်းတာမှု
+      felt_stigma_scale: လူမှုရေးအမဲစက်ရှိသည်ဟုခံစားရခြင်း အတိုင်းအတာ
+      referral: ညွှန်းပို့ခြင်း
+  lookup-form-group-gbv-incident:
+    name: ဖောင်ပုံစံ အုပ်စုများ - ကျား/မ အခြေပြု အကြမ်းဖက်မှုဖြစ်ရပ်
+    lookup_values:
+      gbv_individual_details: ကျား၊ မ အခြေပြုအကြမ်းဖက်မှု တစ်ဦးချင်းစီ၏ အသေးစိတ်အချက်အလက်များ
+      incident: ဖြစ်စဉ်
+      type_of_violence: အကြမ်းဖက်မှုအမျိုးအစား
+      record_owner: မှတ်တမ်းပိုင်ရှင်
+      alleged_perpetrator: ကျူးလွန်သည်ဟု စွပ်စွဲခံရသူ
+      service_referral: ဝန်ဆောင်မှု အတွက် ညွှန်းပို့ခြင်း
+      other_reportable_fields: အခြားသော အစီရင်ခံ တင်ပြနိုင်သော နယ်ပယ်များ
+      record_information: သတင်းအချက်အလက်မှတ်တမ်း တင်ခြင်း

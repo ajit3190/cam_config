@@ -1,0 +1,7 @@
+ps-AF:
+  verification:
+    name: تصدیق
+    description: تصدیق
+    fields:
+      verification_subform_section:
+        display_name: تصدیق
