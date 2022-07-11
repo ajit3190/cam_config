@@ -858,7 +858,7 @@ FormSection.create_or_update!(
         mandatory_for_completion: false,
         created_at: "2022-07-08T07:04:22.744Z",
         updated_at: "2022-07-08T07:04:41.872Z"
-      },,
+      },
       {
         name: "staff_client_could_understand",
         visible: true,
