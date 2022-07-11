@@ -80,7 +80,7 @@ create_or_update_system_setting(
       action_plan: "Action Plan",
       gbv_closure: "GBV Closure"
     },
-    approvals_labels_ku-IQ: {
+    'approvals_labels_ku-IQ': {
       assessment: "BIA",
       case_plan: "پلانا کەيسی",
       closure: "داخستن",
