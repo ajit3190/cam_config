@@ -6,8 +6,8 @@ Report.create_or_update!(
     description_ar: "",
     name_ku: "typology",
     description_ku: "",
-    name_ku_IQ: "typology",
-    description_ku_IQ: "",
+    'name_ku-IQ': "typology",
+    'description_ku-IQ': "",
     record_type: "incident",
     aggregate_by: [
       "status"
@@ -47,8 +47,8 @@ Report.create_or_update!(
     description_ar: "",
     name_ku: "type of cases",
     description_ku: "",
-    name_ku_IQ: "type of cases",
-    description_ku_IQ: "",
+    'name_ku-IQ': "type of cases",
+    'description_ku-IQ': "",
     record_type: "incident",
     aggregate_by: [
       "cp_incident_violence_type"
@@ -88,8 +88,8 @@ Report.create_or_update!(
     description_ar: "",
     name_ku: "Typology1",
     description_ku: "",
-    name_ku_IQ: "Typology1",
-    description_ku_IQ: "",
+    'name_ku-IQ': "Typology1",
+    'description_ku-IQ': "",
     record_type: "incident",
     aggregate_by: [
       "cp_incident_violence_type"
@@ -126,8 +126,8 @@ Report.create_or_update!(
     description_ar: "",
     name_ku: "Typology",
     description_ku: "",
-    name_ku_IQ: "Typology",
-    description_ku_IQ: "",
+    'name_ku-IQ': "Typology",
+    'description_ku-IQ': "",
     record_type: "incident",
     aggregate_by: [
       "cp_incident_violence_type"
@@ -162,8 +162,8 @@ Report.create_or_update!(
     description_ar: "",
     name_ku: "gender",
     description_ku: "",
-    name_ku_IQ: "gender",
-    description_ku_IQ: "",
+    'name_ku-IQ': "gender",
+    'description_ku-IQ': "",
     record_type: "case",
     aggregate_by: [
       "sex"

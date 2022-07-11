@@ -42,7 +42,7 @@ create_or_update_system_setting(
     welcome_email_text_en: "Click link below to log into Primero.  Please see your system administrator if you have any issues.",
     welcome_email_text_ar: "",
     welcome_email_text_ku: "",
-    welcome_email_text_ku_IQ: "",
+    welcome_email_text_ku-IQ: "",
     base_language: "en",
     reporting_location_config: {
       field_key: "owned_by_location",
@@ -80,7 +80,7 @@ create_or_update_system_setting(
       action_plan: "Action Plan",
       gbv_closure: "GBV Closure"
     },
-    approvals_labels_ku_IQ: {
+    approvals_labels_ku-IQ: {
       assessment: "BIA",
       case_plan: "پلانا کەيسی",
       closure: "داخستن",
