@@ -42,7 +42,7 @@ create_or_update_system_setting(
     welcome_email_text_en: "Click link below to log into Primero.  Please see your system administrator if you have any issues.",
     welcome_email_text_ar: "",
     welcome_email_text_ku: "",
-    welcome_email_text_ku-IQ: "",
+    'welcome_email_text_ku-IQ': "",
     base_language: "en",
     reporting_location_config: {
       field_key: "owned_by_location",
