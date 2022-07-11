@@ -11,7 +11,7 @@ FormSection.create_or_update!(
     form_group_keyed: false,
     form_group_id: "inquirer",
     editable: true,
-    core_form: true,
+    core_form: false,
     is_nested: false,
     is_first_tab: true,
     initial_subforms: 0,

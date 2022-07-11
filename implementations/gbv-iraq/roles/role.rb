@@ -731,7 +731,6 @@ Role.create_or_update!(
       safety_plan: "rw",
       other_documents: "rw",
       gbv_case_closure_form: "rw",
-      followup: "rw",
       action_plan_form: "rw",
       client_feedback: "rw",
       health_medical_referral_subform_section: "rw",
@@ -742,7 +741,6 @@ Role.create_or_update!(
       child_protection_services_subform_section: "rw",
       gbv_reported_elsewhere_subform: "rw",
       alleged_perpetrator: "rw",
-      followup_subform_section: "rw",
       action_plan_subform_section: "rw",
       gbv_follow_up_subform_section: "rw"
     }
