@@ -71,7 +71,7 @@ FormSection.create_or_update!(
             display_text: "لاوەكی"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "primary",
             display_text: "سەرەکی"
@@ -274,7 +274,7 @@ FormSection.create_or_update!(
             display_text: "نەزانراو"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "0_11",
             display_text: "0-11"
@@ -661,7 +661,7 @@ FormSection.create_or_update!(
             display_text: "هیتر"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "other",
             display_text: "هێزێن چەکدار"

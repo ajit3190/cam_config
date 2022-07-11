@@ -134,7 +134,7 @@ FormSection.create_or_update!(
             display_text: "هی تر"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "health_medical_services",
             display_text: "خزمەتگوزاریێن ساخلەمی یان پزیشکی"
@@ -422,7 +422,7 @@ FormSection.create_or_update!(
             display_text: "بێبەش کردن لە میرات"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "no",
             display_text: "نەخێر"
@@ -566,7 +566,7 @@ FormSection.create_or_update!(
             display_text: "جۆری دیکەی رفاندن"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "none",
             display_text: "چ نە"

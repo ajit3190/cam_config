@@ -1110,7 +1110,7 @@ FormSection.create_or_update!(
             display_text: "هی تر"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "health_medical_services",
             display_text: "خزمەتگوزاریا ساخلەمی یان پزیشکی"

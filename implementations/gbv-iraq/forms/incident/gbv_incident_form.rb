@@ -330,7 +330,7 @@ FormSection.create_or_update!(
             display_text: "دوای ئاوارەبوون"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "not_displaced_home_community",
             display_text: "ئاوارەنەبوویە \\ کومەلگەهێ مێهڤاندار"
@@ -430,7 +430,7 @@ FormSection.create_or_update!(
             display_text: "نەزانراو / پیادەنەكراو"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "morning_sunrise_to_noon",
             display_text: "(سپێدە (رۆژئاڤابوون بۆ دەمێ نیڤرو"
@@ -753,7 +753,7 @@ FormSection.create_or_update!(
             display_text: "هیتر"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "bush_forest",
             display_text: "بنەجهێ قورتالبویێ/ى"

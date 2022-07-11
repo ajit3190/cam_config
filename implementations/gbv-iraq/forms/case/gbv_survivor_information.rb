@@ -522,7 +522,7 @@ FormSection.create_or_update!(
             display_text: "هی تر، تكایە دەستنیشانی بكە"
           }
         ],
-        'option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ': [
           {
             id: "parent_guardian",
             display_text: "دەیباب یان پارێزڤان"
