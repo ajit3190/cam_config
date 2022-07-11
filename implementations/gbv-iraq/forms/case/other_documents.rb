@@ -41,7 +41,7 @@ FormSection.create_or_update!(
         display_name_en: "Other Document",
         display_name_ar: "مستندات أخرى",
         display_name_ku: "بەڵگەنامەی تر",
-        display_'name_ku-IQ': "بەلگەیێن دی",
+        'display_name_ku-IQ': "بەلگەیێن دی",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,

@@ -40,7 +40,7 @@ FormSection.create_or_update!(
         display_name_en: "Is this the primary perpetrator?",
         display_name_ar: "هل هذا الجاني هو الجاني الرئيسي؟",
         display_name_ku: "ئایا ئەمە تاوانبارە سەرەكییەکەیە؟",
-        display_'name_ku-IQ': "ئەرێ ئەڤە تاوانبارێ سەرەکییە؟",
+        'display_name_ku-IQ': "ئەرێ ئەڤە تاوانبارێ سەرەکییە؟",
         option_strings_text_en: [
           {
             id: "primary",
@@ -71,7 +71,7 @@ FormSection.create_or_update!(
             display_text: "لاوەكی"
           }
         ],
-        option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ: [
           {
             id: "primary",
             display_text: "سەرەکی"
@@ -99,7 +99,7 @@ FormSection.create_or_update!(
         display_name_en: "Sex of Alleged Perpetrator",
         display_name_ar: "جنس الجاني المزعوم",
         display_name_ku: "رەگەزی گومانلێکراو",
-        display_'name_ku-IQ': "رەگەزێ تاوانبارێ گومانلێکری",
+        'display_name_ku-IQ': "رەگەزێ تاوانبارێ گومانلێکری",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-gender",
@@ -122,8 +122,8 @@ FormSection.create_or_update!(
         help_text_ar: "",
         display_name_ku: "پێشینەی گومانلێکراو لەبواری توندوتیژیی لەسەر بنەمای جێندەر",
         help_text_ku: "",
-        display_'name_ku-IQ': "توندو تیژی لسەر بنیاتێ رەگەزی یابەرێ ژ لایێ تاوانبارێ گومانلێکری",
-        help_text_ku-IQ: "",
+        'display_name_ku-IQ': "توندو تیژی لسەر بنیاتێ رەگەزی یابەرێ ژ لایێ تاوانبارێ گومانلێکری",
+        'help_text_ku-IQ': "",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
@@ -143,7 +143,7 @@ FormSection.create_or_update!(
         display_name_en: "Nationality of alleged perpetrator",
         display_name_ar: "بلد الجاني المزعوم",
         display_name_ku: "رەگەزنامەی گومانلێکراو",
-        display_'name_ku-IQ': "نەتەوەیێ تاوانبارێ گومانلێکری",
+        'display_name_ku-IQ': "نەتەوەیێ تاوانبارێ گومانلێکری",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-nationality",
@@ -163,7 +163,7 @@ FormSection.create_or_update!(
         display_name_en: "Clan or Ethnicity of alleged perpetrator",
         display_name_ar: "قبيلة او طائفة الجاني المزعوم",
         display_name_ku: "هۆز یان نەتەوەی گومانلێکراو",
-        display_'name_ku-IQ': "هوز یان نەژادێ تاوانبارێ گومانلێکری",
+        'display_name_ku-IQ': "هوز یان نەژادێ تاوانبارێ گومانلێکری",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-ethnicity",
@@ -183,7 +183,7 @@ FormSection.create_or_update!(
         display_name_en: "Age group of alleged perpetrator",
         display_name_ar: "الفئة العمرية للجاني المزعوم",
         display_name_ku: "گروپی تەمەنی گومانلێکراو",
-        display_'name_ku-IQ': "گروپێ تەمەنێ تاوانێ پێشبینیکری",
+        'display_name_ku-IQ': "گروپێ تەمەنێ تاوانێ پێشبینیکری",
         option_strings_text_en: [
           {
             id: "0_11",
@@ -274,7 +274,7 @@ FormSection.create_or_update!(
             display_text: "نەزانراو"
           }
         ],
-        option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ: [
           {
             id: "0_11",
             display_text: "0-11"
@@ -322,7 +322,7 @@ FormSection.create_or_update!(
         display_name_en: "Age type of alleged perpetrator",
         display_name_ar: "",
         display_name_ku: "جۆری تەمەنی گومانلێکراو",
-        display_'name_ku-IQ': "جورێ تەمەنێ تاوانبارێ گومانلێکری",
+        'display_name_ku-IQ': "جورێ تەمەنێ تاوانبارێ گومانلێکری",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-age-group-type",
@@ -342,7 +342,7 @@ FormSection.create_or_update!(
         display_name_en: "Alleged perpetrator relationship with survivor",
         display_name_ar: "علاقة الجاني المزعوم مع الناجية",
         display_name_ku: "پەیوەندی گومانلێکراو لەگەڵ رزگاربوو",
-        display_'name_ku-IQ': "پەیوەندیا تاوانبارێ گومانلێکری دگەل رزگاربووی",
+        'display_name_ku-IQ': "پەیوەندیا تاوانبارێ گومانلێکری دگەل رزگاربووی",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-perpetrator-relationship",
@@ -365,8 +365,8 @@ FormSection.create_or_update!(
         help_text_ar: "",
         display_name_ku: "پیشەی سەرەكی گومانلێکراو (ئەگەر بزانرێت)",
         help_text_ku: "",
-        display_'name_ku-IQ': "كارێ تاوانبارى",
-        help_text_ku-IQ: "",
+        'display_name_ku-IQ': "كارێ تاوانبارى",
+        'help_text_ku-IQ': "",
         option_strings_text_en: [
           {
             id: "other",
@@ -661,7 +661,7 @@ FormSection.create_or_update!(
             display_text: "هیتر"
           }
         ],
-        option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ: [
           {
             id: "other",
             display_text: "هێزێن چەکدار"
@@ -813,7 +813,7 @@ FormSection.create_or_update!(
         display_name_en: "Alleged Perpetrator",
         display_name_ar: "الجاني المزعوم",
         display_name_ku: "گومانلێکراو",
-        display_'name_ku-IQ': "تاوانبارێ گومانلێکری",
+        'display_name_ku-IQ': "تاوانبارێ گومانلێکری",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,

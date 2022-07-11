@@ -47,7 +47,7 @@ Lookup.create_or_update!(
         display_text: "نەزانراو"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "adult",
         display_text: "مەزن"
@@ -138,7 +138,7 @@ Lookup.create_or_update!(
         display_text: "نووسینگەی ئاژانس 5"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "agency_office_1",
         display_text: "ئوفیسا ئاژانسی 1"
@@ -225,7 +225,7 @@ Lookup.create_or_update!(
         display_text: "رەتكراوە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "requested",
         display_text: "داخازکری"
@@ -1028,7 +1028,7 @@ Lookup.create_or_update!(
         display_text: "دابینکردنی خزمەتگوزاری"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "case_plan",
         display_text: "پلانا کەیسی"
@@ -1107,7 +1107,7 @@ Lookup.create_or_update!(
         display_text: "هی تر، تكایە دیاریبكە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "armed_force_or_group_1",
         display_text: "ناڤێ گرۆپێ هێزا چەکدار 1"
@@ -1226,7 +1226,7 @@ Lookup.create_or_update!(
         display_text: "هی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "national_army",
         display_text: "لەشکەرێ نەتەوەیی"
@@ -1333,7 +1333,7 @@ Lookup.create_or_update!(
         display_text: "زیاتر لە 2 كاتژمێر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "less_than_15_minutes",
         display_text: "کێمتر ژ 15 خولەکا"
@@ -1408,7 +1408,7 @@ Lookup.create_or_update!(
         display_text: "بەدیهاتوو"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "n_a",
         display_text: "بەردەست نینە \\نە پەیوەندیدار"
@@ -1487,7 +1487,7 @@ Lookup.create_or_update!(
         display_text: "دووبارە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "open",
         display_text: "ڤەکری"
@@ -1558,7 +1558,7 @@ Lookup.create_or_update!(
         display_text: "13 - 17 ساڵ"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "0_5_year_old",
         display_text: "سالی 0-5"
@@ -1637,7 +1637,7 @@ Lookup.create_or_update!(
         display_text: "هی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "open",
         display_text: "کەیس دێ ڤەکری مینیت"
@@ -4036,7 +4036,7 @@ Lookup.create_or_update!(
         display_text: "زیمبابوێ"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "afghanistan",
         display_text: "ئەفغانستان"
@@ -4927,7 +4927,7 @@ Lookup.create_or_update!(
         display_text: "جگە لە توندوتیژی لەسەر بنچینەی جێندەر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "rape",
         display_text: "دەستدرێژی یا سێکسی"
@@ -5010,7 +5010,7 @@ Lookup.create_or_update!(
         display_text: "هەردووكیان"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "mental_disability",
         display_text: "پەککەفتنا مێشکی"
@@ -5089,7 +5089,7 @@ Lookup.create_or_update!(
         display_text: "پەككەوتەیی عەقلی و جەستەیی"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "no",
         display_text: "نەخێر"
@@ -5172,7 +5172,7 @@ Lookup.create_or_update!(
         display_text: "هەردووكیان"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "no",
         display_text: "نەخێر"
@@ -5279,7 +5279,7 @@ Lookup.create_or_update!(
         display_text: "هی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "family_or_friend",
         display_text: "خێزان یان هەڤال"
@@ -5406,7 +5406,7 @@ Lookup.create_or_update!(
         display_text: "پەناخواز"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "resident",
         display_text: "ئاکنجی"
@@ -5573,7 +5573,7 @@ Lookup.create_or_update!(
         display_text: "نەژاد 10"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "ethnicity1",
         display_text: "نەژاد 1"
@@ -5788,7 +5788,7 @@ Lookup.create_or_update!(
         display_text: "دەرەوەی خێزانێكی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "mother",
         display_text: "دەیک"
@@ -5907,7 +5907,7 @@ Lookup.create_or_update!(
         display_text: "بەدواداچوون بۆ هەڵسەنگاندن"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "after_reunification",
         display_text: "دیفچوون پشتی دوبارە گەهشتن ب ئێک"
@@ -6204,7 +6204,7 @@ Lookup.create_or_update!(
         display_text: "دەستێوەردانی خێرا"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "no_further_action_needed",
         display_text: "کریارێن پتر پێدڤی نینە"
@@ -6259,7 +6259,7 @@ Lookup.create_or_update!(
         display_text: "داخستن"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "case_plan",
         display_text: "پلانا کەیسی"
@@ -6322,7 +6322,7 @@ Lookup.create_or_update!(
         display_text: "بەڵێ - رێكخراو / ئاژانسی نا GBVIMS"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "no",
         display_text: "نەخێر"
@@ -6437,7 +6437,7 @@ Lookup.create_or_update!(
         id: "non-gbv"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         display_text: "دەست درێژیا سیکسی",
         id: "rape"
@@ -6508,7 +6508,7 @@ Lookup.create_or_update!(
         display_text: "مێ"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "male",
         display_text: "نێر"
@@ -6583,7 +6583,7 @@ Lookup.create_or_update!(
         display_text: "هی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "disclosure_complaint_by_the_abused_person_or_family_member",
         display_text: "ئاشکراکرنا نهێنیان یان سکالا ژ لایێ کەسێ دەستدرێژی ل سەر هاتیە کرن یان ئەندامێن خێزانێ"
@@ -6678,7 +6678,7 @@ Lookup.create_or_update!(
         display_text: "هی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "home",
         display_text: "مال"
@@ -6753,7 +6753,7 @@ Lookup.create_or_update!(
         display_text: "دووبارە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "open",
         display_text: "ڤەکری"
@@ -6808,7 +6808,7 @@ Lookup.create_or_update!(
         display_text: "داخراو"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "open",
         display_text: "ڤەکری"
@@ -6955,7 +6955,7 @@ Lookup.create_or_update!(
         display_text: "زمان10"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "language1",
         display_text: "زمان 1"
@@ -7254,7 +7254,7 @@ Lookup.create_or_update!(
         display_text: "هی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "country",
         display_text: "وەلات"
@@ -7401,7 +7401,7 @@ Lookup.create_or_update!(
         display_text: "بێوەژن"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "single",
         display_text: "سینگل"
@@ -7496,7 +7496,7 @@ Lookup.create_or_update!(
         display_text: "نەزانراو / نیە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "single",
         display_text: "سینگل"
@@ -7595,7 +7595,7 @@ Lookup.create_or_update!(
         display_text: "لەگەڵ مێرد / هاوژین"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "single",
         display_text: "سینگل"
@@ -7754,7 +7754,7 @@ Lookup.create_or_update!(
         display_text: "رەگەزنامە10"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "nationality1",
         display_text: "نەتەوە 1"
@@ -7981,7 +7981,7 @@ Lookup.create_or_update!(
         id: "unknown"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         display_text: "هەڤالێ نێزیک یان هەڤالێ بەرێ",
         id: "intimate_partner_former_partner"
@@ -8272,7 +8272,7 @@ Lookup.create_or_update!(
         display_text: "هی تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "sexually_exploited",
         display_text: "ئیستغلالا سکسی"
@@ -8387,7 +8387,7 @@ Lookup.create_or_update!(
         display_text: "جیابووەوە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "unaccompanied",
         display_text: "بتنێ"
@@ -8534,7 +8534,7 @@ Lookup.create_or_update!(
         display_text: "ئاین10"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "religion1",
         display_text: "ئاین 1"
@@ -8647,7 +8647,7 @@ Lookup.create_or_update!(
         display_text: "نزم"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "high",
         display_text: "بلند"
@@ -8874,7 +8874,7 @@ Lookup.create_or_update!(
         display_text: "هی تر (تكایە دیاریبكە)"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "conflict",
         display_text: "ناکوکی"
@@ -8981,7 +8981,7 @@ Lookup.create_or_update!(
         display_text: "جێبەجێكراو"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "not_implemented",
         display_text: "نەهاتیە جێبەجێکرن"
@@ -9080,7 +9080,7 @@ Lookup.create_or_update!(
         display_text: "خزمەتگوازارییەکە بەردەست نیە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "referred",
         display_text: "هاتیە رەوانەکرن"
@@ -9195,7 +9195,7 @@ Lookup.create_or_update!(
         display_text: "رەوانەکردن نیە، خزمەتگوزاری بەردەست نیە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "referred",
         display_text: "هاتیە رەوانەکرن"
@@ -9274,7 +9274,7 @@ Lookup.create_or_update!(
         display_text: "دابینكردنی خزمەتگوزاری"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "care_plan",
         display_text: "پلانا چاڤدێریێ"
@@ -9485,7 +9485,7 @@ Lookup.create_or_update!(
         display_text: "خزمەتگوزاری تر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "safehouse_service",
         display_text: "خزمەتگۆزاریا مالا پاراستی"
@@ -9612,7 +9612,7 @@ Lookup.create_or_update!(
         display_text: "شەو"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "morning",
         display_text: "سپێدە"
@@ -9707,7 +9707,7 @@ Lookup.create_or_update!(
         display_text: "داخراو"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "open",
         display_text: "ڤەکری"
@@ -9794,7 +9794,7 @@ Lookup.create_or_update!(
         display_text: "داواكاری گواستنەوە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "referral",
         display_text: "رەوانەکرن"
@@ -9877,7 +9877,7 @@ Lookup.create_or_update!(
         display_text: "منداڵی هەتیو یان منداڵی مەترسی لەسەر"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "no",
         display_text: "نەخێر"
@@ -10344,7 +10344,7 @@ Lookup.create_or_update!(
         display_text: "LP-RR"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "cr-cp",
         display_text: "CR-CP"
@@ -10567,7 +10567,7 @@ Lookup.create_or_update!(
         display_text: "رەتكراو"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "verified",
         display_text: "هاتیە پشکنینکرن"
@@ -10678,7 +10678,7 @@ Lookup.create_or_update!(
         display_text: "پلانی كەیس"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "new",
         display_text: "کەیسێ نی"
@@ -10745,7 +10745,7 @@ Lookup.create_or_update!(
         id: "false"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         display_text: "بەلێ",
         id: "true"
@@ -10808,7 +10808,7 @@ Lookup.create_or_update!(
         display_text: "بەركارنیە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "true",
         display_text: "بەلێ"
@@ -10875,7 +10875,7 @@ Lookup.create_or_update!(
         display_text: "بڕیاری لێ نەدراوە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "true",
         display_text: "بەلێ"
@@ -10942,7 +10942,7 @@ Lookup.create_or_update!(
         display_text: "نەزانراوە"
       }
     ],
-    lookup_values_ku-IQ: [
+    'lookup_values_ku-IQ': [
       {
         id: "true",
         display_text: "بەلێ"

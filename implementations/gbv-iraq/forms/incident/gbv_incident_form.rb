@@ -41,7 +41,7 @@ FormSection.create_or_update!(
         display_name_en: "Long ID",
         display_name_ar: "رقم معرّف طويل",
         display_name_ku: "ژمارەی ناسنامەی درێژ",
-        display_'name_ku-IQ': "ناسناما درێژ",
+        'display_name_ku-IQ': "ناسناما درێژ",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -60,7 +60,7 @@ FormSection.create_or_update!(
         display_name_en: "Incident ID",
         display_name_ar: "الرقم المعرف للحادثة",
         display_name_ku: "ژمارەی ناسنامەی رووداو",
-        display_'name_ku-IQ': "ناسناما ریدانێ",
+        'display_name_ku-IQ': "ناسناما ریدانێ",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -82,7 +82,7 @@ FormSection.create_or_update!(
         tick_box_label_ar: "نعم",
         display_name_ku: "نیشانكراو بۆ مۆبایل؟",
         tick_box_label_ku: "بەڵێ",
-        display_'name_ku-IQ': "دەستنینشانکریە بۆ موبایلێ؟",
+        'display_name_ku-IQ': "دەستنینشانکریە بۆ موبایلێ؟",
         tick_box_label_ku-IQ: "بەلێ",
         multi_select: false,
         hidden_text_field: false,
@@ -102,7 +102,7 @@ FormSection.create_or_update!(
         display_name_en: "Incident Code",
         display_name_ar: "رمز الحادثة",
         display_name_ku: "كۆدی رووداو",
-        display_'name_ku-IQ': "کودێ ریدانێ",
+        'display_name_ku-IQ': "کودێ ریدانێ",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -124,8 +124,8 @@ FormSection.create_or_update!(
         help_text_ar: "الرقم المعرف للحادثة لـ IR",
         display_name_ku: "ژمارەی ناسنامەی IRی رووداو",
         help_text_ku: "ژمارەی ناسنامەی رووداو بۆ  IR",
-        display_'name_ku-IQ': "ناسناما ریدانێ بو IR",
-        help_text_ku-IQ: "IR ناسناما ریدانێ بۆ",
+        'display_name_ku-IQ': "ناسناما ریدانێ بو IR",
+        'help_text_ku-IQ': "IR ناسناما ریدانێ بۆ",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -144,7 +144,7 @@ FormSection.create_or_update!(
         display_name_en: "Incident Status",
         display_name_ar: "الوضع الراهن لملف الحادثة",
         display_name_ku: "باری رووداو",
-        display_'name_ku-IQ': "بارودوخێ ریدانێ",
+        'display_name_ku-IQ': "بارودوخێ ریدانێ",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-incident-status",
@@ -165,7 +165,7 @@ FormSection.create_or_update!(
         display_name_en: "Consent is given to share non-identifiable information for reporting",
         display_name_ar: "تم إعطاء الموافقة لمشاركة المعلومات غير المحددة لهوية الناجية لغرض إعداد التقارير",
         display_name_ku: "رەزامەندی دراوە بۆ درکاندنی زانیاری نەناسێنەر بە مەبەستی راپۆرت كردن",
-        display_'name_ku-IQ': "رازەمەندی هاتیە دان بۆ پشکدارکرنا پێزانینێن نە دەستنیشانکری بۆ راپورتکرنێ",
+        'display_name_ku-IQ': "رازەمەندی هاتیە دان بۆ پشکدارکرنا پێزانینێن نە دەستنیشانکری بۆ راپورتکرنێ",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
@@ -185,7 +185,7 @@ FormSection.create_or_update!(
         display_name_en: "Date of Interview",
         display_name_ar: "تاريخ المقابلة",
         display_name_ku: "رێكەوتی چاوپێکەوتن",
-        display_'name_ku-IQ': "رۆژا چاڤپێکەفتنێ",
+        'display_name_ku-IQ': "رۆژا چاڤپێکەفتنێ",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -205,7 +205,7 @@ FormSection.create_or_update!(
         display_name_en: "Date of Incident",
         display_name_ar: "تاريخ الحادثة",
         display_name_ku: "رێكەوتی رووداو",
-        display_'name_ku-IQ': "مێژوویا ریدانێ",
+        'display_name_ku-IQ': "مێژوویا ریدانێ",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -227,8 +227,8 @@ FormSection.create_or_update!(
         help_text_ar: "",
         display_name_ku: "پوختەی (کورتەی ڕووداوەکە)",
         help_text_ku: "",
-        display_'name_ku-IQ': "هێمایێ بویەرێ",
-        help_text_ku-IQ: "",
+        'display_name_ku-IQ': "هێمایێ بویەرێ",
+        'help_text_ku-IQ': "",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -250,8 +250,8 @@ FormSection.create_or_update!(
         help_text_ar: "",
         display_name_ku: "قۆناغی ئاوارەبوون لەكاتی روودانی رووداوەكەدا",
         help_text_ku: "",
-        display_'name_ku-IQ': "بارودوخێ ئاوارەبوونێ ل دەمێ ریدانێ",
-        help_text_ku-IQ: "",
+        'display_name_ku-IQ': "بارودوخێ ئاوارەبوونێ ل دەمێ ریدانێ",
+        'help_text_ku-IQ': "",
         option_strings_text_en: [
           {
             id: "not_displaced_home_community",
@@ -330,7 +330,7 @@ FormSection.create_or_update!(
             display_text: "دوای ئاوارەبوون"
           }
         ],
-        option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ: [
           {
             id: "not_displaced_home_community",
             display_text: "ئاوارەنەبوویە \\ کومەلگەهێ مێهڤاندار"
@@ -375,7 +375,7 @@ FormSection.create_or_update!(
         display_name_en: "Time of day that the Incident took place",
         display_name_ar: "الوقت من اليوم الذي وقعت فيه الحادثة",
         display_name_ku: "ئەو کاتەی رۆژ كە رووداوەكە روویدا",
-        display_'name_ku-IQ': "وەختێ رۆژێ کو ریدان تێدا چێبووی",
+        'display_name_ku-IQ': "وەختێ رۆژێ کو ریدان تێدا چێبووی",
         option_strings_text_en: [
           {
             id: "morning_sunrise_to_noon",
@@ -430,7 +430,7 @@ FormSection.create_or_update!(
             display_text: "نەزانراو / پیادەنەكراو"
           }
         ],
-        option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ: [
           {
             id: "morning_sunrise_to_noon",
             display_text: "(سپێدە (رۆژئاڤابوون بۆ دەمێ نیڤرو"
@@ -469,8 +469,8 @@ FormSection.create_or_update!(
         help_text_ar: "",
         display_name_ku: "جۆری ئەو شوێنەی كە رووداوەكەی تیادا روویداوە",
         help_text_ku: "",
-        display_'name_ku-IQ': "جهێ ریدانێ/ لکیڤە ریدان هاتیە ریدان",
-        help_text_ku-IQ: "",
+        'display_name_ku-IQ': "جهێ ریدانێ/ لکیڤە ریدان هاتیە ریدان",
+        'help_text_ku-IQ': "",
         option_strings_text_en: [
           {
             id: "bush_forest",
@@ -753,7 +753,7 @@ FormSection.create_or_update!(
             display_text: "هیتر"
           }
         ],
-        option_strings_text_ku-IQ: [
+        'option_strings_text_ku-IQ: [
           {
             id: "bush_forest",
             display_text: "بنەجهێ قورتالبویێ/ى"
@@ -866,7 +866,7 @@ FormSection.create_or_update!(
         display_name_en: "Incident Location",
         display_name_ar: "موقع الحادثة",
         display_name_ku: "شوێنی ڕووداوەکە",
-        display_'name_ku-IQ': "جهێ ریدانێ",
+        'display_name_ku-IQ': "جهێ ریدانێ",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "Location",
@@ -886,7 +886,7 @@ FormSection.create_or_update!(
         display_name_en: "Incident Camp/Town",
         display_name_ar: "المخيم / البلدة التي وقعت فيها الحادثة",
         display_name_ku: "كەمپ / شارۆچكەی رووداو",
-        display_'name_ku-IQ': "دناڤا کەمپێ یان باژاری دا",
+        'display_name_ku-IQ': "دناڤا کەمپێ یان باژاری دا",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
