@@ -83,7 +83,7 @@ FormSection.create_or_update!(
         display_name_ku: "نیشانەكراو بۆ مۆبایل",
         tick_box_label_ku: "بەڵێ",
         'display_name_ku-IQ': "دەستنینشانکریە بۆ موبایلێ؟",
-        tick_box_label_ku-IQ: "بەلێ",
+        'tick_box_label_ku-IQ': "بەلێ",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
