@@ -1,4 +1,4 @@
-FormSection.create_or_update!(
+  FormSection.create_or_update!(
   {
     unique_id: "cp_comprehensive_social_work_assessment_subform_comprehensive_assessment",
     name_i18n: {
@@ -639,7 +639,7 @@ FormSection.create_or_update!(
     },
     parent_form: "case",
     visible: true,
-    order: 999,
+    order: 20,
     order_form_group: 60,
     order_subform: 0,
     form_group_keyed: false,

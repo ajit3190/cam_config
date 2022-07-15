@@ -29,9 +29,8 @@ FormSection.create_or_update!(
     mobile_form: true,
     header_message_link: "",
     collapsed_field_names: [
-      "relation_name",
-      "relation_is_caregiver",
-      "relation"
+      "family_member_name",
+      "family_member_client_relation"
     ],
     fields_attributes: [
       {

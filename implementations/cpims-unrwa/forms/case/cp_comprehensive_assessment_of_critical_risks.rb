@@ -307,8 +307,8 @@ FormSection.create_or_update!(
     },
     parent_form: "case",
     visible: false,
-    order: 999,
-    order_form_group: 999,
+    order: 30,
+    order_form_group: 60,
     order_subform: 1,
     form_group_keyed: false,
     editable: true,
@@ -325,6 +325,7 @@ FormSection.create_or_update!(
     mobile_form: false,
     header_message_link: "",
     collapsed_field_names: [
+      "what_formulation_decided",
       "immediate_preventive_measures_describe"
     ],
     fields_attributes: [

@@ -29,7 +29,8 @@ FormSection.create_or_update!(
     mobile_form: false,
     header_message_link: "",
     collapsed_field_names: [
-      "case_plan_timeframe"
+      "objective_number",
+      "objectives_intervention_plan"
     ],
     fields_attributes: [
       {

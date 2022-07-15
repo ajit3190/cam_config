@@ -5284,14 +5284,14 @@ Lookup.create_or_update!(
     },
     lookup_values_i18n: [
       {
-        id: true,
+        id: 'true',
         display_text: {
           ar: "نعم",
           en: "Yes"
         }
       },
       {
-        id: false,
+        id: 'false',
         display_text: {
           ar: "لا",
           en: "No"
