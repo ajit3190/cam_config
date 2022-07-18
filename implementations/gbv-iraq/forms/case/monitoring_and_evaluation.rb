@@ -266,7 +266,7 @@ FormSection.create_or_update!(
             "service_provided"
           ]
         },
-        mandatory_for_completion: false
+        mandatory_for_completion: false,
         subform_unique_id: "action_plan_subform_section"
       },
       {
