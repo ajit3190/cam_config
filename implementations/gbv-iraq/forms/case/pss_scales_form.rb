@@ -29,8 +29,6 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
-    created_at: "2022-07-08T07:04:23.191Z",
-    updated_at: "2022-07-08T07:04:44.658Z",
     collapsed_field_names: [
       "pss_date"
     ],
@@ -60,9 +58,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.193Z",
-        updated_at: "2022-07-08T07:04:44.484Z"
+        mandatory_for_completion: false
       },
       {
         name: "pss_date",
@@ -96,8 +92,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.196Z",
-        updated_at: "2022-07-08T07:04:44.500Z",
         collapsed_field_for_subform_unique_id: "pss_subform_section"
       },
       {
@@ -126,9 +120,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.199Z",
-        updated_at: "2022-07-08T07:04:44.515Z"
+        mandatory_for_completion: false
       },
       {
         name: "exchanging_ideas",
@@ -156,9 +148,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.201Z",
-        updated_at: "2022-07-08T07:04:44.525Z"
+        mandatory_for_completion: false
       },
       {
         name: "uniting_with_other_community",
@@ -186,9 +176,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.203Z",
-        updated_at: "2022-07-08T07:04:44.538Z"
+        mandatory_for_completion: false
       },
       {
         name: "asking_getting_help",
@@ -216,9 +204,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.206Z",
-        updated_at: "2022-07-08T07:04:44.551Z"
+        mandatory_for_completion: false
       },
       {
         name: "making_important_decisions",
@@ -246,9 +232,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.208Z",
-        updated_at: "2022-07-08T07:04:44.562Z"
+        mandatory_for_completion: false
       },
       {
         name: "taking_part_in_family_decisions",
@@ -276,9 +260,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.210Z",
-        updated_at: "2022-07-08T07:04:44.576Z"
+        mandatory_for_completion: false
       },
       {
         name: "learning_new_skills",
@@ -306,9 +288,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.212Z",
-        updated_at: "2022-07-08T07:04:44.588Z"
+        mandatory_for_completion: false
       },
       {
         name: "concentrating_on_your_tasks",
@@ -336,9 +316,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.216Z",
-        updated_at: "2022-07-08T07:04:44.600Z"
+        mandatory_for_completion: false
       },
       {
         name: "interacting_dealing_people",
@@ -366,9 +344,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.218Z",
-        updated_at: "2022-07-08T07:04:44.609Z"
+        mandatory_for_completion: false
       },
       {
         name: "keeping_household_clean",
@@ -396,9 +372,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.221Z",
-        updated_at: "2022-07-08T07:04:44.620Z"
+        mandatory_for_completion: false
       },
       {
         name: "pss_score",
@@ -426,8 +400,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.224Z",
-        updated_at: "2022-07-08T07:04:44.632Z",
         calculation: {
           type: "number",
           expression: {
@@ -470,8 +442,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.227Z",
-        updated_at: "2022-07-08T07:04:23.227Z",
         calculation: {
           type: "number",
           expression: {
@@ -515,9 +485,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.230Z",
-        updated_at: "2022-07-08T07:04:44.645Z"
+        mandatory_for_completion: false
       }
     ],
     module_ids: [
@@ -558,8 +526,6 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
-    created_at: "2022-07-08T07:04:23.260Z",
-    updated_at: "2022-07-08T07:04:42.466Z",
     fields_attributes: [
       {
         name: "pss_section",
@@ -587,8 +553,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.262Z",
-        updated_at: "2022-07-08T07:04:42.446Z",
         subform_unique_id: "pss_subform_section"
       }
     ],

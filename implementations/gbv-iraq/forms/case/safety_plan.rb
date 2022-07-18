@@ -304,9 +304,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: true,
-        created_at: "2022-07-08T07:04:23.326Z",
-        updated_at: "2022-07-08T07:04:44.806Z"
+        mandatory_for_completion: true
       },
       {
         name: "safety_plan_leaving_steps_header",

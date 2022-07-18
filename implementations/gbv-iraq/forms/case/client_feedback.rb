@@ -199,9 +199,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.685Z",
-        updated_at: "2022-07-08T07:04:42.071Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_comfortable_with_case_worker",
@@ -248,9 +246,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.688Z",
-        updated_at: "2022-07-08T07:04:42.094Z"
+        mandatory_for_completion: false
       },
       {
         name: "same_case_worker_each_visit",
@@ -297,9 +293,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.691Z",
-        updated_at: "2022-07-08T07:04:42.120Z"
+        mandatory_for_completion: false
       },
       {
         name: "could_client_choose_support_person",
@@ -366,9 +360,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.695Z",
-        updated_at: "2022-07-08T07:04:42.146Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_decided_what_next",
@@ -415,9 +407,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.698Z",
-        updated_at: "2022-07-08T07:04:42.169Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_referred_elsewhere",
@@ -464,9 +454,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.703Z",
-        updated_at: "2022-07-08T07:04:42.196Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_feedback_confidentiality_header",
@@ -532,9 +520,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.708Z",
-        updated_at: "2022-07-08T07:04:42.236Z"
+        mandatory_for_completion: false
       },
       {
         name: "staff_respect_confidentiality",
@@ -581,9 +567,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.712Z",
-        updated_at: "2022-07-08T07:04:42.258Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_private_meeting",
@@ -630,9 +614,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.717Z",
-        updated_at: "2022-07-08T07:04:41.751Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_meeting_overheard",
@@ -660,9 +642,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.718Z",
-        updated_at: "2022-07-08T07:04:41.765Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_meeting_overheard_explain",
@@ -689,9 +669,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.721Z",
-        updated_at: "2022-07-08T07:04:41.776Z"
+        mandatory_for_completion: false
       },
       {
         name: "client_feedback_staff_header",
@@ -757,9 +735,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.727Z",
-        updated_at: "2022-07-08T07:04:41.816Z"
+        mandatory_for_completion: false
       },
       {
         name: "staff_open_minded",
@@ -806,9 +782,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.731Z",
-        updated_at: "2022-07-08T07:04:41.842Z"
+        mandatory_for_completion: false
       },
       {
         name: "staff_answered_all_questions",
@@ -855,9 +829,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.744Z",
-        updated_at: "2022-07-08T07:04:41.872Z"
+        mandatory_for_completion: false
       },
       {
         name: "staff_client_could_understand",
@@ -904,9 +876,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.749Z",
-        updated_at: "2022-07-08T07:04:41.896Z"
+        mandatory_for_completion: false
       },
       {
         name: "staff_allowed_enough_time",
@@ -953,9 +923,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.752Z",
-        updated_at: "2022-07-08T07:04:41.919Z"
+        mandatory_for_completion: false
       },
       {
         name: "staff_helpful",

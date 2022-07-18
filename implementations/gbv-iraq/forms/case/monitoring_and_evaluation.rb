@@ -26,8 +26,6 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
-    created_at: "2022-07-08T07:04:23.056Z",
-    updated_at: "2022-07-08T07:04:23.056Z",
     fields_attributes: [
       {
         name: "age",
@@ -52,9 +50,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.059Z",
-        updated_at: "2022-07-08T07:04:23.059Z"
+        mandatory_for_completion: false
       },
       {
         name: "date_of_birth",
@@ -79,9 +75,7 @@ FormSection.create_or_update!(
         date_validation: "not_future_date",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.061Z",
-        updated_at: "2022-07-08T07:04:23.061Z"
+        mandatory_for_completion: false
       },
       {
         name: "sex",
@@ -107,9 +101,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.063Z",
-        updated_at: "2022-07-08T07:04:23.063Z"
+        mandatory_for_completion: false
       },
       {
         name: "country_of_origin",
@@ -135,9 +127,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.066Z",
-        updated_at: "2022-07-08T07:04:23.066Z"
+        mandatory_for_completion: false
       },
       {
         name: "maritial_status",
@@ -163,9 +153,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.068Z",
-        updated_at: "2022-07-08T07:04:23.068Z"
+        mandatory_for_completion: false
       },
       {
         name: "gbv_displacement_status",
@@ -191,9 +179,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.071Z",
-        updated_at: "2022-07-08T07:04:23.071Z"
+        mandatory_for_completion: false
       },
       {
         name: "gbv_disability_type",
@@ -219,9 +205,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.073Z",
-        updated_at: "2022-07-08T07:04:23.073Z"
+        mandatory_for_completion: false
       },
       {
         name: "unaccompanied_separated_status",
@@ -247,9 +231,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.075Z",
-        updated_at: "2022-07-08T07:04:23.075Z"
+        mandatory_for_completion: false
       },
       {
         name: "action_plan_section",
@@ -284,9 +266,7 @@ FormSection.create_or_update!(
             "service_provided"
           ]
         },
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.078Z",
-        updated_at: "2022-07-08T07:04:23.078Z",
+        mandatory_for_completion: false
         subform_unique_id: "action_plan_subform_section"
       },
       {
@@ -319,8 +299,6 @@ FormSection.create_or_update!(
           ]
         },
         mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:23.086Z",
-        updated_at: "2022-07-08T07:04:23.086Z",
         subform_unique_id: "gbv_follow_up_subform_section"
       }
     ],

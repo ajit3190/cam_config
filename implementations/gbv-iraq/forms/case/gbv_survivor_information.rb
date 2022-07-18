@@ -214,7 +214,7 @@ FormSection.create_or_update!(
       },
       {
         name: "gbv_ethnicity",
-        visible: false,
+        visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
@@ -254,7 +254,7 @@ FormSection.create_or_update!(
       },
       {
         name: "gbv_nationality",
-        visible: false,
+        visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
@@ -274,7 +274,7 @@ FormSection.create_or_update!(
       },
       {
         name: "gbv_religion",
-        visible: false,
+        visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,

@@ -97,9 +97,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.533Z",
-        updated_at: "2022-07-08T07:04:45.672Z"
+        mandatory_for_completion: false
       },
       {
         name: "service_referral",
@@ -166,9 +164,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.539Z",
-        updated_at: "2022-07-08T07:04:45.705Z"
+        mandatory_for_completion: false
       },
       {
         name: "service_appointment_date",
@@ -351,9 +347,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.560Z",
-        updated_at: "2022-07-08T07:04:45.601Z"
+        mandatory_for_completion: false
       },
       {
         name: "service_provided_date",
@@ -381,8 +375,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.561Z",
-        updated_at: "2022-07-08T07:04:45.614Z",
         display_conditions_subform: {
           eq: {
             service_provided: "true"
@@ -414,9 +406,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.563Z",
-        updated_at: "2022-07-08T07:04:45.632Z"
+        mandatory_for_completion: false
       }
     ]
   }
@@ -681,8 +671,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2022-07-08T07:04:22.456Z",
-        updated_at: "2022-07-08T07:04:46.271Z",
         display_conditions_subform: {
           eq: {
             follow_up_survivor_share_needs: "true"
@@ -1027,7 +1015,7 @@ FormSection.create_or_update!(
     unique_id: "action_plan_form",
     parent_form: "case",
     visible: true,
-    order: 30,
+    order: 60,
     order_form_group: 60,
     order_subform: 0,
     form_group_keyed: false,
