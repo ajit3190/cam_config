@@ -233,7 +233,6 @@ FormSection.create_or_update!(
           ku: "هۆكاری داخستنی كەیسە"
         },
         option_strings_source: "lookup lookup-gbv-case-closure-reason",
-        order: 9,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -260,7 +259,6 @@ FormSection.create_or_update!(
           en: "Explain",
           ku: "روونی بكەرەوە"
         },
-        order: 10,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,

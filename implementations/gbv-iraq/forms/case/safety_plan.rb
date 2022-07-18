@@ -294,7 +294,6 @@ FormSection.create_or_update!(
           en: "What actions did the survivor identify as options to mitigate risks when violence happens (safety strategies)?",
           ku: "ئەو هەنگاوانە چین كە رزگاربوو دەستنیشانی كردوون وەك بژاردە بۆ كەمكردنەوەی مەترسی لەكاتی روودانی توندوتیژیدا (ستراتیژەكانی سەلامەتی)؟"
         },
-        order: 12,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,

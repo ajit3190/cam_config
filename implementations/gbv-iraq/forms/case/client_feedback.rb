@@ -189,7 +189,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -236,7 +235,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 9,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -283,7 +281,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -350,7 +347,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -397,7 +393,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -444,7 +439,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 17,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -510,7 +504,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 20,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -557,7 +550,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 22,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -604,7 +596,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 24,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -632,7 +623,6 @@ FormSection.create_or_update!(
           ku: "ئایا دەتوانرێت گفتوگۆكەی تۆ ببیسترێت؟"
         },
         option_strings_source: "lookup lookup-yes-no-not-applicable",
-        order: 25,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -659,7 +649,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 26,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -725,7 +714,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 29,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -772,7 +760,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 31,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -819,7 +806,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 33,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -866,7 +852,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 35,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -913,7 +898,6 @@ FormSection.create_or_update!(
           en: "Please explain",
           ku: "تكایە روونی بكەرەوە"
         },
-        order: 37,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -973,7 +957,7 @@ FormSection.create_or_update!(
         type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "The Cleint's Wellbeing",
+        display_name_en: "The Client's Wellbeing",
         display_name_ar: "تحسّن أحوال الناجية",
         display_name_ku: "باشی و سەلامەتی وەرگری خزمەتگوزاریی",
         'display_name_ku-IQ': "خوشگوزەرانیا بریکارێ",

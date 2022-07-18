@@ -87,7 +87,6 @@ FormSection.create_or_update!(
           ku: "جۆرەكانی دەستێوەردان"
         },
         option_strings_source: "lookup lookup-gbv-intervention-type",
-        order: 2,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -154,7 +153,6 @@ FormSection.create_or_update!(
           en: "Specify Name, Facility or Agency/Organization as applicable",
           ku: "بە گوێرەی پێویست ناوێك، دامەزراوەیەك یان ئاژانسێك/رێكخراوێكی دیاری بكە"
         },
-        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -337,7 +335,6 @@ FormSection.create_or_update!(
           ku: "ئایا خزمەتگوزاری دابینكرا؟"
         },
         option_strings_source: "lookup lookup-yes-no-not-applicable",
-        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -364,7 +361,6 @@ FormSection.create_or_update!(
           en: "If yes, when was the service provided?",
           ku: "ئەگەر بەڵێ، كەی خزمەتگوزارییەكە دابین كرا؟"
         },
-        order: 14,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -396,7 +392,6 @@ FormSection.create_or_update!(
           en: "Details about action taken",
           ku: "ووردەكاری لەبارەی كارە ئەنجامدراوەكان"
         },
-        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -660,7 +655,6 @@ FormSection.create_or_update!(
           en: "If yes, please describe the needs and revise the Case Action Plan section accordingly",
           ku: "ئەگەر بەڵێ، تكایە وەسفی پێویستییەكان بكە و بە پێی ئەمە پێداچوونەوە بە پلانی كاری كەیسەكە بكە"
         },
-        order: 6,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
