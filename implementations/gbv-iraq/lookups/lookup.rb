@@ -6123,6 +6123,10 @@ Lookup.create_or_update!(
     name_en: "Form Groups   Gbv Incident",
     lookup_values_en: [
       {
+        id: "record_information",
+        display_text: "Record Information"
+      },
+      {
         id: "gbv_individual_details",
         display_text: "GBV Individual Details"
       },
