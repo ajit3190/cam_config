@@ -435,7 +435,7 @@ FormSection.create_or_update!(
     unique_id: "gbv_follow_up_subform_section",
     parent_form: "case",
     visible: false,
-    order: 10,
+    order: 60,
     order_form_group: 60,
     order_subform: 1,
     form_group_keyed: false,

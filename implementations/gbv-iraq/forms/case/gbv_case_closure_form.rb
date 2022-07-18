@@ -12,7 +12,7 @@ FormSection.create_or_update!(
     parent_form: "case",
     visible: true,
     order: 80,
-    order_form_group: 120,
+    order_form_group: 80,
     order_subform: 0,
     form_group_keyed: false,
     form_group_id: "case_closure",
