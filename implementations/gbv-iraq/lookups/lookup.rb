@@ -6061,103 +6061,242 @@ Lookup.create_or_update!(
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Form Groups   Gbv Case",
-    lookup_values_en: [
+    unique_id: "lookup-form-group-gbv-case",
+    name_i18n: {
+      ar: "مجموعات النموذج - حالة العنف المبني على النوع الاجتماعي",
+      en: "Form Groups - GBV Case",
+      ku: "پێكەوەكۆكردنەوە-كەیسی توندوتیژی جێندەری",
+      'ku-IQ': "گرۆپێن ب هەڤرا - کەیسێ تۆندووتیژیا رەگەزی"
+    },
+    lookup_values_i18n: [
       {
         id: "record_information",
-        display_text: "Record Information"
+        display_text: {
+          ar: "معلومات السجل",
+          en: "Record Information",
+          ku: "تۆماری زانیاری",
+          'ku-IQ': "تۆمارکرنا پێزانینا"
+        }
       },
       {
         id: "consent_for_services",
-        display_text: "Consent For Services"
+        display_text: {
+          ar: "الموافقة على الخدمات",
+          en: "Consent For Services",
+          ku: "رەزامەندی بۆ خزمەتگوزارییەكان",
+          'ku-IQ': "رازەمەندی بۆ خزمەتگۆزاریا"
+        }
       },
       {
         id: "documents",
-        display_text: "Documents"
+        display_text: {
+          ar: "مستندات",
+          en: "Documents",
+          ku: "بەڵگەنامەكان",
+          'ku-IQ': "بەلگە"
+        }
       },
       {
         id: "consent_for_referrals",
-        display_text: "Consent For Referrals"
+        display_text: {
+          ar: "موافقة على الإحالات",
+          en: "Consent For Referrals",
+          ku: "رەزامەندی بۆ رەوانەكردن",
+          'ku-IQ': "رازەمەندی بۆ رەوانەکرنا"
+        }
       },
       {
         id: "safety_plan",
-        display_text: "Safety Plan"
+        display_text: {
+          ar: "آراء الآخرين",
+          en: "Safety Plan",
+          ku: "پلانی سەلامەتی",
+          'ku-IQ': "پلانا پاراستنێ"
+        }
       },
       {
         id: "action_plan",
-        display_text: "Action Plan"
+        display_text: {
+          ar: "خطة العمل",
+          en: "Action Plan",
+          ku: "پلانی كار",
+          'ku-IQ': "پلانا کاری"
+        }
       },
       {
         id: "survivor_assessment",
-        display_text: "Survivor Assessment"
+        display_text: {
+          ar: "تقييم الناجية/ الناجي",
+          en: "Survivor Assessment",
+          ku: "هەڵسەنگاندنی رزگاربوو",
+          'ku-IQ': "هەلسەنگاندنا رزگاربوویی"
+        }
       },
       {
         id: "case_closure",
-        display_text: "Case Closure"
+        display_text: {
+          ar: "الناجي مراعاتها",
+          en: "Case Closure",
+          ku: "داخستنی كەیس",
+          'ku-IQ': "گرتنا کەیسی"
+        }
       },
       {
         id: "client_feedback",
-        display_text: "Client Feedback"
+        display_text: {
+          ar: "ملاحظات الناجية/ الناجي",
+          en: "Client Feedback",
+          ku: "راوبۆچوونی وەرگری خزمەتگوزاری",
+          'ku-IQ': "فیدبەکێ بریکاری"
+        }
       },
       {
         id: "identification_registration",
-        display_text: "Identification / Registration"
+        display_text: {
+          ar: "التعريف / التسجيل",
+          en: "Identification / Registration",
+          ku: "دەستنیشانكردن/تۆماركردن",
+          'ku-IQ': "ده ستنیشانکرن یان تۆمارکرن"
+        }
       },
       {
         id: "referrals_transfers",
-        display_text: "Referrals and Transfers"
+        display_text: {
+          ar: "الإحالات والإنتقالات",
+          en: "Referrals and Transfers",
+          ku: "رەوانەكردن و گواستنەوە",
+          'ku-IQ': "رەوانەکرن و ڤەگۆهاستن"
+        }
       },
       {
         id: "other_reportable_fields",
-        display_text: "Other Reportable Fields"
+        display_text: {
+          ar: "الحقول الأخرى التي يمكن الإبلاغ عنها",
+          en: "Other Reportable Fields",
+          ku: "ئەو بوارانەی دیكە كە دەكرێت هەواڵیان لەبارەوە بدرێت",
+          'ku-IQ': "بیاڤێن دی یێن دبیت راپۆرت لسەر بهێتە دان"
+        }
+      },
+      {
+        id: "pss_scales",
+        display_text: {
+          ar: "مقياس الوظيفة النفسية والاجتماعية",
+          en: "Psychosocial Functionality Scale",
+          ku: "پێوانەی ئەركە دەروونیو كۆمەڵایەتییەكان",
+          'ku-IQ': "پیڤەرێ کارایی یا دەروونی"
+        }
+      },
+      {
+        id: "felt_stigma_scale",
+        display_text: {
+          ar: "مقياس الشعور بالوصمة",
+          en: "Felt Stigma Scale",
+          ku: "پێوانەی هەستكردن بە شەرمەزاری",
+          'ku-IQ': "پیڤەرێ هەستکرن ب شەرمزاریێ"
+        }
+      },
+      {
+        id: "referral",
+        display_text: {
+          ar: "الإحالة",
+          en: "Referral",
+          ku: "رەوانەكردن",
+          'ku-IQ': "رەوانەکرن"
+        }
       }
     ],
-    unique_id: "lookup-form-group-gbv-case"
+    locked: false
   }
 )
 
+
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Form Groups   Gbv Incident",
-    lookup_values_en: [
-      {
-        id: "record_information",
-        display_text: "Record Information"
-      },
+    unique_id: "lookup-form-group-gbv-incident",
+    name_i18n: {
+      ar: "مجموعات النموذج - حادثة العنف المبني على النوع الاجتماعي",
+      en: "Form Groups - GBV Incident",
+      ku: "كۆمەڵەكانی نموونە- رووداوی توندوتیژی جێندەری",
+      'ku-IQ': "گرۆپێن دی - بوویەرا تۆندووتیژیا رەگەزی"
+    },
+    lookup_values_i18n: [
       {
         id: "gbv_individual_details",
-        display_text: "GBV Individual Details"
+        display_text: {
+          ar: "تفاصيل عن الناجية/ الناجي من العنف المبني على النوع الإجتماعي",
+          en: "GBV Individual Details",
+          ku: "ووردەكارییە كەسییەكانی توندوتیژی جێندەری",
+          'ku-IQ': "هووردەکاریێن تاکەکسی یێن تۆندووتیژیا رەگەزی"
+        }
       },
       {
         id: "incident",
-        display_text: "Incident"
+        display_text: {
+          ar: "حادثة",
+          en: "Incident",
+          ku: "رووداو",
+          'ku-IQ': "بوویەر"
+        }
       },
       {
         id: "type_of_violence",
-        display_text: "Type of Violence"
+        display_text: {
+          ar: "نوع العنف",
+          en: "Type of Violence",
+          ku: "جۆری توندوتیژی",
+          'ku-IQ': "جورێ تۆندووتیژیێ"
+        }
       },
       {
         id: "record_owner",
-        display_text: "Record Owner"
+        display_text: {
+          ar: "مالك السجل",
+          en: "Record Owner",
+          ku: "خاوەنی تۆمار",
+          'ku-IQ': "خودانێ تۆمارێ"
+        }
       },
       {
         id: "alleged_perpetrator",
-        display_text: "Alleged Perpetrator"
+        display_text: {
+          ar: "الجاني المزعوم",
+          en: "Alleged Perpetrator",
+          ku: "گومانلێكراو",
+          'ku-IQ': "تاوانبارێ گۆمانلێکری"
+        }
       },
       {
         id: "service_referral",
-        display_text: "Service Referral"
+        display_text: {
+          ar: "إحالة إلى خدمة",
+          en: "Service Referral",
+          ku: "رەوانەكردنی خزمەتگوزاری",
+          'ku-IQ': "خزمەتگۆزاریا رەوانەکرنێ"
+        }
       },
       {
         id: "other_reportable_fields",
-        display_text: "Other Reportable Fields"
+        display_text: {
+          ar: "الحقول الأخرى التي يمكن الإبلاغ عنها",
+          en: "Other Reportable Fields",
+          ku: "ئەو بوارانەی دیكە كە دەكرێت هەواڵیان لەبارەوە بدرێت",
+          'ku-IQ': "بیاڤێن دی یێن راپۆرتکرنێ"
+        }
+      },
+      {
+        id: "record_information",
+        display_text: {
+          ar: "معلومات السجل",
+          en: "Record Information",
+          ku: "تۆماری زانیاری",
+          'ku-IQ': "تۆمارا پێزانینا"
+        }
       }
     ],
-    unique_id: "lookup-form-group-gbv-incident"
+    locked: false
   }
 )
+
 
 Lookup.create_or_update!(
   {
