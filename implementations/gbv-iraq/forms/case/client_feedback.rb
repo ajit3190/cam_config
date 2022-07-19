@@ -28,7 +28,7 @@ FormSection.create_or_update!(
     mobile_form: true,
     header_message_link: "",
     subform_append_only: false,
-    fields_attributes: fields_attributes: [
+    fields_attributes: [
       {
         name: "client_feedback_header",
         type: "separator",
