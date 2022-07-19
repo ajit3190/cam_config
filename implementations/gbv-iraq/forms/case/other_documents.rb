@@ -31,22 +31,37 @@ FormSection.create_or_update!(
     fields_attributes: [
       {
         name: "other_documents",
+        type: "document_upload_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "document_upload_box",
         editable: false,
         disabled: false,
-        display_name_en: "Other Document",
-        display_name_ar: "مستندات أخرى",
-        display_name_ku: "بەڵگەنامەی تر",
-        'display_name_ku-IQ': "بەلگەیێن دی",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "مستند آخر",
+          en: "Other Document",
+          ku: "بەڵگەنامەی دیكە",
+          'ku-IQ': "بەلگەیێن دی"
+        },
+        help_text_i18n: {
+          ar: "يُسمح فقط بملفات من نوع PDF و TXT و DOC و DOCX و XLS و XLSX و CSV",
+          en: "Only PDF, TXT, DOC, DOCX, XLS, XLSX, CSV files permitted",
+          ku: "تەنها ئەم فایلانە رێپێدراونPDF, TXT, DOC, DOCX, XLS, XLSX, CSV",
+          'ku-IQ': "دەستویردایی یە CSV فایلێ  ،PDF, TXT, DOC, DOCX, XLS, XLSx بتنێ"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
-        autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
     ]
   }

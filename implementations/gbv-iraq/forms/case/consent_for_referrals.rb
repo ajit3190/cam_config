@@ -10,7 +10,7 @@ FormSection.create_or_update!(
     'description_ku-IQ': "رازەمەندی بۆ رەوانەکرنێ",
     unique_id: "consent_for_referrals",
     parent_form: "case",
-    visible: true,
+    visible: false,
     order: 10,
     order_form_group: 65,
     order_subform: 0,

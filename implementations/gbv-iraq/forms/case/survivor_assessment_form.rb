@@ -31,7 +31,7 @@ FormSection.create_or_update!(
     fields_attributes: [
       {
         name: "assessment_emotional_state_start",
-        visible: true,
+        visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
@@ -57,8 +57,50 @@ FormSection.create_or_update!(
         required: false
       },
       {
-        name: "assessment_survivor_background",
+        name: "assessment_emotional_state_header",
+        type: "separator",
+        multi_select: false,
         visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: true,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "معلومات أساسية عن الناجية/ الناجي",
+          en: "Survivor Profile",
+          ku: "پرۆفایلی رزكاربوو",
+          'ku-IQ': "پرۆفایلێ رزگاربووی"
+        },
+        help_text_i18n: {
+          ar: "سجل المعلومات الديموغرافية الأساسية عن الناجية/الناجي بما في ذلك النوع الإجتماعي والعمر وحالة النزوح وأي معلومات أخرى ذات صلة.",
+          en: "Provide basic demographic information on the survivor, including sex, age and displacement status and any other relevant information.",
+          ku: "زانیاری دیمۆگرافی سەرەتایی لەبارەی رزگاربوو پێشكەش بكە، لەوانەش رەگەز و تەمەن و باری ئاوارەبوون و هەر زانیاریەكی پەیوەندیداری دیكە.",
+          'ku-IQ': "پێزانینێن دیموگرافی یێن بنەڕەت لسەر رزگاربووی پێشکێش کە، ژ وان ژی رەگەز، تەمەن و بارودوخێ ئاوارەبوون و هەر پێزانینەکا دی یا پێدڤی."
+        },
+        guiding_questions_i18n: {
+          ar: "معلومات أساسية عن الناجية/ الناجي\n\nهل الناجية/ الناجي امرأة أم رجل أم فتاة أم فتى، أم لديه/لديها هوية جنسانية أخرى؟\n\nكم عمر الناجية / الناجي؟ هل هو/هي طفل/ة أم بالغ/ة؟\n\nهل هو/هي مقيم/ة أو لاجئ/ة أو نازح/ة؟",
+          en: "Survivor Profile\n\nIs the survivor a woman, man, girl or boy or other gender identity?\n\nHow old is the survivor?  Is she a child or adult?\n\nIs she a resident, a refugee or internally displaced person?",
+          ku: "پرۆفایلی رزگاربوو ئایا رزگاربوو ژن، پیاو، كچ یان كوڕە یان ناسنامەی رەگەزیی دیكەی هەیە؟تەمەنی رزگاربوو چەندە؟ ئایا منداڵە یان پێگەیشتوو؟ئایا كەسێكی نیشتەجێ، پەنابەر یان ئاوارەی ناوخۆیە؟",
+          'ku-IQ': "پرۆفایلێ رزگاربووی\n\nئەرێ رزگاربوو ئافرەت، زەلام، کچ، وکور یان ژ ناسنامێن دی یێن رەگەزیە؟\n\nتەمەنێ رزگاربووی چەندە؟ ئەرێ زارۆک یان پێگەهشتیە؟\n\nئەرێ ئاکنجی، پەنابەر یان ئاوارەیە؟"
+        },
+        order: 0,
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        created_at: "2022-07-19T07:44:13.786Z",
+        updated_at: "2022-07-19T07:44:35.631Z"
+      },
+      {
+        name: "assessment_survivor_background",
+        visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
@@ -177,26 +219,39 @@ FormSection.create_or_update!(
       },
       {
         name: "assessment_presenting_problem",
+        type: "textarea",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Presenting Problem",
-        guiding_questions_en: "Describe what happened to the survivor in the survivor's own words. Identify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\n\nList survivor's main concerns in her own words (do not suggest). These might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc.",
-        display_name_ar: "عرض المشكلة",
-        guiding_questions_ar: "صف ما حدث للناجية بكلمات الناجية. حدد المشكلة / المشكلات / الاهتمامات / القضايا التي تطلب الناجية المساعدة / الدعم بشأنها.\n\nسجل قائمة الشواغل الرئيسية للناجية بكلماتها الخاصة (لا تقترح عليها). قد تشمل هذه الشواغل: أمانها الفوري، سلامة أطفالها، الحصول على موارد اقتصادية أو مساعدة طبية، تصورها عن الآخرين أو تصور الآخرين لها، إلخ.",
-        display_name_ku: "خستنەڕووی كێشەكە",
-        'guiding_questions_ku': "بەوشەو زمانی خودی رزگاربووەكە، وەسفی ئەوە بكە چی بەسەر  رزگاربووەكە هاتووە، ئەو كێشە/نیگەرانیی)/بابەتانە دەستنیشان بكە كە رزگاربوو داوای یارمەتی/پشتگیری بۆ دەكات.\nنیگەرانییە سەرەكییەكانی رزگاربوو ریز بكە لەسەر زاری خۆی (تۆ بۆی پێشنیار مەكە). رەنگە ئەمانە بگرێتەوە: دابینکردنی سەلامەتی دەمودەست، سەلامەتی منداڵان، گەیشتن بە سەرچاوەی ئابووری، یارمەتی پزیشكی، تێڕوانینی كەسانی تر، هتد.",
-        'display_name_ku-IQ': "پێشکێشکرنا ئاریشێ",
-        'guiding_questions_ku-IQ': "ب پەیڤێن رزگاربووی بخو وەسف بکە چ ب سەرێ رزگاربووی هاتبوو؟ دەستنیشان بکە چ ئاریشە یان نیگەرانی یان گرفت رزگاربووی داخازا هاریکا یان پشتەڤانیێ بو دکەت؟\nب پەیڤێن رزگاربوویێ بخو نیگەرانیێن سەرەکی یێن رزگاربوویێ بکە لیست (پێشنیازا نەکە)؟ دبیت ئەڤەژی پێکبهێت ژ: ئێمناهیا ئێکسەر، ئێمناهیا زارۆکی، گەهشتن ب ژێدەرێن ئابوری، هاریکاریا پزیشکی، تێگەهشتنا کەسانێن دی، هتد.",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "أسباب طلب خدمات إدارة الحالة",
+          en: "Reasons for seeking case management services",
+          ku: "هۆكارەكانی گەڕان بە دوای خزمەتگوزارییەكانی بەڕێوەبردنی كەیسدا",
+          'ku-IQ': "ئەگەرێن داخازکرنا خزمەتگوزاریێن ئیدارەکرنا کەیسی"
+        },
+        guiding_questions_i18n: {
+          ar: "أسباب طلب خدمات إدارة الحالة\n\nحدّد المشكلة (المشكلات) / قلق (مخاوف) / القضية (القضايا) التي دفعت الناجية/ الناجي إلى طلب المساعدة / الدعم. \nقد تشمل: السلامة الفورية، سلامة الأطفال، الوصول إلى الموارد الاقتصادية، المساعدة الطبية، تصور الآخرين، إلخ.",
+          en: "Reasons for seeking case management services\n\nIdentify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\nThese might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc.",
+          ku: "هۆكارەكانی گەڕان بە دوای خزمەتگوزارییەكانی بەڕێوەبردنی كەیسدا\n، ئەو كێشە/نیگەرانیی)/بابەتانە دەستنیشان بكە كە رزگاربوو داوای یارمەتی/پشتگیری دەكات لەبارەیانەوە .\nكە رەنگە ئەمانە بگرێتەوە: سەلامەتی راستەوخۆ، سەلامەتی منداڵان، دەستڕاگەیشتن بە سەرچاوەی ئابووری، هاوكاری پزیشكی، تێڕوانینی كەسانی دیكە، هتد.",
+          'ku-IQ': "ئەگەرێن داخازکرنا خزمەتگوزاریێن ئیدارەکرنا کەیسی\n\nدەستنیشان کا رزگاربووی بو چ ئاریشە یان نیگەرانی یان گرفت داخازا هاریکاری یان پشتەڤانیێ دکەت\nدبیت پێکبهێن ژ: پاراستنا بلەز، پاراستنا زارۆکا، گەهشتن ب ژێدەرێن ئابوری، هاریکاریا پزیشکی، بیروبوچوونێن کەسانێن دی، هتد."
+        },
+        order: 7,
         hidden_text_field: false,
         autosum_total: false,
-        autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: true,
+        created_at: "2022-07-19T07:44:13.803Z",
+        updated_at: "2022-07-19T07:44:35.569Z"
       },
       {
         name: "assessment_emotional_state_end",
@@ -223,7 +278,7 @@ FormSection.create_or_update!(
       },
       {
         name: "assessment_main_concerns",
-        visible: true,
+        visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
@@ -243,6 +298,42 @@ FormSection.create_or_update!(
         autosum_total: false,
         autosum_group: "",
         required: false
+      },
+      {
+        name: "assessment_main_concerns_header",
+        type: "separator",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: true,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          ar: "نقاط التقييم الرئيسية",
+          en: "Key Assessment Points",
+          ku: "خاڵە سەرەكییەكانی هەڵسەنگاندن",
+          'ku-IQ': "خالێن سەرەکیێن هەلسەنگاندنێ"
+        },
+        guiding_questions_i18n: {
+          ar: "نقاط التقييم الرئيسية\n\nلخص نقاط التقييم الرئيسية فيما يتعلّق بطبيعة العنف المبلغ عنه ووقت حدوثه وتكراره وحدّته، ومن هو الجاني/الجناة وما علاقته / علاقتهم بالناجية/ الناجي وما إذا كان وصوله/وصولهم إليها سهلًا، وذلك من أجل تحديد المخاطر. قم بقياس رفاهية الناجية العاطفية وقدرتها على مواكبة المهام اليومية، وشعورها العام بالأمان في العالم وقدرتها على الثقة بالآخرين. حدّد احتياجات الناجية (احتياجات السلامة والاحتياجات الصحية والنفسية الاجتماعية والقانونية/العدالة، العملية / المادية، وغيرها)، فضلًا عن نقاط قوتها واستراتيجياتها للمواجهة بهدف تقييم حاجتها إلى دعم نفسي واجتماعي و / أو إحالتها إلى الخدمة المناسبة في الوقت المناسب.",
+          en: "Key Assessment Points\n\nSummarize key assessment points with respect to the nature, timing, frequency and severity of the violence reported, who the perpetrator/s is/are in relation to the survivor and whether he/they have easy access to the survivor, in order to determine risk. Gauge emotional well-being, ability to keep up with day-today tasks, overall sense of safety in the world, and ability to trust others. Identify the survivor's needs (safety, health, psychosocial, legal/justice, practical/material, other) as well as her strengths and coping strategies to determine need for psychosocial support and/or appropriate and timely referrals.",
+          ku: "خاڵە سەرەكییەكانی هەڵسەنگاندن، خاڵە سەرەكییەكانی هەڵسەنگاندن پوخت بكەوە سەبارەت بە سروشت و كات و دووبارەبوونەوە و سەختی ئەو توندوتیژییەی كە هەواڵی لەبارەوە دراوە ، تاوانبارەكە كێیە بەپێی پەیوەندییەكەی لەگەڵ رزگاربوو و ئایا بە ئاسانی بە رزگاربووەكە دەگات یان نا، ئەمەش بۆ  دەستنیشانكردنی مەترسیییەكە. سەلامەتی بواری  پەیوەست بە باری سۆزداری رزگاربوو و توانای بەردەوامبوونی لە ئەرکی رۆژانە و هەستی گشتی لەبارەی سەلامەتییەوە لە دنیادا و توانای متمانەکردنی بە کەسانی دیكە هەڵبسەنگێنە. پێداویستییەکانی رزگاربوو دەستنیشان بکە (لەبواری سەلامەتی، تەندروستی، باری دەروونی و یاسایی/دادپەروەری و كرداری/ماددی و هی دیكە)، هەروەها خاڵە بەهێزەکانی و ستراتیژییەکانی بۆ هەڵکردن هەڵبسەنگێنە لە پێناو دەستنشانكردنی پێویستییەكە لەبواری پێشكەشکردنی پاڵپشتی دەروونی و/یان رەوانەکردنی گونجاو و لەکاتی پێویستدا.",
+          'ku-IQ': "خالێن سەرەکیێن هەلسەنگاندنێ\n \nکورتیا خالێن سەرەکیێن هەلسەنگاندنێ ب رێزگرتن ل جور، دەم و دوبارەبوون و دژواریا تۆندووتیژیا هاتیە راپۆرتکرن بێژە، کی گومانلێکریە و پەیوەندی دگەل رزگاربووی چیە و ئەرێ ئەو ب ساناهی دگەهن رزگاربووی، داکو مەترسیێ دەستنیشان بکەین. خوشیا هەستی ب پیڤە، شیانا ئەنجامدانا ئەرکێن رۆژانە ب پیڤە، هەستێ گشتیێ سلامەتیێ د جیهانێ دا، و شیانا باوەری هەبوون ب کەسانێن دی. پێدڤیێن رزگاربووی دەستنیشان بکە ( سلامەتی، ساخلەمی، دەروونی، یاسایی یان دادپەروەری، پراکتیکی یان مادی، یێن دی) هەردیسان ب هێزیا وێ و خو ستراتیژیێن خو گونجاندنێ بۆ دەستنیشان کرنا پێدڤیێن پشتەڤانیا دەروونی و یان رەوانەکرن دەمکی و گونجایی"
+        },
+        order: 9,
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        created_at: "2022-07-19T07:44:13.807Z",
+        updated_at: "2022-07-19T07:44:35.598Z"
       },
       {
         name: "assessment_current_situation",
