@@ -29,8 +29,8 @@ FormSection.create_or_update!(
     mobile_form: false,
     header_message_link: "",
     collapsed_field_names: [
-      "conference_date",
-      "conference_type"
+      "conference_conducted",
+      "service_conference_meeting_objective"
     ],
     fields_attributes: [
       {
