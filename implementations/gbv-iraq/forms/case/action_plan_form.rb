@@ -448,7 +448,7 @@ FormSection.create_or_update!(
           ku: "ئەگەر پێویستییەكان هاتوونەتەدی، ئایا پێشنیازی ئەوە دەكەی كە كەیسەكە دابخرێت؟",
           'ku-IQ': "ئەگەر هەمی پێدڤی هاتبنە جێبەجێکرن، تو پێشنیار دکەی کەیس بهێتە گرتن؟"
         },
-        option_strings_source: "lookup lookup-yes-no",
+        option_strings_source: "lookup lookup-yes-no-not-applicable",
         order: 13,
         hidden_text_field: false,
         autosum_total: false,
