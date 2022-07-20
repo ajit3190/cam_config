@@ -364,12 +364,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        display_conditions_subform: {
-          eq: {
-            follow_up_survivor_share_needs: "true"
-          }
-        }
+        mandatory_for_completion: false
       },
       {
         name: "survivor_needs_met",
@@ -1442,12 +1437,7 @@ FormSection.create_or_update!(
         subform_section_configuration: {
           subform_sort_by: ""
         },
-        mandatory_for_completion: false,
-        display_conditions_subform: {
-          eq: {
-            service_provided: "true"
-          }
-        }
+        mandatory_for_completion: false
       },
       {
         name: "action_taken_details",
