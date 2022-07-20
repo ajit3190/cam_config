@@ -1,14 +1,18 @@
 FormSection.create_or_update!(
   {
-    name_en: "Consent for Services",
-    description_en: "Consent for Services",
-    name_ar: "الموافقة على الخدمات",
-    description_ar: "الموافقة على الخدمات",
-    name_ku: "رەزامەندی بۆ خزمەتگوزاریەكان",
-    description_ku: "رەزامەندی بۆ خزمەتگوزاریەكان",
-    'name_ku-IQ': "رازەمەندی بۆ خزمەتگوزاریا",
-    'description_ku-IQ': "رازەمەندی بۆ خزمەتگوزاریا",
     unique_id: "consent_for_services",
+    name_i18n: {
+      ar: "الموافقة على الخدمات",
+      en: "Consent for Services",
+      ku: "رەزامەندی بۆ خزمەتگوزاریەكان",
+      'ku-IQ': "رازەمەندی بۆ خزمەتگوزاریا"
+    },
+    description_i18n: {
+      ar: "الموافقة على الخدمات",
+      en: "Consent for Services",
+      ku: "رەزامەندی بۆ خزمەتگوزاریەكان",
+      'ku-IQ': "رازەمەندی بۆ خزمەتگوزاریا"
+    },
     parent_form: "case",
     visible: true,
     order: 20,
@@ -22,56 +26,90 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
+    created_at: "2022-07-19T09:13:17.549Z",
+    updated_at: "2022-07-19T09:13:17.549Z",
     fields_attributes: [
       {
         name: "consent_services_header",
+        type: "separator",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "separator",
         editable: true,
         disabled: false,
-        display_name_en: "Consent for Services",
-        display_name_ar: "الموافقة على الخدمات",
-        display_name_ku: "رەزامەندی بۆ خزمەتگوزاریەكان",
-        'display_name_ku-IQ': "رازەمەندی بۆ خزمەتگوزاریا",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "الموافقة على الخدمات",
+          en: "Consent for Services",
+          ku: "رەزامەندی بۆ خزمەتگوزاریەكان",
+          'ku-IQ': "رازەمەندی بۆ خزمەتگوزاریا"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        created_at: "2022-07-19T09:13:17.553Z",
+        updated_at: "2022-07-19T09:13:17.553Z"
       },
       {
         name: "consent_for_services",
+        type: "tick_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "tick_box",
         editable: true,
         disabled: false,
-        display_name_en: "Did the survivor provide consent to engage in services offered by you?",
-        help_text_en: "",
-        tick_box_label_en: "Yes",
-        display_name_ar: "هل أعطت الناجية موافقتها على تلقي الخدمات التي تقوم أنت على تقديمها؟",
-        tick_box_label_ar: "نعم",
-        display_name_ku: "ئایا رزگاربووەكە رەزامەندی داوە بۆ بەشداریکردن لەو خزمەتگوزاریانەی کە لەلایەن تۆوە پێشكەشکراوە؟",
-        tick_box_label_ku: "بەڵێ",
-        'display_name_ku-IQ': "ئەرێ رزگاربوویێ رازەمەندی دا بۆ پشکداریکرن د خزمەتگوزاریێن ژ لایێ تە ڤە هاتینە پێشکێشکرن؟",
-        'tick_box_label_ku-IQ': "بەلێ",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "هل أعطت الناجية موافقتها على تلقي الخدمات التي تقوم أنت على تقديمها؟",
+          en: "Did the survivor provide consent to engage in services offered by you?",
+          ku: "ئایا رزگاربووەكە رەزامەندی داوە بۆ بەشداریکردن لەو خزمەتگوزاریانەی کە لەلایەن تۆوە پێشكەشکراوە؟",
+          'ku-IQ': "ئەرێ رزگاربوویێ رازەمەندی دا بۆ پشکداریکرن د خزمەتگوزاریێن ژ لایێ تە ڤە هاتینە پێشکێشکرن؟"
+        },
+        help_text_i18n: {
+          en: ""
+        },
+        tick_box_label_i18n: {
+          ar: "نعم",
+          en: "Yes",
+          ku: "بەڵێ",
+          'ku-IQ': "بەلێ"
+        },
+        order: 1,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        created_at: "2022-07-19T09:13:17.557Z",
+        updated_at: "2022-07-19T09:13:17.557Z"
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )

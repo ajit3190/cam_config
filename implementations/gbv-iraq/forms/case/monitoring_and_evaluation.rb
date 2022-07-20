@@ -1,3 +1,4 @@
+
 FormSection.create_or_update!(
   {
     unique_id: "monitoring_and_evaluation",
@@ -38,7 +39,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Age"
+          ar: "",
+          en: "Age",
+          ku: "",
+          'ku-IQ': ""
         },
         order: 0,
         hidden_text_field: false,
@@ -63,7 +67,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Date of Birth"
+          ar: "",
+          en: "Date of Birth",
+          ku: "",
+          'ku-IQ': ""
         },
         order: 1,
         hidden_text_field: false,
@@ -88,7 +95,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Sex"
+          ar: "",
+          en: "Sex",
+          ku: "",
+          'ku-IQ': ""
         },
         option_strings_source: "lookup lookup-gender",
         order: 2,
@@ -114,7 +124,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Country of Origin"
+          ar: "",
+          en: "Country of Origin",
+          ku: "",
+          'ku-IQ': ""
         },
         option_strings_source: "lookup lookup-country",
         order: 3,
@@ -140,7 +153,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Current Civil/Marital Status"
+          ar: "",
+          en: "Current Civil/Marital Status",
+          ku: "",
+          'ku-IQ': ""
         },
         option_strings_source: "lookup lookup-marital-status",
         order: 4,
@@ -166,7 +182,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Displacement Status at time of report"
+          ar: "",
+          en: "Displacement Status at time of report",
+          ku: "",
+          'ku-IQ': ""
         },
         option_strings_source: "lookup lookup-displacement-status",
         order: 5,
@@ -192,7 +211,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Is the Survivor a Person with Disabilities?"
+          ar: "",
+          en: "Is the Survivor a Person with Disabilities?",
+          ku: "",
+          'ku-IQ': ""
         },
         option_strings_source: "lookup lookup-yes-no",
         order: 6,
@@ -218,7 +240,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Is the Survivor an Unaccompanied Minor, Separated Child, or Other Vulnerable Child?"
+          ar: "",
+          en: "Is the Survivor an Unaccompanied Minor, Separated Child, or Other Vulnerable Child?",
+          ku: "",
+          'ku-IQ': ""
         },
         option_strings_source: "lookup lookup-unaccompanied-separated-status",
         order: 7,
@@ -244,7 +269,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Actions details"
+          ar: "خطة عمل متداخلة",
+          en: "Nested Action Plan",
+          ku: "پلانی كاری بەیەکەوەگرێدراو",
+          'ku-IQ': "پلانا کریارێ یا تێکەل"
         },
         order: 8,
         hidden_text_field: false,
@@ -280,7 +308,10 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_i18n: {
-          en: "Follow up details"
+          ar: "",
+          en: "Follow up details",
+          ku: "",
+          'ku-IQ': ""
         },
         order: 9,
         hidden_text_field: false,

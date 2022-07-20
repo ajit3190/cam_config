@@ -1,249 +1,153 @@
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Age Group Type",
-    name_ar: "",
-    name_ku: "جۆری گروپی تەمەن",
-    'name_ku-IQ': "جورێ گرۆپێ تەمەنی",
-    lookup_values_en: [
+    unique_id: "lookup-age-group-type",
+    name_i18n: {
+      ar: "",
+      en: "Age Group Type",
+      ku: "جۆری گروپی تەمەن",
+      'ku-IQ': "جورێ گرۆپێ تەمەنی"
+    },
+    lookup_values_i18n: [
       {
         id: "adult",
-        display_text: "Adult"
+        display_text: {
+          ar: "",
+          en: "Adult",
+          ku: "پێگەیشتوو",
+          'ku-IQ': "مەزن"
+        }
       },
       {
         id: "minor",
-        display_text: "Minor"
+        display_text: {
+          ar: "",
+          en: "Minor",
+          ku: "پێنەگەیشتوو",
+          'ku-IQ': "سنێلە"
+        }
       },
       {
         id: "unknown",
-        display_text: "Unknown"
+        display_text: {
+          ar: "",
+          en: "Unknown",
+          ku: "نەزانراو",
+          'ku-IQ': "نەدیار"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "adult",
-        display_text: ""
-      },
-      {
-        id: "minor",
-        display_text: ""
-      },
-      {
-        id: "unknown",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "adult",
-        display_text: "پێگەیشتوو"
-      },
-      {
-        id: "minor",
-        display_text: "پێنەگەیشتوو"
-      },
-      {
-        id: "unknown",
-        display_text: "نەزانراو"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "adult",
-        display_text: "مەزن"
-      },
-      {
-        id: "minor",
-        display_text: "سنێلە"
-      },
-      {
-        id: "unknown",
-        display_text: "نەدیار"
-      }
-    ],
-    unique_id: "lookup-age-group-type"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: true,
-    name_en: "Agency Office",
-    name_ar: "",
-    name_ku: "نووسینگەی ئاژانس",
-    'name_ku-IQ': "ئوفیسا ئاژانسێ",
-    lookup_values_en: [
+    unique_id: "lookup-agency-office",
+    name_i18n: {
+      ar: "",
+      en: "Agency Office",
+      ku: "نووسینگەی ئاژانس",
+      'ku-IQ': "ئوفیسا ئاژانسێ"
+    },
+    lookup_values_i18n: [
       {
         id: "agency_office_1",
-        display_text: "Agency Office 1"
+        display_text: {
+          ar: "",
+          en: "Agency Office 1",
+          ku: "نووسینگەی ئاژانس 1",
+          'ku-IQ': "ئوفیسا ئاژانسی 1"
+        }
       },
       {
         id: "agency_office_2",
-        display_text: "Agency Office 2"
+        display_text: {
+          ar: "",
+          en: "Agency Office 2",
+          ku: "نووسینگەی ئاژانس 2",
+          'ku-IQ': "ئوفیسا ئاژانسی 2"
+        }
       },
       {
         id: "agency_office_3",
-        display_text: "Agency Office 3"
+        display_text: {
+          ar: "",
+          en: "Agency Office 3",
+          ku: "نووسینگەی ئاژانس 3",
+          'ku-IQ': "ئوفیسا ئاژانسی 3"
+        }
       },
       {
         id: "agency_office_4",
-        display_text: "Agency Office 4"
+        display_text: {
+          ar: "",
+          en: "Agency Office 4",
+          ku: "نووسینگەی ئاژانس 4",
+          'ku-IQ': "ئوفیسا ئاژانسی 4"
+        }
       },
       {
         id: "agency_office_5",
-        display_text: "Agency Office 5"
+        display_text: {
+          ar: "",
+          en: "Agency Office 5",
+          ku: "نووسینگەی ئاژانس 5",
+          'ku-IQ': "ئوفیسا ئاژانسی 5"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "agency_office_1",
-        display_text: ""
-      },
-      {
-        id: "agency_office_2",
-        display_text: ""
-      },
-      {
-        id: "agency_office_3",
-        display_text: ""
-      },
-      {
-        id: "agency_office_4",
-        display_text: ""
-      },
-      {
-        id: "agency_office_5",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "agency_office_1",
-        display_text: "نووسینگەی ئاژانس 1"
-      },
-      {
-        id: "agency_office_2",
-        display_text: "نووسینگەی ئاژانس 2"
-      },
-      {
-        id: "agency_office_3",
-        display_text: "نووسینگەی ئاژانس 3"
-      },
-      {
-        id: "agency_office_4",
-        display_text: "نووسینگەی ئاژانس 4"
-      },
-      {
-        id: "agency_office_5",
-        display_text: "نووسینگەی ئاژانس 5"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "agency_office_1",
-        display_text: "ئوفیسا ئاژانسی 1"
-      },
-      {
-        id: "agency_office_2",
-        display_text: "ئوفیسا ئاژانسی 2"
-      },
-      {
-        id: "agency_office_3",
-        display_text: "ئوفیسا ئاژانسی 3"
-      },
-      {
-        id: "agency_office_4",
-        display_text: "ئوفیسا ئاژانسی 4"
-      },
-      {
-        id: "agency_office_5",
-        display_text: "ئوفیسا ئاژانسی 5"
-      }
-    ],
-    unique_id: "lookup-agency-office"
+    locked: true
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Approval Status",
-    name_ar: "الوضع الراهن للموافقة",
-    name_ku: "رەوشی رازەمەندی",
-    'name_ku-IQ': "رەوشا رازیبونێ",
-    lookup_values_en: [
+    unique_id: "lookup-approval-status",
+    name_i18n: {
+      ar: "الوضع الراهن للموافقة",
+      en: "Approval Status",
+      ku: "رەوشی رازەمەندی",
+      'ku-IQ': "رەوشا رازیبونێ"
+    },
+    lookup_values_i18n: [
       {
         id: "requested",
-        display_text: "Requested"
+        display_text: {
+          ar: "تم طلبها",
+          en: "Requested",
+          ku: "داواكراو",
+          'ku-IQ': "داخازکری"
+        }
       },
       {
         id: "pending",
-        display_text: "Pending"
+        display_text: {
+          ar: "معلقة",
+          en: "Pending",
+          ku: "لە چاوەڕوانی بڕیاردایە",
+          'ku-IQ': "هەلاویستی"
+        }
       },
       {
         id: "approved",
-        display_text: "Approved"
+        display_text: {
+          ar: "تمت الموافقة",
+          en: "Approved",
+          ku: "پەسەندکراو",
+          'ku-IQ': "هاتیە دەستيردان"
+        }
       },
       {
         id: "rejected",
-        display_text: "Rejected"
+        display_text: {
+          ar: "تم الرفض",
+          en: "Rejected",
+          ku: "رەتكراوە",
+          'ku-IQ': "رەتکری"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "requested",
-        display_text: "تم طلبها"
-      },
-      {
-        id: "pending",
-        display_text: "معلقة"
-      },
-      {
-        id: "approved",
-        display_text: "تمت الموافقة"
-      },
-      {
-        id: "rejected",
-        display_text: "تم الرفض"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "requested",
-        display_text: "داواكراو"
-      },
-      {
-        id: "pending",
-        display_text: "لە چاوەڕوانی بڕیاردایە"
-      },
-      {
-        id: "approved",
-        display_text: "پەسەندکراو"
-      },
-      {
-        id: "rejected",
-        display_text: "رەتكراوە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "requested",
-        display_text: "داخازکری"
-      },
-      {
-        id: "pending",
-        display_text: "هەلاویستی"
-      },
-      {
-        id: "approved",
-        display_text: "هاتیە دەستيردان"
-      },
-      {
-        id: "rejected",
-        display_text: "رەتکری"
-      }
-    ],
-    unique_id: "lookup-approval-status"
+    locked: false
   }
 )
 
@@ -629,7 +533,6 @@ Lookup.create_or_update!(
   }
 )
 
-
 Lookup.create_or_update!(
   {
     unique_id: "lookup-three-point-agreement-scale-comfortable",
@@ -712,7 +615,6 @@ Lookup.create_or_update!(
   }
 )
 
-
 Lookup.create_or_update!(
   {
     unique_id: "lookup-priority-level",
@@ -750,7 +652,6 @@ Lookup.create_or_update!(
     locked: false
   }
 )
-
 
 Lookup.create_or_update!(
   {
@@ -978,5084 +879,6054 @@ Lookup.create_or_update!(
   }
 )
 
-
 Lookup.create_or_update!(
   {
-    locked: true,
-    name_en: "Approval Type",
-    name_ar: "نوع الموافقة",
-    name_ku: "جۆری قبوڵكردن",
-    'name_ku-IQ': "جورێ دەستيردانێ",
-    lookup_values_en: [
+    unique_id: "lookup-approval-type",
+    name_i18n: {
+      ar: "نوع الموافقة",
+      en: "Approval Type",
+      ku: "جۆری قبوڵكردن",
+      'ku-IQ': "جورێ دەستيردانێ"
+    },
+    lookup_values_i18n: [
       {
         id: "case_plan",
-        display_text: "Case Plan"
+        display_text: {
+          ar: "خطة الحالة",
+          en: "Case Plan",
+          ku: "پلانی كەیس",
+          'ku-IQ': "پلانا کەیسی"
+        }
       },
       {
         id: "action_plan",
-        display_text: "Action Plan"
+        display_text: {
+          ar: "خطة العمل",
+          en: "Action Plan",
+          ku: "پلانی كار",
+          'ku-IQ': "پلانا کریارێ"
+        }
       },
       {
         id: "service_provision",
-        display_text: "Service Provision"
+        display_text: {
+          ar: "تقديم الخدمات",
+          en: "Service Provision",
+          ku: "دابینکردنی خزمەتگوزاری",
+          'ku-IQ': "دابینکرنا خزمەتگۆزاریێ"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "case_plan",
-        display_text: "خطة الحالة"
-      },
-      {
-        id: "action_plan",
-        display_text: "خطة العمل"
-      },
-      {
-        id: "service_provision",
-        display_text: "تقديم الخدمات"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "case_plan",
-        display_text: "پلانی كەیس"
-      },
-      {
-        id: "action_plan",
-        display_text: "پلانی كار"
-      },
-      {
-        id: "service_provision",
-        display_text: "دابینکردنی خزمەتگوزاری"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "case_plan",
-        display_text: "پلانا کەیسی"
-      },
-      {
-        id: "action_plan",
-        display_text: "پلانا کریارێ"
-      },
-      {
-        id: "service_provision",
-        display_text: "دابینکرنا خزمەتگۆزاریێ"
-      }
-    ],
-    unique_id: "lookup-approval-type"
+    locked: true
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Armed Force Group Name",
-    name_ar: "اسم مجموعة القوات المسلحة",
-    name_ku: "ناوی گروپی هێزی چەكدار",
-    'name_ku-IQ': "ناڤێ گرۆپێ هێزا چەکدار",
-    lookup_values_en: [
+    unique_id: "lookup-armed-force-group-name",
+    name_i18n: {
+      ar: "اسم مجموعة القوات المسلحة",
+      en: "Armed Force Group Name",
+      ku: "ناوی گروپی هێزی چەكدار",
+      'ku-IQ': "ناڤێ گرۆپێ هێزا چەکدار"
+    },
+    lookup_values_i18n: [
       {
         id: "armed_force_or_group_1",
-        display_text: "Armed Force or Group 1"
+        display_text: {
+          ar: "القوات المسلحة أو مجموعة 1",
+          en: "Armed Force or Group 1",
+          ku: "هێزی چەكدار یان  گروپ 1",
+          'ku-IQ': "ناڤێ گرۆپێ هێزا چەکدار 1"
+        }
       },
       {
         id: "armed_force_or_group_2",
-        display_text: "Armed Force or Group 2"
+        display_text: {
+          ar: "القوات المسلحة أو مجموعة 2",
+          en: "Armed Force or Group 2",
+          ku: "هێزی چەكدار یان گروپ 2",
+          'ku-IQ': "ناڤێ گرۆپێ هێزا چەکدار 2"
+        }
       },
       {
         id: "armed_force_or_group_3",
-        display_text: "Armed Force or Group 3"
+        display_text: {
+          ar: "القوات المسلحة أو مجموعة 3",
+          en: "Armed Force or Group 3",
+          ku: "هێزی چەكدار یان گروپ 3",
+          'ku-IQ': "ناڤێ گرۆپێ هێزا چەکدار 3"
+        }
       },
       {
         id: "other_please_specify",
-        display_text: "Other, please specify"
+        display_text: {
+          ar: "مجموعة أخرى، يرجى التحديد",
+          en: "Other, please specify",
+          ku: "هی تر، تكایە دیاریبكە",
+          'ku-IQ': "یێن دی، هیڤیدارین دیاربکە"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "armed_force_or_group_1",
-        display_text: "القوات المسلحة أو مجموعة 1"
-      },
-      {
-        id: "armed_force_or_group_2",
-        display_text: "القوات المسلحة أو مجموعة 2"
-      },
-      {
-        id: "armed_force_or_group_3",
-        display_text: "القوات المسلحة أو مجموعة 3"
-      },
-      {
-        id: "other_please_specify",
-        display_text: "مجموعة أخرى، يرجى التحديد"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "armed_force_or_group_1",
-        display_text: "هێزی چەكدار یان  گروپ 1"
-      },
-      {
-        id: "armed_force_or_group_2",
-        display_text: "هێزی چەكدار یان گروپ 2"
-      },
-      {
-        id: "armed_force_or_group_3",
-        display_text: "هێزی چەكدار یان گروپ 3"
-      },
-      {
-        id: "other_please_specify",
-        display_text: "هی تر، تكایە دیاریبكە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "armed_force_or_group_1",
-        display_text: "ناڤێ گرۆپێ هێزا چەکدار 1"
-      },
-      {
-        id: "armed_force_or_group_2",
-        display_text: "ناڤێ گرۆپێ هێزا چەکدار 2"
-      },
-      {
-        id: "armed_force_or_group_3",
-        display_text: "ناڤێ گرۆپێ هێزا چەکدار 3"
-      },
-      {
-        id: "other_please_specify",
-        display_text: "یێن دی، هیڤیدارین دیاربکە"
-      }
-    ],
-    unique_id: "lookup-armed-force-group-name"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Armed Force Group Type",
-    name_ar: "نوع مجموعة القوات المسلحة",
-    name_ku: "جۆری گروپی هێزی چەكدار یان",
-    'name_ku-IQ': "جورێ گرۆپێ هێزا چەکدار",
-    lookup_values_en: [
+    unique_id: "lookup-armed-force-group-type",
+    name_i18n: {
+      ar: "نوع مجموعة القوات المسلحة",
+      en: "Armed Force Group Type",
+      ku: "جۆری گروپی هێزی چەكدار یان",
+      'ku-IQ': "جورێ گرۆپێ هێزا چەکدار"
+    },
+    lookup_values_i18n: [
       {
         id: "national_army",
-        display_text: "National Army"
+        display_text: {
+          ar: "الجيش الوطني",
+          en: "National Army",
+          ku: "سوپای نیشتمانی",
+          'ku-IQ': "لەشکەرێ نەتەوەیی"
+        }
       },
       {
         id: "security_forces",
-        display_text: "Security Forces"
+        display_text: {
+          ar: "القوات الأمنية",
+          en: "Security Forces",
+          ku: "هێزەكانی ئاسایش",
+          'ku-IQ': "هێزێن ئێمناهیێ"
+        }
       },
       {
         id: "international_forces",
-        display_text: "International Forces"
+        display_text: {
+          ar: "قوات دولية",
+          en: "International Forces",
+          ku: "هێزە نێودەوڵەتیەكان",
+          'ku-IQ': "هێزێن نێڤدەولەتی"
+        }
       },
       {
         id: "police_forces",
-        display_text: "Police Forces"
+        display_text: {
+          ar: "قوات الشرطة",
+          en: "Police Forces",
+          ku: "هێزەكانی پۆلیس",
+          'ku-IQ': "هێزێن پۆلیسا"
+        }
       },
       {
         id: "para-military_forces",
-        display_text: "Para-Military Forces"
+        display_text: {
+          ar: "قوات شبه عسكرية",
+          en: "Para-Military Forces",
+          ku: "هێزی سەربازی نافەرمی (دەرەوەی سوپا)",
+          'ku-IQ': "هێزێن نیمچە لەشکەری"
+        }
       },
       {
         id: "unknown",
-        display_text: "Unknown"
+        display_text: {
+          ar: "غير معروف",
+          en: "Unknown",
+          ku: "نەناسراو",
+          'ku-IQ': "نەدیار"
+        }
       },
       {
         id: "other",
-        display_text: "Other"
+        display_text: {
+          ar: "أخرى",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "national_army",
-        display_text: "الجيش الوطني"
-      },
-      {
-        id: "security_forces",
-        display_text: "القوات الأمنية"
-      },
-      {
-        id: "international_forces",
-        display_text: "قوات دولية"
-      },
-      {
-        id: "police_forces",
-        display_text: "قوات الشرطة"
-      },
-      {
-        id: "para-military_forces",
-        display_text: "قوات شبه عسكرية"
-      },
-      {
-        id: "unknown",
-        display_text: "غير معروف"
-      },
-      {
-        id: "other",
-        display_text: "أخرى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "national_army",
-        display_text: "سوپای نیشتمانی"
-      },
-      {
-        id: "security_forces",
-        display_text: "هێزەكانی ئاسایش"
-      },
-      {
-        id: "international_forces",
-        display_text: "هێزە نێودەوڵەتیەكان"
-      },
-      {
-        id: "police_forces",
-        display_text: "هێزەكانی پۆلیس"
-      },
-      {
-        id: "para-military_forces",
-        display_text: "هێزی سەربازی نافەرمی (دەرەوەی سوپا)"
-      },
-      {
-        id: "unknown",
-        display_text: "نەناسراو"
-      },
-      {
-        id: "other",
-        display_text: "هی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "national_army",
-        display_text: "لەشکەرێ نەتەوەیی"
-      },
-      {
-        id: "security_forces",
-        display_text: "هێزێن ئێمناهیێ"
-      },
-      {
-        id: "international_forces",
-        display_text: "هێزێن نێڤدەولەتی"
-      },
-      {
-        id: "police_forces",
-        display_text: "هێزێن پۆلیسا"
-      },
-      {
-        id: "para-military_forces",
-        display_text: "هێزێن نیمچە لەشکەری"
-      },
-      {
-        id: "unknown",
-        display_text: "نەدیار"
-      },
-      {
-        id: "other",
-        display_text: "یێن دی"
-      }
-    ],
-    unique_id: "lookup-armed-force-group-type"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Assessment Duration",
-    name_ar: "فترة التقييم",
-    name_ku: "ماوەی هەڵسەنگاندن",
-    'name_ku-IQ': "ماوێ هەلسەنگاندنێ",
-    lookup_values_en: [
+    unique_id: "lookup-assessment-duration",
+    name_i18n: {
+      ar: "فترة التقييم",
+      en: "Assessment Duration",
+      ku: "ماوەی هەڵسەنگاندن",
+      'ku-IQ': "ماوێ هەلسەنگاندنێ"
+    },
+    lookup_values_i18n: [
       {
         id: "less_than_15_minutes",
-        display_text: "Less than 15 minutes"
+        display_text: {
+          ar: "أقل من 15 دقيقة",
+          en: "Less than 15 minutes",
+          ku: "كەمتر لە 15 خولەك",
+          'ku-IQ': "کێمتر ژ 15 خولەکا"
+        }
       },
       {
         id: "16_30_minutes",
-        display_text: "16-30 minutes"
+        display_text: {
+          ar: "16-30 دقيقة",
+          en: "16-30 minutes",
+          ku: "16- 30 خولەك",
+          'ku-IQ': "16-30 خولەک"
+        }
       },
       {
         id: "31_minutes_1_hour",
-        display_text: "31 minutes - 1 hour"
+        display_text: {
+          ar: "31 دقيقة - ساعة",
+          en: "31 minutes - 1 hour",
+          ku: "31 خولەك - 1 كاتژمێر",
+          'ku-IQ': "خولەک 31 - 1 دەمژمێر"
+        }
       },
       {
         id: "1_2_hours",
-        display_text: "1-2 hours"
+        display_text: {
+          ar: "1-2 ساعة",
+          en: "1-2 hours",
+          ku: "1- 2 كاتژمێر",
+          'ku-IQ': "1-2 دەمژمێر"
+        }
       },
       {
         id: "more_than_2_hours",
-        display_text: "More than 2 hours"
+        display_text: {
+          ar: "أكثر من ساعتين",
+          en: "More than 2 hours",
+          ku: "زیاتر لە 2 كاتژمێر",
+          'ku-IQ': "پتر ژ 2 دەمژمێرا"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "less_than_15_minutes",
-        display_text: "أقل من 15 دقيقة"
-      },
-      {
-        id: "16_30_minutes",
-        display_text: "16-30 دقيقة"
-      },
-      {
-        id: "31_minutes_1_hour",
-        display_text: "31 دقيقة - ساعة"
-      },
-      {
-        id: "1_2_hours",
-        display_text: "1-2 ساعة"
-      },
-      {
-        id: "more_than_2_hours",
-        display_text: "أكثر من ساعتين"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "less_than_15_minutes",
-        display_text: "كەمتر لە 15 خولەك"
-      },
-      {
-        id: "16_30_minutes",
-        display_text: "16- 30 خولەك"
-      },
-      {
-        id: "31_minutes_1_hour",
-        display_text: "31 خولەك - 1 كاتژمێر"
-      },
-      {
-        id: "1_2_hours",
-        display_text: "1- 2 كاتژمێر"
-      },
-      {
-        id: "more_than_2_hours",
-        display_text: "زیاتر لە 2 كاتژمێر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "less_than_15_minutes",
-        display_text: "کێمتر ژ 15 خولەکا"
-      },
-      {
-        id: "16_30_minutes",
-        display_text: "16-30 خولەک"
-      },
-      {
-        id: "31_minutes_1_hour",
-        display_text: "خولەک 31 - 1 دەمژمێر"
-      },
-      {
-        id: "1_2_hours",
-        display_text: "1-2 دەمژمێر"
-      },
-      {
-        id: "more_than_2_hours",
-        display_text: "پتر ژ 2 دەمژمێرا"
-      }
-    ],
-    unique_id: "lookup-assessment-duration"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Assessment Progress",
-    name_ar: "تقدم التقييم",
-    name_ku: "بەرەوپێشچوونی هەڵسەنگاندن",
-    'name_ku-IQ': "پێشڤەچوونا هەلسەنگاندنێ",
-    lookup_values_en: [
+    unique_id: "lookup-assessment-progress",
+    name_i18n: {
+      ar: "تقدم التقييم",
+      en: "Assessment Progress",
+      ku: "بەرەوپێشچوونی هەڵسەنگاندن",
+      'ku-IQ': "پێشڤەچوونا هەلسەنگاندنێ"
+    },
+    lookup_values_i18n: [
       {
         id: "n_a",
-        display_text: "N/A"
+        display_text: {
+          ar: "غير متوفر",
+          en: "N/A",
+          ku: "بەردەست نیە",
+          'ku-IQ': "بەردەست نینە \\نە پەیوەندیدار"
+        }
       },
       {
         id: "in_progress",
-        display_text: "In progress"
+        display_text: {
+          ar: "قيد التنفيذ",
+          en: "In progress",
+          ku: "لە بەرەوپێشچووندایە",
+          'ku-IQ': "د پێشڤەچوونێ دایە"
+        }
       },
       {
         id: "met",
-        display_text: "Met"
+        display_text: {
+          ar: "تم استيفاء التقييم",
+          en: "Met",
+          ku: "بەدیهاتوو",
+          'ku-IQ': "ئێک دوو یا دیتی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "n_a",
-        display_text: "غير متوفر"
-      },
-      {
-        id: "in_progress",
-        display_text: "قيد التنفيذ"
-      },
-      {
-        id: "met",
-        display_text: "تم استيفاء التقييم"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "n_a",
-        display_text: "بەردەست نیە"
-      },
-      {
-        id: "in_progress",
-        display_text: "لە بەرەوپێشچووندایە"
-      },
-      {
-        id: "met",
-        display_text: "بەدیهاتوو"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "n_a",
-        display_text: "بەردەست نینە \\نە پەیوەندیدار"
-      },
-      {
-        id: "in_progress",
-        display_text: "د پێشڤەچوونێ دایە"
-      },
-      {
-        id: "met",
-        display_text: "ئێک دوو یا دیتی"
-      }
-    ],
-    unique_id: "lookup-assessment-progress"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Case Status",
-    name_ar: "الوضع الراهن للحالة",
-    name_ku: "باری كەیس",
-    'name_ku-IQ': "بارودوخێ کەیسی",
-    lookup_values_en: [
+    unique_id: "lookup-case-status",
+    name_i18n: {
+      ar: "الوضع الراهن للحالة",
+      en: "Case Status",
+      ku: "باری كەیس",
+      'ku-IQ': "بارودوخێ کەیسی"
+    },
+    lookup_values_i18n: [
       {
         id: "open",
-        display_text: "Open"
+        display_text: {
+          ar: "مفتوحة",
+          en: "Open",
+          ku: "كراوە",
+          'ku-IQ': "ڤەکری"
+        }
       },
       {
         id: "closed",
-        display_text: "Closed"
+        display_text: {
+          ar: "مغلقة",
+          en: "Closed",
+          ku: "داخراو",
+          'ku-IQ': "گرتی"
+        }
       },
       {
         id: "transferred",
-        display_text: "Transferred"
+        display_text: {
+          ar: "تمت الإحالة",
+          en: "Transferred",
+          ku: "گوازراوە",
+          'ku-IQ': "ڤەگوهاستی"
+        }
       },
       {
         id: "duplicate",
-        display_text: "Duplicate"
+        display_text: {
+          ar: "مكررة",
+          en: "Duplicate",
+          ku: "دووبارە",
+          'ku-IQ': "دوبارەکری"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "open",
-        display_text: "مفتوحة"
-      },
-      {
-        id: "closed",
-        display_text: "مغلقة"
-      },
-      {
-        id: "transferred",
-        display_text: "تمت الإحالة"
-      },
-      {
-        id: "duplicate",
-        display_text: "مكررة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "open",
-        display_text: "كراوە"
-      },
-      {
-        id: "closed",
-        display_text: "داخراو"
-      },
-      {
-        id: "transferred",
-        display_text: "گوازراوە"
-      },
-      {
-        id: "duplicate",
-        display_text: "دووبارە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "open",
-        display_text: "ڤەکری"
-      },
-      {
-        id: "closed",
-        display_text: "گرتی"
-      },
-      {
-        id: "transferred",
-        display_text: "ڤەگوهاستی"
-      },
-      {
-        id: "duplicate",
-        display_text: "دوبارەکری"
-      }
-    ],
-    unique_id: "lookup-case-status"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Child / Minor Age Group",
-    name_ar: "الفئة العمرية للطفل / القاصر",
-    name_ku: "گروپی پێنەگەیشتوو / منداڵ",
-    'name_ku-IQ': "زارۆک\\ گرۆپێ تەمەنێ ل ژێر تەمەنێ قانونی",
-    lookup_values_en: [
+    unique_id: "lookup-child-minor-age-group",
+    name_i18n: {
+      ar: "الفئة العمرية للطفل / القاصر",
+      en: "Child / Minor Age Group",
+      ku: "گروپی پێنەگەیشتوو / منداڵ",
+      'ku-IQ': "زارۆک\\ گرۆپێ تەمەنێ ل ژێر تەمەنێ قانونی"
+    },
+    lookup_values_i18n: [
       {
         id: "0_5_year_old",
-        display_text: "0-5 year-old"
+        display_text: {
+          ar: "0-5  سنوات",
+          en: "0-5 year-old",
+          ku: "0 - 5 ساڵ",
+          'ku-IQ': "سالی 0-5"
+        }
       },
       {
         id: "6_12_year_old",
-        display_text: "6-12 year-old"
+        display_text: {
+          ar: "6-12 سنة",
+          en: "6-12 year-old",
+          ku: "6 - 12 ساڵ",
+          'ku-IQ': "6-12 سالی"
+        }
       },
       {
         id: "13_17_year_old",
-        display_text: "13-17 year-old"
+        display_text: {
+          ar: "13-17  سنة",
+          en: "13-17 year-old",
+          ku: "13 - 17 ساڵ",
+          'ku-IQ': "13-17 سالی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "0_5_year_old",
-        display_text: "0-5  سنوات"
-      },
-      {
-        id: "6_12_year_old",
-        display_text: "6-12 سنة"
-      },
-      {
-        id: "13_17_year_old",
-        display_text: "13-17  سنة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "0_5_year_old",
-        display_text: "0 - 5 ساڵ"
-      },
-      {
-        id: "6_12_year_old",
-        display_text: "6 - 12 ساڵ"
-      },
-      {
-        id: "13_17_year_old",
-        display_text: "13 - 17 ساڵ"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "0_5_year_old",
-        display_text: "سالی 0-5"
-      },
-      {
-        id: "6_12_year_old",
-        display_text: "6-12 سالی"
-      },
-      {
-        id: "13_17_year_old",
-        display_text: "13-17 سالی"
-      }
-    ],
-    unique_id: "lookup-child-minor-age-group"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Conference Case Status",
-    name_ar: "",
-    name_ku: "باری كۆنفرانسی كەیس",
-    'name_ku-IQ': "بارودوخێ کەیسی",
-    lookup_values_en: [
+    unique_id: "lookup-conference-case-status",
+    name_i18n: {
+      ar: "",
+      en: "Conference Case Status",
+      ku: "باری كۆنفرانسی كەیس",
+      'ku-IQ': "بارودوخێ کەیسی"
+    },
+    lookup_values_i18n: [
       {
         id: "open",
-        display_text: "The case will remain open"
+        display_text: {
+          ar: "",
+          en: "The case will remain open",
+          ku: "كەیسەكە بە كراوەیی دەمێنێتەوە",
+          'ku-IQ': "کەیس دێ ڤەکری مینیت"
+        }
       },
       {
         id: "closed",
-        display_text: "The case will be closed"
+        display_text: {
+          ar: "",
+          en: "The case will be closed",
+          ku: "كەیسەكە دادەخرێت",
+          'ku-IQ': "کەیس دێ هێتە گرتن"
+        }
       },
       {
         id: "transferred",
-        display_text: "The case will be transferred"
+        display_text: {
+          ar: "",
+          en: "The case will be transferred",
+          ku: "كەیسەكە دەگوازرێتەوە",
+          'ku-IQ': "کەیس دێ هێتە ڤەگۆهاستن"
+        }
       },
       {
         id: "other",
-        display_text: "Other"
+        display_text: {
+          ar: "",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "open",
-        display_text: ""
-      },
-      {
-        id: "closed",
-        display_text: ""
-      },
-      {
-        id: "transferred",
-        display_text: ""
-      },
-      {
-        id: "other",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "open",
-        display_text: "كەیسەكە بە كراوەیی دەمێنێتەوە"
-      },
-      {
-        id: "closed",
-        display_text: "كەیسەكە دادەخرێت"
-      },
-      {
-        id: "transferred",
-        display_text: "كەیسەكە دەگوازرێتەوە"
-      },
-      {
-        id: "other",
-        display_text: "هی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "open",
-        display_text: "کەیس دێ ڤەکری مینیت"
-      },
-      {
-        id: "closed",
-        display_text: "کەیس دێ هێتە گرتن"
-      },
-      {
-        id: "transferred",
-        display_text: "کەیس دێ هێتە ڤەگۆهاستن"
-      },
-      {
-        id: "other",
-        display_text: "یێن دی"
-      }
-    ],
-    unique_id: "lookup-conference-case-status"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Country",
-    name_ar: "البلد",
-    name_ku: "وڵات",
-    'name_ku-IQ': "وەلات",
-    lookup_values_en: [
+    unique_id: "lookup-country",
+    name_i18n: {
+      ar: "البلد",
+      en: "Country",
+      ku: "وڵات",
+      'ku-IQ': "وەلات"
+    },
+    lookup_values_i18n: [
       {
         id: "afghanistan",
-        display_text: "Afghanistan"
+        display_text: {
+          ar: "أفغانستان",
+          en: "Afghanistan",
+          ku: "ئەفغانستان",
+          'ku-IQ': "ئەفغانستان"
+        }
       },
       {
         id: "albania",
-        display_text: "Albania"
+        display_text: {
+          ar: "ألبانيا",
+          en: "Albania",
+          ku: "ئەلبانیا",
+          'ku-IQ': "ئەلبانیا"
+        }
       },
       {
         id: "algeria",
-        display_text: "Algeria"
+        display_text: {
+          ar: "الجزائر",
+          en: "Algeria",
+          ku: "جەزائیر",
+          'ku-IQ': "جەزائر"
+        }
       },
       {
         id: "andorra",
-        display_text: "Andorra"
+        display_text: {
+          ar: "أندورا",
+          en: "Andorra",
+          ku: "ئەندۆرا",
+          'ku-IQ': "ئەندورا"
+        }
       },
       {
         id: "angola",
-        display_text: "Angola"
+        display_text: {
+          ar: "أنغولا",
+          en: "Angola",
+          ku: "ئەنگۆلا",
+          'ku-IQ': "ئەنگۆلا"
+        }
       },
       {
         id: "antigua_and_barbuda",
-        display_text: "Antigua and Barbuda"
+        display_text: {
+          ar: "أنتيغوا وبربودا",
+          en: "Antigua and Barbuda",
+          ku: "ئەنتیگواو بەربودا",
+          'ku-IQ': "ئەنتیگوا و باربودا"
+        }
       },
       {
         id: "argentina",
-        display_text: "Argentina"
+        display_text: {
+          ar: "الأرجنتين",
+          en: "Argentina",
+          ku: "ئەرجەنتین",
+          'ku-IQ': "ئەرژەنتین"
+        }
       },
       {
         id: "armenia",
-        display_text: "Armenia"
+        display_text: {
+          ar: "أرمينيا",
+          en: "Armenia",
+          ku: "ئەرمینیا",
+          'ku-IQ': "ئەرمینیا"
+        }
       },
       {
         id: "australia",
-        display_text: "Australia"
+        display_text: {
+          ar: "أستراليا",
+          en: "Australia",
+          ku: "ئوسترالیا",
+          'ku-IQ': "ئۆسترالیا"
+        }
       },
       {
         id: "austria",
-        display_text: "Austria"
+        display_text: {
+          ar: "النمسا",
+          en: "Austria",
+          ku: "نەمسا",
+          'ku-IQ': "نەمسا"
+        }
       },
       {
         id: "azerbaijan",
-        display_text: "Azerbaijan"
+        display_text: {
+          ar: "أذربيجان",
+          en: "Azerbaijan",
+          ku: "ئازەربایجان",
+          'ku-IQ': "ئازربایجان"
+        }
       },
       {
         id: "bahamas",
-        display_text: "Bahamas"
+        display_text: {
+          ar: "جزر الباهاما",
+          en: "Bahamas",
+          ku: "باهاماس",
+          'ku-IQ': "باهاماس"
+        }
       },
       {
         id: "bahrain",
-        display_text: "Bahrain"
+        display_text: {
+          ar: "البحرين",
+          en: "Bahrain",
+          ku: "بەحرێن",
+          'ku-IQ': "بەحرێن"
+        }
       },
       {
         id: "bangladesh",
-        display_text: "Bangladesh"
+        display_text: {
+          ar: "بنغلادش",
+          en: "Bangladesh",
+          ku: "بەنگلادیش",
+          'ku-IQ': "بەنگلادش"
+        }
       },
       {
         id: "barbados",
-        display_text: "Barbados"
+        display_text: {
+          ar: "بربادوس",
+          en: "Barbados",
+          ku: "باربادۆس",
+          'ku-IQ': "باربادوس"
+        }
       },
       {
         id: "belarus",
-        display_text: "Belarus"
+        display_text: {
+          ar: "روسيا البيضاء / بيلاروسيا",
+          en: "Belarus",
+          ku: "بێلارووس",
+          'ku-IQ': "بێلاروس"
+        }
       },
       {
         id: "belgium",
-        display_text: "Belgium"
+        display_text: {
+          ar: "بلجيكا",
+          en: "Belgium",
+          ku: "بەلجیكا",
+          'ku-IQ': "بەلجیک"
+        }
       },
       {
         id: "belize",
-        display_text: "Belize"
+        display_text: {
+          ar: "بليز",
+          en: "Belize",
+          ku: "بەلیز",
+          'ku-IQ': "بلیزێ"
+        }
       },
       {
         id: "benin",
-        display_text: "Benin"
+        display_text: {
+          ar: "بنين",
+          en: "Benin",
+          ku: "بەنین",
+          'ku-IQ': "بەنین"
+        }
       },
       {
         id: "bhutan",
-        display_text: "Bhutan"
+        display_text: {
+          ar: "بوتان",
+          en: "Bhutan",
+          ku: "بۆتان",
+          'ku-IQ': "بوتان"
+        }
       },
       {
         id: "bolivia",
-        display_text: "Bolivia"
+        display_text: {
+          ar: "بوليفيا",
+          en: "Bolivia",
+          ku: "بۆلیڤیا",
+          'ku-IQ': "بولیڤیا"
+        }
       },
       {
         id: "bosnia_and_herzegovina",
-        display_text: "Bosnia and Herzegovina"
+        display_text: {
+          ar: "البوسنة والهرسك",
+          en: "Bosnia and Herzegovina",
+          ku: "بۆسنەو هەرسك",
+          'ku-IQ': "بوسنیا و هێرسک"
+        }
       },
       {
         id: "botswana",
-        display_text: "Botswana"
+        display_text: {
+          ar: "بوتسوانا",
+          en: "Botswana",
+          ku: "بۆتسوانا",
+          'ku-IQ': "بوتسوانا"
+        }
       },
       {
         id: "brazil",
-        display_text: "Brazil"
+        display_text: {
+          ar: "البرازيل",
+          en: "Brazil",
+          ku: "بەرازیل",
+          'ku-IQ': "بەرازیل"
+        }
       },
       {
         id: "brunei",
-        display_text: "Brunei"
+        display_text: {
+          ar: "بروناي",
+          en: "Brunei",
+          ku: "بڕۆنای",
+          'ku-IQ': "برونای"
+        }
       },
       {
         id: "bulgaria",
-        display_text: "Bulgaria"
+        display_text: {
+          ar: "بلغاريا",
+          en: "Bulgaria",
+          ku: "بولگاریا",
+          'ku-IQ': "بولگاریا"
+        }
       },
       {
         id: "burkina_faso",
-        display_text: "Burkina Faso"
+        display_text: {
+          ar: "بوركينافاسو",
+          en: "Burkina Faso",
+          ku: "بۆركینا فاسۆ",
+          'ku-IQ': "بورکینا فاسو"
+        }
       },
       {
         id: "burundi",
-        display_text: "Burundi"
+        display_text: {
+          ar: "بوروندي",
+          en: "Burundi",
+          ku: "بوڕوندی",
+          'ku-IQ': "بروندی"
+        }
       },
       {
         id: "cabo_verde",
-        display_text: "Cabo Verde"
+        display_text: {
+          ar: "كابو فيردي",
+          en: "Cabo Verde",
+          ku: "كابۆ ڤێردی",
+          'ku-IQ': "کابو ڤێردێ"
+        }
       },
       {
         id: "cambodia",
-        display_text: "Cambodia"
+        display_text: {
+          ar: "كمبوديا",
+          en: "Cambodia",
+          ku: "كەمبۆدیا",
+          'ku-IQ': "کەمبودیا"
+        }
       },
       {
         id: "cameroon",
-        display_text: "Cameroon"
+        display_text: {
+          ar: "الكاميرون",
+          en: "Cameroon",
+          ku: "كامێروون",
+          'ku-IQ': "کامیرون"
+        }
       },
       {
         id: "canada",
-        display_text: "Canada"
+        display_text: {
+          ar: "كندا",
+          en: "Canada",
+          ku: "كەنەدا",
+          'ku-IQ': "کەنەدا"
+        }
       },
       {
         id: "central_african_republic",
-        display_text: "Central African Republic"
+        display_text: {
+          ar: "جمهورية افريقيا الوسطى",
+          en: "Central African Republic",
+          ku: "كۆماری ئەفریقای ناوەڕاست",
+          'ku-IQ': "کومارا ئەفریکا ناڤەراست"
+        }
       },
       {
         id: "chad",
-        display_text: "Chad"
+        display_text: {
+          ar: "تشاد",
+          en: "Chad",
+          ku: "چاد",
+          'ku-IQ': "شاد"
+        }
       },
       {
         id: "chile",
-        display_text: "Chile"
+        display_text: {
+          ar: "تشيلي",
+          en: "Chile",
+          ku: "چیلی",
+          'ku-IQ': "شیلی"
+        }
       },
       {
         id: "china",
-        display_text: "China"
+        display_text: {
+          ar: "الصين",
+          en: "China",
+          ku: "چین",
+          'ku-IQ': "چین"
+        }
       },
       {
         id: "colombia",
-        display_text: "Colombia"
+        display_text: {
+          ar: "كولومبيا",
+          en: "Colombia",
+          ku: "كۆلۆمبیا",
+          'ku-IQ': "کولومبیا"
+        }
       },
       {
         id: "comoros",
-        display_text: "Comoros"
+        display_text: {
+          ar: "جزر القمر",
+          en: "Comoros",
+          ku: "كۆمۆرۆس",
+          'ku-IQ': "کوموروس \\ گزیرتا هەیڤێ"
+        }
       },
       {
         id: "congo",
-        display_text: "Congo, Republic of the"
+        display_text: {
+          ar: "جمهورية الكونغو",
+          en: "Congo, Republic of the",
+          ku: "كۆماری كۆنگۆ",
+          'ku-IQ': "کومارا کونگو"
+        }
       },
       {
         id: "drc",
-        display_text: "Congo, Democratic Republic of the"
+        display_text: {
+          ar: "جمهورية الكونغو الديمقراطية",
+          en: "Congo, Democratic Republic of the",
+          ku: "كۆماری كۆنگۆی دیموكراتی",
+          'ku-IQ': "کومارا دیموکراتا کونگو"
+        }
       },
       {
         id: "costa_rica",
-        display_text: "Costa Rica"
+        display_text: {
+          ar: "كوستاريكا",
+          en: "Costa Rica",
+          ku: "كۆستاریكا",
+          'ku-IQ': "کوستاریکا"
+        }
       },
       {
         id: "cote_divoire",
-        display_text: "Cote d'Ivoire"
+        display_text: {
+          ar: "ساحل العاج",
+          en: "Cote d'Ivoire",
+          ku: "كۆتیڤوار",
+          'ku-IQ': "کوت دیڤوار"
+        }
       },
       {
         id: "croatia",
-        display_text: "Croatia"
+        display_text: {
+          ar: "كرواتيا",
+          en: "Croatia",
+          ku: "كرواتیا",
+          'ku-IQ': "کرواتیا"
+        }
       },
       {
         id: "cuba",
-        display_text: "Cuba"
+        display_text: {
+          ar: "كوبا",
+          en: "Cuba",
+          ku: "كوبا",
+          'ku-IQ': "کوبا"
+        }
       },
       {
         id: "cyprus",
-        display_text: "Cyprus"
+        display_text: {
+          ar: "قبرص",
+          en: "Cyprus",
+          ku: "قوبرس",
+          'ku-IQ': "قوبرس"
+        }
       },
       {
         id: "czech_republic",
-        display_text: "Czech Republic"
+        display_text: {
+          ar: "جمهورية التشيك",
+          en: "Czech Republic",
+          ku: "چیك",
+          'ku-IQ': "کومارا چیک"
+        }
       },
       {
         id: "denmark",
-        display_text: "Denmark"
+        display_text: {
+          ar: "الدنمارك",
+          en: "Denmark",
+          ku: "دانمارك",
+          'ku-IQ': "دانیمارک"
+        }
       },
       {
         id: "djibouti",
-        display_text: "Djibouti"
+        display_text: {
+          ar: "جيبوتي",
+          en: "Djibouti",
+          ku: "جیبۆتی",
+          'ku-IQ': "جیبوتی"
+        }
       },
       {
         id: "dominica",
-        display_text: "Dominica"
+        display_text: {
+          ar: "دومينيكا",
+          en: "Dominica",
+          ku: "دۆمێنیكا",
+          'ku-IQ': "دومینیکا"
+        }
       },
       {
         id: "dominican_republic",
-        display_text: "Dominican Republic"
+        display_text: {
+          ar: "جمهورية الدومينيكان",
+          en: "Dominican Republic",
+          ku: "كۆماری دۆمێنیكان",
+          'ku-IQ': "کومارا دومینیکان"
+        }
       },
       {
         id: "ecuador",
-        display_text: "Ecuador"
+        display_text: {
+          ar: "الإكوادور",
+          en: "Ecuador",
+          ku: "ئێكوادۆر",
+          'ku-IQ': "ئیکوادور"
+        }
       },
       {
         id: "egypt",
-        display_text: "Egypt"
+        display_text: {
+          ar: "مصر",
+          en: "Egypt",
+          ku: "میسر",
+          'ku-IQ': "مسر"
+        }
       },
       {
         id: "el_salvador",
-        display_text: "El Salvador"
+        display_text: {
+          ar: "السلفادور",
+          en: "El Salvador",
+          ku: "سلڤادۆر",
+          'ku-IQ': "سلڤادور"
+        }
       },
       {
         id: "equatorial_guinea",
-        display_text: "Equatorial Guinea"
+        display_text: {
+          ar: "غينيا الإستوائية",
+          en: "Equatorial Guinea",
+          ku: "گینیای ئیستیوائی",
+          'ku-IQ': "گینیا جەمسەری"
+        }
       },
       {
         id: "eritrea",
-        display_text: "Eritrea"
+        display_text: {
+          ar: "إريتيريا",
+          en: "Eritrea",
+          ku: "ئەریتریا",
+          'ku-IQ': "ئیریتێریا"
+        }
       },
       {
         id: "estonia",
-        display_text: "Estonia"
+        display_text: {
+          ar: "إستونيا",
+          en: "Estonia",
+          ku: "ئەستۆنیا",
+          'ku-IQ': "ئەستونیا"
+        }
       },
       {
         id: "ethiopia",
-        display_text: "Ethiopia"
+        display_text: {
+          ar: "إثيوبيا",
+          en: "Ethiopia",
+          ku: "ئەسیوپیا",
+          'ku-IQ': "ئیسیوپیا"
+        }
       },
       {
         id: "fiji",
-        display_text: "Fiji"
+        display_text: {
+          ar: "جزر الفيجي",
+          en: "Fiji",
+          ku: "فیجی",
+          'ku-IQ': "فیجی"
+        }
       },
       {
         id: "finland",
-        display_text: "Finland"
+        display_text: {
+          ar: "فلندا",
+          en: "Finland",
+          ku: "فینلاندا",
+          'ku-IQ': "فینلەند"
+        }
       },
       {
         id: "france",
-        display_text: "France"
+        display_text: {
+          ar: "فرنسا",
+          en: "France",
+          ku: "فەرەنسا",
+          'ku-IQ': "فرەنسا"
+        }
       },
       {
         id: "gabon",
-        display_text: "Gabon"
+        display_text: {
+          ar: "الغابون",
+          en: "Gabon",
+          ku: "گابۆن",
+          'ku-IQ': "گابون"
+        }
       },
       {
         id: "gambia",
-        display_text: "Gambia"
+        display_text: {
+          ar: "غامبيا",
+          en: "Gambia",
+          ku: "گامبیا",
+          'ku-IQ': "گامبیا"
+        }
       },
       {
         id: "georgia",
-        display_text: "Georgia"
+        display_text: {
+          ar: "جورجيا",
+          en: "Georgia",
+          ku: "جۆرجیا",
+          'ku-IQ': "جورجیا"
+        }
       },
       {
         id: "germany",
-        display_text: "Germany"
+        display_text: {
+          ar: "ألمانيا",
+          en: "Germany",
+          ku: "ئەڵمانیا",
+          'ku-IQ': "ئەلمانیا"
+        }
       },
       {
         id: "ghana",
-        display_text: "Ghana"
+        display_text: {
+          ar: "غانا",
+          en: "Ghana",
+          ku: "گانا",
+          'ku-IQ': "غانا"
+        }
       },
       {
         id: "greece",
-        display_text: "Greece"
+        display_text: {
+          ar: "اليونان",
+          en: "Greece",
+          ku: "یۆنان",
+          'ku-IQ': "یونان"
+        }
       },
       {
         id: "grenada",
-        display_text: "Grenada"
+        display_text: {
+          ar: "غرينادا",
+          en: "Grenada",
+          ku: "گرینادا",
+          'ku-IQ': "گرێنادا"
+        }
       },
       {
         id: "guatemala",
-        display_text: "Guatemala"
+        display_text: {
+          ar: "غواتيمالا",
+          en: "Guatemala",
+          ku: "گواتیمالا",
+          'ku-IQ': "گواتیمالا"
+        }
       },
       {
         id: "guinea",
-        display_text: "Guinea"
+        display_text: {
+          ar: "غينيا",
+          en: "Guinea",
+          ku: "غینیا",
+          'ku-IQ': "غینیا"
+        }
       },
       {
         id: "guinea_bissau",
-        display_text: "Guinea-Bissau"
+        display_text: {
+          ar: "غينيا-بيساو",
+          en: "Guinea-Bissau",
+          ku: "غینیا بیساو",
+          'ku-IQ': "غینیا بیساو"
+        }
       },
       {
         id: "guyana",
-        display_text: "Guyana"
+        display_text: {
+          ar: "غيانا",
+          en: "Guyana",
+          ku: "گویانا",
+          'ku-IQ': "غیانا"
+        }
       },
       {
         id: "haiti",
-        display_text: "Haiti"
+        display_text: {
+          ar: "هايتي",
+          en: "Haiti",
+          ku: "هایتی",
+          'ku-IQ': "هایتی"
+        }
       },
       {
         id: "honduras",
-        display_text: "Honduras"
+        display_text: {
+          ar: "هندوراس",
+          en: "Honduras",
+          ku: "هندۆراس",
+          'ku-IQ': "هوندوراس"
+        }
       },
       {
         id: "hungary",
-        display_text: "Hungary"
+        display_text: {
+          ar: "هنغاريا / المجر",
+          en: "Hungary",
+          ku: "هەنگاریا",
+          'ku-IQ': "هنگاریا"
+        }
       },
       {
         id: "iceland",
-        display_text: "Iceland"
+        display_text: {
+          ar: "أيسلندا",
+          en: "Iceland",
+          ku: "ئایسلەندا",
+          'ku-IQ': "ئایسلەند"
+        }
       },
       {
         id: "india",
-        display_text: "India"
+        display_text: {
+          ar: "الهند",
+          en: "India",
+          ku: "هیند",
+          'ku-IQ': "هندستان"
+        }
       },
       {
         id: "indonesia",
-        display_text: "Indonesia"
+        display_text: {
+          ar: "إندونيسيا",
+          en: "Indonesia",
+          ku: "ئیندۆنیسیا",
+          'ku-IQ': "ئەندونیزیا"
+        }
       },
       {
         id: "iran",
-        display_text: "Iran"
+        display_text: {
+          ar: "إيران",
+          en: "Iran",
+          ku: "ئێران",
+          'ku-IQ': "ئیران"
+        }
       },
       {
         id: "iraq",
-        display_text: "Iraq"
+        display_text: {
+          ar: "العراق",
+          en: "Iraq",
+          ku: "عیراق",
+          'ku-IQ': "عیراق"
+        }
       },
       {
         id: "ireland",
-        display_text: "Ireland"
+        display_text: {
+          ar: "إيرلندا",
+          en: "Ireland",
+          ku: "ئێرلەندا",
+          'ku-IQ': "ئیرلەندا"
+        }
       },
       {
         id: "israel",
-        display_text: "Israel"
+        display_text: {
+          ar: "إسرائيل",
+          en: "Israel",
+          ku: "ئیسرائیل",
+          'ku-IQ': "ئسرائیل"
+        }
       },
       {
         id: "italy",
-        display_text: "Italy"
+        display_text: {
+          ar: "إيطاليا",
+          en: "Italy",
+          ku: "ئیتالیا",
+          'ku-IQ': "ئیتالیا"
+        }
       },
       {
         id: "jamaica",
-        display_text: "Jamaica"
+        display_text: {
+          ar: "جامايكا",
+          en: "Jamaica",
+          ku: "جامایكا",
+          'ku-IQ': "جامایکا"
+        }
       },
       {
         id: "japan",
-        display_text: "Japan"
+        display_text: {
+          ar: "اليابان",
+          en: "Japan",
+          ku: "یابان",
+          'ku-IQ': "ژاپون"
+        }
       },
       {
         id: "jordan",
-        display_text: "Jordan"
+        display_text: {
+          ar: "الأردن",
+          en: "Jordan",
+          ku: "ئوردن",
+          'ku-IQ': "ئوردن"
+        }
       },
       {
         id: "kazakhstan",
-        display_text: "Kazakhstan"
+        display_text: {
+          ar: "كازاخستان",
+          en: "Kazakhstan",
+          ku: "كازاخستان",
+          'ku-IQ': "کازاخستان"
+        }
       },
       {
         id: "kenya",
-        display_text: "Kenya"
+        display_text: {
+          ar: "كينيا",
+          en: "Kenya",
+          ku: "كینیا",
+          'ku-IQ': "کینیا"
+        }
       },
       {
         id: "kiribati",
-        display_text: "Kiribati"
+        display_text: {
+          ar: "كيريباس",
+          en: "Kiribati",
+          ku: "كیریباتی",
+          'ku-IQ': "کیریباتی"
+        }
       },
       {
         id: "kosovo",
-        display_text: "Kosovo"
+        display_text: {
+          ar: "كوسوفو",
+          en: "Kosovo",
+          ku: "كۆسۆڤۆ",
+          'ku-IQ': "کوسوڤو"
+        }
       },
       {
         id: "kuwait",
-        display_text: "Kuwait"
+        display_text: {
+          ar: "الكويت",
+          en: "Kuwait",
+          ku: "كوێت",
+          'ku-IQ': "کوێت"
+        }
       },
       {
         id: "kyrgyzstan",
-        display_text: "Kyrgyzstan"
+        display_text: {
+          ar: "قرغيزستان",
+          en: "Kyrgyzstan",
+          ku: "قرغیزستان",
+          'ku-IQ': "قیرغزستان"
+        }
       },
       {
         id: "laos",
-        display_text: "Laos"
+        display_text: {
+          ar: "لاوس",
+          en: "Laos",
+          ku: "لاوس",
+          'ku-IQ': "لاوس"
+        }
       },
       {
         id: "latvia",
-        display_text: "Latvia"
+        display_text: {
+          ar: "لاتفيا",
+          en: "Latvia",
+          ku: "لاتیڤیا",
+          'ku-IQ': "لاتڤیا"
+        }
       },
       {
         id: "lebanon",
-        display_text: "Lebanon"
+        display_text: {
+          ar: "لبنان",
+          en: "Lebanon",
+          ku: "لوبنان",
+          'ku-IQ': "لبنان"
+        }
       },
       {
         id: "lesotho",
-        display_text: "Lesotho"
+        display_text: {
+          ar: "ليسوتو",
+          en: "Lesotho",
+          ku: "لیسۆثۆ",
+          'ku-IQ': "لیسوتو"
+        }
       },
       {
         id: "liberia",
-        display_text: "Liberia"
+        display_text: {
+          ar: "ليبيريا",
+          en: "Liberia",
+          ku: "لایبیریا",
+          'ku-IQ': "لیبیریا"
+        }
       },
       {
         id: "libya",
-        display_text: "Libya"
+        display_text: {
+          ar: "ليبيا",
+          en: "Libya",
+          ku: "لیبیا",
+          'ku-IQ': "لیبیا"
+        }
       },
       {
         id: "liechtenstein",
-        display_text: "Liechtenstein"
+        display_text: {
+          ar: "ليختنشتاين",
+          en: "Liechtenstein",
+          ku: "لیشتنشتاین",
+          'ku-IQ': "لشتنتاین"
+        }
       },
       {
         id: "lithuania",
-        display_text: "Lithuania"
+        display_text: {
+          ar: "ليتوانيا",
+          en: "Lithuania",
+          ku: "لیتوانیا",
+          'ku-IQ': "لیتوانیا"
+        }
       },
       {
         id: "luxembourg",
-        display_text: "Luxembourg"
+        display_text: {
+          ar: "لوكسمبورغ",
+          en: "Luxembourg",
+          ku: "لۆكسمبۆرگ",
+          'ku-IQ': "لوکسومبورگ"
+        }
       },
       {
         id: "macedonia",
-        display_text: "Macedonia"
+        display_text: {
+          ar: "مقدونيا",
+          en: "Macedonia",
+          ku: "مەكدۆنیا",
+          'ku-IQ': "مەقدونیا"
+        }
       },
       {
         id: "madagascar",
-        display_text: "Madagascar"
+        display_text: {
+          ar: "مدغشقر",
+          en: "Madagascar",
+          ku: "مەدەغەشقەر",
+          'ku-IQ': "ماداگاسکار"
+        }
       },
       {
         id: "malawi",
-        display_text: "Malawi"
+        display_text: {
+          ar: "مالاوي",
+          en: "Malawi",
+          ku: "مالاوی",
+          'ku-IQ': "مالاوی"
+        }
       },
       {
         id: "malaysia",
-        display_text: "Malaysia"
+        display_text: {
+          ar: "ماليزيا",
+          en: "Malaysia",
+          ku: "مالیزیا",
+          'ku-IQ': "مالیزیا"
+        }
       },
       {
         id: "maldives",
-        display_text: "Maldives"
+        display_text: {
+          ar: "جزر المالديف",
+          en: "Maldives",
+          ku: "مالدیڤ",
+          'ku-IQ': "مالدیڤ"
+        }
       },
       {
         id: "mali",
-        display_text: "Mali"
+        display_text: {
+          ar: "مالي",
+          en: "Mali",
+          ku: "مالی",
+          'ku-IQ': "مالی"
+        }
       },
       {
         id: "malta",
-        display_text: "Malta"
+        display_text: {
+          ar: "مالطا",
+          en: "Malta",
+          ku: "مالتا",
+          'ku-IQ': "مالتا"
+        }
       },
       {
         id: "marshall_islands",
-        display_text: "Marshall Islands"
+        display_text: {
+          ar: "جزر المارشال",
+          en: "Marshall Islands",
+          ku: "دورگەكانی مارشاڵ",
+          'ku-IQ': "گزیرتێن مارشال"
+        }
       },
       {
         id: "mauritania",
-        display_text: "Mauritania"
+        display_text: {
+          ar: "موريتانيا",
+          en: "Mauritania",
+          ku: "مۆریتانیا",
+          'ku-IQ': "موریتانیا"
+        }
       },
       {
         id: "mauritius",
-        display_text: "Mauritius"
+        display_text: {
+          ar: "موريشيوس",
+          en: "Mauritius",
+          ku: "مۆریشیۆس",
+          'ku-IQ': "موریشیوس"
+        }
       },
       {
         id: "mexico",
-        display_text: "Mexico"
+        display_text: {
+          ar: "المكسيك",
+          en: "Mexico",
+          ku: "مەكسیك",
+          'ku-IQ': "مەکسیک"
+        }
       },
       {
         id: "micronesia",
-        display_text: "Micronesia"
+        display_text: {
+          ar: "ميكرونيزيا",
+          en: "Micronesia",
+          ku: "میكرۆنیزیا",
+          'ku-IQ': "مایکرونیزیا"
+        }
       },
       {
         id: "moldova",
-        display_text: "Moldova"
+        display_text: {
+          ar: "مولدوفا",
+          en: "Moldova",
+          ku: "مۆڵدۆڤا",
+          'ku-IQ': "مولدوڤا"
+        }
       },
       {
         id: "monaco",
-        display_text: "Monaco"
+        display_text: {
+          ar: "موناكو",
+          en: "Monaco",
+          ku: "مۆناكۆ",
+          'ku-IQ': "موناکو"
+        }
       },
       {
         id: "mongolia",
-        display_text: "Mongolia"
+        display_text: {
+          ar: "منغوليا",
+          en: "Mongolia",
+          ku: "مەنگۆلیا",
+          'ku-IQ': "مونگولیا"
+        }
       },
       {
         id: "montenegro",
-        display_text: "Montenegro"
+        display_text: {
+          ar: "جمهورية الجبل الأسود",
+          en: "Montenegro",
+          ku: "مۆنتینیگرۆ",
+          'ku-IQ': "مونتێنێگرو"
+        }
       },
       {
         id: "morocco",
-        display_text: "Morocco"
+        display_text: {
+          ar: "المغرب",
+          en: "Morocco",
+          ku: "مەغریب",
+          'ku-IQ': "مەغرب"
+        }
       },
       {
         id: "mozambique",
-        display_text: "Mozambique"
+        display_text: {
+          ar: "موزمبيق",
+          en: "Mozambique",
+          ku: "مۆزەمبیق",
+          'ku-IQ': "موزەمبیق"
+        }
       },
       {
         id: "myanmar",
-        display_text: "Myanmar"
+        display_text: {
+          ar: "ميانمار",
+          en: "Myanmar",
+          ku: "میانمار",
+          'ku-IQ': "میانمار"
+        }
       },
       {
         id: "namibia",
-        display_text: "Namibia"
+        display_text: {
+          ar: "ناميبيا",
+          en: "Namibia",
+          ku: "نامیبیا",
+          'ku-IQ': "نامیبیا"
+        }
       },
       {
         id: "nauru",
-        display_text: "Nauru"
+        display_text: {
+          ar: "ناورو",
+          en: "Nauru",
+          ku: "ناورو",
+          'ku-IQ': "ناورو"
+        }
       },
       {
         id: "nepal",
-        display_text: "Nepal"
+        display_text: {
+          ar: "نيبال",
+          en: "Nepal",
+          ku: "نیپال",
+          'ku-IQ': "نیپال"
+        }
       },
       {
         id: "netherlands",
-        display_text: "Netherlands"
+        display_text: {
+          ar: "هولندا",
+          en: "Netherlands",
+          ku: "هۆڵەندا",
+          'ku-IQ': "هولەندا"
+        }
       },
       {
         id: "new_zealand",
-        display_text: "New Zealand"
+        display_text: {
+          ar: "نيوزيلندا",
+          en: "New Zealand",
+          ku: "نیوزیلاند",
+          'ku-IQ': "نیوزیلەندا"
+        }
       },
       {
         id: "nicaragua",
-        display_text: "Nicaragua"
+        display_text: {
+          ar: "نيكاراغوا",
+          en: "Nicaragua",
+          ku: "نیكاراگوا",
+          'ku-IQ': "نیکاراگوا"
+        }
       },
       {
         id: "niger",
-        display_text: "Niger"
+        display_text: {
+          ar: "النيجر",
+          en: "Niger",
+          ku: "نەیجەر",
+          'ku-IQ': "نیجر"
+        }
       },
       {
         id: "nigeria",
-        display_text: "Nigeria"
+        display_text: {
+          ar: "نيجيريا",
+          en: "Nigeria",
+          ku: "نایجیریا",
+          'ku-IQ': "نیجیریا"
+        }
       },
       {
         id: "north_korea",
-        display_text: "North Korea"
+        display_text: {
+          ar: "كوريا الشمالية",
+          en: "North Korea",
+          ku: "كۆریای باكور",
+          'ku-IQ': "کوربا باکۆر"
+        }
       },
       {
         id: "norway",
-        display_text: "Norway"
+        display_text: {
+          ar: "النرويج",
+          en: "Norway",
+          ku: "نەرویج",
+          'ku-IQ': "نەرویج"
+        }
       },
       {
         id: "oman",
-        display_text: "Oman"
+        display_text: {
+          ar: "عمان",
+          en: "Oman",
+          ku: "عومان",
+          'ku-IQ': "عومان"
+        }
       },
       {
         id: "pakistan",
-        display_text: "Pakistan"
+        display_text: {
+          ar: "باكستان",
+          en: "Pakistan",
+          ku: "پاكستان",
+          'ku-IQ': "پاکستان"
+        }
       },
       {
         id: "palau",
-        display_text: "Palau"
+        display_text: {
+          ar: "بالاو",
+          en: "Palau",
+          ku: "پالاو",
+          'ku-IQ': "پالاو"
+        }
       },
       {
         id: "palestine",
-        display_text: "Palestine"
+        display_text: {
+          ar: "فلسطين",
+          en: "Palestine",
+          ku: "فەلەستین",
+          'ku-IQ': "فەلەستین"
+        }
       },
       {
         id: "panama",
-        display_text: "Panama"
+        display_text: {
+          ar: "بنما",
+          en: "Panama",
+          ku: "پەنەما",
+          'ku-IQ': "پاناما"
+        }
       },
       {
         id: "papua_new_guinea",
-        display_text: "Papua New Guinea"
+        display_text: {
+          ar: "بابوا غينيا الجديدة",
+          en: "Papua New Guinea",
+          ku: "پاپوا نیو غینیا",
+          'ku-IQ': "پاپوا غینیا نی"
+        }
       },
       {
         id: "paraguay",
-        display_text: "Paraguay"
+        display_text: {
+          ar: "الباراغوي",
+          en: "Paraguay",
+          ku: "پاراگوای",
+          'ku-IQ': "پاراگوای"
+        }
       },
       {
         id: "peru",
-        display_text: "Peru"
+        display_text: {
+          ar: "البيرو",
+          en: "Peru",
+          ku: "پیرۆ",
+          'ku-IQ': "پیرو"
+        }
       },
       {
         id: "philippines",
-        display_text: "Philippines"
+        display_text: {
+          ar: "الفلبين",
+          en: "Philippines",
+          ku: "فلیپین",
+          'ku-IQ': "فلیپین"
+        }
       },
       {
         id: "poland",
-        display_text: "Poland"
+        display_text: {
+          ar: "بولندا",
+          en: "Poland",
+          ku: "پۆلاندا",
+          'ku-IQ': "پولەندا"
+        }
       },
       {
         id: "portugal",
-        display_text: "Portugal"
+        display_text: {
+          ar: "البرتغال",
+          en: "Portugal",
+          ku: "پورتوگال",
+          'ku-IQ': "پورتوگال"
+        }
       },
       {
         id: "qatar",
-        display_text: "Qatar"
+        display_text: {
+          ar: "قطر",
+          en: "Qatar",
+          ku: "قەتەر",
+          'ku-IQ': "قەتەر"
+        }
       },
       {
         id: "romania",
-        display_text: "Romania"
+        display_text: {
+          ar: "رومانيا",
+          en: "Romania",
+          ku: "رۆمانیا",
+          'ku-IQ': "رومانیا"
+        }
       },
       {
         id: "russia",
-        display_text: "Russia"
+        display_text: {
+          ar: "روسيا",
+          en: "Russia",
+          ku: "روسیا",
+          'ku-IQ': "رووسیا"
+        }
       },
       {
         id: "rwanda",
-        display_text: "Rwanda"
+        display_text: {
+          ar: "رواندا",
+          en: "Rwanda",
+          ku: "رواندا",
+          'ku-IQ': "رواندا"
+        }
       },
       {
         id: "st_kitts_and_nevis",
-        display_text: "St. Kitts and Nevis"
+        display_text: {
+          ar: "سانت كيتس ونيفيس",
+          en: "St. Kitts and Nevis",
+          ku: "سانت كیتس و نێڤیس",
+          'ku-IQ': "سانت کێتس و نێڤێس"
+        }
       },
       {
         id: "st_lucia",
-        display_text: "St. Lucia"
+        display_text: {
+          ar: "سانت لوسيا",
+          en: "St. Lucia",
+          ku: "سانت لوسیا",
+          'ku-IQ': "سانت لوسیا"
+        }
       },
       {
         id: "st_vincent_and_the_grenadines",
-        display_text: "St. Vincent and The Grenadines"
+        display_text: {
+          ar: "سانت فنسنت وجزر غرينادين",
+          en: "St. Vincent and The Grenadines",
+          ku: "سانت ڤینسنت و گرێنادینەس",
+          'ku-IQ': "سێنت ڤێنسێنت و گرێنادین"
+        }
       },
       {
         id: "samoa",
-        display_text: "Samoa"
+        display_text: {
+          ar: "ساموا",
+          en: "Samoa",
+          ku: "ساموا",
+          'ku-IQ': "ساموا"
+        }
       },
       {
         id: "san_marino",
-        display_text: "San Marino"
+        display_text: {
+          ar: "سان مارينو",
+          en: "San Marino",
+          ku: "سان مارینۆ",
+          'ku-IQ': "سان مارینو"
+        }
       },
       {
         id: "sao_tome_and_principe",
-        display_text: "Sao Tome and Principe"
+        display_text: {
+          ar: "ساو تومي وبرنسيبي",
+          en: "Sao Tome and Principe",
+          ku: "ساوتۆم و پرینسیپ",
+          'ku-IQ': "ساو تۆمێ و پرێنسیپێ"
+        }
       },
       {
         id: "saudi_arabia",
-        display_text: "Saudi Arabia"
+        display_text: {
+          ar: "المملكة العربية السعودية",
+          en: "Saudi Arabia",
+          ku: "سعودیە",
+          'ku-IQ': "ئەرەبستانا سعوودیا"
+        }
       },
       {
         id: "senegal",
-        display_text: "Senegal"
+        display_text: {
+          ar: "السنغال",
+          en: "Senegal",
+          ku: "سەنیگال",
+          'ku-IQ': "سینیگال"
+        }
       },
       {
         id: "serbia",
-        display_text: "Serbia"
+        display_text: {
+          ar: "صربيا",
+          en: "Serbia",
+          ku: "سربیا",
+          'ku-IQ': "سربیا"
+        }
       },
       {
         id: "seychelles",
-        display_text: "Seychelles"
+        display_text: {
+          ar: "سيشيل",
+          en: "Seychelles",
+          ku: "سیشێلز",
+          'ku-IQ': "سیشێل"
+        }
       },
       {
         id: "sierra_leone",
-        display_text: "Sierra Leone"
+        display_text: {
+          ar: "سيراليون",
+          en: "Sierra Leone",
+          ku: "سیرالیۆن",
+          'ku-IQ': "سیێرا لیون"
+        }
       },
       {
         id: "singapore",
-        display_text: "Singapore"
+        display_text: {
+          ar: "سنغافورة",
+          en: "Singapore",
+          ku: "سەنگاپور",
+          'ku-IQ': "سنگاپور"
+        }
       },
       {
         id: "slovakia",
-        display_text: "Slovakia"
+        display_text: {
+          ar: "سلوفاكيا",
+          en: "Slovakia",
+          ku: "سلۆڤاكیا",
+          'ku-IQ': "سلوڤاکیا"
+        }
       },
       {
         id: "slovenia",
-        display_text: "Slovenia"
+        display_text: {
+          ar: "سلوفينيا",
+          en: "Slovenia",
+          ku: "سلۆڤینیا",
+          'ku-IQ': "سلوڤینیا"
+        }
       },
       {
         id: "solomon_islands",
-        display_text: "Solomon Islands"
+        display_text: {
+          ar: "جزر سليمان",
+          en: "Solomon Islands",
+          ku: "دورگەكانی سۆلۆمۆن",
+          'ku-IQ': "گزیرتێن سولومون"
+        }
       },
       {
         id: "somalia",
-        display_text: "Somalia"
+        display_text: {
+          ar: "الصومال",
+          en: "Somalia",
+          ku: "سۆمال",
+          'ku-IQ': "سومالیا"
+        }
       },
       {
         id: "south_africa",
-        display_text: "South Africa"
+        display_text: {
+          ar: "جنوب أفريقيا",
+          en: "South Africa",
+          ku: "باشوری ئەفریقیا",
+          'ku-IQ': "ئەفریکا باشوور"
+        }
       },
       {
         id: "south_korea",
-        display_text: "South Korea"
+        display_text: {
+          ar: "كوريا الجنوبية",
+          en: "South Korea",
+          ku: "كۆریای باشوور",
+          'ku-IQ': "کوریا باشوور"
+        }
       },
       {
         id: "south_sudan",
-        display_text: "South Sudan"
+        display_text: {
+          ar: "جنوب السودان",
+          en: "South Sudan",
+          ku: "باشووری باشوور",
+          'ku-IQ': "سودانا باشوور"
+        }
       },
       {
         id: "spain",
-        display_text: "Spain"
+        display_text: {
+          ar: "إسبانيا",
+          en: "Spain",
+          ku: "ئیسپانیا",
+          'ku-IQ': "ئسپانیا"
+        }
       },
       {
         id: "sri_lanka",
-        display_text: "Sri Lanka"
+        display_text: {
+          ar: "سريلانكا",
+          en: "Sri Lanka",
+          ku: "سریلانكا",
+          'ku-IQ': "سریلانکا"
+        }
       },
       {
         id: "sudan",
-        display_text: "Sudan"
+        display_text: {
+          ar: "السودان",
+          en: "Sudan",
+          ku: "سودان",
+          'ku-IQ': "سودان"
+        }
       },
       {
         id: "suriname",
-        display_text: "Suriname"
+        display_text: {
+          ar: "سورينام",
+          en: "Suriname",
+          ku: "سورینام",
+          'ku-IQ': "سورینامی"
+        }
       },
       {
         id: "swaziland",
-        display_text: "Swaziland"
+        display_text: {
+          ar: "سوازيلاند",
+          en: "Swaziland",
+          ku: "سوازیلاند",
+          'ku-IQ': "سوازیلەند"
+        }
       },
       {
         id: "sweden",
-        display_text: "Sweden"
+        display_text: {
+          ar: "السويد",
+          en: "Sweden",
+          ku: "سوید",
+          'ku-IQ': "سوید"
+        }
       },
       {
         id: "switzerland",
-        display_text: "Switzerland"
+        display_text: {
+          ar: "سويسرا",
+          en: "Switzerland",
+          ku: "سویسرا",
+          'ku-IQ': "سویسرا"
+        }
       },
       {
         id: "syria",
-        display_text: "Syria"
+        display_text: {
+          ar: "سورية",
+          en: "Syria",
+          ku: "سوریا",
+          'ku-IQ': "سووریا"
+        }
       },
       {
         id: "taiwan",
-        display_text: "Taiwan"
+        display_text: {
+          ar: "تايوان",
+          en: "Taiwan",
+          ku: "تایوان",
+          'ku-IQ': "تایوان"
+        }
       },
       {
         id: "tajikistan",
-        display_text: "Tajikistan"
+        display_text: {
+          ar: "طاجكستان",
+          en: "Tajikistan",
+          ku: "تاجيكستان",
+          'ku-IQ': "تاجکستان"
+        }
       },
       {
         id: "tanzania",
-        display_text: "Tanzania"
+        display_text: {
+          ar: "تنزانيا",
+          en: "Tanzania",
+          ku: "تەنزانيا",
+          'ku-IQ': "تانزانیا"
+        }
       },
       {
         id: "thailand",
-        display_text: "Thailand"
+        display_text: {
+          ar: "تايلند",
+          en: "Thailand",
+          ku: "تایلەند",
+          'ku-IQ': "تایلەند"
+        }
       },
       {
         id: "timor_leste",
-        display_text: "Timor-Leste"
+        display_text: {
+          ar: "تيمور الشرقية",
+          en: "Timor-Leste",
+          ku: "تەیموری رۆژهەڵات",
+          'ku-IQ': "تیمور لیستێ"
+        }
       },
       {
         id: "togo",
-        display_text: "Togo"
+        display_text: {
+          ar: "توغو",
+          en: "Togo",
+          ku: "تۆگۆ",
+          'ku-IQ': "توگو"
+        }
       },
       {
         id: "tonga",
-        display_text: "Tonga"
+        display_text: {
+          ar: "تونغا",
+          en: "Tonga",
+          ku: "تۆنگا",
+          'ku-IQ': "تونگا"
+        }
       },
       {
         id: "trinidad_and_tobago",
-        display_text: "Trinidad and Tobago"
+        display_text: {
+          ar: "ترينداد وتوباغو",
+          en: "Trinidad and Tobago",
+          ku: "ترینیدادو تۆباكۆ",
+          'ku-IQ': "ترینیداد توباگو"
+        }
       },
       {
         id: "tunisia",
-        display_text: "Tunisia"
+        display_text: {
+          ar: "تونس",
+          en: "Tunisia",
+          ku: "تونس",
+          'ku-IQ': "تونس"
+        }
       },
       {
         id: "turkey",
-        display_text: "Turkey"
+        display_text: {
+          ar: "تركيا",
+          en: "Turkey",
+          ku: "توركیا",
+          'ku-IQ': "تورکیا"
+        }
       },
       {
         id: "turkmenistan",
-        display_text: "Turkmenistan"
+        display_text: {
+          ar: "تركمانستان",
+          en: "Turkmenistan",
+          ku: "توركمانستان",
+          'ku-IQ': "ترکمنستان"
+        }
       },
       {
         id: "tuvalu",
-        display_text: "Tuvalu"
+        display_text: {
+          ar: "توفالو",
+          en: "Tuvalu",
+          ku: "توڤالو",
+          'ku-IQ': "توڤالو"
+        }
       },
       {
         id: "uganda",
-        display_text: "Uganda"
+        display_text: {
+          ar: "أوغندا",
+          en: "Uganda",
+          ku: "ئوگەندا",
+          'ku-IQ': "ئوگاندا"
+        }
       },
       {
         id: "ukraine",
-        display_text: "Ukraine"
+        display_text: {
+          ar: "أوكرانيا",
+          en: "Ukraine",
+          ku: "ئوكراینا",
+          'ku-IQ': "ئوکرانیا"
+        }
       },
       {
         id: "united_arab_emirates",
-        display_text: "United Arab Emirates"
+        display_text: {
+          ar: "الإمارات العربية المتحدة",
+          en: "United Arab Emirates",
+          ku: "ئیماراتی عەرەبی یەكگرتوو",
+          'ku-IQ': "ئیمارات"
+        }
       },
       {
         id: "uk",
-        display_text: "UK (United Kingdom)"
+        display_text: {
+          ar: "المملكة المتحدة",
+          en: "UK (United Kingdom)",
+          ku: "شانشینی یەكگرتوو",
+          'ku-IQ': "شانشینا ئێکگرتی"
+        }
       },
       {
         id: "usa",
-        display_text: "USA (United States of America)"
+        display_text: {
+          ar: "الولايات المتحدة الأمريكية",
+          en: "USA (United States of America)",
+          ku: "ئەمریكا",
+          'ku-IQ': "(ئەمریکا (ویلایەتێن ئێکگرتی یێن ئەمریکا"
+        }
       },
       {
         id: "uruguay",
-        display_text: "Uruguay"
+        display_text: {
+          ar: "الأورغواي",
+          en: "Uruguay",
+          ku: "ئوروگوای",
+          'ku-IQ': "ئوروگوای"
+        }
       },
       {
         id: "uzbekistan",
-        display_text: "Uzbekistan"
+        display_text: {
+          ar: "أوزبكستان",
+          en: "Uzbekistan",
+          ku: "ئوزبەگستان",
+          'ku-IQ': "ئوزبەکستان"
+        }
       },
       {
         id: "vanuatu",
-        display_text: "Vanuatu"
+        display_text: {
+          ar: "فانواتو",
+          en: "Vanuatu",
+          ku: "ڤانواتو",
+          'ku-IQ': "ڤانواتو"
+        }
       },
       {
         id: "vatican",
-        display_text: "Vatican City (Holy See)"
+        display_text: {
+          ar: "مدينة الفاتيكان (الكرسي الرسولي)",
+          en: "Vatican City (Holy See)",
+          ku: "ڤاتیكان",
+          'ku-IQ': "باژارێ ڤاتیکان"
+        }
       },
       {
         id: "venezuela",
-        display_text: "Venezuela"
+        display_text: {
+          ar: "فنزويلا",
+          en: "Venezuela",
+          ku: "ڤەنزوێلا",
+          'ku-IQ': "ڤەنزوێلا"
+        }
       },
       {
         id: "vietnam",
-        display_text: "Vietnam"
+        display_text: {
+          ar: "فيتنام",
+          en: "Vietnam",
+          ku: "ڤێتنام",
+          'ku-IQ': "ڤیێتنام"
+        }
       },
       {
         id: "yemen",
-        display_text: "Yemen"
+        display_text: {
+          ar: "اليمن",
+          en: "Yemen",
+          ku: "یەمەن",
+          'ku-IQ': "یەمەن"
+        }
       },
       {
         id: "zambia",
-        display_text: "Zambia"
+        display_text: {
+          ar: "زامبيا",
+          en: "Zambia",
+          ku: "زامبیا",
+          'ku-IQ': "زامبیا"
+        }
       },
       {
         id: "zimbabwe",
-        display_text: "Zimbabwe"
+        display_text: {
+          ar: "زيمبابوي",
+          en: "Zimbabwe",
+          ku: "زیمبابوێ",
+          'ku-IQ': "زیمبابوی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "afghanistan",
-        display_text: "أفغانستان"
-      },
-      {
-        id: "albania",
-        display_text: "ألبانيا"
-      },
-      {
-        id: "algeria",
-        display_text: "الجزائر"
-      },
-      {
-        id: "andorra",
-        display_text: "أندورا"
-      },
-      {
-        id: "angola",
-        display_text: "أنغولا"
-      },
-      {
-        id: "antigua_and_barbuda",
-        display_text: "أنتيغوا وبربودا"
-      },
-      {
-        id: "argentina",
-        display_text: "الأرجنتين"
-      },
-      {
-        id: "armenia",
-        display_text: "أرمينيا"
-      },
-      {
-        id: "australia",
-        display_text: "أستراليا"
-      },
-      {
-        id: "austria",
-        display_text: "النمسا"
-      },
-      {
-        id: "azerbaijan",
-        display_text: "أذربيجان"
-      },
-      {
-        id: "bahamas",
-        display_text: "جزر الباهاما"
-      },
-      {
-        id: "bahrain",
-        display_text: "البحرين"
-      },
-      {
-        id: "bangladesh",
-        display_text: "بنغلادش"
-      },
-      {
-        id: "barbados",
-        display_text: "بربادوس"
-      },
-      {
-        id: "belarus",
-        display_text: "روسيا البيضاء / بيلاروسيا"
-      },
-      {
-        id: "belgium",
-        display_text: "بلجيكا"
-      },
-      {
-        id: "belize",
-        display_text: "بليز"
-      },
-      {
-        id: "benin",
-        display_text: "بنين"
-      },
-      {
-        id: "bhutan",
-        display_text: "بوتان"
-      },
-      {
-        id: "bolivia",
-        display_text: "بوليفيا"
-      },
-      {
-        id: "bosnia_and_herzegovina",
-        display_text: "البوسنة والهرسك"
-      },
-      {
-        id: "botswana",
-        display_text: "بوتسوانا"
-      },
-      {
-        id: "brazil",
-        display_text: "البرازيل"
-      },
-      {
-        id: "brunei",
-        display_text: "بروناي"
-      },
-      {
-        id: "bulgaria",
-        display_text: "بلغاريا"
-      },
-      {
-        id: "burkina_faso",
-        display_text: "بوركينافاسو"
-      },
-      {
-        id: "burundi",
-        display_text: "بوروندي"
-      },
-      {
-        id: "cabo_verde",
-        display_text: "كابو فيردي"
-      },
-      {
-        id: "cambodia",
-        display_text: "كمبوديا"
-      },
-      {
-        id: "cameroon",
-        display_text: "الكاميرون"
-      },
-      {
-        id: "canada",
-        display_text: "كندا"
-      },
-      {
-        id: "central_african_republic",
-        display_text: "جمهورية افريقيا الوسطى"
-      },
-      {
-        id: "chad",
-        display_text: "تشاد"
-      },
-      {
-        id: "chile",
-        display_text: "تشيلي"
-      },
-      {
-        id: "china",
-        display_text: "الصين"
-      },
-      {
-        id: "colombia",
-        display_text: "كولومبيا"
-      },
-      {
-        id: "comoros",
-        display_text: "جزر القمر"
-      },
-      {
-        id: "congo",
-        display_text: "جمهورية الكونغو"
-      },
-      {
-        id: "drc",
-        display_text: "جمهورية الكونغو الديمقراطية"
-      },
-      {
-        id: "costa_rica",
-        display_text: "كوستاريكا"
-      },
-      {
-        id: "cote_divoire",
-        display_text: "ساحل العاج"
-      },
-      {
-        id: "croatia",
-        display_text: "كرواتيا"
-      },
-      {
-        id: "cuba",
-        display_text: "كوبا"
-      },
-      {
-        id: "cyprus",
-        display_text: "قبرص"
-      },
-      {
-        id: "czech_republic",
-        display_text: "جمهورية التشيك"
-      },
-      {
-        id: "denmark",
-        display_text: "الدنمارك"
-      },
-      {
-        id: "djibouti",
-        display_text: "جيبوتي"
-      },
-      {
-        id: "dominica",
-        display_text: "دومينيكا"
-      },
-      {
-        id: "dominican_republic",
-        display_text: "جمهورية الدومينيكان"
-      },
-      {
-        id: "ecuador",
-        display_text: "الإكوادور"
-      },
-      {
-        id: "egypt",
-        display_text: "مصر"
-      },
-      {
-        id: "el_salvador",
-        display_text: "السلفادور"
-      },
-      {
-        id: "equatorial_guinea",
-        display_text: "غينيا الإستوائية"
-      },
-      {
-        id: "eritrea",
-        display_text: "إريتيريا"
-      },
-      {
-        id: "estonia",
-        display_text: "إستونيا"
-      },
-      {
-        id: "ethiopia",
-        display_text: "إثيوبيا"
-      },
-      {
-        id: "fiji",
-        display_text: "جزر الفيجي"
-      },
-      {
-        id: "finland",
-        display_text: "فلندا"
-      },
-      {
-        id: "france",
-        display_text: "فرنسا"
-      },
-      {
-        id: "gabon",
-        display_text: "الغابون"
-      },
-      {
-        id: "gambia",
-        display_text: "غامبيا"
-      },
-      {
-        id: "georgia",
-        display_text: "جورجيا"
-      },
-      {
-        id: "germany",
-        display_text: "ألمانيا"
-      },
-      {
-        id: "ghana",
-        display_text: "غانا"
-      },
-      {
-        id: "greece",
-        display_text: "اليونان"
-      },
-      {
-        id: "grenada",
-        display_text: "غرينادا"
-      },
-      {
-        id: "guatemala",
-        display_text: "غواتيمالا"
-      },
-      {
-        id: "guinea",
-        display_text: "غينيا"
-      },
-      {
-        id: "guinea_bissau",
-        display_text: "غينيا-بيساو"
-      },
-      {
-        id: "guyana",
-        display_text: "غيانا"
-      },
-      {
-        id: "haiti",
-        display_text: "هايتي"
-      },
-      {
-        id: "honduras",
-        display_text: "هندوراس"
-      },
-      {
-        id: "hungary",
-        display_text: "هنغاريا / المجر"
-      },
-      {
-        id: "iceland",
-        display_text: "أيسلندا"
-      },
-      {
-        id: "india",
-        display_text: "الهند"
-      },
-      {
-        id: "indonesia",
-        display_text: "إندونيسيا"
-      },
-      {
-        id: "iran",
-        display_text: "إيران"
-      },
-      {
-        id: "iraq",
-        display_text: "العراق"
-      },
-      {
-        id: "ireland",
-        display_text: "إيرلندا"
-      },
-      {
-        id: "israel",
-        display_text: "إسرائيل"
-      },
-      {
-        id: "italy",
-        display_text: "إيطاليا"
-      },
-      {
-        id: "jamaica",
-        display_text: "جامايكا"
-      },
-      {
-        id: "japan",
-        display_text: "اليابان"
-      },
-      {
-        id: "jordan",
-        display_text: "الأردن"
-      },
-      {
-        id: "kazakhstan",
-        display_text: "كازاخستان"
-      },
-      {
-        id: "kenya",
-        display_text: "كينيا"
-      },
-      {
-        id: "kiribati",
-        display_text: "كيريباس"
-      },
-      {
-        id: "kosovo",
-        display_text: "كوسوفو"
-      },
-      {
-        id: "kuwait",
-        display_text: "الكويت"
-      },
-      {
-        id: "kyrgyzstan",
-        display_text: "قرغيزستان"
-      },
-      {
-        id: "laos",
-        display_text: "لاوس"
-      },
-      {
-        id: "latvia",
-        display_text: "لاتفيا"
-      },
-      {
-        id: "lebanon",
-        display_text: "لبنان"
-      },
-      {
-        id: "lesotho",
-        display_text: "ليسوتو"
-      },
-      {
-        id: "liberia",
-        display_text: "ليبيريا"
-      },
-      {
-        id: "libya",
-        display_text: "ليبيا"
-      },
-      {
-        id: "liechtenstein",
-        display_text: "ليختنشتاين"
-      },
-      {
-        id: "lithuania",
-        display_text: "ليتوانيا"
-      },
-      {
-        id: "luxembourg",
-        display_text: "لوكسمبورغ"
-      },
-      {
-        id: "macedonia",
-        display_text: "مقدونيا"
-      },
-      {
-        id: "madagascar",
-        display_text: "مدغشقر"
-      },
-      {
-        id: "malawi",
-        display_text: "مالاوي"
-      },
-      {
-        id: "malaysia",
-        display_text: "ماليزيا"
-      },
-      {
-        id: "maldives",
-        display_text: "جزر المالديف"
-      },
-      {
-        id: "mali",
-        display_text: "مالي"
-      },
-      {
-        id: "malta",
-        display_text: "مالطا"
-      },
-      {
-        id: "marshall_islands",
-        display_text: "جزر المارشال"
-      },
-      {
-        id: "mauritania",
-        display_text: "موريتانيا"
-      },
-      {
-        id: "mauritius",
-        display_text: "موريشيوس"
-      },
-      {
-        id: "mexico",
-        display_text: "المكسيك"
-      },
-      {
-        id: "micronesia",
-        display_text: "ميكرونيزيا"
-      },
-      {
-        id: "moldova",
-        display_text: "مولدوفا"
-      },
-      {
-        id: "monaco",
-        display_text: "موناكو"
-      },
-      {
-        id: "mongolia",
-        display_text: "منغوليا"
-      },
-      {
-        id: "montenegro",
-        display_text: "جمهورية الجبل الأسود"
-      },
-      {
-        id: "morocco",
-        display_text: "المغرب"
-      },
-      {
-        id: "mozambique",
-        display_text: "موزمبيق"
-      },
-      {
-        id: "myanmar",
-        display_text: "ميانمار"
-      },
-      {
-        id: "namibia",
-        display_text: "ناميبيا"
-      },
-      {
-        id: "nauru",
-        display_text: "ناورو"
-      },
-      {
-        id: "nepal",
-        display_text: "نيبال"
-      },
-      {
-        id: "netherlands",
-        display_text: "هولندا"
-      },
-      {
-        id: "new_zealand",
-        display_text: "نيوزيلندا"
-      },
-      {
-        id: "nicaragua",
-        display_text: "نيكاراغوا"
-      },
-      {
-        id: "niger",
-        display_text: "النيجر"
-      },
-      {
-        id: "nigeria",
-        display_text: "نيجيريا"
-      },
-      {
-        id: "north_korea",
-        display_text: "كوريا الشمالية"
-      },
-      {
-        id: "norway",
-        display_text: "النرويج"
-      },
-      {
-        id: "oman",
-        display_text: "عمان"
-      },
-      {
-        id: "pakistan",
-        display_text: "باكستان"
-      },
-      {
-        id: "palau",
-        display_text: "بالاو"
-      },
-      {
-        id: "palestine",
-        display_text: "فلسطين"
-      },
-      {
-        id: "panama",
-        display_text: "بنما"
-      },
-      {
-        id: "papua_new_guinea",
-        display_text: "بابوا غينيا الجديدة"
-      },
-      {
-        id: "paraguay",
-        display_text: "الباراغوي"
-      },
-      {
-        id: "peru",
-        display_text: "البيرو"
-      },
-      {
-        id: "philippines",
-        display_text: "الفلبين"
-      },
-      {
-        id: "poland",
-        display_text: "بولندا"
-      },
-      {
-        id: "portugal",
-        display_text: "البرتغال"
-      },
-      {
-        id: "qatar",
-        display_text: "قطر"
-      },
-      {
-        id: "romania",
-        display_text: "رومانيا"
-      },
-      {
-        id: "russia",
-        display_text: "روسيا"
-      },
-      {
-        id: "rwanda",
-        display_text: "رواندا"
-      },
-      {
-        id: "st_kitts_and_nevis",
-        display_text: "سانت كيتس ونيفيس"
-      },
-      {
-        id: "st_lucia",
-        display_text: "سانت لوسيا"
-      },
-      {
-        id: "st_vincent_and_the_grenadines",
-        display_text: "سانت فنسنت وجزر غرينادين"
-      },
-      {
-        id: "samoa",
-        display_text: "ساموا"
-      },
-      {
-        id: "san_marino",
-        display_text: "سان مارينو"
-      },
-      {
-        id: "sao_tome_and_principe",
-        display_text: "ساو تومي وبرنسيبي"
-      },
-      {
-        id: "saudi_arabia",
-        display_text: "المملكة العربية السعودية"
-      },
-      {
-        id: "senegal",
-        display_text: "السنغال"
-      },
-      {
-        id: "serbia",
-        display_text: "صربيا"
-      },
-      {
-        id: "seychelles",
-        display_text: "سيشيل"
-      },
-      {
-        id: "sierra_leone",
-        display_text: "سيراليون"
-      },
-      {
-        id: "singapore",
-        display_text: "سنغافورة"
-      },
-      {
-        id: "slovakia",
-        display_text: "سلوفاكيا"
-      },
-      {
-        id: "slovenia",
-        display_text: "سلوفينيا"
-      },
-      {
-        id: "solomon_islands",
-        display_text: "جزر سليمان"
-      },
-      {
-        id: "somalia",
-        display_text: "الصومال"
-      },
-      {
-        id: "south_africa",
-        display_text: "جنوب أفريقيا"
-      },
-      {
-        id: "south_korea",
-        display_text: "كوريا الجنوبية"
-      },
-      {
-        id: "south_sudan",
-        display_text: "جنوب السودان"
-      },
-      {
-        id: "spain",
-        display_text: "إسبانيا"
-      },
-      {
-        id: "sri_lanka",
-        display_text: "سريلانكا"
-      },
-      {
-        id: "sudan",
-        display_text: "السودان"
-      },
-      {
-        id: "suriname",
-        display_text: "سورينام"
-      },
-      {
-        id: "swaziland",
-        display_text: "سوازيلاند"
-      },
-      {
-        id: "sweden",
-        display_text: "السويد"
-      },
-      {
-        id: "switzerland",
-        display_text: "سويسرا"
-      },
-      {
-        id: "syria",
-        display_text: "سورية"
-      },
-      {
-        id: "taiwan",
-        display_text: "تايوان"
-      },
-      {
-        id: "tajikistan",
-        display_text: "طاجكستان"
-      },
-      {
-        id: "tanzania",
-        display_text: "تنزانيا"
-      },
-      {
-        id: "thailand",
-        display_text: "تايلند"
-      },
-      {
-        id: "timor_leste",
-        display_text: "تيمور الشرقية"
-      },
-      {
-        id: "togo",
-        display_text: "توغو"
-      },
-      {
-        id: "tonga",
-        display_text: "تونغا"
-      },
-      {
-        id: "trinidad_and_tobago",
-        display_text: "ترينداد وتوباغو"
-      },
-      {
-        id: "tunisia",
-        display_text: "تونس"
-      },
-      {
-        id: "turkey",
-        display_text: "تركيا"
-      },
-      {
-        id: "turkmenistan",
-        display_text: "تركمانستان"
-      },
-      {
-        id: "tuvalu",
-        display_text: "توفالو"
-      },
-      {
-        id: "uganda",
-        display_text: "أوغندا"
-      },
-      {
-        id: "ukraine",
-        display_text: "أوكرانيا"
-      },
-      {
-        id: "united_arab_emirates",
-        display_text: "الإمارات العربية المتحدة"
-      },
-      {
-        id: "uk",
-        display_text: "المملكة المتحدة"
-      },
-      {
-        id: "usa",
-        display_text: "الولايات المتحدة الأمريكية"
-      },
-      {
-        id: "uruguay",
-        display_text: "الأورغواي"
-      },
-      {
-        id: "uzbekistan",
-        display_text: "أوزبكستان"
-      },
-      {
-        id: "vanuatu",
-        display_text: "فانواتو"
-      },
-      {
-        id: "vatican",
-        display_text: "مدينة الفاتيكان (الكرسي الرسولي)"
-      },
-      {
-        id: "venezuela",
-        display_text: "فنزويلا"
-      },
-      {
-        id: "vietnam",
-        display_text: "فيتنام"
-      },
-      {
-        id: "yemen",
-        display_text: "اليمن"
-      },
-      {
-        id: "zambia",
-        display_text: "زامبيا"
-      },
-      {
-        id: "zimbabwe",
-        display_text: "زيمبابوي"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "afghanistan",
-        display_text: "ئەفغانستان"
-      },
-      {
-        id: "albania",
-        display_text: "ئەلبانیا"
-      },
-      {
-        id: "algeria",
-        display_text: "جەزائیر"
-      },
-      {
-        id: "andorra",
-        display_text: "ئەندۆرا"
-      },
-      {
-        id: "angola",
-        display_text: "ئەنگۆلا"
-      },
-      {
-        id: "antigua_and_barbuda",
-        display_text: "ئەنتیگواو بەربودا"
-      },
-      {
-        id: "argentina",
-        display_text: "ئەرجەنتین"
-      },
-      {
-        id: "armenia",
-        display_text: "ئەرمینیا"
-      },
-      {
-        id: "australia",
-        display_text: "ئوسترالیا"
-      },
-      {
-        id: "austria",
-        display_text: "نەمسا"
-      },
-      {
-        id: "azerbaijan",
-        display_text: "ئازەربایجان"
-      },
-      {
-        id: "bahamas",
-        display_text: "باهاماس"
-      },
-      {
-        id: "bahrain",
-        display_text: "بەحرێن"
-      },
-      {
-        id: "bangladesh",
-        display_text: "بەنگلادیش"
-      },
-      {
-        id: "barbados",
-        display_text: "باربادۆس"
-      },
-      {
-        id: "belarus",
-        display_text: "بێلارووس"
-      },
-      {
-        id: "belgium",
-        display_text: "بەلجیكا"
-      },
-      {
-        id: "belize",
-        display_text: "بەلیز"
-      },
-      {
-        id: "benin",
-        display_text: "بەنین"
-      },
-      {
-        id: "bhutan",
-        display_text: "بۆتان"
-      },
-      {
-        id: "bolivia",
-        display_text: "بۆلیڤیا"
-      },
-      {
-        id: "bosnia_and_herzegovina",
-        display_text: "بۆسنەو هەرسك"
-      },
-      {
-        id: "botswana",
-        display_text: "بۆتسوانا"
-      },
-      {
-        id: "brazil",
-        display_text: "بەرازیل"
-      },
-      {
-        id: "brunei",
-        display_text: "بڕۆنای"
-      },
-      {
-        id: "bulgaria",
-        display_text: "بولگاریا"
-      },
-      {
-        id: "burkina_faso",
-        display_text: "بۆركینا فاسۆ"
-      },
-      {
-        id: "burundi",
-        display_text: "بوڕوندی"
-      },
-      {
-        id: "cabo_verde",
-        display_text: "كابۆ ڤێردی"
-      },
-      {
-        id: "cambodia",
-        display_text: "كەمبۆدیا"
-      },
-      {
-        id: "cameroon",
-        display_text: "كامێروون"
-      },
-      {
-        id: "canada",
-        display_text: "كەنەدا"
-      },
-      {
-        id: "central_african_republic",
-        display_text: "كۆماری ئەفریقای ناوەڕاست"
-      },
-      {
-        id: "chad",
-        display_text: "چاد"
-      },
-      {
-        id: "chile",
-        display_text: "چیلی"
-      },
-      {
-        id: "china",
-        display_text: "چین"
-      },
-      {
-        id: "colombia",
-        display_text: "كۆلۆمبیا"
-      },
-      {
-        id: "comoros",
-        display_text: "كۆمۆرۆس"
-      },
-      {
-        id: "congo",
-        display_text: "كۆماری كۆنگۆ"
-      },
-      {
-        id: "drc",
-        display_text: "كۆماری كۆنگۆی دیموكراتی"
-      },
-      {
-        id: "costa_rica",
-        display_text: "كۆستاریكا"
-      },
-      {
-        id: "cote_divoire",
-        display_text: "كۆتیڤوار"
-      },
-      {
-        id: "croatia",
-        display_text: "كرواتیا"
-      },
-      {
-        id: "cuba",
-        display_text: "كوبا"
-      },
-      {
-        id: "cyprus",
-        display_text: "قوبرس"
-      },
-      {
-        id: "czech_republic",
-        display_text: "چیك"
-      },
-      {
-        id: "denmark",
-        display_text: "دانمارك"
-      },
-      {
-        id: "djibouti",
-        display_text: "جیبۆتی"
-      },
-      {
-        id: "dominica",
-        display_text: "دۆمێنیكا"
-      },
-      {
-        id: "dominican_republic",
-        display_text: "كۆماری دۆمێنیكان"
-      },
-      {
-        id: "ecuador",
-        display_text: "ئێكوادۆر"
-      },
-      {
-        id: "egypt",
-        display_text: "میسر"
-      },
-      {
-        id: "el_salvador",
-        display_text: "سلڤادۆر"
-      },
-      {
-        id: "equatorial_guinea",
-        display_text: "گینیای ئیستیوائی"
-      },
-      {
-        id: "eritrea",
-        display_text: "ئەریتریا"
-      },
-      {
-        id: "estonia",
-        display_text: "ئەستۆنیا"
-      },
-      {
-        id: "ethiopia",
-        display_text: "ئەسیوپیا"
-      },
-      {
-        id: "fiji",
-        display_text: "فیجی"
-      },
-      {
-        id: "finland",
-        display_text: "فینلاندا"
-      },
-      {
-        id: "france",
-        display_text: "فەرەنسا"
-      },
-      {
-        id: "gabon",
-        display_text: "گابۆن"
-      },
-      {
-        id: "gambia",
-        display_text: "گامبیا"
-      },
-      {
-        id: "georgia",
-        display_text: "جۆرجیا"
-      },
-      {
-        id: "germany",
-        display_text: "ئەڵمانیا"
-      },
-      {
-        id: "ghana",
-        display_text: "گانا"
-      },
-      {
-        id: "greece",
-        display_text: "یۆنان"
-      },
-      {
-        id: "grenada",
-        display_text: "گرینادا"
-      },
-      {
-        id: "guatemala",
-        display_text: "گواتیمالا"
-      },
-      {
-        id: "guinea",
-        display_text: "غینیا"
-      },
-      {
-        id: "guinea_bissau",
-        display_text: "غینیا بیساو"
-      },
-      {
-        id: "guyana",
-        display_text: "گویانا"
-      },
-      {
-        id: "haiti",
-        display_text: "هایتی"
-      },
-      {
-        id: "honduras",
-        display_text: "هندۆراس"
-      },
-      {
-        id: "hungary",
-        display_text: "هەنگاریا"
-      },
-      {
-        id: "iceland",
-        display_text: "ئایسلەندا"
-      },
-      {
-        id: "india",
-        display_text: "هیند"
-      },
-      {
-        id: "indonesia",
-        display_text: "ئیندۆنیسیا"
-      },
-      {
-        id: "iran",
-        display_text: "ئێران"
-      },
-      {
-        id: "iraq",
-        display_text: "عیراق"
-      },
-      {
-        id: "ireland",
-        display_text: "ئێرلەندا"
-      },
-      {
-        id: "israel",
-        display_text: "ئیسرائیل"
-      },
-      {
-        id: "italy",
-        display_text: "ئیتالیا"
-      },
-      {
-        id: "jamaica",
-        display_text: "جامایكا"
-      },
-      {
-        id: "japan",
-        display_text: "یابان"
-      },
-      {
-        id: "jordan",
-        display_text: "ئوردن"
-      },
-      {
-        id: "kazakhstan",
-        display_text: "كازاخستان"
-      },
-      {
-        id: "kenya",
-        display_text: "كینیا"
-      },
-      {
-        id: "kiribati",
-        display_text: "كیریباتی"
-      },
-      {
-        id: "kosovo",
-        display_text: "كۆسۆڤۆ"
-      },
-      {
-        id: "kuwait",
-        display_text: "كوێت"
-      },
-      {
-        id: "kyrgyzstan",
-        display_text: "قرغیزستان"
-      },
-      {
-        id: "laos",
-        display_text: "لاوس"
-      },
-      {
-        id: "latvia",
-        display_text: "لاتیڤیا"
-      },
-      {
-        id: "lebanon",
-        display_text: "لوبنان"
-      },
-      {
-        id: "lesotho",
-        display_text: "لیسۆثۆ"
-      },
-      {
-        id: "liberia",
-        display_text: "لایبیریا"
-      },
-      {
-        id: "libya",
-        display_text: "لیبیا"
-      },
-      {
-        id: "liechtenstein",
-        display_text: "لیشتنشتاین"
-      },
-      {
-        id: "lithuania",
-        display_text: "لیتوانیا"
-      },
-      {
-        id: "luxembourg",
-        display_text: "لۆكسمبۆرگ"
-      },
-      {
-        id: "macedonia",
-        display_text: "مەكدۆنیا"
-      },
-      {
-        id: "madagascar",
-        display_text: "مەدەغەشقەر"
-      },
-      {
-        id: "malawi",
-        display_text: "مالاوی"
-      },
-      {
-        id: "malaysia",
-        display_text: "مالیزیا"
-      },
-      {
-        id: "maldives",
-        display_text: "مالدیڤ"
-      },
-      {
-        id: "mali",
-        display_text: "مالی"
-      },
-      {
-        id: "malta",
-        display_text: "مالتا"
-      },
-      {
-        id: "marshall_islands",
-        display_text: "دورگەكانی مارشاڵ"
-      },
-      {
-        id: "mauritania",
-        display_text: "مۆریتانیا"
-      },
-      {
-        id: "mauritius",
-        display_text: "مۆریشیۆس"
-      },
-      {
-        id: "mexico",
-        display_text: "مەكسیك"
-      },
-      {
-        id: "micronesia",
-        display_text: "میكرۆنیزیا"
-      },
-      {
-        id: "moldova",
-        display_text: "مۆڵدۆڤا"
-      },
-      {
-        id: "monaco",
-        display_text: "مۆناكۆ"
-      },
-      {
-        id: "mongolia",
-        display_text: "مەنگۆلیا"
-      },
-      {
-        id: "montenegro",
-        display_text: "مۆنتینیگرۆ"
-      },
-      {
-        id: "morocco",
-        display_text: "مەغریب"
-      },
-      {
-        id: "mozambique",
-        display_text: "مۆزەمبیق"
-      },
-      {
-        id: "myanmar",
-        display_text: "میانمار"
-      },
-      {
-        id: "namibia",
-        display_text: "نامیبیا"
-      },
-      {
-        id: "nauru",
-        display_text: "ناورو"
-      },
-      {
-        id: "nepal",
-        display_text: "نیپال"
-      },
-      {
-        id: "netherlands",
-        display_text: "هۆڵەندا"
-      },
-      {
-        id: "new_zealand",
-        display_text: "نیوزیلاند"
-      },
-      {
-        id: "nicaragua",
-        display_text: "نیكاراگوا"
-      },
-      {
-        id: "niger",
-        display_text: "نەیجەر"
-      },
-      {
-        id: "nigeria",
-        display_text: "نایجیریا"
-      },
-      {
-        id: "north_korea",
-        display_text: "كۆریای باكور"
-      },
-      {
-        id: "norway",
-        display_text: "نەرویج"
-      },
-      {
-        id: "oman",
-        display_text: "عومان"
-      },
-      {
-        id: "pakistan",
-        display_text: "پاكستان"
-      },
-      {
-        id: "palau",
-        display_text: "پالاو"
-      },
-      {
-        id: "palestine",
-        display_text: "فەلەستین"
-      },
-      {
-        id: "panama",
-        display_text: "پەنەما"
-      },
-      {
-        id: "papua_new_guinea",
-        display_text: "پاپوا نیو غینیا"
-      },
-      {
-        id: "paraguay",
-        display_text: "پاراگوای"
-      },
-      {
-        id: "peru",
-        display_text: "پیرۆ"
-      },
-      {
-        id: "philippines",
-        display_text: "فلیپین"
-      },
-      {
-        id: "poland",
-        display_text: "پۆلاندا"
-      },
-      {
-        id: "portugal",
-        display_text: "پورتوگال"
-      },
-      {
-        id: "qatar",
-        display_text: "قەتەر"
-      },
-      {
-        id: "romania",
-        display_text: "رۆمانیا"
-      },
-      {
-        id: "russia",
-        display_text: "روسیا"
-      },
-      {
-        id: "rwanda",
-        display_text: "رواندا"
-      },
-      {
-        id: "st_kitts_and_nevis",
-        display_text: "سانت كیتس و نێڤیس"
-      },
-      {
-        id: "st_lucia",
-        display_text: "سانت لوسیا"
-      },
-      {
-        id: "st_vincent_and_the_grenadines",
-        display_text: "سانت ڤینسنت و گرێنادینەس"
-      },
-      {
-        id: "samoa",
-        display_text: "ساموا"
-      },
-      {
-        id: "san_marino",
-        display_text: "سان مارینۆ"
-      },
-      {
-        id: "sao_tome_and_principe",
-        display_text: "ساوتۆم و پرینسیپ"
-      },
-      {
-        id: "saudi_arabia",
-        display_text: "سعودیە"
-      },
-      {
-        id: "senegal",
-        display_text: "سەنیگال"
-      },
-      {
-        id: "serbia",
-        display_text: "سربیا"
-      },
-      {
-        id: "seychelles",
-        display_text: "سیشێلز"
-      },
-      {
-        id: "sierra_leone",
-        display_text: "سیرالیۆن"
-      },
-      {
-        id: "singapore",
-        display_text: "سەنگاپور"
-      },
-      {
-        id: "slovakia",
-        display_text: "سلۆڤاكیا"
-      },
-      {
-        id: "slovenia",
-        display_text: "سلۆڤینیا"
-      },
-      {
-        id: "solomon_islands",
-        display_text: "دورگەكانی سۆلۆمۆن"
-      },
-      {
-        id: "somalia",
-        display_text: "سۆمال"
-      },
-      {
-        id: "south_africa",
-        display_text: "باشوری ئەفریقیا"
-      },
-      {
-        id: "south_korea",
-        display_text: "كۆریای باشوور"
-      },
-      {
-        id: "south_sudan",
-        display_text: "باشووری باشوور"
-      },
-      {
-        id: "spain",
-        display_text: "ئیسپانیا"
-      },
-      {
-        id: "sri_lanka",
-        display_text: "سریلانكا"
-      },
-      {
-        id: "sudan",
-        display_text: "سودان"
-      },
-      {
-        id: "suriname",
-        display_text: "سورینام"
-      },
-      {
-        id: "swaziland",
-        display_text: "سوازیلاند"
-      },
-      {
-        id: "sweden",
-        display_text: "سوید"
-      },
-      {
-        id: "switzerland",
-        display_text: "سویسرا"
-      },
-      {
-        id: "syria",
-        display_text: "سوریا"
-      },
-      {
-        id: "taiwan",
-        display_text: "تایوان"
-      },
-      {
-        id: "tajikistan",
-        display_text: "تاجيكستان"
-      },
-      {
-        id: "tanzania",
-        display_text: "تەنزانيا"
-      },
-      {
-        id: "thailand",
-        display_text: "تایلەند"
-      },
-      {
-        id: "timor_leste",
-        display_text: "تەیموری رۆژهەڵات"
-      },
-      {
-        id: "togo",
-        display_text: "تۆگۆ"
-      },
-      {
-        id: "tonga",
-        display_text: "تۆنگا"
-      },
-      {
-        id: "trinidad_and_tobago",
-        display_text: "ترینیدادو تۆباكۆ"
-      },
-      {
-        id: "tunisia",
-        display_text: "تونس"
-      },
-      {
-        id: "turkey",
-        display_text: "توركیا"
-      },
-      {
-        id: "turkmenistan",
-        display_text: "توركمانستان"
-      },
-      {
-        id: "tuvalu",
-        display_text: "توڤالو"
-      },
-      {
-        id: "uganda",
-        display_text: "ئوگەندا"
-      },
-      {
-        id: "ukraine",
-        display_text: "ئوكراینا"
-      },
-      {
-        id: "united_arab_emirates",
-        display_text: "ئیماراتی عەرەبی یەكگرتوو"
-      },
-      {
-        id: "uk",
-        display_text: "شانشینی یەكگرتوو"
-      },
-      {
-        id: "usa",
-        display_text: "ئەمریكا"
-      },
-      {
-        id: "uruguay",
-        display_text: "ئوروگوای"
-      },
-      {
-        id: "uzbekistan",
-        display_text: "ئوزبەگستان"
-      },
-      {
-        id: "vanuatu",
-        display_text: "ڤانواتو"
-      },
-      {
-        id: "vatican",
-        display_text: "ڤاتیكان"
-      },
-      {
-        id: "venezuela",
-        display_text: "ڤەنزوێلا"
-      },
-      {
-        id: "vietnam",
-        display_text: "ڤێتنام"
-      },
-      {
-        id: "yemen",
-        display_text: "یەمەن"
-      },
-      {
-        id: "zambia",
-        display_text: "زامبیا"
-      },
-      {
-        id: "zimbabwe",
-        display_text: "زیمبابوێ"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "afghanistan",
-        display_text: "ئەفغانستان"
-      },
-      {
-        id: "albania",
-        display_text: "ئەلبانیا"
-      },
-      {
-        id: "algeria",
-        display_text: "جەزائر"
-      },
-      {
-        id: "andorra",
-        display_text: "ئەندورا"
-      },
-      {
-        id: "angola",
-        display_text: "ئەنگۆلا"
-      },
-      {
-        id: "antigua_and_barbuda",
-        display_text: "ئەنتیگوا و باربودا"
-      },
-      {
-        id: "argentina",
-        display_text: "ئەرژەنتین"
-      },
-      {
-        id: "armenia",
-        display_text: "ئەرمینیا"
-      },
-      {
-        id: "australia",
-        display_text: "ئۆسترالیا"
-      },
-      {
-        id: "austria",
-        display_text: "نەمسا"
-      },
-      {
-        id: "azerbaijan",
-        display_text: "ئازربایجان"
-      },
-      {
-        id: "bahamas",
-        display_text: "باهاماس"
-      },
-      {
-        id: "bahrain",
-        display_text: "بەحرێن"
-      },
-      {
-        id: "bangladesh",
-        display_text: "بەنگلادش"
-      },
-      {
-        id: "barbados",
-        display_text: "باربادوس"
-      },
-      {
-        id: "belarus",
-        display_text: "بێلاروس"
-      },
-      {
-        id: "belgium",
-        display_text: "بەلجیک"
-      },
-      {
-        id: "belize",
-        display_text: "بلیزێ"
-      },
-      {
-        id: "benin",
-        display_text: "بەنین"
-      },
-      {
-        id: "bhutan",
-        display_text: "بوتان"
-      },
-      {
-        id: "bolivia",
-        display_text: "بولیڤیا"
-      },
-      {
-        id: "bosnia_and_herzegovina",
-        display_text: "بوسنیا و هێرسک"
-      },
-      {
-        id: "botswana",
-        display_text: "بوتسوانا"
-      },
-      {
-        id: "brazil",
-        display_text: "بەرازیل"
-      },
-      {
-        id: "brunei",
-        display_text: "برونای"
-      },
-      {
-        id: "bulgaria",
-        display_text: "بولگاریا"
-      },
-      {
-        id: "burkina_faso",
-        display_text: "بورکینا فاسو"
-      },
-      {
-        id: "burundi",
-        display_text: "بروندی"
-      },
-      {
-        id: "cabo_verde",
-        display_text: "کابو ڤێردێ"
-      },
-      {
-        id: "cambodia",
-        display_text: "کەمبودیا"
-      },
-      {
-        id: "cameroon",
-        display_text: "کامیرون"
-      },
-      {
-        id: "canada",
-        display_text: "کەنەدا"
-      },
-      {
-        id: "central_african_republic",
-        display_text: "کومارا ئەفریکا ناڤەراست"
-      },
-      {
-        id: "chad",
-        display_text: "شاد"
-      },
-      {
-        id: "chile",
-        display_text: "شیلی"
-      },
-      {
-        id: "china",
-        display_text: "چین"
-      },
-      {
-        id: "colombia",
-        display_text: "کولومبیا"
-      },
-      {
-        id: "comoros",
-        display_text: "کوموروس \\ گزیرتا هەیڤێ"
-      },
-      {
-        id: "congo",
-        display_text: "کومارا کونگو"
-      },
-      {
-        id: "drc",
-        display_text: "کومارا دیموکراتا کونگو"
-      },
-      {
-        id: "costa_rica",
-        display_text: "کوستاریکا"
-      },
-      {
-        id: "cote_divoire",
-        display_text: "کوت دیڤوار"
-      },
-      {
-        id: "croatia",
-        display_text: "کرواتیا"
-      },
-      {
-        id: "cuba",
-        display_text: "کوبا"
-      },
-      {
-        id: "cyprus",
-        display_text: "قوبرس"
-      },
-      {
-        id: "czech_republic",
-        display_text: "کومارا چیک"
-      },
-      {
-        id: "denmark",
-        display_text: "دانیمارک"
-      },
-      {
-        id: "djibouti",
-        display_text: "جیبوتی"
-      },
-      {
-        id: "dominica",
-        display_text: "دومینیکا"
-      },
-      {
-        id: "dominican_republic",
-        display_text: "کومارا دومینیکان"
-      },
-      {
-        id: "ecuador",
-        display_text: "ئیکوادور"
-      },
-      {
-        id: "egypt",
-        display_text: "مسر"
-      },
-      {
-        id: "el_salvador",
-        display_text: "سلڤادور"
-      },
-      {
-        id: "equatorial_guinea",
-        display_text: "گینیا جەمسەری"
-      },
-      {
-        id: "eritrea",
-        display_text: "ئیریتێریا"
-      },
-      {
-        id: "estonia",
-        display_text: "ئەستونیا"
-      },
-      {
-        id: "ethiopia",
-        display_text: "ئیسیوپیا"
-      },
-      {
-        id: "fiji",
-        display_text: "فیجی"
-      },
-      {
-        id: "finland",
-        display_text: "فینلەند"
-      },
-      {
-        id: "france",
-        display_text: "فرەنسا"
-      },
-      {
-        id: "gabon",
-        display_text: "گابون"
-      },
-      {
-        id: "gambia",
-        display_text: "گامبیا"
-      },
-      {
-        id: "georgia",
-        display_text: "جورجیا"
-      },
-      {
-        id: "germany",
-        display_text: "ئەلمانیا"
-      },
-      {
-        id: "ghana",
-        display_text: "غانا"
-      },
-      {
-        id: "greece",
-        display_text: "یونان"
-      },
-      {
-        id: "grenada",
-        display_text: "گرێنادا"
-      },
-      {
-        id: "guatemala",
-        display_text: "گواتیمالا"
-      },
-      {
-        id: "guinea",
-        display_text: "غینیا"
-      },
-      {
-        id: "guinea_bissau",
-        display_text: "غینیا بیساو"
-      },
-      {
-        id: "guyana",
-        display_text: "غیانا"
-      },
-      {
-        id: "haiti",
-        display_text: "هایتی"
-      },
-      {
-        id: "honduras",
-        display_text: "هوندوراس"
-      },
-      {
-        id: "hungary",
-        display_text: "هنگاریا"
-      },
-      {
-        id: "iceland",
-        display_text: "ئایسلەند"
-      },
-      {
-        id: "india",
-        display_text: "هندستان"
-      },
-      {
-        id: "indonesia",
-        display_text: "ئەندونیزیا"
-      },
-      {
-        id: "iran",
-        display_text: "ئیران"
-      },
-      {
-        id: "iraq",
-        display_text: "عیراق"
-      },
-      {
-        id: "ireland",
-        display_text: "ئیرلەندا"
-      },
-      {
-        id: "israel",
-        display_text: "ئسرائیل"
-      },
-      {
-        id: "italy",
-        display_text: "ئیتالیا"
-      },
-      {
-        id: "jamaica",
-        display_text: "جامایکا"
-      },
-      {
-        id: "japan",
-        display_text: "ژاپون"
-      },
-      {
-        id: "jordan",
-        display_text: "ئوردن"
-      },
-      {
-        id: "kazakhstan",
-        display_text: "کازاخستان"
-      },
-      {
-        id: "kenya",
-        display_text: "کینیا"
-      },
-      {
-        id: "kiribati",
-        display_text: "کیریباتی"
-      },
-      {
-        id: "kosovo",
-        display_text: "کوسوڤو"
-      },
-      {
-        id: "kuwait",
-        display_text: "کوێت"
-      },
-      {
-        id: "kyrgyzstan",
-        display_text: "قیرغزستان"
-      },
-      {
-        id: "laos",
-        display_text: "لاوس"
-      },
-      {
-        id: "latvia",
-        display_text: "لاتڤیا"
-      },
-      {
-        id: "lebanon",
-        display_text: "لبنان"
-      },
-      {
-        id: "lesotho",
-        display_text: "لیسوتو"
-      },
-      {
-        id: "liberia",
-        display_text: "لیبیریا"
-      },
-      {
-        id: "libya",
-        display_text: "لیبیا"
-      },
-      {
-        id: "liechtenstein",
-        display_text: "لشتنتاین"
-      },
-      {
-        id: "lithuania",
-        display_text: "لیتوانیا"
-      },
-      {
-        id: "luxembourg",
-        display_text: "لوکسومبورگ"
-      },
-      {
-        id: "macedonia",
-        display_text: "مەقدونیا"
-      },
-      {
-        id: "madagascar",
-        display_text: "ماداگاسکار"
-      },
-      {
-        id: "malawi",
-        display_text: "مالاوی"
-      },
-      {
-        id: "malaysia",
-        display_text: "مالیزیا"
-      },
-      {
-        id: "maldives",
-        display_text: "مالدیڤ"
-      },
-      {
-        id: "mali",
-        display_text: "مالی"
-      },
-      {
-        id: "malta",
-        display_text: "مالتا"
-      },
-      {
-        id: "marshall_islands",
-        display_text: "گزیرتێن مارشال"
-      },
-      {
-        id: "mauritania",
-        display_text: "موریتانیا"
-      },
-      {
-        id: "mauritius",
-        display_text: "موریشیوس"
-      },
-      {
-        id: "mexico",
-        display_text: "مەکسیک"
-      },
-      {
-        id: "micronesia",
-        display_text: "مایکرونیزیا"
-      },
-      {
-        id: "moldova",
-        display_text: "مولدوڤا"
-      },
-      {
-        id: "monaco",
-        display_text: "موناکو"
-      },
-      {
-        id: "mongolia",
-        display_text: "مونگولیا"
-      },
-      {
-        id: "montenegro",
-        display_text: "مونتێنێگرو"
-      },
-      {
-        id: "morocco",
-        display_text: "مەغرب"
-      },
-      {
-        id: "mozambique",
-        display_text: "موزەمبیق"
-      },
-      {
-        id: "myanmar",
-        display_text: "میانمار"
-      },
-      {
-        id: "namibia",
-        display_text: "نامیبیا"
-      },
-      {
-        id: "nauru",
-        display_text: "ناورو"
-      },
-      {
-        id: "nepal",
-        display_text: "نیپال"
-      },
-      {
-        id: "netherlands",
-        display_text: "هولەندا"
-      },
-      {
-        id: "new_zealand",
-        display_text: "نیوزیلەندا"
-      },
-      {
-        id: "nicaragua",
-        display_text: "نیکاراگوا"
-      },
-      {
-        id: "niger",
-        display_text: "نیجر"
-      },
-      {
-        id: "nigeria",
-        display_text: "نیجیریا"
-      },
-      {
-        id: "north_korea",
-        display_text: "کوربا باکۆر"
-      },
-      {
-        id: "norway",
-        display_text: "نەرویج"
-      },
-      {
-        id: "oman",
-        display_text: "عومان"
-      },
-      {
-        id: "pakistan",
-        display_text: "پاکستان"
-      },
-      {
-        id: "palau",
-        display_text: "پالاو"
-      },
-      {
-        id: "palestine",
-        display_text: "فەلەستین"
-      },
-      {
-        id: "panama",
-        display_text: "پاناما"
-      },
-      {
-        id: "papua_new_guinea",
-        display_text: "پاپوا غینیا نی"
-      },
-      {
-        id: "paraguay",
-        display_text: "پاراگوای"
-      },
-      {
-        id: "peru",
-        display_text: "پیرو"
-      },
-      {
-        id: "philippines",
-        display_text: "فلیپین"
-      },
-      {
-        id: "poland",
-        display_text: "پولەندا"
-      },
-      {
-        id: "portugal",
-        display_text: "پورتوگال"
-      },
-      {
-        id: "qatar",
-        display_text: "قەتەر"
-      },
-      {
-        id: "romania",
-        display_text: "رومانیا"
-      },
-      {
-        id: "russia",
-        display_text: "رووسیا"
-      },
-      {
-        id: "rwanda",
-        display_text: "رواندا"
-      },
-      {
-        id: "st_kitts_and_nevis",
-        display_text: "سانت کێتس و نێڤێس"
-      },
-      {
-        id: "st_lucia",
-        display_text: "سانت لوسیا"
-      },
-      {
-        id: "st_vincent_and_the_grenadines",
-        display_text: "سێنت ڤێنسێنت و گرێنادین"
-      },
-      {
-        id: "samoa",
-        display_text: "ساموا"
-      },
-      {
-        id: "san_marino",
-        display_text: "سان مارینو"
-      },
-      {
-        id: "sao_tome_and_principe",
-        display_text: "ساو تۆمێ و پرێنسیپێ"
-      },
-      {
-        id: "saudi_arabia",
-        display_text: "ئەرەبستانا سعوودیا"
-      },
-      {
-        id: "senegal",
-        display_text: "سینیگال"
-      },
-      {
-        id: "serbia",
-        display_text: "سربیا"
-      },
-      {
-        id: "seychelles",
-        display_text: "سیشێل"
-      },
-      {
-        id: "sierra_leone",
-        display_text: "سیێرا لیون"
-      },
-      {
-        id: "singapore",
-        display_text: "سنگاپور"
-      },
-      {
-        id: "slovakia",
-        display_text: "سلوڤاکیا"
-      },
-      {
-        id: "slovenia",
-        display_text: "سلوڤینیا"
-      },
-      {
-        id: "solomon_islands",
-        display_text: "گزیرتێن سولومون"
-      },
-      {
-        id: "somalia",
-        display_text: "سومالیا"
-      },
-      {
-        id: "south_africa",
-        display_text: "ئەفریکا باشوور"
-      },
-      {
-        id: "south_korea",
-        display_text: "کوریا باشوور"
-      },
-      {
-        id: "south_sudan",
-        display_text: "سودانا باشوور"
-      },
-      {
-        id: "spain",
-        display_text: "ئسپانیا"
-      },
-      {
-        id: "sri_lanka",
-        display_text: "سریلانکا"
-      },
-      {
-        id: "sudan",
-        display_text: "سودان"
-      },
-      {
-        id: "suriname",
-        display_text: "سورینامی"
-      },
-      {
-        id: "swaziland",
-        display_text: "سوازیلەند"
-      },
-      {
-        id: "sweden",
-        display_text: "سوید"
-      },
-      {
-        id: "switzerland",
-        display_text: "سویسرا"
-      },
-      {
-        id: "syria",
-        display_text: "سووریا"
-      },
-      {
-        id: "taiwan",
-        display_text: "تایوان"
-      },
-      {
-        id: "tajikistan",
-        display_text: "تاجکستان"
-      },
-      {
-        id: "tanzania",
-        display_text: "تانزانیا"
-      },
-      {
-        id: "thailand",
-        display_text: "تایلەند"
-      },
-      {
-        id: "timor_leste",
-        display_text: "تیمور لیستێ"
-      },
-      {
-        id: "togo",
-        display_text: "توگو"
-      },
-      {
-        id: "tonga",
-        display_text: "تونگا"
-      },
-      {
-        id: "trinidad_and_tobago",
-        display_text: "ترینیداد توباگو"
-      },
-      {
-        id: "tunisia",
-        display_text: "تونس"
-      },
-      {
-        id: "turkey",
-        display_text: "تورکیا"
-      },
-      {
-        id: "turkmenistan",
-        display_text: "ترکمنستان"
-      },
-      {
-        id: "tuvalu",
-        display_text: "توڤالو"
-      },
-      {
-        id: "uganda",
-        display_text: "ئوگاندا"
-      },
-      {
-        id: "ukraine",
-        display_text: "ئوکرانیا"
-      },
-      {
-        id: "united_arab_emirates",
-        display_text: "ئیمارات"
-      },
-      {
-        id: "uk",
-        display_text: "شانشینا ئێکگرتی"
-      },
-      {
-        id: "usa",
-        display_text: "(ئەمریکا (ویلایەتێن ئێکگرتی یێن ئەمریکا"
-      },
-      {
-        id: "uruguay",
-        display_text: "ئوروگوای"
-      },
-      {
-        id: "uzbekistan",
-        display_text: "ئوزبەکستان"
-      },
-      {
-        id: "vanuatu",
-        display_text: "ڤانواتو"
-      },
-      {
-        id: "vatican",
-        display_text: "باژارێ ڤاتیکان"
-      },
-      {
-        id: "venezuela",
-        display_text: "ڤەنزوێلا"
-      },
-      {
-        id: "vietnam",
-        display_text: "ڤیێتنام"
-      },
-      {
-        id: "yemen",
-        display_text: "یەمەن"
-      },
-      {
-        id: "zambia",
-        display_text: "زامبیا"
-      },
-      {
-        id: "zimbabwe",
-        display_text: "زیمبابوی"
-      }
-    ],
-    unique_id: "lookup-country"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Cp Violence Type",
-    name_ar: "نوع العنف (حماية الطفل)",
-    name_ku: "جۆری توندوتیژی Cp",
-    'name_ku-IQ': "جورێ تۆندووتیژیێ Cp",
-    lookup_values_en: [
+    unique_id: "lookup-cp-violence-type",
+    name_i18n: {
+      ar: "نوع العنف (حماية الطفل)",
+      en: "Cp Violence Type",
+      ku: "جۆری توندوتیژی Cp",
+      'ku-IQ': "جورێ تۆندووتیژیێ Cp"
+    },
+    lookup_values_i18n: [
       {
         id: "rape",
-        display_text: "Rape"
+        display_text: {
+          ar: "اغتصاب",
+          en: "Rape",
+          ku: "لاقەكردن",
+          'ku-IQ': "دەستدرێژی یا سێکسی"
+        }
       },
       {
         id: "sexual_assault",
-        display_text: "Sexual Assault"
+        display_text: {
+          ar: "اعتداء جنسي",
+          en: "Sexual Assault",
+          ku: "دەستدرێژی سێكسی",
+          'ku-IQ': "دەستدرێژیا سکسی"
+        }
       },
       {
         id: "physical_assault",
-        display_text: "Physical Assault"
+        display_text: {
+          ar: "اعتداء جسدي",
+          en: "Physical Assault",
+          ku: "دەستدرێژی جەستەیی",
+          'ku-IQ': "دەستدرێژیا فیزیکی"
+        }
       },
       {
         id: "forced_marriage",
-        display_text: "Forced Marriage"
+        display_text: {
+          ar: "زواج قسري",
+          en: "Forced Marriage",
+          ku: "هاوسەرگیری بەزۆر",
+          'ku-IQ': "هەڤژینیا ب زۆری"
+        }
       },
       {
         id: "denial_of_resources_opportunities_or_services",
-        display_text: "Denial of Resources, Opportunities or Services"
+        display_text: {
+          ar: "الحرمان من الموارد أو الفرص أو الخدمات",
+          en: "Denial of Resources, Opportunities or Services",
+          ku: "بێبەشكردن لەسەرچاوە، دەرفەت یان خزمەتگوزاریەكان",
+          'ku-IQ': "دیرخستنا ژێدەران، دەلیڤە و خزمەتگۆزاری"
+        }
       },
       {
         id: "psychological_emotional_abuse",
-        display_text: "Psychological / Emotional Abuse"
+        display_text: {
+          ar: "إساءة نفسية / عاطفية",
+          en: "Psychological / Emotional Abuse",
+          ku: "مامەڵەی خراپی دەروونی / عاتیفی",
+          'ku-IQ': "دەستدرێژیا دەروونی یان هەستی"
+        }
       },
       {
         id: "non-gbv",
-        display_text: "Non-GBV"
+        display_text: {
+          ar: "عنف غير قائم على اساس النوع الاجتماعي",
+          en: "Non-GBV",
+          ku: "جگە لە توندوتیژی لەسەر بنچینەی جێندەر",
+          'ku-IQ': "تۆندووتیژیا نە ل سەر بنەمایێ رەگەزی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "rape",
-        display_text: "اغتصاب"
-      },
-      {
-        id: "sexual_assault",
-        display_text: "اعتداء جنسي"
-      },
-      {
-        id: "physical_assault",
-        display_text: "اعتداء جسدي"
-      },
-      {
-        id: "forced_marriage",
-        display_text: "زواج قسري"
-      },
-      {
-        id: "denial_of_resources_opportunities_or_services",
-        display_text: "الحرمان من الموارد أو الفرص أو الخدمات"
-      },
-      {
-        id: "psychological_emotional_abuse",
-        display_text: "إساءة نفسية / عاطفية"
-      },
-      {
-        id: "non-gbv",
-        display_text: "عنف غير قائم على اساس النوع الاجتماعي"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "rape",
-        display_text: "لاقەكردن"
-      },
-      {
-        id: "sexual_assault",
-        display_text: "دەستدرێژی سێكسی"
-      },
-      {
-        id: "physical_assault",
-        display_text: "دەستدرێژی جەستەیی"
-      },
-      {
-        id: "forced_marriage",
-        display_text: "هاوسەرگیری بەزۆر"
-      },
-      {
-        id: "denial_of_resources_opportunities_or_services",
-        display_text: "بێبەشكردن لەسەرچاوە، دەرفەت یان خزمەتگوزاریەكان"
-      },
-      {
-        id: "psychological_emotional_abuse",
-        display_text: "مامەڵەی خراپی دەروونی / عاتیفی"
-      },
-      {
-        id: "non-gbv",
-        display_text: "جگە لە توندوتیژی لەسەر بنچینەی جێندەر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "rape",
-        display_text: "دەستدرێژی یا سێکسی"
-      },
-      {
-        id: "sexual_assault",
-        display_text: "دەستدرێژیا سکسی"
-      },
-      {
-        id: "physical_assault",
-        display_text: "دەستدرێژیا فیزیکی"
-      },
-      {
-        id: "forced_marriage",
-        display_text: "هەڤژینیا ب زۆری"
-      },
-      {
-        id: "denial_of_resources_opportunities_or_services",
-        display_text: "دیرخستنا ژێدەران، دەلیڤە و خزمەتگۆزاری"
-      },
-      {
-        id: "psychological_emotional_abuse",
-        display_text: "دەستدرێژیا دەروونی یان هەستی"
-      },
-      {
-        id: "non-gbv",
-        display_text: "تۆندووتیژیا نە ل سەر بنەمایێ رەگەزی"
-      }
-    ],
-    unique_id: "lookup-cp-violence-type"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Disability Type",
-    name_ar: "نوع الإعاقة",
-    name_ku: "جۆری پەككەوتەیی",
-    'name_ku-IQ': "جورێ کێم ئەندامیێ",
-    lookup_values_en: [
+    unique_id: "lookup-disability-type",
+    name_i18n: {
+      ar: "نوع الإعاقة",
+      en: "Disability Type",
+      ku: "جۆری پەككەوتەیی",
+      'ku-IQ': "جورێ کێم ئەندامیێ"
+    },
+    lookup_values_i18n: [
       {
         id: "mental_disability",
-        display_text: "Mental Disability"
+        display_text: {
+          ar: "إعاقة ذهنية",
+          en: "Mental Disability",
+          ku: "پەككەوتەیی مێشك",
+          'ku-IQ': "پەککەفتنا مێشکی"
+        }
       },
       {
         id: "physical_disability",
-        display_text: "Physical Disability"
+        display_text: {
+          ar: "إعاقة جسدية",
+          en: "Physical Disability",
+          ku: "پەككەوتەیی جەستەیی",
+          'ku-IQ': "کێم ئەندامیا فیزیکی"
+        }
       },
       {
         id: "both",
-        display_text: "Both"
+        display_text: {
+          ar: "إعاقة ذهنية وجسدية",
+          en: "Both",
+          ku: "هەردووكیان",
+          'ku-IQ': "هەردووک"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "mental_disability",
-        display_text: "إعاقة ذهنية"
-      },
-      {
-        id: "physical_disability",
-        display_text: "إعاقة جسدية"
-      },
-      {
-        id: "both",
-        display_text: "إعاقة ذهنية وجسدية"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "mental_disability",
-        display_text: "پەككەوتەیی مێشك"
-      },
-      {
-        id: "physical_disability",
-        display_text: "پەككەوتەیی جەستەیی"
-      },
-      {
-        id: "both",
-        display_text: "هەردووكیان"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "mental_disability",
-        display_text: "پەککەفتنا مێشکی"
-      },
-      {
-        id: "physical_disability",
-        display_text: "کێم ئەندامیا فیزیکی"
-      },
-      {
-        id: "both",
-        display_text: "هەردووک"
-      }
-    ],
-    unique_id: "lookup-disability-type"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Disability Type With Mental And Physical Combined",
-    name_ar: "",
-    name_ku: "تێكەڵەی پەككەوتەیی عەقلی و جەستەیی",
-    'name_ku-IQ': "جورێ پەککەفتنێ یا دەرونی و کێم ئەندامیا فیزیکی",
-    lookup_values_en: [
+    unique_id: "lookup-disability-type-with-mental-physical",
+    name_i18n: {
+      ar: "",
+      en: "Disability Type With Mental And Physical Combined",
+      ku: "تێكەڵەی پەككەوتەیی عەقلی و جەستەیی",
+      'ku-IQ': "جورێ پەککەفتنێ یا دەرونی و کێم ئەندامیا فیزیکی"
+    },
+    lookup_values_i18n: [
       {
         id: "no",
-        display_text: "No"
+        display_text: {
+          ar: "لا توجد إعاقة",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نەخێر"
+        }
       },
       {
         id: "mental_disability",
-        display_text: "Mental Disability"
+        display_text: {
+          ar: "إعاقة ذهنية",
+          en: "Mental Disability",
+          ku: "پەككەوتەیی عەقلی",
+          'ku-IQ': "پەککەفتنا دەرونی"
+        }
       },
       {
         id: "physical_disability",
-        display_text: "Physical Disability"
+        display_text: {
+          ar: "إعاقة جسدية",
+          en: "Physical Disability",
+          ku: "پەككەوتەیی جەستەیی",
+          'ku-IQ': "کێم ئەندامیا فیزیکی"
+        }
       },
       {
         id: "mental_physical_disability",
-        display_text: "Mental \u0026 Physical Disability"
+        display_text: {
+          ar: "إعاقة ذهنية وجسدية",
+          en: "Mental \u0026 Physical Disability",
+          ku: "پەككەوتەیی عەقلی و جەستەیی",
+          'ku-IQ': "پەککەفتنا دەرونی و کێم ئەندامیا فیزیکی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "no",
-        display_text: "لا توجد إعاقة"
-      },
-      {
-        id: "mental_disability",
-        display_text: "إعاقة ذهنية"
-      },
-      {
-        id: "physical_disability",
-        display_text: "إعاقة جسدية"
-      },
-      {
-        id: "mental_physical_disability",
-        display_text: "إعاقة ذهنية وجسدية"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "mental_disability",
-        display_text: "پەككەوتەیی عەقلی"
-      },
-      {
-        id: "physical_disability",
-        display_text: "پەككەوتەیی جەستەیی"
-      },
-      {
-        id: "mental_physical_disability",
-        display_text: "پەككەوتەیی عەقلی و جەستەیی"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "mental_disability",
-        display_text: "پەککەفتنا دەرونی"
-      },
-      {
-        id: "physical_disability",
-        display_text: "کێم ئەندامیا فیزیکی"
-      },
-      {
-        id: "mental_physical_disability",
-        display_text: "پەککەفتنا دەرونی و کێم ئەندامیا فیزیکی"
-      }
-    ],
-    unique_id: "lookup-disability-type-with-mental-physical"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Disability Type",
-    name_ar: "نوع الإعاقة",
-    name_ku: "جۆری پەككەوتەیی",
-    'name_ku-IQ': "جورێ کێم ئەندامیێ",
-    lookup_values_en: [
+    unique_id: "lookup-disability-type-with-no",
+    name_i18n: {
+      ar: "نوع الإعاقة",
+      en: "Disability Type",
+      ku: "جۆری پەككەوتەیی",
+      'ku-IQ': "جورێ کێم ئەندامیێ"
+    },
+    lookup_values_i18n: [
       {
         id: "no",
-        display_text: "No"
+        display_text: {
+          ar: "لا توجد إعاقة",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نەخێر"
+        }
       },
       {
         id: "mental_disability",
-        display_text: "Mental Disability"
+        display_text: {
+          ar: "إعاقة ذهنية",
+          en: "Mental Disability",
+          ku: "پەككەوتەیی عەقلی",
+          'ku-IQ': "پەککەفتنا دەرونی"
+        }
       },
       {
         id: "physical_disability",
-        display_text: "Physical Disability"
+        display_text: {
+          ar: "إعاقة جسدية",
+          en: "Physical Disability",
+          ku: "پەككەوتەیی جەستەیی",
+          'ku-IQ': "کێم ئەندامیا فیزیکی"
+        }
       },
       {
         id: "both",
-        display_text: "Both"
+        display_text: {
+          ar: "إعاقة ذهنية وجسدية",
+          en: "Both",
+          ku: "هەردووكیان",
+          'ku-IQ': "هەردووک"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "no",
-        display_text: "لا توجد إعاقة"
-      },
-      {
-        id: "mental_disability",
-        display_text: "إعاقة ذهنية"
-      },
-      {
-        id: "physical_disability",
-        display_text: "إعاقة جسدية"
-      },
-      {
-        id: "both",
-        display_text: "إعاقة ذهنية وجسدية"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "mental_disability",
-        display_text: "پەككەوتەیی عەقلی"
-      },
-      {
-        id: "physical_disability",
-        display_text: "پەككەوتەیی جەستەیی"
-      },
-      {
-        id: "both",
-        display_text: "هەردووكیان"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "mental_disability",
-        display_text: "پەککەفتنا دەرونی"
-      },
-      {
-        id: "physical_disability",
-        display_text: "کێم ئەندامیا فیزیکی"
-      },
-      {
-        id: "both",
-        display_text: "هەردووک"
-      }
-    ],
-    unique_id: "lookup-disability-type-with-no"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Discovery Method",
-    name_ar: "طريقة الاكتشاف",
-    name_ku: "شێوازی دۆزینەوە",
-    'name_ku-IQ': "رێکا کەشفکرنێ",
-    lookup_values_en: [
+    unique_id: "lookup-discovery-method",
+    name_i18n: {
+      ar: "طريقة الاكتشاف",
+      en: "Discovery Method",
+      ku: "شێوازی دۆزینەوە",
+      'ku-IQ': "رێکا کەشفکرنێ"
+    },
+    lookup_values_i18n: [
       {
         id: "family_or_friend",
-        display_text: "Family or friend"
+        display_text: {
+          ar: "عائلة أو صديق",
+          en: "Family or friend",
+          ku: "خێزان یان هاوڕێ",
+          'ku-IQ': "خێزان یان هەڤال"
+        }
       },
       {
         id: "referral",
-        display_text: "Referral from another organization"
+        display_text: {
+          ar: "إحالة من مؤسسة أخرى",
+          en: "Referral from another organization",
+          ku: "ڕەوانەکردن لە رێكخراوێكی ترەوە",
+          'ku-IQ': "رەوانەکرن ژ رێکخراوەکا دی"
+        }
       },
       {
         id: "neighbor",
-        display_text: "Neighbor or community member"
+        display_text: {
+          ar: "أحد الجيران أو أفراد المجتمع المحلي",
+          en: "Neighbor or community member",
+          ku: "دراوسێ یان ئەندامێكی كۆمەڵگە",
+          'ku-IQ': "جیران یان ئەندامێ جڤاکی"
+        }
       },
       {
         id: "community_discussion",
-        display_text: "Community discussion"
+        display_text: {
+          ar: "مناقشة مجتمعية",
+          en: "Community discussion",
+          ku: "گفتوگۆی كۆمەڵگە",
+          'ku-IQ': "گەنگەشەیا جڤاکی"
+        }
       },
       {
         id: "pamphlet",
-        display_text: "Flyer or pamphlet you saw or received"
+        display_text: {
+          ar: "نشرات أو كتيبات شاهدتها أو استلمتها",
+          en: "Flyer or pamphlet you saw or received",
+          ku: "ئەو بڵاوكراوەو نامیلكانەی بینیوتە یان بۆت هاتوون",
+          'ku-IQ': "فلایەر یان نامیلکەیێن تە دیتین یان وەرگرتین"
+        }
       },
       {
         id: "other",
-        display_text: "Other"
+        display_text: {
+          ar: "أخرى",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "family_or_friend",
-        display_text: "عائلة أو صديق"
-      },
-      {
-        id: "referral",
-        display_text: "إحالة من مؤسسة أخرى"
-      },
-      {
-        id: "neighbor",
-        display_text: "أحد الجيران أو أفراد المجتمع المحلي"
-      },
-      {
-        id: "community_discussion",
-        display_text: "مناقشة مجتمعية"
-      },
-      {
-        id: "pamphlet",
-        display_text: "نشرات أو كتيبات شاهدتها أو استلمتها"
-      },
-      {
-        id: "other",
-        display_text: "أخرى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "family_or_friend",
-        display_text: "خێزان یان هاوڕێ"
-      },
-      {
-        id: "referral",
-        display_text: "ڕەوانەکردن لە رێكخراوێكی ترەوە"
-      },
-      {
-        id: "neighbor",
-        display_text: "دراوسێ یان ئەندامێكی كۆمەڵگە"
-      },
-      {
-        id: "community_discussion",
-        display_text: "گفتوگۆی كۆمەڵگە"
-      },
-      {
-        id: "pamphlet",
-        display_text: "ئەو بڵاوكراوەو نامیلكانەی بینیوتە یان بۆت هاتوون"
-      },
-      {
-        id: "other",
-        display_text: "هی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "family_or_friend",
-        display_text: "خێزان یان هەڤال"
-      },
-      {
-        id: "referral",
-        display_text: "رەوانەکرن ژ رێکخراوەکا دی"
-      },
-      {
-        id: "neighbor",
-        display_text: "جیران یان ئەندامێ جڤاکی"
-      },
-      {
-        id: "community_discussion",
-        display_text: "گەنگەشەیا جڤاکی"
-      },
-      {
-        id: "pamphlet",
-        display_text: "فلایەر یان نامیلکەیێن تە دیتین یان وەرگرتین"
-      },
-      {
-        id: "other",
-        display_text: "یێن دی"
-      }
-    ],
-    unique_id: "lookup-discovery-method"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Displacement Status",
-    name_ar: "وضع النزوح",
-    name_ku: "دۆخی ئاوارەبوون",
-    'name_ku-IQ': "بارودوخێ ئاوارەبوونێ",
-    lookup_values_en: [
+    unique_id: "lookup-displacement-status",
+    name_i18n: {
+      ar: "وضع النزوح",
+      en: "Displacement Status",
+      ku: "دۆخی ئاوارەبوون",
+      'ku-IQ': "بارودوخێ ئاوارەبوونێ"
+    },
+    lookup_values_i18n: [
       {
         id: "resident",
-        display_text: "Resident"
+        display_text: {
+          ar: "مقيم",
+          en: "Resident",
+          ku: "نیشتەجێ",
+          'ku-IQ': "ئاکنجی"
+        }
       },
       {
         id: "idp",
-        display_text: "IDP"
+        display_text: {
+          ar: "نازح داخل البلد",
+          en: "IDP",
+          ku: "ئاوارەی ناوخۆیی",
+          'ku-IQ': "ئاوارە"
+        }
       },
       {
         id: "refugee",
-        display_text: "Refugee"
+        display_text: {
+          ar: "لاجئ",
+          en: "Refugee",
+          ku: "پەنابەر",
+          'ku-IQ': "پەنابەر"
+        }
       },
       {
         id: "stateless_person",
-        display_text: "Stateless Person"
+        display_text: {
+          ar: "شخص عديم الجنسية",
+          en: "Stateless Person",
+          ku: "کەسی بێ ڕەگەزنامە",
+          'ku-IQ': "کەسەکێ بێ ناسنامە"
+        }
       },
       {
         id: "returnee",
-        display_text: "Returnee"
+        display_text: {
+          ar: "عائد",
+          en: "Returnee",
+          ku: "گەڕاوە",
+          'ku-IQ': "ڤەگەریایی"
+        }
       },
       {
         id: "foreign_national",
-        display_text: "Foreign National"
+        display_text: {
+          ar: "من الرعايا الأجانب",
+          en: "Foreign National",
+          ku: "رەگەزنامەی بیانی",
+          'ku-IQ': "نەتەوەیا بیانی"
+        }
       },
       {
         id: "asylum_seeker",
-        display_text: "Asylum Seeker"
+        display_text: {
+          ar: "طالب لجوء",
+          en: "Asylum Seeker",
+          ku: "پەناخواز",
+          'ku-IQ': "داخازکەرێ پەنابەرایەتیێ"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "resident",
-        display_text: "مقيم"
-      },
-      {
-        id: "idp",
-        display_text: "نازح داخل البلد"
-      },
-      {
-        id: "refugee",
-        display_text: "لاجئ"
-      },
-      {
-        id: "stateless_person",
-        display_text: "شخص عديم الجنسية"
-      },
-      {
-        id: "returnee",
-        display_text: "عائد"
-      },
-      {
-        id: "foreign_national",
-        display_text: "من الرعايا الأجانب"
-      },
-      {
-        id: "asylum_seeker",
-        display_text: "طالب لجوء"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "resident",
-        display_text: "نیشتەجێ"
-      },
-      {
-        id: "idp",
-        display_text: "ئاوارەی ناوخۆیی"
-      },
-      {
-        id: "refugee",
-        display_text: "پەنابەر"
-      },
-      {
-        id: "stateless_person",
-        display_text: "کەسی بێ ڕەگەزنامە"
-      },
-      {
-        id: "returnee",
-        display_text: "گەڕاوە"
-      },
-      {
-        id: "foreign_national",
-        display_text: "رەگەزنامەی بیانی"
-      },
-      {
-        id: "asylum_seeker",
-        display_text: "پەناخواز"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "resident",
-        display_text: "ئاکنجی"
-      },
-      {
-        id: "idp",
-        display_text: "ئاوارە"
-      },
-      {
-        id: "refugee",
-        display_text: "پەنابەر"
-      },
-      {
-        id: "stateless_person",
-        display_text: "کەسەکێ بێ ناسنامە"
-      },
-      {
-        id: "returnee",
-        display_text: "ڤەگەریایی"
-      },
-      {
-        id: "foreign_national",
-        display_text: "نەتەوەیا بیانی"
-      },
-      {
-        id: "asylum_seeker",
-        display_text: "داخازکەرێ پەنابەرایەتیێ"
-      }
-    ],
-    unique_id: "lookup-displacement-status"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Ethnicity",
-    name_ar: "الانتماء العرقي / الاثني",
-    name_ku: "نەژاد",
-    'name_ku-IQ': "نەژاد",
-    lookup_values_en: [
+    unique_id: "lookup-ethnicity",
+    name_i18n: {
+      ar: "الانتماء العرقي / الاثني",
+      en: "Ethnicity",
+      ku: "نەژاد",
+      'ku-IQ': "نەژاد"
+    },
+    lookup_values_i18n: [
       {
         id: "ethnicity1",
-        display_text: "Ethnicity1"
+        display_text: {
+          ar: "إثنية 1",
+          en: "Ethnicity1",
+          ku: "نەژاد 1",
+          'ku-IQ': "نەژاد 1"
+        }
       },
       {
         id: "ethnicity2",
-        display_text: "Ethnicity2"
+        display_text: {
+          ar: "إثنية 2",
+          en: "Ethnicity2",
+          ku: "نەژاد 2",
+          'ku-IQ': "نەژاد 2"
+        }
       },
       {
         id: "ethnicity3",
-        display_text: "Ethnicity3"
+        display_text: {
+          ar: "إثنية 3",
+          en: "Ethnicity3",
+          ku: "نەژاد 3",
+          'ku-IQ': "نەژاد 3"
+        }
       },
       {
         id: "ethnicity4",
-        display_text: "Ethnicity4"
+        display_text: {
+          ar: "إثنية 4",
+          en: "Ethnicity4",
+          ku: "نەژاد 4",
+          'ku-IQ': "نەژاد 4"
+        }
       },
       {
         id: "ethnicity5",
-        display_text: "Ethnicity5"
+        display_text: {
+          ar: "إثنية 5",
+          en: "Ethnicity5",
+          ku: "نەژاد 5",
+          'ku-IQ': "نەژاد 5"
+        }
       },
       {
         id: "ethnicity6",
-        display_text: "Ethnicity6"
+        display_text: {
+          ar: "إثنية 6",
+          en: "Ethnicity6",
+          ku: "نەژاد 6",
+          'ku-IQ': "نەژاد 6"
+        }
       },
       {
         id: "ethnicity7",
-        display_text: "Ethnicity7"
+        display_text: {
+          ar: "إثنية 7",
+          en: "Ethnicity7",
+          ku: "نەژاد 7",
+          'ku-IQ': "نەژاد 7"
+        }
       },
       {
         id: "ethnicity8",
-        display_text: "Ethnicity8"
+        display_text: {
+          ar: "إثنية 8",
+          en: "Ethnicity8",
+          ku: "نەژاد 8",
+          'ku-IQ': "نەژاد 8"
+        }
       },
       {
         id: "ethnicity9",
-        display_text: "Ethnicity9"
+        display_text: {
+          ar: "إثنية 9",
+          en: "Ethnicity9",
+          ku: "نەژاد 9",
+          'ku-IQ': "نەژاد 9"
+        }
       },
       {
         id: "ethnicity10",
-        display_text: "Ethnicity10"
+        display_text: {
+          ar: "إثنية 10",
+          en: "Ethnicity10",
+          ku: "نەژاد 10",
+          'ku-IQ': "نەژاد 10"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "ethnicity1",
-        display_text: "إثنية 1"
-      },
-      {
-        id: "ethnicity2",
-        display_text: "إثنية 2"
-      },
-      {
-        id: "ethnicity3",
-        display_text: "إثنية 3"
-      },
-      {
-        id: "ethnicity4",
-        display_text: "إثنية 4"
-      },
-      {
-        id: "ethnicity5",
-        display_text: "إثنية 5"
-      },
-      {
-        id: "ethnicity6",
-        display_text: "إثنية 6"
-      },
-      {
-        id: "ethnicity7",
-        display_text: "إثنية 7"
-      },
-      {
-        id: "ethnicity8",
-        display_text: "إثنية 8"
-      },
-      {
-        id: "ethnicity9",
-        display_text: "إثنية 9"
-      },
-      {
-        id: "ethnicity10",
-        display_text: "إثنية 10"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "ethnicity1",
-        display_text: "نەژاد 1"
-      },
-      {
-        id: "ethnicity2",
-        display_text: "نەژاد 2"
-      },
-      {
-        id: "ethnicity3",
-        display_text: "نەژاد 3"
-      },
-      {
-        id: "ethnicity4",
-        display_text: "نەژاد 4"
-      },
-      {
-        id: "ethnicity5",
-        display_text: "نەژاد 5"
-      },
-      {
-        id: "ethnicity6",
-        display_text: "نەژاد 6"
-      },
-      {
-        id: "ethnicity7",
-        display_text: "نەژاد 7"
-      },
-      {
-        id: "ethnicity8",
-        display_text: "نەژاد 8"
-      },
-      {
-        id: "ethnicity9",
-        display_text: "نەژاد 9"
-      },
-      {
-        id: "ethnicity10",
-        display_text: "نەژاد 10"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "ethnicity1",
-        display_text: "نەژاد 1"
-      },
-      {
-        id: "ethnicity2",
-        display_text: "نەژاد 2"
-      },
-      {
-        id: "ethnicity3",
-        display_text: "نەژاد 3"
-      },
-      {
-        id: "ethnicity4",
-        display_text: "نەژاد 4"
-      },
-      {
-        id: "ethnicity5",
-        display_text: "نەژاد 5"
-      },
-      {
-        id: "ethnicity6",
-        display_text: "نەژاد 6"
-      },
-      {
-        id: "ethnicity7",
-        display_text: "نەژاد 7"
-      },
-      {
-        id: "ethnicity8",
-        display_text: "نەژاد 8"
-      },
-      {
-        id: "ethnicity9",
-        display_text: "نەژاد 9"
-      },
-      {
-        id: "ethnicity10",
-        display_text: "نەژاد 10"
-      }
-    ],
-    unique_id: "lookup-ethnicity"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Family Relationship",
-    name_ar: "",
-    name_ku: "پەیوەندی خێزانی",
-    'name_ku-IQ': "پەیوەندیا خێزانی",
-    lookup_values_en: [
+    unique_id: "lookup-family-relationship",
+    name_i18n: {
+      ar: "",
+      en: "Family Relationship",
+      ku: "پەیوەندی خێزانی",
+      'ku-IQ': "پەیوەندیا خێزانی"
+    },
+    lookup_values_i18n: [
       {
         id: "mother",
-        display_text: "Mother"
+        display_text: {
+          ar: "",
+          en: "Mother",
+          ku: "دایك",
+          'ku-IQ': "دەیک"
+        }
       },
       {
         id: "father",
-        display_text: "Father"
+        display_text: {
+          ar: "",
+          en: "Father",
+          ku: "باوك",
+          'ku-IQ': "باب"
+        }
       },
       {
         id: "aunt",
-        display_text: "Aunt"
+        display_text: {
+          ar: "",
+          en: "Aunt",
+          ku: "پوور",
+          'ku-IQ': "مەت یان خالەت"
+        }
       },
       {
         id: "uncle",
-        display_text: "Uncle"
+        display_text: {
+          ar: "",
+          en: "Uncle",
+          ku: "مام / خاڵ",
+          'ku-IQ': "خال یان مام"
+        }
       },
       {
         id: "grandmother",
-        display_text: "Grandmother"
+        display_text: {
+          ar: "",
+          en: "Grandmother",
+          ku: "داپیر",
+          'ku-IQ': "داپیر"
+        }
       },
       {
         id: "grandfather",
-        display_text: "Grandfather"
+        display_text: {
+          ar: "",
+          en: "Grandfather",
+          ku: "باپیر",
+          'ku-IQ': "باپیر"
+        }
       },
       {
         id: "brother",
-        display_text: "Brother"
+        display_text: {
+          ar: "",
+          en: "Brother",
+          ku: "برا",
+          'ku-IQ': "برا"
+        }
       },
       {
         id: "sister",
-        display_text: "Sister"
+        display_text: {
+          ar: "",
+          en: "Sister",
+          ku: "خوشك",
+          'ku-IQ': "خیشک"
+        }
       },
       {
         id: "husband",
-        display_text: "Husband"
+        display_text: {
+          ar: "",
+          en: "Husband",
+          ku: "مێرد",
+          'ku-IQ': "هەڤژین، زەلام"
+        }
       },
       {
         id: "wife",
-        display_text: "Wife"
+        display_text: {
+          ar: "",
+          en: "Wife",
+          ku: "ژن",
+          'ku-IQ': "هەڤژین، ژن"
+        }
       },
       {
         id: "partner",
-        display_text: "Partner"
+        display_text: {
+          ar: "",
+          en: "Partner",
+          ku: "هاوبەش",
+          'ku-IQ': "هەڤال"
+        }
       },
       {
         id: "other_family",
-        display_text: "Other Family"
+        display_text: {
+          ar: "",
+          en: "Other Family",
+          ku: "خێزانێكی تر",
+          'ku-IQ': "ئەندامێن دی یێن خێزانێ"
+        }
       },
       {
         id: "other_nonfamily",
-        display_text: "Other Nonfamily"
+        display_text: {
+          ar: "",
+          en: "Other Nonfamily",
+          ku: "دەرەوەی خێزانێكی تر",
+          'ku-IQ': "ئەندامێن دی یێن نە خێزانێ"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "mother",
-        display_text: ""
-      },
-      {
-        id: "father",
-        display_text: ""
-      },
-      {
-        id: "aunt",
-        display_text: ""
-      },
-      {
-        id: "uncle",
-        display_text: ""
-      },
-      {
-        id: "grandmother",
-        display_text: ""
-      },
-      {
-        id: "grandfather",
-        display_text: ""
-      },
-      {
-        id: "brother",
-        display_text: ""
-      },
-      {
-        id: "sister",
-        display_text: ""
-      },
-      {
-        id: "husband",
-        display_text: ""
-      },
-      {
-        id: "wife",
-        display_text: ""
-      },
-      {
-        id: "partner",
-        display_text: ""
-      },
-      {
-        id: "other_family",
-        display_text: ""
-      },
-      {
-        id: "other_nonfamily",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "mother",
-        display_text: "دایك"
-      },
-      {
-        id: "father",
-        display_text: "باوك"
-      },
-      {
-        id: "aunt",
-        display_text: "پوور"
-      },
-      {
-        id: "uncle",
-        display_text: "مام / خاڵ"
-      },
-      {
-        id: "grandmother",
-        display_text: "داپیر"
-      },
-      {
-        id: "grandfather",
-        display_text: "باپیر"
-      },
-      {
-        id: "brother",
-        display_text: "برا"
-      },
-      {
-        id: "sister",
-        display_text: "خوشك"
-      },
-      {
-        id: "husband",
-        display_text: "مێرد"
-      },
-      {
-        id: "wife",
-        display_text: "ژن"
-      },
-      {
-        id: "partner",
-        display_text: "هاوبەش"
-      },
-      {
-        id: "other_family",
-        display_text: "خێزانێكی تر"
-      },
-      {
-        id: "other_nonfamily",
-        display_text: "دەرەوەی خێزانێكی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "mother",
-        display_text: "دەیک"
-      },
-      {
-        id: "father",
-        display_text: "باب"
-      },
-      {
-        id: "aunt",
-        display_text: "مەت یان خالەت"
-      },
-      {
-        id: "uncle",
-        display_text: "خال یان مام"
-      },
-      {
-        id: "grandmother",
-        display_text: "داپیر"
-      },
-      {
-        id: "grandfather",
-        display_text: "باپیر"
-      },
-      {
-        id: "brother",
-        display_text: "برا"
-      },
-      {
-        id: "sister",
-        display_text: "خیشک"
-      },
-      {
-        id: "husband",
-        display_text: "هەڤژین، زەلام"
-      },
-      {
-        id: "wife",
-        display_text: "هەڤژین، ژن"
-      },
-      {
-        id: "partner",
-        display_text: "هەڤال"
-      },
-      {
-        id: "other_family",
-        display_text: "ئەندامێن دی یێن خێزانێ"
-      },
-      {
-        id: "other_nonfamily",
-        display_text: "ئەندامێن دی یێن نە خێزانێ"
-      }
-    ],
-    unique_id: "lookup-family-relationship"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Followup Type",
-    name_ar: "نوع المتابعة",
-    name_ku: "جۆری بەدواداچوون",
-    'name_ku-IQ': "جورێ دیفچوونێ",
-    lookup_values_en: [
+    unique_id: "lookup-followup-type",
+    name_i18n: {
+      ar: "نوع المتابعة",
+      en: "Followup Type",
+      ku: "جۆری بەدواداچوون",
+      'ku-IQ': "جورێ دیفچوونێ"
+    },
+    lookup_values_i18n: [
       {
         id: "after_reunification",
-        display_text: "Follow up After Reunification"
+        display_text: {
+          ar: "متابعة بعد لم الشمل",
+          en: "Follow up After Reunification",
+          ku: "بەدواداچوون دوای یەكگرتنەوە",
+          'ku-IQ': "دیفچوون پشتی دوبارە گەهشتن ب ئێک"
+        }
       },
       {
         id: "in_care",
-        display_text: "Follow up in Care"
+        display_text: {
+          ar: "متابعة في الرعاية",
+          en: "Follow up in Care",
+          ku: "بەدواداچوون لە چاودێری",
+          'ku-IQ': "دیفچوون د چاڤدێریێ دا"
+        }
       },
       {
         id: "for_service",
-        display_text: "Follow up for Service"
+        display_text: {
+          ar: "متابعة للخدمات",
+          en: "Follow up for Service",
+          ku: "بەدواداچوون بۆ مەبەستی خزمەتگوزاری",
+          'ku-IQ': "دیفچوون بۆ خزمەتگۆزاریا"
+        }
       },
       {
         id: "for_assesment",
-        display_text: "Follow up for Assessment"
+        display_text: {
+          ar: "متابعة للتقييم",
+          en: "Follow up for Assessment",
+          ku: "بەدواداچوون بۆ هەڵسەنگاندن",
+          'ku-IQ': "دیفچوون بۆ هەلسەنگاندنێ"
+        }
       }
     ],
-    lookup_values_ar: [
-      {
-        id: "after_reunification",
-        display_text: "متابعة بعد لم الشمل"
-      },
-      {
-        id: "in_care",
-        display_text: "متابعة في الرعاية"
-      },
-      {
-        id: "for_service",
-        display_text: "متابعة للخدمات"
-      },
-      {
-        id: "for_assesment",
-        display_text: "متابعة للتقييم"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "after_reunification",
-        display_text: "بەدواداچوون دوای یەكگرتنەوە"
-      },
-      {
-        id: "in_care",
-        display_text: "بەدواداچوون لە چاودێری"
-      },
-      {
-        id: "for_service",
-        display_text: "بەدواداچوون بۆ مەبەستی خزمەتگوزاری"
-      },
-      {
-        id: "for_assesment",
-        display_text: "بەدواداچوون بۆ هەڵسەنگاندن"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "after_reunification",
-        display_text: "دیفچوون پشتی دوبارە گەهشتن ب ئێک"
-      },
-      {
-        id: "in_care",
-        display_text: "دیفچوون د چاڤدێریێ دا"
-      },
-      {
-        id: "for_service",
-        display_text: "دیفچوون بۆ خزمەتگۆزاریا"
-      },
-      {
-        id: "for_assesment",
-        display_text: "دیفچوون بۆ هەلسەنگاندنێ"
-      }
-    ],
-    unique_id: "lookup-followup-type"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Form Groups   Cp Case",
-    lookup_values_en: [
-      {
-        id: "record_information",
-        display_text: "Record Information"
-      },
-      {
-        id: "approvals",
-        display_text: "Approvals"
-      },
-      {
-        id: "case_conference_details",
-        display_text: "Case Conference Details"
-      },
-      {
-        id: "identification_registration",
-        display_text: "Identification / Registration"
-      },
-      {
-        id: "data_confidentiality",
-        display_text: "Data Confidentiality"
-      },
-      {
-        id: "assessment",
-        display_text: "Assessment"
-      },
-      {
-        id: "family_partner_details",
-        display_text: "Family / Partner Details"
-      },
-      {
-        id: "case_plan",
-        display_text: "Case Plan"
-      },
-      {
-        id: "services_follow_up",
-        display_text: "Services / Follow Up"
-      },
-      {
-        id: "closure",
-        display_text: "Closure"
-      },
-      {
-        id: "tracing",
-        display_text: "Tracing"
-      },
-      {
-        id: "bia_form",
-        display_text: "BIA Form"
-      },
-      {
-        id: "photos_audio",
-        display_text: "Photos and Audio"
-      },
-      {
-        id: "other_documents",
-        display_text: "Other Documents"
-      },
-      {
-        id: "referrals_transfers",
-        display_text: "Referrals and Transfers"
-      },
-      {
-        id: "notes",
-        display_text: "Notes"
-      }
-    ],
-    unique_id: "lookup-form-group-cp-case"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Form Groups   Cp Incident",
-    lookup_values_en: [
+    unique_id: "lookup-form-group-cp-incident",
+    name_i18n: {
+      en: "Form Groups   Cp Incident"
+    },
+    lookup_values_i18n: [
       {
         id: "record_owner",
-        display_text: "Record Owner"
+        display_text: {
+          en: "Record Owner"
+        }
       },
       {
         id: "perpetrator_details",
-        display_text: "Perpetrator Details"
+        display_text: {
+          en: "Perpetrator Details"
+        }
       },
       {
         id: "cp_incident",
-        display_text: "CP Incident"
+        display_text: {
+          en: "CP Incident"
+        }
       },
       {
         id: "cp_individual_details",
-        display_text: "CP Individual Details"
+        display_text: {
+          en: "CP Individual Details"
+        }
       }
     ],
-    unique_id: "lookup-form-group-cp-incident"
+    locked: false
   }
 )
 
 Lookup.create_or_update!(
   {
-    locked: false,
-    name_en: "Form Groups   Cp Tracing Request",
-    lookup_values_en: [
+    unique_id: "lookup-form-group-cp-tracing-request",
+    name_i18n: {
+      en: "Form Groups   Cp Tracing Request"
+    },
+    lookup_values_i18n: [
       {
         id: "record_owner",
-        display_text: "Record Owner"
+        display_text: {
+          en: "Record Owner"
+        }
       },
       {
         id: "inquirer",
-        display_text: "Inquirer"
+        display_text: {
+          en: "Inquirer"
+        }
       },
       {
         id: "tracing_request",
-        display_text: "Tracing Request"
+        display_text: {
+          en: "Tracing Request"
+        }
       },
       {
         id: "photos_audio",
-        display_text: "Photos and Audio"
+        display_text: {
+          en: "Photos and Audio"
+        }
       },
       {
         id: "other_reportable_fields",
-        display_text: "Other Reportable Fields"
+        display_text: {
+          en: "Other Reportable Fields"
+        }
       }
     ],
-    unique_id: "lookup-form-group-cp-tracing-request"
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-further-action_needed",
+    name_i18n: {
+      ar: "",
+      en: "Further Action Needed",
+      ku: "كرداری زیاتری  پێویستە",
+      'ku-IQ': "کارێ پتر پێدڤیە"
+    },
+    lookup_values_i18n: [
+      {
+        id: "no_further_action_needed",
+        display_text: {
+          ar: "",
+          en: "No Further Action Needed",
+          ku: "كرداری زیاتری پێویست نیە",
+          'ku-IQ': "کریارێن پتر پێدڤی نینە"
+        }
+      },
+      {
+        id: "ongoing_monitoring",
+        display_text: {
+          ar: "",
+          en: "Ongoing Monitoring",
+          ku: "چاودێری بەردەوام",
+          'ku-IQ': "چاڤدێریا بەردەوام"
+        }
+      },
+      {
+        id: "urgent_intervention",
+        display_text: {
+          ar: "",
+          en: "Urgent Intervention",
+          ku: "دەستێوەردانی خێرا",
+          'ku-IQ': "مایتێکرنا بلەز"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-approval-types",
+    name_i18n: {
+      ar: "",
+      en: "Approval Type For Gbv Users",
+      ku: "جۆری ڕەزامەندیپێدان بۆ بەكاربەرانی توندوتیژی لەسەر بنەمای جێندەر",
+      'ku-IQ': "جورێ دەستيردانێ بۆ بکارهێنەرێ توندو تیژی لسەر بنیاتێ رەگەزی"
+    },
+    lookup_values_i18n: [
+      {
+        id: "case_plan",
+        display_text: {
+          ar: "",
+          en: "Case Plan",
+          ku: "پلانی كەیس",
+          'ku-IQ': "پلانا کەیسی"
+        }
+      },
+      {
+        id: "closure",
+        display_text: {
+          ar: "",
+          en: "Closure",
+          ku: "داخستن",
+          'ku-IQ': "گرتن"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-reported-elsewhere",
+    name_i18n: {
+      ar: "نعم أو لا أو غير معروف",
+      en: "Yes, No, Or Unknown",
+      ku: "بەڵێ، نەخێر، یان نەزانراو",
+      'ku-IQ': "بەلێ، نەخێر، یان ناهێتە زانین"
+    },
+    lookup_values_i18n: [
+      {
+        id: "no",
+        display_text: {
+          ar: "لا",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نەخێر"
+        }
+      },
+      {
+        id: "gbvims-org",
+        display_text: {
+          ar: "نعم - مؤسسة / هيئة مع نظام إدارة معلومات العنف القائم على اساس النوع الاجتماعي",
+          en: "Yes-GBVIMS Org / Agency",
+          ku: "بەڵێ - رێكخراو / ئاژانسی GBVIMS",
+          'ku-IQ': "ئاژانس /GBVIMS بەلێ-رێکخراوا"
+        }
+      },
+      {
+        id: "non-gbvims-org",
+        display_text: {
+          ar: "نعم - مؤسسة / هيئة من دون نظام إدارة معلومات العنف القائم على اساس النوع الاجتماعي",
+          en: "Yes-Non GBVIMS Org / Agency",
+          ku: "بەڵێ - رێكخراو / ئاژانسی نا GBVIMS",
+          'ku-IQ': "ئاژانس /GBVIMS بەلێ- نە رێکخراوا"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-sexual-violence-type",
+    name_i18n: {
+      ar: "نوع العنف الجنسي (العنف القائم على اساس النوع الاجتماعي)",
+      en: "جورێ توندو تیژی یا سکسی لسەر بنیاتێ رەگەزی",
+      ku: "جۆری توندوتیژی سێكسی Gbv ",
+      'ku-IQ': "جورێ توندو تیژی یا سکسی لسەر بنیاتێ رەگەزی"
+    },
+    lookup_values_i18n: [
+      {
+        id: "rape",
+        display_text: {
+          ar: "اغتصاب",
+          en: "Rape",
+          ku: "لاقەكردن",
+          'ku-IQ': "دەست درێژیا سیکسی"
+        }
+      },
+      {
+        id: "sexual_assault",
+        display_text: {
+          ar: "اعتداء جنسي",
+          en: "Sexual Assault",
+          ku: "دەستدرێژی سێكسی",
+          'ku-IQ': "توند و تیژیا سیکسی"
+        }
+      },
+      {
+        id: "physical_assault",
+        display_text: {
+          ar: "اعتداء جسدي",
+          en: "Physical Assault",
+          ku: "دەستدرێژی جەستەیی",
+          'ku-IQ': "توند و تيذيا جةستةيى"
+        }
+      },
+      {
+        id: "forced_marriage",
+        display_text: {
+          ar: "زواج قسري",
+          en: "Forced Marriage",
+          ku: "هاوسەرگیری بەزۆر",
+          'ku-IQ': "هەڤژینیا ب زۆری"
+        }
+      },
+      {
+        id: "denial_of_resources_opportunities_or_services",
+        display_text: {
+          ar: "الحرمان من الموارد أو الفرص أو الخدمات",
+          en: "Denial of Resources, Opportunities or Services",
+          ku: "بێبەشكردن لە سەرچاوە، دەرفەت یان خزمەتگوزاری",
+          'ku-IQ': "دیرخستنا ژێدەران، دەلیڤە و خزمەتگۆزاری"
+        }
+      },
+      {
+        id: "psychological_emotional_abuse",
+        display_text: {
+          ar: "إساءات نفسية / عاطفية",
+          en: "Psychological / Emotional Abuse",
+          ku: "مامەڵەی خراپی دەروونی / عاتیفی",
+          'ku-IQ': "دەستدرێژیا دەروونی یان هەستی"
+        }
+      },
+      {
+        id: "non-gbv",
+        display_text: {
+          ar: "غير قائم على اساس النوع الاجتماعي",
+          en: "Non-GBV",
+          ku: "GBV نیە",
+          'ku-IQ': "تۆندووتیژیا نە ل سەر بنەمایێ رەگەزی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gender",
+    name_i18n: {
+      ar: "الجنس",
+      en: "Gender",
+      ku: "رەگەز",
+      'ku-IQ': "رەگەز"
+    },
+    lookup_values_i18n: [
+      {
+        id: "male",
+        display_text: {
+          ar: "ذكر",
+          en: "Male",
+          ku: "نێر",
+          'ku-IQ': "نێر"
+        }
+      },
+      {
+        id: "female",
+        display_text: {
+          ar: "أنثى",
+          en: "Female",
+          ku: "مێ",
+          'ku-IQ': "مێ"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-marital-status-unknown",
+    name_i18n: {
+      ar: "الوضع العائلي",
+      en: "Marital Status",
+      ku: "باری خێزانداری",
+      'ku-IQ': "بارودوخێ هەڤژینیێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "single",
+        display_text: {
+          ar: "عزباء",
+          en: "Single",
+          ku: "سەڵت",
+          'ku-IQ': "سینگل"
+        }
+      },
+      {
+        id: "married_cohabitating",
+        display_text: {
+          ar: "متزوجة / معاشرة دون زواج",
+          en: "Married/Cohabitating",
+          ku: "هاوسەر / هاوژین",
+          'ku-IQ': "ژیانا هەڤژینیێ پێکئینایە"
+        }
+      },
+      {
+        id: "divorced_separated",
+        display_text: {
+          ar: "مطلقة / منفصلة عن الشريك",
+          en: "Divorced/Separated",
+          ku: "تەلاقدارو/ جیابووەوە",
+          'ku-IQ': "ژێکجودابوویی"
+        }
+      },
+      {
+        id: "widowed",
+        display_text: {
+          ar: "أرمل",
+          en: "Widowed",
+          ku: "بێوەژن",
+          'ku-IQ': "بێژنی\\بێوەژن"
+        }
+      },
+      {
+        id: "unknown_not_applicable",
+        display_text: {
+          ar: "غير معروف / لا ينطبق",
+          en: "Unknown/Not Applicable",
+          ku: "نەزانراو / نیە",
+          'ku-IQ': "نە زانیار\\ نەپەیوەندیدار"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-form-group-gbv-incident",
+    name_i18n: {
+      ar: "مجموعات النموذج - حادثة العنف المبني على النوع الاجتماعي",
+      en: "Form Groups - GBV Incident",
+      ku: "كۆمەڵەكانی نموونە- رووداوی توندوتیژی جێندەری",
+      'ku-IQ': "گرۆپێن دی - بوویەرا تۆندووتیژیا رەگەزی"
+    },
+    lookup_values_i18n: [
+      {
+        id: "gbv_individual_details",
+        display_text: {
+          ar: "تفاصيل عن الناجية/ الناجي من العنف المبني على النوع الإجتماعي",
+          en: "GBV Individual Details",
+          ku: "ووردەكارییە كەسییەكانی توندوتیژی جێندەری",
+          'ku-IQ': "هووردەکاریێن تاکەکسی یێن تۆندووتیژیا رەگەزی"
+        }
+      },
+      {
+        id: "incident",
+        display_text: {
+          ar: "حادثة",
+          en: "Incident",
+          ku: "رووداو",
+          'ku-IQ': "بوویەر"
+        }
+      },
+      {
+        id: "type_of_violence",
+        display_text: {
+          ar: "نوع العنف",
+          en: "Type of Violence",
+          ku: "جۆری توندوتیژی",
+          'ku-IQ': "جورێ تۆندووتیژیێ"
+        }
+      },
+      {
+        id: "record_owner",
+        display_text: {
+          ar: "مالك السجل",
+          en: "Record Owner",
+          ku: "خاوەنی تۆمار",
+          'ku-IQ': "خودانێ تۆمارێ"
+        }
+      },
+      {
+        id: "alleged_perpetrator",
+        display_text: {
+          ar: "الجاني المزعوم",
+          en: "Alleged Perpetrator",
+          ku: "گومانلێكراو",
+          'ku-IQ': "تاوانبارێ گۆمانلێکری"
+        }
+      },
+      {
+        id: "service_referral",
+        display_text: {
+          ar: "إحالة إلى خدمة",
+          en: "Service Referral",
+          ku: "رەوانەكردنی خزمەتگوزاری",
+          'ku-IQ': "خزمەتگۆزاریا رەوانەکرنێ"
+        }
+      },
+      {
+        id: "other_reportable_fields",
+        display_text: {
+          ar: "الحقول الأخرى التي يمكن الإبلاغ عنها",
+          en: "Other Reportable Fields",
+          ku: "ئەو بوارانەی دیكە كە دەكرێت هەواڵیان لەبارەوە بدرێت",
+          'ku-IQ': "بیاڤێن دی یێن راپۆرتکرنێ"
+        }
+      },
+      {
+        id: "record_information",
+        display_text: {
+          ar: "معلومات السجل",
+          en: "Record Information",
+          ku: "تۆماری زانیاری",
+          'ku-IQ': "تۆمارا پێزانینا"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-incident-identification",
+    name_i18n: {
+      ar: "تحديد الحادثة",
+      en: "Incident Identification",
+      ku: "دەستنیشانکردنی ڕووداو",
+      'ku-IQ': "دەستنیشاکرنا ریدانێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "disclosure_complaint_by_the_abused_person_or_family_member",
+        display_text: {
+          ar: "إفصاح عن الحادثة / شكوى من الشخص المعتدى عليه أو أحد أفراد أسرته",
+          en: "Disclosure / complaint by the abused person or family member",
+          ku: "ئاشكراكردن / سكاڵای ئەو كەسەی دەستدرێژی كراوەتە سەر خۆی یان ئەندامێكی خێزانەكەی",
+          'ku-IQ': "ئاشکراکرنا نهێنیان یان سکالا ژ لایێ کەسێ دەستدرێژی ل سەر هاتیە کرن یان ئەندامێن خێزانێ"
+        }
+      },
+      {
+        id: "discovered_by_service_provider",
+        display_text: {
+          ar: "تم اكتشافها من قبل مقدم الخدمة",
+          en: "Discovered by service provider",
+          ku: "لەلایەن دابینەکەری خزمەتگوزاری دۆزرایەوە",
+          'ku-IQ': "هاتیە ئاشکراکرن ژ لایێ دابینکەرێ خزمەتگۆزاریێ ڤە"
+        }
+      },
+      {
+        id: "report_by_the_institution_providing_the_service_discovery",
+        display_text: {
+          ar: "الإبلاغ عنها من قبل المؤسسة التي تقدم الخدمة (اكتشاف)",
+          en: "Report by the institution providing the service (discovery)",
+          ku: "لەلایەن دەزگای دابینکەری خزمەتگوزاری ریپۆرتكراوە (دۆزینەوە)",
+          'ku-IQ': "راپۆرت ژ لایێ سازیا خزمەتێ ڤە دابین دکەت (کەشف کرن"
+        }
+      },
+      {
+        id: "other",
+        display_text: {
+          ar: "أخرى",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-incident-location",
+    name_i18n: {
+      ar: "موقع الحادثة",
+      en: "Incident Location",
+      ku: "شوێنی رووداو",
+      'ku-IQ': "جهێ ریدانێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "home",
+        display_text: {
+          ar: "المنزل",
+          en: "Home",
+          ku: "ماڵ",
+          'ku-IQ': "مال"
+        }
+      },
+      {
+        id: "street",
+        display_text: {
+          ar: "الشارع",
+          en: "Street",
+          ku: "شەقام",
+          'ku-IQ': "جادە"
+        }
+      },
+      {
+        id: "school",
+        display_text: {
+          ar: "المدرسة",
+          en: "School",
+          ku: "قوتابخانە",
+          'ku-IQ': "قوتابخانە"
+        }
+      },
+      {
+        id: "work_place",
+        display_text: {
+          ar: "مكان العمل",
+          en: "Work Place",
+          ku: "شوێنی كار",
+          'ku-IQ': "جهێ کاری"
+        }
+      },
+      {
+        id: "other",
+        display_text: {
+          ar: "أماكن أخرى",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-incident-status",
+    name_i18n: {
+      ar: "الوضع الراهن لملف الحادثة",
+      en: "Incident Status",
+      ku: "باری روداوەکە",
+      'ku-IQ': "بارودوخێ ریدانێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "open",
+        display_text: {
+          ar: "مفتوح",
+          en: "Open",
+          ku: "كراوە",
+          'ku-IQ': "ڤەکری"
+        }
+      },
+      {
+        id: "closed",
+        display_text: {
+          ar: "مغلق",
+          en: "Closed",
+          ku: "داخراو",
+          'ku-IQ': "گرتی"
+        }
+      },
+      {
+        id: "duplicate",
+        display_text: {
+          ar: "مكرر",
+          en: "Duplicate",
+          ku: "دووبارە",
+          'ku-IQ': "دوبارەکری"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-inquiry-status",
+    name_i18n: {
+      ar: "وضع التحقيق",
+      en: "Inquiry Status",
+      ku: "حالەتی لێپێچانەوە",
+      'ku-IQ': "بارودوخێ پرسیارکرنێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "open",
+        display_text: {
+          ar: "مفتوح",
+          en: "Open",
+          ku: "كراوە",
+          'ku-IQ': "ڤەکری"
+        }
+      },
+      {
+        id: "closed",
+        display_text: {
+          ar: "مغلق",
+          en: "Closed",
+          ku: "داخراو",
+          'ku-IQ': "گرتی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-language",
+    name_i18n: {
+      ar: "اللغة",
+      en: "Language",
+      ku: "زمان",
+      'ku-IQ': "زمان"
+    },
+    lookup_values_i18n: [
+      {
+        id: "language1",
+        display_text: {
+          ar: "لغة 1",
+          en: "Language1",
+          ku: "زمان1",
+          'ku-IQ': "زمان 1"
+        }
+      },
+      {
+        id: "language2",
+        display_text: {
+          ar: "لغة 2",
+          en: "Language2",
+          ku: "زمان2",
+          'ku-IQ': "زمان 2"
+        }
+      },
+      {
+        id: "language3",
+        display_text: {
+          ar: "لغة 3",
+          en: "Language3",
+          ku: "زمان3",
+          'ku-IQ': "زمان 3"
+        }
+      },
+      {
+        id: "language4",
+        display_text: {
+          ar: "لغة 4",
+          en: "Language4",
+          ku: "زمان4",
+          'ku-IQ': "زمان 4"
+        }
+      },
+      {
+        id: "language5",
+        display_text: {
+          ar: "لغة 5",
+          en: "Language5",
+          ku: "زمان5",
+          'ku-IQ': "زمان 5"
+        }
+      },
+      {
+        id: "language6",
+        display_text: {
+          ar: "لغة 6",
+          en: "Language6",
+          ku: "زمان6",
+          'ku-IQ': "زمان 6"
+        }
+      },
+      {
+        id: "language7",
+        display_text: {
+          ar: "لغة 7",
+          en: "Language7",
+          ku: "زمان7",
+          'ku-IQ': "زمان 7"
+        }
+      },
+      {
+        id: "language8",
+        display_text: {
+          ar: "لغة 8",
+          en: "Language8",
+          ku: "زمان8",
+          'ku-IQ': "زمان 8"
+        }
+      },
+      {
+        id: "language9",
+        display_text: {
+          ar: "لغة 9",
+          en: "Language9",
+          ku: "زمان9",
+          'ku-IQ': "زمان 9"
+        }
+      },
+      {
+        id: "language10",
+        display_text: {
+          ar: "لغة 10",
+          en: "Language10",
+          ku: "زمان10",
+          'ku-IQ': "زمان 10"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-location-type",
+    name_i18n: {
+      ar: "نوع الموقع",
+      en: "Location Type",
+      ku: "جۆری شوێن",
+      'ku-IQ': "جورێ جهی"
+    },
+    lookup_values_i18n: [
+      {
+        id: "country",
+        display_text: {
+          ar: "دولة",
+          en: "Country",
+          ku: "وڵات",
+          'ku-IQ': "وەلات"
+        }
+      },
+      {
+        id: "region",
+        display_text: {
+          ar: "منطقة",
+          en: "Region",
+          ku: "هەرێم",
+          'ku-IQ': "دەڤەر"
+        }
+      },
+      {
+        id: "province",
+        display_text: {
+          ar: "إقليم",
+          en: "Province",
+          ku: "پارێزگا",
+          'ku-IQ': "هەرێم"
+        }
+      },
+      {
+        id: "district",
+        display_text: {
+          ar: "قضاء",
+          en: "District",
+          ku: "قەزا",
+          'ku-IQ': "قەزا"
+        }
+      },
+      {
+        id: "governorate",
+        display_text: {
+          ar: "محافظة",
+          en: "Governorate",
+          ku: "پارێزگا",
+          'ku-IQ': "پارێزگە"
+        }
+      },
+      {
+        id: "chiefdom",
+        display_text: {
+          ar: "مشيخة",
+          en: "Chiefdom",
+          ku: "شێخنشینی",
+          'ku-IQ': "دەڤەرا ژ لایێ مەزنەک\\شێخەکی ڤە دهێتە برێڤەبرن"
+        }
+      },
+      {
+        id: "state",
+        display_text: {
+          ar: "ولاية",
+          en: "State",
+          ku: "ویلایەت",
+          'ku-IQ': "بارودوخ"
+        }
+      },
+      {
+        id: "city",
+        display_text: {
+          ar: "مدينة",
+          en: "City",
+          ku: "شار",
+          'ku-IQ': "باژێر"
+        }
+      },
+      {
+        id: "county",
+        display_text: {
+          ar: "مقاطعة",
+          en: "County",
+          ku: "کاونتی",
+          'ku-IQ': "وەلات"
+        }
+      },
+      {
+        id: "camp",
+        display_text: {
+          ar: "مخيم",
+          en: "Camp",
+          ku: "كەمپ",
+          'ku-IQ': "کەمپ"
+        }
+      },
+      {
+        id: "site",
+        display_text: {
+          ar: "مركز",
+          en: "Site",
+          ku: "شوێن",
+          'ku-IQ': "جهـ"
+        }
+      },
+      {
+        id: "village",
+        display_text: {
+          ar: "قرية",
+          en: "Village",
+          ku: "گوند",
+          'ku-IQ': "گوند"
+        }
+      },
+      {
+        id: "zone",
+        display_text: {
+          ar: "نطاق",
+          en: "Zone",
+          ku: "ناوچە",
+          'ku-IQ': "زون"
+        }
+      },
+      {
+        id: "sub_district",
+        display_text: {
+          ar: "قضاء فرعي",
+          en: "Sub District",
+          ku: "ناحیە",
+          'ku-IQ': "باژاروک"
+        }
+      },
+      {
+        id: "locality",
+        display_text: {
+          ar: "ناحية",
+          en: "Locality",
+          ku: "شوێن",
+          'ku-IQ': "خوجهی"
+        }
+      },
+      {
+        id: "prefecture",
+        display_text: {
+          ar: "Prefecture",
+          en: "Prefecture",
+          ku: "والینشین",
+          'ku-IQ': "قەزا"
+        }
+      },
+      {
+        id: "sub-prefecture",
+        display_text: {
+          ar: "Sub-Prefecture",
+          en: "Sub-Prefecture",
+          ku: "والینشینی لاوەكی",
+          'ku-IQ': "قەزایا نەسەرەکی"
+        }
+      },
+      {
+        id: "commune",
+        display_text: {
+          ar: "Commune",
+          en: "Commune",
+          ku: "كۆمەڵە",
+          'ku-IQ': "باژێرڤانی"
+        }
+      },
+      {
+        id: "payam",
+        display_text: {
+          ar: "Payam",
+          en: "Payam",
+          ku: "پەیام",
+          'ku-IQ': "پەیام"
+        }
+      },
+      {
+        id: "other",
+        display_text: {
+          ar: "أخرى",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-marital-status",
+    name_i18n: {
+      ar: "الوضع العائلي",
+      en: "Marital Status",
+      ku: "باری هاوسەرگیری",
+      'ku-IQ': "بارودوخێ هەڤژینیێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "single",
+        display_text: {
+          ar: "عزباء",
+          en: "Single",
+          ku: "سەڵت",
+          'ku-IQ': "سینگل"
+        }
+      },
+      {
+        id: "married_cohabitating",
+        display_text: {
+          ar: "متزوجة / معاشرة دون زواج",
+          en: "Married/Cohabitating",
+          ku: "هاوسەرگیر / هاوژین",
+          'ku-IQ': "ژیانا هەڤژینیێ پێکئینایە"
+        }
+      },
+      {
+        id: "divorced_separated",
+        display_text: {
+          ar: "مطلقة / منفصلة عن الشريك",
+          en: "Divorced/Separated",
+          ku: "تەڵاقدراو/ جیابووەوە",
+          'ku-IQ': "ژێکجودابوویی"
+        }
+      },
+      {
+        id: "widowed",
+        display_text: {
+          ar: "أرملة",
+          en: "Widowed",
+          ku: "بێوەژن",
+          'ku-IQ': "بێژنی\\بێوەژن"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-marital-status-with-spouse",
+    name_i18n: {
+      ar: "الوضع العائلي",
+      en: "Marital Status",
+      ku: "باری هاوسەرگیری",
+      'ku-IQ': "بارودوخێ هەڤژینیێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "single",
+        display_text: {
+          ar: "عزباء",
+          en: "Single",
+          ku: "سەڵت",
+          'ku-IQ': "سینگل"
+        }
+      },
+      {
+        id: "married_cohabitating",
+        display_text: {
+          ar: "متزوجة / معاشرة دون زواج",
+          en: "Married/Cohabitating",
+          ku: "هاوسەر / هاوژین",
+          'ku-IQ': "ژیانا هەڤژینیێ پێکئینایە"
+        }
+      },
+      {
+        id: "divorced_separated",
+        display_text: {
+          ar: "مطلقة / منفصلة عن الشريك",
+          en: "Divorced/Separated",
+          ku: "تەڵاقدارو/ جیابووەوە",
+          'ku-IQ': "ژێکجودابوویی"
+        }
+      },
+      {
+        id: "widowed",
+        display_text: {
+          ar: "أرملة",
+          en: "Widowed",
+          ku: "بێوەژن",
+          'ku-IQ': "بێژنی\\بێوەژن"
+        }
+      },
+      {
+        id: "with_spouse",
+        display_text: {
+          ar: "",
+          en: "With Partner/Spouse",
+          ku: "لەگەڵ مێرد / هاوژین",
+          'ku-IQ': "دگەل هەڤال یان هەڤالێ ژیانێ"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-nationality",
+    name_i18n: {
+      ar: "الجنسية",
+      en: "Nationality",
+      ku: "رەگەزنامە",
+      'ku-IQ': "نەتەوە"
+    },
+    lookup_values_i18n: [
+      {
+        id: "nationality1",
+        display_text: {
+          ar: "جنسية 1",
+          en: "Nationality1",
+          ku: "رەگەزنامە1",
+          'ku-IQ': "نەتەوە 1"
+        }
+      },
+      {
+        id: "nationality2",
+        display_text: {
+          ar: "جنسية 2",
+          en: "Nationality2",
+          ku: "رەگەزنامە2",
+          'ku-IQ': "نەتەوە 2"
+        }
+      },
+      {
+        id: "nationality3",
+        display_text: {
+          ar: "جنسية 3",
+          en: "Nationality3",
+          ku: "رەگەزنامە3",
+          'ku-IQ': "نەتەوە 3"
+        }
+      },
+      {
+        id: "nationality4",
+        display_text: {
+          ar: "جنسية 4",
+          en: "Nationality4",
+          ku: "رەگەزنامە4",
+          'ku-IQ': "نەتەوە 4"
+        }
+      },
+      {
+        id: "nationality5",
+        display_text: {
+          ar: "جنسية 5",
+          en: "Nationality5",
+          ku: "رەگەزنامە5",
+          'ku-IQ': "نەتەوە 5"
+        }
+      },
+      {
+        id: "nationality6",
+        display_text: {
+          ar: "جنسية 6",
+          en: "Nationality6",
+          ku: "رەگەزنامە6",
+          'ku-IQ': "نەتەوە 6"
+        }
+      },
+      {
+        id: "nationality7",
+        display_text: {
+          ar: "جنسية 7",
+          en: "Nationality7",
+          ku: "رەگەزنامە7",
+          'ku-IQ': "نەتەوە 7"
+        }
+      },
+      {
+        id: "nationality8",
+        display_text: {
+          ar: "جنسية 8",
+          en: "Nationality8",
+          ku: "رەگەزنامە8",
+          'ku-IQ': "نەتەوە 8"
+        }
+      },
+      {
+        id: "nationality9",
+        display_text: {
+          ar: "جنسية 9",
+          en: "Nationality9",
+          ku: "رەگەزنامە9",
+          'ku-IQ': "نەتەوە 9"
+        }
+      },
+      {
+        id: "nationality10",
+        display_text: {
+          ar: "جنسية 10",
+          en: "Nationality10",
+          ku: "رەگەزنامە10",
+          'ku-IQ': "نەتەوە 10"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-perpetrator-relationship",
+    name_i18n: {
+      ar: "علاقة الجاني مع الناجية",
+      en: "Perpetrator Relationship",
+      ku: "پەیوەندی تاوانکار",
+      'ku-IQ': "پەیوەندیا تاوانباری"
+    },
+    lookup_values_i18n: [
+      {
+        id: "intimate_partner_former_partner",
+        display_text: {
+          ar: "شريك حميم / شريك سابق",
+          en: "Intimate Partner / Former Partner",
+          ku: "هاوژین / هاوژینی پێشوو",
+          'ku-IQ': "هەڤالێ نێزیک یان هەڤالێ بەرێ"
+        }
+      },
+      {
+        id: "primary_caregiver",
+        display_text: {
+          ar: "مقدم الرعاية الرئيسي",
+          en: "Primary Caregiver",
+          ku: "چاودێریکەری سەرەكی",
+          'ku-IQ': "چاڤدێرێ سەرەکی"
+        }
+      },
+      {
+        id: "family_other_than_spouse_or_caregiver",
+        display_text: {
+          ar: "الأسرة بخلاف الزوج أو مقدم الرعاية",
+          en: "Family other than spouse or caregiver",
+          ku: "خێزان جگە لە هاوسەر و بایەخپێدەر",
+          'ku-IQ': "خێزان جۆدا ژ هەڤالێ ژیانێ یان چاڤدێری"
+        }
+      },
+      {
+        id: "supervisor_employer",
+        display_text: {
+          ar: "المشرف / صاحب العمل",
+          en: "Supervisor / Employer",
+          ku: "سەرپەرشتیار / خاوەنكار",
+          'ku-IQ': "سەرپەرشت یان خودانێ کاری"
+        }
+      },
+      {
+        id: "schoolmate",
+        display_text: {
+          ar: "زميل الدراسة",
+          en: "Schoolmate",
+          ku: "هاوقوتابخانە(لەهەمان قوتابخانە)",
+          'ku-IQ': "هەڤالێ قوتابخانێ"
+        }
+      },
+      {
+        id: "teacher_school_official",
+        display_text: {
+          ar: "المعلم / مسؤول المدرسة",
+          en: "Teacher / School Official",
+          ku: "مامۆستا / کارمەندی بەرپرس لە قوتابخانە",
+          'ku-IQ': "ماموستا یان بەرپرسێ قوتابخانێ"
+        }
+      },
+      {
+        id: "service_provider",
+        display_text: {
+          ar: "مقدم الخدمة",
+          en: "Service Provider",
+          ku: "دابینکەری خزمەتگوزاری",
+          'ku-IQ': "دابینکەرێ خزمەتگۆزاریێ"
+        }
+      },
+      {
+        id: "cotenant_housemate",
+        display_text: {
+          ar: "شريك أو نزيل السكن",
+          en: "Cotenant / Housemate",
+          ku: "هاوكرێچی/ هاوماڵ",
+          'ku-IQ': "هەڤکارێ مال"
+        }
+      },
+      {
+        id: "family_friend_neighbor",
+        display_text: {
+          ar: "صديق الأسرة / أحد الجيران",
+          en: "Family Friend/Neighbor",
+          ku: "هاوڕێی خێزان / دراوسێ",
+          'ku-IQ': "هەڤالێ خێزانێ یان جیران"
+        }
+      },
+      {
+        id: "other_refugee_idp_returnee",
+        display_text: {
+          ar: "أحد اللاجئين أو النازحين أو العائدين",
+          en: "Other refugee / IDP / Returnee",
+          ku: "پەنابەر / ئاوارە / گەڕاوەی تر",
+          'ku-IQ': "پەنابەر یان ئاوارە یان ڤەگەریایێ دی"
+        }
+      },
+      {
+        id: "other_resident_community_member",
+        display_text: {
+          ar: "أحد أفراد المجتمع المحلي",
+          en: "Other resident community member",
+          ku: "ئاندامی تر كۆمەڵگەی نیشتەجێبوون",
+          'ku-IQ': "ئەندامێن دی یێن جڤاکێ ئاکنجی"
+        }
+      },
+      {
+        id: "other",
+        display_text: {
+          ar: "أخرى",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
+      },
+      {
+        id: "no_relation",
+        display_text: {
+          ar: "لا توجد علاقة",
+          en: "No relation",
+          ku: "پەیوەندی نیە",
+          'ku-IQ': "چ پەیوەندی نینە"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          ar: "غير معروفة",
+          en: "Unknown",
+          ku: "نەزانراو",
+          'ku-IQ': "ثةيوةنديا تومةتبارى دطةل كةسى رزطاربوى - نةديار"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-protection-concerns",
+    name_i18n: {
+      ar: "مخاوف الحماية",
+      en: "Protection Concerns",
+      ku: "نیگەرانیەکانی پاراستن",
+      'ku-IQ': "نیگەرانیێن پاراستنێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "sexually_exploited",
+        display_text: {
+          ar: "الاستغلال الجنسي",
+          en: "Sexually Exploited",
+          ku: "قۆستنەوەی سێكسی",
+          'ku-IQ': "ئیستغلالا سکسی"
+        }
+      },
+      {
+        id: "gbv_survivor",
+        display_text: {
+          ar: "ناجي \\ ناجية من العنف القائم على اساس النوع الاجتماعي",
+          en: "GBV survivor",
+          ku: "رزگاربووی توندوتیژی لەسەر بنچینەی جێندەر GBV",
+          'ku-IQ': "رزگاربوویێ توندو تیژی لسەر بنیاتێ رەگەزی"
+        }
+      },
+      {
+        id: "trafficked_smuggled",
+        display_text: {
+          ar: "التهريب / الاتجار بالبشر",
+          en: "Trafficked/smuggled",
+          ku: "بازرگانی پێوەكراو / بە قاچاخ هێنراو",
+          'ku-IQ': "هاتیە قاچاخچیکرن"
+        }
+      },
+      {
+        id: "statelessness",
+        display_text: {
+          ar: "انعدام الجنسية",
+          en: "Statelessness",
+          ku: "بێ ڕەگەزنامە",
+          'ku-IQ': "بێی ناسنامە"
+        }
+      },
+      {
+        id: "arrested_detained",
+        display_text: {
+          ar: "الاعتقال / الاحتجاز",
+          en: "Arrested/Detained",
+          ku: "گیراو / راگیراو",
+          'ku-IQ': "دەستەسەرکری\\ گرتی"
+        }
+      },
+      {
+        id: "migrant",
+        display_text: {
+          ar: "الهجرة",
+          en: "Migrant",
+          ku: "كۆچبەر",
+          'ku-IQ': "کوچبەر"
+        }
+      },
+      {
+        id: "disabled",
+        display_text: {
+          ar: "الإعاقة",
+          en: "Disabled",
+          ku: "پەككەوتە",
+          'ku-IQ': "پەککەفتی یان کێم ئەندام"
+        }
+      },
+      {
+        id: "serious_health_issue",
+        display_text: {
+          ar: "مشكلة صحية خطيرة",
+          en: "Serious health issue",
+          ku: "كێشەی تەندروستی جدی",
+          'ku-IQ': "ئاریشێن رژدێن ساخلەمیێ"
+        }
+      },
+      {
+        id: "refugee",
+        display_text: {
+          ar: "اللجوء",
+          en: "Refugee",
+          ku: "پەنابەر",
+          'ku-IQ': "پەنابەر"
+        }
+      },
+      {
+        id: "caafag",
+        display_text: {
+          ar: "تجنيد الأطفال",
+          en: "CAAFAG",
+          ku: "منداڵانی پەیوەست بە گروپە چەكدارەكان",
+          'ku-IQ': "زارۆکێن گرێدایی هێز و گروپێن چەکدار                                                                                                       Children Associated with Armed Forces and Armed Groups"
+        }
+      },
+      {
+        id: "street_child",
+        display_text: {
+          ar: "أطفال الشوارع",
+          en: "Street child",
+          ku: "منداڵی سەرشەقام",
+          'ku-IQ': "زاروکێ سەر جادێ"
+        }
+      },
+      {
+        id: "child_mother",
+        display_text: {
+          ar: "أم لطفل",
+          en: "Child Mother",
+          ku: "دایکێکی منداڵ",
+          'ku-IQ': "دەيکا زاروك"
+        }
+      },
+      {
+        id: "physically_or_mentally_abused",
+        display_text: {
+          ar: "الإيذاء الجسدي أو النفسي",
+          en: "Physically or Mentally Abused",
+          ku: "مامەڵەی خراپ لەگەڵ كراو لە رووی جەستەیی یان عەقلی",
+          'ku-IQ': "ژ لایێ فیزیکی یان مێشکی ڤە دەستدرێژیا ل سەر هاتیە کرن"
+        }
+      },
+      {
+        id: "living_with_vulnerable_person",
+        display_text: {
+          ar: "العيش مع شخص مستضعف",
+          en: "Living with vulnerable person",
+          ku: "لەگەڵ كەسێك دەژی کە مەترسی لەسەرە",
+          'ku-IQ': "دگەل کەسەکێ بێهێز دژیت"
+        }
+      },
+      {
+        id: "worst_forms_of_child_labor",
+        display_text: {
+          ar: "أسوأ أشكال عمالة الأطفال",
+          en: "Worst Forms of Child Labor",
+          ku: "خراپترین شێوەی كاركردنی منداڵ",
+          'ku-IQ': "نەخوشترین شێوازێ کرێکاریا زاروکا"
+        }
+      },
+      {
+        id: "child_headed_household",
+        display_text: {
+          ar: "أسرة يعيلها طفل",
+          en: "Child Headed Household",
+          ku: "سەرۆک خێزانی منداڵ",
+          'ku-IQ': "زاروکێ مالێ برێڤەدبەت"
+        }
+      },
+      {
+        id: "mentally_distressed",
+        display_text: {
+          ar: "الاضطراب النفسي",
+          en: "Mentally Distressed",
+          ku: "خەمگین لە روی عەقلیەوە",
+          'ku-IQ': "ژلایێ مێشکی ڤە نەئارام"
+        }
+      },
+      {
+        id: "other",
+        display_text: {
+          ar: "أخرى",
+          en: "Other",
+          ku: "هی تر",
+          'ku-IQ': "یێن دی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-protection-status",
+    name_i18n: {
+      ar: "الوضع الراهن للحماية",
+      en: "Protection Status",
+      ku: "باری پاراستن",
+      'ku-IQ': "بارودوخێ پاراستنێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "unaccompanied",
+        display_text: {
+          ar: "غير مصحوبة",
+          en: "Unaccompanied",
+          ku: "بێ هاوەڵ",
+          'ku-IQ': "بتنێ"
+        }
+      },
+      {
+        id: "separated",
+        display_text: {
+          ar: "منفصلة",
+          en: "Separated",
+          ku: "جیابووەوە",
+          'ku-IQ': "جودابوویی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-religion",
+    name_i18n: {
+      ar: "الدين",
+      en: "Religion",
+      ku: "ئاین",
+      'ku-IQ': "ئاین"
+    },
+    lookup_values_i18n: [
+      {
+        id: "religion1",
+        display_text: {
+          ar: "دين 1",
+          en: "Religion1",
+          ku: "ئاین1",
+          'ku-IQ': "ئاین 1"
+        }
+      },
+      {
+        id: "religion2",
+        display_text: {
+          ar: "دين 2",
+          en: "Religion2",
+          ku: "ئاین2",
+          'ku-IQ': "ئاین 2"
+        }
+      },
+      {
+        id: "religion3",
+        display_text: {
+          ar: "دين 3",
+          en: "Religion3",
+          ku: "ئاین3",
+          'ku-IQ': "ئاین 3"
+        }
+      },
+      {
+        id: "religion4",
+        display_text: {
+          ar: "دين 4",
+          en: "Religion4",
+          ku: "ئاین4",
+          'ku-IQ': "ئاین 4"
+        }
+      },
+      {
+        id: "religion5",
+        display_text: {
+          ar: "دين 5",
+          en: "Religion5",
+          ku: "ئاین5",
+          'ku-IQ': "ئاین 5"
+        }
+      },
+      {
+        id: "religion6",
+        display_text: {
+          ar: "دين 6",
+          en: "Religion6",
+          ku: "ئاین6",
+          'ku-IQ': "ئاین 6"
+        }
+      },
+      {
+        id: "religion7",
+        display_text: {
+          ar: "دين 7",
+          en: "Religion7",
+          ku: "ئاین7",
+          'ku-IQ': "ئاین 7"
+        }
+      },
+      {
+        id: "religion8",
+        display_text: {
+          ar: "دين 8",
+          en: "Religion8",
+          ku: "ئاین8",
+          'ku-IQ': "ئاین 8"
+        }
+      },
+      {
+        id: "religion9",
+        display_text: {
+          ar: "دين 9",
+          en: "Religion9",
+          ku: "ئاین9",
+          'ku-IQ': "ئاین 9"
+        }
+      },
+      {
+        id: "religion10",
+        display_text: {
+          ar: "دين 10",
+          en: "Religion10",
+          ku: "ئاین10",
+          'ku-IQ': "ئاین 10"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-reporting-location-type",
+    name_i18n: {
+      en: "Reporting Location Type"
+    },
+    lookup_values_i18n: [
+      {
+        id: "province",
+        display_text: {
+          en: "Province"
+        }
+      },
+      {
+        id: "district",
+        display_text: {
+          en: "District"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-risk-level",
+    name_i18n: {
+      ar: "مستوى المخاطر",
+      en: "Risk Level",
+      ku: "ئاستی مەترسی",
+      'ku-IQ': "ئاستێ مەترسیێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "high",
+        display_text: {
+          ar: "عالي",
+          en: "High",
+          ku: "بەرز",
+          'ku-IQ': "بلند"
+        }
+      },
+      {
+        id: "medium",
+        display_text: {
+          ar: "متوسط",
+          en: "Medium",
+          ku: "ناوەند",
+          'ku-IQ': "مام ناڤەند"
+        }
+      },
+      {
+        id: "low",
+        display_text: {
+          ar: "منخفض",
+          en: "Low",
+          ku: "نزم",
+          'ku-IQ': "نزم"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-separation-cause",
+    name_i18n: {
+      ar: "سبب الانفصال",
+      en: "Separation Cause",
+      ku: "هۆكاری جیابوونەوە",
+      'ku-IQ': "ئەگەرێ جودابوونێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "conflict",
+        display_text: {
+          ar: "نزاع",
+          en: "Conflict",
+          ku: "ململانێ",
+          'ku-IQ': "ناکوکی"
+        }
+      },
+      {
+        id: "death",
+        display_text: {
+          ar: "الموت",
+          en: "Death",
+          ku: "مردن",
+          'ku-IQ': "مرن"
+        }
+      },
+      {
+        id: "family_abuse_violence_exploitation",
+        display_text: {
+          ar: "إيذاء / عنف / استغلال من قبل الأسرة",
+          en: "Family abuse/violence/exploitation",
+          ku: "مامەڵەی خراپی/توندوتیژی/قۆستنەوەی خێزانی",
+          'ku-IQ': "دەستدرێژی یان تۆندووتیژی یان ئستیغلال یا خێزانی "
+        }
+      },
+      {
+        id: "lack_of_access_to_services_support",
+        display_text: {
+          ar: "عدم الحصول على الخدمات / الدعم",
+          en: "Lack of access to services/support",
+          ku: "نەبوونی دەستگەیشتن بە خزمەتگوزاری / پاڵپشتی",
+          'ku-IQ': "نەبوونا گەهشتن ب خزمەتگۆزاریا یان پشتەڤانیێ"
+        }
+      },
+      {
+        id: "caafag",
+        display_text: {
+          ar: "تجنيد الأطفال",
+          en: "CAAFAG",
+          ku: "منداڵانی پەیوەست بە گروپە چەكدارەكان",
+          'ku-IQ': "زارۆکێن گرێدایی هێز و گروپێن چەکدار Children Associated with Armed Forces and Armed Groups"
+        }
+      },
+      {
+        id: "sickness_of_family_member",
+        display_text: {
+          ar: "مرض أحد أفراد الأسرة",
+          en: "Sickness of family member",
+          ku: "نەخۆشی ئەندامێكی خێزان",
+          'ku-IQ': "نساخبوونا ئەندامێن خێزانێ"
+        }
+      },
+      {
+        id: "entrusted_into_the_care_of_an_individual",
+        display_text: {
+          ar: "الوضع تحت رعاية شخص آخر",
+          en: "Entrusted into the care of an individual",
+          ku: "متمانە پێکراو بە چاودێری تاكێك",
+          'ku-IQ': "هاتیە بەرپرس کرن بۆ چاڤدێریکرنا کەسەکی"
+        }
+      },
+      {
+        id: "arrest_and_detention",
+        display_text: {
+          ar: "الاعتقال أو الاحتجاز",
+          en: "Arrest and detention",
+          ku: "دەستگیرکردن و راگرتن",
+          'ku-IQ': "دەستەسەرکرن و گرتن"
+        }
+      },
+      {
+        id: "abandonment",
+        display_text: {
+          ar: "الهجر",
+          en: "Abandonment",
+          ku: "پەراوێزخراو",
+          'ku-IQ': "هێلان"
+        }
+      },
+      {
+        id: "repatriation",
+        display_text: {
+          ar: "العودة",
+          en: "Repatriation",
+          ku: "گەڕانەوە بۆ وڵات",
+          'ku-IQ': "ڤەگەریان بۆ وەلاتی"
+        }
+      },
+      {
+        id: "population_movement",
+        display_text: {
+          ar: "حركة السكان",
+          en: "Population movement",
+          ku: "جوڵەی دانیشتوان",
+          'ku-IQ': "لڤینا ئاکنجیا"
+        }
+      },
+      {
+        id: "migration",
+        display_text: {
+          ar: "هجرة",
+          en: "Migration",
+          ku: "كۆچ",
+          'ku-IQ': "کوچبەری"
+        }
+      },
+      {
+        id: "poverty",
+        display_text: {
+          ar: "فقر",
+          en: "Poverty",
+          ku: "هەژاری",
+          'ku-IQ': "هەژاری"
+        }
+      },
+      {
+        id: "natural_disaster",
+        display_text: {
+          ar: "كارثة طبيعية",
+          en: "Natural disaster",
+          ku: "كارەساتی سروشتی",
+          'ku-IQ': "کارەساتێن سروشتی"
+        }
+      },
+      {
+        id: "divorce_remarriage",
+        display_text: {
+          ar: "طلاق / زواج مرة أخرى",
+          en: "Divorce/remarriage",
+          ku: "جیابوونەوە/دووبارە هاوسەرگیری",
+          'ku-IQ': "جودابووی\\ دوبارە هەڤژینی پێکئینای"
+        }
+      },
+      {
+        id: "other_please_specify",
+        display_text: {
+          ar: "أخرى (يرجى التحديد)",
+          en: "Other (please specify)",
+          ku: "هی تر (تكایە دیاریبكە)",
+          'ku-IQ': "(یێن دی (هیڤیدارین دەستنیشان بکە"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-service-implemented",
+    name_i18n: {
+      ar: "تنفيذ الخدمة",
+      en: "Service Implemented",
+      ku: "خزمەتگوزاری جێبەجێكراو",
+      'ku-IQ': "خزمەتگۆزاری هاتیە جێبەجێکرن"
+    },
+    lookup_values_i18n: [
+      {
+        id: "not_implemented",
+        display_text: {
+          ar: "لم يتم تنفيذها",
+          en: "Not Implemented",
+          ku: "جێبەجێنەكراو",
+          'ku-IQ': "نەهاتیە جێبەجێکرن"
+        }
+      },
+      {
+        id: "implemented",
+        display_text: {
+          ar: "تم تنفيذها",
+          en: "Implemented",
+          ku: "جێبەجێكراو",
+          'ku-IQ': "هاتیە جێبەجێکرن"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-service-referred",
+    name_i18n: {
+      ar: "إحالة الخدمة",
+      en: "Service Referred",
+      ku: "خزمەتگوزاری رەوانەکراو",
+      'ku-IQ': "خزمەتگۆزاری هاتیە رەوانەکرن"
+    },
+    lookup_values_i18n: [
+      {
+        id: "referred",
+        display_text: {
+          ar: "تمت الإحالة",
+          en: "Referred",
+          ku: "رەوانەکراو",
+          'ku-IQ': "هاتیە رەوانەکرن"
+        }
+      },
+      {
+        id: "service_provided_by_your_agency",
+        display_text: {
+          ar: "يتم تقديم الخدمة في مؤسستك",
+          en: "Service provided by your agency",
+          ku: "ئەو خزمەتگوزارییەی لەلایەن ئاژانسەكەی تۆوە دابینکراوە",
+          'ku-IQ': "خزمەتگۆزاری ژ لایێ ئاژانسا تەڤە هاتیە دابینکرن"
+        }
+      },
+      {
+        id: "services_already_received_from_another_agency",
+        display_text: {
+          ar: "تم تلقي الخدمة من قبل مؤسسة أخرى",
+          en: "Services already received from another agency",
+          ku: "ئەو خزمەتگوزاریانەی پێشتر لە ئاژانسی دیكەوە وەرگیراون",
+          'ku-IQ': "خزمەتگۆزاری ژ لایێ ئاژانسەکادی ڤە هاتیە وەرگرتن"
+        }
+      },
+      {
+        id: "service_not_applicable",
+        display_text: {
+          ar: "الخدمة غير قابلة للتطبيق",
+          en: "Service not applicable",
+          ku: "خزمەتگوزارییەکە بەركار نیە",
+          'ku-IQ': "خزمەتگۆزاری نە گونجایی یە"
+        }
+      },
+      {
+        id: "referral_declined_by_survivor",
+        display_text: {
+          ar: "لم تقبل الناجية بالإحالة",
+          en: "Referral declined by survivor",
+          ku: "رەوانەكردن لەلایەن رزگاربوو رەتكراوەتەوە",
+          'ku-IQ': "رەوانەکرن هاتیە رەتکرن ژلایێ رزگاربووی ڤە"
+        }
+      },
+      {
+        id: "service_unavailable",
+        display_text: {
+          ar: "الخدمة غير متوفرة",
+          en: "Service unavailable",
+          ku: "خزمەتگوازارییەکە بەردەست نیە",
+          'ku-IQ': "خزمەتگوزاری بەردەست نینە"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-service-referred-gbv",
+    name_i18n: {
+      ar: "إحالة الخدمة GBV",
+      en: "Service Referred Gbv",
+      ku: "خزمەتگوزاری رەوانەکراوی Gbv",
+      'ku-IQ': "GBV خزمەتگۆزاری هاتیە رەوانەکرن بۆ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "referred",
+        display_text: {
+          ar: "تمت الإحالة",
+          en: "Referred",
+          ku: "ڕەوانەکراو",
+          'ku-IQ': "هاتیە رەوانەکرن"
+        }
+      },
+      {
+        id: "no_referral_service_provided_by_your_agency",
+        display_text: {
+          ar: "لا توجد إحالة، يتم تقديم الخدمة في مؤسستك",
+          en: "No referral, Service provided by your agency",
+          ku: "رەوانەکردن نیە، خزمەتگوزاری لەلایەن ئاژانسی تۆوە دابینکراوە",
+          'ku-IQ': "رەوانەکرن نینە، خزمەتگۆزاری ژلایێ ئاژانسا تەڤە هاتیە دابینکرن"
+        }
+      },
+      {
+        id: "no_referral_services_already_received_from_another_agency",
+        display_text: {
+          ar: "لا توجد إحالة، تم تلقي الخدمة من قبل مؤسسة أخرى",
+          en: "No referral, Services already received from another agency",
+          ku: "رەوانەکردن نیە، خزمەتگوزاری پێسوەختە لە ئاژانسێكی ترەوە وەرگیراوە",
+          'ku-IQ': "رەوانەکرن نینە، خزمەتگۆزاری ژلایێ ئاژانسەکادی ڤە هاتیە وەرگرتن"
+        }
+      },
+      {
+        id: "no_referral_service_not_applicable",
+        display_text: {
+          ar: "لا توجد إحالة، الخدمة غير قابلة للتطبيق",
+          en: "No referral, Service not applicable",
+          ku: "رەوانەکردن نیە، خزمەتگوزاری بەركار نیە",
+          'ku-IQ': "رەوانەکرن نینە، خزمەتگۆزاری نە گونجایی یە"
+        }
+      },
+      {
+        id: "no_referral_declined_by_survivor",
+        display_text: {
+          ar: "لا توجد إحالة، لم تقبل بها الناجية",
+          en: "No referral, Declined by survivor",
+          ku: "رەوانەکردن نیە، لەلایەن رزگاربوو رەتكراوەتەوە",
+          'ku-IQ': "رەوانەکرن نینە، ژلایێ رزگاربووی ڤە هاتیە رەتکرن"
+        }
+      },
+      {
+        id: "no_referral_service_unavailable",
+        display_text: {
+          ar: "لا توجد إحالة، الخدمة غير متوفرة",
+          en: "No referral, Service unavailable",
+          ku: "رەوانەکردن نیە، خزمەتگوزاری بەردەست نیە",
+          'ku-IQ': "رەوانەکرن نینە، خزمەتگۆزاری بەردەست نینە"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-service-response-type",
+    name_i18n: {
+      ar: "نوع استجابة الخدمة",
+      en: "Service Response Type",
+      ku: "جۆری بەدەنگەوەهاتنی خزمەتگوزاری",
+      'ku-IQ': "جورێ بەرسڤدانا خزمەتگۆزاریێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "care_plan",
+        display_text: {
+          ar: "خطة رعاية",
+          en: "Care plan",
+          ku: "پلانی چاودێری",
+          'ku-IQ': "پلانا چاڤدێریێ"
+        }
+      },
+      {
+        id: "action_plan",
+        display_text: {
+          ar: "خطة عمل",
+          en: "Action plan",
+          ku: "پلانی كار",
+          'ku-IQ': "پلانا کریارێ"
+        }
+      },
+      {
+        id: "service_provision",
+        display_text: {
+          ar: "تقديم الخدمة",
+          en: "Service provision",
+          ku: "دابینكردنی خزمەتگوزاری",
+          'ku-IQ': "دابینکرنا خزمەتگۆزاریێ"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-service-type",
+    name_i18n: {
+      ar: "نوع الخدمة",
+      en: "Service Type",
+      ku: "جۆری خزمەتگوزاری",
+      'ku-IQ': "جورێ خزمەتگۆزاریێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "safehouse_service",
+        display_text: {
+          ar: "خدمة البيت الآمن",
+          en: "Safehouse Service",
+          ku: "خزمەتگوزاری خانەی ئارام",
+          'ku-IQ': "خزمەتگۆزاریا مالا پاراستی"
+        }
+      },
+      {
+        id: "health_medical_service",
+        display_text: {
+          ar: "خدمات صحية / طبية",
+          en: "Health/Medical Service",
+          ku: "خزمەتگوزاری تەندروستی / پزیشكی",
+          'ku-IQ': "خزمەتگوزاریا ساخلەمی یان پزیشکی"
+        }
+      },
+      {
+        id: "psychosocial_service",
+        display_text: {
+          ar: "خدمات نفسية اجتماعية",
+          en: "Psychosocial Service",
+          ku: "خزمەتگوزاری دەروونی",
+          'ku-IQ': "خزمەتگوزاریا دەروونی"
+        }
+      },
+      {
+        id: "police_other_service",
+        display_text: {
+          ar: "الشرطة / نوع آخر من الخدمات الأمنية",
+          en: "Police/Other Service",
+          ku: "خزمەتگوزاری پۆلیس / هی تر",
+          'ku-IQ': "پولیس یان خزمەتگوزاریێن دی"
+        }
+      },
+      {
+        id: "legal_assistance_service",
+        display_text: {
+          ar: "خدمات المساعدة القانونية",
+          en: "Legal Assistance Service",
+          ku: "خزمەتگوزاری یارمەتی یاسایی",
+          'ku-IQ': "خزمەتگوزاریا هاریکاریا قانونی"
+        }
+      },
+      {
+        id: "livelihoods_service",
+        display_text: {
+          ar: "خدمة سبل المعيشة",
+          en: "Livelihoods Service",
+          ku: "خزمەتگوزاری  بژێوی",
+          'ku-IQ': "خزمەتگوزاریێن ژیارێ"
+        }
+      },
+      {
+        id: "child_protection_service",
+        display_text: {
+          ar: "خدمات حماية الطفل",
+          en: "Child Protection Service",
+          ku: "خزمەتگوزاری پاراستنی منداڵ",
+          'ku-IQ': "خزمەتگوزاریێن پاراستنا زاروکی"
+        }
+      },
+      {
+        id: "family_mediation_service",
+        display_text: {
+          ar: "خدمة الوساطة الأسرية",
+          en: "Family Mediation Service",
+          ku: "خزمەتگوزاری نێوانگیری خێزان",
+          'ku-IQ': "خزمەتگوزاریا ناڤبەینکاریا خێزانێ"
+        }
+      },
+      {
+        id: "family_seunification_service",
+        display_text: {
+          ar: "خدمة لم شمل الأسرة",
+          en: "Family Reunification Service",
+          ku: "خزمەتگوزاری یەكگرتنەوەی خێزان",
+          'ku-IQ': "خزمەتگوزاریا دوبارە گەهشتن ب ئێک یا خێزانی"
+        }
+      },
+      {
+        id: "education_service",
+        display_text: {
+          ar: "خدمة تعليمية",
+          en: "Education Service",
+          ku: "خزمەتگوزاری پەروەردە",
+          'ku-IQ': "خزمەتگوزاریێن پەروەردەیی"
+        }
+      },
+      {
+        id: "nfi_clothes_shoes_service",
+        display_text: {
+          ar: "خدمة توزيع ملابس / أحذية / عناصر غير غذائية",
+          en: "NFI/Clothes/Shoes Service",
+          ku: "خزمەتگوزاری ناخۆراكی / جلوبەرگ/ پێڵاو",
+          'ku-IQ': "خزمەتگوزاریا کەلوپەلێن نەیێن خارنێ یان جلوبەرگان یان پێلاڤا"
+        }
+      },
+      {
+        id: "water_sanitation_service",
+        display_text: {
+          ar: "خدمة المياه / الصرف الصحي",
+          en: "Water/Sanitation Service",
+          ku: "خزمەتگوزاری ئاو/ئاوەڕۆ",
+          'ku-IQ': "خزمەتگوزاریێن ئاڤێ یان تافیلکرنێ"
+        }
+      },
+      {
+        id: "registration_service",
+        display_text: {
+          ar: "خدمة التسجيل",
+          en: "Registration Service",
+          ku: "خزمەتگوزاری تۆماركردن",
+          'ku-IQ': "خزمەتگوزاریا تۆمارکرنێ"
+        }
+      },
+      {
+        id: "food_service",
+        display_text: {
+          ar: "خدمة الأغذية",
+          en: "Food Service",
+          ku: "خزمەتگوزاری خۆراك",
+          'ku-IQ': "خزمەتگوزاریێن خارنێ"
+        }
+      },
+      {
+        id: "other_service",
+        display_text: {
+          ar: "خدمة أخرى",
+          en: "Other Service",
+          ku: "خزمەتگوزاری تر",
+          'ku-IQ': "خزمەتگوزاریێن دی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-time-of-day",
+    name_i18n: {
+      ar: "الوقت من اليوم",
+      en: "Time Of Day",
+      ku: "كاتی رۆژ",
+      'ku-IQ': "دەمێ روژێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "morning",
+        display_text: {
+          ar: "الصباح",
+          en: "Morning",
+          ku: "بەیانی",
+          'ku-IQ': "سپێدە"
+        }
+      },
+      {
+        id: "noon",
+        display_text: {
+          ar: "الظهر",
+          en: "Noon",
+          ku: "نیوەڕۆ",
+          'ku-IQ': "نیڤرو"
+        }
+      },
+      {
+        id: "evening",
+        display_text: {
+          ar: "المساء",
+          en: "Evening",
+          ku: "ئێوارە",
+          'ku-IQ': "ئێڤار"
+        }
+      },
+      {
+        id: "night",
+        display_text: {
+          ar: "الليل",
+          en: "Night",
+          ku: "شەو",
+          'ku-IQ': "شەڤ"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-tracing-status",
+    name_i18n: {
+      ar: "",
+      en: "Tracing Status",
+      ku: "باری شوێنپێکەوتن",
+      'ku-IQ': "بارودوخێ دیفچوونێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "open",
+        display_text: {
+          ar: "مفتوحة",
+          en: "Open",
+          ku: "كراوە",
+          'ku-IQ': "ڤەکری"
+        }
+      },
+      {
+        id: "tracing_in_progress",
+        display_text: {
+          ar: "",
+          en: "Tracing in Progress",
+          ku: "شوێنپێکەوتن لە پێشڤەچوونە",
+          'ku-IQ': "دیفچوون بەردەوامە"
+        }
+      },
+      {
+        id: "verified",
+        display_text: {
+          ar: "تم التحقق",
+          en: "Verified",
+          ku: "پشتڕاستکراو",
+          'ku-IQ': "هاتیە پشکنینکرن"
+        }
+      },
+      {
+        id: "reunified",
+        display_text: {
+          ar: "",
+          en: "Reunified",
+          ku: "یەكگرتنەوە",
+          'ku-IQ': "ئێکگرتی"
+        }
+      },
+      {
+        id: "closed",
+        display_text: {
+          ar: "مغلقة",
+          en: "Closed",
+          ku: "داخراو",
+          'ku-IQ': "داخستی"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-transition-type",
+    name_i18n: {
+      ar: "",
+      en: "Transition Type",
+      ku: "جۆری گواستنەوە",
+      'ku-IQ': "جورێ ڤەگوهاستنێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "referral",
+        display_text: {
+          ar: "",
+          en: "Referral",
+          ku: "ڕەوانەکردن",
+          'ku-IQ': "رەوانەکرن"
+        }
+      },
+      {
+        id: "reassign",
+        display_text: {
+          ar: "",
+          en: "Reassign",
+          ku: "دانانەوە",
+          'ku-IQ': "دوبارە هاتیە دەستنیشانکرن"
+        }
+      },
+      {
+        id: "transfer",
+        display_text: {
+          ar: "",
+          en: "Transfer",
+          ku: "گواستنەوە",
+          'ku-IQ': "ڤەگوهاستن"
+        }
+      },
+      {
+        id: "transfer_request",
+        display_text: {
+          ar: "",
+          en: "Transfer Request",
+          ku: "داواكاری گواستنەوە",
+          'ku-IQ': "داخازا ڤەگوهاستنێ"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-unaccompanied-separated-status",
+    name_i18n: {
+      ar: "الناجية منفصلة وغير مصحوبة",
+      en: "Unaccompanied Separated Status",
+      ku: "باری جیابوویەوەی بێ هاوەڵ",
+      'ku-IQ': "بارودوخێ جودابوویی یێ بتنێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "no",
+        display_text: {
+          ar: "لا",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نەخێر"
+        }
+      },
+      {
+        id: "unaccompanied_minor",
+        display_text: {
+          ar: "قاصر غير مصحوب",
+          en: "Unaccompanied Minor",
+          ku: "پێنەگەیشتووی بێ هاوەڵ",
+          'ku-IQ': "کەسەکێ ل ژێر تەمەنێ قانونیێ بتنێ"
+        }
+      },
+      {
+        id: "separated_child",
+        display_text: {
+          ar: "طفل غير مصحوب",
+          en: "Separated Child",
+          ku: "منداڵی جیابووەوە",
+          'ku-IQ': "زاروکێ جودابوویی"
+        }
+      },
+      {
+        id: "other_vulnerable_child",
+        display_text: {
+          ar: "طفل يتيم أو ضعيف",
+          en: "Orphan or Vulnerable Child",
+          ku: "منداڵی هەتیو یان منداڵی مەترسی لەسەر",
+          'ku-IQ': "بێ سەمیان یان زاروکێ لاواز"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-unhcr-needs-codes",
+    name_i18n: {
+      ar: "رموز الاحتياجات - المفوضية السامية للأمم المتحدة لشؤون اللاجئين",
+      en: "Unhcr Needs Codes",
+      ku: "كۆدەكانی پێداویستی Unhcr",
+      'ku-IQ': "Unhcr کودێن پێدڤیێن"
+    },
+    lookup_values_i18n: [
+      {
+        id: "cr-cp",
+        display_text: {
+          ar: "CR-CP",
+          en: "CR-CP",
+          ku: "CR-CP",
+          'ku-IQ': "CR-CP"
+        }
+      },
+      {
+        id: "cr-cs",
+        display_text: {
+          ar: "CR-CS",
+          en: "CR-CS",
+          ku: "CR-CS",
+          'ku-IQ': "CR-CS"
+        }
+      },
+      {
+        id: "cr-cc",
+        display_text: {
+          ar: "CR-CC",
+          en: "CR-CC",
+          ku: "CR-CC",
+          'ku-IQ': "CR-CC"
+        }
+      },
+      {
+        id: "cr-tp",
+        display_text: {
+          ar: "CR-TP",
+          en: "CR-TP",
+          ku: "CR-TP",
+          'ku-IQ': "CR-TP"
+        }
+      },
+      {
+        id: "cr-lw",
+        display_text: {
+          ar: "CR-LW",
+          en: "CR-LW",
+          ku: "CR-LW",
+          'ku-IQ': "CR-LW"
+        }
+      },
+      {
+        id: "cr-lo",
+        display_text: {
+          ar: "CR-LO",
+          en: "CR-LO",
+          ku: "CR-LO",
+          'ku-IQ': "CR-LO"
+        }
+      },
+      {
+        id: "cr-ne",
+        display_text: {
+          ar: "CR-NE",
+          en: "CR-NE",
+          ku: "CR-NE",
+          'ku-IQ': "CR-NE"
+        }
+      },
+      {
+        id: "cr-se",
+        display_text: {
+          ar: "CR-SE",
+          en: "CR-SE",
+          ku: "CR-SE",
+          'ku-IQ': "CR-SE"
+        }
+      },
+      {
+        id: "cr-af",
+        display_text: {
+          ar: "CR-AF",
+          en: "CR-AF",
+          ku: "CR-AF",
+          'ku-IQ': "CR-AF"
+        }
+      },
+      {
+        id: "cr-cl",
+        display_text: {
+          ar: "CR-CL",
+          en: "CR-CL",
+          ku: "CR-CL",
+          'ku-IQ': "CR-CL"
+        }
+      },
+      {
+        id: "sc-ch",
+        display_text: {
+          ar: "SC-CH",
+          en: "SC-CH",
+          ku: "SC-CH",
+          'ku-IQ': "SC-CH"
+        }
+      },
+      {
+        id: "sc-ic",
+        display_text: {
+          ar: "SC-IC",
+          en: "SC-IC",
+          ku: "SC-IC",
+          'ku-IQ': "SC-IC"
+        }
+      },
+      {
+        id: "sc-fc",
+        display_text: {
+          ar: "SC-FC",
+          en: "SC-FC",
+          ku: "SC-FC",
+          'ku-IQ': "SC-FC"
+        }
+      },
+      {
+        id: "ds-bd",
+        display_text: {
+          ar: "DS-BD",
+          en: "DS-BD",
+          ku: "DS-BD",
+          'ku-IQ': "DS-BD"
+        }
+      },
+      {
+        id: "ds-df",
+        display_text: {
+          ar: "DS-DF",
+          en: "DS-DF",
+          ku: "DS-DF",
+          'ku-IQ': "DS-DF"
+        }
+      },
+      {
+        id: "ds-pm",
+        display_text: {
+          ar: "DS-PM",
+          en: "DS-PM",
+          ku: "DS-PM",
+          'ku-IQ': "DS-PM"
+        }
+      },
+      {
+        id: "ds-ps",
+        display_text: {
+          ar: "DS-PS",
+          en: "DS-PS",
+          ku: "DS-PS",
+          'ku-IQ': "DS-PS"
+        }
+      },
+      {
+        id: "ds-mm",
+        display_text: {
+          ar: "DS-MM",
+          en: "DS-MM",
+          ku: "DS-MM",
+          'ku-IQ': "DS-MM"
+        }
+      },
+      {
+        id: "ds-ms",
+        display_text: {
+          ar: "DS-MS",
+          en: "DS-MS",
+          ku: "DS-MS",
+          'ku-IQ': "DS-MS"
+        }
+      },
+      {
+        id: "ds-sd",
+        display_text: {
+          ar: "DS-SD",
+          en: "DS-SD",
+          ku: "DS-SD",
+          'ku-IQ': "DS-SD"
+        }
+      },
+      {
+        id: "sm-mi",
+        display_text: {
+          ar: "SM-MI",
+          en: "SM-MI",
+          ku: "SM-MI",
+          'ku-IQ': "SM-MI"
+        }
+      },
+      {
+        id: "sm-mn",
+        display_text: {
+          ar: "SM-MN",
+          en: "SM-MN",
+          ku: "SM-MN",
+          'ku-IQ': "SM-MN"
+        }
+      },
+      {
+        id: "sm-ci",
+        display_text: {
+          ar: "SM-CI",
+          en: "SM-CI",
+          ku: "SM-CI",
+          'ku-IQ': "SM-CI"
+        }
+      },
+      {
+        id: "sm-cc",
+        display_text: {
+          ar: "SM-CC",
+          en: "SM-CC",
+          ku: "SM-CC",
+          'ku-IQ': "SM-CC"
+        }
+      },
+      {
+        id: "sm-ot",
+        display_text: {
+          ar: "SM-OT",
+          en: "SM-OT",
+          ku: "SM-OT",
+          'ku-IQ': "SM-OT"
+        }
+      },
+      {
+        id: "fu-tr",
+        display_text: {
+          ar: "FU-TR",
+          en: "FU-TR",
+          ku: "FU-TR",
+          'ku-IQ': "FU-TR"
+        }
+      },
+      {
+        id: "fu-fr",
+        display_text: {
+          ar: "FU-FR",
+          en: "FU-FR",
+          ku: "FU-FR",
+          'ku-IQ': "FU-FR"
+        }
+      },
+      {
+        id: "lp-nd",
+        display_text: {
+          ar: "LP-ND",
+          en: "LP-ND",
+          ku: "LP-ND",
+          'ku-IQ': "LP-ND"
+        }
+      },
+      {
+        id: "tr-pi",
+        display_text: {
+          ar: "TR-PI",
+          en: "TR-PI",
+          ku: "TR-PI",
+          'ku-IQ': "TR-PI"
+        }
+      },
+      {
+        id: "tr-ho",
+        display_text: {
+          ar: "TR-HO",
+          en: "TR-HO",
+          ku: "TR-HO",
+          'ku-IQ': "TR-HO"
+        }
+      },
+      {
+        id: "tr-wv",
+        display_text: {
+          ar: "TR-WV",
+          en: "TR-WV",
+          ku: "TR-WV",
+          'ku-IQ': "TR-WV"
+        }
+      },
+      {
+        id: "sv-va",
+        display_text: {
+          ar: "SV-VA",
+          en: "SV-VA",
+          ku: "SV-VA",
+          'ku-IQ': "SV-VA"
+        }
+      },
+      {
+        id: "lp-an",
+        display_text: {
+          ar: "LP-AN",
+          en: "LP-AN",
+          ku: "LP-AN",
+          'ku-IQ': "LP-AN"
+        }
+      },
+      {
+        id: "lp-md",
+        display_text: {
+          ar: "LP-MD",
+          en: "LP-MD",
+          ku: "LP-MD",
+          'ku-IQ': "LP-MD"
+        }
+      },
+      {
+        id: "lp-ms",
+        display_text: {
+          ar: "LP-MS",
+          en: "LP-MS",
+          ku: "LP-MS",
+          'ku-IQ': "LP-MS"
+        }
+      },
+      {
+        id: "lp-rr",
+        display_text: {
+          ar: "LP-RR",
+          en: "LP-RR",
+          ku: "LP-RR",
+          'ku-IQ': "LP-RR"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-verification-status",
+    name_i18n: {
+      ar: "حالة التحقق",
+      en: "Verification Status",
+      ku: "باری پشتڕاستکردنەوە",
+      'ku-IQ': "بارودوخێ پشت راستکرنێ"
+    },
+    lookup_values_i18n: [
+      {
+        id: "verified",
+        display_text: {
+          ar: "تم التحقق",
+          en: "Verified",
+          ku: "پشتڕاستکراو",
+          'ku-IQ': "هاتیە پشکنینکرن"
+        }
+      },
+      {
+        id: "unverified",
+        display_text: {
+          ar: "لم يتم التحقق",
+          en: "Unverified",
+          ku: "پشتڕاستنەکراو",
+          'ku-IQ': "نەهاتیە پشکنینکرن"
+        }
+      },
+      {
+        id: "pending_verification",
+        display_text: {
+          ar: "التحقق معلق",
+          en: "Pending Verification",
+          ku: "چاوەڕوانی پشتڕاستکراو",
+          'ku-IQ': "پشت راستکرن هەلاویستییە"
+        }
+      },
+      {
+        id: "falsely_attributed",
+        display_text: {
+          ar: "منسوبة كذباً",
+          en: "Falsely Attributed",
+          ku: "دانەپاڵی هەڵە",
+          'ku-IQ': "خەلەت هاتیە وەسفکرن"
+        }
+      },
+      {
+        id: "rejected",
+        display_text: {
+          ar: "مرفوضة",
+          en: "Rejected",
+          ku: "رەتكراو",
+          'ku-IQ': "رەتکری"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-workflow",
+    name_i18n: {
+      ar: "سير العمل",
+      en: "Workflow",
+      ku: "رێرەوی بەڕێوەچوونی كار",
+      'ku-IQ': "برێڤەچوونا کاری"
+    },
+    lookup_values_i18n: [
+      {
+        id: "new",
+        display_text: {
+          ar: "حالة جديدة",
+          en: "New case",
+          ku: "كەیسی تازە",
+          'ku-IQ': "کەیسێ نی"
+        }
+      },
+      {
+        id: "closed",
+        display_text: {
+          ar: "ملف الحالة مغلق",
+          en: "Case closed",
+          ku: "كەیس داخرا",
+          'ku-IQ': "کەیس هاتیە گرتن"
+        }
+      },
+      {
+        id: "reopened",
+        display_text: {
+          ar: "تم إعادة فتح ملف الحالة",
+          en: "Case reopened",
+          ku: "كەیس كرایەوە دووبارە",
+          'ku-IQ': "کەیس دوبارە هاتیە ڤەکرن"
+        }
+      },
+      {
+        id: "service_provision",
+        display_text: {
+          ar: "تقديم الخدمة",
+          en: "Service provision",
+          ku: "دابینکردنی خزمەتگوزاری",
+          'ku-IQ': "دابینکرنا خزمەتگۆزاریێ"
+        }
+      },
+      {
+        id: "services_implemented",
+        display_text: {
+          ar: "تم تنفيذ جميع خدمات الاستجابة",
+          en: "All response services implemented",
+          ku: "هەموو خزمەتگوزارییەكانی بەدەنگەوەهاتن جێبەجێکراون",
+          'ku-IQ': "هەمی خزمەتگوزاریێن بەرسڤدانێ هاتینە جێبەجێکرن"
+        }
+      },
+      {
+        id: "case_plan",
+        display_text: {
+          ar: "خطة الحالة",
+          en: "Case Plan",
+          ku: "پلانی كەیس",
+          'ku-IQ': "پلانا کەیسی"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-yes-no",
+    name_i18n: {
+      ar: "نعم أو لا",
+      en: "Yes Or No",
+      ku: "بەڵێ یان نەخێر",
+      'ku-IQ': "بەلێ یان نەخێر"
+    },
+    lookup_values_i18n: [
+      {
+        id: "true",
+        display_text: {
+          ar: "نعم",
+          en: "Yes",
+          ku: "بەڵێ",
+          'ku-IQ': "بەلێ"
+        }
+      },
+      {
+        id: "false",
+        display_text: {
+          ar: "لا",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نةخير"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-yes-no-not-applicable",
+    name_i18n: {
+      ar: "نعم أو لا أو لا ينطبق",
+      en: "Yes, No, Or Not Applicable",
+      ku: "بەڵێ، نەخێر یان بەركار نیە",
+      'ku-IQ': "بەلێ، نەخێر، یان نەگونجایی یە"
+    },
+    lookup_values_i18n: [
+      {
+        id: "true",
+        display_text: {
+          ar: "نعم",
+          en: "Yes",
+          ku: "بەڵێ",
+          'ku-IQ': "بەلێ"
+        }
+      },
+      {
+        id: "false",
+        display_text: {
+          ar: "لا",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نەخێر"
+        }
+      },
+      {
+        id: "not_applicable",
+        display_text: {
+          ar: "لاينطبق",
+          en: "Not Applicable",
+          ku: "بەركارنیە",
+          'ku-IQ': "نە گونجایی یە"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-yes-no-undecided",
+    name_i18n: {
+      ar: "نعم أو لا أو غير مفصول فيه",
+      en: "Yes, No, Or Undecided",
+      ku: "بەڵێ، نەخێر یان بڕیاری لێنەدراوە",
+      'ku-IQ': "بەلێ، نەخێر، یان بریار ل سەر نەهاتیە دان"
+    },
+    lookup_values_i18n: [
+      {
+        id: "true",
+        display_text: {
+          ar: "نعم",
+          en: "Yes",
+          ku: "بەڵێ",
+          'ku-IQ': "بەلێ"
+        }
+      },
+      {
+        id: "false",
+        display_text: {
+          ar: "لا",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نەخێر"
+        }
+      },
+      {
+        id: "undecided",
+        display_text: {
+          ar: "غير مفصول فيه",
+          en: "Undecided",
+          ku: "بڕیاری لێ نەدراوە",
+          'ku-IQ': "بریار ل سەر نەهاتیە دان"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-yes-no-unknown",
+    name_i18n: {
+      ar: "نعم أو لا أو غير معروف",
+      en: "Yes, No, Or Unknown",
+      ku: "بەڵێ، نەخێر، یان نەزانراوە",
+      'ku-IQ': "بەلێ، نەخێر، یان ناهێتە زانین"
+    },
+    lookup_values_i18n: [
+      {
+        id: "true",
+        display_text: {
+          ar: "نعم",
+          en: "Yes",
+          ku: "بەڵێ",
+          'ku-IQ': "بەلێ"
+        }
+      },
+      {
+        id: "false",
+        display_text: {
+          ar: "لا",
+          en: "No",
+          ku: "نەخێر",
+          'ku-IQ': "نەخێر"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          ar: "غير معروف",
+          en: "Unknown",
+          ku: "نەزانراوە",
+          'ku-IQ': "ناهێتە زانین"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-pdf-header",
+    name_i18n: {
+      en: "PDF Header"
+    },
+    lookup_values_i18n: [
+      {
+        id: "pdf_header_1",
+        display_text: {
+          en: "PDF Header 1"
+        }
+      },
+      {
+        id: "pdf_header_2",
+        display_text: {
+          en: "PDF Header 2"
+        }
+      },
+      {
+        id: "pdf_header_3",
+        display_text: {
+          en: "PDF Header 3"
+        }
+      }
+    ],
+    locked: true
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-form-group-cp-case",
+    name_i18n: {
+      en: "Form Groups   Cp Case"
+    },
+    lookup_values_i18n: [
+      {
+        id: "record_information",
+        display_text: {
+          en: "Record Information"
+        }
+      },
+      {
+        id: "approvals",
+        display_text: {
+          en: "Approvals"
+        }
+      },
+      {
+        id: "case_conference_details",
+        display_text: {
+          en: "Case Conference Details"
+        }
+      },
+      {
+        id: "identification_registration",
+        display_text: {
+          en: "Identification / Registration"
+        }
+      },
+      {
+        id: "data_confidentiality",
+        display_text: {
+          en: "Data Confidentiality"
+        }
+      },
+      {
+        id: "assessment",
+        display_text: {
+          en: "Assessment"
+        }
+      },
+      {
+        id: "family_partner_details",
+        display_text: {
+          en: "Family / Partner Details"
+        }
+      },
+      {
+        id: "case_plan",
+        display_text: {
+          en: "Case Plan"
+        }
+      },
+      {
+        id: "services_follow_up",
+        display_text: {
+          en: "Services / Follow Up"
+        }
+      },
+      {
+        id: "closure",
+        display_text: {
+          en: "Closure"
+        }
+      },
+      {
+        id: "tracing",
+        display_text: {
+          en: "Tracing"
+        }
+      },
+      {
+        id: "bia_form",
+        display_text: {
+          en: "BIA Form"
+        }
+      },
+      {
+        id: "photos_audio",
+        display_text: {
+          en: "Photos and Audio"
+        }
+      },
+      {
+        id: "other_documents",
+        display_text: {
+          en: "Other Documents"
+        }
+      },
+      {
+        id: "referrals_transfers",
+        display_text: {
+          en: "Referrals and Transfers"
+        }
+      },
+      {
+        id: "notes",
+        display_text: {
+          en: "Notes"
+        }
+      },
+      {
+        id: "felt_stigma_scale",
+        display_text: {
+          en: "felt_stigma_scale"
+        }
+      },
+      {
+        id: "pss_scales",
+        display_text: {
+          en: "pss_scales"
+        }
+      }
+    ],
+    locked: false
   }
 )
 
@@ -6206,4922 +7077,6 @@ Lookup.create_or_update!(
       }
     ],
     locked: false
-  }
-)
-
-
-Lookup.create_or_update!(
-  {
-    unique_id: "lookup-form-group-gbv-incident",
-    name_i18n: {
-      ar: "مجموعات النموذج - حادثة العنف المبني على النوع الاجتماعي",
-      en: "Form Groups - GBV Incident",
-      ku: "كۆمەڵەكانی نموونە- رووداوی توندوتیژی جێندەری",
-      'ku-IQ': "گرۆپێن دی - بوویەرا تۆندووتیژیا رەگەزی"
-    },
-    lookup_values_i18n: [
-      {
-        id: "gbv_individual_details",
-        display_text: {
-          ar: "تفاصيل عن الناجية/ الناجي من العنف المبني على النوع الإجتماعي",
-          en: "GBV Individual Details",
-          ku: "ووردەكارییە كەسییەكانی توندوتیژی جێندەری",
-          'ku-IQ': "هووردەکاریێن تاکەکسی یێن تۆندووتیژیا رەگەزی"
-        }
-      },
-      {
-        id: "incident",
-        display_text: {
-          ar: "حادثة",
-          en: "Incident",
-          ku: "رووداو",
-          'ku-IQ': "بوویەر"
-        }
-      },
-      {
-        id: "type_of_violence",
-        display_text: {
-          ar: "نوع العنف",
-          en: "Type of Violence",
-          ku: "جۆری توندوتیژی",
-          'ku-IQ': "جورێ تۆندووتیژیێ"
-        }
-      },
-      {
-        id: "record_owner",
-        display_text: {
-          ar: "مالك السجل",
-          en: "Record Owner",
-          ku: "خاوەنی تۆمار",
-          'ku-IQ': "خودانێ تۆمارێ"
-        }
-      },
-      {
-        id: "alleged_perpetrator",
-        display_text: {
-          ar: "الجاني المزعوم",
-          en: "Alleged Perpetrator",
-          ku: "گومانلێكراو",
-          'ku-IQ': "تاوانبارێ گۆمانلێکری"
-        }
-      },
-      {
-        id: "service_referral",
-        display_text: {
-          ar: "إحالة إلى خدمة",
-          en: "Service Referral",
-          ku: "رەوانەكردنی خزمەتگوزاری",
-          'ku-IQ': "خزمەتگۆزاریا رەوانەکرنێ"
-        }
-      },
-      {
-        id: "other_reportable_fields",
-        display_text: {
-          ar: "الحقول الأخرى التي يمكن الإبلاغ عنها",
-          en: "Other Reportable Fields",
-          ku: "ئەو بوارانەی دیكە كە دەكرێت هەواڵیان لەبارەوە بدرێت",
-          'ku-IQ': "بیاڤێن دی یێن راپۆرتکرنێ"
-        }
-      },
-      {
-        id: "record_information",
-        display_text: {
-          ar: "معلومات السجل",
-          en: "Record Information",
-          ku: "تۆماری زانیاری",
-          'ku-IQ': "تۆمارا پێزانینا"
-        }
-      }
-    ],
-    locked: false
-  }
-)
-
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Further Action Needed",
-    name_ar: "",
-    name_ku: "كرداری زیاتری  پێویستە",
-    'name_ku-IQ': "کارێ پتر پێدڤیە",
-    lookup_values_en: [
-      {
-        id: "no_further_action_needed",
-        display_text: "No Further Action Needed"
-      },
-      {
-        id: "ongoing_monitoring",
-        display_text: "Ongoing Monitoring"
-      },
-      {
-        id: "urgent_intervention",
-        display_text: "Urgent Intervention"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "no_further_action_needed",
-        display_text: ""
-      },
-      {
-        id: "ongoing_monitoring",
-        display_text: ""
-      },
-      {
-        id: "urgent_intervention",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "no_further_action_needed",
-        display_text: "كرداری زیاتری پێویست نیە"
-      },
-      {
-        id: "ongoing_monitoring",
-        display_text: "چاودێری بەردەوام"
-      },
-      {
-        id: "urgent_intervention",
-        display_text: "دەستێوەردانی خێرا"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "no_further_action_needed",
-        display_text: "کریارێن پتر پێدڤی نینە"
-      },
-      {
-        id: "ongoing_monitoring",
-        display_text: "چاڤدێریا بەردەوام"
-      },
-      {
-        id: "urgent_intervention",
-        display_text: "مایتێکرنا بلەز"
-      }
-    ],
-    unique_id: "lookup-further-action_needed"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: true,
-    name_en: "Approval Type For Gbv Users",
-    name_ar: "",
-    name_ku: "جۆری ڕەزامەندیپێدان بۆ بەكاربەرانی توندوتیژی لەسەر بنەمای جێندەر",
-    'name_ku-IQ': "جورێ دەستيردانێ بۆ بکارهێنەرێ توندو تیژی لسەر بنیاتێ رەگەزی",
-    lookup_values_en: [
-      {
-        id: "case_plan",
-        display_text: "Case Plan"
-      },
-      {
-        id: "closure",
-        display_text: "Closure"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "case_plan",
-        display_text: ""
-      },
-      {
-        id: "closure",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "case_plan",
-        display_text: "پلانی كەیس"
-      },
-      {
-        id: "closure",
-        display_text: "داخستن"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "case_plan",
-        display_text: "پلانا کەیسی"
-      },
-      {
-        id: "closure",
-        display_text: "گرتن"
-      }
-    ],
-    unique_id: "lookup-gbv-approval-types"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Yes, No, Or Unknown",
-    name_ar: "نعم أو لا أو غير معروف",
-    name_ku: "بەڵێ، نەخێر، یان نەزانراو",
-    'name_ku-IQ': "بەلێ، نەخێر، یان ناهێتە زانین",
-    lookup_values_en: [
-      {
-        id: "no",
-        display_text: "No"
-      },
-      {
-        id: "gbvims-org",
-        display_text: "Yes-GBVIMS Org / Agency"
-      },
-      {
-        id: "non-gbvims-org",
-        display_text: "Yes-Non GBVIMS Org / Agency"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "no",
-        display_text: "لا"
-      },
-      {
-        id: "gbvims-org",
-        display_text: "نعم - مؤسسة / هيئة مع نظام إدارة معلومات العنف القائم على اساس النوع الاجتماعي"
-      },
-      {
-        id: "non-gbvims-org",
-        display_text: "نعم - مؤسسة / هيئة من دون نظام إدارة معلومات العنف القائم على اساس النوع الاجتماعي"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "gbvims-org",
-        display_text: "بەڵێ - رێكخراو / ئاژانسی GBVIMS"
-      },
-      {
-        id: "non-gbvims-org",
-        display_text: "بەڵێ - رێكخراو / ئاژانسی نا GBVIMS"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "gbvims-org",
-        display_text: "ئاژانس /GBVIMS بەلێ-رێکخراوا"
-      },
-      {
-        id: "non-gbvims-org",
-        display_text: "ئاژانس /GBVIMS بەلێ- نە رێکخراوا"
-      }
-    ],
-    unique_id: "lookup-gbv-reported-elsewhere"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "جورێ توندو تیژی یا سکسی لسەر بنیاتێ رەگەزی",
-    name_ar: "نوع العنف الجنسي (العنف القائم على اساس النوع الاجتماعي)",
-    name_ku: "جۆری توندوتیژی سێكسی Gbv ",
-    'name_ku-IQ': "جورێ توندو تیژی یا سکسی لسەر بنیاتێ رەگەزی",
-    lookup_values_en: [
-      {
-        display_text: "Rape",
-        id: "rape"
-      },
-      {
-        display_text: "Sexual Assault",
-        id: "sexual_assault"
-      },
-      {
-        display_text: "Physical Assault",
-        id: "physical_assault"
-      },
-      {
-        display_text: "Forced Marriage",
-        id: "forced_marriage"
-      },
-      {
-        display_text: "Denial of Resources, Opportunities or Services",
-        id: "denial_of_resources_opportunities_or_services"
-      },
-      {
-        display_text: "Psychological / Emotional Abuse",
-        id: "psychological_emotional_abuse"
-      },
-      {
-        display_text: "Non-GBV",
-        id: "non-gbv"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        display_text: "اغتصاب",
-        id: "rape"
-      },
-      {
-        display_text: "اعتداء جنسي",
-        id: "sexual_assault"
-      },
-      {
-        display_text: "اعتداء جسدي",
-        id: "physical_assault"
-      },
-      {
-        display_text: "زواج قسري",
-        id: "forced_marriage"
-      },
-      {
-        display_text: "الحرمان من الموارد أو الفرص أو الخدمات",
-        id: "denial_of_resources_opportunities_or_services"
-      },
-      {
-        display_text: "إساءات نفسية / عاطفية",
-        id: "psychological_emotional_abuse"
-      },
-      {
-        display_text: "غير قائم على اساس النوع الاجتماعي",
-        id: "non-gbv"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        display_text: "لاقەكردن",
-        id: "rape"
-      },
-      {
-        display_text: "دەستدرێژی سێكسی",
-        id: "sexual_assault"
-      },
-      {
-        display_text: "دەستدرێژی جەستەیی",
-        id: "physical_assault"
-      },
-      {
-        display_text: "هاوسەرگیری بەزۆر",
-        id: "forced_marriage"
-      },
-      {
-        display_text: "بێبەشكردن لە سەرچاوە، دەرفەت یان خزمەتگوزاری",
-        id: "denial_of_resources_opportunities_or_services"
-      },
-      {
-        display_text: "مامەڵەی خراپی دەروونی / عاتیفی",
-        id: "psychological_emotional_abuse"
-      },
-      {
-        display_text: "GBV نیە",
-        id: "non-gbv"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        display_text: "دەست درێژیا سیکسی",
-        id: "rape"
-      },
-      {
-        display_text: "توند و تیژیا سیکسی",
-        id: "sexual_assault"
-      },
-      {
-        display_text: "توند و تيذيا جةستةيى",
-        id: "physical_assault"
-      },
-      {
-        display_text: "هەڤژینیا ب زۆری",
-        id: "forced_marriage"
-      },
-      {
-        display_text: "دیرخستنا ژێدەران، دەلیڤە و خزمەتگۆزاری",
-        id: "denial_of_resources_opportunities_or_services"
-      },
-      {
-        display_text: "دەستدرێژیا دەروونی یان هەستی",
-        id: "psychological_emotional_abuse"
-      },
-      {
-        display_text: "تۆندووتیژیا نە ل سەر بنەمایێ رەگەزی",
-        id: "non-gbv"
-      }
-    ],
-    unique_id: "lookup-gbv-sexual-violence-type"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Gender",
-    name_ar: "الجنس",
-    name_ku: "رەگەز",
-    'name_ku-IQ': "رەگەز",
-    lookup_values_en: [
-      {
-        id: "male",
-        display_text: "Male"
-      },
-      {
-        id: "female",
-        display_text: "Female"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "male",
-        display_text: "ذكر"
-      },
-      {
-        id: "female",
-        display_text: "أنثى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "male",
-        display_text: "نێر"
-      },
-      {
-        id: "female",
-        display_text: "مێ"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "male",
-        display_text: "نێر"
-      },
-      {
-        id: "female",
-        display_text: "مێ"
-      }
-    ],
-    unique_id: "lookup-gender"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Incident Identification",
-    name_ar: "تحديد الحادثة",
-    name_ku: "دەستنیشانکردنی ڕووداو",
-    'name_ku-IQ': "دەستنیشاکرنا ریدانێ",
-    lookup_values_en: [
-      {
-        id: "disclosure_complaint_by_the_abused_person_or_family_member",
-        display_text: "Disclosure / complaint by the abused person or family member"
-      },
-      {
-        id: "discovered_by_service_provider",
-        display_text: "Discovered by service provider"
-      },
-      {
-        id: "report_by_the_institution_providing_the_service_discovery",
-        display_text: "Report by the institution providing the service (discovery)"
-      },
-      {
-        id: "other",
-        display_text: "Other"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "disclosure_complaint_by_the_abused_person_or_family_member",
-        display_text: "إفصاح عن الحادثة / شكوى من الشخص المعتدى عليه أو أحد أفراد أسرته"
-      },
-      {
-        id: "discovered_by_service_provider",
-        display_text: "تم اكتشافها من قبل مقدم الخدمة"
-      },
-      {
-        id: "report_by_the_institution_providing_the_service_discovery",
-        display_text: "الإبلاغ عنها من قبل المؤسسة التي تقدم الخدمة (اكتشاف)"
-      },
-      {
-        id: "other",
-        display_text: "أخرى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "disclosure_complaint_by_the_abused_person_or_family_member",
-        display_text: "ئاشكراكردن / سكاڵای ئەو كەسەی دەستدرێژی كراوەتە سەر خۆی یان ئەندامێكی خێزانەكەی"
-      },
-      {
-        id: "discovered_by_service_provider",
-        display_text: "لەلایەن دابینەکەری خزمەتگوزاری دۆزرایەوە"
-      },
-      {
-        id: "report_by_the_institution_providing_the_service_discovery",
-        display_text: "لەلایەن دەزگای دابینکەری خزمەتگوزاری ریپۆرتكراوە (دۆزینەوە)"
-      },
-      {
-        id: "other",
-        display_text: "هی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "disclosure_complaint_by_the_abused_person_or_family_member",
-        display_text: "ئاشکراکرنا نهێنیان یان سکالا ژ لایێ کەسێ دەستدرێژی ل سەر هاتیە کرن یان ئەندامێن خێزانێ"
-      },
-      {
-        id: "discovered_by_service_provider",
-        display_text: "هاتیە ئاشکراکرن ژ لایێ دابینکەرێ خزمەتگۆزاریێ ڤە"
-      },
-      {
-        id: "report_by_the_institution_providing_the_service_discovery",
-        display_text: "راپۆرت ژ لایێ سازیا خزمەتێ ڤە دابین دکەت (کەشف کرن"
-      },
-      {
-        id: "other",
-        display_text: "یێن دی"
-      }
-    ],
-    unique_id: "lookup-incident-identification"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Incident Location",
-    name_ar: "موقع الحادثة",
-    name_ku: "شوێنی رووداو",
-    'name_ku-IQ': "جهێ ریدانێ",
-    lookup_values_en: [
-      {
-        id: "home",
-        display_text: "Home"
-      },
-      {
-        id: "street",
-        display_text: "Street"
-      },
-      {
-        id: "school",
-        display_text: "School"
-      },
-      {
-        id: "work_place",
-        display_text: "Work Place"
-      },
-      {
-        id: "other",
-        display_text: "Other"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "home",
-        display_text: "المنزل"
-      },
-      {
-        id: "street",
-        display_text: "الشارع"
-      },
-      {
-        id: "school",
-        display_text: "المدرسة"
-      },
-      {
-        id: "work_place",
-        display_text: "مكان العمل"
-      },
-      {
-        id: "other",
-        display_text: "أماكن أخرى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "home",
-        display_text: "ماڵ"
-      },
-      {
-        id: "street",
-        display_text: "شەقام"
-      },
-      {
-        id: "school",
-        display_text: "قوتابخانە"
-      },
-      {
-        id: "work_place",
-        display_text: "شوێنی كار"
-      },
-      {
-        id: "other",
-        display_text: "هی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "home",
-        display_text: "مال"
-      },
-      {
-        id: "street",
-        display_text: "جادە"
-      },
-      {
-        id: "school",
-        display_text: "قوتابخانە"
-      },
-      {
-        id: "work_place",
-        display_text: "جهێ کاری"
-      },
-      {
-        id: "other",
-        display_text: "یێن دی"
-      }
-    ],
-    unique_id: "lookup-incident-location"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Incident Status",
-    name_ar: "الوضع الراهن لملف الحادثة",
-    name_ku: "باری روداوەکە",
-    'name_ku-IQ': "بارودوخێ ریدانێ",
-    lookup_values_en: [
-      {
-        id: "open",
-        display_text: "Open"
-      },
-      {
-        id: "closed",
-        display_text: "Closed"
-      },
-      {
-        id: "duplicate",
-        display_text: "Duplicate"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "open",
-        display_text: "مفتوح"
-      },
-      {
-        id: "closed",
-        display_text: "مغلق"
-      },
-      {
-        id: "duplicate",
-        display_text: "مكرر"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "open",
-        display_text: "كراوە"
-      },
-      {
-        id: "closed",
-        display_text: "داخراو"
-      },
-      {
-        id: "duplicate",
-        display_text: "دووبارە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "open",
-        display_text: "ڤەکری"
-      },
-      {
-        id: "closed",
-        display_text: "گرتی"
-      },
-      {
-        id: "duplicate",
-        display_text: "دوبارەکری"
-      }
-    ],
-    unique_id: "lookup-incident-status"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Inquiry Status",
-    name_ar: "وضع التحقيق",
-    name_ku: "حالەتی لێپێچانەوە",
-    'name_ku-IQ': "بارودوخێ پرسیارکرنێ",
-    lookup_values_en: [
-      {
-        id: "open",
-        display_text: "Open"
-      },
-      {
-        id: "closed",
-        display_text: "Closed"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "open",
-        display_text: "مفتوح"
-      },
-      {
-        id: "closed",
-        display_text: "مغلق"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "open",
-        display_text: "كراوە"
-      },
-      {
-        id: "closed",
-        display_text: "داخراو"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "open",
-        display_text: "ڤەکری"
-      },
-      {
-        id: "closed",
-        display_text: "گرتی"
-      }
-    ],
-    unique_id: "lookup-inquiry-status"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Language",
-    name_ar: "اللغة",
-    name_ku: "زمان",
-    'name_ku-IQ': "زمان",
-    lookup_values_en: [
-      {
-        id: "language1",
-        display_text: "Language1"
-      },
-      {
-        id: "language2",
-        display_text: "Language2"
-      },
-      {
-        id: "language3",
-        display_text: "Language3"
-      },
-      {
-        id: "language4",
-        display_text: "Language4"
-      },
-      {
-        id: "language5",
-        display_text: "Language5"
-      },
-      {
-        id: "language6",
-        display_text: "Language6"
-      },
-      {
-        id: "language7",
-        display_text: "Language7"
-      },
-      {
-        id: "language8",
-        display_text: "Language8"
-      },
-      {
-        id: "language9",
-        display_text: "Language9"
-      },
-      {
-        id: "language10",
-        display_text: "Language10"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "language1",
-        display_text: "لغة 1"
-      },
-      {
-        id: "language2",
-        display_text: "لغة 2"
-      },
-      {
-        id: "language3",
-        display_text: "لغة 3"
-      },
-      {
-        id: "language4",
-        display_text: "لغة 4"
-      },
-      {
-        id: "language5",
-        display_text: "لغة 5"
-      },
-      {
-        id: "language6",
-        display_text: "لغة 6"
-      },
-      {
-        id: "language7",
-        display_text: "لغة 7"
-      },
-      {
-        id: "language8",
-        display_text: "لغة 8"
-      },
-      {
-        id: "language9",
-        display_text: "لغة 9"
-      },
-      {
-        id: "language10",
-        display_text: "لغة 10"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "language1",
-        display_text: "زمان1"
-      },
-      {
-        id: "language2",
-        display_text: "زمان2"
-      },
-      {
-        id: "language3",
-        display_text: "زمان3"
-      },
-      {
-        id: "language4",
-        display_text: "زمان4"
-      },
-      {
-        id: "language5",
-        display_text: "زمان5"
-      },
-      {
-        id: "language6",
-        display_text: "زمان6"
-      },
-      {
-        id: "language7",
-        display_text: "زمان7"
-      },
-      {
-        id: "language8",
-        display_text: "زمان8"
-      },
-      {
-        id: "language9",
-        display_text: "زمان9"
-      },
-      {
-        id: "language10",
-        display_text: "زمان10"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "language1",
-        display_text: "زمان 1"
-      },
-      {
-        id: "language2",
-        display_text: "زمان 2"
-      },
-      {
-        id: "language3",
-        display_text: "زمان 3"
-      },
-      {
-        id: "language4",
-        display_text: "زمان 4"
-      },
-      {
-        id: "language5",
-        display_text: "زمان 5"
-      },
-      {
-        id: "language6",
-        display_text: "زمان 6"
-      },
-      {
-        id: "language7",
-        display_text: "زمان 7"
-      },
-      {
-        id: "language8",
-        display_text: "زمان 8"
-      },
-      {
-        id: "language9",
-        display_text: "زمان 9"
-      },
-      {
-        id: "language10",
-        display_text: "زمان 10"
-      }
-    ],
-    unique_id: "lookup-language"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: true,
-    name_en: "Location Type",
-    name_ar: "نوع الموقع",
-    name_ku: "جۆری شوێن",
-    'name_ku-IQ': "جورێ جهی",
-    lookup_values_en: [
-      {
-        id: "country",
-        display_text: "Country"
-      },
-      {
-        id: "region",
-        display_text: "Region"
-      },
-      {
-        id: "province",
-        display_text: "Province"
-      },
-      {
-        id: "district",
-        display_text: "District"
-      },
-      {
-        id: "governorate",
-        display_text: "Governorate"
-      },
-      {
-        id: "chiefdom",
-        display_text: "Chiefdom"
-      },
-      {
-        id: "state",
-        display_text: "State"
-      },
-      {
-        id: "city",
-        display_text: "City"
-      },
-      {
-        id: "county",
-        display_text: "County"
-      },
-      {
-        id: "camp",
-        display_text: "Camp"
-      },
-      {
-        id: "site",
-        display_text: "Site"
-      },
-      {
-        id: "village",
-        display_text: "Village"
-      },
-      {
-        id: "zone",
-        display_text: "Zone"
-      },
-      {
-        id: "sub_district",
-        display_text: "Sub District"
-      },
-      {
-        id: "locality",
-        display_text: "Locality"
-      },
-      {
-        id: "prefecture",
-        display_text: "Prefecture"
-      },
-      {
-        id: "sub-prefecture",
-        display_text: "Sub-Prefecture"
-      },
-      {
-        id: "commune",
-        display_text: "Commune"
-      },
-      {
-        id: "payam",
-        display_text: "Payam"
-      },
-      {
-        id: "other",
-        display_text: "Other"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "country",
-        display_text: "دولة"
-      },
-      {
-        id: "region",
-        display_text: "منطقة"
-      },
-      {
-        id: "province",
-        display_text: "إقليم"
-      },
-      {
-        id: "district",
-        display_text: "قضاء"
-      },
-      {
-        id: "governorate",
-        display_text: "محافظة"
-      },
-      {
-        id: "chiefdom",
-        display_text: "مشيخة"
-      },
-      {
-        id: "state",
-        display_text: "ولاية"
-      },
-      {
-        id: "city",
-        display_text: "مدينة"
-      },
-      {
-        id: "county",
-        display_text: "مقاطعة"
-      },
-      {
-        id: "camp",
-        display_text: "مخيم"
-      },
-      {
-        id: "site",
-        display_text: "مركز"
-      },
-      {
-        id: "village",
-        display_text: "قرية"
-      },
-      {
-        id: "zone",
-        display_text: "نطاق"
-      },
-      {
-        id: "sub_district",
-        display_text: "قضاء فرعي"
-      },
-      {
-        id: "locality",
-        display_text: "ناحية"
-      },
-      {
-        id: "prefecture",
-        display_text: "Prefecture"
-      },
-      {
-        id: "sub-prefecture",
-        display_text: "Sub-Prefecture"
-      },
-      {
-        id: "commune",
-        display_text: "Commune"
-      },
-      {
-        id: "payam",
-        display_text: "Payam"
-      },
-      {
-        id: "other",
-        display_text: "أخرى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "country",
-        display_text: "وڵات"
-      },
-      {
-        id: "region",
-        display_text: "هەرێم"
-      },
-      {
-        id: "province",
-        display_text: "پارێزگا"
-      },
-      {
-        id: "district",
-        display_text: "قەزا"
-      },
-      {
-        id: "governorate",
-        display_text: "پارێزگا"
-      },
-      {
-        id: "chiefdom",
-        display_text: "شێخنشینی"
-      },
-      {
-        id: "state",
-        display_text: "ویلایەت"
-      },
-      {
-        id: "city",
-        display_text: "شار"
-      },
-      {
-        id: "county",
-        display_text: "کاونتی"
-      },
-      {
-        id: "camp",
-        display_text: "كەمپ"
-      },
-      {
-        id: "site",
-        display_text: "شوێن"
-      },
-      {
-        id: "village",
-        display_text: "گوند"
-      },
-      {
-        id: "zone",
-        display_text: "ناوچە"
-      },
-      {
-        id: "sub_district",
-        display_text: "ناحیە"
-      },
-      {
-        id: "locality",
-        display_text: "شوێن"
-      },
-      {
-        id: "prefecture",
-        display_text: "والینشین"
-      },
-      {
-        id: "sub-prefecture",
-        display_text: "والینشینی لاوەكی"
-      },
-      {
-        id: "commune",
-        display_text: "كۆمەڵە"
-      },
-      {
-        id: "payam",
-        display_text: "پەیام"
-      },
-      {
-        id: "other",
-        display_text: "هی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "country",
-        display_text: "وەلات"
-      },
-      {
-        id: "region",
-        display_text: "دەڤەر"
-      },
-      {
-        id: "province",
-        display_text: "هەرێم"
-      },
-      {
-        id: "district",
-        display_text: "قەزا"
-      },
-      {
-        id: "governorate",
-        display_text: "پارێزگە"
-      },
-      {
-        id: "chiefdom",
-        display_text: "دەڤەرا ژ لایێ مەزنەک\\شێخەکی ڤە دهێتە برێڤەبرن"
-      },
-      {
-        id: "state",
-        display_text: "بارودوخ"
-      },
-      {
-        id: "city",
-        display_text: "باژێر"
-      },
-      {
-        id: "county",
-        display_text: "وەلات"
-      },
-      {
-        id: "camp",
-        display_text: "کەمپ"
-      },
-      {
-        id: "site",
-        display_text: "جهـ"
-      },
-      {
-        id: "village",
-        display_text: "گوند"
-      },
-      {
-        id: "zone",
-        display_text: "زون"
-      },
-      {
-        id: "sub_district",
-        display_text: "باژاروک"
-      },
-      {
-        id: "locality",
-        display_text: "خوجهی"
-      },
-      {
-        id: "prefecture",
-        display_text: "قەزا"
-      },
-      {
-        id: "sub-prefecture",
-        display_text: "قەزایا نەسەرەکی"
-      },
-      {
-        id: "commune",
-        display_text: "باژێرڤانی"
-      },
-      {
-        id: "payam",
-        display_text: "پەیام"
-      },
-      {
-        id: "other",
-        display_text: "یێن دی"
-      }
-    ],
-    unique_id: "lookup-location-type"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Marital Status",
-    name_ar: "الوضع العائلي",
-    name_ku: "باری هاوسەرگیری",
-    'name_ku-IQ': "بارودوخێ هەڤژینیێ",
-    lookup_values_en: [
-      {
-        id: "single",
-        display_text: "Single"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "Married/Cohabitating"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "Divorced/Separated"
-      },
-      {
-        id: "widowed",
-        display_text: "Widowed"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "single",
-        display_text: "عزباء"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "متزوجة / معاشرة دون زواج"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "مطلقة / منفصلة عن الشريك"
-      },
-      {
-        id: "widowed",
-        display_text: "أرملة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "single",
-        display_text: "سەڵت"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "هاوسەرگیر / هاوژین"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "تەڵاقدراو/ جیابووەوە"
-      },
-      {
-        id: "widowed",
-        display_text: "بێوەژن"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "single",
-        display_text: "سینگل"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "ژیانا هەڤژینیێ پێکئینایە"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "ژێکجودابوویی"
-      },
-      {
-        id: "widowed",
-        display_text: "بێژنی\\بێوەژن"
-      }
-    ],
-    unique_id: "lookup-marital-status"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Marital Status",
-    name_ar: "الوضع العائلي",
-    name_ku: "باری خێزانداری",
-    'name_ku-IQ': "بارودوخێ هەڤژینیێ",
-    lookup_values_en: [
-      {
-        id: "single",
-        display_text: "Single"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "Married/Cohabitating"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "Divorced/Separated"
-      },
-      {
-        id: "widowed",
-        display_text: "Widowed"
-      },
-      {
-        id: "unknown_not_applicable",
-        display_text: "Unknown/Not Applicable"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "single",
-        display_text: "عزباء"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "متزوجة / معاشرة دون زواج"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "مطلقة / منفصلة عن الشريك"
-      },
-      {
-        id: "widowed",
-        display_text: "أرمل"
-      },
-      {
-        id: "unknown_not_applicable",
-        display_text: "غير معروف / لا ينطبق"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "single",
-        display_text: "سەڵت"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "هاوسەر / هاوژین"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "تەلاقدارو/ جیابووەوە"
-      },
-      {
-        id: "widowed",
-        display_text: "بێوەژن"
-      },
-      {
-        id: "unknown_not_applicable",
-        display_text: "نەزانراو / نیە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "single",
-        display_text: "سینگل"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "ژیانا هەڤژینیێ پێکئینایە"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "ژێکجودابوویی"
-      },
-      {
-        id: "widowed",
-        display_text: "بێژنی\\بێوەژن"
-      },
-      {
-        id: "unknown_not_applicable",
-        display_text: "نە زانیار\\ نەپەیوەندیدار"
-      }
-    ],
-    unique_id: "lookup-marital-status-unknown"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Marital Status",
-    name_ar: "الوضع العائلي",
-    name_ku: "باری هاوسەرگیری",
-    'name_ku-IQ': "بارودوخێ هەڤژینیێ",
-    lookup_values_en: [
-      {
-        id: "single",
-        display_text: "Single"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "Married/Cohabitating"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "Divorced/Separated"
-      },
-      {
-        id: "widowed",
-        display_text: "Widowed"
-      },
-      {
-        id: "with_spouse",
-        display_text: "With Partner/Spouse"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "single",
-        display_text: "عزباء"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "متزوجة / معاشرة دون زواج"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "مطلقة / منفصلة عن الشريك"
-      },
-      {
-        id: "widowed",
-        display_text: "أرملة"
-      },
-      {
-        id: "with_spouse",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "single",
-        display_text: "سەڵت"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "هاوسەر / هاوژین"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "تەڵاقدارو/ جیابووەوە"
-      },
-      {
-        id: "widowed",
-        display_text: "بێوەژن"
-      },
-      {
-        id: "with_spouse",
-        display_text: "لەگەڵ مێرد / هاوژین"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "single",
-        display_text: "سینگل"
-      },
-      {
-        id: "married_cohabitating",
-        display_text: "ژیانا هەڤژینیێ پێکئینایە"
-      },
-      {
-        id: "divorced_separated",
-        display_text: "ژێکجودابوویی"
-      },
-      {
-        id: "widowed",
-        display_text: "بێژنی\\بێوەژن"
-      },
-      {
-        id: "with_spouse",
-        display_text: "دگەل هەڤال یان هەڤالێ ژیانێ"
-      }
-    ],
-    unique_id: "lookup-marital-status-with-spouse"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Nationality",
-    name_ar: "الجنسية",
-    name_ku: "رەگەزنامە",
-    'name_ku-IQ': "نەتەوە",
-    lookup_values_en: [
-      {
-        id: "nationality1",
-        display_text: "Nationality1"
-      },
-      {
-        id: "nationality2",
-        display_text: "Nationality2"
-      },
-      {
-        id: "nationality3",
-        display_text: "Nationality3"
-      },
-      {
-        id: "nationality4",
-        display_text: "Nationality4"
-      },
-      {
-        id: "nationality5",
-        display_text: "Nationality5"
-      },
-      {
-        id: "nationality6",
-        display_text: "Nationality6"
-      },
-      {
-        id: "nationality7",
-        display_text: "Nationality7"
-      },
-      {
-        id: "nationality8",
-        display_text: "Nationality8"
-      },
-      {
-        id: "nationality9",
-        display_text: "Nationality9"
-      },
-      {
-        id: "nationality10",
-        display_text: "Nationality10"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "nationality1",
-        display_text: "جنسية 1"
-      },
-      {
-        id: "nationality2",
-        display_text: "جنسية 2"
-      },
-      {
-        id: "nationality3",
-        display_text: "جنسية 3"
-      },
-      {
-        id: "nationality4",
-        display_text: "جنسية 4"
-      },
-      {
-        id: "nationality5",
-        display_text: "جنسية 5"
-      },
-      {
-        id: "nationality6",
-        display_text: "جنسية 6"
-      },
-      {
-        id: "nationality7",
-        display_text: "جنسية 7"
-      },
-      {
-        id: "nationality8",
-        display_text: "جنسية 8"
-      },
-      {
-        id: "nationality9",
-        display_text: "جنسية 9"
-      },
-      {
-        id: "nationality10",
-        display_text: "جنسية 10"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "nationality1",
-        display_text: "رەگەزنامە1"
-      },
-      {
-        id: "nationality2",
-        display_text: "رەگەزنامە2"
-      },
-      {
-        id: "nationality3",
-        display_text: "رەگەزنامە3"
-      },
-      {
-        id: "nationality4",
-        display_text: "رەگەزنامە4"
-      },
-      {
-        id: "nationality5",
-        display_text: "رەگەزنامە5"
-      },
-      {
-        id: "nationality6",
-        display_text: "رەگەزنامە6"
-      },
-      {
-        id: "nationality7",
-        display_text: "رەگەزنامە7"
-      },
-      {
-        id: "nationality8",
-        display_text: "رەگەزنامە8"
-      },
-      {
-        id: "nationality9",
-        display_text: "رەگەزنامە9"
-      },
-      {
-        id: "nationality10",
-        display_text: "رەگەزنامە10"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "nationality1",
-        display_text: "نەتەوە 1"
-      },
-      {
-        id: "nationality2",
-        display_text: "نەتەوە 2"
-      },
-      {
-        id: "nationality3",
-        display_text: "نەتەوە 3"
-      },
-      {
-        id: "nationality4",
-        display_text: "نەتەوە 4"
-      },
-      {
-        id: "nationality5",
-        display_text: "نەتەوە 5"
-      },
-      {
-        id: "nationality6",
-        display_text: "نەتەوە 6"
-      },
-      {
-        id: "nationality7",
-        display_text: "نەتەوە 7"
-      },
-      {
-        id: "nationality8",
-        display_text: "نەتەوە 8"
-      },
-      {
-        id: "nationality9",
-        display_text: "نەتەوە 9"
-      },
-      {
-        id: "nationality10",
-        display_text: "نەتەوە 10"
-      }
-    ],
-    unique_id: "lookup-nationality"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Perpetrator Relationship",
-    name_ar: "علاقة الجاني مع الناجية",
-    name_ku: "پەیوەندی تاوانکار",
-    'name_ku-IQ': "پەیوەندیا تاوانباری",
-    lookup_values_en: [
-      {
-        display_text: "Intimate Partner / Former Partner",
-        id: "intimate_partner_former_partner"
-      },
-      {
-        display_text: "Primary Caregiver",
-        id: "primary_caregiver"
-      },
-      {
-        display_text: "Family other than spouse or caregiver",
-        id: "family_other_than_spouse_or_caregiver"
-      },
-      {
-        display_text: "Supervisor / Employer",
-        id: "supervisor_employer"
-      },
-      {
-        display_text: "Schoolmate",
-        id: "schoolmate"
-      },
-      {
-        display_text: "Teacher / School Official",
-        id: "teacher_school_official"
-      },
-      {
-        display_text: "Service Provider",
-        id: "service_provider"
-      },
-      {
-        display_text: "Cotenant / Housemate",
-        id: "cotenant_housemate"
-      },
-      {
-        display_text: "Family Friend/Neighbor",
-        id: "family_friend_neighbor"
-      },
-      {
-        display_text: "Other refugee / IDP / Returnee",
-        id: "other_refugee_idp_returnee"
-      },
-      {
-        display_text: "Other resident community member",
-        id: "other_resident_community_member"
-      },
-      {
-        display_text: "Other",
-        id: "other"
-      },
-      {
-        display_text: "No relation",
-        id: "no_relation"
-      },
-      {
-        display_text: "Unknown",
-        id: "unknown"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        display_text: "شريك حميم / شريك سابق",
-        id: "intimate_partner_former_partner"
-      },
-      {
-        display_text: "مقدم الرعاية الرئيسي",
-        id: "primary_caregiver"
-      },
-      {
-        display_text: "الأسرة بخلاف الزوج أو مقدم الرعاية",
-        id: "family_other_than_spouse_or_caregiver"
-      },
-      {
-        display_text: "المشرف / صاحب العمل",
-        id: "supervisor_employer"
-      },
-      {
-        display_text: "زميل الدراسة",
-        id: "schoolmate"
-      },
-      {
-        display_text: "المعلم / مسؤول المدرسة",
-        id: "teacher_school_official"
-      },
-      {
-        display_text: "مقدم الخدمة",
-        id: "service_provider"
-      },
-      {
-        display_text: "شريك أو نزيل السكن",
-        id: "cotenant_housemate"
-      },
-      {
-        display_text: "صديق الأسرة / أحد الجيران",
-        id: "family_friend_neighbor"
-      },
-      {
-        display_text: "أحد اللاجئين أو النازحين أو العائدين",
-        id: "other_refugee_idp_returnee"
-      },
-      {
-        display_text: "أحد أفراد المجتمع المحلي",
-        id: "other_resident_community_member"
-      },
-      {
-        display_text: "أخرى",
-        id: "other"
-      },
-      {
-        display_text: "لا توجد علاقة",
-        id: "no_relation"
-      },
-      {
-        display_text: "غير معروفة",
-        id: "unknown"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        display_text: "هاوژین / هاوژینی پێشوو",
-        id: "intimate_partner_former_partner"
-      },
-      {
-        display_text: "چاودێریکەری سەرەكی",
-        id: "primary_caregiver"
-      },
-      {
-        display_text: "خێزان جگە لە هاوسەر و بایەخپێدەر",
-        id: "family_other_than_spouse_or_caregiver"
-      },
-      {
-        display_text: "سەرپەرشتیار / خاوەنكار",
-        id: "supervisor_employer"
-      },
-      {
-        display_text: "هاوقوتابخانە(لەهەمان قوتابخانە)",
-        id: "schoolmate"
-      },
-      {
-        display_text: "مامۆستا / کارمەندی بەرپرس لە قوتابخانە",
-        id: "teacher_school_official"
-      },
-      {
-        display_text: "دابینکەری خزمەتگوزاری",
-        id: "service_provider"
-      },
-      {
-        display_text: "هاوكرێچی/ هاوماڵ",
-        id: "cotenant_housemate"
-      },
-      {
-        display_text: "هاوڕێی خێزان / دراوسێ",
-        id: "family_friend_neighbor"
-      },
-      {
-        display_text: "پەنابەر / ئاوارە / گەڕاوەی تر",
-        id: "other_refugee_idp_returnee"
-      },
-      {
-        display_text: "ئاندامی تر كۆمەڵگەی نیشتەجێبوون",
-        id: "other_resident_community_member"
-      },
-      {
-        display_text: "هی تر",
-        id: "other"
-      },
-      {
-        display_text: "پەیوەندی نیە",
-        id: "no_relation"
-      },
-      {
-        display_text: "نەزانراو",
-        id: "unknown"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        display_text: "هەڤالێ نێزیک یان هەڤالێ بەرێ",
-        id: "intimate_partner_former_partner"
-      },
-      {
-        display_text: "چاڤدێرێ سەرەکی",
-        id: "primary_caregiver"
-      },
-      {
-        display_text: "خێزان جۆدا ژ هەڤالێ ژیانێ یان چاڤدێری",
-        id: "family_other_than_spouse_or_caregiver"
-      },
-      {
-        display_text: "سەرپەرشت یان خودانێ کاری",
-        id: "supervisor_employer"
-      },
-      {
-        display_text: "هەڤالێ قوتابخانێ",
-        id: "schoolmate"
-      },
-      {
-        display_text: "ماموستا یان بەرپرسێ قوتابخانێ",
-        id: "teacher_school_official"
-      },
-      {
-        display_text: "دابینکەرێ خزمەتگۆزاریێ",
-        id: "service_provider"
-      },
-      {
-        display_text: "هەڤکارێ مال",
-        id: "cotenant_housemate"
-      },
-      {
-        display_text: "هەڤالێ خێزانێ یان جیران",
-        id: "family_friend_neighbor"
-      },
-      {
-        display_text: "پەنابەر یان ئاوارە یان ڤەگەریایێ دی",
-        id: "other_refugee_idp_returnee"
-      },
-      {
-        display_text: "ئەندامێن دی یێن جڤاکێ ئاکنجی",
-        id: "other_resident_community_member"
-      },
-      {
-        display_text: "یێن دی",
-        id: "other"
-      },
-      {
-        display_text: "چ پەیوەندی نینە",
-        id: "no_relation"
-      },
-      {
-        display_text: "ثةيوةنديا تومةتبارى دطةل كةسى رزطاربوى - نةديار",
-        id: "unknown"
-      }
-    ],
-    unique_id: "lookup-perpetrator-relationship"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Protection Concerns",
-    name_ar: "مخاوف الحماية",
-    name_ku: "نیگەرانیەکانی پاراستن",
-    'name_ku-IQ': "نیگەرانیێن پاراستنێ",
-    lookup_values_en: [
-      {
-        id: "sexually_exploited",
-        display_text: "Sexually Exploited"
-      },
-      {
-        id: "gbv_survivor",
-        display_text: "GBV survivor"
-      },
-      {
-        id: "trafficked_smuggled",
-        display_text: "Trafficked/smuggled"
-      },
-      {
-        id: "statelessness",
-        display_text: "Statelessness"
-      },
-      {
-        id: "arrested_detained",
-        display_text: "Arrested/Detained"
-      },
-      {
-        id: "migrant",
-        display_text: "Migrant"
-      },
-      {
-        id: "disabled",
-        display_text: "Disabled"
-      },
-      {
-        id: "serious_health_issue",
-        display_text: "Serious health issue"
-      },
-      {
-        id: "refugee",
-        display_text: "Refugee"
-      },
-      {
-        id: "caafag",
-        display_text: "CAAFAG"
-      },
-      {
-        id: "street_child",
-        display_text: "Street child"
-      },
-      {
-        id: "child_mother",
-        display_text: "Child Mother"
-      },
-      {
-        id: "physically_or_mentally_abused",
-        display_text: "Physically or Mentally Abused"
-      },
-      {
-        id: "living_with_vulnerable_person",
-        display_text: "Living with vulnerable person"
-      },
-      {
-        id: "worst_forms_of_child_labor",
-        display_text: "Worst Forms of Child Labor"
-      },
-      {
-        id: "child_headed_household",
-        display_text: "Child Headed Household"
-      },
-      {
-        id: "mentally_distressed",
-        display_text: "Mentally Distressed"
-      },
-      {
-        id: "other",
-        display_text: "Other"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "sexually_exploited",
-        display_text: "الاستغلال الجنسي"
-      },
-      {
-        id: "gbv_survivor",
-        display_text: "ناجي \\ ناجية من العنف القائم على اساس النوع الاجتماعي"
-      },
-      {
-        id: "trafficked_smuggled",
-        display_text: "التهريب / الاتجار بالبشر"
-      },
-      {
-        id: "statelessness",
-        display_text: "انعدام الجنسية"
-      },
-      {
-        id: "arrested_detained",
-        display_text: "الاعتقال / الاحتجاز"
-      },
-      {
-        id: "migrant",
-        display_text: "الهجرة"
-      },
-      {
-        id: "disabled",
-        display_text: "الإعاقة"
-      },
-      {
-        id: "serious_health_issue",
-        display_text: "مشكلة صحية خطيرة"
-      },
-      {
-        id: "refugee",
-        display_text: "اللجوء"
-      },
-      {
-        id: "caafag",
-        display_text: "تجنيد الأطفال"
-      },
-      {
-        id: "street_child",
-        display_text: "أطفال الشوارع"
-      },
-      {
-        id: "child_mother",
-        display_text: "أم لطفل"
-      },
-      {
-        id: "physically_or_mentally_abused",
-        display_text: "الإيذاء الجسدي أو النفسي"
-      },
-      {
-        id: "living_with_vulnerable_person",
-        display_text: "العيش مع شخص مستضعف"
-      },
-      {
-        id: "worst_forms_of_child_labor",
-        display_text: "أسوأ أشكال عمالة الأطفال"
-      },
-      {
-        id: "child_headed_household",
-        display_text: "أسرة يعيلها طفل"
-      },
-      {
-        id: "mentally_distressed",
-        display_text: "الاضطراب النفسي"
-      },
-      {
-        id: "other",
-        display_text: "أخرى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "sexually_exploited",
-        display_text: "قۆستنەوەی سێكسی"
-      },
-      {
-        id: "gbv_survivor",
-        display_text: "رزگاربووی توندوتیژی لەسەر بنچینەی جێندەر GBV"
-      },
-      {
-        id: "trafficked_smuggled",
-        display_text: "بازرگانی پێوەكراو / بە قاچاخ هێنراو"
-      },
-      {
-        id: "statelessness",
-        display_text: "بێ ڕەگەزنامە"
-      },
-      {
-        id: "arrested_detained",
-        display_text: "گیراو / راگیراو"
-      },
-      {
-        id: "migrant",
-        display_text: "كۆچبەر"
-      },
-      {
-        id: "disabled",
-        display_text: "پەككەوتە"
-      },
-      {
-        id: "serious_health_issue",
-        display_text: "كێشەی تەندروستی جدی"
-      },
-      {
-        id: "refugee",
-        display_text: "پەنابەر"
-      },
-      {
-        id: "caafag",
-        display_text: "منداڵانی پەیوەست بە گروپە چەكدارەكان"
-      },
-      {
-        id: "street_child",
-        display_text: "منداڵی سەرشەقام"
-      },
-      {
-        id: "child_mother",
-        display_text: "دایکێکی منداڵ"
-      },
-      {
-        id: "physically_or_mentally_abused",
-        display_text: "مامەڵەی خراپ لەگەڵ كراو لە رووی جەستەیی یان عەقلی"
-      },
-      {
-        id: "living_with_vulnerable_person",
-        display_text: "لەگەڵ كەسێك دەژی کە مەترسی لەسەرە"
-      },
-      {
-        id: "worst_forms_of_child_labor",
-        display_text: "خراپترین شێوەی كاركردنی منداڵ"
-      },
-      {
-        id: "child_headed_household",
-        display_text: "سەرۆک خێزانی منداڵ"
-      },
-      {
-        id: "mentally_distressed",
-        display_text: "خەمگین لە روی عەقلیەوە"
-      },
-      {
-        id: "other",
-        display_text: "هی تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "sexually_exploited",
-        display_text: "ئیستغلالا سکسی"
-      },
-      {
-        id: "gbv_survivor",
-        display_text: "رزگاربوویێ توندو تیژی لسەر بنیاتێ رەگەزی"
-      },
-      {
-        id: "trafficked_smuggled",
-        display_text: "هاتیە قاچاخچیکرن"
-      },
-      {
-        id: "statelessness",
-        display_text: "بێی ناسنامە"
-      },
-      {
-        id: "arrested_detained",
-        display_text: "دەستەسەرکری\\ گرتی"
-      },
-      {
-        id: "migrant",
-        display_text: "کوچبەر"
-      },
-      {
-        id: "disabled",
-        display_text: "پەککەفتی یان کێم ئەندام"
-      },
-      {
-        id: "serious_health_issue",
-        display_text: "ئاریشێن رژدێن ساخلەمیێ"
-      },
-      {
-        id: "refugee",
-        display_text: "پەنابەر"
-      },
-      {
-        id: "caafag",
-        display_text: "زارۆکێن گرێدایی هێز و گروپێن چەکدار                                                                                                       Children Associated with Armed Forces and Armed Groups"
-      },
-      {
-        id: "street_child",
-        display_text: "زاروکێ سەر جادێ"
-      },
-      {
-        id: "child_mother",
-        display_text: "دەيکا زاروك"
-      },
-      {
-        id: "physically_or_mentally_abused",
-        display_text: "ژ لایێ فیزیکی یان مێشکی ڤە دەستدرێژیا ل سەر هاتیە کرن"
-      },
-      {
-        id: "living_with_vulnerable_person",
-        display_text: "دگەل کەسەکێ بێهێز دژیت"
-      },
-      {
-        id: "worst_forms_of_child_labor",
-        display_text: "نەخوشترین شێوازێ کرێکاریا زاروکا"
-      },
-      {
-        id: "child_headed_household",
-        display_text: "زاروکێ مالێ برێڤەدبەت"
-      },
-      {
-        id: "mentally_distressed",
-        display_text: "ژلایێ مێشکی ڤە نەئارام"
-      },
-      {
-        id: "other",
-        display_text: "یێن دی"
-      }
-    ],
-    unique_id: "lookup-protection-concerns"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Protection Status",
-    name_ar: "الوضع الراهن للحماية",
-    name_ku: "باری پاراستن",
-    'name_ku-IQ': "بارودوخێ پاراستنێ",
-    lookup_values_en: [
-      {
-        id: "unaccompanied",
-        display_text: "Unaccompanied"
-      },
-      {
-        id: "separated",
-        display_text: "Separated"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "unaccompanied",
-        display_text: "غير مصحوبة"
-      },
-      {
-        id: "separated",
-        display_text: "منفصلة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "unaccompanied",
-        display_text: "بێ هاوەڵ"
-      },
-      {
-        id: "separated",
-        display_text: "جیابووەوە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "unaccompanied",
-        display_text: "بتنێ"
-      },
-      {
-        id: "separated",
-        display_text: "جودابوویی"
-      }
-    ],
-    unique_id: "lookup-protection-status"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Religion",
-    name_ar: "الدين",
-    name_ku: "ئاین",
-    'name_ku-IQ': "ئاین",
-    lookup_values_en: [
-      {
-        id: "religion1",
-        display_text: "Religion1"
-      },
-      {
-        id: "religion2",
-        display_text: "Religion2"
-      },
-      {
-        id: "religion3",
-        display_text: "Religion3"
-      },
-      {
-        id: "religion4",
-        display_text: "Religion4"
-      },
-      {
-        id: "religion5",
-        display_text: "Religion5"
-      },
-      {
-        id: "religion6",
-        display_text: "Religion6"
-      },
-      {
-        id: "religion7",
-        display_text: "Religion7"
-      },
-      {
-        id: "religion8",
-        display_text: "Religion8"
-      },
-      {
-        id: "religion9",
-        display_text: "Religion9"
-      },
-      {
-        id: "religion10",
-        display_text: "Religion10"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "religion1",
-        display_text: "دين 1"
-      },
-      {
-        id: "religion2",
-        display_text: "دين 2"
-      },
-      {
-        id: "religion3",
-        display_text: "دين 3"
-      },
-      {
-        id: "religion4",
-        display_text: "دين 4"
-      },
-      {
-        id: "religion5",
-        display_text: "دين 5"
-      },
-      {
-        id: "religion6",
-        display_text: "دين 6"
-      },
-      {
-        id: "religion7",
-        display_text: "دين 7"
-      },
-      {
-        id: "religion8",
-        display_text: "دين 8"
-      },
-      {
-        id: "religion9",
-        display_text: "دين 9"
-      },
-      {
-        id: "religion10",
-        display_text: "دين 10"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "religion1",
-        display_text: "ئاین1"
-      },
-      {
-        id: "religion2",
-        display_text: "ئاین2"
-      },
-      {
-        id: "religion3",
-        display_text: "ئاین3"
-      },
-      {
-        id: "religion4",
-        display_text: "ئاین4"
-      },
-      {
-        id: "religion5",
-        display_text: "ئاین5"
-      },
-      {
-        id: "religion6",
-        display_text: "ئاین6"
-      },
-      {
-        id: "religion7",
-        display_text: "ئاین7"
-      },
-      {
-        id: "religion8",
-        display_text: "ئاین8"
-      },
-      {
-        id: "religion9",
-        display_text: "ئاین9"
-      },
-      {
-        id: "religion10",
-        display_text: "ئاین10"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "religion1",
-        display_text: "ئاین 1"
-      },
-      {
-        id: "religion2",
-        display_text: "ئاین 2"
-      },
-      {
-        id: "religion3",
-        display_text: "ئاین 3"
-      },
-      {
-        id: "religion4",
-        display_text: "ئاین 4"
-      },
-      {
-        id: "religion5",
-        display_text: "ئاین 5"
-      },
-      {
-        id: "religion6",
-        display_text: "ئاین 6"
-      },
-      {
-        id: "religion7",
-        display_text: "ئاین 7"
-      },
-      {
-        id: "religion8",
-        display_text: "ئاین 8"
-      },
-      {
-        id: "religion9",
-        display_text: "ئاین 9"
-      },
-      {
-        id: "religion10",
-        display_text: "ئاین 10"
-      }
-    ],
-    unique_id: "lookup-religion"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: true,
-    name_en: "Reporting Location Type",
-    lookup_values_en: [
-      {
-        id: "province",
-        display_text: "Province"
-      },
-      {
-        id: "district",
-        display_text: "District"
-      }
-    ],
-    unique_id: "lookup-reporting-location-type"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Risk Level",
-    name_ar: "مستوى المخاطر",
-    name_ku: "ئاستی مەترسی",
-    'name_ku-IQ': "ئاستێ مەترسیێ",
-    lookup_values_en: [
-      {
-        id: "high",
-        display_text: "High"
-      },
-      {
-        id: "medium",
-        display_text: "Medium"
-      },
-      {
-        id: "low",
-        display_text: "Low"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "high",
-        display_text: "عالي"
-      },
-      {
-        id: "medium",
-        display_text: "متوسط"
-      },
-      {
-        id: "low",
-        display_text: "منخفض"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "high",
-        display_text: "بەرز"
-      },
-      {
-        id: "medium",
-        display_text: "ناوەند"
-      },
-      {
-        id: "low",
-        display_text: "نزم"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "high",
-        display_text: "بلند"
-      },
-      {
-        id: "medium",
-        display_text: "مام ناڤەند"
-      },
-      {
-        id: "low",
-        display_text: "نزم"
-      }
-    ],
-    unique_id: "lookup-risk-level"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Separation Cause",
-    name_ar: "سبب الانفصال",
-    name_ku: "هۆكاری جیابوونەوە",
-    'name_ku-IQ': "ئەگەرێ جودابوونێ",
-    lookup_values_en: [
-      {
-        id: "conflict",
-        display_text: "Conflict"
-      },
-      {
-        id: "death",
-        display_text: "Death"
-      },
-      {
-        id: "family_abuse_violence_exploitation",
-        display_text: "Family abuse/violence/exploitation"
-      },
-      {
-        id: "lack_of_access_to_services_support",
-        display_text: "Lack of access to services/support"
-      },
-      {
-        id: "caafag",
-        display_text: "CAAFAG"
-      },
-      {
-        id: "sickness_of_family_member",
-        display_text: "Sickness of family member"
-      },
-      {
-        id: "entrusted_into_the_care_of_an_individual",
-        display_text: "Entrusted into the care of an individual"
-      },
-      {
-        id: "arrest_and_detention",
-        display_text: "Arrest and detention"
-      },
-      {
-        id: "abandonment",
-        display_text: "Abandonment"
-      },
-      {
-        id: "repatriation",
-        display_text: "Repatriation"
-      },
-      {
-        id: "population_movement",
-        display_text: "Population movement"
-      },
-      {
-        id: "migration",
-        display_text: "Migration"
-      },
-      {
-        id: "poverty",
-        display_text: "Poverty"
-      },
-      {
-        id: "natural_disaster",
-        display_text: "Natural disaster"
-      },
-      {
-        id: "divorce_remarriage",
-        display_text: "Divorce/remarriage"
-      },
-      {
-        id: "poverty",
-        display_text: "Poverty"
-      },
-      {
-        id: "other_please_specify",
-        display_text: "Other (please specify)"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "conflict",
-        display_text: "نزاع"
-      },
-      {
-        id: "death",
-        display_text: "الموت"
-      },
-      {
-        id: "family_abuse_violence_exploitation",
-        display_text: "إيذاء / عنف / استغلال من قبل الأسرة"
-      },
-      {
-        id: "lack_of_access_to_services_support",
-        display_text: "عدم الحصول على الخدمات / الدعم"
-      },
-      {
-        id: "caafag",
-        display_text: "تجنيد الأطفال"
-      },
-      {
-        id: "sickness_of_family_member",
-        display_text: "مرض أحد أفراد الأسرة"
-      },
-      {
-        id: "entrusted_into_the_care_of_an_individual",
-        display_text: "الوضع تحت رعاية شخص آخر"
-      },
-      {
-        id: "arrest_and_detention",
-        display_text: "الاعتقال أو الاحتجاز"
-      },
-      {
-        id: "abandonment",
-        display_text: "الهجر"
-      },
-      {
-        id: "repatriation",
-        display_text: "العودة"
-      },
-      {
-        id: "population_movement",
-        display_text: "حركة السكان"
-      },
-      {
-        id: "migration",
-        display_text: "هجرة"
-      },
-      {
-        id: "poverty",
-        display_text: "فقر"
-      },
-      {
-        id: "natural_disaster",
-        display_text: "كارثة طبيعية"
-      },
-      {
-        id: "divorce_remarriage",
-        display_text: "طلاق / زواج مرة أخرى"
-      },
-      {
-        id: "other_please_specify",
-        display_text: "أخرى (يرجى التحديد)"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "conflict",
-        display_text: "ململانێ"
-      },
-      {
-        id: "death",
-        display_text: "مردن"
-      },
-      {
-        id: "family_abuse_violence_exploitation",
-        display_text: "مامەڵەی خراپی/توندوتیژی/قۆستنەوەی خێزانی"
-      },
-      {
-        id: "lack_of_access_to_services_support",
-        display_text: "نەبوونی دەستگەیشتن بە خزمەتگوزاری / پاڵپشتی"
-      },
-      {
-        id: "caafag",
-        display_text: "منداڵانی پەیوەست بە گروپە چەكدارەكان"
-      },
-      {
-        id: "sickness_of_family_member",
-        display_text: "نەخۆشی ئەندامێكی خێزان"
-      },
-      {
-        id: "entrusted_into_the_care_of_an_individual",
-        display_text: "متمانە پێکراو بە چاودێری تاكێك"
-      },
-      {
-        id: "arrest_and_detention",
-        display_text: "دەستگیرکردن و راگرتن"
-      },
-      {
-        id: "abandonment",
-        display_text: "پەراوێزخراو"
-      },
-      {
-        id: "repatriation",
-        display_text: "گەڕانەوە بۆ وڵات"
-      },
-      {
-        id: "population_movement",
-        display_text: "جوڵەی دانیشتوان"
-      },
-      {
-        id: "migration",
-        display_text: "كۆچ"
-      },
-      {
-        id: "poverty",
-        display_text: "هەژاری"
-      },
-      {
-        id: "natural_disaster",
-        display_text: "كارەساتی سروشتی"
-      },
-      {
-        id: "divorce_remarriage",
-        display_text: "جیابوونەوە/دووبارە هاوسەرگیری"
-      },
-      {
-        id: "other_please_specify",
-        display_text: "هی تر (تكایە دیاریبكە)"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "conflict",
-        display_text: "ناکوکی"
-      },
-      {
-        id: "death",
-        display_text: "مرن"
-      },
-      {
-        id: "family_abuse_violence_exploitation",
-        display_text: "دەستدرێژی یان تۆندووتیژی یان ئستیغلال یا خێزانی "
-      },
-      {
-        id: "lack_of_access_to_services_support",
-        display_text: "نەبوونا گەهشتن ب خزمەتگۆزاریا یان پشتەڤانیێ"
-      },
-      {
-        id: "caafag",
-        display_text: "زارۆکێن گرێدایی هێز و گروپێن چەکدار Children Associated with Armed Forces and Armed Groups"
-      },
-      {
-        id: "sickness_of_family_member",
-        display_text: "نساخبوونا ئەندامێن خێزانێ"
-      },
-      {
-        id: "entrusted_into_the_care_of_an_individual",
-        display_text: "هاتیە بەرپرس کرن بۆ چاڤدێریکرنا کەسەکی"
-      },
-      {
-        id: "arrest_and_detention",
-        display_text: "دەستەسەرکرن و گرتن"
-      },
-      {
-        id: "abandonment",
-        display_text: "هێلان"
-      },
-      {
-        id: "repatriation",
-        display_text: "ڤەگەریان بۆ وەلاتی"
-      },
-      {
-        id: "population_movement",
-        display_text: "لڤینا ئاکنجیا"
-      },
-      {
-        id: "migration",
-        display_text: "کوچبەری"
-      },
-      {
-        id: "poverty",
-        display_text: "هەژاری"
-      },
-      {
-        id: "natural_disaster",
-        display_text: "کارەساتێن سروشتی"
-      },
-      {
-        id: "divorce_remarriage",
-        display_text: "جودابووی\\ دوبارە هەڤژینی پێکئینای"
-      },
-      {
-        id: "other_please_specify",
-        display_text: "(یێن دی (هیڤیدارین دەستنیشان بکە"
-      }
-    ],
-    unique_id: "lookup-separation-cause"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: true,
-    name_en: "Service Implemented",
-    name_ar: "تنفيذ الخدمة",
-    name_ku: "خزمەتگوزاری جێبەجێكراو",
-    'name_ku-IQ': "خزمەتگۆزاری هاتیە جێبەجێکرن",
-    lookup_values_en: [
-      {
-        id: "not_implemented",
-        display_text: "Not Implemented"
-      },
-      {
-        id: "implemented",
-        display_text: "Implemented"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "not_implemented",
-        display_text: "لم يتم تنفيذها"
-      },
-      {
-        id: "implemented",
-        display_text: "تم تنفيذها"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "not_implemented",
-        display_text: "جێبەجێنەكراو"
-      },
-      {
-        id: "implemented",
-        display_text: "جێبەجێكراو"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "not_implemented",
-        display_text: "نەهاتیە جێبەجێکرن"
-      },
-      {
-        id: "implemented",
-        display_text: "هاتیە جێبەجێکرن"
-      }
-    ],
-    unique_id: "lookup-service-implemented"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Service Referred",
-    name_ar: "إحالة الخدمة",
-    name_ku: "خزمەتگوزاری رەوانەکراو",
-    'name_ku-IQ': "خزمەتگۆزاری هاتیە رەوانەکرن",
-    lookup_values_en: [
-      {
-        id: "referred",
-        display_text: "Referred"
-      },
-      {
-        id: "service_provided_by_your_agency",
-        display_text: "Service provided by your agency"
-      },
-      {
-        id: "services_already_received_from_another_agency",
-        display_text: "Services already received from another agency"
-      },
-      {
-        id: "service_not_applicable",
-        display_text: "Service not applicable"
-      },
-      {
-        id: "referral_declined_by_survivor",
-        display_text: "Referral declined by survivor"
-      },
-      {
-        id: "service_unavailable",
-        display_text: "Service unavailable"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "referred",
-        display_text: "تمت الإحالة"
-      },
-      {
-        id: "service_provided_by_your_agency",
-        display_text: "يتم تقديم الخدمة في مؤسستك"
-      },
-      {
-        id: "services_already_received_from_another_agency",
-        display_text: "تم تلقي الخدمة من قبل مؤسسة أخرى"
-      },
-      {
-        id: "service_not_applicable",
-        display_text: "الخدمة غير قابلة للتطبيق"
-      },
-      {
-        id: "referral_declined_by_survivor",
-        display_text: "لم تقبل الناجية بالإحالة"
-      },
-      {
-        id: "service_unavailable",
-        display_text: "الخدمة غير متوفرة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "referred",
-        display_text: "رەوانەکراو"
-      },
-      {
-        id: "service_provided_by_your_agency",
-        display_text: "ئەو خزمەتگوزارییەی لەلایەن ئاژانسەكەی تۆوە دابینکراوە"
-      },
-      {
-        id: "services_already_received_from_another_agency",
-        display_text: "ئەو خزمەتگوزاریانەی پێشتر لە ئاژانسی دیكەوە وەرگیراون"
-      },
-      {
-        id: "service_not_applicable",
-        display_text: "خزمەتگوزارییەکە بەركار نیە"
-      },
-      {
-        id: "referral_declined_by_survivor",
-        display_text: "رەوانەكردن لەلایەن رزگاربوو رەتكراوەتەوە"
-      },
-      {
-        id: "service_unavailable",
-        display_text: "خزمەتگوازارییەکە بەردەست نیە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "referred",
-        display_text: "هاتیە رەوانەکرن"
-      },
-      {
-        id: "service_provided_by_your_agency",
-        display_text: "خزمەتگۆزاری ژ لایێ ئاژانسا تەڤە هاتیە دابینکرن"
-      },
-      {
-        id: "services_already_received_from_another_agency",
-        display_text: "خزمەتگۆزاری ژ لایێ ئاژانسەکادی ڤە هاتیە وەرگرتن"
-      },
-      {
-        id: "service_not_applicable",
-        display_text: "خزمەتگۆزاری نە گونجایی یە"
-      },
-      {
-        id: "referral_declined_by_survivor",
-        display_text: "رەوانەکرن هاتیە رەتکرن ژلایێ رزگاربووی ڤە"
-      },
-      {
-        id: "service_unavailable",
-        display_text: "خزمەتگوزاری بەردەست نینە"
-      }
-    ],
-    unique_id: "lookup-service-referred"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Service Referred Gbv",
-    name_ar: "إحالة الخدمة GBV",
-    name_ku: "خزمەتگوزاری رەوانەکراوی Gbv",
-    'name_ku-IQ': "GBV خزمەتگۆزاری هاتیە رەوانەکرن بۆ",
-    lookup_values_en: [
-      {
-        id: "referred",
-        display_text: "Referred"
-      },
-      {
-        id: "no_referral_service_provided_by_your_agency",
-        display_text: "No referral, Service provided by your agency"
-      },
-      {
-        id: "no_referral_services_already_received_from_another_agency",
-        display_text: "No referral, Services already received from another agency"
-      },
-      {
-        id: "no_referral_service_not_applicable",
-        display_text: "No referral, Service not applicable"
-      },
-      {
-        id: "no_referral_declined_by_survivor",
-        display_text: "No referral, Declined by survivor"
-      },
-      {
-        id: "no_referral_service_unavailable",
-        display_text: "No referral, Service unavailable"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "referred",
-        display_text: "تمت الإحالة"
-      },
-      {
-        id: "no_referral_service_provided_by_your_agency",
-        display_text: "لا توجد إحالة، يتم تقديم الخدمة في مؤسستك"
-      },
-      {
-        id: "no_referral_services_already_received_from_another_agency",
-        display_text: "لا توجد إحالة، تم تلقي الخدمة من قبل مؤسسة أخرى"
-      },
-      {
-        id: "no_referral_service_not_applicable",
-        display_text: "لا توجد إحالة، الخدمة غير قابلة للتطبيق"
-      },
-      {
-        id: "no_referral_declined_by_survivor",
-        display_text: "لا توجد إحالة، لم تقبل بها الناجية"
-      },
-      {
-        id: "no_referral_service_unavailable",
-        display_text: "لا توجد إحالة، الخدمة غير متوفرة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "referred",
-        display_text: "ڕەوانەکراو"
-      },
-      {
-        id: "no_referral_service_provided_by_your_agency",
-        display_text: "رەوانەکردن نیە، خزمەتگوزاری لەلایەن ئاژانسی تۆوە دابینکراوە"
-      },
-      {
-        id: "no_referral_services_already_received_from_another_agency",
-        display_text: "رەوانەکردن نیە، خزمەتگوزاری پێسوەختە لە ئاژانسێكی ترەوە وەرگیراوە"
-      },
-      {
-        id: "no_referral_service_not_applicable",
-        display_text: "رەوانەکردن نیە، خزمەتگوزاری بەركار نیە"
-      },
-      {
-        id: "no_referral_declined_by_survivor",
-        display_text: "رەوانەکردن نیە، لەلایەن رزگاربوو رەتكراوەتەوە"
-      },
-      {
-        id: "no_referral_service_unavailable",
-        display_text: "رەوانەکردن نیە، خزمەتگوزاری بەردەست نیە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "referred",
-        display_text: "هاتیە رەوانەکرن"
-      },
-      {
-        id: "no_referral_service_provided_by_your_agency",
-        display_text: "رەوانەکرن نینە، خزمەتگۆزاری ژلایێ ئاژانسا تەڤە هاتیە دابینکرن"
-      },
-      {
-        id: "no_referral_services_already_received_from_another_agency",
-        display_text: "رەوانەکرن نینە، خزمەتگۆزاری ژلایێ ئاژانسەکادی ڤە هاتیە وەرگرتن"
-      },
-      {
-        id: "no_referral_service_not_applicable",
-        display_text: "رەوانەکرن نینە، خزمەتگۆزاری نە گونجایی یە"
-      },
-      {
-        id: "no_referral_declined_by_survivor",
-        display_text: "رەوانەکرن نینە، ژلایێ رزگاربووی ڤە هاتیە رەتکرن"
-      },
-      {
-        id: "no_referral_service_unavailable",
-        display_text: "رەوانەکرن نینە، خزمەتگۆزاری بەردەست نینە"
-      }
-    ],
-    unique_id: "lookup-service-referred-gbv"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: true,
-    name_en: "Service Response Type",
-    name_ar: "نوع استجابة الخدمة",
-    name_ku: "جۆری بەدەنگەوەهاتنی خزمەتگوزاری",
-    'name_ku-IQ': "جورێ بەرسڤدانا خزمەتگۆزاریێ",
-    lookup_values_en: [
-      {
-        id: "care_plan",
-        display_text: "Care plan"
-      },
-      {
-        id: "action_plan",
-        display_text: "Action plan"
-      },
-      {
-        id: "service_provision",
-        display_text: "Service provision"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "care_plan",
-        display_text: "خطة رعاية"
-      },
-      {
-        id: "action_plan",
-        display_text: "خطة عمل"
-      },
-      {
-        id: "service_provision",
-        display_text: "تقديم الخدمة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "care_plan",
-        display_text: "پلانی چاودێری"
-      },
-      {
-        id: "action_plan",
-        display_text: "پلانی كار"
-      },
-      {
-        id: "service_provision",
-        display_text: "دابینكردنی خزمەتگوزاری"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "care_plan",
-        display_text: "پلانا چاڤدێریێ"
-      },
-      {
-        id: "action_plan",
-        display_text: "پلانا کریارێ"
-      },
-      {
-        id: "service_provision",
-        display_text: "دابینکرنا خزمەتگۆزاریێ"
-      }
-    ],
-    unique_id: "lookup-service-response-type"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Service Type",
-    name_ar: "نوع الخدمة",
-    name_ku: "جۆری خزمەتگوزاری",
-    'name_ku-IQ': "جورێ خزمەتگۆزاریێ",
-    lookup_values_en: [
-      {
-        id: "safehouse_service",
-        display_text: "Safehouse Service"
-      },
-      {
-        id: "health_medical_service",
-        display_text: "Health/Medical Service"
-      },
-      {
-        id: "psychosocial_service",
-        display_text: "Psychosocial Service"
-      },
-      {
-        id: "police_other_service",
-        display_text: "Police/Other Service"
-      },
-      {
-        id: "legal_assistance_service",
-        display_text: "Legal Assistance Service"
-      },
-      {
-        id: "livelihoods_service",
-        display_text: "Livelihoods Service"
-      },
-      {
-        id: "child_protection_service",
-        display_text: "Child Protection Service"
-      },
-      {
-        id: "family_mediation_service",
-        display_text: "Family Mediation Service"
-      },
-      {
-        id: "family_seunification_service",
-        display_text: "Family Reunification Service"
-      },
-      {
-        id: "education_service",
-        display_text: "Education Service"
-      },
-      {
-        id: "nfi_clothes_shoes_service",
-        display_text: "NFI/Clothes/Shoes Service"
-      },
-      {
-        id: "water_sanitation_service",
-        display_text: "Water/Sanitation Service"
-      },
-      {
-        id: "registration_service",
-        display_text: "Registration Service"
-      },
-      {
-        id: "food_service",
-        display_text: "Food Service"
-      },
-      {
-        id: "other_service",
-        display_text: "Other Service"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "safehouse_service",
-        display_text: "خدمة البيت الآمن"
-      },
-      {
-        id: "health_medical_service",
-        display_text: "خدمات صحية / طبية"
-      },
-      {
-        id: "psychosocial_service",
-        display_text: "خدمات نفسية اجتماعية"
-      },
-      {
-        id: "police_other_service",
-        display_text: "الشرطة / نوع آخر من الخدمات الأمنية"
-      },
-      {
-        id: "legal_assistance_service",
-        display_text: "خدمات المساعدة القانونية"
-      },
-      {
-        id: "livelihoods_service",
-        display_text: "خدمة سبل المعيشة"
-      },
-      {
-        id: "child_protection_service",
-        display_text: "خدمات حماية الطفل"
-      },
-      {
-        id: "family_mediation_service",
-        display_text: "خدمة الوساطة الأسرية"
-      },
-      {
-        id: "family_seunification_service",
-        display_text: "خدمة لم شمل الأسرة"
-      },
-      {
-        id: "education_service",
-        display_text: "خدمة تعليمية"
-      },
-      {
-        id: "nfi_clothes_shoes_service",
-        display_text: "خدمة توزيع ملابس / أحذية / عناصر غير غذائية"
-      },
-      {
-        id: "water_sanitation_service",
-        display_text: "خدمة المياه / الصرف الصحي"
-      },
-      {
-        id: "registration_service",
-        display_text: "خدمة التسجيل"
-      },
-      {
-        id: "food_service",
-        display_text: "خدمة الأغذية"
-      },
-      {
-        id: "other_service",
-        display_text: "خدمة أخرى"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "safehouse_service",
-        display_text: "خزمەتگوزاری خانەی ئارام"
-      },
-      {
-        id: "health_medical_service",
-        display_text: "خزمەتگوزاری تەندروستی / پزیشكی"
-      },
-      {
-        id: "psychosocial_service",
-        display_text: "خزمەتگوزاری دەروونی"
-      },
-      {
-        id: "police_other_service",
-        display_text: "خزمەتگوزاری پۆلیس / هی تر"
-      },
-      {
-        id: "legal_assistance_service",
-        display_text: "خزمەتگوزاری یارمەتی یاسایی"
-      },
-      {
-        id: "livelihoods_service",
-        display_text: "خزمەتگوزاری  بژێوی"
-      },
-      {
-        id: "child_protection_service",
-        display_text: "خزمەتگوزاری پاراستنی منداڵ"
-      },
-      {
-        id: "family_mediation_service",
-        display_text: "خزمەتگوزاری نێوانگیری خێزان"
-      },
-      {
-        id: "family_seunification_service",
-        display_text: "خزمەتگوزاری یەكگرتنەوەی خێزان"
-      },
-      {
-        id: "education_service",
-        display_text: "خزمەتگوزاری پەروەردە"
-      },
-      {
-        id: "nfi_clothes_shoes_service",
-        display_text: "خزمەتگوزاری ناخۆراكی / جلوبەرگ/ پێڵاو"
-      },
-      {
-        id: "water_sanitation_service",
-        display_text: "خزمەتگوزاری ئاو/ئاوەڕۆ"
-      },
-      {
-        id: "registration_service",
-        display_text: "خزمەتگوزاری تۆماركردن"
-      },
-      {
-        id: "food_service",
-        display_text: "خزمەتگوزاری خۆراك"
-      },
-      {
-        id: "other_service",
-        display_text: "خزمەتگوزاری تر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "safehouse_service",
-        display_text: "خزمەتگۆزاریا مالا پاراستی"
-      },
-      {
-        id: "health_medical_service",
-        display_text: "خزمەتگوزاریا ساخلەمی یان پزیشکی"
-      },
-      {
-        id: "psychosocial_service",
-        display_text: "خزمەتگوزاریا دەروونی"
-      },
-      {
-        id: "police_other_service",
-        display_text: "پولیس یان خزمەتگوزاریێن دی"
-      },
-      {
-        id: "legal_assistance_service",
-        display_text: "خزمەتگوزاریا هاریکاریا قانونی"
-      },
-      {
-        id: "livelihoods_service",
-        display_text: "خزمەتگوزاریێن ژیارێ"
-      },
-      {
-        id: "child_protection_service",
-        display_text: "خزمەتگوزاریێن پاراستنا زاروکی"
-      },
-      {
-        id: "family_mediation_service",
-        display_text: "خزمەتگوزاریا ناڤبەینکاریا خێزانێ"
-      },
-      {
-        id: "family_seunification_service",
-        display_text: "خزمەتگوزاریا دوبارە گەهشتن ب ئێک یا خێزانی"
-      },
-      {
-        id: "education_service",
-        display_text: "خزمەتگوزاریێن پەروەردەیی"
-      },
-      {
-        id: "nfi_clothes_shoes_service",
-        display_text: "خزمەتگوزاریا کەلوپەلێن نەیێن خارنێ یان جلوبەرگان یان پێلاڤا"
-      },
-      {
-        id: "water_sanitation_service",
-        display_text: "خزمەتگوزاریێن ئاڤێ یان تافیلکرنێ"
-      },
-      {
-        id: "registration_service",
-        display_text: "خزمەتگوزاریا تۆمارکرنێ"
-      },
-      {
-        id: "food_service",
-        display_text: "خزمەتگوزاریێن خارنێ"
-      },
-      {
-        id: "other_service",
-        display_text: "خزمەتگوزاریێن دی"
-      }
-    ],
-    unique_id: "lookup-service-type"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Time Of Day",
-    name_ar: "الوقت من اليوم",
-    name_ku: "كاتی رۆژ",
-    'name_ku-IQ': "دەمێ روژێ",
-    lookup_values_en: [
-      {
-        id: "morning",
-        display_text: "Morning"
-      },
-      {
-        id: "noon",
-        display_text: "Noon"
-      },
-      {
-        id: "evening",
-        display_text: "Evening"
-      },
-      {
-        id: "night",
-        display_text: "Night"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "morning",
-        display_text: "الصباح"
-      },
-      {
-        id: "noon",
-        display_text: "الظهر"
-      },
-      {
-        id: "evening",
-        display_text: "المساء"
-      },
-      {
-        id: "night",
-        display_text: "الليل"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "morning",
-        display_text: "بەیانی"
-      },
-      {
-        id: "noon",
-        display_text: "نیوەڕۆ"
-      },
-      {
-        id: "evening",
-        display_text: "ئێوارە"
-      },
-      {
-        id: "night",
-        display_text: "شەو"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "morning",
-        display_text: "سپێدە"
-      },
-      {
-        id: "noon",
-        display_text: "نیڤرو"
-      },
-      {
-        id: "evening",
-        display_text: "ئێڤار"
-      },
-      {
-        id: "night",
-        display_text: "شەڤ"
-      }
-    ],
-    unique_id: "lookup-time-of-day"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Tracing Status",
-    name_ar: "",
-    name_ku: "باری شوێنپێکەوتن",
-    'name_ku-IQ': "بارودوخێ دیفچوونێ",
-    lookup_values_en: [
-      {
-        id: "open",
-        display_text: "Open"
-      },
-      {
-        id: "tracing_in_progress",
-        display_text: "Tracing in Progress"
-      },
-      {
-        id: "verified",
-        display_text: "Verified"
-      },
-      {
-        id: "reunified",
-        display_text: "Reunified"
-      },
-      {
-        id: "closed",
-        display_text: "Closed"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "open",
-        display_text: "مفتوحة"
-      },
-      {
-        id: "tracing_in_progress",
-        display_text: ""
-      },
-      {
-        id: "verified",
-        display_text: "تم التحقق"
-      },
-      {
-        id: "reunified",
-        display_text: ""
-      },
-      {
-        id: "closed",
-        display_text: "مغلقة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "open",
-        display_text: "كراوە"
-      },
-      {
-        id: "tracing_in_progress",
-        display_text: "شوێنپێکەوتن لە پێشڤەچوونە"
-      },
-      {
-        id: "verified",
-        display_text: "پشتڕاستکراو"
-      },
-      {
-        id: "reunified",
-        display_text: "یەكگرتنەوە"
-      },
-      {
-        id: "closed",
-        display_text: "داخراو"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "open",
-        display_text: "ڤەکری"
-      },
-      {
-        id: "tracing_in_progress",
-        display_text: "دیفچوون بەردەوامە"
-      },
-      {
-        id: "verified",
-        display_text: "هاتیە پشکنینکرن"
-      },
-      {
-        id: "reunified",
-        display_text: "ئێکگرتی"
-      },
-      {
-        id: "closed",
-        display_text: "داخستی"
-      }
-    ],
-    unique_id: "lookup-tracing-status"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Transition Type",
-    name_ar: "",
-    name_ku: "جۆری گواستنەوە",
-    'name_ku-IQ': "جورێ ڤەگوهاستنێ",
-    lookup_values_en: [
-      {
-        id: "referral",
-        display_text: "Referral"
-      },
-      {
-        id: "reassign",
-        display_text: "Reassign"
-      },
-      {
-        id: "transfer",
-        display_text: "Transfer"
-      },
-      {
-        id: "transfer_request",
-        display_text: "Transfer Request"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "referral",
-        display_text: ""
-      },
-      {
-        id: "reassign",
-        display_text: ""
-      },
-      {
-        id: "transfer",
-        display_text: ""
-      },
-      {
-        id: "transfer_request",
-        display_text: ""
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "referral",
-        display_text: "ڕەوانەکردن"
-      },
-      {
-        id: "reassign",
-        display_text: "دانانەوە"
-      },
-      {
-        id: "transfer",
-        display_text: "گواستنەوە"
-      },
-      {
-        id: "transfer_request",
-        display_text: "داواكاری گواستنەوە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "referral",
-        display_text: "رەوانەکرن"
-      },
-      {
-        id: "reassign",
-        display_text: "دوبارە هاتیە دەستنیشانکرن"
-      },
-      {
-        id: "transfer",
-        display_text: "ڤەگوهاستن"
-      },
-      {
-        id: "transfer_request",
-        display_text: "داخازا ڤەگوهاستنێ"
-      }
-    ],
-    unique_id: "lookup-transition-type"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Unaccompanied Separated Status",
-    name_ar: "الناجية منفصلة وغير مصحوبة",
-    name_ku: "باری جیابوویەوەی بێ هاوەڵ",
-    'name_ku-IQ': "بارودوخێ جودابوویی یێ بتنێ",
-    lookup_values_en: [
-      {
-        id: "no",
-        display_text: "No"
-      },
-      {
-        id: "unaccompanied_minor",
-        display_text: "Unaccompanied Minor"
-      },
-      {
-        id: "separated_child",
-        display_text: "Separated Child"
-      },
-      {
-        id: "other_vulnerable_child",
-        display_text: "Orphan or Vulnerable Child"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "no",
-        display_text: "لا"
-      },
-      {
-        id: "unaccompanied_minor",
-        display_text: "قاصر غير مصحوب"
-      },
-      {
-        id: "separated_child",
-        display_text: "طفل غير مصحوب"
-      },
-      {
-        id: "other_vulnerable_child",
-        display_text: "طفل يتيم أو ضعيف"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "unaccompanied_minor",
-        display_text: "پێنەگەیشتووی بێ هاوەڵ"
-      },
-      {
-        id: "separated_child",
-        display_text: "منداڵی جیابووەوە"
-      },
-      {
-        id: "other_vulnerable_child",
-        display_text: "منداڵی هەتیو یان منداڵی مەترسی لەسەر"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "no",
-        display_text: "نەخێر"
-      },
-      {
-        id: "unaccompanied_minor",
-        display_text: "کەسەکێ ل ژێر تەمەنێ قانونیێ بتنێ"
-      },
-      {
-        id: "separated_child",
-        display_text: "زاروکێ جودابوویی"
-      },
-      {
-        id: "other_vulnerable_child",
-        display_text: "بێ سەمیان یان زاروکێ لاواز"
-      }
-    ],
-    unique_id: "lookup-unaccompanied-separated-status"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Unhcr Needs Codes",
-    name_ar: "رموز الاحتياجات - المفوضية السامية للأمم المتحدة لشؤون اللاجئين",
-    name_ku: "كۆدەكانی پێداویستی Unhcr",
-    'name_ku-IQ': "Unhcr کودێن پێدڤیێن",
-    lookup_values_en: [
-      {
-        id: "cr-cp",
-        display_text: "CR-CP"
-      },
-      {
-        id: "cr-cs",
-        display_text: "CR-CS"
-      },
-      {
-        id: "cr-cc",
-        display_text: "CR-CC"
-      },
-      {
-        id: "cr-tp",
-        display_text: "CR-TP"
-      },
-      {
-        id: "cr-lw",
-        display_text: "CR-LW"
-      },
-      {
-        id: "cr-lo",
-        display_text: "CR-LO"
-      },
-      {
-        id: "cr-ne",
-        display_text: "CR-NE"
-      },
-      {
-        id: "cr-se",
-        display_text: "CR-SE"
-      },
-      {
-        id: "cr-af",
-        display_text: "CR-AF"
-      },
-      {
-        id: "cr-cl",
-        display_text: "CR-CL"
-      },
-      {
-        id: "sc-ch",
-        display_text: "SC-CH"
-      },
-      {
-        id: "sc-ic",
-        display_text: "SC-IC"
-      },
-      {
-        id: "sc-fc",
-        display_text: "SC-FC"
-      },
-      {
-        id: "ds-bd",
-        display_text: "DS-BD"
-      },
-      {
-        id: "ds-df",
-        display_text: "DS-DF"
-      },
-      {
-        id: "ds-pm",
-        display_text: "DS-PM"
-      },
-      {
-        id: "ds-ps",
-        display_text: "DS-PS"
-      },
-      {
-        id: "ds-mm",
-        display_text: "DS-MM"
-      },
-      {
-        id: "ds-ms",
-        display_text: "DS-MS"
-      },
-      {
-        id: "ds-sd",
-        display_text: "DS-SD"
-      },
-      {
-        id: "sm-mi",
-        display_text: "SM-MI"
-      },
-      {
-        id: "sm-mn",
-        display_text: "SM-MN"
-      },
-      {
-        id: "sm-ci",
-        display_text: "SM-CI"
-      },
-      {
-        id: "sm-cc",
-        display_text: "SM-CC"
-      },
-      {
-        id: "sm-ot",
-        display_text: "SM-OT"
-      },
-      {
-        id: "fu-tr",
-        display_text: "FU-TR"
-      },
-      {
-        id: "fu-fr",
-        display_text: "FU-FR"
-      },
-      {
-        id: "lp-nd",
-        display_text: "LP-ND"
-      },
-      {
-        id: "tr-pi",
-        display_text: "TR-PI"
-      },
-      {
-        id: "tr-ho",
-        display_text: "TR-HO"
-      },
-      {
-        id: "tr-wv",
-        display_text: "TR-WV"
-      },
-      {
-        id: "sv-va",
-        display_text: "SV-VA"
-      },
-      {
-        id: "lp-an",
-        display_text: "LP-AN"
-      },
-      {
-        id: "lp-md",
-        display_text: "LP-MD"
-      },
-      {
-        id: "lp-ms",
-        display_text: "LP-MS"
-      },
-      {
-        id: "lp-rr",
-        display_text: "LP-RR"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "cr-cp",
-        display_text: "CR-CP"
-      },
-      {
-        id: "cr-cs",
-        display_text: "CR-CS"
-      },
-      {
-        id: "cr-cc",
-        display_text: "CR-CC"
-      },
-      {
-        id: "cr-tp",
-        display_text: "CR-TP"
-      },
-      {
-        id: "cr-lw",
-        display_text: "CR-LW"
-      },
-      {
-        id: "cr-lo",
-        display_text: "CR-LO"
-      },
-      {
-        id: "cr-ne",
-        display_text: "CR-NE"
-      },
-      {
-        id: "cr-se",
-        display_text: "CR-SE"
-      },
-      {
-        id: "cr-af",
-        display_text: "CR-AF"
-      },
-      {
-        id: "cr-cl",
-        display_text: "CR-CL"
-      },
-      {
-        id: "sc-ch",
-        display_text: "SC-CH"
-      },
-      {
-        id: "sc-ic",
-        display_text: "SC-IC"
-      },
-      {
-        id: "sc-fc",
-        display_text: "SC-FC"
-      },
-      {
-        id: "ds-bd",
-        display_text: "DS-BD"
-      },
-      {
-        id: "ds-df",
-        display_text: "DS-DF"
-      },
-      {
-        id: "ds-pm",
-        display_text: "DS-PM"
-      },
-      {
-        id: "ds-ps",
-        display_text: "DS-PS"
-      },
-      {
-        id: "ds-mm",
-        display_text: "DS-MM"
-      },
-      {
-        id: "ds-ms",
-        display_text: "DS-MS"
-      },
-      {
-        id: "ds-sd",
-        display_text: "DS-SD"
-      },
-      {
-        id: "sm-mi",
-        display_text: "SM-MI"
-      },
-      {
-        id: "sm-mn",
-        display_text: "SM-MN"
-      },
-      {
-        id: "sm-ci",
-        display_text: "SM-CI"
-      },
-      {
-        id: "sm-cc",
-        display_text: "SM-CC"
-      },
-      {
-        id: "sm-ot",
-        display_text: "SM-OT"
-      },
-      {
-        id: "fu-tr",
-        display_text: "FU-TR"
-      },
-      {
-        id: "fu-fr",
-        display_text: "FU-FR"
-      },
-      {
-        id: "lp-nd",
-        display_text: "LP-ND"
-      },
-      {
-        id: "tr-pi",
-        display_text: "TR-PI"
-      },
-      {
-        id: "tr-ho",
-        display_text: "TR-HO"
-      },
-      {
-        id: "tr-wv",
-        display_text: "TR-WV"
-      },
-      {
-        id: "sv-va",
-        display_text: "SV-VA"
-      },
-      {
-        id: "lp-an",
-        display_text: "LP-AN"
-      },
-      {
-        id: "lp-md",
-        display_text: "LP-MD"
-      },
-      {
-        id: "lp-ms",
-        display_text: "LP-MS"
-      },
-      {
-        id: "lp-rr",
-        display_text: "LP-RR"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "cr-cp",
-        display_text: "CR-CP"
-      },
-      {
-        id: "cr-cs",
-        display_text: "CR-CS"
-      },
-      {
-        id: "cr-cc",
-        display_text: "CR-CC"
-      },
-      {
-        id: "cr-tp",
-        display_text: "CR-TP"
-      },
-      {
-        id: "cr-lw",
-        display_text: "CR-LW"
-      },
-      {
-        id: "cr-lo",
-        display_text: "CR-LO"
-      },
-      {
-        id: "cr-ne",
-        display_text: "CR-NE"
-      },
-      {
-        id: "cr-se",
-        display_text: "CR-SE"
-      },
-      {
-        id: "cr-af",
-        display_text: "CR-AF"
-      },
-      {
-        id: "cr-cl",
-        display_text: "CR-CL"
-      },
-      {
-        id: "sc-ch",
-        display_text: "SC-CH"
-      },
-      {
-        id: "sc-ic",
-        display_text: "SC-IC"
-      },
-      {
-        id: "sc-fc",
-        display_text: "SC-FC"
-      },
-      {
-        id: "ds-bd",
-        display_text: "DS-BD"
-      },
-      {
-        id: "ds-df",
-        display_text: "DS-DF"
-      },
-      {
-        id: "ds-pm",
-        display_text: "DS-PM"
-      },
-      {
-        id: "ds-ps",
-        display_text: "DS-PS"
-      },
-      {
-        id: "ds-mm",
-        display_text: "DS-MM"
-      },
-      {
-        id: "ds-ms",
-        display_text: "DS-MS"
-      },
-      {
-        id: "ds-sd",
-        display_text: "DS-SD"
-      },
-      {
-        id: "sm-mi",
-        display_text: "SM-MI"
-      },
-      {
-        id: "sm-mn",
-        display_text: "SM-MN"
-      },
-      {
-        id: "sm-ci",
-        display_text: "SM-CI"
-      },
-      {
-        id: "sm-cc",
-        display_text: "SM-CC"
-      },
-      {
-        id: "sm-ot",
-        display_text: "SM-OT"
-      },
-      {
-        id: "fu-tr",
-        display_text: "FU-TR"
-      },
-      {
-        id: "fu-fr",
-        display_text: "FU-FR"
-      },
-      {
-        id: "lp-nd",
-        display_text: "LP-ND"
-      },
-      {
-        id: "tr-pi",
-        display_text: "TR-PI"
-      },
-      {
-        id: "tr-ho",
-        display_text: "TR-HO"
-      },
-      {
-        id: "tr-wv",
-        display_text: "TR-WV"
-      },
-      {
-        id: "sv-va",
-        display_text: "SV-VA"
-      },
-      {
-        id: "lp-an",
-        display_text: "LP-AN"
-      },
-      {
-        id: "lp-md",
-        display_text: "LP-MD"
-      },
-      {
-        id: "lp-ms",
-        display_text: "LP-MS"
-      },
-      {
-        id: "lp-rr",
-        display_text: "LP-RR"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "cr-cp",
-        display_text: "CR-CP"
-      },
-      {
-        id: "cr-cs",
-        display_text: "CR-CS"
-      },
-      {
-        id: "cr-cc",
-        display_text: "CR-CC"
-      },
-      {
-        id: "cr-tp",
-        display_text: "CR-TP"
-      },
-      {
-        id: "cr-lw",
-        display_text: "CR-LW"
-      },
-      {
-        id: "cr-lo",
-        display_text: "CR-LO"
-      },
-      {
-        id: "cr-ne",
-        display_text: "CR-NE"
-      },
-      {
-        id: "cr-se",
-        display_text: "CR-SE"
-      },
-      {
-        id: "cr-af",
-        display_text: "CR-AF"
-      },
-      {
-        id: "cr-cl",
-        display_text: "CR-CL"
-      },
-      {
-        id: "sc-ch",
-        display_text: "SC-CH"
-      },
-      {
-        id: "sc-ic",
-        display_text: "SC-IC"
-      },
-      {
-        id: "sc-fc",
-        display_text: "SC-FC"
-      },
-      {
-        id: "ds-bd",
-        display_text: "DS-BD"
-      },
-      {
-        id: "ds-df",
-        display_text: "DS-DF"
-      },
-      {
-        id: "ds-pm",
-        display_text: "DS-PM"
-      },
-      {
-        id: "ds-ps",
-        display_text: "DS-PS"
-      },
-      {
-        id: "ds-mm",
-        display_text: "DS-MM"
-      },
-      {
-        id: "ds-ms",
-        display_text: "DS-MS"
-      },
-      {
-        id: "ds-sd",
-        display_text: "DS-SD"
-      },
-      {
-        id: "sm-mi",
-        display_text: "SM-MI"
-      },
-      {
-        id: "sm-mn",
-        display_text: "SM-MN"
-      },
-      {
-        id: "sm-ci",
-        display_text: "SM-CI"
-      },
-      {
-        id: "sm-cc",
-        display_text: "SM-CC"
-      },
-      {
-        id: "sm-ot",
-        display_text: "SM-OT"
-      },
-      {
-        id: "fu-tr",
-        display_text: "FU-TR"
-      },
-      {
-        id: "fu-fr",
-        display_text: "FU-FR"
-      },
-      {
-        id: "lp-nd",
-        display_text: "LP-ND"
-      },
-      {
-        id: "tr-pi",
-        display_text: "TR-PI"
-      },
-      {
-        id: "tr-ho",
-        display_text: "TR-HO"
-      },
-      {
-        id: "tr-wv",
-        display_text: "TR-WV"
-      },
-      {
-        id: "sv-va",
-        display_text: "SV-VA"
-      },
-      {
-        id: "lp-an",
-        display_text: "LP-AN"
-      },
-      {
-        id: "lp-md",
-        display_text: "LP-MD"
-      },
-      {
-        id: "lp-ms",
-        display_text: "LP-MS"
-      },
-      {
-        id: "lp-rr",
-        display_text: "LP-RR"
-      }
-    ],
-    unique_id: "lookup-unhcr-needs-codes"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Verification Status",
-    name_ar: "حالة التحقق",
-    name_ku: "باری پشتڕاستکردنەوە",
-    'name_ku-IQ': "بارودوخێ پشت راستکرنێ",
-    lookup_values_en: [
-      {
-        id: "verified",
-        display_text: "Verified"
-      },
-      {
-        id: "unverified",
-        display_text: "Unverified"
-      },
-      {
-        id: "pending_verification",
-        display_text: "Pending Verification"
-      },
-      {
-        id: "falsely_attributed",
-        display_text: "Falsely Attributed"
-      },
-      {
-        id: "rejected",
-        display_text: "Rejected"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "verified",
-        display_text: "تم التحقق"
-      },
-      {
-        id: "unverified",
-        display_text: "لم يتم التحقق"
-      },
-      {
-        id: "pending_verification",
-        display_text: "التحقق معلق"
-      },
-      {
-        id: "falsely_attributed",
-        display_text: "منسوبة كذباً"
-      },
-      {
-        id: "rejected",
-        display_text: "مرفوضة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "verified",
-        display_text: "پشتڕاستکراو"
-      },
-      {
-        id: "unverified",
-        display_text: "پشتڕاستنەکراو"
-      },
-      {
-        id: "pending_verification",
-        display_text: "چاوەڕوانی پشتڕاستکراو"
-      },
-      {
-        id: "falsely_attributed",
-        display_text: "دانەپاڵی هەڵە"
-      },
-      {
-        id: "rejected",
-        display_text: "رەتكراو"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "verified",
-        display_text: "هاتیە پشکنینکرن"
-      },
-      {
-        id: "unverified",
-        display_text: "نەهاتیە پشکنینکرن"
-      },
-      {
-        id: "pending_verification",
-        display_text: "پشت راستکرن هەلاویستییە"
-      },
-      {
-        id: "falsely_attributed",
-        display_text: "خەلەت هاتیە وەسفکرن"
-      },
-      {
-        id: "rejected",
-        display_text: "رەتکری"
-      }
-    ],
-    unique_id: "lookup-verification-status"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: true,
-    name_en: "Workflow",
-    name_ar: "سير العمل",
-    name_ku: "رێرەوی بەڕێوەچوونی كار",
-    'name_ku-IQ': "برێڤەچوونا کاری",
-    lookup_values_en: [
-      {
-        id: "new",
-        display_text: "New case"
-      },
-      {
-        id: "closed",
-        display_text: "Case closed"
-      },
-      {
-        id: "reopened",
-        display_text: "Case reopened"
-      },
-      {
-        id: "service_provision",
-        display_text: "Service provision"
-      },
-      {
-        id: "services_implemented",
-        display_text: "All response services implemented"
-      },
-      {
-        id: "case_plan",
-        display_text: "Case Plan"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "new",
-        display_text: "حالة جديدة"
-      },
-      {
-        id: "closed",
-        display_text: "ملف الحالة مغلق"
-      },
-      {
-        id: "reopened",
-        display_text: "تم إعادة فتح ملف الحالة"
-      },
-      {
-        id: "service_provision",
-        display_text: "تقديم الخدمة"
-      },
-      {
-        id: "services_implemented",
-        display_text: "تم تنفيذ جميع خدمات الاستجابة"
-      },
-      {
-        id: "case_plan",
-        display_text: "خطة الحالة"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "new",
-        display_text: "كەیسی تازە"
-      },
-      {
-        id: "closed",
-        display_text: "كەیس داخرا"
-      },
-      {
-        id: "reopened",
-        display_text: "كەیس كرایەوە دووبارە"
-      },
-      {
-        id: "service_provision",
-        display_text: "دابینکردنی خزمەتگوزاری"
-      },
-      {
-        id: "services_implemented",
-        display_text: "هەموو خزمەتگوزارییەكانی بەدەنگەوەهاتن جێبەجێکراون"
-      },
-      {
-        id: "case_plan",
-        display_text: "پلانی كەیس"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "new",
-        display_text: "کەیسێ نی"
-      },
-      {
-        id: "closed",
-        display_text: "کەیس هاتیە گرتن"
-      },
-      {
-        id: "reopened",
-        display_text: "کەیس دوبارە هاتیە ڤەکرن"
-      },
-      {
-        id: "service_provision",
-        display_text: "دابینکرنا خزمەتگۆزاریێ"
-      },
-      {
-        id: "services_implemented",
-        display_text: "هەمی خزمەتگوزاریێن بەرسڤدانێ هاتینە جێبەجێکرن"
-      },
-      {
-        id: "case_plan",
-        display_text: "پلانا کەیسی"
-      }
-    ],
-    unique_id: "lookup-workflow"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: true,
-    name_en: "Yes Or No",
-    name_ar: "نعم أو لا",
-    name_ku: "بەڵێ یان نەخێر",
-    'name_ku-IQ': "بەلێ یان نەخێر",
-    lookup_values_en: [
-      {
-        display_text: "Yes",
-        id: "true"
-      },
-      {
-        display_text: "No",
-        id: "false"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        display_text: "نعم",
-        id: "true"
-      },
-      {
-        display_text: "لا",
-        id: "false"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        display_text: "بەڵێ",
-        id: "true"
-      },
-      {
-        display_text: "نەخێر",
-        id: "false"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        display_text: "بەلێ",
-        id: "true"
-      },
-      {
-        display_text: "نةخير",
-        id: "false"
-      }
-    ],
-    unique_id: "lookup-yes-no"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Yes, No, Or Not Applicable",
-    name_ar: "نعم أو لا أو لا ينطبق",
-    name_ku: "بەڵێ، نەخێر یان بەركار نیە",
-    'name_ku-IQ': "بەلێ، نەخێر، یان نەگونجایی یە",
-    lookup_values_en: [
-      {
-        id: "true",
-        display_text: "Yes"
-      },
-      {
-        id: "false",
-        display_text: "No"
-      },
-      {
-        id: "not_applicable",
-        display_text: "Not Applicable"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "true",
-        display_text: "نعم"
-      },
-      {
-        id: "false",
-        display_text: "لا"
-      },
-      {
-        id: "not_applicable",
-        display_text: "لاينطبق"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "true",
-        display_text: "بەڵێ"
-      },
-      {
-        id: "false",
-        display_text: "نەخێر"
-      },
-      {
-        id: "not_applicable",
-        display_text: "بەركارنیە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "true",
-        display_text: "بەلێ"
-      },
-      {
-        id: "false",
-        display_text: "نەخێر"
-      },
-      {
-        id: "not_applicable",
-        display_text: "نە گونجایی یە"
-      }
-    ],
-    unique_id: "lookup-yes-no-not-applicable"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Yes, No, Or Undecided",
-    name_ar: "نعم أو لا أو غير مفصول فيه",
-    name_ku: "بەڵێ، نەخێر یان بڕیاری لێنەدراوە",
-    'name_ku-IQ': "بەلێ، نەخێر، یان بریار ل سەر نەهاتیە دان",
-    lookup_values_en: [
-      {
-        id: "true",
-        display_text: "Yes"
-      },
-      {
-        id: "false",
-        display_text: "No"
-      },
-      {
-        id: "undecided",
-        display_text: "Undecided"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "true",
-        display_text: "نعم"
-      },
-      {
-        id: "false",
-        display_text: "لا"
-      },
-      {
-        id: "undecided",
-        display_text: "غير مفصول فيه"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "true",
-        display_text: "بەڵێ"
-      },
-      {
-        id: "false",
-        display_text: "نەخێر"
-      },
-      {
-        id: "undecided",
-        display_text: "بڕیاری لێ نەدراوە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "true",
-        display_text: "بەلێ"
-      },
-      {
-        id: "false",
-        display_text: "نەخێر"
-      },
-      {
-        id: "undecided",
-        display_text: "بریار ل سەر نەهاتیە دان"
-      }
-    ],
-    unique_id: "lookup-yes-no-undecided"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    locked: false,
-    name_en: "Yes, No, Or Unknown",
-    name_ar: "نعم أو لا أو غير معروف",
-    name_ku: "بەڵێ، نەخێر، یان نەزانراوە",
-    'name_ku-IQ': "بەلێ، نەخێر، یان ناهێتە زانین",
-    lookup_values_en: [
-      {
-        id: "true",
-        display_text: "Yes"
-      },
-      {
-        id: "false",
-        display_text: "No"
-      },
-      {
-        id: "unknown",
-        display_text: "Unknown"
-      }
-    ],
-    lookup_values_ar: [
-      {
-        id: "true",
-        display_text: "نعم"
-      },
-      {
-        id: "false",
-        display_text: "لا"
-      },
-      {
-        id: "unknown",
-        display_text: "غير معروف"
-      }
-    ],
-    lookup_values_ku: [
-      {
-        id: "true",
-        display_text: "بەڵێ"
-      },
-      {
-        id: "false",
-        display_text: "نەخێر"
-      },
-      {
-        id: "unknown",
-        display_text: "نەزانراوە"
-      }
-    ],
-    'lookup_values_ku-IQ': [
-      {
-        id: "true",
-        display_text: "بەلێ"
-      },
-      {
-        id: "false",
-        display_text: "نەخێر"
-      },
-      {
-        id: "unknown",
-        display_text: "ناهێتە زانین"
-      }
-    ],
-    unique_id: "lookup-yes-no-unknown"
-  }
-)
-
-Lookup.create_or_update!(
-  {
-    unique_id: "lookup-pdf-header",
-    name_en: "PDF Header",
-    locked: true,
-    lookup_values_en: [
-      {
-        id: "pdf_header_1",
-        display_text: "PDF Header 1"
-      },
-      {
-        id: "pdf_header_2",
-        display_text: "PDF Header 2"
-      },
-      {
-        id: "pdf_header_3",
-        display_text: "PDF Header 3"
-      }
-    ]
   }
 )
 

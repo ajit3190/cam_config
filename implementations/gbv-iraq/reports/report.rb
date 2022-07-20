@@ -1,13 +1,18 @@
 Report.create_or_update!(
   {
-    name_en: "typology",
-    description_en: "",
-    name_ar: "typology",
-    description_ar: "",
-    name_ku: "typology",
-    description_ku: "",
-    'name_ku-IQ': "typology",
-    'description_ku-IQ': "",
+    name_i18n: {
+      ar: "typology",
+      en: "typology",
+      ku: "typology",
+      'ku-IQ': "typology"
+    },
+    description_i18n: {
+      ar: "",
+      en: "",
+      ku: "",
+      'ku-IQ': ""
+    },
+    module_id: "primeromodule-gbv",
     record_type: "incident",
     aggregate_by: [
       "status"
@@ -18,37 +23,43 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "year",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-gbv",
-    unique_id: "typology-6cbdafc"
+    unique_id: "typology-6cbdafc",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "type of cases",
-    description_en: "",
-    name_ar: "type of cases",
-    description_ar: "",
-    name_ku: "type of cases",
-    description_ku: "",
-    'name_ku-IQ': "type of cases",
-    'description_ku-IQ': "",
+    name_i18n: {
+      ar: "type of cases",
+      en: "type of cases",
+      ku: "type of cases",
+      'ku-IQ': "type of cases"
+    },
+    description_i18n: {
+      ar: "",
+      en: "",
+      ku: "",
+      'ku-IQ': ""
+    },
+    module_id: "primeromodule-gbv",
     record_type: "incident",
     aggregate_by: [
       "cp_incident_violence_type"
@@ -59,37 +70,43 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-gbv",
-    unique_id: "type-of-cases-d673a36"
+    unique_id: "type-of-cases-d673a36",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Typology1",
-    description_en: "",
-    name_ar: "Typology1",
-    description_ar: "",
-    name_ku: "Typology1",
-    description_ku: "",
-    'name_ku-IQ': "Typology1",
-    'description_ku-IQ': "",
+    name_i18n: {
+      ar: "Typology1",
+      en: "Typology1",
+      ku: "Typology1",
+      'ku-IQ': "Typology1"
+    },
+    description_i18n: {
+      ar: "",
+      en: "",
+      ku: "",
+      'ku-IQ': ""
+    },
+    module_id: "primeromodule-gbv",
     record_type: "incident",
     aggregate_by: [
       "cp_incident_violence_type"
@@ -100,10 +117,10 @@ Report.create_or_update!(
     aggregate_counts_from: "age",
     filters: [
       {
-        attribute: "status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
         attribute: "owned_by"
@@ -113,21 +130,27 @@ Report.create_or_update!(
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-gbv",
-    unique_id: "typology1-74961f5"
+    unique_id: "typology1-74961f5",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "Typology",
-    description_en: "This report will show the typology of cases with gender age breakdown",
-    name_ar: "Typology",
-    description_ar: "",
-    name_ku: "Typology",
-    description_ku: "",
-    'name_ku-IQ': "Typology",
-    'description_ku-IQ': "",
+    name_i18n: {
+      ar: "Typology",
+      en: "Typology",
+      ku: "Typology",
+      'ku-IQ': "Typology"
+    },
+    description_i18n: {
+      ar: "",
+      en: "This report will show the typology of cases with gender age breakdown",
+      ku: "",
+      'ku-IQ': ""
+    },
+    module_id: "primeromodule-gbv",
     record_type: "incident",
     aggregate_by: [
       "cp_incident_violence_type"
@@ -138,32 +161,38 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "status",
         value: [
           "open",
           "closed"
-        ]
+        ],
+        attribute: "status"
       }
     ],
     group_ages: true,
     group_dates_by: "month",
     is_graph: true,
     editable: true,
-    module_id: "primeromodule-gbv",
-    unique_id: "typology-7a65593"
+    unique_id: "typology-7a65593",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
 Report.create_or_update!(
   {
-    name_en: "gender",
-    description_en: "gender ",
-    name_ar: "gender",
-    description_ar: "",
-    name_ku: "gender",
-    description_ku: "",
-    'name_ku-IQ': "gender",
-    'description_ku-IQ': "",
+    name_i18n: {
+      ar: "gender",
+      en: "gender",
+      ku: "gender",
+      'ku-IQ': "gender"
+    },
+    description_i18n: {
+      ar: "",
+      en: "gender ",
+      ku: "",
+      'ku-IQ': ""
+    },
+    module_id: "primeromodule-gbv",
     record_type: "case",
     aggregate_by: [
       "sex"
@@ -174,24 +203,25 @@ Report.create_or_update!(
     aggregate_counts_from: "",
     filters: [
       {
-        attribute: "status",
         value: [
           "open"
-        ]
+        ],
+        attribute: "status"
       },
       {
-        attribute: "record_state",
         value: [
           "true"
-        ]
+        ],
+        attribute: "record_state"
       }
     ],
     group_ages: false,
     group_dates_by: "date",
     is_graph: false,
     editable: true,
-    module_id: "primeromodule-gbv",
-    unique_id: "gender-4ce753b"
+    unique_id: "gender-4ce753b",
+    disabled: false,
+    exclude_empty_rows: false
   }
 )
 
@@ -322,3 +352,4 @@ Report.create_or_update!(
     exclude_empty_rows: false
   }
 )
+

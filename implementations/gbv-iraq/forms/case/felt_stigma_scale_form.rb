@@ -82,7 +82,7 @@ FormSection.create_or_update!(
         },
         order: 1,
         hidden_text_field: false,
-        collapsed_field_for_subform_section_id: 6,
+        collapsed_field_for_subform_section_id: 7,
         autosum_total: false,
         link_to_path_external: true,
         field_tags: [],

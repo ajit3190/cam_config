@@ -1,14 +1,18 @@
 FormSection.create_or_update!(
   {
-    name_en: "Other Documents",
-    description_en: "Other Documents",
-    name_ar: "مستندات أخرى",
-    description_ar: "مستندات أخرى",
-    name_ku: "بەڵگەنامەکانی تر",
-    description_ku: "بەڵگەنامەکانی تر",
-    'name_ku-IQ': "بەلگەیێن دی",
-    'description_ku-IQ': "بەلگەیێن دی",
     unique_id: "other_documents",
+    name_i18n: {
+      ar: "مستندات أخرى",
+      en: "Other Documents",
+      ku: "بەڵگەنامەکانی تر",
+      'ku-IQ': "بەلگەیێن دی"
+    },
+    description_i18n: {
+      ar: "مستندات أخرى",
+      en: "Other Documents",
+      ku: "بەڵگەنامەکانی تر",
+      'ku-IQ': "بەلگەیێن دی"
+    },
     parent_form: "case",
     visible: true,
     order: 100,
@@ -22,12 +26,13 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: true,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "other_documents",
@@ -63,6 +68,9 @@ FormSection.create_or_update!(
         matchable: false,
         mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )

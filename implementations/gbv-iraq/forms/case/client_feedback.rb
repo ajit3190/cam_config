@@ -1,14 +1,18 @@
 FormSection.create_or_update!(
   {
-    name_en: "Client Feedback",
-    description_en: "Client Feedback",
-    name_ar: "ملاحظات العميل",
-    description_ar: "ملاحظات العميل",
-    name_ku: "راو بۆچوونی وەرگری خزمەتگوزاریی",
-    description_ku: "راو بۆچوونی وەرگری خزمەتگوزاریی",
-    'name_ku-IQ': "فیدبەکێ بریکارێ",
-    'description_ku-IQ': "فیدبەکێ بریکارێ",
     unique_id: "client_feedback",
+    name_i18n: {
+      ar: "ملاحظات العميل",
+      en: "Client Feedback",
+      ku: "راو بۆچوونی وەرگری خزمەتگوزاریی",
+      'ku-IQ': "فیدبەکێ بریکارێ"
+    },
+    description_i18n: {
+      ar: "ملاحظات العميل",
+      en: "Client Feedback",
+      ku: "راو بۆچوونی وەرگری خزمەتگوزاریی",
+      'ku-IQ': "فیدبەکێ بریکارێ"
+    },
     parent_form: "case",
     visible: true,
     order: 90,
@@ -22,12 +26,13 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "client_feedback_header",
@@ -1293,6 +1298,9 @@ FormSection.create_or_update!(
         matchable: false,
         mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )

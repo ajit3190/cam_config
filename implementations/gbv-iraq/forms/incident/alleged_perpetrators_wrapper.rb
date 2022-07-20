@@ -1,14 +1,18 @@
 FormSection.create_or_update!(
   {
-    name_en: "Nested Alleged Perpetrator Subform",
-    description_en: "Nested Alleged Perpetrator Subform",
-    name_ar: "النموذج الفرعي المتداخل للجاني المزعوم",
-    description_ar: "النموذج الفرعي المتداخل للجاني المزعوم",
-    name_ku: "فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ گومانلێکراوی تاوانەکە",
-    description_ku: "فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ گومانلێکراوی تاوانەکە",
-    'name_ku-IQ': "فورما نەسەرەکیا تاوانبارێ گومانلێکری یا تێکەل",
-    'description_ku-IQ': "فورما نەسەرەکیا تاوانبارێ گومانلێکری یا تێکەل",
     unique_id: "alleged_perpetrator",
+    name_i18n: {
+      ar: "النموذج الفرعي المتداخل للجاني المزعوم",
+      en: "Nested Alleged Perpetrator Subform",
+      ku: "فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ گومانلێکراوی تاوانەکە",
+      'ku-IQ': "فورما نەسەرەکیا تاوانبارێ گومانلێکری یا تێکەل"
+    },
+    description_i18n: {
+      ar: "النموذج الفرعي المتداخل للجاني المزعوم",
+      en: "Nested Alleged Perpetrator Subform",
+      ku: "فۆرمی لاوەكی بەیەکەوەگرێدراو بۆ گومانلێکراوی تاوانەکە",
+      'ku-IQ': "فورما نەسەرەکیا تاوانبارێ گومانلێکری یا تێکەل"
+    },
     parent_form: "incident",
     visible: false,
     order: 40,
@@ -21,766 +25,624 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 1,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
+    collapsed_field_names: [
+      "primary_perpetrator"
+    ],
     fields_attributes: [
       {
         name: "primary_perpetrator",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Is this the primary perpetrator?",
-        display_name_ar: "هل هذا الجاني هو الجاني الرئيسي؟",
-        display_name_ku: "ئایا ئەمە تاوانبارە سەرەكییەکەیە؟",
-        'display_name_ku-IQ': "ئەرێ ئەڤە تاوانبارێ سەرەکییە؟",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "هل هذا الجاني هو الجاني الرئيسي؟",
+          en: "Is this the primary perpetrator?",
+          ku: "ئایا ئەمە تاوانبارە سەرەكییەکەیە؟",
+          'ku-IQ': "ئەرێ ئەڤە تاوانبارێ سەرەکییە؟"
+        },
+        option_strings_text_i18n: [
           {
             id: "primary",
-            display_text: "Primary"
+            display_text: {
+              ar: "رئيسي",
+              en: "Primary",
+              ku: "سەرەكی",
+              'ku-IQ': "سەرەکی"
+            }
           },
           {
             id: "secondary",
-            display_text: "Secondary"
+            display_text: {
+              ar: "ثانوي",
+              en: "Secondary",
+              ku: "لاوەكی",
+              'ku-IQ': "نەسەرەکی"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "primary",
-            display_text: "رئيسي"
-          },
-          {
-            id: "secondary",
-            display_text: "ثانوي"
-          }
-        ],
-        option_strings_text_ku: [
-          {
-            id: "primary",
-            display_text: "سەرەكی"
-          },
-          {
-            id: "secondary",
-            display_text: "لاوەكی"
-          }
-        ],
-        'option_strings_text_ku-IQ': [
-          {
-            id: "primary",
-            display_text: "سەرەکی"
-          },
-          {
-            id: "secondary",
-            display_text: "نەسەرەکی"
-          }
-        ],
-        multi_select: false,
+        order: 0,
         hidden_text_field: false,
+        collapsed_field_for_subform_section_id: 17,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
+        collapsed_field_for_subform_unique_id: "alleged_perpetrator"
       },
       {
         name: "perpetrator_sex",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Sex of Alleged Perpetrator",
-        display_name_ar: "جنس الجاني المزعوم",
-        display_name_ku: "رەگەزی گومانلێکراو",
-        'display_name_ku-IQ': "رەگەزێ تاوانبارێ گومانلێکری",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "جنس الجاني المزعوم",
+          en: "Sex of Alleged Perpetrator",
+          ku: "رەگەزی گومانلێکراو",
+          'ku-IQ': "رەگەزێ تاوانبارێ گومانلێکری"
+        },
         option_strings_source: "lookup lookup-gender",
+        order: 1,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "former_perpetrator",
+        type: "radio_button",
+        multi_select: false,
         visible: true,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "radio_button",
         editable: true,
         disabled: false,
-        display_name_en: "Past GBV by alleged perpetrator?",
-        help_text_en: "",
-        display_name_ar: "هل ارتكب الجاني المزعوم حالات عنف قائم على اساس النوع الاجتماعي سابقة؟",
-        help_text_ar: "",
-        display_name_ku: "پێشینەی گومانلێکراو لەبواری توندوتیژیی لەسەر بنەمای جێندەر",
-        help_text_ku: "",
-        'display_name_ku-IQ': "توندو تیژی لسەر بنیاتێ رەگەزی یابەرێ ژ لایێ تاوانبارێ گومانلێکری",
-        'help_text_ku-IQ': "",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "هل ارتكب الجاني المزعوم حالات عنف قائم على اساس النوع الاجتماعي سابقة؟",
+          en: "Past GBV by alleged perpetrator?",
+          ku: "پێشینەی گومانلێکراو لەبواری توندوتیژیی لەسەر بنەمای جێندەر",
+          'ku-IQ': "توندو تیژی لسەر بنیاتێ رەگەزی یابەرێ ژ لایێ تاوانبارێ گومانلێکری"
+        },
+        help_text_i18n: {
+          ar: "",
+          en: "",
+          ku: "",
+          'ku-IQ': ""
+        },
         option_strings_source: "lookup lookup-yes-no",
+        order: 2,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_nationality",
+        type: "select_box",
+        multi_select: false,
         visible: false,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Nationality of alleged perpetrator",
-        display_name_ar: "بلد الجاني المزعوم",
-        display_name_ku: "رەگەزنامەی گومانلێکراو",
-        'display_name_ku-IQ': "نەتەوەیێ تاوانبارێ گومانلێکری",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "بلد الجاني المزعوم",
+          en: "Nationality of alleged perpetrator",
+          ku: "رەگەزنامەی گومانلێکراو",
+          'ku-IQ': "نەتەوەیێ تاوانبارێ گومانلێکری"
+        },
         option_strings_source: "lookup lookup-nationality",
+        order: 3,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_ethnicity",
+        type: "select_box",
+        multi_select: false,
         visible: false,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Clan or Ethnicity of alleged perpetrator",
-        display_name_ar: "قبيلة او طائفة الجاني المزعوم",
-        display_name_ku: "هۆز یان نەتەوەی گومانلێکراو",
-        'display_name_ku-IQ': "هوز یان نەژادێ تاوانبارێ گومانلێکری",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "قبيلة او طائفة الجاني المزعوم",
+          en: "Clan or Ethnicity of alleged perpetrator",
+          ku: "هۆز یان نەتەوەی گومانلێکراو",
+          'ku-IQ': "هوز یان نەژادێ تاوانبارێ گومانلێکری"
+        },
         option_strings_source: "lookup lookup-ethnicity",
+        order: 4,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "age_group",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Age group of alleged perpetrator",
-        display_name_ar: "الفئة العمرية للجاني المزعوم",
-        display_name_ku: "گروپی تەمەنی گومانلێکراو",
-        'display_name_ku-IQ': "گروپێ تەمەنێ تاوانێ پێشبینیکری",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "الفئة العمرية للجاني المزعوم",
+          en: "Age group of alleged perpetrator",
+          ku: "گروپی تەمەنی گومانلێکراو",
+          'ku-IQ': "گروپێ تەمەنێ تاوانێ پێشبینیکری"
+        },
+        option_strings_text_i18n: [
           {
             id: "0_11",
-            display_text: "0-11"
+            display_text: {
+              ar: "0-11",
+              en: "0-11",
+              ku: "0 - 11",
+              'ku-IQ': "0-11"
+            }
           },
           {
             id: "12_17",
-            display_text: "12-17"
+            display_text: {
+              ar: "12-17",
+              en: "12-17",
+              ku: "12 - 17",
+              'ku-IQ': "12-17"
+            }
           },
           {
             id: "18_25",
-            display_text: "18-25"
+            display_text: {
+              ar: "18-25",
+              en: "18-25",
+              ku: "18 - 25",
+              'ku-IQ': "18-25"
+            }
           },
           {
             id: "26_40",
-            display_text: "26-40"
+            display_text: {
+              ar: "26-40",
+              en: "26-40",
+              ku: "26 - 40",
+              'ku-IQ': "26-40"
+            }
           },
           {
             id: "41_60",
-            display_text: "41-60"
+            display_text: {
+              ar: "41-60",
+              en: "41-60",
+              ku: "41 - 60",
+              'ku-IQ': "41-60"
+            }
           },
           {
             id: "61",
-            display_text: "61+"
+            display_text: {
+              ar: "فوق 61",
+              en: "61+",
+              ku: 61,
+              'ku-IQ': "ل سەر 60 سالیێ دا"
+            }
           },
           {
             id: "unknown",
-            display_text: "Unknown"
+            display_text: {
+              ar: "غير معروف",
+              en: "Unknown",
+              ku: "نەزانراو",
+              'ku-IQ': "ناهێتە زانین"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "0_11",
-            display_text: "0-11"
-          },
-          {
-            id: "12_17",
-            display_text: "12-17"
-          },
-          {
-            id: "18_25",
-            display_text: "18-25"
-          },
-          {
-            id: "26_40",
-            display_text: "26-40"
-          },
-          {
-            id: "41_60",
-            display_text: "41-60"
-          },
-          {
-            id: "61",
-            display_text: "فوق 61"
-          },
-          {
-            id: "unknown",
-            display_text: "غير معروف"
-          }
-        ],
-        option_strings_text_ku: [
-          {
-            id: "0_11",
-            display_text: "0 - 11"
-          },
-          {
-            id: "12_17",
-            display_text: "12 - 17"
-          },
-          {
-            id: "18_25",
-            display_text: "18 - 25"
-          },
-          {
-            id: "26_40",
-            display_text: "26 - 40"
-          },
-          {
-            id: "41_60",
-            display_text: "41 - 60"
-          },
-          {
-            id: "61",
-            display_text: 61
-          },
-          {
-            id: "unknown",
-            display_text: "نەزانراو"
-          }
-        ],
-        'option_strings_text_ku-IQ': [
-          {
-            id: "0_11",
-            display_text: "0-11"
-          },
-          {
-            id: "12_17",
-            display_text: "12-17"
-          },
-          {
-            id: "18_25",
-            display_text: "18-25"
-          },
-          {
-            id: "26_40",
-            display_text: "26-40"
-          },
-          {
-            id: "41_60",
-            display_text: "41-60"
-          },
-          {
-            id: "61",
-            display_text: "ل سەر 60 سالیێ دا"
-          },
-          {
-            id: "unknown",
-            display_text: "ناهێتە زانین"
-          }
-        ],
-        multi_select: false,
+        order: 5,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "age_type",
+        type: "select_box",
+        multi_select: false,
         visible: false,
         mobile_visible: false,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Age type of alleged perpetrator",
-        display_name_ar: "",
-        display_name_ku: "جۆری تەمەنی گومانلێکراو",
-        'display_name_ku-IQ': "جورێ تەمەنێ تاوانبارێ گومانلێکری",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "",
+          en: "Age type of alleged perpetrator",
+          ku: "جۆری تەمەنی گومانلێکراو",
+          'ku-IQ': "جورێ تەمەنێ تاوانبارێ گومانلێکری"
+        },
         option_strings_source: "lookup lookup-age-group-type",
+        order: 6,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_relationship",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Alleged perpetrator relationship with survivor",
-        display_name_ar: "علاقة الجاني المزعوم مع الناجية",
-        display_name_ku: "پەیوەندی گومانلێکراو لەگەڵ رزگاربوو",
-        'display_name_ku-IQ': "پەیوەندیا تاوانبارێ گومانلێکری دگەل رزگاربووی",
-        multi_select: false,
-        hidden_text_field: false,
+        display_name_i18n: {
+          ar: "علاقة الجاني المزعوم مع الناجية",
+          en: "Alleged perpetrator relationship with survivor",
+          ku: "پەیوەندی گومانلێکراو لەگەڵ رزگاربوو",
+          'ku-IQ': "پەیوەندیا تاوانبارێ گومانلێکری دگەل رزگاربووی"
+        },
         option_strings_source: "lookup lookup-perpetrator-relationship",
+        order: 7,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "perpetrator_occupation",
+        type: "select_box",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "Main occupation of alleged perpetrator (if known)",
-        help_text_en: "",
-        display_name_ar: "المهنة الرئيسية للجاني المزعوم (إذا كانت معروفة)",
-        help_text_ar: "",
-        display_name_ku: "پیشەی سەرەكی گومانلێکراو (ئەگەر بزانرێت)",
-        help_text_ku: "",
-        'display_name_ku-IQ': "كارێ تاوانبارى",
-        'help_text_ku-IQ': "",
-        option_strings_text_en: [
+        display_name_i18n: {
+          ar: "المهنة الرئيسية للجاني المزعوم (إذا كانت معروفة)",
+          en: "Main occupation of alleged perpetrator (if known)",
+          ku: "پیشەی سەرەكی گومانلێکراو (ئەگەر بزانرێت)",
+          'ku-IQ': "كارێ تاوانبارى"
+        },
+        help_text_i18n: {
+          ar: "",
+          en: "",
+          ku: "",
+          'ku-IQ': ""
+        },
+        option_strings_text_i18n: [
           {
             id: "other",
-            display_text: "Armed Forces"
+            display_text: {
+              ar: "القوات المسلحة",
+              en: "Armed Forces",
+              ku: "هێزی چەکدار",
+              'ku-IQ': "هێزێن چەکدار"
+            }
           },
           {
             id: "unemployed",
-            display_text: "Armed Group"
+            display_text: {
+              ar: "المجموعات المسلحة ",
+              en: "Armed Group",
+              ku: "گروپی چەکدار",
+              'ku-IQ': "گروپێن چەکدار"
+            }
           },
           {
             id: "unknown",
-            display_text: "Police"
+            display_text: {
+              ar: "لشرطة",
+              en: "Police",
+              ku: "پۆلیس",
+              'ku-IQ': "پولیس"
+            }
           },
           {
             id: "occupation_1",
-            display_text: "Security Personel"
+            display_text: {
+              ar: "اشخاص ألامن",
+              en: "Security Personel",
+              ku: "کەسی ئاسایش",
+              'ku-IQ': "کەسێن ئێمناهیێ"
+            }
           },
           {
             id: "occupation_2",
-            display_text: "Teacher"
+            display_text: {
+              ar: "المعلم ",
+              en: "Teacher",
+              ku: "مامۆستا",
+              'ku-IQ': "ماموستا"
+            }
           },
           {
             id: "occupation_3",
-            display_text: "Doctor"
+            display_text: {
+              ar: "طبيب",
+              en: "Doctor",
+              ku: "پزیشک",
+              'ku-IQ': "نوژدار"
+            }
           },
           {
             id: "occupation_4",
-            display_text: "Motorcycle driver"
+            display_text: {
+              ar: "سائق دراجة نارية",
+              en: "Motorcycle driver",
+              ku: "شۆفێری ماتۆرسکیل",
+              'ku-IQ': "شوفێرێ ماتورسکلێ"
+            }
           },
           {
             id: "occupation_5",
-            display_text: "Lawyer"
+            display_text: {
+              ar: "محامي",
+              en: "Lawyer",
+              ku: "پارێزەر",
+              'ku-IQ': "پارێزەر"
+            }
           },
           {
             id: "cleaner_72899",
-            display_text: "Cleaner"
+            display_text: {
+              ar: "عامل نظافة",
+              en: "Cleaner",
+              ku: "پاککەرەوە",
+              'ku-IQ': "پاقژکەر"
+            }
           },
           {
             id: "shopkeeper_28918",
-            display_text: "Shopkeeper"
+            display_text: {
+              ar: "صاحب دكان",
+              en: "Shopkeeper",
+              ku: "دوکاندار",
+              'ku-IQ': "خودانێ دکانێ/بازارى"
+            }
           },
           {
             id: "un_staff_24069",
-            display_text: "UN Staff"
+            display_text: {
+              ar: "موظف ألامم المتحدة ",
+              en: "UN Staff",
+              ku: "کارمەندی نەتەوە یەکگرتووەکان",
+              'ku-IQ': "کارمەندىێ نەتەوەیێن ئێکگرتی"
+            }
           },
           {
             id: "community_leader_07568",
-            display_text: "Community Leader"
+            display_text: {
+              ar: "قائد مجتمع محلي",
+              en: "Community Leader",
+              ku: "سەرۆک عەشیرەت",
+              'ku-IQ': "رێبەرێن گومەلگەهێ/چڤاکى"
+            }
           },
           {
             id: "religious_leader_45947",
-            display_text: "Religious Leader"
+            display_text: {
+              ar: "زعيم ديني",
+              en: "Religious Leader",
+              ku: "کەسایەتی ئاینی",
+              'ku-IQ': "زانایێ/کەسێن ئاینى"
+            }
           },
           {
             id: "govt_service_provider_04198",
-            display_text: "Govt / Service Provider"
+            display_text: {
+              ar: "مقدم الخدمة الحكومية ",
+              en: "Govt / Service Provider",
+              ku: "حکومەت/ پێشکەشکەری خزمەتگوزاری",
+              'ku-IQ': "حکومەت. دەزگایێن خزمەتگوزاریا"
+            }
           },
           {
             id: "civil_servant_26813",
-            display_text: "Civil Servant"
+            display_text: {
+              ar: "موظف مدني",
+              en: "Civil Servant",
+              ku: "کارمەندی خزمەتی مەدەنی",
+              'ku-IQ': "یارمەتیدەرێن جڤاکى "
+            }
           },
           {
             id: "landlord_07442",
-            display_text: "Landlord"
+            display_text: {
+              ar: "مالك ألارض",
+              en: "Landlord",
+              ku: "خاوەن موڵک",
+              'ku-IQ': "خودانێ ملکى/ئەردى"
+            }
           },
           {
             id: "hotel_staff_82233",
-            display_text: "Hotel Staff"
+            display_text: {
+              ar: "موظف الفندق",
+              en: "Hotel Staff",
+              ku: "ستافی هۆتێل",
+              'ku-IQ': "کارمەندێ هوتێلێ"
+            }
           },
           {
             id: "ngo_staff_74729",
-            display_text: "NGO Staff"
+            display_text: {
+              ar: "موظف المنضمات الغير حكومية",
+              en: "NGO Staff",
+              ku: "ستافی ڕێکخراوەکان",
+              'ku-IQ': "کارمەندێ رێکخراوا"
+            }
           },
           {
             id: "community_based_organization_54853",
-            display_text: "Community Based Organization"
+            display_text: {
+              ar: "منضمات المجتمع المحلي",
+              en: "Community Based Organization",
+              ku: "ڕێکخراوی کۆمەڵگەیی",
+              'ku-IQ': "رێکخراوێن جڤاکى"
+            }
           },
           {
             id: "taxi_driver_25967",
-            display_text: "Taxi Driver"
+            display_text: {
+              ar: "سائق التكسي",
+              en: "Taxi Driver",
+              ku: "شۆفێری تاکسی",
+              'ku-IQ': "شوفێرێ تەکسیێ"
+            }
           },
           {
             id: "daily_laborer_75603",
-            display_text: "Daily Laborer"
+            display_text: {
+              ar: "عامل يومي",
+              en: "Daily Laborer",
+              ku: "کرێکاری ڕۆژانە",
+              'ku-IQ': "کرێکار"
+            }
           },
           {
             id: "unemployed_91727",
-            display_text: "Unemployed"
+            display_text: {
+              ar: "غير موظف/عاطل عن العمل",
+              en: "Unemployed",
+              ku: "دانەمەزراو",
+              'ku-IQ': "کارمەند"
+            }
           },
           {
             id: "unknown_29002",
-            display_text: "Unknown"
+            display_text: {
+              ar: "غير معروف",
+              en: "Unknown",
+              ku: "نەزانراو",
+              'ku-IQ': "نەدیار "
+            }
           },
           {
             id: "other_75655",
-            display_text: "Other"
+            display_text: {
+              ar: "اخرى",
+              en: "Other",
+              ku: "هیتر",
+              'ku-IQ': "پتر ژڤان خالان"
+            }
           }
         ],
-        option_strings_text_ar: [
-          {
-            id: "other",
-            display_text: "القوات المسلحة"
-          },
-          {
-            id: "unemployed",
-            display_text: "المجموعات المسلحة "
-          },
-          {
-            id: "unknown",
-            display_text: "لشرطة"
-          },
-          {
-            id: "occupation_1",
-            display_text: "اشخاص ألامن"
-          },
-          {
-            id: "occupation_2",
-            display_text: "المعلم "
-          },
-          {
-            id: "occupation_3",
-            display_text: "طبيب"
-          },
-          {
-            id: "occupation_4",
-            display_text: "سائق دراجة نارية"
-          },
-          {
-            id: "occupation_5",
-            display_text: "محامي"
-          },
-          {
-            id: "cleaner_72899",
-            display_text: "عامل نظافة"
-          },
-          {
-            id: "shopkeeper_28918",
-            display_text: "صاحب دكان"
-          },
-          {
-            id: "un_staff_24069",
-            display_text: "موظف ألامم المتحدة "
-          },
-          {
-            id: "community_leader_07568",
-            display_text: "قائد مجتمع محلي"
-          },
-          {
-            id: "religious_leader_45947",
-            display_text: "زعيم ديني"
-          },
-          {
-            id: "govt_service_provider_04198",
-            display_text: "مقدم الخدمة الحكومية "
-          },
-          {
-            id: "civil_servant_26813",
-            display_text: "موظف مدني"
-          },
-          {
-            id: "landlord_07442",
-            display_text: "مالك ألارض"
-          },
-          {
-            id: "hotel_staff_82233",
-            display_text: "موظف الفندق"
-          },
-          {
-            id: "ngo_staff_74729",
-            display_text: "موظف المنضمات الغير حكومية"
-          },
-          {
-            id: "community_based_organization_54853",
-            display_text: "منضمات المجتمع المحلي"
-          },
-          {
-            id: "taxi_driver_25967",
-            display_text: "سائق التكسي"
-          },
-          {
-            id: "daily_laborer_75603",
-            display_text: "عامل يومي"
-          },
-          {
-            id: "unemployed_91727",
-            display_text: "غير موظف/عاطل عن العمل"
-          },
-          {
-            id: "unknown_29002",
-            display_text: "غير معروف"
-          },
-          {
-            id: "other_75655",
-            display_text: "اخرى"
-          }
-        ],
-        option_strings_text_ku: [
-          {
-            id: "other",
-            display_text: "هێزی چەکدار"
-          },
-          {
-            id: "unemployed",
-            display_text: "گروپی چەکدار"
-          },
-          {
-            id: "unknown",
-            display_text: "پۆلیس"
-          },
-          {
-            id: "occupation_1",
-            display_text: "کەسی ئاسایش"
-          },
-          {
-            id: "occupation_2",
-            display_text: "مامۆستا"
-          },
-          {
-            id: "occupation_3",
-            display_text: "پزیشک"
-          },
-          {
-            id: "occupation_4",
-            display_text: "شۆفێری ماتۆرسکیل"
-          },
-          {
-            id: "occupation_5",
-            display_text: "پارێزەر"
-          },
-          {
-            id: "cleaner_72899",
-            display_text: "پاککەرەوە"
-          },
-          {
-            id: "shopkeeper_28918",
-            display_text: "دوکاندار"
-          },
-          {
-            id: "un_staff_24069",
-            display_text: "کارمەندی نەتەوە یەکگرتووەکان"
-          },
-          {
-            id: "community_leader_07568",
-            display_text: "سەرۆک عەشیرەت"
-          },
-          {
-            id: "religious_leader_45947",
-            display_text: "کەسایەتی ئاینی"
-          },
-          {
-            id: "govt_service_provider_04198",
-            display_text: "حکومەت/ پێشکەشکەری خزمەتگوزاری"
-          },
-          {
-            id: "civil_servant_26813",
-            display_text: "کارمەندی خزمەتی مەدەنی"
-          },
-          {
-            id: "landlord_07442",
-            display_text: "خاوەن موڵک"
-          },
-          {
-            id: "hotel_staff_82233",
-            display_text: "ستافی هۆتێل"
-          },
-          {
-            id: "ngo_staff_74729",
-            display_text: "ستافی ڕێکخراوەکان"
-          },
-          {
-            id: "community_based_organization_54853",
-            display_text: "ڕێکخراوی کۆمەڵگەیی"
-          },
-          {
-            id: "taxi_driver_25967",
-            display_text: "شۆفێری تاکسی"
-          },
-          {
-            id: "daily_laborer_75603",
-            display_text: "کرێکاری ڕۆژانە"
-          },
-          {
-            id: "unemployed_91727",
-            display_text: "دانەمەزراو"
-          },
-          {
-            id: "unknown_29002",
-            display_text: "نەزانراو"
-          },
-          {
-            id: "other_75655",
-            display_text: "هیتر"
-          }
-        ],
-        'option_strings_text_ku-IQ': [
-          {
-            id: "other",
-            display_text: "هێزێن چەکدار"
-          },
-          {
-            id: "unemployed",
-            display_text: "گروپێن چەکدار"
-          },
-          {
-            id: "unknown",
-            display_text: "پولیس"
-          },
-          {
-            id: "occupation_1",
-            display_text: "کەسێن ئێمناهیێ"
-          },
-          {
-            id: "occupation_2",
-            display_text: "ماموستا"
-          },
-          {
-            id: "occupation_3",
-            display_text: "نوژدار"
-          },
-          {
-            id: "occupation_4",
-            display_text: "شوفێرێ ماتورسکلێ"
-          },
-          {
-            id: "occupation_5",
-            display_text: "پارێزەر"
-          },
-          {
-            id: "cleaner_72899",
-            display_text: "پاقژکەر"
-          },
-          {
-            id: "shopkeeper_28918",
-            display_text: "خودانێ دکانێ/بازارى"
-          },
-          {
-            id: "un_staff_24069",
-            display_text: "کارمەندىێ نەتەوەیێن ئێکگرتی"
-          },
-          {
-            id: "community_leader_07568",
-            display_text: "رێبەرێن گومەلگەهێ/چڤاکى"
-          },
-          {
-            id: "religious_leader_45947",
-            display_text: "زانایێ/کەسێن ئاینى"
-          },
-          {
-            id: "govt_service_provider_04198",
-            display_text: "حکومەت. دەزگایێن خزمەتگوزاریا"
-          },
-          {
-            id: "civil_servant_26813",
-            display_text: "یارمەتیدەرێن جڤاکى "
-          },
-          {
-            id: "landlord_07442",
-            display_text: "خودانێ ملکى/ئەردى"
-          },
-          {
-            id: "hotel_staff_82233",
-            display_text: "کارمەندێ هوتێلێ"
-          },
-          {
-            id: "ngo_staff_74729",
-            display_text: "کارمەندێ رێکخراوا"
-          },
-          {
-            id: "community_based_organization_54853",
-            display_text: "رێکخراوێن جڤاکى"
-          },
-          {
-            id: "taxi_driver_25967",
-            display_text: "شوفێرێ تەکسیێ"
-          },
-          {
-            id: "daily_laborer_75603",
-            display_text: "کرێکار"
-          },
-          {
-            id: "unemployed_91727",
-            display_text: "کارمەند"
-          },
-          {
-            id: "unknown_29002",
-            display_text: "نەدیار "
-          },
-          {
-            id: "other_75655",
-            display_text: "پتر ژڤان خالان"
-          }
-        ],
-        multi_select: false,
-        hidden_text_field: false,
         option_strings_source: "",
+        order: 8,
+        hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
 
 FormSection.create_or_update!(
   {
-    name_en: "Alleged Perpetrator",
-    description_en: "Alleged Perpetrator",
-    name_ar: "الجاني المزعوم",
-    description_ar: "الجاني المزعوم",
-    name_ku: "گومانلێکراو",
-    description_ku: "گومانلێکراو",
-    'name_ku-IQ': "تاوانبارێ گومانلێکری",
-    'description_ku-IQ': "تاوانبارێ گومانلێکری",
     unique_id: "alleged_perpetrators_wrapper",
+    name_i18n: {
+      ar: "الجاني المزعوم",
+      en: "Alleged Perpetrator",
+      ku: "گومانلێکراو",
+      'ku-IQ': "تاوانبارێ گومانلێکری"
+    },
+    description_i18n: {
+      ar: "الجاني المزعوم",
+      en: "Alleged Perpetrator",
+      ku: "گومانلێکراو",
+      'ku-IQ': "تاوانبارێ گومانلێکری"
+    },
     parent_form: "incident",
     visible: true,
     order: 10,
@@ -794,33 +656,47 @@ FormSection.create_or_update!(
     is_first_tab: false,
     initial_subforms: 0,
     subform_prevent_item_removal: false,
+    subform_append_only: false,
+    subform_header_links: [],
     display_help_text_view: false,
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
-    subform_append_only: false,
     fields_attributes: [
       {
         name: "alleged_perpetrator",
+        type: "subform",
+        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
-        type: "subform",
         editable: true,
         disabled: false,
-        display_name_en: "Alleged Perpetrator",
-        display_name_ar: "الجاني المزعوم",
-        display_name_ku: "گومانلێکراو",
-        'display_name_ku-IQ': "تاوانبارێ گومانلێکری",
-        multi_select: false,
+        display_name_i18n: {
+          ar: "الجاني المزعوم",
+          en: "Alleged Perpetrator",
+          ku: "گومانلێکراو",
+          'ku-IQ': "تاوانبارێ گومانلێکری"
+        },
+        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
         required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false,
         subform_unique_id: "alleged_perpetrator"
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
