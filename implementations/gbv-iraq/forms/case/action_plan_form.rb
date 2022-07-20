@@ -542,7 +542,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false
+        mandatory_for_completion: false,
         collapsed_field_for_subform_unique_id: "gbv_follow_up_subform_section"
       },
       {
