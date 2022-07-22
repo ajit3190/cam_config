@@ -205,7 +205,7 @@ FormSection.create_or_update!(
     header_message_link: "",
     fields_attributes: [
       {
-        name: "cp_incident_violence_type",
+        name: "gbv_sexual_violence_type",
         type: "select_box",
         multi_select: false,
         visible: true,
