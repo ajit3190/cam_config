@@ -53,7 +53,6 @@ create_or_update_system_setting(
     services_section: 'services'
   },
   due_date_from_appointment_date: true,
-  welcome_email_enabled: true,
   code_of_conduct_enabled: true,
   welcome_email_text: 'Click link below to log into Primero.  Please see your system administrator if you have any issues.',
   export_config_id: {
