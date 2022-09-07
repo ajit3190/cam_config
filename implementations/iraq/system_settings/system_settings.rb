@@ -33,12 +33,7 @@ create_or_update_system_setting(
     closure_form: "closure"
   },
   due_date_from_appointment_date: false,
-  notification_email_enabled: true,
-  welcome_email_enabled: false,
   duplicate_export_field: "national_id_no",
-  welcome_email_text_en: "Click link below to log into Primero.  Please see your system administrator if you have any issues.",
-  'welcome_email_text_ar-IQ': "Click link below to log into Primero.  Please see your system administrator if you have any issues.",
-  welcome_email_text_ku: "Click link below to log into Primero.  Please see your system administrator if you have any issues.",
   base_language: "en",
   reporting_location_config: {
     field_key: "owned_by_location",
