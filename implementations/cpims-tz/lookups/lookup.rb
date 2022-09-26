@@ -3424,7 +3424,7 @@ Lookup.create_or_update!(
         display_text: "No"
       },
       {
-        id: "undecided_83303"
+        id: "undecided_83303",
         display_text: "Undecided"
       }
     ],
@@ -3446,7 +3446,7 @@ Lookup.create_or_update!(
         display_text: "No"
       },
       {
-        id: "unknown"
+        id: "unknown",
         display_text: "Unknown"
       }
     ],
