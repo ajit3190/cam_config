@@ -39,13 +39,6 @@ Role.create_or_update!(
         "view_incident_from_case",
         "incident_from_case"
       ],
-      incident: [
-        "read",
-        "create",
-        "write",
-        "enable_disable",
-        "change_log"
-      ],
       tracing_request: [
         "read",
         "create",
@@ -219,10 +212,6 @@ Role.create_or_update!(
         "view_incident_from_case",
         "incident_from_case"
       ],
-      incident: [
-        "read",
-        "write"
-      ],
       dashboard: [
         "view_protection_concerns_filter",
         "dash_tasks",
@@ -283,9 +272,6 @@ Role.create_or_update!(
         "change_log",
         "view_photo",
         "view_incident_from_case"
-      ],
-      incident: [
-        "read"
       ],
       role: [
         "read"
@@ -390,9 +376,6 @@ Role.create_or_update!(
         "view_photo",
         "view_incident_from_case"
       ],
-      incident: [
-        "read"
-      ],
       dashboard: [
         "dash_group_overview",
         "dash_flags",
@@ -442,9 +425,6 @@ Role.create_or_update!(
         "change_log",
         "view_photo",
         "view_incident_from_case"
-      ],
-      incident: [
-        "read"
       ],
       tracing_request: [
         "read",
@@ -549,13 +529,6 @@ Role.create_or_update!(
       potential_match: [
         "read"
       ],
-      incident: [
-        "read",
-        "write",
-        "create",
-        "enable_disable",
-        "change_log"
-      ],
       dashboard: [
         "case_overview",
         "dash_flags",
@@ -599,10 +572,6 @@ Role.create_or_update!(
         "view_incident_from_case",
         "incident_from_case"
       ],
-      incident: [
-        "read",
-        "write"
-      ],
       dashboard: [
         "case_overview",
         "dash_flags",
@@ -631,10 +600,6 @@ Role.create_or_update!(
         "manage",
         "change_log",
         "view_photo"
-      ],
-      incident: [
-        "manage",
-        "change_log"
       ],
       tracing_request: [
         "manage",
@@ -707,10 +672,6 @@ Role.create_or_update!(
         "reopen",
         "view_incident_from_case",
         "incident_from_case"
-      ],
-      incident: [
-        "read",
-        "write"
       ],
       dashboard: [
         "case_overview",

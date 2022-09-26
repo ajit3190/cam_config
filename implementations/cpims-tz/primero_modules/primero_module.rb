@@ -4,10 +4,7 @@ PrimeroModule.create_or_update!(
     description: "Child Protection",
     associated_record_types: [
       "case",
-      "",
-      "",
-      "",
-      ""
+      "tracing_request"
     ],
     core_resource: false,
     unique_id: "primeromodule-cp",
