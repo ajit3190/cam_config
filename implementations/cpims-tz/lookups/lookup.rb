@@ -79,9 +79,9 @@ Lookup.create_or_update!(
         display_text: "Safety Plan"
       },
       {
-        id: "record_owner",
-        display_text: "Record Owner"
-      }      
+        id: "record_information",
+        display_text: "Record Information"
+      }     
     ],
     unique_id: "lookup-form-group-cp-case"
   }
