@@ -1,6 +1,121 @@
 Lookup.create_or_update!(
   {
     locked: false,
+    name_en: "Form Groups   Cp Case",
+    lookup_values_en: [
+      {
+        id: "action_plan",
+        display_text: "Action Plan"
+      },
+      {
+        id: "services_follow_up",
+        display_text: "Services / Follow Up"
+      },
+      {
+        id: "identification_registration",
+        display_text: "Identification / Registration"
+      },
+      {
+        id: "assessment",
+        display_text: "Assessment"
+      },
+      {
+        id: "documents",
+        display_text: "Documents"
+      },
+      {
+        id: "attachments",
+        display_text: "Attachments"
+      },
+      {
+        id: "tracing",
+        display_text: "Tracing"
+      },
+      {
+        id: "closure",
+        display_text: "Closure"
+      },
+      {
+        id: "data_confidentiality",
+        display_text: "Data Confidentiality"
+      },
+      {
+        id: "quality_of_services_feedback",
+        display_text: "Quality of Service Feedback"
+      },
+      {
+        id: "case_plan",
+        display_text: "Case Plan"
+      },
+      {
+        id: "case_conference",
+        display_text: "Case Conference"
+      },
+      {
+        id: "case_re_opening",
+        display_text: "Case Re-opening"
+      },
+      {
+        id: "feedback",
+        display_text: "Feedback"
+      },
+      {
+        id: "implementation",
+        display_text: "Implementation"
+      },
+      {
+        id: "follow_up_review",
+        display_text: "Follow Up/ Review"
+      },
+      {
+        id: "family_partner_details",
+        display_text: "Family / Partner Details"
+      },
+      { id: "notes",
+        display_text: "Notes"
+      },
+      {
+        id: "safety_plan",
+        display_text: "Safety Plan"
+      },
+      {
+        id: "record_owner",
+        display_text: "Record Owner"
+      }      
+    ],
+    unique_id: "lookup-form-group-cp-case"
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    locked: false,
+    name_en: "Form Groups   Cp Tracing Request",
+    lookup_values_en: [
+      {
+        id: "tracing_request",
+        display_text: "Tracing Request"
+      },
+      {
+        id: "photos_and_audio",
+        display_text: "Photos and Audio"
+      },
+      {
+        id: "record_owner",
+        display_text: "Record Owner"
+      },
+      {
+        id: "inquirer",
+        display_text: "Inquirer"
+      }
+    ],
+    unique_id: "lookup-form-group-cp-tracing-request"
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    locked: false,
     name_en: "Accommodation",
     lookup_values_en: [
       {
