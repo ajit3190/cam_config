@@ -1,0 +1,6 @@
+ContactInformation.create!(
+  {
+    name: "administrator"
+  }
+)
+

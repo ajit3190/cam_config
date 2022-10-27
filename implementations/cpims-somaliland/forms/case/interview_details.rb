@@ -1,0 +1,316 @@
+FormSection.create_or_update!(
+  {
+    name_en: "Interview Details",
+    description_en: "Interview Details",
+    name_so: "Faahfaahin Wareysi",
+    description_so: "Faahfaahin Wareysi",
+    unique_id: "interview_details",
+    parent_form: "case",
+    visible: true,
+    order: 40,
+    order_form_group: 30,
+    order_subform: 0,
+    form_group_keyed: false,
+    editable: true,
+    core_form: true,
+    is_nested: false,
+    is_first_tab: false,
+    initial_subforms: 0,
+    subform_prevent_item_removal: false,
+    display_help_text_view: false,
+    is_summary_section: false,
+    hide_subform_placeholder: false,
+    mobile_form: true,
+    header_message_link: "",
+    form_group_id: "identification_registration",
+    fields_attributes: [
+      {
+        name: "interview_details_header",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "separator",
+        editable: true,
+        disabled: false,
+        display_name_en: "Details of Social Worker",
+        display_name_so: "Faahfaahin Adeege Bulsho",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "interviewer_name",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Interviewer Name",
+        display_name_so: "Magaca Wareysi-qaadaha",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "interviewer_postion",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Interviewer Position",
+        display_name_so: "Booska Wareysi-qaadaha",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "arrival_date",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "date_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Interview Date",
+        display_name_so: "Taariikhda Wareysiga",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "interviewer_agency",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Interviewer Agency",
+        display_name_so: "Hay'ada Wareysi-qaadaha",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "Agency",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "location_interview",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Interview Location",
+        display_name_so: "Goobta Wareysiga",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "Location",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "address_interview",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Village / Area / Physical Address",
+        display_name_so: "Xaafad/Meel/Cinwaanka",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "landmark_interview",
+        visible: false,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Interview Landmark",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "identification_method",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "How was this case identified?",
+        display_name_so: "Sidee kiiskan lagu soo ogaaday/arkay/helay?",
+        option_strings_text_en: [
+          {
+            id: "self",
+            display_text: "Self"
+          },
+          {
+            id: "community",
+            display_text: "Community"
+          },
+          {
+            id: "agency_referral",
+            display_text: "Agency Referral"
+          }
+        ],
+        option_strings_text_so: [
+          {
+            id: "self",
+            display_text: "Naf"
+          },
+          {
+            id: "community",
+            display_text: "Bulsho"
+          },
+          {
+            id: "agency_referral",
+            display_text: "Gudbin Hay'adeed"
+          }
+        ],
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "source_interview",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Information Obtained From",
+        display_name_so: "Macluumaad laga helay",
+        option_strings_text_en: [
+          {
+            id: "child",
+            display_text: "Child"
+          },
+          {
+            id: "caregiver",
+            display_text: "Caregiver"
+          },
+          {
+            id: "gbv_survivor",
+            display_text: "GBV Survivor"
+          },
+          {
+            id: "other",
+            display_text: "Other, please specify"
+          }
+        ],
+        multi_select: true,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "source_interview_other",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "If information obtained from Other, please specify.",
+        display_name_so: "Haddii macluumaad laga helay meel kale, fadlan sheeg.",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "other_org_interview_status",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "radio_button",
+        editable: true,
+        disabled: false,
+        display_name_en: "Has the child been interviewed by another organization?",
+        display_name_so: "Ilmaha miyuu urur kale wareysi ka qaaday?",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "other_org_reference_no",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "text_field",
+        editable: true,
+        disabled: false,
+        display_name_en: "Reference No. given to child by other organization",
+        display_name_so: "Lambar tixraac oo uu ilmaha siiyey urur kale",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "comments_interview",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Additional comments",
+        display_name_so: "Faallooyin dheeraad ah",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      }
+    ]
+  }
+)
+
