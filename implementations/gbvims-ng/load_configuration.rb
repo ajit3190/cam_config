@@ -19,8 +19,8 @@ puts 'Seeding Locations'
 require File.dirname(__FILE__) + '/locations/locations.rb'
 
 # Export Configuration must be loaded before the System Settings are loaded
-puts 'Seeding Export Configuration'
-require File.dirname(__FILE__) + '/export_configurations/export_configuration.rb'
+# puts 'Seeding Export Configuration'
+# require File.dirname(__FILE__) + '/export_configurations/export_configuration.rb'
 
 # Seed the system settings table
 puts 'Seeding System Settings'
