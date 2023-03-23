@@ -25,6 +25,22 @@ create_or_update_system_setting(
       cp_case_plan: "case_plan",
       closure_form: "closure"
     },
+    base_language: "en",
+    reporting_location_config: {
+      field_key: "owned_by_location",
+      admin_level: 2,
+      admin_level_map: {
+        '0': [
+          "country"
+        ],
+        '1': [
+          "province"
+        ],
+        '2': [
+          "district"
+        ]
+      }
+    },
     due_date_from_appointment_date: false,
     welcome_email_text_en: "Click link below to log into Primero.  Please see your system administrator if you have any issues.",
     base_language: "en",
