@@ -285,43 +285,7 @@ FormSection.create_or_update!(
           ]
         },
         mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.699Z",
-        updated_at: "2023-03-22T08:54:32.699Z",
         subform_unique_id: "action_plan_subform_section"
-      },
-      {
-        name: "gbv_follow_up_subform_section",
-        type: "subform",
-        multi_select: false,
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        editable: true,
-        disabled: false,
-        display_name_i18n: {
-          en: "Follow up details"
-        },
-        order: 9,
-        hidden_text_field: false,
-        autosum_total: false,
-        link_to_path_external: true,
-        field_tags: [],
-        expose_unique_id: false,
-        required: false,
-        date_validation: "default_date_validation",
-        date_include_time: false,
-        matchable: false,
-        subform_section_configuration: {
-          fields: [
-            "followup_date",
-            "service_type_provided"
-          ]
-        },
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.707Z",
-        updated_at: "2023-03-22T08:54:32.707Z",
-        subform_unique_id: "gbv_follow_up_subform_section"
       }
     ],
     module_ids: [
