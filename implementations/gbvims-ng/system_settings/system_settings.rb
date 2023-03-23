@@ -19,11 +19,18 @@ create_or_update_system_setting(
       primero: [0..5, 6..11, 12..17, 18..999],
       unhcr: [0..4, 5..11, 12..17, 18..59, 60..999]
     },
+    export_config_id: {
+      unhcr: "export-unhcr-csv",
+      duplicate_id: "export-duplicate-id-csv"
+    },
     primary_age_range: "primero",
     approval_forms_to_alert: {
       cp_bia_form: "bia",
       cp_case_plan: "case_plan",
       closure_form: "closure"
+    },
+    changes_field_to_form: {
+      notes_section: "notes"
     },
     base_language: "en",
     reporting_location_config: {
