@@ -101,14 +101,6 @@ Report.create_or_update!(
   {
     name_en: "September",
     description_en: "",
-    name_fr: "September",
-    description_fr: "",
-    name_ar: "September",
-    description_ar: "",
-    'name_ar-LB': "September",
-    'description_ar-LB': "",
-    name_es: "September",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by"
@@ -144,14 +136,6 @@ Report.create_or_update!(
   {
     name_en: "September",
     description_en: "",
-    name_fr: "September",
-    description_fr: "",
-    name_ar: "September",
-    description_ar: "",
-    'name_ar-LB': "September",
-    'description_ar-LB': "",
-    name_es: "September",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by_agency"
@@ -246,14 +230,6 @@ Report.create_or_update!(
   {
     name_en: "abigail jones",
     description_en: "",
-    name_fr: "abigail jones",
-    description_fr: "",
-    name_ar: "abigail jones",
-    description_ar: "",
-    'name_ar-LB': "abigail jones",
-    'description_ar-LB': "",
-    name_es: "abigail jones",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by"
@@ -289,14 +265,6 @@ Report.create_or_update!(
   {
     name_en: "ssa",
     description_en: "",
-    name_fr: "ssa",
-    description_fr: "",
-    name_ar: "ssa",
-    description_ar: "",
-    'name_ar-LB': "ssa",
-    'description_ar-LB': "",
-    name_es: "ssa",
-    description_es: "",
     record_type: "incident",
     aggregate_by: [
       "date_of_first_report"
@@ -394,14 +362,6 @@ Report.create_or_update!(
   {
     name_en: "Salahuddeen Sambo",
     description_en: "August Report 2021",
-    name_fr: "Salahuddeen Sambo",
-    description_fr: "",
-    name_ar: "Salahuddeen Sambo",
-    description_ar: "",
-    'name_ar-LB': "Salahuddeen Sambo",
-    'description_ar-LB': "",
-    name_es: "Salahuddeen Sambo",
-    description_es: "",
     record_type: "case",
     aggregate_by: [
       "owned_by"
@@ -437,14 +397,6 @@ Report.create_or_update!(
   {
     name_en: "Incidents by agency",
     description_en: "",
-    name_fr: "Incidents by agency",
-    description_fr: "",
-    name_ar: "Incidents by agency",
-    description_ar: "",
-    'name_ar-LB': "Incidents by agency",
-    'description_ar-LB': "",
-    name_es: "Incidents by agency",
-    description_es: "",
     record_type: "incident",
     aggregate_by: [
       "owned_by_agency"
@@ -480,14 +432,6 @@ Report.create_or_update!(
   {
     name_en: "Salahuddeen Sambo",
     description_en: "Amos Report ",
-    name_fr: "Salahuddeen Sambo",
-    description_fr: "",
-    name_ar: "Salahuddeen Sambo",
-    description_ar: "",
-    'name_ar-LB': "Salahuddeen Sambo",
-    'description_ar-LB': "",
-    name_es: "Salahuddeen Sambo",
-    description_es: "",
     record_type: "incident",
     aggregate_by: [
       "owned_by"
