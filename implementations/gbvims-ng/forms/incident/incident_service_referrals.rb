@@ -515,7 +515,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested Livelihoods Services Subform",
     description_en: "Nested Livelihoods Services Subform",
-    description_es: "Nested Livelihoods Services Subform",
     unique_id: "livelihoods_services_subform_section",
     parent_form: "incident",
     visible: false,
