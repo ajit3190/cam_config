@@ -264,7 +264,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested GBV Follow Up Subform",
     description_en: "Nested GBV Follow Up Subform",
-    description_es: "Nested GBV Follow Up Subform",
     unique_id: "gbv_follow_up_subform_section",
     parent_form: "case",
     visible: false,
