@@ -10,7 +10,7 @@ FormSection.create_or_update!(
     order_subform: 0,
     form_group_keyed: false,
     editable: true,
-    core_form: false,
+    core_form: true,
     is_nested: false,
     is_first_tab: false,
     initial_subforms: 0,
@@ -37,6 +37,32 @@ FormSection.create_or_update!(
         autosum_group: "",
         selected_value: true,
         required: false
+      },
+      {
+        name: "owned_by",
+        type: "select_box",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: true,
+        display_name_i18n: {
+          en: "Caseworker Code"
+        },
+        option_strings_source: "User",
+        order: 1,
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "owned_by_agency_id",
@@ -143,7 +169,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Created at"
         },
-        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -168,7 +193,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Reassigned / Transferred On"
         },
-        order: 8,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -182,29 +206,20 @@ FormSection.create_or_update!(
       },
       {
         name: "owned_by_agency",
-        type: "select_box",
-        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
-        editable: true,
+        type: "select_box",
+        editable: false,
         disabled: true,
-        display_name_i18n: {
-          en: "Case Manager's Agency [deprecated]"
-        },
-        option_strings_source: "Agency",
-        order: 9,
+        display_name_en: "Case Manager's Agency",
+        multi_select: false,
         hidden_text_field: false,
+        option_strings_source: "Agency",
         autosum_total: false,
-        link_to_path_external: true,
-        field_tags: [],
-        expose_unique_id: false,
-        required: false,
-        date_validation: "default_date_validation",
-        date_include_time: false,
-        matchable: false,
-        mandatory_for_completion: false
+        autosum_group: "",
+        required: false
       },
       {
         name: "assigned_user_names",
@@ -220,7 +235,6 @@ FormSection.create_or_update!(
           en: "Other Assigned Users"
         },
         option_strings_source: "User",
-        order: 10,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -246,7 +260,6 @@ FormSection.create_or_update!(
           en: "Record created by"
         },
         option_strings_source: "User",
-        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -272,7 +285,6 @@ FormSection.create_or_update!(
           en: "Created by agency"
         },
         option_strings_source: "Agency",
-        order: 12,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -298,7 +310,6 @@ FormSection.create_or_update!(
           en: "Previous Owner"
         },
         option_strings_source: "User",
-        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -324,7 +335,6 @@ FormSection.create_or_update!(
           en: "Previous Agency"
         },
         option_strings_source: "Agency",
-        order: 14,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -336,9 +346,6 @@ FormSection.create_or_update!(
         matchable: false,
         mandatory_for_completion: false
       }
-    ],
-    module_ids: [
-      "primeromodule-gbv"
     ]
   }
 )

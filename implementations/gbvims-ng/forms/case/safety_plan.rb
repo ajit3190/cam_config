@@ -286,9 +286,6 @@ FormSection.create_or_update!(
         autosum_group: "",
         required: false
       }
-    ],
-    module_ids: [
-      "primeromodule-gbv"
     ]
   }
 )

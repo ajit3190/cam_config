@@ -31,13 +31,8 @@ FormSection.create_or_update!(
         type: "document_upload_box",
         editable: false,
         disabled: false,
-        display_name_i18n: {
-          en: "Other Document"
-        },
-        help_text_i18n: {
-          en: "Only PDF, TXT, DOC, DOCX, XLS, XLSX, CSV files permitted"
-        },
-        order: 0,
+        display_name_en: "Other Document",
+        multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",

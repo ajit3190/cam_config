@@ -10,7 +10,7 @@ FormSection.create_or_update!(
     order_subform: 0,
     form_group_keyed: false,
     editable: true,
-    core_form: false,
+    core_form: true,
     is_nested: false,
     is_first_tab: true,
     initial_subforms: 0,
@@ -565,9 +565,6 @@ FormSection.create_or_update!(
         ],
         required: false
       }
-    ],
-    module_ids: [
-      "primeromodule-gbv"
     ]
   }
 )

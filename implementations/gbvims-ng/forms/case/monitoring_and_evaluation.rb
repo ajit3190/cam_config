@@ -26,8 +26,6 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: false,
-    created_at: "2023-03-22T08:54:32.683Z",
-    updated_at: "2023-03-22T08:54:32.683Z",
     fields_attributes: [
       {
         name: "age",
@@ -52,9 +50,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.685Z",
-        updated_at: "2023-03-22T08:54:32.685Z"
+        mandatory_for_completion: false
       },
       {
         name: "date_of_birth",
@@ -79,9 +75,7 @@ FormSection.create_or_update!(
         date_validation: "not_future_date",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.687Z",
-        updated_at: "2023-03-22T08:54:32.687Z"
+        mandatory_for_completion: false
       },
       {
         name: "sex",
@@ -107,9 +101,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.688Z",
-        updated_at: "2023-03-22T08:54:32.688Z"
+        mandatory_for_completion: false
       },
       {
         name: "country_of_origin",
@@ -135,9 +127,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.690Z",
-        updated_at: "2023-03-22T08:54:32.690Z"
+        mandatory_for_completion: false
       },
       {
         name: "maritial_status",
@@ -163,9 +153,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.692Z",
-        updated_at: "2023-03-22T08:54:32.692Z"
+        mandatory_for_completion: false
       },
       {
         name: "gbv_displacement_status",
@@ -191,9 +179,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.694Z",
-        updated_at: "2023-03-22T08:54:32.694Z"
+        mandatory_for_completion: false
       },
       {
         name: "gbv_disability_type",
@@ -219,9 +205,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.696Z",
-        updated_at: "2023-03-22T08:54:32.696Z"
+        mandatory_for_completion: false
       },
       {
         name: "unaccompanied_separated_status",
@@ -247,9 +231,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.697Z",
-        updated_at: "2023-03-22T08:54:32.697Z"
+        mandatory_for_completion: false
       },
       {
         name: "action_plan_section",
@@ -286,6 +268,38 @@ FormSection.create_or_update!(
         },
         mandatory_for_completion: false,
         subform_unique_id: "action_plan_subform_section"
+      },
+      {
+        name: "gbv_follow_up_subform_section",
+        type: "subform",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          en: "Follow up details"
+        },
+        order: 9,
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        subform_section_configuration: {
+          fields: [
+            "followup_date",
+            "service_type_provided"
+          ]
+        },
+        mandatory_for_completion: false,
+        subform_unique_id: "gbv_follow_up_subform_section"
       }
     ],
     module_ids: [

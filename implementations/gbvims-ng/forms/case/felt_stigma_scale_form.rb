@@ -25,8 +25,6 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
-    created_at: "2023-03-22T08:54:32.485Z",
-    updated_at: "2023-03-22T08:54:32.485Z",
     collapsed_field_names: [
       "felt_stigma_date"
     ],
@@ -54,9 +52,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.487Z",
-        updated_at: "2023-03-22T08:54:32.487Z"
+        mandatory_for_completion: false
       },
       {
         name: "felt_stigma_date",
@@ -86,8 +82,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.489Z",
-        updated_at: "2023-03-22T08:54:32.489Z",
         collapsed_field_for_subform_unique_id: "felt_stigma_subform_section"
       },
       {
@@ -114,9 +108,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.492Z",
-        updated_at: "2023-03-22T08:54:32.492Z"
+        mandatory_for_completion: false
       },
       {
         name: "feeling_detached",
@@ -142,9 +134,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.494Z",
-        updated_at: "2023-03-22T08:54:32.494Z"
+        mandatory_for_completion: false
       },
       {
         name: "feeling_badly_treated",
@@ -170,9 +160,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.496Z",
-        updated_at: "2023-03-22T08:54:32.496Z"
+        mandatory_for_completion: false
       },
       {
         name: "feeling_shame",
@@ -198,9 +186,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.498Z",
-        updated_at: "2023-03-22T08:54:32.498Z"
+        mandatory_for_completion: false
       },
       {
         name: "blaming_yourself",
@@ -226,9 +212,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.500Z",
-        updated_at: "2023-03-22T08:54:32.500Z"
+        mandatory_for_completion: false
       },
       {
         name: "feeling_rejected",
@@ -254,9 +238,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.502Z",
-        updated_at: "2023-03-22T08:54:32.502Z"
+        mandatory_for_completion: false
       },
       {
         name: "feeling_stigma",
@@ -282,9 +264,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.504Z",
-        updated_at: "2023-03-22T08:54:32.504Z"
+        mandatory_for_completion: false
       },
       {
         name: "wanting_to_avoid_people",
@@ -310,9 +290,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.505Z",
-        updated_at: "2023-03-22T08:54:32.505Z"
+        mandatory_for_completion: false
       },
       {
         name: "feeling_family_gazes",
@@ -338,9 +316,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.507Z",
-        updated_at: "2023-03-22T08:54:32.507Z"
+        mandatory_for_completion: false
       },
       {
         name: "feeling_community_gaze",
@@ -366,9 +342,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.509Z",
-        updated_at: "2023-03-22T08:54:32.509Z"
+        mandatory_for_completion: false
       },
       {
         name: "felt_stigma_score",
@@ -394,8 +368,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.511Z",
-        updated_at: "2023-03-22T08:54:38.342Z",
         calculation: {
           type: "number",
           expression: {
@@ -438,8 +410,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.513Z",
-        updated_at: "2023-03-22T08:54:32.513Z",
         calculation: {
           type: "number",
           expression: {
@@ -481,9 +451,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.515Z",
-        updated_at: "2023-03-22T08:54:32.515Z"
+        mandatory_for_completion: false
       }
     ],
     module_ids: [
@@ -520,8 +488,6 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
-    created_at: "2023-03-22T08:54:32.538Z",
-    updated_at: "2023-03-22T08:54:32.538Z",
     fields_attributes: [
       {
         name: "felt_stigma_section",
@@ -547,8 +513,6 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.540Z",
-        updated_at: "2023-03-22T08:54:32.540Z",
         subform_unique_id: "felt_stigma_subform_section"
       }
     ],

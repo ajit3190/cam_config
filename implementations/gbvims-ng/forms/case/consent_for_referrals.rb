@@ -24,7 +24,6 @@ FormSection.create_or_update!(
     fields_attributes: [
       {
         name: "consent_release_separator",
-        display_name_en: "Consent to Release Information by Referral Type",
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
@@ -32,6 +31,7 @@ FormSection.create_or_update!(
         type: "separator",
         editable: true,
         disabled: false,
+        display_name_en: "Consent to Release Information by Referral Type",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -278,7 +278,6 @@ FormSection.create_or_update!(
         type: "radio_button",
         editable: true,
         disabled: false,
-       
         display_name_en: "Consent to Release Information to Other Services",
         multi_select: false,
         hidden_text_field: false,

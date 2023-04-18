@@ -41,7 +41,6 @@ FormSection.create_or_update!(
         guiding_questions_i18n: {
           en: "Survivor Profile\n\nIs the survivor a woman, man, girl or boy or other gender identity?\n\nHow old is the survivor?  Is she a child or adult?\n\nIs she a resident, a refugee or internally displaced person?"
         },
-        order: 0,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -51,23 +50,21 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.936Z",
-        updated_at: "2023-03-22T08:54:32.936Z"
+        mandatory_for_completion: false
       },
       {
         name: "assessment_emotional_state_start",
-        type: "textarea",
-        multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
+        type: "textarea",
         editable: true,
         disabled: false,
         display_name_en: "Survivor Profile",
         help_text_en: "Provide basic demographic information on the survivor, including sex, age and displacement status and any other relevant information.",
         guiding_questions_en: "Is the survivor a woman, man, girl or boy or other gender identity?\n\nHow old is the survivor?  Is she a child or adult?\n\nIs she a resident, a refugee or internally displaced person?",
+        multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -75,17 +72,16 @@ FormSection.create_or_update!(
       },
       {
         name: "assessment_survivor_background",
-        type: "textarea",
-        multi_select: false,
         visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
+        type: "textarea",
         editable: true,
         disabled: false,
         display_name_en: "Survivor Context (or Background Information)",
         guiding_questions_en: "Provide basic contextual information on the survivor, including her family situation, current living situation, occupation or role, and any other relevant information.",
-
+        multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -119,7 +115,7 @@ FormSection.create_or_update!(
         disabled: false,
         display_name_en: "Survivor's current living situation",
         guiding_questions_en: "Does the survivor have a place to live? Where? Who lives in the house with her? Does she live with her husband/intimate partner? Are there relatives living nearby?",
-
+        multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
@@ -209,7 +205,6 @@ FormSection.create_or_update!(
         guiding_questions_i18n: {
           en: "Key Assessment Points\n\nSummarize key assessment points with respect to the nature, timing, frequency and severity of the violence reported, who the perpetrator/s is/are in relation to the survivor and whether he/they have easy access to the survivor, in order to determine risk. Gauge emotional well-being, ability to keep up with day-today tasks, overall sense of safety in the world, and ability to trust others. Identify the survivor's needs (safety, health, psychosocial, legal/justice, practical/material, other) as well as her strengths and coping strategies to determine need for psychosocial support and/or appropriate and timely referrals."
         },
-        order: 9,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -219,9 +214,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-        created_at: "2023-03-22T08:54:32.953Z",
-        updated_at: "2023-03-22T08:54:32.953Z"
+        mandatory_for_completion: false
       },
       {
         name: "assessment_main_concerns",
@@ -359,9 +352,6 @@ FormSection.create_or_update!(
         autosum_group: "",
         required: false
       }
-    ],
-    module_ids: [
-      "primeromodule-gbv"
     ]
   }
 )

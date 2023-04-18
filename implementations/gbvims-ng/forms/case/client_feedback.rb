@@ -153,7 +153,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 7,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -205,7 +204,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
+        mandatory_for_completion: false
       },
       {
         name: "same_case_worker_each_visit",
@@ -237,7 +236,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 11,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -247,24 +245,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false,
-      },
-      {
-        name: "could_client_choose_support_person",
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "select_box",
-        editable: true,
-        disabled: false,
-        display_name_en: "Could the client choose to have a support person with her?",
-        multi_select: false,
-        hidden_text_field: false,
-        option_strings_source: "lookup lookup-yes-no-not-applicable",
-        autosum_total: false,
-        autosum_group: "",
-        required: false
+        mandatory_for_completion: false
       },
       {
         name: "client_informed_of_options",
@@ -296,7 +277,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 13,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -306,7 +286,7 @@ FormSection.create_or_update!(
         date_validation: "default_date_validation",
         date_include_time: false,
         matchable: false,
-        mandatory_for_completion: false
+        mandatory_for_completion: false,
       },
       {
         name: "client_decided_what_next",
@@ -338,7 +318,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 15,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -380,7 +359,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 17,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -391,6 +369,23 @@ FormSection.create_or_update!(
         date_include_time: false,
         matchable: false,
         mandatory_for_completion: false
+      },
+      {
+        name: "could_client_choose_support_person",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "select_box",
+        editable: true,
+        disabled: false,
+        display_name_en: "Could the client choose to have a support person with her?",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no-not-applicable",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
       },
       {
         name: "client_feedback_confidentiality_header",
@@ -426,6 +421,31 @@ FormSection.create_or_update!(
         required: false
       },
       {
+        name: "survivor_discreet_access_explain",
+        type: "textarea",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          en: "Please explain"
+        },
+        order: 20,
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
         name: "staff_respect_confidentiality",
         visible: true,
         mobile_visible: true,
@@ -455,7 +475,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 22,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -497,7 +516,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 24,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -523,7 +541,6 @@ FormSection.create_or_update!(
           en: "Could your conversation be overheard?"
         },
         option_strings_source: "lookup lookup-yes-no-not-applicable",
-        order: 25,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -548,7 +565,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 26,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -703,6 +719,30 @@ FormSection.create_or_update!(
         mandatory_for_completion: false
       },
       {
+        name: "staff_client_could_understand_explain",
+        type: "textarea",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          en: "Please explain"
+        },
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
+      },
+      {
         name: "staff_client_could_understand",
         visible: true,
         mobile_visible: true,
@@ -732,7 +772,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 35,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -774,7 +813,6 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
-        order: 37,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
@@ -836,39 +874,6 @@ FormSection.create_or_update!(
         required: false
       },
       {
-        name: "client_feel_better",
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "radio_button",
-        editable: true,
-        disabled: false,
-        display_name_en: "Did the client feel better after meeting with the caseworker?",
-        multi_select: false,
-        hidden_text_field: false,
-        option_strings_source: "lookup lookup-yes-no",
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
-        name: "client_feel_better_explain",
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        type: "textarea",
-        editable: true,
-        disabled: false,
-        display_name_en: "Please explain",
-        multi_select: false,
-        hidden_text_field: false,
-        autosum_total: false,
-        autosum_group: "",
-        required: false
-      },
-      {
         name: "would_client_recommend_friend",
         visible: true,
         mobile_visible: true,
@@ -916,10 +921,40 @@ FormSection.create_or_update!(
         autosum_total: false,
         autosum_group: "",
         required: false
+      },
+      {
+        name: "client_feel_better",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "radio_button",
+        editable: true,
+        disabled: false,
+        display_name_en: "Did the client feel better after meeting with the caseworker?",
+        multi_select: false,
+        hidden_text_field: false,
+        option_strings_source: "lookup lookup-yes-no",
+        autosum_total: false,
+        autosum_group: "",
+        required: false
+      },
+      {
+        name: "client_feel_better_explain",
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        type: "textarea",
+        editable: true,
+        disabled: false,
+        display_name_en: "Please explain",
+        multi_select: false,
+        hidden_text_field: false,
+        autosum_total: false,
+        autosum_group: "",
+        required: false
       }
-    ],
-    module_ids: [
-      "primeromodule-gbv"
     ]
   }
 )
