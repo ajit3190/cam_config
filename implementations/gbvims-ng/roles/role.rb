@@ -709,13 +709,10 @@ Role.create_or_update!(
     ],
     permissions: {
       case: [
-        "manage",
-        "change_log",
-        "view_photo"
+        "manage"
       ],
       incident: [
         "manage",
-        "change_log"
       ],
       potential_match: [
         "read"
