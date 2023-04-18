@@ -1,53 +1,5 @@
 Role.create_or_update!(
   {
-    name: "Agency User Administrator",
-    group_permission: "group",
-    referral: false,
-    transfer: false,
-    unique_id: "role-agency-user-administrator",
-    is_manager: true,
-    module_unique_ids: [
-      "primeromodule-cp"
-    ],
-    permissions: {
-      role: [
-        "read",
-        "assign"
-      ],
-      user: [
-        "agency_read",
-        "create",
-        "write",
-        "assign",
-        "manage"
-      ],
-      user_group: [
-        "read",
-        "create",
-        "write",
-        "assign"
-      ],
-      dashboard: [
-        "dash_group_overview",
-        "dash_shared_with_me",
-        "dash_shared_with_others"
-      ],
-      objects: {
-        role: [
-          "role-cp-case-worker",
-          "role-cp-manager",
-          "role-cp-user-manager",
-          "role-cp-administrator"
-        ]
-      }
-    }
-  }
-)
-
-Role.find_by(unique_id: 'role-agency-user-administrator')&.associate_all_forms
-
-Role.create_or_update!(
-  {
     name: "GBV Agency User Administrator",
     group_permission: "group",
     referral: false,
