@@ -1662,3 +1662,164 @@ Lookup.create_or_update!(
   }
 )
 
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-form-group-gbv-case",
+    name_i18n: {
+      en: "Form Groups - GBV Case"
+    },
+    lookup_values_i18n: [
+      {
+        id: "record_information",
+        display_text: {
+          en: "Record Information"
+        }
+      },
+      {
+        id: "consent_for_services",
+        display_text: {
+          en: "Consent For Services"
+        }
+      },
+      {
+        id: "documents",
+        display_text: {
+          en: "Documents"
+        }
+      },
+      {
+        id: "consent_for_referrals",
+        display_text: {
+          en: "Consent For Referrals"
+        }
+      },
+      {
+        id: "safety_plan",
+        display_text: {
+          en: "Safety Plan"
+        }
+      },
+      {
+        id: "action_plan",
+        display_text: {
+          en: "Action Plan"
+        }
+      },
+      {
+        id: "survivor_assessment",
+        display_text: {
+          en: "Survivor Assessment"
+        }
+      },
+      {
+        id: "case_closure",
+        display_text: {
+          en: "Case Closure"
+        }
+      },
+      {
+        id: "client_feedback",
+        display_text: {
+          en: "Client Feedback"
+        }
+      },
+      {
+        id: "identification_registration",
+        display_text: {
+          en: "Identification / Registration"
+        }
+      },
+      {
+        id: "referrals_transfers",
+        display_text: {
+          en: "Referrals and Transfers"
+        }
+      },
+      {
+        id: "other_reportable_fields",
+        display_text: {
+          en: "Other Reportable Fields"
+        }
+      },
+      {
+        id: "pss_scales",
+        display_text: {
+          en: "Psychosocial Functionality Scale"
+        }
+      },
+      {
+        id: "felt_stigma_scale",
+        display_text: {
+          en: "Felt Stigma Scale"
+        }
+      },
+      {
+        id: "referral",
+        display_text: {
+          en: "Referral"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-form-group-gbv-incident",
+    name_i18n: {
+      en: "Form Groups - GBV Incident"
+    },
+    lookup_values_i18n: [
+      {
+        id: "gbv_individual_details",
+        display_text: {
+          en: "GBV Individual Details"
+        }
+      },
+      {
+        id: "incident",
+        display_text: {
+          en: "Incident"
+        }
+      },
+      {
+        id: "type_of_violence",
+        display_text: {
+          en: "Type of Violence"
+        }
+      },
+      {
+        id: "record_owner",
+        display_text: {
+          en: "Record Owner"
+        }
+      },
+      {
+        id: "alleged_perpetrator",
+        display_text: {
+          en: "Alleged Perpetrator"
+        }
+      },
+      {
+        id: "service_referral",
+        display_text: {
+          en: "Service Referral"
+        }
+      },
+      {
+        id: "other_reportable_fields",
+        display_text: {
+          en: "Other Reportable Fields"
+        }
+      },
+      {
+        id: "record_information",
+        display_text: {
+          en: "Record Information"
+        }
+      }
+    ],
+    locked: false
+  }
+)
