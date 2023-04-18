@@ -755,7 +755,6 @@ Role.create_or_update!(
   }
 )
 
-Role.find_by(unique_id: 'role-superuser')&.associate_all_forms
 
 Role.create_or_update!(
   {
