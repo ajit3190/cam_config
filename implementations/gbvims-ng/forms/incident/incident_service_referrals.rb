@@ -2,14 +2,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested Health/Medical Referral Subform",
     description_en: "Nested Health/Medical Referral Subform",
-    name_fr: "Sous-formulaire imbriqué service médical/de santé",
-    description_fr: "Sous-formulaire imbriqué service médical/de santé",
-    name_ar: "النموذج الفرعي المتداخل للإحالة إلى خدمة صحية / طبية",
-    description_ar: "النموذج الفرعي المتداخل للإحالة إلى خدمة صحية / طبية",
-    'name_ar-LB': "Nested Health/Medical Referral Subform",
-    'description_ar-LB': "Nested Health/Medical Referral Subform",
-    name_es: "Nested Health/Medical Referral Subform",
-    description_es: "Nested Health/Medical Referral Subform",
     unique_id: "health_medical_referral_subform_section",
     parent_form: "incident",
     visible: false,
@@ -39,10 +31,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Did you refer the client to Health/Medical Services?",
-        display_name_fr: "Avez-vous référé la cliente pour le service médical/de santé?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات صحية/طبية؟",
-        'display_name_ar-LB': "Did you refer the client to Health/Medical Services?",
-        display_name_es: "Did you refer the client to Health/Medical Services?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-service-referred",
@@ -60,10 +48,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Date",
-        display_name_fr: "Date du rendez-vous",
-        display_name_ar: "تاريخ الموعد",
-        'display_name_ar-LB': "Appointment Date",
-        display_name_es: "Appointment Date",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -80,10 +64,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Time",
-        display_name_fr: "Heure du rendez-vous",
-        display_name_ar: "توقيت الموعد",
-        'display_name_ar-LB': "Appointment Time",
-        display_name_es: "Appointment Time",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -100,10 +80,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Provider",
-        display_name_fr: "Prestataire de service",
-        display_name_ar: "مقدم الخدمة",
-        'display_name_ar-LB': "Service Provider",
-        display_name_es: "Service Provider",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -120,10 +96,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Location",
-        display_name_fr: "Lieu de la prestation de service",
-        display_name_ar: "مكان تقديم الخدمة",
-        'display_name_ar-LB': "Service Location",
-        display_name_es: "Service Location",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -140,10 +112,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Notes",
-        display_name_fr: "Commentaires",
-        display_name_ar: "ملاحظات",
-        'display_name_ar-LB': "Notes",
-        display_name_es: "Notes",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -158,14 +126,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested Psychosocial/Counseling Services Subform",
     description_en: "Nested Psychosocial/Counseling Services Subform",
-    name_fr: "Sous-formulaire imbriqué pour services de soutien psychosocial",
-    description_fr: "Sous-formulaire imbriqué pour services de soutien psychosocial",
-    name_ar: "النموذج الفرعي المتداخل للخدمات النفسية الاجتماعية / خدمات تقديم المشورة",
-    description_ar: "النموذج الفرعي المتداخل للخدمات النفسية الاجتماعية / خدمات تقديم المشورة",
-    'name_ar-LB': "Nested Psychosocial/Counseling Services Subform",
-    'description_ar-LB': "Nested Psychosocial/Counseling Services Subform",
-    name_es: "Nested Psychosocial/Counseling Services Subform",
-    description_es: "Nested Psychosocial/Counseling Services Subform",
     unique_id: "psychosocial_counseling_services_subform_section",
     parent_form: "incident",
     visible: false,
@@ -195,10 +155,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Did you refer the client to Psychosocial/Counseling services?",
-        display_name_fr: "Avez-vous référé la cliente aux services de soutien psychosocial?",
-        display_name_ar: "هل قمت بإحالة العميل إلى الخدمات النفسية الاجتماعية / خدمات تقديم المشورة؟",
-        'display_name_ar-LB': "Did you refer the client to Psychosocial/Counseling services?",
-        display_name_es: "Did you refer the client to Psychosocial/Counseling services?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-service-referred",
@@ -216,10 +172,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Date",
-        display_name_fr: "Date du rendez-vous",
-        display_name_ar: "تاريخ الموعد",
-        'display_name_ar-LB': "Appointment Date",
-        display_name_es: "Appointment Date",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -236,10 +188,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Time",
-        display_name_fr: "Heure du rendez-vous",
-        display_name_ar: "وقت الموعد",
-        'display_name_ar-LB': "Appointment Time",
-        display_name_es: "Appointment Time",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -256,10 +204,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Provider",
-        display_name_fr: "Prestataire de service",
-        display_name_ar: "مقدم الخدمة",
-        'display_name_ar-LB': "Service Provider",
-        display_name_es: "Service Provider",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -276,10 +220,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Location",
-        display_name_fr: "Lieu de la prestation de service",
-        display_name_ar: "مكان تقديم الخدمة",
-        'display_name_ar-LB': "Service Location",
-        display_name_es: "Service Location",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -296,10 +236,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Notes",
-        display_name_fr: "Commentaires",
-        display_name_ar: "ملاحظات",
-        'display_name_ar-LB': "Notes",
-        display_name_es: "Notes",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -314,14 +250,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested Legal Assistance Services Subform",
     description_en: "Nested Legal Assistance Services Subform",
-    name_fr: "Sous-formulaire imbriqué pour services d'assistance juridique",
-    description_fr: "Sous-formulaire imbriqué pour services d'assistance juridique",
-    name_ar: "النموذج الفرعي المتداخل لخدمات المساعدة القانونية",
-    description_ar: "النموذج الفرعي المتداخل لخدمات المساعدة القانونية",
-    'name_ar-LB': "Nested Legal Assistance Services Subform",
-    'description_ar-LB': "Nested Legal Assistance Services Subform",
-    name_es: "Nested Legal Assistance Services Subform",
-    description_es: "Nested Legal Assistance Services Subform",
     unique_id: "legal_assistance_services_subform_section",
     parent_form: "incident",
     visible: false,
@@ -351,10 +279,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Did you refer the client to Legal services?",
-        display_name_fr: "Avez-vous référé la cliente pour service d'assistance juridique?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات المساعدة القانونية؟",
-        'display_name_ar-LB': "Did you refer the client to Legal services?",
-        display_name_es: "Did you refer the client to Legal services?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-service-referred",
@@ -372,10 +296,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Date",
-        display_name_fr: "Date du rendez-vous",
-        display_name_ar: "تاريخ الموعد",
-        'display_name_ar-LB': "Appointment Date",
-        display_name_es: "Appointment Date",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -392,10 +312,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Time",
-        display_name_fr: "Heure du rendez-vous",
-        display_name_ar: "وقت الموعد",
-        'display_name_ar-LB': "Appointment Time",
-        display_name_es: "Appointment Time",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -412,10 +328,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Provider",
-        display_name_fr: "Prestataire de service",
-        display_name_ar: "مقدم الخدمة",
-        'display_name_ar-LB': "Service Provider",
-        display_name_es: "Service Provider",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -432,10 +344,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Location",
-        display_name_fr: "Lieu de la prestation de service",
-        display_name_ar: "مكان تقديم الخدمة",
-        'display_name_ar-LB': "Service Location",
-        display_name_es: "Service Location",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -452,10 +360,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Notes",
-        display_name_fr: "Commentaires",
-        display_name_ar: "ملاحظات",
-        'display_name_ar-LB': "Notes",
-        display_name_es: "Notes",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -472,10 +376,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Does the client want to pursue legal action?",
-        display_name_fr: "La survivante souhaite-t-elle engager des poursuites en justice?",
-        display_name_ar: "هل يريد العميل متابعة الإجراءات القانونية؟",
-        'display_name_ar-LB': "Does the client want to pursue legal action?",
-        display_name_es: "Does the client want to pursue legal action?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no-undecided",
@@ -491,14 +391,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested Police or Other Type of Security Services Subform",
     description_en: "Nested Police or Other Type of Security Services Subform",
-    name_fr: "Sous-formulaire imbriqué pour police ou autres services de sécurité",
-    description_fr: "Sous-formulaire imbriqué pour police ou autres services de sécurité",
-    name_ar: "النموذج الفرعي المتداخل لخدمات الشرطة أو نوع آخر من الخدمات الأمنية",
-    description_ar: "النموذج الفرعي المتداخل لخدمات الشرطة أو نوع آخر من الخدمات الأمنية",
-    'name_ar-LB': "Nested Police or Other Type of Security Services Subform",
-    'description_ar-LB': "Nested Police or Other Type of Security Services Subform",
-    name_es: "Nested Police or Other Type of Security Services Subform",
-    description_es: "Nested Police or Other Type of Security Services Subform",
     unique_id: "police_or_other_type_of_security_services_subform_section",
     parent_form: "incident",
     visible: false,
@@ -528,10 +420,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Did you refer the client to Police/Other services?",
-        display_name_fr: "Avez-vous référé la cliente à la police ou pour autres services de sécurité?",
-        display_name_ar: "هل قمت بإحالة العميل إلى الشرطة / خدمات أخرى؟",
-        'display_name_ar-LB': "Did you refer the client to Police/Other services?",
-        display_name_es: "Did you refer the client to Police/Other services?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-service-referred",
@@ -549,10 +437,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Date",
-        display_name_fr: "Date du rendez-vous",
-        display_name_ar: "تاريخ الموعد",
-        'display_name_ar-LB': "Appointment Date",
-        display_name_es: "Appointment Date",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -569,10 +453,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Time",
-        display_name_fr: "Heure du rendez-vous",
-        display_name_ar: "وقت الموعد",
-        'display_name_ar-LB': "Appointment Time",
-        display_name_es: "Appointment Time",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -589,10 +469,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Provider",
-        display_name_fr: "Prestataire de service",
-        display_name_ar: "مقدم الخدمة",
-        'display_name_ar-LB': "Service Provider",
-        display_name_es: "Service Provider",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -609,10 +485,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Location",
-        display_name_fr: "Lieu de la prestation de service",
-        display_name_ar: "مكان تقديم الخدمة",
-        'display_name_ar-LB': "Service Location",
-        display_name_es: "Service Location",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -629,10 +501,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Notes",
-        display_name_fr: "Commentaires",
-        display_name_ar: "ملاحظات",
-        'display_name_ar-LB': "Notes",
-        display_name_es: "Notes",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -647,14 +515,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested Livelihoods Services Subform",
     description_en: "Nested Livelihoods Services Subform",
-    name_fr: "Sous-formulaire imbriqué pour services moyens de subsistance",
-    description_fr: "Sous-formulaire imbriqué pour services moyens de subsistance",
-    name_ar: "النموذج الفرعي المتداخل لخدمات سبل المعيشة",
-    description_ar: "النموذج الفرعي المتداخل لخدمات سبل المعيشة",
-    'name_ar-LB': "Nested Livelihoods Services Subform",
-    'description_ar-LB': "Nested Livelihoods Services Subform",
-    name_es: "Nested Livelihoods Services Subform",
-    description_es: "Nested Livelihoods Services Subform",
     unique_id: "livelihoods_services_subform_section",
     parent_form: "incident",
     visible: false,
@@ -684,10 +544,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Did you refer the client to a livelihoods program?",
-        display_name_fr: "Avez-vous référé la cliente pour service moyens de subsistance?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات سبل المعيشة؟",
-        'display_name_ar-LB': "Did you refer the client to a livelihoods program?",
-        display_name_es: "Did you refer the client to a livelihoods program?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-service-referred",
@@ -705,10 +561,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Date",
-        display_name_fr: "Date du rendez-vous",
-        display_name_ar: "تاريخ الموعد",
-        'display_name_ar-LB': "Appointment Date",
-        display_name_es: "Appointment Date",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -725,10 +577,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Time",
-        display_name_fr: "Heure du rendez-vous",
-        display_name_ar: "وقت الموعد",
-        'display_name_ar-LB': "Appointment Time",
-        display_name_es: "Appointment Time",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -745,10 +593,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Provider",
-        display_name_fr: "Prestataire de service",
-        display_name_ar: "مقدم الخدمة",
-        'display_name_ar-LB': "Service Provider",
-        display_name_es: "Service Provider",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -765,10 +609,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Location",
-        display_name_fr: "Lieu de la prestation de service",
-        display_name_ar: "مكان تقديم الخدمة",
-        'display_name_ar-LB': "Service Location",
-        display_name_es: "Service Location",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -785,10 +625,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Notes",
-        display_name_fr: "Commentaires",
-        display_name_ar: "ملاحظات",
-        'display_name_ar-LB': "Notes",
-        display_name_es: "Notes",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -803,14 +639,6 @@ FormSection.create_or_update!(
   {
     name_en: "Nested Child Protection Services Subform",
     description_en: "Nested Child Protection Services Subform",
-    name_fr: "Sous-formulaire imbriqué pour services de protection de l'enfance",
-    description_fr: "Sous-formulaire imbriqué pour services de protection de l'enfance",
-    name_ar: "النموذج الفرعي المتداخل لخدمات حماية الطفل",
-    description_ar: "النموذج الفرعي المتداخل لخدمات حماية الطفل",
-    'name_ar-LB': "Nested Child Protection Services Subform",
-    'description_ar-LB': "Nested Child Protection Services Subform",
-    name_es: "Nested Child Protection Services Subform",
-    description_es: "Nested Child Protection Services Subform",
     unique_id: "child_protection_services_subform_section",
     parent_form: "incident",
     visible: false,
@@ -840,10 +668,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Did you refer the client to Child Protection services?",
-        display_name_fr: "Avez-vous référé la cliente aux services de protection de l'enfance?",
-        display_name_ar: "هل قمت بإحالة العميل إلى خدمات حماية الطفل؟",
-        'display_name_ar-LB': "Did you refer the client to Child Protection services?",
-        display_name_es: "Did you refer the client to Child Protection services?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-service-referred",
@@ -861,10 +685,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Date",
-        display_name_fr: "Date du rendez-vous",
-        display_name_ar: "تاريخ الموعد",
-        'display_name_ar-LB': "Appointment Date",
-        display_name_es: "Appointment Date",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -881,10 +701,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Time",
-        display_name_fr: "Heure du rendez-vous",
-        display_name_ar: "توقيت الموعد",
-        'display_name_ar-LB': "Appointment Time",
-        display_name_es: "Appointment Time",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -901,10 +717,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Provider",
-        display_name_fr: "Prestataire de service",
-        display_name_ar: "مقدم الخدمة",
-        'display_name_ar-LB': "Service Provider",
-        display_name_es: "Service Provider",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -921,10 +733,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Location",
-        display_name_fr: "Lieu de la prestation de service",
-        display_name_ar: "مكان تقديم الخدمة",
-        'display_name_ar-LB': "Service Location",
-        display_name_es: "Service Location",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -941,10 +749,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Notes",
-        display_name_fr: "Commentaires",
-        display_name_ar: "ملاحظات",
-        'display_name_ar-LB': "Notes",
-        display_name_es: "Notes",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -959,14 +763,6 @@ FormSection.create_or_update!(
   {
     name_en: "Service Referrals",
     description_en: "Service Referrals",
-    name_fr: "Référencement à des services",
-    description_fr: "Référencement à des services",
-    name_ar: "الإحالة إلى الخدمات",
-    description_ar: "الإحالة إلى الخدمات",
-    'name_ar-LB': "Service Referrals",
-    'description_ar-LB': "Service Referrals",
-    name_es: "Service Referrals",
-    description_es: "Service Referrals",
     unique_id: "incident_service_referrals",
     parent_form: "incident",
     visible: true,
@@ -998,14 +794,6 @@ FormSection.create_or_update!(
         disabled: false,
         display_name_en: "Who referred the client to you?",
         help_text_en: "",
-        display_name_fr: "Qui vous a adressé le cas?",
-        help_text_fr: "",
-        display_name_ar: "من أحال العميل إليك؟",
-        help_text_ar: "",
-        'display_name_ar-LB': "Who referred the client to you?",
-        'help_text_ar-LB': "",
-        display_name_es: "Who referred the client to you?",
-        help_text_es: "",
         option_strings_text_en: [
           {
             id: "health_medical_services",
@@ -1060,222 +848,6 @@ FormSection.create_or_update!(
             display_text: "Family / Friends"
           }
         ],
-        option_strings_text_fr: [
-          {
-            id: "health_medical_services",
-            display_text: "Service médical/de santé"
-          },
-          {
-            id: "psychosocial_counseling_services",
-            display_text: "Services de suivi psychologique/de soutien psychosocial"
-          },
-          {
-            id: "police_other_security_actor",
-            display_text: "Police / Autre acteur de la sécurité"
-          },
-          {
-            id: "legal_assistance_services",
-            display_text: "Services d'assistance juridique"
-          },
-          {
-            id: "livelihoods_program",
-            display_text: "Programme d'aide aux moyens de subsistance"
-          },
-          {
-            id: "self_referral_first_point_of_contact",
-            display_text: "Venue d'elle-même / Auto-renvoi"
-          },
-          {
-            id: "teacher_school_official",
-            display_text: "Enseignant / Responsable scolaire"
-          },
-          {
-            id: "community_or_camp_leader",
-            display_text: "Leader du camp ou de la communauté"
-          },
-          {
-            id: "safe_house_shelter",
-            display_text: "Lieu sûr / Refuge"
-          },
-          {
-            id: "other_humanitarian_or_development_actor",
-            display_text: "Autre acteur de l'aide humanitaire ou de l'aide au développement"
-          },
-          {
-            id: "other_government_service",
-            display_text: "Autre service gouvernemental"
-          },
-          {
-            id: "other",
-            display_text: "Autre"
-          },
-          {
-            id: "family_friends_27862",
-            display_text: ""
-          }
-        ],
-        option_strings_text_ar: [
-          {
-            id: "health_medical_services",
-            display_text: "خدمات صحية / طبية"
-          },
-          {
-            id: "psychosocial_counseling_services",
-            display_text: "خدمات نفسية اجتماعية / خدمات تقديم المشورة"
-          },
-          {
-            id: "police_other_security_actor",
-            display_text: "الشرطة / جهة أمنية أخرى"
-          },
-          {
-            id: "legal_assistance_services",
-            display_text: "خدمات المساعدة القانونية"
-          },
-          {
-            id: "livelihoods_program",
-            display_text: "برنامج سبل المعيشة"
-          },
-          {
-            id: "self_referral_first_point_of_contact",
-            display_text: "إحالة ذاتية / نقطة الاتصال الأولى"
-          },
-          {
-            id: "teacher_school_official",
-            display_text: "المعلم / مسؤول المدرسة"
-          },
-          {
-            id: "community_or_camp_leader",
-            display_text: "أحد قادة المجتمع المحلي أو المخيم"
-          },
-          {
-            id: "safe_house_shelter",
-            display_text: "بيت آمن / مأوى"
-          },
-          {
-            id: "other_humanitarian_or_development_actor",
-            display_text: "جهة فاعلة أخرى في مجال المساعدة الإنسانية أو التنمية"
-          },
-          {
-            id: "other_government_service",
-            display_text: "خدمة حكومية أخرى"
-          },
-          {
-            id: "other",
-            display_text: "خدمات أخرى"
-          },
-          {
-            id: "family_friends_27862",
-            display_text: ""
-          }
-        ],
-        'option_strings_text_ar-LB': [
-          {
-            id: "health_medical_services",
-            display_text: "Health / Medical Services"
-          },
-          {
-            id: "psychosocial_counseling_services",
-            display_text: "Psychosocial / Counseling Services"
-          },
-          {
-            id: "police_other_security_actor",
-            display_text: "Police / Other Security Actor"
-          },
-          {
-            id: "legal_assistance_services",
-            display_text: "Legal Assistance Services"
-          },
-          {
-            id: "livelihoods_program",
-            display_text: "Livelihoods Program"
-          },
-          {
-            id: "self_referral_first_point_of_contact",
-            display_text: "Self Referral / First Point of Contact"
-          },
-          {
-            id: "teacher_school_official",
-            display_text: "Teacher / School Official"
-          },
-          {
-            id: "community_or_camp_leader",
-            display_text: "Community or Camp Leader"
-          },
-          {
-            id: "safe_house_shelter",
-            display_text: "Safe House / Shelter"
-          },
-          {
-            id: "other_humanitarian_or_development_actor",
-            display_text: "Other Humanitarian or Development Actor"
-          },
-          {
-            id: "other_government_service",
-            display_text: "Other Government Service"
-          },
-          {
-            id: "other",
-            display_text: "Other"
-          },
-          {
-            id: "family_friends_27862",
-            display_text: ""
-          }
-        ],
-        option_strings_text_es: [
-          {
-            id: "health_medical_services",
-            display_text: "Health / Medical Services"
-          },
-          {
-            id: "psychosocial_counseling_services",
-            display_text: "Psychosocial / Counseling Services"
-          },
-          {
-            id: "police_other_security_actor",
-            display_text: "Police / Other Security Actor"
-          },
-          {
-            id: "legal_assistance_services",
-            display_text: "Legal Assistance Services"
-          },
-          {
-            id: "livelihoods_program",
-            display_text: "Livelihoods Program"
-          },
-          {
-            id: "self_referral_first_point_of_contact",
-            display_text: "Self Referral / First Point of Contact"
-          },
-          {
-            id: "teacher_school_official",
-            display_text: "Teacher / School Official"
-          },
-          {
-            id: "community_or_camp_leader",
-            display_text: "Community or Camp Leader"
-          },
-          {
-            id: "safe_house_shelter",
-            display_text: "Safe House / Shelter"
-          },
-          {
-            id: "other_humanitarian_or_development_actor",
-            display_text: "Other Humanitarian or Development Actor"
-          },
-          {
-            id: "other_government_service",
-            display_text: "Other Government Service"
-          },
-          {
-            id: "other",
-            display_text: "Other"
-          },
-          {
-            id: "family_friends_27862",
-            display_text: ""
-          }
-        ],
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "",
@@ -1293,10 +865,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "If survivor referred from Other, please specify.",
-        display_name_fr: "Si vous avez choisi Autre, veuillez préciser",
-        display_name_ar: "في حالة إحالة الناجية من قبل خدمات أخرى، يرجى التحديد",
-        'display_name_ar-LB': "If survivor referred from Other, please specify.",
-        display_name_es: "If survivor referred from Other, please specify.",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1313,10 +881,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Safe House/Safe Shelter Referral",
-        display_name_fr: "Référencement vers lieu sûr / Refuge",
-        display_name_ar: "إحالة من بيت آمن / مأوى آمن",
-        'display_name_ar-LB': "Safe House/Safe Shelter Referral",
-        display_name_es: "Safe House/Safe Shelter Referral",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1333,10 +897,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Did you refer the client to a safe house/safe shelter?",
-        display_name_fr: "Avez-vous référé la cliente à une maison sûre / refuge?",
-        display_name_ar: "هل قمت بإحالة الناجية إلى خدمات بيت آمن / مأوى آمن؟",
-        'display_name_ar-LB': "Did you refer the client to a safe house/safe shelter?",
-        display_name_es: "Did you refer the client to a safe house/safe shelter?",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-service-referred",
@@ -1354,10 +914,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Date",
-        display_name_fr: "Date du rendez-vous",
-        display_name_ar: "تاريخ الموعد",
-        'display_name_ar-LB': "Appointment Date",
-        display_name_es: "Appointment Date",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1374,10 +930,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Appointment Time",
-        display_name_fr: "Heure du rendez-vous",
-        display_name_ar: "وقت الموعد",
-        'display_name_ar-LB': "Appointment Time",
-        display_name_es: "Appointment Time",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1394,10 +946,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Provider",
-        display_name_fr: "Prestataire de service",
-        display_name_ar: "مقدم الخدمة",
-        'display_name_ar-LB': "Service Provider",
-        display_name_es: "Service Provider",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1414,10 +962,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Service Location",
-        display_name_fr: "Lieu de la prestation de service",
-        display_name_ar: "مكان تقديم الخدمة",
-        'display_name_ar-LB': "Service Location",
-        display_name_es: "Service Location",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1434,10 +978,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Notes",
-        display_name_fr: "Commentaires",
-        display_name_ar: "ملاحظات",
-        'display_name_ar-LB': "Notes",
-        display_name_es: "Notes",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1454,10 +994,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Health/Medical Referral",
-        display_name_fr: "Référencement service médical/de santé",
-        display_name_ar: "إحالة إلى خدمات صحية / طبية",
-        'display_name_ar-LB': "Health/Medical Referral",
-        display_name_es: "Health/Medical Referral",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1475,10 +1011,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Psychosocial/Counseling Services",
-        display_name_fr: "Services de suivi psychologique/de soutien psychosocial",
-        display_name_ar: "خدمات نفسية اجتماعية / خدمات تقديم المشورة",
-        'display_name_ar-LB': "Psychosocial/Counseling Services",
-        display_name_es: "Psychosocial/Counseling Services",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1496,10 +1028,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Legal Assistance Services",
-        display_name_fr: "Services d'assistance juridique",
-        display_name_ar: "خدمات المساعدة القانونية",
-        'display_name_ar-LB': "Legal Assistance Services",
-        display_name_es: "Legal Assistance Services",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1517,10 +1045,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Police or Other Type of Security Services",
-        display_name_fr: "Police ou autre type de sécurité",
-        display_name_ar: "الشرطة / نوع آخر من الخدمات الأمنية",
-        'display_name_ar-LB': "Police or Other Type of Security Services",
-        display_name_es: "Police or Other Type of Security Services",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1538,10 +1062,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Livelihoods Services",
-        display_name_fr: "Moyens de susbsistance",
-        display_name_ar: "برنامج سبل المعيشة",
-        'display_name_ar-LB': "Livelihoods Services",
-        display_name_es: "Livelihoods Services",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -1559,10 +1079,6 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Child Protection Services",
-        display_name_fr: "Protection de l'Enfance",
-        display_name_ar: "خدمات حماية الطفل",
-        'display_name_ar-LB': "Child Protection Services",
-        display_name_es: "Child Protection Services",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
