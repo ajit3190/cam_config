@@ -705,7 +705,6 @@ Role.create_or_update!(
     unique_id: "role-superuser",
     is_manager: true,
     module_unique_ids: [
-      "primeromodule-cp",
       "primeromodule-gbv"
     ],
     permissions: {
