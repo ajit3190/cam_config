@@ -565,6 +565,9 @@ FormSection.create_or_update!(
         ],
         required: false
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
