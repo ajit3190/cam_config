@@ -694,7 +694,7 @@ FormSection.create_or_update!(
         required: false
       },
       {
-        name: "staff_client_could_understand_explain",
+        name: "staff_answered_all_questions_explain",
         type: "textarea",
         multi_select: false,
         visible: true,
@@ -706,6 +706,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Please explain"
         },
+        order: 33,
         hidden_text_field: false,
         autosum_total: false,
         link_to_path_external: true,
