@@ -694,31 +694,6 @@ FormSection.create_or_update!(
         required: false
       },
       {
-        name: "staff_answered_all_questions_explain",
-        type: "textarea",
-        multi_select: false,
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: false,
-        editable: true,
-        disabled: false,
-        display_name_i18n: {
-          en: "Please explain"
-        },
-        order: 33,
-        hidden_text_field: false,
-        autosum_total: false,
-        link_to_path_external: true,
-        field_tags: [],
-        expose_unique_id: false,
-        required: false,
-        date_validation: "default_date_validation",
-        date_include_time: false,
-        matchable: false,
-        mandatory_for_completion: false
-      },
-      {
         name: "staff_client_could_understand_explain",
         type: "textarea",
         multi_select: false,
