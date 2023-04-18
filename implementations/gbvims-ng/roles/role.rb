@@ -696,6 +696,66 @@ Role.create_or_update!(
 
 Role.find_by(unique_id: 'role-referral')&.associate_all_forms
 
+Role.create_or_update!(
+  {
+    name: "Superuser",
+    group_permission: "all",
+    referral: false,
+    transfer: false,
+    unique_id: "role-superuser",
+    is_manager: true,
+    module_unique_ids: [
+      "primeromodule-gbv"
+    ],
+    permissions: {
+      case: [
+        "manage",
+        "change_log",
+        "view_photo"
+      ],
+      incident: [
+        "manage",
+        "change_log"
+      ],
+      tracing_request: [
+        "manage",
+        "change_log"
+      ],
+      potential_match: [
+        "read"
+      ],
+      report: [
+        "manage"
+      ],
+      role: [
+        "manage"
+      ],
+      user: [
+        "manage"
+      ],
+      user_group: [
+        "manage"
+      ],
+      agency: [
+        "manage"
+      ],
+      metadata: [
+        "manage"
+      ],
+      system: [
+        "manage"
+      ],
+      dashboard: [
+        "dash_group_overview",
+        "dash_flags",
+        "dash_reporting_location",
+        "dash_protection_concerns"
+      ]
+    }
+  }
+)
+
+Role.find_by(unique_id: 'role-superuser')&.associate_all_forms
 
 Role.create_or_update!(
   {
