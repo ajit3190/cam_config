@@ -33,41 +33,6 @@ create_or_update_system_setting(
       closure: "Closure",
       action_plan: "Action Plan",
       gbv_closure: "GBV Closure"
-    },
-    approvals_labels_fr: {
-      assessment: "BIA",
-      case_plan: "Plan d'action",
-      closure: "Clôture",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
-    },
-    approvals_labels_ar_LB: {
-      assessment: "BIA",
-      case_plan: "Case Plan",
-      closure: "Closure",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
-    },
-    approvals_labels_ar: {
-      assessment: "BIA",
-      case_plan: "خطة الحالة",
-      closure: "اغلاق ملف الحالة",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
-    },
-    approvals_labels_es: {
-      assessment: "BIA",
-      case_plan: "Case Plan",
-      closure: "Closure",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
-    },
-    'approvals_labels_ar-LB': {
-      assessment: "تقرير التقييم",
-      case_plan: "مخطّط التدخّل",
-      closure: "إقفال",
-      action_plan: "Action Plan",
-      gbv_closure: "GBV Closure"
     }
   }
 )
