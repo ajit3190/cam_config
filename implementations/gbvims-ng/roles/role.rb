@@ -717,10 +717,6 @@ Role.create_or_update!(
         "manage",
         "change_log"
       ],
-      tracing_request: [
-        "manage",
-        "change_log"
-      ],
       potential_match: [
         "read"
       ],
@@ -755,6 +751,7 @@ Role.create_or_update!(
   }
 )
 
+Role.find_by(unique_id: 'role-superuser')&.associate_all_forms
 
 Role.create_or_update!(
   {
