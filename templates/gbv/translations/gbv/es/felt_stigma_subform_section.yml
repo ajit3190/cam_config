@@ -1,0 +1,49 @@
+---
+es:
+  felt_stigma_subform_section:
+    name: "Subformulario anidado sobre la estigmatización percibida "
+    description: Subformulario sobre la estigmatización percibida
+    fields:
+      felt_stigma_scale:
+        display_name: Escala de estigmatización percibida
+      feelings_worthlessness:
+        display_name: "Sentimiento de inutilidad, de no tener ningún valor"
+      feeling_detached:
+        display_name: Sensación de estar alejado/a o apartado/a de los demás
+      felt_stigma_date:
+        display_name: Fecha
+        guiding_questions: |-
+          Los gestores de casos de violencia de género pueden emplear esta herramienta como parte de la evaluación psicosocial de la persona superviviente.  Para administrar cada uno de los cuestionarios se requieren entre 10 y 20 minutos. La herramienta de seguimiento debe administrarse después de un mínimo de tres visitas, a fin de satisfacer las necesidades más urgentes de las personas supervivientes y dar tiempo para que se genere una relación de confianza. Para obtener una medición única del bienestar psicosocial o la estigmatización percibida, no es necesario administrar la herramienta más de una vez.
+
+          Para hacer un seguimiento del cambio en el bienestar de las personas supervivientes a lo largo del tiempo, el cuestionario de la herramienta de seguimiento debe administrarse en la línea de base (por lo general, la cuarta sesión de gestión del caso con la persona superviviente) y nuevamente después de otras tres sesiones (generalmente en la séptima sesión). Si es posible, complete un último cuestionario al finalizar el plan de intervención si la gestión del caso ha incluido más de siete sesiones.
+
+          Con cada cliente, puede optar por administrar solo una de las escalas —la escala de funcionalidad psicosocial o la escala de estigmtización percibida— o ambas (ya sea durante la misma sesión de gestión del caso o en dos sesiones), dependiendo de los aspectos de los cuales usted y el/la cliente hayan acordado hacer un seguimiento.
+
+          Las escalas han sido probadas y validadas para su uso con mujeres supervivientes de 15 años o mayores. El kit de herramientas no es adecuado para su uso con niñas de menos de 15 años. Para obtener instrucciones sobre la manera de calcular las puntuaciones, consulte el kit de herramientas sobre los resultados de la gestión de casos de violencia de género.
+
+          Pregunte al/a la cliente: En las últimas cuatro semanas, ¿con qué frecuencia ha tenido estos pensamientos o sentimientos?
+
+          • Nunca
+          • Casi nunca
+          • Algunas veces
+          • Muchas veces
+      feeling_badly_treated:
+        display_name: Se ha sentido maltratado/a por los miembros de la comunidad
+      feeling_shame:
+        display_name: Ha sentido vergüenza
+      blaming_yourself:
+        display_name: Se ha culpado por hechos del pasado
+      feeling_rejected:
+        display_name: Se ha sentido rechazado/a por todos
+      feeling_stigma:
+        display_name: Se ha sentido estigmatizado/a
+      wanting_to_avoid_people:
+        display_name: Ha querido evitar a otras personas o esconderse
+      feeling_family_gazes:
+        display_name: Ha tenido la impresión de que su familia lo/a mira como si lo/a culparan
+      feeling_community_gaze:
+        display_name: Ha tenido la impresión de que los miembros de la comunidad lo/a miran como si lo/a culparan
+      felt_stigma_score:
+        display_name: Puntuación
+      felt_stigma_score_notes:
+        display_name: Notas

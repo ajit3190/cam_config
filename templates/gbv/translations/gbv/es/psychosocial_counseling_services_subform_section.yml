@@ -1,0 +1,18 @@
+---
+es:
+  psychosocial_counseling_services_subform_section:
+    name: Subformulario anidado sobre servicios de apoyo psicosocial o de asesoramiento
+    description: Subformulario anidado sobre servicios de apoyo psicosocial o de asesoramiento
+    fields:
+      service_psycho_referral:
+        display_name: "¿Derivó usted al/a la cliente a servicios de apoyo psicosocial o de asesoramiento?"
+      service_psycho_appointment_date:
+        display_name: Fecha de la cita
+      service_psycho_appointment_time:
+        display_name: Hora de la cita
+      service_psycho_provider:
+        display_name: Proveedor del servicio
+      service_psycho_service_location:
+        display_name: Ubicación del servicio
+      service_psycho_referral_notes:
+        display_name: Notas

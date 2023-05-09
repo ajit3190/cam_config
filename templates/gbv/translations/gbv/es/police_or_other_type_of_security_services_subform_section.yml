@@ -1,0 +1,18 @@
+---
+es:
+  police_or_other_type_of_security_services_subform_section:
+    name: Subformulario anidado sobre servicios policiales u otro tipo de servicios de seguridad
+    description: Subformulario anidado sobre servicios policiales u otro tipo de servicios de seguridad
+    fields:
+      service_police_referral:
+        display_name: "¿Derivó al/a la cliente a servicios policiales u otro tipo de servicios de seguridad?"
+      service_police_appointment_date:
+        display_name: Fecha de la cita
+      service_police_appointment_time:
+        display_name: Hora de la cita
+      service_police_provider:
+        display_name: Proveedor del servicio
+      service_police_location:
+        display_name: Ubicación del servicio
+      service_police_referral_notes:
+        display_name: Notas

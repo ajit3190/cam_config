@@ -137,7 +137,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-gbv-approval-types',
   name_en: 'Approval Type for GBV users',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'case_plan', display_text: 'Case Plan' },
     { id: 'closure', display_text: 'Closure' }
@@ -277,7 +277,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-agency-office',
   name_en: 'Agency Office',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'agency_office_1', display_text: 'Agency Office 1' },
     { id: 'agency_office_2', display_text: 'Agency Office 2' },
@@ -290,7 +290,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-gbv-case-closure-reason',
   name_en: 'Case Closure Reason',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'case_closure_suvivor_needs_met', display_text: 'Survivor’s needs have been met to the extent possible' },
     { id: 'case_closure_suvivor_no_contact', display_text: 'There has been no contact with survivor for a specified period (e.g., more than 30 days)' },
@@ -304,7 +304,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-psychosocial-functionality-scale',
   name_en: 'Psychosocial Functionality Scale',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: '0', display_text: 'Not difficult at all (0 pts)' },
     { id: '1', display_text: 'A little bit difficult (1 pt)' },
@@ -315,9 +315,9 @@ Lookup.create_or_update!(
 )
 
 Lookup.create_or_update!(
-  unique_id: 'lookup-felt-stigma-scale',
+  unique_id: 'lookup-felt-stigma-scale-new',
   name_en: 'Felt Stigma Scale',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: '0', display_text: 'Not at all (0 pts)' },
     { id: '1', display_text: 'A little bit (1 pt)' },
@@ -329,7 +329,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-three-point-agreement-scale',
   name_en: 'Three Point Agreement Scale',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'scale_one', display_text: 'Not at all' },
     { id: 'scale_two', display_text: 'Somewhat' },
@@ -340,7 +340,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-three-point-agreement-scale-comfortable',
   name_en: 'Three Point Agreement Scale Comfortable',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'scale_one', display_text: 'Not at all comfortable' },
     { id: 'scale_two', display_text: 'Somewhat comfortable' },
@@ -351,7 +351,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-three-point-agreement-scale-friendly',
   name_en: 'Three Point Agreement Scale Friendly',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'scale_one', display_text: 'Not at all friendly' },
     { id: 'scale_two', display_text: 'Somewhat friendly' },
@@ -362,7 +362,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-three-point-agreement-scale-judgemental',
   name_en: 'Three Point Agreement Scale Judgemental',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'scale_three', display_text: 'Not at all judgemental' },
     { id: 'scale_two', display_text: 'Somewhat judgemental' },
@@ -373,7 +373,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-gbv-case-context',
   name_en: 'GBV Case Context',
-  locked: true,
+  locked: false,
   lookup_values: [
     { id: 'intimate_partner_violence', display_text: 'Intimate Partner Violence' },
     { id: 'child_sexual_abuse', display_text: 'Child Sexual Abuse' },

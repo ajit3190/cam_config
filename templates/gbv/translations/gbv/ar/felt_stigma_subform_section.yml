@@ -45,5 +45,7 @@ ar:
         display_name: الشعور بأن أفراد المجتمع ينظرون إليك وكأنهم يلومونك
       felt_stigma_score:
         display_name: مجموع النقاط
+      felt_stigma_average_score:
+        display_name: مجموع النقاط
       felt_stigma_score_notes:
         display_name: ملاحظات

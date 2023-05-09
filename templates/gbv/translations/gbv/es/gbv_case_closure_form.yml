@@ -1,0 +1,51 @@
+---
+es:
+  gbv_case_closure_form:
+    name: Cierre del caso
+    description: Cierre del caso
+    fields:
+      gbv_closure_approved:
+        display_name: Aprobado por el/la responsable
+        tick_box_label: 'Sí'
+      gbv_closure_approved_date:
+        display_name: Fecha
+      gbv_closure_approved_comments:
+        display_name: Comentarios del/la responsable
+      approval_status_gbv_closure:
+        display_name: Estado de la aprobación
+      created_at:
+        display_name: Fecha de apertura del caso
+      date_closure:
+        display_name: Fecha de cierre del caso
+      status:
+        display_name: Estado del caso
+      closure_assessment:
+        display_name: Evaluación al cierre del caso
+      closure_checklist_header_section:
+        display_name: Lista de verificación para el cierre del caso
+      closure_reason:
+        display_name: Motivos del cierre del caso
+      closure_reason_explain:
+        display_name: Explique su respuesta
+      closure_safety_plan:
+        display_name: Se ha examinado y establecido el plan de seguridad de la persona superviviente
+      closure_safety_plan_explain:
+        display_name: Explique su respuesta (plan de seguridad)
+      closure_case_plan_complete:
+        display_name: Se han satisfecho las necesidades de la persona superviviente de conformidad con lo descrito en el plan de acción para el caso
+      closure_case_plan_complete_explain:
+        display_name: Explique su respuesta (completado y satisfactoriamente)
+      closure_no_further_support:
+        display_name: El/la asistente social y la persona superviviente están de acuerdo en que esta no necesita más apoyo.
+      closure_no_further_support_explain:
+        display_name: Explique su respuesta (no se necesita más apoyo)
+      closure_resume_notification:
+        display_name: Se ha informado a la persona superviviente de que puede retomar el servicio cuando lo desee.
+      closure_resume_notification_explain:
+        display_name: Explique su respuesta (retomar el servicio)
+      closure_supervisor_review:
+        display_name: El supervisor del caso ha examinado el cierre del caso o el plan de salida
+      closure_supervisor_review_explain:
+        display_name: Explique su respuesta (examen del caso)
+      closure_completion_timing:
+        display_name: "¿Cuánto tiempo le llevó completar el cierre de este caso?"

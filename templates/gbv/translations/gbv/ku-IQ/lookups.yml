@@ -468,7 +468,7 @@ ku-IQ:
       scale_two: (زەحمەتە (٢ پۆینت
       scale_three: (گەلەک زەحمەتە (٣ پۆینت
       scale_four: (هند زەحمەتە کو نەشێی بکەی (٤ پۆینت
-  lookup-felt-stigma-scale:
+  lookup-felt-stigma-scale-new:
     name: (پیڤەرێ هەستکرن ب شەرمزاریێ
     lookup_values:
       scale_zero: (ب چ جوران نە (٠ پۆینت

@@ -45,5 +45,7 @@ ku-IQ:
         display_name: "هەست دکەم کو ئەندامێن جڤاکی وەسا تەماشای من دکەن هه رکی لومه ی من دکه ن "
       felt_stigma_score:
         display_name: نمرە
+      felt_stigma_average_score:
+        display_name: نمرە
       felt_stigma_score_notes:
         display_name: تێبینی

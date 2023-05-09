@@ -1,0 +1,8 @@
+---
+es:
+  felt_stigma_scale_form:
+    name: Estigmatización percibida
+    description: Estigmatización percibida
+    fields:
+      felt_stigma_section:
+        display_name: Subformulario sobre la estigmatización percibida

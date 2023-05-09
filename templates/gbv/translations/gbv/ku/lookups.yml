@@ -467,7 +467,7 @@ ku:
       scale_two: زەحمەت ( 2 خاڵ)
       scale_three: زۆر زەحمەت ( 3 خاڵ)
       scale_four: زۆر زەحمەتە كە بە زۆری ناتوانیت ئەنجامی بدەیت ( 4 خاڵ)
-  lookup-felt-stigma-scale:
+  lookup-felt-stigma-scale-new:
     name: پێوانەی هەستكردن بە شەرمەزاری
     lookup_values:
       scale_zero: بە هیچ شێوەیەك ( 0 خاڵ)

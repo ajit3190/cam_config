@@ -467,7 +467,7 @@ fr:
       scale_two: Difficile (2 points)
       scale_three: Très difficile (3 points)
       scale_four: Tellement difficile que souvent vous ne pouvez pas le faire (4 points)
-  lookup-felt-stigma-scale:
+  lookup-felt-stigma-scale-new:
     name: Échelle de stigmatisation ressentie
     lookup_values:
       scale_zero: Pas du tout (0 point)

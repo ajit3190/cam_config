@@ -1,0 +1,20 @@
+---
+es:
+  legal_assistance_services_subform_section:
+    name: Subformulario anidado para servicios de asistencia jurídica
+    description: Subformulario anidado para servicios de asistencia jurídica
+    fields:
+      service_legal_referral:
+        display_name: "¿Derivó usted al/a la cliente a servicios de asistencia jurídica?"
+      service_legal_appointment_date:
+        display_name: Fecha de la cita
+      service_legal_appointment_time:
+        display_name: Hora de la cita
+      service_legal_provider:
+        display_name: Proveedor del servicio
+      service_legal_location:
+        display_name: Ubicación del servicio
+      service_legal_referral_notes:
+        display_name: Notas
+      pursue_legal_action:
+        display_name: "¿Desea el/la cliente emprender acciones legales?"

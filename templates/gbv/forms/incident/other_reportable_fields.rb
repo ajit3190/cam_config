@@ -3,7 +3,6 @@
 fields = [
   Field.new('name' => 'record_state',
             'type' => 'tick_box',
-            'selected_value' => true,
             'editable' => false,
             'disabled' => true,
             'display_name_en' => 'Valid Record?'),

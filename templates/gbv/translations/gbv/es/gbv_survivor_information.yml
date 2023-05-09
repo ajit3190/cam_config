@@ -1,0 +1,62 @@
+---
+es:
+  gbv_survivor_information:
+    name: Información sobre la persona superviviente
+    description: Información sobre la persona superviviente
+    fields:
+      gbv_religion:
+        display_name: Religión
+      maritial_status:
+        display_name: Estado civil/situación marital actual
+      dependents_no:
+        display_name: Número y edad de los hijos/as y otras personas dependientes
+      occupation:
+        display_name: Ocupación
+      gbv_displacement_status:
+        display_name: Estado de desplazamiento en el momento en que se presenta la información
+      gbv_disability_type:
+        display_name: "¿Es la persona superviviente una persona con discapacidad?"
+      unaccompanied_separated_status:
+        display_name: "¿Es la persona superviviente un/a menor no acompañado/a, un niño separado/a o con algún otro tipo de vulnerabilidad?"
+      section_heading_child_survivors_less_than_18_years_old:
+        display_name: Niños/as supervivientes (menores de 18 años)
+      survivor_lives_alone:
+        display_name: "Si la persona superviviente es un niño o una niña, ¿vive solo/a?"
+      survivor_caretaker:
+        display_name: "Si la persona superviviente vive con alguien, ¿cuál es su relación con el cuidador/a?"
+        option_strings_text:
+          parent_guardian: Progenitor/a o tutor/a
+          relative: Pariente
+          spouse_cohabitating: Esposo/a o pareja de hecho
+          other: Otra (especificar)
+      survivor_caretaker_other:
+        display_name: "Si la relación entre la persona superviviente y su cuidador/a es distinta de las mencionadas, indique cuál es."
+      caretaker_marital_status:
+        display_name: "¿Cuál es la situación marital actual del cuidador/a?"
+      caretaker_occupation:
+        display_name: "¿Cuál es la ocupación primaria del cuidador/a?"
+      gbv_nationality:
+        display_name: Nacionalidad (si no es la del país de origen)
+      case_id:
+        display_name: Número de identificación completo
+      short_id:
+        display_name: Número de identificación del caso
+      marked_for_mobile:
+        display_name: "¿Marcado para celular?"
+        tick_box_label: 'Sí'
+      status:
+        display_name: Estado del caso
+      name:
+        display_name: Nombre
+      survivor_code_no:
+        display_name: Código de la persona superviviente
+      age:
+        display_name: Edad
+      date_of_birth:
+        display_name: Fecha de nacimiento
+      sex:
+        display_name: Sexo
+      gbv_ethnicity:
+        display_name: Clan o etnia
+      country_of_origin:
+        display_name: País de origen

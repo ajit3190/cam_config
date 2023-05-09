@@ -5,7 +5,6 @@ fields = [
             'type' => 'tick_box',
             'editable' => false,
             'disabled' => true,
-            'selected_value' => true,
             'display_name_en' => 'Valid Record?'),
   Field.new('name' => 'owned_by',
             'type' => 'select_box',
@@ -83,7 +82,17 @@ fields = [
             'type' => 'select_box',
             'disabled' => true,
             'option_strings_source' => 'Agency',
-            'display_name_en' => 'Previous Agency')
+            'display_name_en' => 'Previous Agency'),
+  Field.new('name' => 'owned_by_groups',
+            'type' => 'text_field',
+            'editable' => false,
+            'disabled' => true,
+            'display_name_en' => 'User Groups of record owner'),
+  Field.new('name' => 'created_by_groups',
+            'type' => 'text_field',
+            'editable' => false,
+            'disabled' => true,
+            'display_name_en' => 'User Groups of record creator')
 ]
 
 FormSection.create_or_update!(

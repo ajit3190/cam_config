@@ -1,0 +1,39 @@
+---
+es:
+  action_plan_subform_section:
+    name: Plan de acción anidado
+    description: Subformulario sobre el plan de acción
+    fields:
+      service_provided:
+        display_name: "¿Se prestó el servicio?"
+      service_provided_date:
+        display_name: "En caso afirmativo, ¿cuándo?"
+      action_taken_details:
+        display_name: Detalles de la medida adoptada
+      service_type:
+        display_name: Tipo de necesidad
+      service_appointment_date:
+        display_name: Fecha de la cita
+      action_plan_description:
+        display_name: Describa el plan de acción que se aplicará para responder a esta necesidad
+      service_intervertion_type:
+        display_name: Tipo de intervención
+      service_referral:
+        display_name: "¿Cómo accederá la persona superviviente a este servicio?"
+      service_referral_written_consent:
+        display_name: "¿Recibió usted el consentimiento informado de la persona superviviente para divulgar información personal con fines relacionados con su derivación?"
+      service_referral_name:
+        display_name: "Especificar el nombre, el establecimiento o la institución/organización, según proceda"
+      service_appointment_time:
+        display_name: Hora de la cita
+      service_provider:
+        display_name: Proveedor del servicio
+      service_location:
+        display_name: Ubicación del servicio
+      service_referral_notes:
+        display_name: Notas
+        help_text: "Señale las dificultades, los recursos y otras cuestiones pertinentes"
+      service_referral_mandatory_reporting:
+        display_name: "Si la legislación obliga a denunciar el caso, ¿notificó usted el incidente a la policía o las autoridades públicas?"
+      service_referral_mandatory_reporting_inform_survivor:
+        display_name: "En caso afirmativo, ¿informó usted a la persona superviviente o a su cuidador/a acerca de la existencia de leyes de denuncia obligatoria antes de presentar la denuncia?"

@@ -1,183 +1,183 @@
 [main]
 host = https://www.transifex.com
 
-[o:primero-v2:p:gbv-forms:r:action_plan_formyml]
+[gbv-forms.action_plan_formyml]
 file_filter = translations/gbv/<lang>/action_plan_form.yml
 source_file = translations/gbv/en/action_plan_form.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:action_plan_subform_sectionyml]
+[gbv-forms.action_plan_subform_sectionyml]
 file_filter = translations/gbv/<lang>/action_plan_subform_section.yml
 source_file = translations/gbv/en/action_plan_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:alleged_perpetrators_wrapperyml]
+[gbv-forms.alleged_perpetrators_wrapperyml]
 file_filter = translations/gbv/<lang>/alleged_perpetrators_wrapper.yml
 source_file = translations/gbv/en/alleged_perpetrators_wrapper.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:alleged_perpetratoryml]
+[gbv-forms.alleged_perpetratoryml]
 file_filter = translations/gbv/<lang>/alleged_perpetrator.yml
 source_file = translations/gbv/en/alleged_perpetrator.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:child_protection_services_subform_sectionyml]
+[gbv-forms.child_protection_services_subform_sectionyml]
 file_filter = translations/gbv/<lang>/child_protection_services_subform_section.yml
 source_file = translations/gbv/en/child_protection_services_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:client_feedbackyml]
+[gbv-forms.client_feedbackyml]
 file_filter = translations/gbv/<lang>/client_feedback.yml
 source_file = translations/gbv/en/client_feedback.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:consent_for_servicesyml]
+[gbv-forms.consent_for_servicesyml]
 file_filter = translations/gbv/<lang>/consent_for_services.yml
 source_file = translations/gbv/en/consent_for_services.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:felt_stigma_scale_formyml]
+[gbv-forms.felt_stigma_scale_formyml]
 file_filter = translations/gbv/<lang>/felt_stigma_scale_form.yml
 source_file = translations/gbv/en/felt_stigma_scale_form.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:felt_stigma_subform_sectionyml]
+[gbv-forms.felt_stigma_subform_sectionyml]
 file_filter = translations/gbv/<lang>/felt_stigma_subform_section.yml
 source_file = translations/gbv/en/felt_stigma_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:gbv_case_closure_formyml]
+[gbv-forms.gbv_case_closure_formyml]
 file_filter = translations/gbv/<lang>/gbv_case_closure_form.yml
 source_file = translations/gbv/en/gbv_case_closure_form.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:gbv_follow_up_subform_sectionyml]
+[gbv-forms.gbv_follow_up_subform_sectionyml]
 file_filter = translations/gbv/<lang>/gbv_follow_up_subform_section.yml
 source_file = translations/gbv/en/gbv_follow_up_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:gbv_incident_formyml]
+[gbv-forms.gbv_incident_formyml]
 file_filter = translations/gbv/<lang>/gbv_incident_form.yml
 source_file = translations/gbv/en/gbv_incident_form.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:gbv_individual_detailsyml]
+[gbv-forms.gbv_individual_detailsyml]
 file_filter = translations/gbv/<lang>/gbv_individual_details.yml
 source_file = translations/gbv/en/gbv_individual_details.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:gbv_reported_elsewhere_subformyml]
+[gbv-forms.gbv_reported_elsewhere_subformyml]
 file_filter = translations/gbv/<lang>/gbv_reported_elsewhere_subform.yml
 source_file = translations/gbv/en/gbv_reported_elsewhere_subform.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:gbv_sexual_violenceyml]
+[gbv-forms.gbv_sexual_violenceyml]
 file_filter = translations/gbv/<lang>/gbv_sexual_violence.yml
 source_file = translations/gbv/en/gbv_sexual_violence.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:gbv_survivor_informationyml]
+[gbv-forms.gbv_survivor_informationyml]
 file_filter = translations/gbv/<lang>/gbv_survivor_information.yml
 source_file = translations/gbv/en/gbv_survivor_information.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:health_medical_referral_subform_sectionyml]
+[gbv-forms.health_medical_referral_subform_sectionyml]
 file_filter = translations/gbv/<lang>/health_medical_referral_subform_section.yml
 source_file = translations/gbv/en/health_medical_referral_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:incident_service_referralsyml]
+[gbv-forms.incident_service_referralsyml]
 file_filter = translations/gbv/<lang>/incident_service_referrals.yml
 source_file = translations/gbv/en/incident_service_referrals.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:legal_assistance_services_subform_sectionyml]
+[gbv-forms.legal_assistance_services_subform_sectionyml]
 file_filter = translations/gbv/<lang>/legal_assistance_services_subform_section.yml
 source_file = translations/gbv/en/legal_assistance_services_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:livelihoods_services_subform_sectionyml]
+[gbv-forms.livelihoods_services_subform_sectionyml]
 file_filter = translations/gbv/<lang>/livelihoods_services_subform_section.yml
 source_file = translations/gbv/en/livelihoods_services_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:lookupsyml]
+[gbv-forms.lookupsyml]
 file_filter = translations/gbv/<lang>/lookups.yml
 source_file = translations/gbv/en/lookups.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:monitoring_and_evaluationyml]
+[gbv-forms.monitoring_and_evaluationyml]
 file_filter = translations/gbv/<lang>/monitoring_and_evaluation.yml
 source_file = translations/gbv/en/monitoring_and_evaluation.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:other_documentsyml]
+[gbv-forms.other_documentsyml]
 file_filter = translations/gbv/<lang>/other_documents.yml
 source_file = translations/gbv/en/other_documents.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:police_or_other_type_of_security_services_subform_sectionyml]
+[gbv-forms.police_or_other_type_of_security_services_subform_sectionyml]
 file_filter = translations/gbv/<lang>/police_or_other_type_of_security_services_subform_section.yml
 source_file = translations/gbv/en/police_or_other_type_of_security_services_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:pss_scales_formyml]
+[gbv-forms.pss_scales_formyml]
 file_filter = translations/gbv/<lang>/pss_scales_form.yml
 source_file = translations/gbv/en/pss_scales_form.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:pss_subform_sectionyml]
+[gbv-forms.pss_subform_sectionyml]
 file_filter = translations/gbv/<lang>/pss_subform_section.yml
 source_file = translations/gbv/en/pss_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:psychosocial_counseling_services_subform_sectionyml]
+[gbv-forms.psychosocial_counseling_services_subform_sectionyml]
 file_filter = translations/gbv/<lang>/psychosocial_counseling_services_subform_section.yml
 source_file = translations/gbv/en/psychosocial_counseling_services_subform_section.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:safety_planyml]
+[gbv-forms.safety_planyml]
 file_filter = translations/gbv/<lang>/safety_plan.yml
 source_file = translations/gbv/en/safety_plan.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:survivor_assessment_formyml]
+[gbv-forms.survivor_assessment_formyml]
 file_filter = translations/gbv/<lang>/survivor_assessment_form.yml
 source_file = translations/gbv/en/survivor_assessment_form.yml
 source_lang = en
-type        = YML
+type = YML
 
-[o:primero-v2:p:gbv-forms:r:transitionsyml]
+[gbv-forms.transitionsyml]
 file_filter = translations/gbv/<lang>/transitions.yml
 source_file = translations/gbv/en/transitions.yml
 source_lang = en
-type        = YML
+type = YML
 

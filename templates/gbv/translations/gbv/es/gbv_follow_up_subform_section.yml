@@ -1,0 +1,50 @@
+---
+es:
+  gbv_follow_up_subform_section:
+    name: Subformulario anidado para el seguimiento de casos de violencia de género
+    description: Subformulario anidado para el seguimiento de casos de violencia de género
+    fields:
+      gbv_assessment_progress_health_text:
+        display_name: Explique los progresos realizados hacia la consecución de los objetivos en materia de atención de la salud
+      gbv_assessment_progress_psychosocial:
+        display_name: Progresos realizados hacia la consecución de los objetivos en materia de apoyo psicosocial
+      gbv_assessment_progress_psychosocial_text:
+        display_name: Explique los progresos realizados hacia la consecución de los objetivos en materia de apoyo psicosocial
+      gbv_assessment_progress_justice:
+        display_name: Progresos realizados hacia la consecución de los objetivos en materia de justicia o jurídicos
+      gbv_assessment_progress_justice_text:
+        display_name: Explique los progresos realizados hacia la consecución de los objetivos en materia de justicia o jurídicos
+      gbv_assessment_other_goals_list:
+        display_name: Otros objetivos (enumérelos aquí)
+      gbv_assessment_other_goals:
+        display_name: Progresos realizados hacia la consecución de otros objetivos
+      gbv_assessment_other_goals_text:
+        display_name: Explique los progresos realizados hacia la consecución de otros objetivos
+      followup_date:
+        display_name: Fecha de la sesión de seguimiento
+      service_type_provided:
+        display_name: Tipo de servicio que he prestado o que mi organización ha prestado
+      follow_up_comments:
+        display_name: Comentarios
+        help_text: "¿Qué le dijo la persona superviviente? ¿Qué otras necesidades tiene? ¿Qué problemas hubo en la sesión de seguimiento (por ejemplo, la persona superviviente no se presentó)."
+      need_follow_up_visit:
+        display_name: "¿Es necesario realizar más visitas de seguimiento?"
+      when_follow_up_visit_should_happen:
+        display_name: "En caso afirmativo, ¿cuándo recomienda que tenga lugar la próxima visita?"
+      follow_up_survivor_share_needs:
+        display_name: "¿Comunicó la superviviente alguna nueva necesidad o preocupación durante la cita de seguimiento?"
+      follow_up_survivor_share_needs_text:
+        display_name: "En caso afirmativo, describa las necesidades y revise la sección sobre el plan de acción del caso en consonancia con dichas necesidades"
+      recommend_case_closed:
+        display_name: "Si se han satisfecho las necesidades, ¿recomienda que el cierre del caso?"
+      case_action_plan_implementation_timing:
+        display_name: "¿Cuánto tiempo le llevó ejecutar el plan de acción del caso?"
+      progress_made_towards_goals:
+        display_name: Progresos realizados hacia la consecución de los objetivos
+        help_text: Evalúe los progresos realizados hacia la consecución de los objetivos acordados en la evaluación de la persona superviviente y el plan de acción del caso
+      gbv_assessment_progress_safety:
+        display_name: Progresos realizados hacia la consecución de los objetivos en materia de seguridad
+      gbv_assessment_progress_safety_text:
+        display_name: Explique los progresos realizados hacia la consecución de los objetivos en materia de seguridad
+      gbv_assessment_progress_health:
+        display_name: Progresos realizados hacia la consecución de los objetivos en materia de atención de la salud

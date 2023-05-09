@@ -1,0 +1,96 @@
+---
+es:
+  client_feedback:
+    name: Satisfacción del cliente
+    description: Satisfacción del cliente
+    fields:
+      client_private_meeting_explain:
+        display_name: Explique su respuesta
+      client_meeting_overheard:
+        display_name: "¿Podían otras personas oír su conversación?"
+      client_meeting_overheard_explain:
+        display_name: Explique su respuesta
+      client_feedback_staff_header:
+        display_name: Asistente social
+      staff_friendly:
+        display_name: "¿Recibió una atención amable por parte del/la asistente social? "
+      staff_friendly_explain:
+        display_name: Explique su respuesta
+      staff_open_minded:
+        display_name: "¿Se sintió juzgado/a por el personal?"
+      staff_open_minded_explain:
+        display_name: Explique su respuesta
+      staff_answered_all_questions:
+        display_name: "¿Le proporcionó el/la asistente social toda la información que necesitaba?"
+      staff_answered_all_questions_explain:
+        display_name: Explique su respuesta
+      staff_client_could_understand:
+        display_name: "¿Pudo comprender el lenguaje que utilizó el/la asistente social?"
+      staff_client_could_understand_explain:
+        display_name: Explique su respuesta
+      staff_enowed_enough_time:
+        display_name: "¿Le dio el/la asistente social tiempo suficiente para comentar sus pensamientos y problemas?"
+      staff_allowed_enough_time_explain:
+        display_name: Explique su respuesta
+      staff_helpful:
+        display_name: "¿Hasta qué punto cree que el/la asistente social le ayudó con su problema?"
+      staff_helpful_explain:
+        display_name: Explique su respuesta
+      client_feedback_wellbeing_header:
+        display_name: El bienestar del/de la cliente
+      would_client_recommend_friend:
+        display_name: "Si una amistad suya fuera víctima de violencia de género, ¿le recomendaría que acuda a este servicio?"
+      would_client_recommend_friend_explain:
+        display_name: Explique su respuesta
+      client_comments_suggestions:
+        display_name: "¿Desea sugerir alguna mejora en el servicio, si tuviera alguna?"
+      client_feedback_header:
+        display_name: Satisfacción del cliente
+        help_text: "Las encuestas de satisfacción permiten a los/las clientes/as opinar sobre los servicios que recibieron y proporcionar información de utilidad para que la organización determine qué funciona bien, los posibles problemas y los aspectos que deben mejorarse con respecto a la prestación del servicio.\nLa encuesta de satisfacción del cliente puede administrarse al cerrar el caso, una vez que \n- se hayan satisfecho las necesidades de la persona superviviente conforme a lo descrito en el plan de acción para el caso;\n- se hayan satisfecho las necesidades de la persona superviviente en la medida de lo posible;\n- la persona superviviente solicite que se cierre el caso.\n\nLa encuesta de satisfacción del cliente debe ser voluntaria y anónima. Constituye un medio de recabar opiniones sobre los servicios con objeto de mejorar la programación. En contextos en los que es posible que la persona superviviente solicite los servicios solo una vez, su organización puede optar por emplear el formulario de satisfacción del cliente al final de la primera sesión, si fuera factible.\nEn contextos en los que las personas supervivientes reciben servicios durante períodos más prolongados, también puede estudiar la posibilidad de administrar la encuesta de satisfacción con mayor frecuencia (por ejemplo, una vez al mes o cada tres meses).\nEl proceso que debe seguirse para administrarla a una persona superviviente es el siguiente:\n\n1) Explicar a la persona que la finalidad de la encuesta es que usted y su organización puedan mejorar sus servicios, y que valoran su opinión.\n2) Comunicarle a la persona que la información se mantendrá anónima, que no influirá en los servicios que recibe o que pueda necesitar en el futuro, y que, en última instancia, es decisión de la propia persona si completar o no la encuesta.\n3) Una persona distinta (otro/a asistente social, supervisor/a u otro/a miembro pertinente del personal) debe entregar la encuesta al/a la cliente y recogerla al finalizar. Si el/la cliente sabe leer y escribir, esto puede hacerse de forma independiente, a través de un formulario en papel o electrónico (en un dispositivo móvil) en el que la persona no tenga que proporcionar su nombre, sino solo el nombre del asistente social con el que trabajó."
+      client_feedback_date:
+        display_name: Fecha en la que la persona superviviente proporcionó sus comentarios.
+      client_feedback_administered_by:
+        display_name: Cuestionario administrado por
+        help_text: "Instrucciones para el personal:\n- Determinar qué miembro del equipo administrará la encuesta de satisfacción, decidir si se administrará por escrito (entregando a la persona el cuestionario para que lo complete por su cuenta) o si un miembro del personal formulará las preguntas y registrará las respuestas de la persona.\n- Informar a la persona de que le hará unas preguntas pero que no escribirá su nombre en el formulario y que la entrevista será anónima.\n-  Explicarle la finalidad de la encuesta. Decirle: “Este cuestionario es voluntario y confidencial. Su propósito es recoger información sobre los servicios que le hemos prestado a fin de mejorar la calidad de la atención que reciben las personas supervivientes de violencia de género en esta comunidad”.\n- Recordarle que no le hará ninguna pregunta sobre su caso, sino que solo se centrará en los servicios que recibió durante el proceso de gestión de su caso.\n- Obtener el consentimiento de la persona para completar la encuesta o, si decide no completarla, decirle que no hay ningún problema y que, si cambia de opinión, se ponga en contacto con usted."
+      survivor_age_group:
+        display_name: "Si el/la cliente es menor de edad y su cuidador/a responde las preguntas del formulario, ¿a qué grupo de edad pertenece el niño/la niña superviviente?"
+      client_discovery_method:
+        display_name: "¿Cómo se enteró de nuestros servicios?"
+      client_feedback_service_delivery_header:
+        display_name: Prestación del servicio centrada en la persona superviviente
+      opening_hours_when_client_could_attend:
+        display_name: "¿Había servicios disponibles a la hora en que usted podía acudir?"
+      opening_hours_when_client_could_attend_explain:
+        display_name: Explique su respuesta
+      client_comfortable_with_case_worker:
+        display_name: "¿Se sintió cómodo/a con el/la asistente social?"
+      client_comfortable_with_case_worker_explain:
+        display_name: Explique su respuesta
+      same_case_worker_each_visit:
+        display_name: "¿Le atendió la misma persona en cada visita?"
+      same_case_worker_each_visit_explain:
+        display_name: Explique su respuesta
+      client_informed_of_options:
+        display_name: "¿Considera que recibió toda la información que necesitaba sobre los servicios y las derivaciones posibles?"
+      client_informed_of_options_explain:
+        display_name: Explique su respuesta
+      client_decided_what_next:
+        display_name: "¿Decidió la manera de proceder con su caso (es decir, en lo que se refiere a los próximos pasos)?"
+      client_decided_what_next_explain:
+        display_name: Explique su respuesta
+      client_referred_elsewhere:
+        display_name: "Cuando no fue posible prestarle un servicio, ¿se le derivó a otro servicio?"
+      client_referred_elsewhere_explain:
+        display_name: Explique su respuesta
+      client_feedback_confidentiality_header:
+        display_name: Confidencialidad
+      survivor_discreet_access:
+        display_name: "¿Pudo acceder a los servicios sin que le vieran otros miembros de la comunidad?"
+      survivor_discreet_access_explain:
+        display_name: Explique su respuesta
+      staff_respect_confidentiality:
+        display_name: '¿Respetó el personal su confidencialidad?'
+      staff_respect_confidentiality_explain:
+        display_name: Explique su respuesta
+      client_private_meeting:
+        display_name: "¿Se entrevistó con su asistente social u otros miembros del personal en un lugar privado?"

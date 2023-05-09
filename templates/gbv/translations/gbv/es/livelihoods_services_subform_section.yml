@@ -1,0 +1,18 @@
+---
+es:
+  livelihoods_services_subform_section:
+    name: Subformulario anidado sobre servicios de medios de vida
+    description: Subformulario anidado sobre servicios de medios de vida
+    fields:
+      service_livelihoods_referral:
+        display_name: "¿Derivó usted al/a la cliente a programas de medios de vida?"
+      service_livelihoods_appointment_date:
+        display_name: Fecha de la cita
+      service_livelihoods_appointment_time:
+        display_name: Hora de la cita
+      service_livelihoods_provider:
+        display_name: Proveedor del servicio
+      service_livelihoods_location:
+        display_name: Ubicación del servicio
+      service_livelihoods_referral_notes:
+        display_name: Notas

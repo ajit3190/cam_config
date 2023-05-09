@@ -1,0 +1,8 @@
+---
+es:
+  pss_scales_form:
+    name: Bienestar psicosocial
+    description: Bienestar psicosocial
+    fields:
+      pss_section:
+        display_name: Subformulario anidado sobre bienestar psicosocial

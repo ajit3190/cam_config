@@ -309,7 +309,7 @@ action_plan_form = FormSection.create_or_update!(
   order: 0,
   form_group_id: 'action_plan',
   fields: action_plan_form_fields,
-  is_first_tab: true,
+  is_first_tab: false,
   editable: true,
   mobile_form: true,
   name_en: 'Action Plan',

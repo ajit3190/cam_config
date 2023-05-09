@@ -47,5 +47,7 @@ my:
         display_name: ရပ်ရွာလူထုက သင့်ကို အပြစ်တင်နေသလိုမျိုး စိုက်ကြည့်နေကြတယ်လို့ ခံစားနေရသည်။
       felt_stigma_score:
         display_name: အမှတ်
+      felt_stigma_average_score:
+        display_name: အမှတ်
       felt_stigma_score_notes:
         display_name: မှတ်စုများ

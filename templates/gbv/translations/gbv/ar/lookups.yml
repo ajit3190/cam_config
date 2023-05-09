@@ -601,7 +601,7 @@ ar:
       scale_two: صعب (2 نقطتين)
       scale_three: صعب جدًّا (3 نقاط)
       scale_four: صعب جدًا لدرجة أنك غالبًا لا تستطيع القيام بذلك (4 نقاط)
-  lookup-felt-stigma-scale:
+  lookup-felt-stigma-scale-new:
     name: مقياس الشعور بالوصمة
     lookup_values:
       scale_zero: مطلقًا (0 نقطة)

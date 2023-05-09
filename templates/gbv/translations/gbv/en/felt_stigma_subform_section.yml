@@ -45,5 +45,7 @@ en:
         display_name: Feeling like community members gaze at you like they are blaming you
       felt_stigma_score:
         display_name: Score
+      felt_stigma_average_score:
+        display_name: Score
       felt_stigma_score_notes:
         display_name: Notes

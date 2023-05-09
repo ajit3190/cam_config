@@ -1,0 +1,43 @@
+---
+es:
+  safety_plan:
+    name: Plan de seguridad
+    description: Plan de seguridad
+    fields:
+      safety_plan_needed:
+        display_name: "¿Es necesario un plan de seguridad en este caso?"
+        help_text: "Complete el siguiente plan de seguridad CON la persona superviviente si existen amenazas para su seguridad en relación con el incidente por el que solicitó el servicio de gestión. El plan de seguridad debe ser realista, fácil de recordar y basado en la situación de la persona superviviente y lo que ELLA quiere hacer. Los planes de seguridad son diferentes para cada superviviente. Por tanto, no es necesario que la persona superviviente responda todas las preguntas sobre el plan de seguridad, sino solo las que son útiles para ella. Priorice las preguntas más relacionadas con las necesidades de seguridad de cada superviviente. Los planes de seguridad se pueden revisar y actualizar. Recuerde, el momento más peligroso para una persona superviviente de violencia de pareja es cuando está tratando de dejar al autor."
+      safety_plan_main_concern:
+        display_name: Describa las preocupaciones en materia de seguridad (con las palabras de la persona superviviente)
+      safety_plan_resources_header:
+        display_name: Recursos
+        guiding_questions: "Indique, dentro de las categorías siguientes, los recursos que posee y utiliza actualmente y que pueden ayudarle a estar a salvo"
+      safety_plan_resources_economic:
+        display_name: Económicos / materiales
+      safety_plan_resources_relationships:
+        display_name: Relaciones
+      safety_plan_resources_community:
+        display_name: Ayuda de la comunidad
+      safety_plan_resources_other:
+        display_name: Otros
+      safety_plan_preparedness_header:
+        display_name: Preparación en materia de seguridad
+        guiding_questions: 'A continuación se exponen algunos ejemplos: la persona superviviente acordará un código o señales con amigos, vecinos o familiares, y si necesita ayuda, se comunicará usando ese código (por ejemplo, si no puede hablar delante del autor); reunirá algunos artículos básicos y documentos importantes, y los dejará en un lugar a su alcance por si tiene que salir de su casa (enumere esas cosas); enseñará a sus hijos/as que cuando comience un episodio de violencia deben dirigirse a un lugar específico; ideará una palabra clave o una señal con sus hijos/as para poder indicarles de forma segura cuándo deben marcharse. Para obtener la lista completa de preguntas orientativas que puede hacerle a la persona superviviente, consulte la herramienta de planificación de la seguridad.'
+      safety_plan_preparedness_signal:
+        display_name: "¿Qué medidas cree la persona superviviente que puede adoptar para minimizar el riesgo para ella (y sus hijos/as) antes de que se produzca un episodio de violencia (preparación en materia de seguridad)?"
+      safety_plan_strategies_header:
+        display_name: Estrategias de seguridad
+        guiding_questions: 'A continuación se exponen algunos ejemplos: la persona superviviente puede reconocer algunos patrones de la violencia del abusador que pueden indicarle cuándo está a punto de volverse violento (por ejemplo, ciertas horas del día o de la semana, cuando está con ciertas amistades, cuando está consumiendo drogas o bebiendo); puede identificar el patrón de violencia o cuándo comienza el episodio de violencia; si tuviera que salir de su casa durante unos días o más, sabe adónde acudir; hablará con amigos, familiares, etc. para averiguar si podrá quedarse con ellos si necesita marcharse de su casa; les preguntará si le prestarían dinero o alimentos en caso de emergencia. Para obtener la lista completa de preguntas orientativas que puede hacerle a la persona superviviente, consulte la herramienta de planificación de la seguridad.'
+      safety_plan_preparedness_gathered_things:
+        display_name: "¿Qué medidas cree la persona superviviente que puede adoptar para mitigar el riesgo cuando se produce un episodio de violencia (estrategias de seguridad)?"
+      safety_plan_leaving_steps_header:
+        display_name: Medidas que puede adoptar después de irse
+        guiding_questions: 'A continuación se exponen algunos ejemplos: la persona superviviente sabe gestionar sus sentimientos si la culpan por abandonar su hogar; sabe a quién puede dirigirse en busca de ayuda; reconoce el trauma y el estrés que la situación le ha causado; sabe qué puede hacer para sentirse más fuerte.'
+      safety_plan_preparedness_children_destination:
+        display_name: "¿Qué medidas cree la persona superviviente que puede adoptar para minimizar el riesgo después de irse de su casa o su comunidad si decidiera hacerlo?"
+      safety_plan_completion_timing:
+        display_name: "¿Cuánto tiempo le llevó elaborar el plan de seguridad para este caso con la persona superviviente?"
+      safety_plan_developed_with_survivor:
+        display_name: "¿Se elaboró con la persona superviviente un plan de seguridad (si es aplicable)?"
+      safety_plan_completion_date:
+        display_name: Fecha de culminación del plan de seguridad

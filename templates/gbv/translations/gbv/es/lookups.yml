@@ -1,5 +1,5 @@
 ---
-es-GT:
+es:
   lookup-legitimate-basis:
     name: Fundamento legítimo
     lookup_values:
@@ -468,7 +468,7 @@ es-GT:
       scale_two: Difícil (2 puntos)
       scale_three: Muy difícil (3 puntos)
       scale_four: Tan difícil que a menudo no puedo hacerlo (4 puntos)
-  lookup-felt-stigma-scale-new:
+  lookup-felt-stigma-scale:
     name: Escala de estigmatización percibida
     lookup_values:
       scale_zero: Nada (0 puntos)

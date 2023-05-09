@@ -1,0 +1,27 @@
+---
+en:
+  monitoring_and_evaluation:
+    name: Monitoring and Evaluation
+    description: Monitoring and Evaluation
+    fields:
+      age:
+        display_name: Age
+      date_of_birth:
+        display_name: Date of Birth
+      sex:
+        display_name: Sex
+      country_of_origin:
+        display_name: Country of Origin
+      maritial_status:
+        display_name: Current Civil/Marital Status
+      gbv_displacement_status:
+        display_name: Displacement Status at time of report
+      gbv_disability_type:
+        display_name: Is the Survivor a Person with Disabilities?
+      unaccompanied_separated_status:
+        display_name: Is the Survivor an Unaccompanied Minor, Separated Child, or
+          Other Vulnerable Child?
+      action_plan_section:
+        display_name: Actions details
+      gbv_follow_up_subform_section:
+        display_name: Follow up details

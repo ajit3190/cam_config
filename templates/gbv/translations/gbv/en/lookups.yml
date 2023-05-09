@@ -601,7 +601,7 @@ en:
       scale_two: Difficult (2 pts)
       scale_three: Very difficult (3 pts)
       scale_four: So difficult that you often cannot do it (4 pts)
-  lookup-felt-stigma-scale:
+  lookup-felt-stigma-scale-new:
     name: Felt Stigma Scale
     lookup_values:
       scale_zero: Not at all (0 pts)

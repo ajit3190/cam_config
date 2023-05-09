@@ -467,7 +467,7 @@ my:
       scale_two: ခက်ခဲသည် (၂ မှတ်)
       scale_three: အလွန်ခက်ခဲသည် (၃မှတ်)
       scale_four: မကြာခဏ မလုပ်နိုင်လောက်အောင် ခက်ခဲလွန်းသည် (၄ မှတ်)
-  lookup-felt-stigma-scale:
+  lookup-felt-stigma-scale-new:
     name: လူမှုရေးအမဲစက်ရှိသည်ဟုခံစားရခြင်း တိုင်းတာမှု
     lookup_values:
       scale_zero: လုံးဝမရှိပါ (၀ မှတ်)

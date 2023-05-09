@@ -1,0 +1,32 @@
+---
+es:
+  gbv_individual_details:
+    name: Datos sobre la persona superviviente de violencia de género
+    description: Datos sobre la persona superviviente de violencia de género
+    fields:
+      survivor_code:
+        display_name: Código de la persona superviviente
+      sex:
+        display_name: "¿De qué sexo es la persona superviviente?"
+      date_of_birth:
+        display_name: "¿Cuál es la fecha de nacimiento de la persona superviviente?"
+      age:
+        display_name: "¿Qué edad tiene la persona superviviente?"
+      estimated:
+        display_name: "¿Es esa edad una estimación?"
+      ethnicity:
+        display_name: "¿Cuál es la afiliación étnica de la persona superviviente?"
+      nationality:
+        display_name: "¿Cuál es la afiliación nacional de la persona superviviente?"
+      religion:
+        display_name: "¿Cuál es la afiliación religiosa de la persona superviviente?"
+      country_of_origin:
+        display_name: País de origen
+      displacement_status:
+        display_name: Estado de desplazamiento en el momento en que se presenta la información
+      maritial_status:
+        display_name: Estado civil/situación matrimonial actual
+      disability_type:
+        display_name: "¿Es la persona superviviente una persona con discapacidad?"
+      unaccompanied_separated_status:
+        display_name: "¿Es la persona superviviente un/a menor no acompañado/a, un niño/a separado/a o con algún otro tipo de vulnerabilidad?"

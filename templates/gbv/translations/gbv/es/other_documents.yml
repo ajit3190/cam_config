@@ -1,0 +1,9 @@
+---
+es:
+  other_documents:
+    name: Otros documentos
+    description: Otros documentos
+    fields:
+      other_documents:
+        display_name: Otros documentos
+        help_text: "Solo se permiten archivos PDF, TXT, DOC, DOCX, XLS, XLSX y CSV"

@@ -45,5 +45,7 @@ fr:
         display_name: Vous avez l’impression que les membres de votre communauté vous regardent comme si ils vous blâmaient
       felt_stigma_score:
         display_name: Score
+      felt_stigma_average_score:
+        display_name: Score
       felt_stigma_score_notes:
         display_name: Commentaires
