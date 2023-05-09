@@ -6,7 +6,7 @@ FormSection.create_or_update!(
     parent_form: "case",
     visible: true,
     order: 40,
-    order_form_group: 50,
+    order_form_group: 40,
     order_subform: 0,
     form_group_keyed: false,
     editable: true,
@@ -54,7 +54,7 @@ FormSection.create_or_update!(
       },
       {
         name: "assessment_emotional_state_start",
-        visible: true,
+        visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
@@ -218,7 +218,7 @@ FormSection.create_or_update!(
       },
       {
         name: "assessment_main_concerns",
-        visible: true,
+        visible: false,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,

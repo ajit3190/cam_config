@@ -6,7 +6,7 @@ FormSection.create_or_update!(
     parent_form: "case",
     visible: true,
     order: 11,
-    order_form_group: 141,
+    order_form_group: 110,
     order_subform: 0,
     form_group_keyed: false,
     editable: false,

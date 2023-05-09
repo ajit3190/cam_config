@@ -524,6 +524,10 @@ Lookup.create_or_update!(
       {
         id: "female",
         display_text: "Female"
+      },
+      {
+        id: "other",
+        display_text: "Other"
       }
     ],
     unique_id: "lookup-gender"

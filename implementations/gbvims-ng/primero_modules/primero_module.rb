@@ -67,7 +67,7 @@ PrimeroModule.create_or_update!(
       use_workflow_case_plan: true,
       use_workflow_assessment: false
     },
-    form_sections: FormSection.where(unique_id: %w[activities assessment basic_identity best_interest caafag_profile care_arrangements care_assessment child_under_5 bia_documents child_wishes closure_form consent family_details followup interview_details other_documents other_identity_details partner_details photos_and_audio protection_concern_details protection_concern services tracing verification bid_documents tracing_request_inquirer tracing_request_record_owner tracing_request_tracing_request tracing_request_photos_and_audio reunification_details other_reportable_fields_case other_reportable_fields_tracing_request notes cp_case_plan cp_bia_form cp_incident_form cp_individual_details cp_offender_details cp_other_reportable_fields incident_details_container child_preferences_section family_details_section followup_subform_section protection_concern_detail_subform_section services_section tracing_actions_section verification_subform_section tracing_request_subform_section reunification_details_section notes_section cp_case_plan_subform_case_plan_interventions incident_details_subform_section]),
+    form_sections: FormSection.where(unique_id: %w[]),
     primero_program: PrimeroProgram.find_by(unique_id: 'primeroprogram-primero')
   }
 )
@@ -98,3 +98,4 @@ PrimeroModule.create_or_update!(
   }
 )
 
+`
