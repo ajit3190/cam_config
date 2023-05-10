@@ -97,5 +97,3 @@ PrimeroModule.create_or_update!(
     primero_program: PrimeroProgram.find_by(unique_id: 'primeroprogram-primero')
   }
 )
-
-`
