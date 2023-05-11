@@ -165,7 +165,7 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Reasons for seeking case management services",
-        guiding_questions_en: "Reasons for seeking case management services\n\nIdentify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\nThese might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc."
+        guiding_questions_en: "Reasons for seeking case management services\n\nIdentify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\nThese might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc.",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
