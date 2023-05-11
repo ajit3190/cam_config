@@ -44,11 +44,42 @@ Role.create_or_update!(
           "role-gbv-user-manager"
         ]
       }
+    },
+    form_section_read_write: {
+      gbv_follow_up_subform_section: "rw",
+      action_plan_subform_section: "rw",
+      action_plan_form: "rw",
+      client_feedback: "rw",
+      consent_for_services: "rw",
+      felt_stigma_subform_section: "rw",
+      felt_stigma_scale_form: "rw",
+      gbv_case_closure_form: "rw",
+      gbv_referral_form: "rw",
+      monitoring_and_evaluation: "rw",
+      other_documents: "rw",
+      other_reportable_fields_case: "rw",
+      pss_subform_section: "rw",
+      pss_scales_form: "rw",
+      safety_plan: "rw",
+      survivor_assessment_form: "rw",
+      gbv_survivor_information: "rw",
+      alleged_perpetrator: "rw",
+      alleged_perpetrators_wrapper: "rw",
+      gbv_incident_form: "rw",
+      gbv_individual_details: "rw",
+      gbv_reported_elsewhere_subform: "rw",
+      gbv_sexual_violence: "rw",
+      other_reportable_fields_incident: "rw",
+      health_medical_referral_subform_section: "rw",
+      legal_assistance_services_subform_section: "rw",
+      livelihoods_services_subform_section: "rw",
+      child_protection_services_subform_section: "rw",
+      incident_service_referrals: "rw",
+      psychosocial_counseling_services_subform_section: "rw",
+      police_or_other_type_of_security_services_subform_section: "rw"
     }
   }
 )
-
-Role.find_by(unique_id: 'role-gbv-agency-user-administrator')&.associate_all_forms
 
 Role.create_or_update!(
   {
@@ -312,11 +343,43 @@ Role.create_or_update!(
       agency: [
         "read"
       ]
+    },
+    form_section_read_write: {
+      gbv_follow_up_subform_section: "rw",
+      action_plan_subform_section: "rw",
+      action_plan_form: "rw",
+      client_feedback: "rw",
+      consent_for_services: "rw",
+      felt_stigma_subform_section: "rw",
+      felt_stigma_scale_form: "rw",
+      gbv_case_closure_form: "rw",
+      gbv_referral_form: "rw",
+      monitoring_and_evaluation: "rw",
+      other_documents: "rw",
+      other_reportable_fields_case: "rw",
+      pss_subform_section: "rw",
+      pss_scales_form: "rw",
+      safety_plan: "rw",
+      survivor_assessment_form: "rw",
+      gbv_survivor_information: "rw",
+      alleged_perpetrator: "rw",
+      alleged_perpetrators_wrapper: "rw",
+      gbv_incident_form: "rw",
+      gbv_individual_details: "rw",
+      gbv_reported_elsewhere_subform: "rw",
+      gbv_sexual_violence: "rw",
+      other_reportable_fields_incident: "rw",
+      health_medical_referral_subform_section: "rw",
+      legal_assistance_services_subform_section: "rw",
+      livelihoods_services_subform_section: "rw",
+      child_protection_services_subform_section: "rw",
+      incident_service_referrals: "rw",
+      psychosocial_counseling_services_subform_section: "rw",
+      police_or_other_type_of_security_services_subform_section: "rw"
     }
   }
 )
 
-Role.find_by(unique_id: 'role-gbv-manager')&.associate_all_forms
 
 Role.create_or_update!(
   {
@@ -608,11 +671,42 @@ Role.create_or_update!(
         "approvals_closure",
         "dash_case_incident_overview"
       ]
+    },
+    form_section_read_write: {
+      gbv_follow_up_subform_section: "rw",
+      action_plan_subform_section: "rw",
+      action_plan_form: "rw",
+      client_feedback: "rw",
+      consent_for_services: "rw",
+      felt_stigma_subform_section: "rw",
+      felt_stigma_scale_form: "rw",
+      gbv_case_closure_form: "rw",
+      gbv_referral_form: "rw",
+      monitoring_and_evaluation: "rw",
+      other_documents: "rw",
+      other_reportable_fields_case: "rw",
+      pss_subform_section: "rw",
+      pss_scales_form: "rw",
+      safety_plan: "rw",
+      survivor_assessment_form: "rw",
+      gbv_survivor_information: "rw",
+      alleged_perpetrator: "rw",
+      alleged_perpetrators_wrapper: "rw",
+      gbv_incident_form: "rw",
+      gbv_individual_details: "rw",
+      gbv_reported_elsewhere_subform: "rw",
+      gbv_sexual_violence: "rw",
+      other_reportable_fields_incident: "rw",
+      health_medical_referral_subform_section: "rw",
+      legal_assistance_services_subform_section: "rw",
+      livelihoods_services_subform_section: "rw",
+      child_protection_services_subform_section: "rw",
+      incident_service_referrals: "rw",
+      psychosocial_counseling_services_subform_section: "rw",
+      police_or_other_type_of_security_services_subform_section: "rw"
     }
   }
 )
-
-Role.find_by(unique_id: 'role-gbv-social-worker')&.associate_all_forms
 
 Role.create_or_update!(
   {
@@ -675,8 +769,39 @@ Role.create_or_update!(
         "dash_reporting_location",
         "dash_protection_concerns"
       ]
+    },
+    form_section_read_write: {
+      gbv_follow_up_subform_section: "rw",
+      action_plan_subform_section: "rw",
+      action_plan_form: "rw",
+      client_feedback: "rw",
+      consent_for_services: "rw",
+      felt_stigma_subform_section: "rw",
+      felt_stigma_scale_form: "rw",
+      gbv_case_closure_form: "rw",
+      gbv_referral_form: "rw",
+      monitoring_and_evaluation: "rw",
+      other_documents: "rw",
+      other_reportable_fields_case: "rw",
+      pss_subform_section: "rw",
+      pss_scales_form: "rw",
+      safety_plan: "rw",
+      survivor_assessment_form: "rw",
+      gbv_survivor_information: "rw",
+      alleged_perpetrator: "rw",
+      alleged_perpetrators_wrapper: "rw",
+      gbv_incident_form: "rw",
+      gbv_individual_details: "rw",
+      gbv_reported_elsewhere_subform: "rw",
+      gbv_sexual_violence: "rw",
+      other_reportable_fields_incident: "rw",
+      health_medical_referral_subform_section: "rw",
+      legal_assistance_services_subform_section: "rw",
+      livelihoods_services_subform_section: "rw",
+      child_protection_services_subform_section: "rw",
+      incident_service_referrals: "rw",
+      psychosocial_counseling_services_subform_section: "rw",
+      police_or_other_type_of_security_services_subform_section: "rw"
     }
   }
 )
-
-Role.find_by(unique_id: 'role-superuser')&.associate_all_forms
