@@ -29,6 +29,9 @@ FormSection.create_or_update!(
         hide_on_view_page: false,
         show_on_minify_form: false,
         type: "document_upload_box",
+        help_text_i18n: {
+          en: "Only PDF, TXT, DOC, DOCX, XLS, XLSX, CSV files permitted"
+        },
         editable: false,
         disabled: false,
         display_name_en: "Other Document",

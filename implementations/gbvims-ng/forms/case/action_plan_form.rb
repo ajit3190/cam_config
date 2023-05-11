@@ -34,7 +34,7 @@ FormSection.create_or_update!(
         type: "date_field",
         editable: true,
         disabled: false,
-        display_name_en: "Follow up date",
+        display_name_en: "Date of follow up session",
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -68,6 +68,9 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Comments",
+        help_text_i18n: {
+          en: "What did the survivor tell you? What additional needs does she have? What challenges did you face in the follow up session (e.g. survivors did not present)?"
+        },
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
@@ -105,7 +108,12 @@ FormSection.create_or_update!(
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
-        required: false
+        required: false,
+        display_conditions_subform: {
+          eq: {
+            need_follow_up_visit: "true"
+          }
+        }
       },
       {
         name: "follow_up_survivor_share_needs",
