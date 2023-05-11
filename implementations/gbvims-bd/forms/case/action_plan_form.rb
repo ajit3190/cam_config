@@ -936,6 +936,9 @@ FormSection.create_or_update!(
         required: false,
         subform_unique_id: "gbv_follow_up_subform_section"
       }
+    ],
+    module_ids: [
+      "primeromodule-gbv"
     ]
   }
 )
