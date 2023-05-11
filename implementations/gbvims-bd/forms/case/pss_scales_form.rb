@@ -25,8 +25,6 @@ FormSection.create_or_update!(
     is_summary_section: false,
     hide_subform_placeholder: false,
     mobile_form: true,
-    created_at: "2023-03-22T08:54:32.802Z",
-    updated_at: "2023-03-22T08:54:32.802Z",
     collapsed_field_names: [
       "pss_date"
     ],

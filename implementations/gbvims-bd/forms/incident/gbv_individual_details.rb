@@ -22,6 +22,7 @@ FormSection.create_or_update!(
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
+    form_group_id: "gbv_individual_details",
     fields_attributes: [
       {
         name: "survivor_code",

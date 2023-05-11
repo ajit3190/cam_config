@@ -22,6 +22,7 @@ FormSection.create_or_update!(
     hide_subform_placeholder: false,
     mobile_form: true,
     header_message_link: "",
+    form_group_id: "consent_for_referrals",
     fields_attributes: [
       {
         name: "consent_release_separator",

@@ -22,6 +22,7 @@ FormSection.create_or_update!(
     hide_subform_placeholder: false,
     mobile_form: false,
     header_message_link: "",
+    form_group_id: "documents",
     fields_attributes: [
       {
         name: "other_documents",
