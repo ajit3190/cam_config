@@ -157,47 +157,20 @@ FormSection.create_or_update!(
       },
       {
         name: "assessment_presenting_problem",
-        visible: false,
+        visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: true,
         type: "textarea",
         editable: true,
         disabled: false,
-        display_name_en: "Presenting Problem",
-        guiding_questions_en: "Describe what happened to the survivor in the survivor's own words. Identify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\n\nList survivor's main concerns in her own words (do not suggest). These might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc.",
+        display_name_en: "Reasons for seeking case management services",
+        guiding_questions_en: "Reasons for seeking case management services\n\nIdentify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\nThese might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc."
         multi_select: false,
         hidden_text_field: false,
         autosum_total: false,
         autosum_group: "",
         required: false
-      },
-      {
-        name: "assessment_presenting_problem",
-        type: "textarea",
-        multi_select: false,
-        visible: true,
-        mobile_visible: true,
-        hide_on_view_page: false,
-        show_on_minify_form: true,
-        editable: true,
-        disabled: false,
-        display_name_i18n: {
-          en: "Reasons for seeking case management services"
-        },
-        guiding_questions_i18n: {
-          en: "Reasons for seeking case management services\n\nIdentify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\nThese might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc."
-        },
-        hidden_text_field: false,
-        autosum_total: false,
-        link_to_path_external: true,
-        field_tags: [],
-        expose_unique_id: false,
-        required: false,
-        date_validation: "default_date_validation",
-        date_include_time: false,
-        matchable: false,
-        mandatory_for_completion: true,
       },
       {
         name: "assessment_emotional_state_end",
