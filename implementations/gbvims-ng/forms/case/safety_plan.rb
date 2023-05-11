@@ -32,7 +32,7 @@ FormSection.create_or_update!(
         editable: true,
         disabled: false,
         display_name_en: "Is a safety plan needed for this case?",
-        help_text_en: "Complete the below safety plan WITH the survivor if there are threats to the safety of the survivor in relation to the incident she sought case management for. The safety plan should be realistic, easy to remember, and based on the survivor’s situation and what SHE wants to do. Safety plans look different for every survivor. This means survivors do not need to answer every question on the safety plan, only the questions that are useful to her. Prioritize the questions most supportive of each individual survivor’s safety needs. Safety plans can be re-visited and revised. Remember, the most dangerous time for an IPV survivor is when she is trying to leave the perpetrator."
+        help_text_en: "Complete the below safety plan WITH the survivor if there are threats to the safety of the survivor in relation to the incident she sought case management for. The safety plan should be realistic, easy to remember, and based on the survivor’s situation and what SHE wants to do. Safety plans look different for every survivor. This means survivors do not need to answer every question on the safety plan, only the questions that are useful to her. Prioritize the questions most supportive of each individual survivor’s safety needs. Safety plans can be re-visited and revised. Remember, the most dangerous time for an IPV survivor is when she is trying to leave the perpetrator.",
         multi_select: false,
         hidden_text_field: false,
         option_strings_source: "lookup lookup-yes-no",
