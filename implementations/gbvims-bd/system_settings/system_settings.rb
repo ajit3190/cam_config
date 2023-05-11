@@ -24,11 +24,6 @@ create_or_update_system_setting(
       unhcr: [0..4, 5..11, 12..17, 18..59, 60..999]
     },
     primary_age_range: "primero",
-    approval_forms_to_alert: {
-      cp_bia_form: "bia",
-      cp_case_plan: "case_plan",
-      closure_form: "closure"
-    },
     due_date_from_appointment_date: false,
     reporting_location_config: {
       field_key: "owned_by_location",
