@@ -97,7 +97,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feelings of worthlessness, of having no value"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 2,
         hidden_text_field: false,
         autosum_total: false,
@@ -123,7 +123,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling detached or withdrawn from others"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 3,
         hidden_text_field: false,
         autosum_total: false,
@@ -149,7 +149,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling badly treated by community members"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 4,
         hidden_text_field: false,
         autosum_total: false,
@@ -175,7 +175,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling shame"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 5,
         hidden_text_field: false,
         autosum_total: false,
@@ -201,7 +201,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Blaming yourself for past events"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 6,
         hidden_text_field: false,
         autosum_total: false,
@@ -227,7 +227,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling rejected by everybody"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 7,
         hidden_text_field: false,
         autosum_total: false,
@@ -253,7 +253,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling stigma"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 8,
         hidden_text_field: false,
         autosum_total: false,
@@ -279,7 +279,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Wanting to avoid other people or hide"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 9,
         hidden_text_field: false,
         autosum_total: false,
@@ -305,7 +305,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling like your family gazes at you like they are blaming you"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 10,
         hidden_text_field: false,
         autosum_total: false,
@@ -331,7 +331,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling like community members gaze at you like they are blaming you"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 11,
         hidden_text_field: false,
         autosum_total: false,
@@ -345,15 +345,15 @@ FormSection.create_or_update!(
         mandatory_for_completion: false
       },
       {
-        name: "felt_stigma_score",
-        type: "numeric_field",
+        name: "felt_stigma_average_score",
+        type: "calculated",
         multi_select: false,
         visible: true,
         mobile_visible: true,
         hide_on_view_page: false,
         show_on_minify_form: false,
         editable: true,
-        disabled: false,
+        disabled: true,
         display_name_i18n: {
           en: "Score"
         },
@@ -395,7 +395,7 @@ FormSection.create_or_update!(
         hide_on_view_page: false,
         show_on_minify_form: false,
         editable: true,
-        disabled: false,
+        disabled: true,
         display_name_i18n: {
           en: "Total Score"
         },
@@ -472,7 +472,7 @@ FormSection.create_or_update!(
     parent_form: "case",
     visible: true,
     order: 80,
-    order_form_group: 60,
+    order_form_group: 50,
     order_subform: 0,
     form_group_keyed: false,
     form_group_id: "felt_stigma_scale",
