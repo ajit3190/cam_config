@@ -589,7 +589,7 @@ FormSection.create_or_update!(
         type: "select_box",
         editable: true,
         disabled: false,
-        display_name_en: "When appropriate, did you refer the survivor for this service?",
+        display_name_en: "How will the survivor access this service",
         help_text_en: "",
         option_strings_text_en: [
           {
@@ -644,6 +644,30 @@ FormSection.create_or_update!(
         autosum_total: false,
         autosum_group: "",
         required: false
+      },
+      {
+        name: "service_referral_name",
+        type: "text_field",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: false,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          en: "Specify Name, Facility or Agency/Organization as applicable"
+        },
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: false
       },
       {
         name: "service_appointment_date",
@@ -759,7 +783,12 @@ FormSection.create_or_update!(
         option_strings_source: "lookup lookup-yes-no-not-applicable",
         autosum_total: false,
         autosum_group: "",
-        required: false
+        required: false,
+        display_conditions_subform: {
+          eq: {
+            service_referral_mandatory_reporting: "true"
+          }
+        }
       },
       {
         name: "service_provided",
