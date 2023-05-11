@@ -173,6 +173,33 @@ FormSection.create_or_update!(
         required: false
       },
       {
+        name: "assessment_presenting_problem",
+        type: "textarea",
+        multi_select: false,
+        visible: true,
+        mobile_visible: true,
+        hide_on_view_page: false,
+        show_on_minify_form: true,
+        editable: true,
+        disabled: false,
+        display_name_i18n: {
+          en: "Reasons for seeking case management services"
+        },
+        guiding_questions_i18n: {
+          en: "Reasons for seeking case management services\n\nIdentify what problem(s)/concern(s)/issue(s) the survivor is requesting assistance/support for.\nThese might include: immediate safety, children's safety, access to economic resources, medical assistance, perception of others, etc."
+        },
+        hidden_text_field: false,
+        autosum_total: false,
+        link_to_path_external: true,
+        field_tags: [],
+        expose_unique_id: false,
+        required: false,
+        date_validation: "default_date_validation",
+        date_include_time: false,
+        matchable: false,
+        mandatory_for_completion: true,
+      },
+      {
         name: "assessment_emotional_state_end",
         visible: true,
         mobile_visible: true,

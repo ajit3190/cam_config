@@ -514,6 +514,366 @@ Lookup.create_or_update!(
 
 Lookup.create_or_update!(
   {
+    unique_id: "lookup-gbv-service-type",
+    name_i18n: {
+      en: "Service Type"
+    },
+    lookup_values_i18n: [
+      {
+        id: "safehouse_service",
+        display_text: {
+          en: "Safehouse Service"
+        }
+      },
+      {
+        id: "health_medical_service",
+        display_text: {
+          en: "Health/Medical Service"
+        }
+      },
+      {
+        id: "psychosocial_service",
+        display_text: {
+          en: "Psychosocial Service"
+        }
+      },
+      {
+        id: "police_other_service",
+        display_text: {
+          en: "Police/Other Service"
+        }
+      },
+      {
+        id: "legal_assistance_service",
+        display_text: {
+          en: "Legal Assistance Service"
+        }
+      },
+      {
+        id: "livelihoods_service",
+        display_text: {
+          en: "Livelihoods Service"
+        }
+      },
+      {
+        id: "child_protection_service",
+        display_text: {
+          en: "Child Protection Service"
+        }
+      },
+      {
+        id: "education_service",
+        display_text: {
+          en: "Education Service"
+        }
+      },
+      {
+        id: "nfi_clothes_shoes_service",
+        display_text: {
+          en: "NFI/Clothes/Shoes Service"
+        }
+      },
+      {
+        id: "water_sanitation_service",
+        display_text: {
+          en: "Water/Sanitation Service"
+        }
+      },
+      {
+        id: "registration_service",
+        display_text: {
+          en: "Registration Service"
+        }
+      },
+      {
+        id: "food_service",
+        display_text: {
+          en: "Food Service"
+        }
+      },
+      {
+        id: "cash_assistance",
+        display_text: {
+          en: "Cash Assistance"
+        }
+      },
+      {
+        id: "personal_goal",
+        display_text: {
+          en: "Personal Goal"
+        }
+      },
+      {
+        id: "other_service",
+        display_text: {
+          en: "Other Service"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-incident-timeofday",
+    name_i18n: {
+      en: "GBV Incident Time Of Day"
+    },
+    lookup_values_i18n: [
+      {
+        id: "morning",
+        display_text: {
+          en: "Morning (sunrise to noon)"
+        }
+      },
+      {
+        id: "afternoon",
+        display_text: {
+          en: "Afternoon (noon to sunset)"
+        }
+      },
+      {
+        id: "evening_night",
+        display_text: {
+          en: "Evening/Night (sunset to sunrise)"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          en: "Unknown/Not Applicable"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-elapsed-reporting-time",
+    name_i18n: {
+      en: "GBV Elapsed Reporting Time Range"
+    },
+    lookup_values_i18n: [
+      {
+        id: "0_3_days",
+        display_text: {
+          en: "0-3 Days"
+        }
+      },
+      {
+        id: "4_5_days",
+        display_text: {
+          en: "4-5 Days"
+        }
+      },
+      {
+        id: "6_14_days",
+        display_text: {
+          en: "6-14 Days"
+        }
+      },
+      {
+        id: "2_weeks_1_month",
+        display_text: {
+          en: "2 Weeks - 1 Month"
+        }
+      },
+      {
+        id: "over_1_month",
+        display_text: {
+          en: "Over 1 month"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-incident-location-type",
+    name_i18n: {
+      en: "GBV Incident Location Type"
+    },
+    lookup_values_i18n: [
+      {
+        id: "forest",
+        display_text: {
+          en: "Bush/Forest"
+        }
+      },
+      {
+        id: "garden",
+        display_text: {
+          en: "Garden/Cultivated Field"
+        }
+      },
+      {
+        id: "school",
+        display_text: {
+          en: "School"
+        }
+      },
+      {
+        id: "road",
+        display_text: {
+          en: "Road"
+        }
+      },
+      {
+        id: "clients_home",
+        display_text: {
+          en: "Client's Home"
+        }
+      },
+      {
+        id: "perpetrators_home",
+        display_text: {
+          en: "Perpetrator's Home"
+        }
+      },
+      {
+        id: "other",
+        display_text: {
+          en: "Other"
+        }
+      },
+      {
+        id: "market",
+        display_text: {
+          en: "Market"
+        }
+      },
+      {
+        id: "streamside",
+        display_text: {
+          en: "Streamside"
+        }
+      },
+      {
+        id: "beach",
+        display_text: {
+          en: "Beach"
+        }
+      },
+      {
+        id: "farm",
+        display_text: {
+          en: "Farm"
+        }
+      },
+      {
+        id: "latrine",
+        display_text: {
+          en: "Latrine"
+        }
+      },
+      {
+        id: "perpetrators_friends_home",
+        display_text: {
+          en: "Perpetrator's Friend's Home"
+        }
+      },
+      {
+        id: "entertainment_centre",
+        display_text: {
+          en: "Entertainment Centre"
+        }
+      },
+      {
+        id: "unfinished_house",
+        display_text: {
+          en: "Unfinished House"
+        }
+      },
+      {
+        id: "guest_house_hotel",
+        display_text: {
+          en: "Guest House - Hotel"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-intervention-type",
+    name_i18n: {
+      en: "Intervention Type"
+    },
+    lookup_values_i18n: [
+      {
+        id: "personal_goal",
+        display_text: {
+          en: "Personal Goal or Service"
+        }
+      },
+      {
+        id: "referral_service",
+        display_text: {
+          en: "Referral Service"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-service-referred-gbv",
+    name_i18n: {
+      en: "Service Referred GBV"
+    },
+    lookup_values_i18n: [
+      {
+        id: "referred",
+        display_text: {
+          en: "Referred"
+        }
+      },
+      {
+        id: "no_referral_service_provided_by_your_agency",
+        display_text: {
+          en: "No referral, Service provided by your agency"
+        }
+      },
+      {
+        id: "no_referral_services_already_received_from_another_agency",
+        display_text: {
+          en: "No referral, Services already received from another agency"
+        }
+      },
+      {
+        id: "no_referral_service_not_applicable",
+        display_text: {
+          en: "No referral, Service not applicable"
+        }
+      },
+      {
+        id: "no_referral_declined_by_survivor",
+        display_text: {
+          en: "No referral, Declined by survivor"
+        }
+      },
+      {
+        id: "no_referral_service_unavailable",
+        display_text: {
+          en: "No referral, Service unavailable"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
     locked: false,
     name_en: "Gender",
     lookup_values_en: [
@@ -756,6 +1116,54 @@ Lookup.create_or_update!(
 
 Lookup.create_or_update!(
   {
+    unique_id: "lookup-displacement-incident",
+    name_i18n: {
+      en: "Stage of displacement at time of incident"
+    },
+    lookup_values_i18n: [
+      {
+        id: "not_displaced",
+        display_text: {
+          en: "Not Displaced / Home Community"
+        }
+      },
+      {
+        id: "pre_displacement",
+        display_text: {
+          en: "Pre-displacement"
+        }
+      },
+      {
+        id: "during_flight",
+        display_text: {
+          en: "During Flight"
+        }
+      },
+      {
+        id: "during_refuge",
+        display_text: {
+          en: "During Refuge"
+        }
+      },
+      {
+        id: "during_return_transit",
+        display_text: {
+          en: "During Return / Transit"
+        }
+      },
+      {
+        id: "post_displacement",
+        display_text: {
+          en: "Post-Displacement"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
     locked: false,
     name_en: "Marital Status",
     lookup_values_en: [
@@ -827,6 +1235,66 @@ Lookup.create_or_update!(
       }
     ],
     unique_id: "lookup-nationality"
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-perpetrator-occupation",
+    name_i18n: {
+      en: "Alleged Perpetrator Occupations"
+    },
+    lookup_values_i18n: [
+      {
+        id: "other",
+        display_text: {
+          en: "Other"
+        }
+      },
+      {
+        id: "unemployed",
+        display_text: {
+          en: "Unemployed"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          en: "Unknown"
+        }
+      },
+      {
+        id: "occupation_1",
+        display_text: {
+          en: "Occupation 1"
+        }
+      },
+      {
+        id: "occupation_2",
+        display_text: {
+          en: "Occupation 2"
+        }
+      },
+      {
+        id: "occupation_3",
+        display_text: {
+          en: "Occupation 3"
+        }
+      },
+      {
+        id: "occupation_4",
+        display_text: {
+          en: "Occupation 4"
+        }
+      },
+      {
+        id: "occupation_5",
+        display_text: {
+          en: "Occupation 5"
+        }
+      }
+    ],
+    locked: false
   }
 )
 
@@ -1161,6 +1629,66 @@ Lookup.create_or_update!(
       }
     ],
     unique_id: "lookup-service-implemented"
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-transition-type",
+    name_i18n: {
+      en: "Transition Type"
+    },
+    lookup_values_i18n: [
+      {
+        id: "referral",
+        display_text: {
+          en: "Referral"
+        }
+      },
+      {
+        id: "reassign",
+        display_text: {
+          en: "Reassign"
+        }
+      },
+      {
+        id: "transfer",
+        display_text: {
+          en: "Transfer"
+        }
+      },
+      {
+        id: "transfer_request",
+        display_text: {
+          en: "Transfer Request"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-approval-types",
+    name_i18n: {
+      en: "Approval Type for GBV users"
+    },
+    lookup_values_i18n: [
+      {
+        id: "case_plan",
+        display_text: {
+          en: "Case Plan"
+        }
+      },
+      {
+        id: "closure",
+        display_text: {
+          en: "Closure"
+        }
+      }
+    ],
+    locked: false
   }
 )
 
@@ -1580,6 +2108,36 @@ Lookup.create_or_update!(
 
 Lookup.create_or_update!(
   {
+    unique_id: "lookup-yes-no-not-applicable-needs-not-met",
+    name_i18n: {
+      en: "Yes, No, or Not Applicable or needs not met"
+    },
+    lookup_values_i18n: [
+      {
+        id: "true",
+        display_text: {
+          en: "Yes"
+        }
+      },
+      {
+        id: "false",
+        display_text: {
+          en: "No"
+        }
+      },
+      {
+        id: "not_applicable",
+        display_text: {
+          en: "Not Applicable or needs not met"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
     locked: false,
     name_en: "Yes, No, Or Not Applicable",
     lookup_values_en: [
@@ -1665,6 +2223,103 @@ Lookup.create_or_update!(
     ]
   }
 )
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-number-of-perpetrators",
+    name_i18n: {
+      en: "Number of Perpetrators"
+    },
+    lookup_values_i18n: [
+      {
+        id: "equal_to_1",
+        display_text: {
+          en: "1"
+        }
+      },
+      {
+        id: "equal_to_2",
+        display_text: {
+          en: "2"
+        }
+      },
+      {
+        id: "equal_to_3",
+        display_text: {
+          en: "3"
+        }
+      },
+      {
+        id: "more_than_3",
+        display_text: {
+          en: "More than 3"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          en: "Unknown"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-perpetrator-age-group",
+    name_i18n: {
+      en: "Alleged perpetrator Age groups "
+    },
+    lookup_values_i18n: [
+      {
+        id: "0_11",
+        display_text: {
+          en: "0-11"
+        }
+      },
+      {
+        id: "12_17",
+        display_text: {
+          en: "12-17"
+        }
+      },
+      {
+        id: "18_25",
+        display_text: {
+          en: "18-25"
+        }
+      },
+      {
+        id: "26_40",
+        display_text: {
+          en: "26-40"
+        }
+      },
+      {
+        id: "41_60",
+        display_text: {
+          en: "41-60"
+        }
+      },
+      {
+        id: "61",
+        display_text: {
+          en: "61+"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          en: "Unknown"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
 
 Lookup.create_or_update!(
   {
@@ -1821,6 +2476,300 @@ Lookup.create_or_update!(
         id: "record_information",
         display_text: {
           en: "Record Information"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-case-closure-reason",
+    name_i18n: {
+      en: "Case Closure Reason"
+    },
+    lookup_values_i18n: [
+      {
+        id: "case_closure_suvivor_needs_met",
+        display_text: {
+          en: "Survivor’s needs have been met to the extent possible"
+        }
+      },
+      {
+        id: "case_closure_suvivor_no_contact",
+        display_text: {
+          en: "There has been no contact with survivor for a specified period (e.g., more than 30 days)"
+        }
+      },
+      {
+        id: "case_closure_suvivor_request",
+        display_text: {
+          en: "Survivor requests to close the case"
+        }
+      },
+      {
+        id: "case_closure_suvivor_left",
+        display_text: {
+          en: "Survivor left the area or no longer lives there"
+        }
+      },
+      {
+        id: "case_closure_case_transferred",
+        display_text: {
+          en: "The case was transferred to another organization"
+        }
+      },
+      {
+        id: "case_closure_funding_constraints",
+        display_text: {
+          en: "The case was closed because of funding constraints of the service provider"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-psychosocial-functionality-scale",
+    name_i18n: {
+      en: "Psychosocial Functionality Scale"
+    },
+    lookup_values_i18n: [
+      {
+        id: "0",
+        display_text: {
+          en: "Not difficult at all (0 pts)"
+        }
+      },
+      {
+        id: "1",
+        display_text: {
+          en: "A little bit difficult (1 pt)"
+        }
+      },
+      {
+        id: "2",
+        display_text: {
+          en: "Difficult (2 pts)"
+        }
+      },
+      {
+        id: "3",
+        display_text: {
+          en: "Very difficult (3 pts)"
+        }
+      },
+      {
+        id: "4",
+        display_text: {
+          en: "So difficult that you often cannot do it (4 pts)"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-felt-stigma-scale-new",
+    name_i18n: {
+      en: "Felt Stigma Scale"
+    },
+    lookup_values_i18n: [
+      {
+        id: "0",
+        display_text: {
+          en: "Not at all (0 pts)"
+        }
+      },
+      {
+        id: "1",
+        display_text: {
+          en: "A little bit (1 pt)"
+        }
+      },
+      {
+        id: "2",
+        display_text: {
+          en: "A moderate amount (2 pts)"
+        }
+      },
+      {
+        id: "3",
+        display_text: {
+          en: "A lot (3 pts)"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-three-point-agreement-scale",
+    name_i18n: {
+      en: "Three Point Agreement Scale"
+    },
+    lookup_values_i18n: [
+      {
+        id: "scale_one",
+        display_text: {
+          en: "Not at all"
+        }
+      },
+      {
+        id: "scale_two",
+        display_text: {
+          en: "Somewhat"
+        }
+      },
+      {
+        id: "scale_three",
+        display_text: {
+          en: "Completely"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-three-point-agreement-scale-comfortable",
+    name_i18n: {
+      en: "Three Point Agreement Scale Comfortable"
+    },
+    lookup_values_i18n: [
+      {
+        id: "scale_one",
+        display_text: {
+          en: "Not at all comfortable"
+        }
+      },
+      {
+        id: "scale_two",
+        display_text: {
+          en: "Somewhat comfortable"
+        }
+      },
+      {
+        id: "scale_three",
+        display_text: {
+          en: "Completely comfortable"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-three-point-agreement-scale-friendly",
+    name_i18n: {
+      en: "Three Point Agreement Scale Friendly"
+    },
+    lookup_values_i18n: [
+      {
+        id: "scale_one",
+        display_text: {
+          en: "Not at all friendly"
+        }
+      },
+      {
+        id: "scale_two",
+        display_text: {
+          en: "Somewhat friendly"
+        }
+      },
+      {
+        id: "scale_three",
+        display_text: {
+          en: "Completely friendly"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-case-context",
+    name_i18n: {
+      en: "GBV Case Context"
+    },
+    lookup_values_i18n: [
+      {
+        id: "intimate_partner_violence",
+        display_text: {
+          en: "Intimate Partner Violence"
+        }
+      },
+      {
+        id: "child_sexual_abuse",
+        display_text: {
+          en: "Child Sexual Abuse"
+        }
+      },
+      {
+        id: "early_marriage",
+        display_text: {
+          en: "Early Marriage"
+        }
+      },
+      {
+        id: "possible_sexual_exploitation",
+        display_text: {
+          en: "Possible Sexual Exploitation"
+        }
+      },
+      {
+        id: "possible_sexual_slavery",
+        display_text: {
+          en: "Possible Sexual Slavery"
+        }
+      },
+      {
+        id: "harmful_traditional_practice",
+        display_text: {
+          en: "Harmful Traditional Practice"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-three-point-agreement-scale-judgemental",
+    name_i18n: {
+      en: "Three Point Agreement Scale Judgemental"
+    },
+    lookup_values_i18n: [
+      {
+        id: "scale_three",
+        display_text: {
+          en: "Completely judgemental"
+        }
+      },
+      {
+        id: "scale_two",
+        display_text: {
+          en: "Somewhat judgemental"
+        }
+      },
+      {
+        id: "scale_one",
+        display_text: {
+          en: "Not at all judgemental"
         }
       }
     ],
