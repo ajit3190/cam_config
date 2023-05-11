@@ -103,7 +103,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feelings of worthlessness, of having no value"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 2,
         hidden_text_field: false,
         autosum_total: false,
@@ -131,7 +131,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling detached or withdrawn from others"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 3,
         hidden_text_field: false,
         autosum_total: false,
@@ -159,7 +159,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling badly treated by community members"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 4,
         hidden_text_field: false,
         autosum_total: false,
@@ -187,7 +187,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling shame"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 5,
         hidden_text_field: false,
         autosum_total: false,
@@ -215,7 +215,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Blaming yourself for past events"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 6,
         hidden_text_field: false,
         autosum_total: false,
@@ -243,7 +243,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling rejected by everybody"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 7,
         hidden_text_field: false,
         autosum_total: false,
@@ -271,7 +271,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling stigma"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 8,
         hidden_text_field: false,
         autosum_total: false,
@@ -299,7 +299,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Wanting to avoid other people or hide"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 9,
         hidden_text_field: false,
         autosum_total: false,
@@ -327,7 +327,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling like your family gazes at you like they are blaming you"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 10,
         hidden_text_field: false,
         autosum_total: false,
@@ -355,7 +355,7 @@ FormSection.create_or_update!(
         display_name_i18n: {
           en: "Feeling like community members gaze at you like they are blaming you"
         },
-        option_strings_source: "lookup lookup-felt-stigma-scale",
+        option_strings_source: "lookup lookup-felt-stigma-scale-new",
         order: 11,
         hidden_text_field: false,
         autosum_total: false,

@@ -2222,6 +2222,162 @@ Lookup.create_or_update!(
 
 Lookup.create_or_update!(
   {
+    unique_id: "lookup-number-of-perpetrators",
+    name_i18n: {
+      en: "Number of Perpetrators"
+    },
+    lookup_values_i18n: [
+      {
+        id: "equal_to_1",
+        display_text: {
+          en: "1"
+        }
+      },
+      {
+        id: "equal_to_2",
+        display_text: {
+          en: "2"
+        }
+      },
+      {
+        id: "equal_to_3",
+        display_text: {
+          en: "3"
+        }
+      },
+      {
+        id: "more_than_3",
+        display_text: {
+          en: "More than 3"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          en: "Unknown"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-perpetrator-age-group",
+    name_i18n: {
+      en: "Alleged perpetrator Age groups "
+    },
+    lookup_values_i18n: [
+      {
+        id: "0_11",
+        display_text: {
+          en: "0-11"
+        }
+      },
+      {
+        id: "12_17",
+        display_text: {
+          en: "12-17"
+        }
+      },
+      {
+        id: "18_25",
+        display_text: {
+          en: "18-25"
+        }
+      },
+      {
+        id: "26_40",
+        display_text: {
+          en: "26-40"
+        }
+      },
+      {
+        id: "41_60",
+        display_text: {
+          en: "41-60"
+        }
+      },
+      {
+        id: "61",
+        display_text: {
+          en: "61+"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          en: "Unknown"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-perpetrator-occupation",
+    name_i18n: {
+      en: "Alleged Perpetrator Occupations"
+    },
+    lookup_values_i18n: [
+      {
+        id: "other",
+        display_text: {
+          en: "Other"
+        }
+      },
+      {
+        id: "unemployed",
+        display_text: {
+          en: "Unemployed"
+        }
+      },
+      {
+        id: "unknown",
+        display_text: {
+          en: "Unknown"
+        }
+      },
+      {
+        id: "occupation_1",
+        display_text: {
+          en: "Occupation 1"
+        }
+      },
+      {
+        id: "occupation_2",
+        display_text: {
+          en: "Occupation 2"
+        }
+      },
+      {
+        id: "occupation_3",
+        display_text: {
+          en: "Occupation 3"
+        }
+      },
+      {
+        id: "occupation_4",
+        display_text: {
+          en: "Occupation 4"
+        }
+      },
+      {
+        id: "occupation_5",
+        display_text: {
+          en: "Occupation 5"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
     locked: false,
     name_en: "Protection Concerns",
     name_bn: "সুরক্ষার বিষয়সমূহ",
@@ -3862,6 +4018,180 @@ Lookup.create_or_update!(
         id: "referral",
         display_text: {
           en: "Referral"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-felt-stigma-scale-new",
+    name_i18n: {
+      en: "Felt Stigma Scale"
+    },
+    lookup_values_i18n: [
+      {
+        id: "0",
+        display_text: {
+          en: "Not at all (0 pts)"
+        }
+      },
+      {
+        id: "1",
+        display_text: {
+          en: "A little bit (1 pt)"
+        }
+      },
+      {
+        id: "2",
+        display_text: {
+          en: "A moderate amount (2 pts)"
+        }
+      },
+      {
+        id: "3",
+        display_text: {
+          en: "A lot (3 pts)"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-three-point-agreement-scale",
+    name_i18n: {
+      en: "Three Point Agreement Scale"
+    },
+    lookup_values_i18n: [
+      {
+        id: "scale_one",
+        display_text: {
+          en: "Not at all"
+        }
+      },
+      {
+        id: "scale_two",
+        display_text: {
+          en: "Somewhat"
+        }
+      },
+      {
+        id: "scale_three",
+        display_text: {
+          en: "Completely"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-three-point-agreement-scale-comfortable",
+    name_i18n: {
+      en: "Three Point Agreement Scale Comfortable"
+    },
+    lookup_values_i18n: [
+      {
+        id: "scale_one",
+        display_text: {
+          en: "Not at all comfortable"
+        }
+      },
+      {
+        id: "scale_two",
+        display_text: {
+          en: "Somewhat comfortable"
+        }
+      },
+      {
+        id: "scale_three",
+        display_text: {
+          en: "Completely comfortable"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-three-point-agreement-scale-friendly",
+    name_i18n: {
+      en: "Three Point Agreement Scale Friendly"
+    },
+    lookup_values_i18n: [
+      {
+        id: "scale_one",
+        display_text: {
+          en: "Not at all friendly"
+        }
+      },
+      {
+        id: "scale_two",
+        display_text: {
+          en: "Somewhat friendly"
+        }
+      },
+      {
+        id: "scale_three",
+        display_text: {
+          en: "Completely friendly"
+        }
+      }
+    ],
+    locked: false
+  }
+)
+
+Lookup.create_or_update!(
+  {
+    unique_id: "lookup-gbv-case-context",
+    name_i18n: {
+      en: "GBV Case Context"
+    },
+    lookup_values_i18n: [
+      {
+        id: "intimate_partner_violence",
+        display_text: {
+          en: "Intimate Partner Violence"
+        }
+      },
+      {
+        id: "child_sexual_abuse",
+        display_text: {
+          en: "Child Sexual Abuse"
+        }
+      },
+      {
+        id: "early_marriage",
+        display_text: {
+          en: "Early Marriage"
+        }
+      },
+      {
+        id: "possible_sexual_exploitation",
+        display_text: {
+          en: "Possible Sexual Exploitation"
+        }
+      },
+      {
+        id: "possible_sexual_slavery",
+        display_text: {
+          en: "Possible Sexual Slavery"
+        }
+      },
+      {
+        id: "harmful_traditional_practice",
+        display_text: {
+          en: "Harmful Traditional Practice"
         }
       }
     ],
