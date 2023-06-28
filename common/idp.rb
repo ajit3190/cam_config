@@ -179,3 +179,23 @@ create_or_update_identity_provider(
     domain_hint: 'unrwa.org'
   }
 )
+
+create_or_update_identity_provider(
+  name: 'WFP',
+  unique_id: 'wfp',
+  provider_type: 'b2c',
+  configuration: {
+    user_domain: 'wfp.org',
+    domain_hint: 'WFP_AD'
+  }
+)
+
+create_or_update_identity_provider(
+  name: 'DRC',
+  unique_id: 'drc',
+  provider_type: 'b2c',
+  configuration: {
+    user_domain: 'drc.ngo',
+    domain_hint: 'drc.ngo'
+  }
+)

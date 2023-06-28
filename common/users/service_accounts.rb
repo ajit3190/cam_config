@@ -14,7 +14,7 @@ config_promotion_role = Role.create_or_update!(
   unique_id: 'role-config-promotion',
   name: 'Configuration promotion - DO NOT EDIT!',
   permissions: [Permission.new(resource: Permission::CONFIGURATION, actions: [Permission::MANAGE])],
-  referral: true,
+  referral: false,
   modules: PrimeroModule.all
 )
 
