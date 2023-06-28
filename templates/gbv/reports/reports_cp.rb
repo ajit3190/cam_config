@@ -4,7 +4,7 @@
 #    SecureRandom.uuid.to_s.gsub('-','')
 # TODO module_id: It will be numeric after module model migration
 
-Report.where(editable: false).destroy_all
+Report.where(editable: false, module_id: PrimeroModule::GBV).destroy_all
 
 default_case_filters = [
   { 'attribute' => 'status', 'value' => [Record::STATUS_OPEN] },

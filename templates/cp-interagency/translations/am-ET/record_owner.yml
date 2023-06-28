@@ -1,0 +1,32 @@
+---
+am-ET:
+  record_owner:
+    name: 1.       ዳኒ ጆ…. ተይዟል
+    description: የመዝገብ መረጃ
+    fields:
+      current_owner_separator:
+        display_name: የአሁን ባለቤት
+      owned_by_text:
+        display_name: መስክ / ጉዳይ / ማህበራዊ ሰራተኛ
+      owned_by:
+        display_name: የጉዳይ ሰራተኛ ኮድ
+      reassigned_tranferred_on:
+        display_name: እንደገና ተመድቧል/ተላልፏል
+      owned_by_agency:
+        display_name: ተቋም/ኤጀንሲ
+      assigned_user_names:
+        display_name: ሌሎች የተመደቡ ተጠቃሚዎች
+      record_history_separator:
+        display_name: ታሪክ መዝገብ
+      created_by:
+        display_name: መዝገብ የተፈጠረው በ
+      created_by_agency:
+        display_name: ተቋም/በኤጀንሲ የተፈጠረ
+      previously_owned_by:
+        display_name: የቀድሞ ባለቤት
+      previous_agency:
+        display_name: የቀድሞ ኤጀንሲ
+      module_id:
+        display_name: ሞጁል
+      reopened_logs:
+        display_name: ጉዳዩ እንደገና ተከፍቷል።

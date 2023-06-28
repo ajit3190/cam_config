@@ -1,0 +1,14 @@
+---
+om:
+  notes_section:
+    name: Guca/unka xixiqqaa yaadannoo dhimmoota yaachisaa ta'anii.
+    description: Guca/unka xixiqqaa yaadannoo dhimmoota yaachisaa ta'anii.
+    fields:
+      notes_date:
+        display_name: Guyyaa.
+      note_subject:
+        display_name: Dhimma/mata duree.
+      field_notes_subform_fields:
+        display_name: Yaadannoo./yaadannoowwan.
+      note_created_by:
+        display_name: Hoji gaggeessaa/Hogganaa.

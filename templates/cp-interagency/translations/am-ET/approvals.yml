@@ -1,0 +1,8 @@
+---
+am-ET:
+  approvals:
+    name: የጸደቁ
+    description: የጸደቁ
+    fields:
+      approval_subforms:
+        display_name: የጸደቀ

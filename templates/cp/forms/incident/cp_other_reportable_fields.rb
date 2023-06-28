@@ -2,7 +2,6 @@ fields = [
   Field.new({
     "name" => "record_state",
     "type" => "tick_box",
-    "selected_value" => true,
     "editable" => false,
     "disabled" => true,
     "display_name_en" => "Valid Record?"
@@ -22,13 +21,6 @@ fields = [
     "editable" => false,
     "disabled" => true,
     "option_strings_source" => "Location"
-  }),
-  Field.new({
-    "name" => "has_referrals",
-    "type" => "tick_box",
-    "display_name_en" => "Does this case have any referrals?",
-    "editable" => false,
-    "disabled" => true,
   })
 ]
 

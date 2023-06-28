@@ -1,0 +1,18 @@
+---
+am-ET:
+  bid_status:
+    name: የህጻኑን ጥቅም የማስቀደም ውሳኔ
+    description: የህጻኑን ጥቅም የማስቀደም ውሳኔ መሙያ ፎርም
+    fields:
+      assessment_formal_bid:
+        display_name: "መደበኛ የህጻኑን ጥቅም የማስቀደም ውሳኔ ያስፈልጋልን?"
+        help_text: ከዩ.ኤን.ሲ.ኤች.አር ጋር በመቀናጀት ሁኔታዎችን ታሳቢ በማድረግ የተወሰነ
+      assessment_bid_direction:
+        display_name: መልስዎ አዎ ከሆነ፣ የህጻኑን ጥቅም ለማስቀደም የተቀመጠ አቅጣጫን ይምረጡ
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: ከቤተሰቦቻቸው ለተለያዩ ህጻናት ዘላቂ መፍትሄ ወይም ቤተሰብን የሚተካ አማራጭ መንገድን ይለዩ
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: በልዩ  ሁኔታ ለችግር ለተጋለጡ ህጻናት ትክክለኛውን የድጋፍ አማራጭ መወሰን (መልሶ ማቀላቀልና ጊዚያዊ ድጋፍን ጨምሮ)
+          possible_separation_of_a_child_from_parents_against_their_will: ህጻናት ከፍላጎታቸው ውጪ ከወላጆቻቸው የሚለዩበት ምክንያት
+      assessment_bid_details:
+        display_name: ተጨማሪ ዝርዝር ካለ ይግለጹ
+        help_text: ተጨማ ጉዳዮችን በመዘርዘር የዩ.ኤን.ሲ.ኤች.አር የህጻኑን ጥቅም የማስቀደም ውሳኔ መሙያ ፎርም ይሙሉ

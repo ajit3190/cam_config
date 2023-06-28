@@ -4,7 +4,7 @@
 #    SecureRandom.uuid.to_s.gsub('-','')
 # TODO module_id: It will be numeric after module model migration
 
-Report.where(editable: false).destroy_all
+Report.where(editable: false, module_id: PrimeroModule::CP).destroy_all
 
 default_case_filters = [
   { 'attribute' => 'status', 'value' => [Record::STATUS_OPEN] },
@@ -143,9 +143,8 @@ Report.create_or_update!(
     },
     {
       "attribute": 'followup_date',
-      "value": [
-        'not_null'
-      ]
+      "constraint": 'not_null',
+      "value": ''
     }
   ],
   group_ages: false,
@@ -176,9 +175,8 @@ Report.create_or_update!(
     },
     {
       "attribute": 'followup_date',
-      "value": [
-        'not_null'
-      ]
+      "constraint": 'not_null',
+      "value": ''
     }
   ],
   group_ages: false,

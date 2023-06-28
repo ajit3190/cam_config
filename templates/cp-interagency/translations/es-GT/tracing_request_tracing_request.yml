@@ -1,0 +1,7 @@
+es-GT:
+  tracing_request_tracing_request:
+    name: Solicitud de rastreo
+    description: Solicitud de rastreo
+    fields:
+      tracing_request_subform_section:
+        display_name: Solicitud de rastreo

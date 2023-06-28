@@ -1,0 +1,17 @@
+so:
+  bid_status:
+    name: Xaalada BID
+    description: Foomka Xaaladda BID
+    fields:
+      assessment_formal_bid:
+        display_name: Go'aaminta Danaha ugu Fiican ee rasmiga ah (BID) ma loo baahan yahay?
+        help_text: Waxaa la go'aamiyay xaalada gudaha iyadoo lala kaashanayo UNHCR.
+      assessment_bid_direction:
+        display_name: Hadday haa tahay, fadlan dooro jihada BID-da
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Aqoonsiga xalalka waara iyo dariiqooyinka kaabaya ee carruurta aan lala socon
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Go'aaminta fursadaha ugu habboon ee carruurta halista ugu jira duruufaha gaarka ah (ay ku jiraan dib u midaynta qoyska iyo daryeelka ku meel gaarka ah)
+          possible_separation_of_a_child_from_parents_against_their_will: Kala saarida suurtagalka ah ee ilmaha iyo waalidka iyaga oo aan raalli ka ahayn
+      assessment_bid_details:
+        display_name: Faahfaahin ka bixi
+        help_text: Bixi faahfaahin ka dibna sii wad foomka go'aaminta danaha ugu Wanaagsan ee UNHCR (BID).

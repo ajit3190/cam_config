@@ -1,0 +1,23 @@
+so:
+  child_preferences_section:
+    name: Dookhyada Ilmaha ee hooyga
+    description: ' Dookhyada Ilmaha ee hoose'
+    fields:
+      wishes_name:
+        display_name: Qofka(dadka) ubadku waxay rabaan inay helaan
+      wishes_preference_relocated:
+        display_name: Doorbida ilmaha in lala raro qofkan
+        option_strings_text:
+          first_choice: dooorka 1aad
+          second_choice: doorashada labaad
+          third_choice: doorashada 3aad
+      wishes_relationship:
+        display_name: Waa maxay xidhiidhka qofkan iyo ilmaha?
+      wishes_address:
+        display_name: cinwanki ugu danbeyay ee an la aqoon
+      wishes_landmark:
+        display_name: Astaanta guud
+      wishes_location:
+        display_name: Meeshii Ugu Danbaysay Ee La Ogaaday
+      wishes_telephone:
+        display_name: taleefanka

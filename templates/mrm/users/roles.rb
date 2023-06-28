@@ -21,23 +21,25 @@ create_or_update_role(
       ]
     ),
     Permission.new(
-      resource: Permission::MANAGED_REPORT,
+      resource: Permission::DASHBOARD,
       actions: [
-        Permission::VIOLATION_REPORT
+        Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+        Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+        Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
       ]
     )
   ],
-  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+  form_sections: FormSection.where(unique_id: %w[incident_form abduction_violation_wrapper group_victims individual_victims
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
                                                  attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
-                                                 perpetrators_form response source_subform_section abduction group_victims_section
+                                                 source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
                                                  sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
                                                  military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
-                                                 response_subform_section]),
+                                                 response_subform_section sources perpetrators responses]),
   referral: false,
   transfer: false
 )
@@ -54,21 +56,29 @@ create_or_update_role(
         Permission::CREATE,
         Permission::FLAG
       ]
+    ),
+    Permission.new(
+      resource: Permission::DASHBOARD,
+      actions: [
+        Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+        Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+        Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
+      ]
     )
   ],
   group_permission: Permission::GROUP,
   modules: [PrimeroModule.mrm],
-  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+  form_sections: FormSection.where(unique_id: %w[incident_form abduction_violation_wrapper group_victims individual_victims
     mrm_reportable_fields incident_record_history military_use_violation_wrapper
     maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
     sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
     attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
-    perpetrators_form response source_subform_section abduction group_victims_section
+    source_subform_section abduction group_victims_section
     individual_victims_subform_section military_use maiming recruitment killing
     sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
     recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
     military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
-    response_subform_section]),
+    response_subform_section sources perpetrators responses]),
   referral: false,
   transfer: false
 )
@@ -90,12 +100,6 @@ create_or_update_role(
       ]
     ),
     Permission.new(
-      resource: Permission::CONFIGURATION,
-      actions: [
-        Permission::MANAGE
-      ]
-    ),
-    Permission.new(
       resource: Permission::REPORT,
       actions: [
         Permission::READ
@@ -105,18 +109,27 @@ create_or_update_role(
       resource: Permission::MANAGED_REPORT,
       actions: [
         Permission::VIOLATION_REPORT,
-        Permission::GHN_REPORT
+        Permission::GHN_REPORT,
+        Permission::INDIVIDUAL_CHILDREN
+      ]
+    ),
+    Permission.new(
+      resource: Permission::DASHBOARD,
+      actions: [
+        Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+        Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+        Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
       ]
     )
   ],
   group_permission: Permission::ALL,
   modules: [PrimeroModule.mrm],
-  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+  form_sections: FormSection.where(unique_id: %w[incident_form abduction_violation_wrapper group_victims individual_victims
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
                                                  attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
-                                                 perpetrators_form response source_subform_section abduction group_victims_section
+                                                 source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
                                                  sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
@@ -141,8 +154,7 @@ create_or_update_role(
         Permission::CREATE,
         Permission::FLAG,
         Permission::EXPORT_LIST_VIEW,
-        Permission::EXPORT_CSV,
-        Permission::EXPORT_MRM_VIOLATION_XLS
+        Permission::EXPORT_CSV
       ]
     ),
     Permission.new(
@@ -155,23 +167,32 @@ create_or_update_role(
       resource: Permission::MANAGED_REPORT,
       actions: [
         Permission::VIOLATION_REPORT,
-        Permission::GHN_REPORT
+        Permission::GHN_REPORT,
+        Permission::INDIVIDUAL_CHILDREN
+      ]
+    ),
+    Permission.new(
+      resource: Permission::DASHBOARD,
+      actions: [
+        Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+        Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+        Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
       ]
     )
   ],
   group_permission: Permission::SELF,
   modules: [PrimeroModule.mrm],
-  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+  form_sections: FormSection.where(unique_id: %w[incident_form abduction_violation_wrapper group_victims individual_victims
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
                                                  attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
-                                                 perpetrators_form response source_subform_section abduction group_victims_section
+                                                 source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
                                                  sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
                                                  military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
-                                                 response_subform_section]),
+                                                 response_subform_section sources perpetrators responses]),
   referral: false,
   transfer: false
 )
@@ -202,18 +223,27 @@ create_or_update_role(
       resource: Permission::MANAGED_REPORT,
       actions: [
         Permission::VIOLATION_REPORT,
-        Permission::GHN_REPORT
+        Permission::GHN_REPORT,
+        Permission::INDIVIDUAL_CHILDREN
+      ]
+    ),
+    Permission.new(
+      resource: Permission::DASHBOARD,
+      actions: [
+        Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+        Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+        Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
       ]
     )
   ],
   group_permission: Permission::ALL,
   modules: [PrimeroModule.mrm],
-  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+  form_sections: FormSection.where(unique_id: %w[incident_form abduction_violation_wrapper group_victims individual_victims
                                                  mrm_reportable_fields incident_record_history military_use_violation_wrapper
                                                  maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
                                                  sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
                                                  attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
-                                                 perpetrators_form response source_subform_section abduction group_victims_section
+                                                 source_subform_section abduction group_victims_section
                                                  individual_victims_subform_section military_use maiming recruitment killing
                                                  sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
                                                  recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
@@ -267,21 +297,39 @@ create_or_update_role(
       actions: [
         Permission::READ,
         Permission::CREATE,
-        Permission::WRITE
+        Permission::WRITE,
+        Permission::MANAGE
       ]
     ),
     Permission.new(
       resource: Permission::AGENCY,
       actions: [
         Permission::READ,
-        Permission::WRITE
+        Permission::WRITE,
+        Permission::ASSIGN
       ]
     ),
     Permission.new(
       resource: Permission::MANAGED_REPORT,
       actions: [
         Permission::VIOLATION_REPORT,
-        Permission::GHN_REPORT
+        Permission::GHN_REPORT,
+        Permission::INDIVIDUAL_CHILDREN
+      ]
+    ),
+    Permission.new(
+      resource: Permission::DASHBOARD,
+      actions: [
+        Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+        Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+        Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
+      ]
+    ),
+    Permission.new(
+      resource: Permission::USER_GROUP,
+      actions: [
+        Permission::READ,
+        Permission::ASSIGN
       ]
     )
   ],
@@ -341,10 +389,23 @@ superuser_permissions = [
     actions: [Permission::MANAGE]
   ),
   Permission.new(
+    resource: Permission::CONFIGURATION,
+    actions: [Permission::MANAGE]
+  ),
+  Permission.new(
     resource: Permission::MANAGED_REPORT,
     actions: [
       Permission::VIOLATION_REPORT,
-      Permission::GHN_REPORT
+      Permission::GHN_REPORT,
+      Permission::INDIVIDUAL_CHILDREN
+    ]
+  ),
+  Permission.new(
+    resource: Permission::DASHBOARD,
+    actions: [
+      Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+      Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+      Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
     ]
   )
 ]
@@ -368,21 +429,29 @@ create_or_update_role(
         Permission::WRITE,
         Permission::FLAG
       ]
+    ),
+    Permission.new(
+      resource: Permission::DASHBOARD,
+      actions: [
+        Permission::DASH_VIOLATIONS_CATEGORY_VERIFICATION_STATUS,
+        Permission::DASH_VIOLATIONS_CATEGORY_REGION,
+        Permission::DASH_PERPETRATOR_ARMED_FORCE_GROUP_PARTY_NAMES
+      ]
     )
   ],
   group_permission: Permission::ALL,
   modules: [PrimeroModule.mrm],
-  form_sections: FormSection.where(unique_id: %w[incident_form source abduction_violation_wrapper group_victims individual_victims
+  form_sections: FormSection.where(unique_id: %w[incident_form abduction_violation_wrapper group_victims individual_victims
     mrm_reportable_fields incident_record_history military_use_violation_wrapper
     maiming_violation_wrapper recruitment_violation_wrapper killing_violation_wrapper
     sexual_violence_violation_wrapper supporting_materials other_reportable_fields_incident
     attack_on_hospitals_violation_wrapper attack_on_schools_violation_wrapper denial_humanitarian_access_violation_wrapper mrm_summary_page
-    perpetrators_form response source_subform_section abduction group_victims_section
+    source_subform_section abduction group_victims_section
     individual_victims_subform_section military_use maiming recruitment killing
     sexual_violence attack_on_hospitals attack_on_schools denial_humanitarian_access killing_summary maiming_summary
     recruitment_summary sexual_violence_summary abduction_summary attack_on_summary
     military_use_summary denial_humanitarian_access_summary perpetrator_subform_section
-    response_subform_section]),
+    response_subform_section sources perpetrators responses]),
   referral: false,
   transfer: false
 )

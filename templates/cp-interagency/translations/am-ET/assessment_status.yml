@@ -1,0 +1,29 @@
+---
+am-ET:
+  assessment_status:
+    name: የዳሰሳ ሁኔታ
+    description: የዳሰሳ ሁኔታ ፎርም
+    fields:
+      bia_approved:
+        display_name: በማኔጀር ጸድቋል
+        tick_box_label: 'አዎ'
+      bia_approved_date:
+        display_name: ቀን
+      bia_approved_comments:
+        display_name: የማኔጀር አስተያየት
+      approval_status_bia:
+        display_name: የማጽደቅ ሁኔታ
+      assessment_header:
+        display_name: የዳሰሳ ቅጽ
+      assessment_requested_on:
+        display_name: ዳሰሳው የተጀመረበት ቀን
+        help_text: ይህ ቦታ የስራ ፍሰት ሁኔታን ለማሳየት የሚጠቅም ነው
+      assessment_completed_on:
+        display_name: ዳሰሳው የተጠናቀቀበት
+      case_plan_due_date:
+        display_name: የድጋፍ እቅድ የሚሰራበት ቀን
+        guiding_questions: |-
+          እንደ ጉዳዩ የተጋላጭነት ደረጃ
+          ከፍተኛ፡ ዳሰሳው በተሰራ በ3 ቀን ውስጥ
+          መካከለኛ፡ ዳሰሳው በተሰራ በአንድ ሳምንት ውስጥ
+          ዝቅተኛ፡ ዳሰሳው በተሰራ በሁለት ሳምንት ውስጥ መከናወን አለበት

@@ -1,0 +1,22 @@
+---
+am-ET:
+  care_arrangements:
+    name: ህጻኑ/ኗ ከማን ጋር ነው የሚኖረው/የምትኖረው
+    description: ህጻኑ/ኗ ከማን ጋር ነው የሚኖረው/የምትኖረው
+    fields:
+      child_current_location:
+        display_name: ህጻኑ/ኗ አሁን የሚኖርበት/ምትኖርበት አድራሻ
+      address_current:
+        display_name: አሁን ያሉበት አድራሻ
+        help_text: አሁን ያሉበት ግልጽ አድራሻ የማይታወቅ ከሆነ አካባቢን ወይም ሌሎች መግለጫዎችን ያስቀምጡ
+      location_current:
+        display_name: አሁን ያሉበት አድራሻ
+      address_child_future:
+        display_name: "ህጻኑ ወደ ሌላ አካባቢ ለመሄድ ካቀደ ቀጣይ አድራሻው የት ነው?"
+        help_text: አሁን ያሉበት ግልጽ አድራሻ የማይታወቅ ከሆነ  አካባቢን ወይም ሌሎች መግለጫዎችን ያስቀምጡ
+      location_child_future:
+        display_name: "ቀጣይ አድራሻው የት ነው?"
+      telephone_child_future:
+        display_name: "ቀጣይ የሚገኙበት ስልክ ቁጥር?"
+      care_arrangements_section:
+        display_name: ህጻኑ/ኗ ከማን ጋር ነው የሚኖረው/የምትኖረው

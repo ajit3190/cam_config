@@ -1,0 +1,51 @@
+---
+am-ET:
+  interview_details:
+    name: የቃለ መጠይቁ ዝርዝር
+    description: የቃለ መጠይቁ ዝርዝር
+    fields:
+      interview_date:
+        display_name: የቃለ መጠይቁ ቀን
+      interviewer_name:
+        display_name: ቃለመጠይቅ ያደረገው ሰው
+      interviewer_postion:
+        display_name: ቃለ መጠይቁን ያደረገው ሰው የስራ ሃላፊነት
+      interviewer_agency:
+        display_name: ቃለ መጠይቁን ያደረገው ተቋም
+        option_strings_text:
+          agency_1: ተቋም 1
+          agency_2: ተቋም 2
+          agency_3: ተቋም 3
+          agency_4: ተቋም 4
+      address_interview:
+        display_name: ቃለ መጠይቁ የተደረገበት አድራሻ
+      landmark_interview:
+        display_name: "ቃለመጠይቁ የተደረገበት አከባቢ ልዩ ምልክት "
+      location_interview:
+        display_name: ቃለ መጠይቁ የተደረገበት ቦታ
+      source_interview:
+        display_name: የተገኘ መረጃ
+        option_strings_text:
+          child: ህጻን
+          caregiver: ተንከባካቢ
+          other: ሌላ ካለ ይገለጽ
+      source_interview_other:
+        display_name: ከሌላ የተገኘ መረጃ ካለ እባክዎ ይገለጽ
+      other_org_interview_status:
+        display_name: ህጻኑ/ኗ በሌላ ተቋም ቃለ መጠይቅ ተደርጎለታል/ተደርጎላታል
+      other_org_reference_no:
+        display_name: በሌላ ተቋም ለህጻኑ/ኗ የተሰጠ የመለያ ቁጥር
+      case_eligibility_criteria:
+        display_name: "ጉዳዩ የብቁነት መስፈርትን አሟሏልን?"
+      source_identification_referral:
+        display_name: የልየታው/የቅብብሎሹ ምንጭ
+        option_strings_text:
+          child_family_member: ህጻን/የቤተሰብ አካል
+          community_members_cpc: የማህበረሰብ አባላት/የህጻናት ጥበቃ ኮሚቴ
+          school_personnel: የትምህርትቤት ሰራተኞች
+          health_personnel: የጤና ተቋም ሰራተኞች
+          population_registration_services: የህዝብ ቁጥር ምዝገባ አገልግሎት
+          law_enforcement_agencies: ህግ አስፈጻሚ አካት
+          humanitarian_agencies: የሰብዓዊ ድጋፍ አድራጊ አካላት
+      consent_form_completed:
+        display_name: "የስምምነት ቅጹ ተጠናቋልን?"

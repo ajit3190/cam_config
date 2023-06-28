@@ -1,0 +1,8 @@
+---
+am-ET:
+  review:
+    name: ጉዳይ ግምገማ
+    description: ጉዳይ ግምገማ
+    fields:
+      review_section:
+        display_name: ጉዳይ ግምገማ

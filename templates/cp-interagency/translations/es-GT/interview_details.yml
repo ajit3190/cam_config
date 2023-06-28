@@ -1,0 +1,50 @@
+es-GT:
+  interview_details:
+    name: Detalles de la entrevista
+    description: Detalles de la entrevista
+    fields:
+      interview_date:
+        display_name: Fecha de la Entrevista
+      interviewer_name:
+        display_name: Nombre del Entrevistador
+      interviewer_postion:
+        display_name: Cargo del Entrevistador
+      interviewer_agency:
+        display_name: Agencia Entrevistadora
+        option_strings_text:
+          agency_1: Agencia 1
+          agency_2: Agencia 2
+          agency_3: Agencia 3
+          agency_4: Agencia 4
+      address_interview:
+        display_name: Dirección de la Entrevista
+      landmark_interview:
+        display_name: Punto de Referencia de la Entrevista
+      location_interview:
+        display_name: Locación de la Entrevista
+      source_interview:
+        display_name: Información Obtenida De
+        option_strings_text:
+          child: Niño/a
+          caregiver: Cuidador
+          other: Otro, especificar
+      source_interview_other:
+        display_name: Si la información es obtenida de Otro, favor especificar
+      other_org_interview_status:
+        display_name: ¿Ha sido el/la niño/a entrevistado por otra organización?
+      other_org_reference_no:
+        display_name: Número de Referencia dado al niño/a por otra organización
+      case_eligibility_criteria:
+        display_name: ¿El caso cumple criterios de elegibilidad?
+      source_identification_referral:
+        display_name: Fuente de Identificación/referencia
+        option_strings_text:
+          child_family_member: Niño/ Miembro de la familia
+          community_members_cpc: Miembros de la comunidad/ CPC
+          school_personnel: Personal de Instituciones educativas
+          health_personnel: Personal de Salud
+          population_registration_services: Servicios de registros de población
+          law_enforcement_agencies: 'Fuerzas del orden '
+          humanitarian_agencies: Agencias humanitarias
+      consent_form_completed:
+        display_name: ¿Se completó el formulario de consentimiento y asentimiento?

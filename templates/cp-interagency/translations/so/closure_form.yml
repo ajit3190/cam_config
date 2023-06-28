@@ -1,0 +1,140 @@
+so:
+  closure_form:
+    name: Xiritaanka
+    description: Xiritaanka
+    fields:
+      closure_approved:
+        display_name: Waxaa ansixiyay Maareeye
+        tick_box_label: 'haa'
+      closure_approved_date:
+        display_name: taarikh
+      closure_approved_comments:
+        display_name: Faallooyinka Maareeyaha
+      approval_status_closure:
+        display_name: Heerka Ansixinta
+      approval_obtained_child:
+        display_name: Waxaa ansixiyay Cunugga
+        tick_box_label: 'yes'
+      approval_obtained_caregiver:
+        display_name: Waxaa ansixiyay Cunugga
+        tick_box_label: 'yes'
+      approval_obtained_details:
+        display_name: Fadlan bixi faahfaahin
+        help_text: Ku dar faahfaahinta xiriirka iyo xiriirka bixiyaha iyo ilmaha
+      child_status:
+        display_name: Xaalada Kiis
+      date_closure:
+        display_name: Taariikhda Xiritaanka
+      closure_reason:
+        display_name: Sababta ugu weyn ee xiritaanka kiiska
+        option_strings_text:
+          overall_goal_of_the_case_plan: Guud ahaan yoolka qorshaha kiiska waa la gaaray, ubadku wuu ka badbaado waxyeellada, daryeelka ilmaha iyo ladnaanta waa la taageeray mana jiraan walaac dheeraad ah
+          child_has_turned_18_years_old: Ilmuhu waxa uu buuxsamay 18 jir (hubi in qorshaha kala guurka uu jiro oo kiisku ogaado halka iyo sida loo helo taageerada)
+          relocation_of_child_to_an_area: U rarida ubadka meel aysan jirin wakaalad u wareejisa kiiska
+          child_departed_for_a_durable_solution: Ilmaha ayaa u dhoofay xal waara oo aanay jirin wakaalad u wareejisa kiiska
+          child_no_longer_contactable: Ilmaha hadda lama xidhiidhi karo (sugo ugu yaraan 3 bilood ka hor inta aanad xidhin kiiska)
+          death_of_child: dhimashada ilmaha
+          no_further_action_possible_required: Ma jirto tallaabo kale oo suurtagal ah/ loo baahan yahay
+          case_opened_in_error: Kiiska wuxuu ku furmay qalad
+          other: kuwa kale
+      closure_reason_other:
+        display_name: 'Haddii kale, fadlan sheeg'
+      closure_details:
+        display_name: Faahfaahin dheeraad ah ka bixi sababta kiiska loo xiray
+      closure_situation_child_separator:
+        display_name: Xaalada ilmaha marka la xidho kiiska
+      closure_how_long_case_opened:
+        display_name: Intee in le'eg ayaa kiiskan la furay
+        help_text: Todobaadyo gudahood
+      closure_current_situation:
+        display_name: Warbixin kooban oo ku saabsan xaaladda hadda jirta
+        help_text: Sharax taariikhda iyo xaaladda hadda ee kiiska, oo ay ku jiraan adeegyadii ugu dambeeyay ee la bixiyay/tallaabooyin la qaaday
+      closure_child_moving_separator:
+        display_name: Haddii ilmuhu u guurayo meel cusub
+      closure_new_child_location:
+        display_name: Cinwaanka cusub / goobta uu ilmuhu ku nool yahay
+        help_text: Bixi tafaasiisha ugu badan ee suurtogalka ah ee ku saabsan goobta si kuwa kale u helaan goobta tusaale ahaan. guri, calaamad, waddo, magaalo/tuulo, degmo, gobol (la qabso si waafaqsan macnaha)
+      closure_new_telephone_contact_details:
+        display_name: Taleefanka / faahfaahinta xiriirka kale
+      closure_care_arrangements_separator:
+        display_name: Habaynta daryeelka marka la xidho
+      closure_current_care_arrangement:
+        display_name: Daryeelka hadda/habaynta nololeed ee ilmaha
+        option_strings_text:
+          parent_s: waalidinta(s)
+          step_parent: Waalidka dhalay
+          customary_caregiver_s: Daryeel bixiyayaasha(s) caadiga ah
+          kafala: kafala
+          independent_living: Nolol madaxbannaan
+          child_headed_household: Qoyska uu ilmuhu hogaamiyo
+          adult_sibling: Walaalka weyn
+          kinship_care_extended_family: Daryeel qaraabonimo/qoys dheer
+          foster_care: daryeel koritaan
+          residential_care: Daryeelka deegaanka
+          unrelated_adult: Qof weyn oo aan xiriir la lahayn
+          no_care_arrangement: Ma jiro habayn daryeel
+          other: kuwa kale
+      closure_current_care_arrangement_other:
+        display_name: Haddii kale, fadlan sheeg
+      closure_current_care_arrangement_permanent:
+        display_name: Kani ma habka daryeelka joogtada ah
+      closure_current_care_arrangement_permanent_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      primary_caregiver_separator:
+        display_name: Faahfaahinta daryeel bixiyaha aasaasiga ah
+      name_caregiver_closing:
+        display_name: Magaca Daryeelaha
+      relationship_caregiver_closing:
+        display_name: jacaylka ubadka
+      address_caregiver_closing:
+        display_name: Ciwaanka Daryeelaha
+      location_caregiver_closing:
+        display_name: Goobta Daryeelaha
+      closure_caregiver_contact_details:
+        display_name: 'Caregiver''s telephone / other contact details
+
+           '
+      closure_arrangements_separator:
+        display_name: Qabanqaabada la sameeyay si loo taageero si guul leh oo kiiska loo xiro
+      case_closure_process:
+        display_name: Sharax habka xidhitaanka kiiska
+        help_text: Faah faahin ka bixi shirar la qabtay si looga wada hadlo xiritaanka kiiska tusaale. inta u dhaxaysa shaqaalaha kiiska iyo ilmaha, inta u dhaxaysa shaqaalaha(s) kiis iyo daryeelaha, inta u dhaxaysa shaqaalaha kiiska iyo kormeeraha.
+      closure_discussed_child:
+        display_name: Miyaa laga wada hadlay xidhitaanka kiiska oo ma lagala heshiiyay ilmaha?
+      closure_discussed_child_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      closure_discussed_caregiver:
+        display_name: Kiiska xidhitaanka miyaa laga wada hadlay oo lagu heshiiyey daryeel bixiyayaasha?(s)
+      closure_discussed_caregiver_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      closure_child_feedback_form:
+        display_name: Warcelinta ku saabsan habka maaraynta kiiska miyaa laga soo ururiyay ilmaha iyadoo la adeegsanayo 'foomka jawaab celinta ilmaha'?
+      closure_child_feedback_form_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      closure_caregiver_feedback_form:
+        display_name: Jawaab celinta habka maaraynta kiiska miyaa laga soo ururiyay daryeelaha iyadoo la adeegsanayo 'foomka jawaab celinta daryeel bixiyaha'?
+      closure_caregiver_feedback_form_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      closure_final_followup_meeting:
+        display_name: Miyaa la qorsheeyey kulan dabagal ah oo u dambeeya muddo 3 bilood gudahood ah oo lala yeesho ilmaha iyo/ama daryeelaha(yaasha) si loo hubiyo in xaaladdu ay tahay mid deggan?
+      closure_final_followup_meeting_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      closure_child_case_file_complete:
+        display_name: Galka kiiska cunugga ma yahay mid dhameystiran oo cusub oo ay ku jiraan dhammaan dukumeentiyada la xiriira?
+      closure_child_case_file_complete_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      closure_case_file_stored:
+        display_name: Sidee loo kaydiyaa faylka kiiska?
+        option_strings_text:
+          electronically: Electronic ahaan
+          hard_copy: Nuqul adag
+          both: labadaba
+      closure_case_file_stored_date:
+        display_name: Ilaa taariikhda intee le'eg ayaa la kaydin doonaa faylka kiiska ilmaha?
+      closure_child_told_contact_support:
+        display_name: Ilmaha ma loo sheegay cidda uu la xidhiidho haddii isaga/iyada ay qabaan su'aalo, walaac ama ay helaan taageero haddii loo baahdo?
+      closure_child_told_contact_support_no:
+        display_name: Haddii ay maya tahay, fadlan sheeg sababta
+      closure_child_contact_support:
+        display_name: Yaa ilmaha loo sheegay inuu la xidhiidho haddii isaga/iyada ay qabaan su'aalo, walaac ama inay helaan taageero haddii loo baahdo?
+        help_text: Bixi magacyada iyo faahfaahinta xiriirka

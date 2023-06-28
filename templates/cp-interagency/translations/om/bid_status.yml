@@ -1,0 +1,18 @@
+---
+om:
+  bid_status:
+    name: Sadarkaa Faayidaa Ol’aanaa Murteesuu/FOM/
+    description: Guca Faayidaa Ol’aanaa Murteesuu
+    fields:
+      assessment_formal_bid:
+        display_name: "Faayidaa Ol’aanaa Murteesuun seera qabeesaa ni barbaachisa? "
+        help_text: Kan murtaa'u haala fi qindoomina UNHCR waliin ta'a.
+      assessment_bid_direction:
+        display_name: "Yoo eeyyeen ta'e maaloo kallattii Faayidaa Ol’aanaa Murteesuu filadhu : "
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Daa'ima maatii ykn kunuunsittoota hin qabneef furmaata waaraa adda baasuu.
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Daa'immaan saaxilamoo fi rakkoo addaa qabaniif filannoowwan sirrii ta'an murteessuu/Fkn maatiitti makuu fi kunuunsa yeroo)
+          possible_separation_of_a_child_from_parents_against_their_will: Carraan daa'imni fedhii malee maatii biraa adda itti  bahuuf jedhan jira.
+      assessment_bid_details:
+        display_name: Ibsa gadi fageenya
+        help_text: Ibsa gadi fageenya kennuun  fi  Guca Faayidaa Ol’aanaa Murteesuu UNHCRtiin  itti fufuu .

@@ -1,0 +1,8 @@
+---
+am-ET:
+  other_documents:
+    name: ሌሎች ሰነዶች
+    description: ሌሎች ሰነዶች
+    fields:
+      upload_other_document:
+        display_name: ሌሎች ሰነዶች

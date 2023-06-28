@@ -1,0 +1,48 @@
+---
+am-ET:
+  tracing:
+    name: ማፈላለግ/ማገናኘት
+    description: ማፈላለግ/ማገናኘት
+    fields:
+      matched_tracing_request_id:
+        display_name: የተዛማጅ የመከታተያ ጥያቄ መታወቂያ
+      separation_separator:
+        display_name: መለያየት ታሪክ
+      tracing_status:
+        display_name: የመከታተያ ሁኔታ
+      date_of_separation:
+        display_name: የተለያየበት ቀን
+      separation_cause:
+        display_name: "የተለያየበት ዋና ምክንያት ምን ነበር?"
+      separation_cause_other:
+        display_name: ሌሎች ካሉ እባክዎን ይግለጹ
+      separation_other_applicable_causes:
+        display_name: 'እንደአስፈላጊነቱ  ሌሎች የመለያየት ምክንያቶች ምን ነበሩ?'
+      separation_details:
+        display_name: የመለያየት ሁኔታዎች (እባክዎ ዝርዝሮችን ይስጡ)
+      separation_additional_movements:
+        display_name: ከተለያየበት ቦታ እና አሁን ህጻኑ በሚገኝበት ቦታ መካከል ተጨማሪ እንቅስቃሴዎችን ይግለጹ
+      separation_witnessed_violence:
+        display_name: "ህጻኑ በጉዞው ወቅት ማንኛውንም አይነት ጥቃት፣ ጥቃተት ሙከራ ወይም ጉዳት አጋጥሞታል ወይም አይቷል?"
+      separation_witnessed_violence_comments:
+        display_name: ህጻኑ ስላጋጠመው/የመሰከረው ነገር ዝርዝሮች
+      address_separation:
+        display_name: የተለያየበት  አድራሻ (ቦታ)
+      location_separation:
+        display_name: "የተለያየበት አድራሻ "
+      additional_tracing_info:
+        display_name: "ለመፈለግ የሚረዳ ተጨማሪ መረጃ?"
+      evacuation_status:
+        display_name: "ልጅ ተለቅቋል/ወተዋል?"
+      evacuation_agent:
+        display_name: "አዎ ከሆነ፣ በየትኛው ድርጅት/ተቋም በኩል?"
+      evacuation_from:
+        display_name: የወጣው ከ...
+      evacuation_date:
+        display_name: የወጣበት ቀን
+      evacuation_to:
+        display_name: ወደ ወጧል
+      care_arrangements_arrival_date:
+        display_name: የመድረሻ ቀን
+      tracing_actions_section:
+        display_name: የመከታተያ/የመፈለጊያ እርምጃዎች

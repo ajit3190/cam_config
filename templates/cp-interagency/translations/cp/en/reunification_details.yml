@@ -1,8 +1,0 @@
----
-en:
-  reunification_details:
-    name: Reunification Details
-    description: Reunification Details
-    fields:
-      reunification_details_section:
-        display_name: Reunification Details

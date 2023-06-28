@@ -43,9 +43,6 @@ require_relative 'users/default_user_groups.rb'
 
 require_relative '../../common/users/default_users_mrm.rb'
 
-puts 'Seeding Default Reports'
-Dir[File.dirname(__FILE__) + '/reports/*.rb'].sort.each(&method(:require))
-
 puts 'Seeding Contact Information'
 require_relative 'system_settings/contact_information.rb'
 

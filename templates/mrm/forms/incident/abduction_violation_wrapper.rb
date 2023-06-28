@@ -40,13 +40,30 @@ abduction_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'name' => 'abduction_purpose',
     'type' => 'select_box',
-    'display_name_en' => 'Purpose of the abduction',
+    'display_name_en' => 'Purpose of the abduction [old]',
     'multi_select' => true,
+    'option_strings_source' => 'lookup lookup-abduction-purpose'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'name' => 'abduction_purpose_single',
+    'type' => 'select_box',
+    'display_name_en' => 'Purpose of the abduction',
+    'multi_select' => false,
     'option_strings_source' => 'lookup lookup-abduction-purpose'
   ),
   Field.new(
@@ -64,7 +81,7 @@ abduction_subform_fields = [
     'name' => 'abduction_purpose_other',
     'type' => 'text_field',
     'display_name_en' => "If ‘Other', please provide details",
-    'display_conditions_subform' => { 'in' => { 'abduction_purpose' => %w[other] } }
+    'display_conditions_subform' => { 'in' => { 'abduction_purpose_single' => %w[other] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -131,7 +148,7 @@ abduction_subform_fields = [
     'name' => 'abduction_crossborder',
     'type' => 'select_box',
     'display_name_en' => 'Was this a cross-border violation?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -148,7 +165,7 @@ abduction_subform_fields = [
     'name' => 'associated_violation_status',
     'type' => 'select_box',
     'display_name_en' => 'Did the violation occur during or as a direct result of, or was related to, another violation?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -166,7 +183,7 @@ abduction_subform_fields = [
     'multi_select' => true,
     'display_name_en' => "If 'Yes', please specify:",
     'option_strings_source' => 'lookup lookup-violation-type',
-    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -183,7 +200,7 @@ abduction_subform_fields = [
     'name' => 'abduction_regained_freedom',
     'type' => 'select_box',
     'display_name_en' => 'Did any of the victims eventually regain freedom?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -201,7 +218,7 @@ abduction_subform_fields = [
     'display_name_en' => 'If yes, how did the abduction end?',
     'multi_select' => true,
     'option_strings_source' => 'lookup lookup-regained-freedom-how',
-    'display_conditions_subform' => { 'eq' => { 'abduction_regained_freedom' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'abduction_regained_freedom' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -220,7 +237,7 @@ abduction_subform_fields = [
     'display_name_en' => "If ‘Other', please provide details ",
     'display_conditions_subform' => {
       'and' => [
-        {'eq' => { 'abduction_regained_freedom' => 'true' }},
+        {'eq' => { 'abduction_regained_freedom' => 'yes' }},
         {'in' => { 'abduction_regained_freedom_how' => %w[other] }}
       ]
     }
@@ -344,7 +361,7 @@ abduction_subform_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -358,7 +375,7 @@ abduction_subform_fields = [
     'type' => 'date_field',
     'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of determination of verification status by focal point.',
-    'display_conditions_subform' => { 'eq' => { 'verified' => 'verified' } }
+    'display_conditions_subform' => { 'in' => { 'verified' => %w[verified not_mrm verification_found_that_incident_did_not_occur] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -412,11 +429,11 @@ abduction_subform_fields = [
     'display_name_en' => 'Verification status as agreed by the CTFMR',
     'option_strings_source' => 'lookup lookup-verification-status',
     'selected_value' => 'report_pending_verification',
-    'help_text_en' => "Please provide further details in the 'Additional details on verification process/decision' box.This field is required for reporting."
+    'help_text_en' => "This field is required for reporting."
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -431,7 +448,7 @@ abduction_subform_fields = [
     'display_name_en' => 'Date of Verification decision by CTFMR',
     'date_validation' => 'not_future_date',
     'help_text_en' => '',
-    'display_conditions_subform' => { 'eq' => { 'ctfmr_verified' => 'verified' } }
+    'display_conditions_subform' => { 'in' => { 'ctfmr_verified' => %w[verified not_mrm verification_found_that_incident_did_not_occur] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -485,7 +502,7 @@ abduction_subform = FormSection.create_or_update!(
   is_nested: true,
   is_first_tab: false,
   initial_subforms: 1,
-  collapsed_field_names: ['abduction_purpose'],
+  collapsed_field_names: ['abduction_purpose_single'],
   mobile_form: false,
   subform_append_only: false
 )

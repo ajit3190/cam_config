@@ -1,0 +1,108 @@
+so:
+  basic_identity:
+    name: Faahfaahinta ilmaha
+    description: Macluumaadka aqoonsiga aasaasiga ah ee ku saabsan ilmo kala maqan ama aan lala socon.
+    fields:
+      case_id_display:
+        display_name: Aqoonsiga kiiska
+      cpims_id:
+        display_name: Kiiskii Hore
+        help_text: Legacy CPIMS (ama nidaam kale) aqoonsiga
+      marked_for_mobile:
+        display_name: Lagu calaamadeeyay mobilka?
+        tick_box_label: 'haa'
+      child_status:
+        display_name: Xaalada Kiis
+      case_status_reopened:
+        display_name: kiis dib loo furay
+        tick_box_label: 'haa'
+      case_status_reopened_reasons:
+        display_name: sababta dib loogu furayo
+        option_strings_text:
+          break_down_of_reunification_placement: Burburinta dib-u-midaynta/meelaynta
+          death_of_caregiver_s: Dhimashada daryeel bixiyayaasha(s)
+          physical_abuse_violence: Xadgudub jireed / rabshad
+          sexual_abuse_violence: Xadgudub galmo/rabsho
+          emotional_or_psychological_abuse_violence: Xadgudub niyadeed ama maskaxeed
+          physical_neglect: Dayaca jirka
+          emotional_neglect: Dayaca dareenka
+          medical_neglect: Dayaca caafimaadka
+          educational_neglect: dayac waxbarasho
+          supervisory_neglect: Dayacaada kormeerka
+          abandonment: Ka tagid
+          child_labour: caruurta shaqeeya
+          hazardous_work: qataraha shaqada
+          sexual_exploitation: Ka faa'iidaysiga galmada
+          slavery_sale_trafficking_forced_labour: Addoonsiga / iibinta / ka ganacsiga / shaqada qasabka ah
+          in_conflict_with_the_law: Sharciga khilaafsan
+          associated_with_armed_forces_or_groups: Ku xidhan ciidamada ama kooxaha
+          unaccompanied: Aan lala socon
+          separated: laga soocay
+          orphan: agoon
+          functional_difficulties: Dhibaatooyinka shaqada (tusaale, aragga, maqalka, socodka, xidhiidhka, xusuusta/xoojinta, is-daryeelka)
+          psychosocial_distress: Cidhiidhi nafsiyeed
+          substance_abuse_and_addiction_child: Ku xad-gudubka maandooriyaha iyo balwadda (ilmo)
+          belongs_to_marginalised_discriminated_group: Ka tirsan yahay kooxda la takooro/la takooro
+          lack_of_documentation_birth_registration: La'aanta dukumeenti / diiwangelinta dhalashada
+          child_marriage: guurka ilmaha
+          fgm: GUDNINKA DUMARKA
+          pregnancy_child_parent: Uurka / waalidka ilmaha
+          inappropriate_care_arrangement: Habayn daryeel aan habboonayn ( tusaale > 8 carruur ah oo guriga ku jira, ku xadgudubka maandooriyaha daryeelaha, daryeel bixiye nugul)
+          other: kuwa kale
+      name:
+        display_name: magaca dhameystiran
+      name_first:
+        display_name: magaca hore
+      name_middle:
+        display_name: magaca dhexe
+      name_last:
+        display_name: magaca udanbeyo
+      name_nickname:
+        display_name: naanes
+      name_other:
+        display_name: magac kale
+      registration_date:
+        display_name: waqtiga ladiwangeliyay
+      identification_date:
+        display_name: Taariikhda Kiis La aqoonsaday / La sheegay
+      assessment_due_date:
+        display_name: aariikhda Qiimaynta
+      sex:
+        display_name: jinsiga
+      age:
+        display_name: da da
+      date_of_birth:
+        display_name: tarikhda dhalashada
+      estimated:
+        display_name: dada mala qiyasay
+        tick_box_label: 'haa'
+      national_id_no:
+        display_name: ID numberka aqoonsiga
+      unhcr_individual_no:
+        display_name: '57
+
+          UNHCR nomberka aqoonsiga'
+      other_id_type:
+        display_name: Nooca dukumeentiga aqoonsiga kale ee khuseeya
+      other_id_no:
+        display_name: Tirada aqoonsiga kale ee khuseeya
+      nationality:
+        display_name: dhalasho
+      ethnicity:
+        display_name: Qowmiyad/Qabiil/Qabiil
+      sub_ethnicity_1:
+        display_name: Qowmiyad hoose 1
+      sub_ethnicity_2:
+        display_name: Qowmiyad hoose 2
+      language:
+        display_name: Luuqadaha uu ilmuhu ku hadlo
+      religion:
+        display_name: diinta
+      displacement_status:
+        display_name: Kooxda Dadweynaha
+      displacement_status_other:
+        display_name: Haddii Kale, fadlan sheeg
+      disability_type_communications:
+        display_name: Baahiyaha isgaarsiineed ee gaarka ah
+      telephone_current:
+        display_name: Taleefanka ilmaha / faahfaahinta xiriirka kale

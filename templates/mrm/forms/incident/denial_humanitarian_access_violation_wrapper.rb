@@ -132,7 +132,7 @@ human_impact_attack_subform_fields = [
     'name' => 'associated_violation_status',
     'type' => 'select_box',
     'display_name_en' => 'Did the violation occur during or as a direct result of, or was related to, another violation?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -150,7 +150,7 @@ human_impact_attack_subform_fields = [
     'multi_select' => true,
     'display_name_en' => 'If yes, please specify:',
     'option_strings_source' => 'lookup lookup-violation-type',
-    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -167,7 +167,7 @@ human_impact_attack_subform_fields = [
     'name' => 'denial_crossborder',
     'type' => 'select_box',
     'display_name_en' => 'Was this a cross-border violation?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -654,7 +654,7 @@ human_impact_attack_subform_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -668,7 +668,7 @@ human_impact_attack_subform_fields = [
     'type' => 'date_field',
     'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of determination of verification status by focal point.',
-    'display_conditions_subform' => { 'eq' => { 'verified' => 'verified' } }
+    'display_conditions_subform' => { 'in' => { 'verified' => %w[verified not_mrm verification_found_that_incident_did_not_occur] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -722,11 +722,11 @@ human_impact_attack_subform_fields = [
     'display_name_en' => 'Verification status as agreed by the CTFMR',
     'option_strings_source' => 'lookup lookup-verification-status',
     'selected_value' => 'report_pending_verification',
-    'help_text_en' => "Please provide further details in the 'Additional details on verification process/decision' box.This field is required for reporting."
+    'help_text_en' => "This field is required for reporting."
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -741,7 +741,7 @@ human_impact_attack_subform_fields = [
     'display_name_en' => 'Date of Verification decision by CTFMR',
     'date_validation' => 'not_future_date',
     'help_text_en' => '',
-    'display_conditions_subform' => { 'eq' => { 'ctfmr_verified' => 'verified' } }
+    'display_conditions_subform' => { 'in' => { 'ctfmr_verified' => %w[verified not_mrm verification_found_that_incident_did_not_occur] } }
   ),
   Field.new(
     'mobile_visible' => true,

@@ -1,0 +1,9 @@
+---
+am-ET:
+  tracing_request_photos_and_audio:
+    name: ፎቶዎች እና ድምጽ
+    fields:
+      current_photo_key:
+        display_name: የአሁን ፎቶዎች ቁልፍ
+      recorded_audio:
+        display_name: የተቀዳ ድምጽ

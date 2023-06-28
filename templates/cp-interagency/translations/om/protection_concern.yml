@@ -1,0 +1,16 @@
+---
+om:
+  protection_concern:
+    name: Yaaddoowwan/sodaa/ Eegumsa daa'imaa.
+    description: Yaaddoowwan/sodaa/ Eegumsa daa'imaa.
+    fields:
+      risk_level:
+        display_name: Sadarkaa balaa.
+      displacement_status:
+        display_name: Garee uummataa.
+      displacement_status_other:
+        display_name: "Kan biraa yoo jiraate ta'e,ibsaa maaloo."
+      protection_concerns:
+        display_name: Yaaddoowwan/sodaa/ Eegumsa Daa'imaa.
+      protection_concerns_other:
+        display_name: "Kan biraa yoo jiraate ta'e, ibsaa maaloo."

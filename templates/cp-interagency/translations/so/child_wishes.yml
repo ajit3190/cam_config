@@ -1,0 +1,45 @@
+so:
+  child_wishes:
+    name: Rabitaanka ilmaha
+    description: Rabitaanka ilmaha
+    fields:
+      wishes_child_family_tracing:
+        display_name: Ilmuhu ma rabaa inuu raad raaco xubnaha qoyska?
+      wishes_reason_no_tracing:
+        display_name: Haddii ilmuhu aanu doonayn raadinta qoyska, sharax sababta
+      wishes_reunification:
+        display_name: Ilmuhu ma rabaa midaynta qoyska?
+        option_strings_text:
+          yes_as_soon_as_possible: Haa, sida ugu dhakhsaha badan
+          yes_but_later: Haa, laakiin ka dib
+          not_sure: Ma hubo
+          'no': 'maya'
+      wishes_reason_no_reunification:
+        display_name: Haddii 'Maya', 'Ma hubo', ama 'Haa, laakiin mar dambe', sharax sababta
+      wishes_contacted:
+        display_name: Ilmuhu miyuu maqlay/la xidhiidhay cid qaraabo ah?
+      wishes_contacted_details:
+        display_name: Fadlan Faahfaahin ka bixi
+      child_preferences_section:
+        display_name: Fadlan Faahfaahin ka bixi
+      wishes_care_arrangement_desired:
+        display_name: Ilmuhu ma wuxuu rabaa inuu ku sii wato nidaamka daryeelka hadda?
+      wishes_reason_no_care_arrangement:
+        display_name: Haddii ilmuhu aanu doonayn inuu ku sii jiro nidaamka daryeelka hadda, sharax sababta
+      wishes_care_arrangement_type_desired:
+        display_name: Nooca habaynta daryeelka uu ilmuhu rabo inuu yeesho
+        option_strings_text:
+          independent_living: Nolol madax banaan
+          alternative_interim_care: Daryeel ku meel gaar ah oo beddelka ah
+          with_husband_wife_partner: Ninkeeda/xaaskaaga/lammaanahaaga
+          other_family: Qoyska kale
+          dont_know: Ma garanayo
+          other: kuwa kale
+      wishes_care_arrangement_type_other:
+        display_name: Haddii nooca habaynta daryeelka uu ilmuhu doonayo inuu yeesho mid kale, sheeg
+      wishes_location_plan_live:
+        display_name: Halkee buu ilmuhu rabo/qorsheynayaa inuu ku noolaado?
+      wishes_address_plan_live:
+        display_name: Waddada xaggee ilmuhu rabo/qorsheynayaa inuu ku noolaado?
+      wishes_landmarks_plan_live:
+        display_name: Astaamaha caanka ah halkee buu ilmuhu rabo/qorsheynayaa inuu ku noolaado?

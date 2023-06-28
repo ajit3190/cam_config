@@ -1,0 +1,90 @@
+---
+om:
+  conference_details_subform_section:
+    name: "Ibsa gadi fageenyaa konfiransii "
+    description: "Ibsa gadi fageenyaa konfiransii "
+    fields:
+      conference_date:
+        display_name: Guyyaa konfiraansii dhimmaa
+      conference_reason:
+        display_name: Sababa konfiraansii dhimmaa
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: Daa'imaa kunuunsittoota duraa/aadaa/seeraa fuudhuu(Qaamolee mootummaa aangoo qabaniin kan mirkanaa'e)
+          placement_of_a_child_into_alternative_care: " Daa'ima filannoowwan kunuunsa biraa kennuu"
+          situation_of_family_reunification_with_potential_harm_to_the_child: Haala daa'ima deebisanii maatitti makuu-miidhaan daa'ima irra gahuu danda'u jiraachuu isaa
+          relocation_of_the_child: Daa'ima karaa biraatti dabarsuu
+          complex_child_protection_case_requiring_a_multi_partner_intervention: Dhimmi eegumsa daa'imaa wal-xaxxaa tumsa qaamolee hirtaa/qooda fudhattoota baayyee barbaadan
+          other: Kan biroo
+      conference_reason_other:
+        display_name: Kan biroo yoo ta'e maaloo ibsi
+      conference_participants:
+        display_name: Hirmaattota
+        help_text: "Hirmaattoota konfiraansii dhimmaa irratti hirmaatanii hundaa tarreessi. Maqaa,gahee/walitti dhufeenya daa'ima waliin qaban, dhaabbata isaanii fi bilbila ittiin argatan/e-meelii isaanii."
+      conference_current_situation:
+        display_name: "Cuunfaa gabaaba haala dhimmichi yeroo ammaa "
+        help_text: Eegumsa ijoo barbaachisan hundaa caqasi- tajaajila kunuunsa daa'imaa yeroo ammaa fi cuunfaa sababoota konfiraansii dhimmaa
+        guiding_questions: |-
+          Yoo konfiraansiin dhimmaa yeroo karoorri dhimmaa karoorfamu yoo taasifame: Cuunfaa ijoo balaa/sodaa jiranii, daa'imaaf dhimmoota eegumsa ta'an fi fedhiilee daa'imaa(fi naatii)  fedhiilee sakatta'iinsa keessatti adda itti bahan irratti hunda'uun,
+          Konfiraansiin dhimmaa yeroo hordoffii fi dhimmichi ilaalamutti kan gaggeefamu yoo ta'e: Haala waliigalaa daa'imaa yeroo ammaa ibsi
+      conference_discussions_options:
+        display_name: Marii filannoowwan tajaajila/faayidaa daa'imaa isa ol'aanaa eegsisuuf
+        help_text: Filannoowwan tajaajilaa adda bahan dhibbaa gam-lamee daa'ima irratti qaban tarreessi. Faayidaa daa'imaa isa ol'aanaa eegsisuu fi eegsisuu dhabuu isaa haala dhimmicha irratti hunda'uun.
+        guiding_questions: Rakkoolee dhimmicha karaa konfiraansii dhimmaa akka qophaa'uuf sababa ta'an maraa irratti hirmaattootni  marii taasisuun filannoowwan jiran kaasuu isaanii mirkanneefachuu. Hojjetaan dhimmaa/hawaasaa/ yaadannoo gadi fageenyaa marichaa hundaa qabachuu qaba.
+      conference_outcome_recommendations:
+        display_name: Bu'aa fi yaada marichaa
+        help_text: "Cuunfaa ibsa murtiwwan murta'aanii fi yaada ta'ee qabaabsi ka.a'i. Karoora dhimmaa irratti wantootni foyyeessuuf hojjetaa dhimmatiin  karoorfame. "
+      conference_case_status:
+        display_name: Sadarkaa dhimmichi irra jiru.
+        help_text: "Yoo dhimmichi cufamuuf ta'e, maaloo guca cufiinsa dhimmaa guutaa."
+      conference_case_status_other:
+        display_name: Kan biroo yoo ta'e maaloo ibsi
+      conference_other_assessment:
+        display_name: "Haalli jijjiirama daa'ima irrattti dhufe karaa sakatta'iinsi biraa itti gaggeeffamuuf danda'uuf wabii ni kenna?"
+      other_assessment_specify:
+        display_name: Maaloo ibsa dabalataa kenni
+      conference_adjustments:
+        display_name: "Karoora dhimmaa irratti wantootni foyyeessuu barbaachisan ni jira?"
+      adjustments_specify:
+        display_name: Maaloo ibsa dabalataa kenni
+      conference_reason_multi:
+        display_name: "Sadarkaa balaa/sodaa/ dhimmichaa jijjiirame?"
+        option_strings_text:
+          'no': 'Lakki'
+          yes_changed_to_high: "Eeyyeen,karaa ol'aanatti ijjiirame"
+          yes_changed_to_medium: "Eeyyeen, karaa giddugalleessatti jijjiirame"
+          yes_change_to_low: "Eeyyeen, jijjiirama gadi aanaa"
+          yes_changed_to_no: "Eeyyeen, jijjiiramni hin jiru"
+      risk_level_changed_specify:
+        display_name: Maaloo ibsa dabalataa kenni
+      conference_case_transfer_reason:
+        display_name: "Yoo dhimmicha dabarsuuf ta'e, maaloo sababa ibsi"
+        guiding_questions: |-
+          Ibsa dabalataa: 
+          1. Tajaajila ogummaa ol'aanaa barbaadu waan ta'eef dhimmicha qabuuf/ogganuuf dhaabbata biroo wayya.  
+          2. Daa'imni ykn maatiin iddoo /bakka/ jijjiiranii jiru, dhimmi daa'imaa dhaabbata iddoo daa'imman jiraatanitti jijjiiramee jira.  
+          3. Dhimma daa'imaa kana dabarsuuf dhaabbanni sababoota  mataa isaa qaba,dhimmichi cufamee karaa dhabbata birootti darbee jira, 
+          4. Dhimmi/rakkoo/ daa'imaa maatii ykn hawaasa keessatti waan furamuuf dhimmi daa'ima dabarfamaa jira 
+          5. Daa'imni waggaa 18 waan taree fi miidhaalee qaamaa , sammuu waan qabuuf dhaabbilee tajaajila waggaa 18 fi isaa oliif kennuu danda'utti taree jira  
+        option_strings_text:
+          specialized_service: 1. Tajaajila Ogummaa ol'aanaatu barbaachise
+          new_location: 2. Daa'imatu iddoo haraatti darbe
+          organisational_reasons: 3. Sabaaota dhabbatichaa
+          protection_concerns: 4. Rakkoo qabu irraa eegamuuf iddo birratti darbe
+          child_turned_18: 5. Daa'imni waggaa  18 taree jira garuu eegumsi itti fufeenya a ni barbaachisa
+          other: Kan biroo
+      conference_case_transfer_reason_other:
+        display_name: Kan biroo yoo ta'e maaloo ibsi
+      conference_followup_actions:
+        display_name: Raawwiin hordoffii/dabarsuun/tajaajila barbaachisan fi nama itti gaafatummaa qabu.
+        guiding_questions: "Bu'aa konfiraansii dhimmaa, yaadota ka'an  maraa fi raawwii   barbaachisan daa'imaa fi maatiif odeeffannoo kennuu  hin dagatina . Raawwii karoora dhimmaa irratti  hojjetaa dhimmaatiin/hojjetaa hawaasaan foyya'uun barbaachisu,"
+      details_anyone_disagrees:
+        display_name: Odeeffannoo gadi fageenyaa nama qaama ykn kutaa karoora irratti walii hin galinii fi sababa isaa.
+      was_child_present:
+        display_name: "Daa'imni turee?"
+      was_caregiver_present:
+        display_name: "Kunuunsistootni turani?"
+      conference_monitoring_schedule:
+        display_name: Yeroo hordoffii fi duuka bu'iinsa
+        help_text: Fkn. Torbee dhufu Wixata tajaajila kennamu ilaalchisee hordoffii taasisuu fi torbee sanuma keessatti guyyaa jimaaataa haala daa'imni irra jirtu  duuka bu'uu. Ji'a dhufu keessatti yoo xiqqaate torbanitti yeroo lama hordoffii taasisuu. Yoo haalli daa'imaa haala barbaadameen /karoorfameen/ jijjiirame ji'a dhufu keessatti yeroo hordoffii kan jijjiiramu ta'a.
+      date_next_conference:
+        display_name: "Yoo barbaachise, guyyaa konfiraansii itti aanuu"

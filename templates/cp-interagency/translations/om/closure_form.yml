@@ -1,0 +1,139 @@
+---
+om:
+  closure_form:
+    name: Dhimma cufuu
+    description: Cufuu
+    fields:
+      closure_approved:
+        display_name: Oggansan mirkana'ee
+        tick_box_label: 'Eeyyeen'
+      closure_approved_date:
+        display_name: Guyyaa
+      closure_approved_comments:
+        display_name: Yaada Mirkaneessaa/oggansaa/
+      approval_status_closure:
+        display_name: Sadarkaa mirkanneesaa
+      approval_obtained_child:
+        display_name: Daa'imaan eeyyamamee/mirkanaa'ee/
+        tick_box_label: 'Eeyyeen '
+      approval_obtained_caregiver:
+        display_name: Kunuunsittootan eeyyamamee/mirkanaa'ee/
+        tick_box_label: 'Eeyyeen'
+      approval_obtained_details:
+        display_name: Maaloo ibsa dabalataa kenni
+        help_text: Teessoo gadi fageenyaa fi walitti dhufeenya kunuunsittootni daa'ima waliin qaban itti dabalaa
+      child_status:
+        display_name: Sadarkaa dhimmichi irra jiru
+      date_closure:
+        display_name: Guyyaa dhimmichi itti cufame
+      closure_reason:
+        display_name: Sababa duraa dhimmichi itti cufame
+        option_strings_text:
+          overall_goal_of_the_case_plan: "Kaayyoon karoora dhimmaa milka'ee jira,daa'imni yeroo ammaa miidhaa/balaa irraa hafee jira,nageenyummaa fi kunuunsi daa'imaa deeggaramee jira fi rakkoon daa'ima ilaalattu biroo kan hafe hin jiru."
+          child_has_turned_18_years_old: "Daa'imni waggaa 18 taree jira(karoorri ceesisuu ta'ee jira, dhimmichi tajaajila deeggarsaa eessaa fi akkamitti akka argatu ni beeka)"
+          relocation_of_child_to_an_area: Daa'imni iddoo biraatti dabarfamee /dabarfamtee /jirti
+          child_departed_for_a_durable_solution: Dhimmicha dhaabbata itti dabarfamu naannoo keessa waan hin jirreef furmaata waaraaf daa'imni deemee/deemtee jirti.
+          child_no_longer_contactable: Daa'imaa arguuchuu / wal-qunnamuu hin dandeenye(Dhimmicha cufuun dura yoo xiqqaate ji'oota 3  eegi)
+          death_of_child: Da'a daa'amaa
+          no_further_action_possible_required: "Deeggarsa kana caala kennuun hin danda'amne/hin barbaachisne "
+          case_opened_in_error: Dhimmichi yoo dogongorraan baname
+          other: Kan biroo
+      closure_reason_other:
+        display_name: 'Kan biroo yoo ta''e maaloo ibsi'
+      closure_details:
+        display_name: Sababa gadi fageenyaa dhimmichi itti cufamee kenni
+      closure_situation_child_separator:
+        display_name: Yeroo dhimmichi cufamutti haala daa'imni irra jiru
+      closure_how_long_case_opened:
+        display_name: Yeroo meeqaaf dhimmi kun banamee turee
+        help_text: Guyyoota torbaniin lakka'amuu
+      closure_current_situation:
+        display_name: Cuunfaa gabaaba haala dhimmichi yeroo ammaa irra jiru
+        help_text: "Seenaa dhimmicha duraa fi yeroo ammaa irra jiruu ibsi, tajaajila dhumaa kenname/tarkaffii fudhatame dabalatee,"
+      closure_child_moving_separator:
+        display_name: Daa'imni iddoo biraa deemaa jira
+      closure_new_child_location:
+        display_name: Teessoo/iddoo haraa daa'imni jiraachaa jiruu
+        help_text: "Amma danda'amaa ta'etti teessoo/iddoo haraa daa'imaa gadi fageenyaan ibsuun namni biroo salphaan akka argachuu danda'u taasisaa fkn mana,daangaa,karaa,magaala/mandara,ganda fi kkf (haala keesan irratti hunda'uun)"
+      closure_new_telephone_contact_details:
+        display_name: Bilbilaa fi teessoo gadi fageenyaa biroo
+      closure_care_arrangements_separator:
+        display_name: Tajaajila kunuunsa yeroo cufiinsa dhimmaa
+      closure_current_care_arrangement:
+        display_name: Kunuunsa  daa'imaa yeroo ammaa/haala mijaa'ina jireenyaa
+        option_strings_text:
+          parent_s: Maatii
+          step_parent: Abbaa/haadha biddeenaa
+          customary_caregiver_s: Kunuunsittoota beekaman/barame/
+          kafala: "Filannoo kunuunsa hawaasa bu'urreefate/ amantaa (Fkn Amantaa musilimaan Kafala) "
+          independent_living: "Jireenya qofaa\n "
+          child_headed_household: Mana /maatii daa'imni gaggeessuu/bulchu
+          adult_sibling: Oboleessa/obboleettii angafa/guddaa/
+          kinship_care_extended_family: "Kunuunsa firaa/Akaakayyuu, eesuma, adaadaa fi kkf"
+          foster_care: Kunuunsa maatii imaanaa
+          residential_care: Kunuunsa manaa/bakka daa'imni jiraatutti kennamu
+          unrelated_adult: Ga'eessota walitti dhufeenya hin qabne
+          no_care_arrangement: Qophiin kunuunsa hin jiru.
+          other: kan biroo
+      closure_current_care_arrangement_other:
+        display_name: Kan biroo yoo ta'e maaloo ibsi
+      closure_current_care_arrangement_permanent:
+        display_name: Kun tajaajila kunuunsaa dhaabbataadha
+      closure_current_care_arrangement_permanent_no:
+        display_name: "Lakki , ta'e maaloo  sababa isaa ibsi"
+      primary_caregiver_separator:
+        display_name: Teessoo gadi fageenyaa kunuunsittoota duraa
+      name_caregiver_closing:
+        display_name: Maqaa kunuunsittoota
+      relationship_caregiver_closing:
+        display_name: Walitti dhufeenya daa'ima waliin qabu.
+      address_caregiver_closing:
+        display_name: Teessoo guddistootaa/ kunuunsittootaa/
+      location_caregiver_closing:
+        display_name: Teessoo Kunuunsittootaa
+      closure_caregiver_contact_details:
+        display_name: Bilbilaa fi teessoo gadi fageenyaa kunuunsittootaa
+      closure_arrangements_separator:
+        display_name: Qophiin kunuunsaa dhimmichi milka'inaan akka cufamuuf deeggarsa taasisuuf
+      case_closure_process:
+        display_name: Adeemsa cufiinsa dhimmaa ibsa
+        help_text: "Dhimmicha cufuuf waltajjiiwwan gaggeefaman gadi fagenyan ibsa fkn daa'imaa fi hojjetaa dhimmaa waliin, hojjetaa dhimmaa fi kunuunsittoota waliin, suparvaazaraa fi hojjetaa dhimmaa giddutti."
+      closure_discussed_child:
+        display_name: Cufiinsi dhimmichaa daa'ima waliin mari'atamee waliif galamee jira.
+      closure_discussed_child_no:
+        display_name: "Lakki ,yoo  ta'e maaloo sababa isaa ibsi"
+      closure_discussed_caregiver:
+        display_name: Cufiinsi dhimmichaa kunuunsittoota waliin mari'atamee waliif galamee jira.
+      closure_discussed_caregiver_no:
+        display_name: "Lakki ,yoo ta'e maaloo sababa isaa ibsi"
+      closure_child_feedback_form:
+        display_name: "Dub-deebiin adeemsa bulchiinsa dhimmaa ilaalchisee akkaataa guca dub-deebii daa'imatiin daa'ima irraa fudhatamee jira?"
+      closure_child_feedback_form_no:
+        display_name: "Lakki ,yoo ta'e maaloo sababa isaa ibsi"
+      closure_caregiver_feedback_form:
+        display_name: "Dub-deebiin adeemsa bulchiinsa dhimmaa ilaalchisee akkaataa guca dub-deebii kunuunsitootan kunuunsittoota irraa fudhatamee jira?"
+      closure_caregiver_feedback_form_no:
+        display_name: "Lakki ,yoo ta'e maaloo sababa isaa ibsi"
+      closure_final_followup_meeting:
+        display_name: "Haalli jiru nagaan akka itti fufu mirkanneefachuuf waltajjiin hordoffii  xummuraa ji'oota 3 keessatti gaggeessuuf daa'ima fi guddistoota karoorfamee jira?"
+      closure_final_followup_meeting_no:
+        display_name: "Lakki ,yoo ta'e maaloo sababa isaa ibsi"
+      closure_child_case_file_complete:
+        display_name: "Galmeen dhimma daa'imaa guutuu fi odeeffannoon barbaachisan hunduu  itti dabalamee jira? "
+      closure_child_case_file_complete_no:
+        display_name: "Lakki ,yoo ta'e maaloo sababa isaa ibsi"
+      closure_case_file_stored:
+        display_name: "Galmeen dhimmicha haala kamiin ta'a?"
+        option_strings_text:
+          electronically: Meeshaalee teeknoolijjii kanneen akka kompuutaraan
+          hard_copy: Waraqaan
+          both: Lamaanuu
+      closure_case_file_stored_date:
+        display_name: "Galmeen dhimma daa'imaa guyyaa meeqaaf ta'a/qabama?"
+      closure_child_told_contact_support:
+        display_name: "Daa'imni yoo gaafii, qabaate, dhimma ykn deeggarsa argachuu barbaade eenyu akka qunnamuu  akka qabu itti himamee?"
+      closure_child_told_contact_support_no:
+        display_name: "Lakki ,yoo ta'e maaloo sababa isaa ibsi"
+      closure_child_contact_support:
+        display_name: "Daa'imni yoo gaafii, qabaate, dhimma ykn deeggarsa argachuu barbaade eenyu akka qunnamu itti himame? "
+        help_text: Maqaa fi teessoo gadi fageenyaa kenni/kaa'i

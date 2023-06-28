@@ -1,0 +1,10 @@
+---
+om:
+  reopened_logs:
+    name: Dhimma irra deebiin baname.
+    description: Unka/Guca xixiqqaa dhimma irra deebiin banamee.
+    fields:
+      reopened_date:
+        display_name: Guyya irra deebiin itti baname.
+      reopened_user:
+        display_name: "Qaama irra deebi'ee bane. "

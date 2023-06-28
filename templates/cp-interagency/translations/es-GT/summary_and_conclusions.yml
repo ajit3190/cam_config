@@ -1,0 +1,18 @@
+es-GT:
+  summary_and_conclusions:
+    name: Resumen y Conclusiones
+    description: Formulario de Resumen y Conclusiones
+    fields:
+      assessment_summary:
+        display_name: Resumen
+        help_text: Resuma los factores de riesgo clave, los factores de protección y las necesidades en función de las secciones de evaluación anteriores y tenga en cuenta las opiniones y los deseos del niño/a (y la familia).
+      protection_concerns:
+        display_name: Necesidades de protección
+        help_text: Campo compartido con formulario de Necesidades de Protección
+      protection_concerns_other:
+        display_name: Si otro, favor especificar
+      risk_level:
+        display_name: Nivel de riesgo
+        help_text: Este campo también está en el formulario de Necesidades de Protección. Si no hay nivel de riesgo, el caso puede ser cerrado.
+      assessment_risk_level_reasons:
+        display_name: Resumen de motivos para el nivel de riesgo

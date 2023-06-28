@@ -156,6 +156,7 @@ cp_caseworker_permissions = [
       Permission::EXPORT_UNHCR,
       Permission::SYNC_MOBILE,
       Permission::REQUEST_APPROVAL_CASE_PLAN,
+      Permission::REQUEST_APPROVAL_ASSESSMENT,
       Permission::SEARCH_OWNED_BY_OTHERS,
       Permission::INCIDENT_FROM_CASE,
       Permission::CREATE,
@@ -249,6 +250,7 @@ cp_manager_permissions = [
       Permission::EXPORT_UNHCR,
       Permission::SYNC_MOBILE,
       Permission::APPROVE_CASE_PLAN,
+      Permission::APPROVE_ASSESSMENT,
       Permission::SEARCH_OWNED_BY_OTHERS,
       Permission::INCIDENT_FROM_CASE,
       Permission::VIEW_PROTECTION_CONCERNS_FILTER,
@@ -580,7 +582,7 @@ ftr_manager_permissions = [
   ),
   Permission.new(
     resource: Permission::POTENTIAL_MATCH,
-    actions: [Permission::READ]
+    actions: [Permission::READ, Permission::VIEW_PHOTO, Permission::VIEW_AUDIO]
   ),
   Permission.new(
     resource: Permission::DUPLICATE,
@@ -777,7 +779,7 @@ superuser_permissions = [
   ),
   Permission.new(
     resource: Permission::POTENTIAL_MATCH,
-    actions: [Permission::READ]
+    actions: [Permission::MANAGE]
   ),
   Permission.new(
     resource: Permission::DUPLICATE,

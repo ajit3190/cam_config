@@ -1,0 +1,8 @@
+---
+am-ET:
+  tracing_request_tracing_request:
+    name: የመፈለግያ ጥያቄ
+    description: የመፈለግያ ጥያቄ
+    fields:
+      tracing_request_subform_section:
+        display_name: የመፈለግያ ጥያቄ

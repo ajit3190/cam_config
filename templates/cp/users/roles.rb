@@ -562,7 +562,7 @@ ftr_manager_permissions = [
   ),
   Permission.new(
     resource: Permission::POTENTIAL_MATCH,
-    actions: [Permission::READ]
+    actions: [Permission::READ, Permission::VIEW_PHOTO, Permission::VIEW_AUDIO]
   ),
   Permission.new(
     resource: Permission::DUPLICATE,
@@ -646,7 +646,7 @@ superuser_permissions = [
   ),
   Permission.new(
     resource: Permission::POTENTIAL_MATCH,
-    actions: [Permission::READ]
+    actions: [Permission::MANAGE]
   ),
   Permission.new(
     resource: Permission::DUPLICATE,

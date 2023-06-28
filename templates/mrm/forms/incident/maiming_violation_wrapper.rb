@@ -74,14 +74,30 @@ maiming_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
     'name' => 'attack_typeattack_type_other',
     'type' => 'text_field',
-    'display_name_en' => "If ‘Other', please provide details ",
-    'display_conditions_subform' => { 'eq' => { 'attack_type' => 'other' } }
+    'display_name_en' => "If ‘Other', please provide details "
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'weapon_category',
+    'type' => 'select_box',
+    'display_name_en' => 'Category of weapon/method used',
+    'option_strings_source' => 'lookup lookup-weapon-category'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -99,7 +115,14 @@ maiming_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'Type of weapon/method used',
     'option_strings_source' => 'lookup lookup-weapon-type',
-    'guiding_questions_en' => "For further guidance, please refer to UNMAS 'Glossary of mine action terms, definitions and abbreviations', available at: http://www.mineactionstandards.org/fileadmin/MAS/documents/imas-international-standards/english/series 04/IMAS_04.10_Glossary_of_mine_action_terms__definitions_and_abbreviations.pdf; to the UN Coordinating Action on Small Arms (CASA) 'Glossary of terms, definitions and abbreviations', available at: http://www.smallarmsstandards.org/isacs/0120-en.pdf; and to UNIDIR 'Addressing Improvised Explosive Devices' paper, pp. 14-15 available at: http://www.unidir.org/files/publications/pdfs/-en-641.pdf."
+    'guiding_questions_en' => "For further guidance, please refer to UNMAS 'Glossary of mine action terms, definitions and abbreviations', available at: https://www.mineactionstandards.org/fileadmin/MAS/documents/standards/Glossary_of_mine_action_terms_and_abbreviations_Ed.2_Am.10.pdf; UNODA 'Weapons of Mass Destruction' page, available at: https://www.un.org/disarmament/fr/wmd/; UNODA 'Small Arms and Light Weapons' page, available at: https://www.un.org/disarmament/convarms/salw/.",
+    'option_strings_condition' => {
+      'conventional-explosive-weapons' => { 'eq' => { 'weapon_category' => 'conventional_explosive_weapons' } },
+      'weapons-mass-destruction' => { 'eq' => { 'weapon_category' => 'weapons_mass_destruction' } },
+      'small-arms-lights-weapons' => { 'eq' => { 'weapon_category' => 'small_arms_lights_weapons' } },
+      'other-weapon-methods' => { 'eq' => { 'weapon_category' => 'other_weapon_methods' } },
+      'unknown' => { 'eq' => { 'weapon_category' => 'unknown' } }
+    }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -180,7 +203,7 @@ maiming_subform_fields = [
     'name' => 'victim_targeted',
     'type' => 'select_box',
     'display_name_en' => 'Was/were the victim(s) directly targeted?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -197,7 +220,7 @@ maiming_subform_fields = [
     'name' => 'victim_a_participant',
     'type' => 'select_box',
     'display_name_en' => 'Was/were the victim(s) participating in hostilities at the time of the violation?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -214,7 +237,7 @@ maiming_subform_fields = [
     'name' => 'indiscriminate_nature',
     'type' => 'select_box',
     'display_name_en' => 'Any elements pointing to the indiscriminate nature of the attack?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown',
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown',
     'guiding_questions_en' => 'Indiscriminate attacks are those of a nature to strike military objectives and civilians or civilian objects without distinction. e.g. mass bombing, shooting into a crowd because the enemy is hidden somewhere, use of certain weapons (chemical and biological, cluster munitions, barrel bombs, etc.)'
   ),
   Field.new(
@@ -232,7 +255,7 @@ maiming_subform_fields = [
     'name' => 'indiscriminate_nature_yes',
     'type' => 'text_field',
     'display_name_en' => "If 'Yes', please specify ",
-    'display_conditions_subform' => { 'eq' => { 'indiscriminate_nature' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'indiscriminate_nature' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -249,7 +272,7 @@ maiming_subform_fields = [
     'name' => 'associated_violation_status',
     'type' => 'select_box',
     'display_name_en' => 'Did the violation occur during or as a direct result of, or was related to, another violation?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -267,7 +290,7 @@ maiming_subform_fields = [
     'multi_select' => true,
     'display_name_en' => "If 'Yes', please specify:",
     'option_strings_source' => 'lookup lookup-violation-type',
-    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'associated_violation_status' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -284,7 +307,7 @@ maiming_subform_fields = [
     'name' => 'maiming_crossborder',
     'type' => 'select_box',
     'display_name_en' => 'Was this a cross-border violation?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -406,7 +429,7 @@ maiming_subform_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -420,7 +443,7 @@ maiming_subform_fields = [
     'type' => 'date_field',
     'date_validation' => 'not_future_date',
     'display_name_en' => 'Date of determination of verification status by focal point.',
-    'display_conditions_subform' => { 'eq' => { 'verified' => 'verified' } }
+    'display_conditions_subform' => { 'in' => { 'verified' => %w[verified not_mrm verification_found_that_incident_did_not_occur] } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -474,11 +497,11 @@ maiming_subform_fields = [
     'display_name_en' => 'Verification status as agreed by the CTFMR',
     'option_strings_source' => 'lookup lookup-verification-status',
     'selected_value' => 'report_pending_verification',
-    'help_text_en' => "Please provide further details in the 'Additional details on verification process/decision' box.This field is required for reporting."
+    'help_text_en' => "This field is required for reporting."
   ),
   Field.new(
     'mobile_visible' => true,
-    'required' => false,
+    'required' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => false,
@@ -493,7 +516,7 @@ maiming_subform_fields = [
     'display_name_en' => 'Date of Verification decision by CTFMR',
     'date_validation' => 'not_future_date',
     'help_text_en' => '',
-    'display_conditions_subform' => { 'eq' => { 'ctfmr_verified' => 'verified' } }
+    'display_conditions_subform' => { 'in' => { 'ctfmr_verified' => %w[verified not_mrm verification_found_that_incident_did_not_occur] } }
   ),
   Field.new(
     'mobile_visible' => true,

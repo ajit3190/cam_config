@@ -15,8 +15,7 @@ reportable_fields = [
     'type' => 'tick_box',
     'editable' => false,
     'disabled' => true,
-    'display_name_en' => 'Valid Record?',
-    'selected_value' => true
+    'display_name_en' => 'Valid Record?'
   ),
   Field.new(
     'mobile_visible' => true,

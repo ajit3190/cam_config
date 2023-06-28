@@ -1,0 +1,68 @@
+es-GT:
+  consent:
+    name: Consentimiento y asentimiento
+    description: Consentimiento y asentimiento
+    fields:
+      interview_subject:
+        display_name: Consentimiento/Asentimiento Obtenido de
+        option_strings_text:
+          child: Niño/a
+          caregiver: Cuidador/a
+          other: Otro
+      consent_source_other:
+        display_name: Si otro, favor especificar
+      consent_notes:
+        display_name: Notas
+      consent_for_services:
+        display_name: Se ha dado el consentimiento para que el/la niño/a participe en el proceso de gestión de casos.
+        help_text: Si no se ha otorgado el consentimiento, no seleccionar
+        tick_box_label: 'Sí'
+      consent_reporting:
+        display_name: Se da el consentimiento para compartir información no identificable para la presentación de informes
+      consent_for_data_collection:
+        display_name: Se ha dado consentimiento al gestor de casos asignado al caso para recopilar y almacenar información personal sobre el caso (Ej., nombre, foto, detalles familiares).
+      disclosure_other_orgs:
+        display_name: La persona que da su consentimiento acepta compartir información sobre este caso con otros proveedores de servicios de acuerdo con los detalles que se describen a continuación.
+        help_text: Esto incluye compartir información con otras organizaciones que brindan servicios, esto no incluye compartir información con ACNUR.
+        tick_box_label: 'Sí'
+      information_shared_services:
+        display_name: La información puede ser compartida con los siguientes servicios
+        option_strings_text:
+          alternative_care: Cuidado alternativo
+          cash_assistance: Asistencia en efectivo
+          education_formal: Educación (formal)
+          family_tracing_and_reunification: Localización y reunificación familiar
+          food: Alimentación
+          gbv_survivor_support: Apoyo a sobreviviente de BVG
+          legal_support: Asistencia legal
+          livelihoods: Medios de vida
+          medical: Médica
+          mental_health: Salud mental
+          non_food_items: Artículos no alimenticios
+          non_formal_education: Educación no formal
+          nutrition: Nutrición
+          psychosocial_support: Apoyo psicosocial
+          services_for_children_with_disabilities: Servicios para niños con discapacidades
+          shelter: Refugio
+          sexual_and_reproductive_health: Salud Sexual y Reproductiva
+          rescue: Rescate
+          wash: Agua Saneamiento e Higiene
+          case_transfer: Transferencia del Caso
+          other: Otro
+      information_shared_services_other:
+        display_name: Si otro, favor especificar
+      unhcr_export_opt_out:
+        display_name: La persona que da su consentimiento acepta compartir información sobre este caso con el ACNUR para fines de gestión de casos de protección de refugiados.
+        tick_box_label: 'Sí'
+      withhold_details:
+        display_name: Reservar información específica de
+      disclosure_deny_details:
+        display_name: Cuál información específica debe ser reservada
+      withholding_info_reason:
+        display_name: Motivo para reservar información
+        option_strings_text:
+          fear: Temor a hacerse daño a sí mismo o a los demás.
+          communicate_information: Quieren comunicar información ellos mismos
+          others: Otro
+      withholding_info_other_reason:
+        display_name: Si es otro motivo para reservar información, favor especificar

@@ -1,0 +1,8 @@
+---
+am-ET:
+  immediate_concerns:
+    name: የቅርብ ጊዜ ስጋቶች
+    description: የቅርብ ጊዜ ስጋቶች
+    fields:
+      immediate_concern_section:
+        display_name: የቅርብ ጊዜ ስጋቶች

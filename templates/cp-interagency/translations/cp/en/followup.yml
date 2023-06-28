@@ -1,8 +1,0 @@
----
-en:
-  followup:
-    name: Follow Up
-    description: Follow Up
-    fields:
-      followup_subform_section:
-        display_name: Follow Up

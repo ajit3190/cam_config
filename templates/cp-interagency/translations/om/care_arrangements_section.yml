@@ -1,0 +1,101 @@
+---
+om:
+  care_arrangements_section:
+    name: Karoora/qophii/ kunuunsaa manaa
+    description: "Qaama guca qophii kunuunsaa "
+    fields:
+      child_caregiver_reason_change:
+        display_name: Yoo kunuunsaan/kunuunsituun haaraa taate/ta'e sababa jijjiirameef ibsa.
+        option_strings_text:
+          abuse_exploitation: "Miidhaa fi saamicha(Exploitation) "
+          death_of_caregiver: Du'a kunuunsisaa
+          Education: Barnoota
+          ill_health_of_caregiver: Fayyaa dhabuu kunuunsituu/kunuunsaa
+          other: Kan biroo
+          poverty: Hiyyummaa
+          relationship_breakdown: " Walitti dhufeenya adda cite."
+      care_arrangements_type:
+        display_name: "Karoorri/qophiin kunuunsaa yeroo ammaa daa'imaaf jiran maal maali? "
+        option_strings_text:
+          parent_s: Maatii
+          step_parent: Abbaa biddeenaa/hadha biddeenaa/
+          customary_caregiver_s: Kunuunsittoota beekaman/barame/
+          adult_sibling: Oboleessa/obboleettii angafa/guddaa/
+          kinship_care_extended_family: "Kunuunsa firaa/Akaakayyuu, eesuma, adaadaa fi kkf"
+          foster_care: Kunuunsa maatii imaanaa
+          residential_care: Kunuunsa manaa/bakka daa'imni jiraatutti kennamu
+          kafala: "Filannoo kunuunsa hawaasa bu'urreefate/ amantaa (Fkn Amantaa musilimaan Kafala) "
+          independent_living: Jireenya qofaa
+          child_headed_household: Mana /maatii daa'imni gaggeessuu/bulchu
+          unrelated_adult: Ga'eessota walitti dhufeenya hin qabne
+          no_care_arrangement: Qophiin kunuunsa hin jiru.
+          other: Kan biroo
+      care_arrangements_type_other:
+        display_name: Kan biroo yoo ta'e maaloo ibsa.
+      name_caregiver_separator:
+        display_name: "Yoo maatii waliin jiraachuu baate, nama ijoo daa'ima kunuunsaa jiruu."
+      name_caregiver:
+        display_name: Maqaa kunuunsisaa/kunuunistuu yeroo ammaa.
+        help_text: "(Yoo daa'imni maatii waliin kan jiru/jirtu ta'e qophii kunuunsaa itti fufaa)"
+      nickname_caregiver:
+        display_name: "Maqaan kunuunsittootni  itti beekaman biroo. "
+        help_text: "Fkn.Maqaa dabalataa,  maatiin itti beekan"
+      caregiver_age:
+        display_name: Umurii kunuunsituu/kunuunsaa/
+      caregiver_dob:
+        display_name: Guyyaa dhalootaa kunuunsittoota
+      age_estimated_caragiver:
+        display_name: "Umuriin ni tilmaamame?"
+        tick_box_label: 'Eeyyeen'
+      caregiver_sex:
+        display_name: Koorniyaa
+      caregiver_national_id:
+        display_name: Koodii biyyoolessaa/yoo jiraate/
+      caregiver_unhcr_individual_id:
+        display_name: Koodii dhuunfaa UNHCR
+      caregiver_other_id:
+        display_name: Koodii biroo
+      caregiver_related_child:
+        display_name: "Kunuunsitootni daa'ima waliin walitti dhufeenya qaba?"
+      relationship_caregiver:
+        display_name: Walitti dhufeenya daa'ima waliin qabu.
+      caregiver_know_family:
+        display_name: "Yoo walitti dhufeenya hin qabne ta'e kunuunsittootni maatii daa'imaa ni beekuu?"
+      family_size_under_18:
+        display_name: 'Baayyina maatii umurii 18 gadi'
+      family_size_over_18:
+        display_name: 'Baayyina maatii Umurii 18 olii'
+      address_caregiver:
+        display_name: Teessoo guddistootaa/ kunuunsittootaa/
+        guiding_questions: "Guddistootaa/kunuunsittoota yeroo ammaa iddoo daa'imni jiraattu/jiraattu yoo ta'an  teessoo isaanii iddoo kanatti galchaa . Yoo daa'imni teessoo jijjiire, Teessoon kunuunsittootaas kan jijjiiramu ta'a. "
+      location_caregiver:
+        display_name: Teessoo Kunuunsittootaa
+      care_arrangement_started_date:
+        display_name: "Qophiin/karoorri/ kunuunsaas itti eegalu yoomii?"
+      caregiver_willing_to_continue:
+        display_name: "Guddistootni kunuunsa daa'imaa  itti fufsissuuf fedhii qabau?"
+        option_strings_text:
+          yes_short_term: "Eeyyeen, yeroo gabaabaf"
+          yes_long_term: Eeyyeen yeroo eeraaf
+          'no': 'Fedhii hin qaban.'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: "Yoo eeyyan ta'e,yeroo /meeqaaf/amammiif?"
+      caregiver_willing_to_continue_not_reason:
+        display_name: Yoo fedhii hin qabne ibsa kennaa.
+      caregiver_location_status:
+        display_name: "Teessoon kunuunsittoota yeroo ammaa kan yerootti?"
+      address_caregiver_future:
+        display_name: "Yoo eeyyeen ta'e, teessoon isaanii ful-duraa eessaa?"
+      location_caregiver_future:
+        display_name: "Teessoon isaanii ful-duraa eessaa?"
+      telephone_caregiver_future:
+        display_name: "Bilbila harkaa isaanii ?"
+      telephone_caregiver:
+        display_name: Bilbila biroo kunuunsittootaa
+        help_text: Bilbila kunuunsittootaa yeroo ammaa/teessoo biroo galcha.
+      child_consent_caregiver_contacted:
+        display_name: "Daa'imni kunuunsittootni isaa /eshii akka dubbifamaniif waliigaltee isaanii kennanii jiru?"
+      child_consent_caregiver_contacted_no_details:
+        display_name: "Yoo lakki ta'e,ibsa dabalataa kennaa."
+      other_persons_living_in_household:
+        display_name: Namoota biroo maatii waaliin jiraatan.

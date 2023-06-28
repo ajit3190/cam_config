@@ -1,0 +1,44 @@
+es-GT:
+  reunification_details_section:
+    name: Reunificación anidada
+    description: Subformulario de Reunificación
+    fields:
+      name_reunified_adult:
+        display_name: Nombre del adulto con el cual el/la niño/a fue reunificado
+      relationship_reunified_adult:
+        display_name: Relación del adulto con el/la niño/a
+      address_reunified_adult:
+        display_name: Dirección
+      location_reunified_adult:
+        display_name: Ubicación del adulto con el cual el/la niño/a fue reunificado
+      address_reunification:
+        display_name: Dirección en dónde se está llevando a cabo la reunificación
+      location_reunification:
+        display_name: Locación en la cual se está realizando la reunificación
+      reunification_type:
+        display_name: ¿Qué tipo de reunificación es?
+        option_strings_text:
+          case_by_case: Caso por caso
+          informal_spontaneous: Informal/espontánea
+          mass_tracing: Rastreo Masivo
+          mediation: Mediación
+          other: Otro (especificar)
+          photo_tracing: Foto de seguimiento
+          spontaneous: Espontáneo
+      date_reunification:
+        display_name: Fecha de la reunificación
+      child_reunited_with_verified_adult:
+        display_name: ¿Fue reunificado el/la niño/a con el adulto verificado?
+      not_reunited_with_verified_adult_reason:
+        display_name: Si no, ¿cuál fue la razón de este cambio?
+        option_strings_text:
+          change_of_mind: Cambio de Opinión
+          death: Fallecimiento
+          death_of_adult: Fallecimiento del Adulto
+          failed_verification: Verificación fallida
+          n_a: No Aplica
+          other: Otro (especificar)
+      reunification_follow_up_needed:
+        display_name: ¿Hay necesidad de seguimiento?
+      closure_recommendation:
+        display_name: Si no, ¿recomienda que el caso sea cerrado?

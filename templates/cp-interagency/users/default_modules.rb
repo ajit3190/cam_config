@@ -6,7 +6,7 @@ PrimeroModule.create_or_update!(
   unique_id: 'primeromodule-cp',
   name: 'CP',
   description: 'Child Protection',
-  associated_record_types: %w[case tracing_request incident],
+  associated_record_types: %w[case tracing_request incident registry_record],
   form_sections: FormSection.where(unique_id: %w[
                                      activities assessment basic_identity best_interest caafag_profile
                                      care_arrangements care_assessment child_under_5 bia_documents
@@ -23,6 +23,7 @@ PrimeroModule.create_or_update!(
                                      child_feedback_form caregiver_feedback_form
                                      cp_unhcr_bid_report_form assessment_status summary_and_conclusions bid_status referral_details
                                      approvals summary referral incident_from_case transfer_assignments change_logs
+                                     registry_from_case registry_details
                                    ]),
   field_map: {
     map_to: 'primeromodule-cp',
@@ -78,7 +79,7 @@ PrimeroModule.create_or_update!(
     allow_searchable_ids: true,
     use_workflow_service_implemented: true,
     use_workflow_case_plan: true,
-    use_workflow_assessment: false,
+    use_workflow_assessment: true,
     reporting_location_filter: true,
     search_and_create_workflow: true,
     data_protection_case_create_field_names: includeDataProtectionFields ? 

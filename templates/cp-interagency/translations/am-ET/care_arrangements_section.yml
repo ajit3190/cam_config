@@ -1,0 +1,101 @@
+---
+am-ET:
+  care_arrangements_section:
+    name: የአኗኗር ሁኔታ (ከማን ጋር)
+    description: የአኗኗር ሁኔታ (ከማን ጋር) ንዑስ ቅጽ
+    fields:
+      child_caregiver_reason_change:
+        display_name: "አሁን ያለው አዲስ ተንከባካቢ ከሆነ/ች ለምን ተቀየረ/ች?"
+        option_strings_text:
+          abuse_exploitation: ጥቃትና ብዝበዛ
+          death_of_caregiver: የተንከባካቢ ሞት
+          Education: ትምህርት
+          ill_health_of_caregiver: የተንከባካቢ ህመም
+          other: ሌላ
+          poverty: ድህነት
+          relationship_breakdown: የግንኙነት መቋረጥ
+      care_arrangements_type:
+        display_name: የህጻኑ/ኗ የአኗኗር ሁኔታ (ከማን ጋር)
+        option_strings_text:
+          parent_s: ወላጅ/ወላጆች
+          step_parent: የእንጀራ እናት/አባት
+          customary_caregiver_s: ዋና ተንከባካቢ ወላጅ/ወላጆች
+          adult_sibling: አዋቂ ወንድም/እህት
+          kinship_care_extended_family: የተቋጥሮ ዘመድ
+          foster_care: የአደራ ቤተሰብ
+          residential_care: ተቋማዊ ድጋፍ
+          kafala: ካፋላ
+          independent_living: ራስን ችሎ መኖር
+          child_headed_household: በህጻን የሚመራ ቤተሰብ
+          unrelated_adult: ዝምድና የሌለው አዋቂ ሰው
+          no_care_arrangement: መኖሪያ የሌለው/የሌላት
+          other: ሌላ
+      care_arrangements_type_other:
+        display_name: ሌላ ካለ እባክዎ ይጥቀሱ
+      name_caregiver_separator:
+        display_name: አሁን ከወላጆች ጋር ካልኖረ/ች ለህጻኑ/ኗ ድጋፍ የሚያደርገው ሰው
+      name_caregiver:
+        display_name: አሁን ያለው ተንከባካቢ ስም
+        help_text: "(ህጻኑ/ኗ የሚኖረው/የምትኖረው ከወላጆች ጋር ከሆነ ስለ ድጋፍ ሁኔታ ይቀጥሉ)"
+      nickname_caregiver:
+        display_name: ተንከባካቢው/ዋ የሚታወቁበት ሌላ ስም
+        help_text: ለምሳሌ፡ ልዩ ስም፣ የሰፈር ስም፣ የቤት ስም
+      caregiver_age:
+        display_name: የተንከባካቢ ዕድሜ
+      caregiver_dob:
+        display_name: የተንከባካቢ የትውልድ ቀን
+      age_estimated_caragiver:
+        display_name: የተጠቀሰው እድሜ ግምታዊ ነው
+        tick_box_label: 'አዎ'
+      caregiver_sex:
+        display_name: ጾታ
+      caregiver_national_id:
+        display_name: "ብሄራዊ መታወቂያ "
+      caregiver_unhcr_individual_id:
+        display_name: የዩ.ኤን.ሲ.ኤች.አር የግል መታወቂያ
+      caregiver_other_id:
+        display_name: ሌላ መታወቂያ
+      caregiver_related_child:
+        display_name: "ተንከባካቢው ከህጻኑ/ኗ ጋር ዝምድና አለው/አላት?"
+      relationship_caregiver:
+        display_name: የዝምድና አይነት
+      caregiver_know_family:
+        display_name: "ዝምድና ከሌለ ተንከባካቢው/ዋ የህጻኑን/ኗን ዘመዶች ያውቃሉ?"
+      family_size_under_18:
+        display_name: 'የቤተሰብ ብዛት፡ ከ18 ዓመት በታች'
+      family_size_over_18:
+        display_name: 'የቤተሰብ ብዛት፡ ከ18 ዓመት በላይ'
+      address_caregiver:
+        display_name: የተንከባካቢዎች አድራሻ
+        guiding_questions: ከህጻኑ አድራሻ ጋር ተመሳሳይ ቢሆንም እንኳን ህጻኑ/ቤተሰቡ አድራሻ ቢቀይሩ በቀላሉ ለማግኘት እንዲያስችል የተንከባካቢዎችን አድራሻ ያስገቡ
+      location_caregiver:
+        display_name: የተንከባካቢዎች አድራሻ
+      care_arrangement_started_date:
+        display_name: "ህጻኑ አሁን ባለበት ሁኔታ/ቤተሰብ/ መኖር የጀመረው ከመቼ ጀምሮ ነው?"
+      caregiver_willing_to_continue:
+        display_name: "ተንከባካቢው ለህጻኑ/ኗ ድጋፍ በማድረግ ለመቀጠል ስምምነት አለው?"
+        option_strings_text:
+          yes_short_term: አዎ ግን ለአጭር ጊዜ
+          yes_long_term: አዎ፡ ለእረጅም ጊዜ
+          'no': 'የለም'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: አዎ ከሆነ ለምን ያህል ጊዜ
+      caregiver_willing_to_continue_not_reason:
+        display_name: ድጋፍ በማድረግ ለመቀጠል የማይፈልጉ ከሆነ ዝርዝሩን ያስቀምጡ
+      caregiver_location_status:
+        display_name: "ተንከባካቢዎች አሁን ያሉበት አድራሻ ጊዚያዊ ነውን?"
+      address_caregiver_future:
+        display_name: "አዎ ከሆነ ቀጣዩ አድራሻቸው የት ነው?"
+      location_caregiver_future:
+        display_name: "ቀጣዩ ቦታቸው የት ነው?"
+      telephone_caregiver_future:
+        display_name: "ቀጣዩ መገኛ ስልካቸው የቱ ነው?"
+      telephone_caregiver:
+        display_name: የተንከባካቢዎ ስልክ
+        help_text: ተንከባካቢዎች አሁን የሚጠቀሙበትን ስልክ እና ሌሎች የመገናኛ አማራጮችን ያስገቡ
+      child_consent_caregiver_contacted:
+        display_name: "ህጻኑ ተንከባባካቢዎች ጋር ግንኙነት እንዲኖር ስምምነቱን ገልጧል?"
+      child_consent_caregiver_contacted_no_details:
+        display_name: ስምምነቱን ካልገለጸ ዝርዝር ነገር ያካቱ
+      other_persons_living_in_household:
+        display_name: በቤት ውስጥ የሚኖሩ ሌሎች ሰዎች

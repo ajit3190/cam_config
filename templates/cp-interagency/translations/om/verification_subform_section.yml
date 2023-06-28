@@ -1,0 +1,57 @@
+---
+om:
+  verification_subform_section:
+    name: Guca/unka xixiqqaa mirkaneessaa daa'imman iddoo bultii argatan.
+    description: Guca/unka xixiqqaa mirkaneessaa daa'imman iddoo bultii argatan.
+    fields:
+      verification_name_inquirer:
+        display_name: Maqaa Gaafataa.
+      verification_inquirer_relationship:
+        display_name: Firoomina/quunnamtii qaban.
+      verification_inquirer_sex:
+        display_name: Saala.
+      verification_inquirer_age:
+        display_name: Umurii.
+      verification_inquirer_address_current:
+        display_name: Teessoo.
+      verification_inquirer_location:
+        display_name: Bakka /iddoo ammaan tana jiraatan.
+      verification_phone_inquirer:
+        display_name: Bilbila.
+      verification_inquirer_wants_to_care_for_child:
+        display_name: "Daa'imni dhufee isin wajjiin akka  jiraatu barbaadduu?"
+      verification_inquirer_able_to_care_for_child:
+        display_name: "Isa/ishii/isaan kunuunsuu dandeessuu?"
+      verification_alternate_caregiver_exists:
+        display_name: "Yoo hin dandeenye ta'e, miseensi  maatii  biraa  daa'ima kana  fudhachuu danda'u jiraa? "
+      verification_alternate_caregiver_name:
+        display_name: Maqaa nama biraa kunuunsaa daa'imaa.
+      verification_alternate_caregiver_relationship:
+        display_name: Firoomina kunuunsaan filatamaan daa'ima waliin qabu..
+      verification_address_alternate_caregiver:
+        display_name: Teessoo namtichaa  sanaa (kunuunsaa filatamaa)
+      verification_location_alternate_caregiver:
+        display_name: Ganda/naannoo/teessoo kunuunsaan  filatamaan itti argamu.
+      verification_comments:
+        display_name: Yaada.
+      verification_acceptance_date:
+        display_name: Daa'ima kunuunsuuf guyyaa  fudhatama qabu.
+      verification_inquirer_known_to_child:
+        display_name: "Daa'imni kun ga'eessa mirkaneessa gaafate beekaa?"
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: "Daa'imichi nama san  wajjiin deebi'ee waltti makamuuf  fedhii qabaa?"
+      verification_inquirer_information_match:
+        display_name: "Odeeffannoon  daa'imaa fi ga'eessichaan kennaman   walsimaa?"
+      verification_inquierer_recommendation:
+        display_name: "Akka deebi'anii walitti makaman nigorsituu?yoo hin taanee tarkaanfiin biraa fudhattan maal?"
+        option_strings_text:
+          'yes': 'Eeyyeen.'
+          'no': 'Miti.'
+          further_tracing: Barbaacha dabalataa.
+          long_term_alternative_care: Kunuuunsa filatamaa//filannoo yeroo dheeraa.
+          reunification: Maatiin  deebisanii walitti makuu/walitti deebisuu.
+          reunification_enhanced_support: " Deggarsa foyya'aan deebisanii walitti makamuu. "
+      verification_inquierer_recommendation_comments:
+        display_name: Yaada dabalataa/edaasaa.
+      verification_date:
+        display_name: Guyyaa Mirkaneessaa.

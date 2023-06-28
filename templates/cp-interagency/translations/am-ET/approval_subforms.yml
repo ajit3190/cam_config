@@ -1,0 +1,20 @@
+---
+am-ET:
+  approval_subforms:
+    name: የማጽደቂያ ንዑስ ቅጽ
+    description: የማጽደቂያ ንዑስ ቅጽ
+    fields:
+      approval_requested_for:
+        display_name: እንዲያጸድቅ የተጠየቀው አካል
+      approval_response_for:
+        display_name: እንዲጸድቅ የተጠየቀው ጉዳይ
+      approval_for_type:
+        display_name: የድጋፍ እቅድ አይነት
+      approval_date:
+        display_name: ቀን
+      approval_manager_comments:
+        display_name: የማኔጀር አስተያየት
+      approval_status:
+        display_name: ለመጽደቅ ያለበት ሁኔታ
+      approved_by:
+        display_name: ያጸደቀው

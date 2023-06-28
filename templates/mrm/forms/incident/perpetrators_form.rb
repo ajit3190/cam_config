@@ -35,7 +35,7 @@ perpetrator_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'Type of perpetrator',
     'option_strings_source' => 'lookup lookup-perpetrator-category-type',
-    'guiding_questions_en' => "Armed force: Includes police, intelligence and other Governmental security forces, provided that they can be characterized as parties to the conflict. Also includes pro-Government militias that operate under the Government's command and control.  Armed group: Includes pro-Government militias that are not formally under the Government's command and control.  Other party to the conflict: Includes international forces, whether United Nations (UN) or non-UN-mandated.  Unknown: Even when the perpetrator is unknown, the CTFMR needs to be satisified that the violation was perpetrated by a party to the conflict, and thus conflict-related",
+    'guiding_questions_en' => "Armed force: includes police, intelligence and other Governmental security forces, provided that they can be characterized as parties to the conflict. Also includes international coalitions/forces, as they remain State actors, as well as pro-Government forces that operate under the Government's command and control.\nArmed group: includes pro-Government militias that are not formally under the Government's command and control (unless they are listed under State parties in the annexes of the SG Annual Report on CAAC).\nOther party to the conflict: includes peacekeepers, settlers in I/SoP, etc.\nCrossfire: includes crossfire, joint attribution, etc.\nUnknown: even when the perpetrator is unknown, the CTFMR needs to be satisfied that the violation was perpetrated by a party to the conflict, and thus conflict-related.",
     'help_text_en' => 'This field is mandatory'
   ),
   Field.new(
@@ -101,62 +101,9 @@ perpetrator_subform_fields = [
     'multi_select' => false,
     'name' => 'perpetrator_category_crossfire',
     'type' => 'textarea',
-    'display_name_en' => 'To which armed force, group, or other party did the crossfire perpetrator belong?',
+    'display_name_en' => 'What parties were involved in this incident of crossfire? (alleged perpetrators)',
+    'guiding_questions_en' => 'Please note that this is for your own record only and this information will not be reflected under the Insights function.',
     'display_conditions_subform' => { 'eq' => { 'perpetrator_category' => 'crossfire' } }
-  ),
-  Field.new(
-    'mobile_visible' => true,
-    'required' => false,
-    'show_on_minify_form' => false,
-    'hidden_text_field' => false,
-    'autosum_total' => false,
-    'autosum_group' => '',
-    'hide_on_view_page' => false,
-    'visible' => false,
-    'editable' => true,
-    'disabled' => false,
-    'multi_select' => false,
-    'name' => 'armed_force_name',
-    'type' => 'select_box',
-    'display_name_en' => 'If armed force, please select as appropriate',
-    'option_strings_source' => 'lookup lookup-armed-force-name',
-    'guiding_questions_en' => 'CTFMRs should ensure that the lists of perpetrators in the MRM IMS are as comprehensive and up-to-date as possible. In case new parties need to be added to the list, or should an armed force change its name, please contact the MRM Technical Reference Group.'
-  ),
-  Field.new(
-    'mobile_visible' => true,
-    'required' => false,
-    'show_on_minify_form' => false,
-    'hidden_text_field' => false,
-    'autosum_total' => false,
-    'autosum_group' => '',
-    'hide_on_view_page' => false,
-    'visible' => false,
-    'editable' => true,
-    'disabled' => false,
-    'multi_select' => false,
-    'name' => 'armed_group_name',
-    'type' => 'select_box',
-    'display_name_en' => 'If armed group, please select as appropriate',
-    'option_strings_source' => 'lookup lookup-armed-group-name',
-    'guiding_questions_en' => 'CTFMRs should ensure that the lists of perpetrators in the MRM IMS are as comprehensive and up-to-date as possible. In case new parties need to be added to the list, or should an armed group change its name or fragment into multiple groups, please contact the MRM Technical Reference Group.'
-  ),
-  Field.new(
-    'mobile_visible' => true,
-    'required' => false,
-    'show_on_minify_form' => false,
-    'hidden_text_field' => false,
-    'autosum_total' => false,
-    'autosum_group' => '',
-    'hide_on_view_page' => false,
-    'visible' => false,
-    'editable' => true,
-    'disabled' => false,
-    'multi_select' => false,
-    'name' => 'other_party_name',
-    'type' => 'select_box',
-    'display_name_en' => 'If other party to the conflict, please select as appropriate',
-    'option_strings_source' => 'lookup lookup-other-party-name',
-    'guiding_questions_en' => 'CTFMRs should ensure that the lists of perpetrators in the MRM IMS are as comprehensive and up-to-date as possible. In case new parties need to be added to the list, please contact the MRM Technical Reference Group.'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -206,7 +153,7 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_children',
     'type' => 'select_box',
     'display_name_en' => 'Did the group of perpetrators include children?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown',
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown',
     'help_text_en' => "If yes, this should be reflected in the 'Recruitment and use' form."
   ),
   Field.new(
@@ -224,7 +171,7 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_children_number',
     'type' => 'numeric_field',
     'display_name_en' => 'If so, how many? (if known)',
-    'display_conditions_subform' => { 'eq' => { 'perpetrator_children' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_children' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -242,7 +189,7 @@ perpetrator_subform_fields = [
     'type' => 'tick_box',
     'tick_box_label_en' => 'Yes',
     'display_name_en' => 'Is this number estimated?',
-    'display_conditions_subform' => { 'eq' => { 'perpetrator_children' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_children' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -342,7 +289,7 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_arrest',
     'type' => 'select_box',
     'display_name_en' => 'Was the perpetrator arrested?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -359,7 +306,7 @@ perpetrator_subform_fields = [
     'name' => 'arrest_details',
     'type' => 'textarea',
     'display_name_en' => 'Please provide additional details',
-    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -376,8 +323,8 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_detention',
     'type' => 'select_box',
     'display_name_en' => 'Was the perpetrator detained?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown',
-    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'true' } }
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -396,8 +343,8 @@ perpetrator_subform_fields = [
     'display_name_en' => 'Please provide additional details',
     'display_conditions_subform' => {
       'and' => [
-        {'eq' => { 'perpetrator_arrest' => 'true' }},
-        {'eq' => { 'perpetrator_detention' => 'true' }}
+        {'eq' => { 'perpetrator_arrest' => 'yes' }},
+        {'eq' => { 'perpetrator_detention' => 'yes' }}
       ]
     }
   ),
@@ -416,8 +363,8 @@ perpetrator_subform_fields = [
     'name' => 'perpetrator_conviction',
     'type' => 'select_box',
     'display_name_en' => 'Was the perpetrator convicted?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown',
-    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'true' } }
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown',
+    'display_conditions_subform' => { 'eq' => { 'perpetrator_arrest' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -436,8 +383,8 @@ perpetrator_subform_fields = [
     'display_name_en' => 'Please provide additional details',
     'display_conditions_subform' => {
       'and' => [
-        {'eq' => { 'perpetrator_arrest' => 'true' }},
-        {'eq' => { 'perpetrator_conviction' => 'true' }}
+        {'eq' => { 'perpetrator_arrest' => 'yes' }},
+        {'eq' => { 'perpetrator_conviction' => 'yes' }}
       ]
     }
   ),

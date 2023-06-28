@@ -99,6 +99,23 @@ individual_victims_subform_fields = [
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
+    'name' => 'individual_age_months',
+    'type' => 'numeric_field',
+    'display_name_en' => "Age in months",
+    'help_text_en' => 'If the individual is less than 1 year old, enter the age in months.'
+  ),
+  Field.new(
+    'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
     'name' => 'date_of_birth',
     'type' => 'date_field',
     'display_name_en' => "Victim's date of birth (if known)",
@@ -365,7 +382,7 @@ individual_victims_subform_fields = [
     'name' => 'victim_deprived_liberty_security_reasons',
     'type' => 'select_box',
     'display_name_en' => 'Was/were the victim(s) deprived of liberty?',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown'
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown'
   ),
   Field.new(
     'mobile_visible' => true,
@@ -383,7 +400,7 @@ individual_victims_subform_fields = [
     'type' => 'select_box',
     'display_name_en' => 'What are the reasons for the deprivation of liberty?',
     'option_strings_source' => 'lookup lookup-reasons-deprivation-liberty',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -401,7 +418,11 @@ individual_victims_subform_fields = [
     'multi_select' => false,
     'display_name_en' => 'Select the entity responsible for the deprivation of liberty',
     'option_strings_source' => 'lookup lookup-perpetrator-category-type',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } },
+    'option_strings_condition' => {
+      'not-crossfire' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    }
+
   ),
   Field.new(
     'mobile_visible' => true,
@@ -420,7 +441,7 @@ individual_victims_subform_fields = [
     'display_name_en' => 'To which armed force, group, or other party did the perpetrator belong?',
     'option_strings_source' => 'lookup lookup-armed-force-group-or-other-party',
     'guiding_questions_en' => 'CTFMRs should ensure that the lists of perpetrators in the MRM IMS are as comprehensive and up-to-date as possible. In case new parties need to be added to the list, or should an armed force change its name, please contact the MRM Technical Reference Group.',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } },
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } },
     'option_strings_condition' => {
       'armed-force' => { 'eq' => { 'entity_responsible_deprivation_liberty' => 'armed_force' } },
       'armed-group' => { 'eq' => { 'entity_responsible_deprivation_liberty' => 'armed_group' } },
@@ -444,7 +465,7 @@ individual_victims_subform_fields = [
     'multi_select' => true,
     'display_name_en' => 'Please select the facilty where the victims(s) was/were being held',
     'option_strings_source' => 'lookup lookup-detention-facility-type',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -463,7 +484,7 @@ individual_victims_subform_fields = [
     'display_name_en' => "If 'Other', please provide details ",
     'display_conditions_subform' => {
       'and' => [
-        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' }},
+        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' }},
         {'in' => { 'facilty_victims_held' => %w[other] }}
       ]
     }
@@ -483,7 +504,7 @@ individual_victims_subform_fields = [
     'name' => 'details_reasons_deprivation_liberty',
     'type' => 'textarea',
     'display_name_en' => 'Please provide details on the reasons for deprivation of liberty',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -500,7 +521,7 @@ individual_victims_subform_fields = [
     'name' => 'length_deprivation_liberty',
     'type' => 'date_field',
     'display_name_en' => 'Date of deprivation of liberty',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -517,8 +538,8 @@ individual_victims_subform_fields = [
     'name' => 'depriviation_liberty_date_range',
     'type' => 'tick_box',
     'tick_box_label_en' => 'Yes',
-    'display_name_en' => 'Is this a Date Range?',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'display_name_en' => 'Date of deprivation of liberty: if it is a date range, please check "Yes"',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -537,7 +558,7 @@ individual_victims_subform_fields = [
     'display_name_en' => 'Date of the deprivation of liberty',
     'date_validation' => 'not_future_date',
     'help_text_en' => 'dd-mmm-yyyy (Start date if this is a date range)',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -573,8 +594,8 @@ individual_victims_subform_fields = [
     'name' => 'torture_punishment_while_deprivated_liberty',
     'type' => 'select_box',
     'display_name_en' => 'Was/were the child(ren) subject to torture or other cruel, inhuman or degrading treatment or punishment while deprived of liberty',
-    'option_strings_source' => 'lookup lookup-yes-no-unknown',
-    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' } }
+    'option_strings_source' => 'lookup lookup-mrm-yes-no-unknown',
+    'display_conditions_subform' => { 'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' } }
   ),
   Field.new(
     'mobile_visible' => true,
@@ -594,8 +615,8 @@ individual_victims_subform_fields = [
     'option_strings_source' => 'lookup lookup-ill-treatment-violations',
     'display_conditions_subform' => {
       'and' => [
-        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' }},
-        {'eq' => { 'torture_punishment_while_deprivated_liberty' => 'true' }}
+        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'yes' }},
+        {'eq' => { 'torture_punishment_while_deprivated_liberty' => 'yes' }}
       ]
     }
   ),
@@ -607,19 +628,13 @@ individual_victims_subform_fields = [
     'autosum_total' => false,
     'autosum_group' => '',
     'hide_on_view_page' => false,
-    'visible' => true,
+    'visible' => false,
     'editable' => true,
     'disabled' => false,
     'multi_select' => false,
     'name' => 'other_torture_punishment_while_deprivated_liberty',
     'type' => 'textarea',
-    'display_name_en' => 'If yes, please provide details.',
-    'display_conditions_subform' => {
-      'and' => [
-        {'eq' => { 'victim_deprived_liberty_security_reasons' => 'true' }},
-        {'eq' => { 'torture_punishment_while_deprivated_liberty' => 'true' }}
-      ]
-    }
+    'display_name_en' => 'If yes, please provide details.'
   )
 ]
 individual_victims_subform = FormSection.create_or_update!(

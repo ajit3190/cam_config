@@ -1,0 +1,8 @@
+---
+om:
+  immediate_concerns:
+    name: Dhimmoota yaachisaa  hatattamaa.
+    description: Dhimmoota yaachisaa hatattamaa.
+    fields:
+      immediate_concern_section:
+        display_name: Dhimmoota yaachisaa hatattamaa.

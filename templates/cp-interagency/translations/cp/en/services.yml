@@ -1,8 +1,0 @@
----
-en:
-  services:
-    name: Services
-    description: Services form
-    fields:
-      services_section:
-        display_name: Services

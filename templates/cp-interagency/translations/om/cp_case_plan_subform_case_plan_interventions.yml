@@ -1,0 +1,37 @@
+---
+om:
+  cp_case_plan_subform_case_plan_interventions:
+    name: Tarree tajaajila fi tarkaanfii
+    description: Tarree tajaajila fi tarkaanfii
+    fields:
+      intervention_service_to_be_provided:
+        display_name: Maqaa tarkaanfii fudhatamuu/tajaajila kennamuu
+      intervention_service_goal:
+        display_name: Tajaajilli rakkoo daa'imaaf furmaata kennuu eegalaa jira
+        guiding_questions: "Akkaataa sakatta'iinsan adda baheen,Fkn. filannoowwan kunuunsaa,nageenya\n(Fkn. Mana mijjataa),barnoota(idilee),barnoota al-idilee, maatii adda baasuu fi maatitti makuu,deeggarsa xin-sammuu fi hawaasummaa bu'uuraa, kunuunsa fayyummaa sammuu, xin-sammuu fi hawaasummaa ogummaa ol'aanaa hin barbaachisnee, nyaataa fi wantoota nyaatan alaa,deeggarsa maallaqaa, jireenyaa, fayyaa,sirna nyaataa, deeggarsa seeraa, qabiinsa ragaa, tajaajila daa'imman miidhamtootaa, fayyummaa sal-qunnamtii fi wal-hormaata,iddoo jireenyaa, bishaan qul-qulluu fi qul-qullina dhuunfaa, furmaata waaraa,iddoo jijjiiruu,"
+      case_plan_provider_and_contact_details:
+        display_name: "Nama/dhaabbata tajaajila kennu ykn tajaajila karoorfame hojiirra oolchaa jiru fi teessoo gadi fageenyaa "
+      case_plan_timeframe:
+        display_name: Guyyaa xummuraa
+        help_text: Guyyaa/Ji'a/bara
+      case_plan_monitoring_schedule:
+        display_name: "Karoora hordoffii "
+        guiding_questions: |-
+          Fkn. Torbee dhufu Wixata tajaajila kennamu ilaalchisee hordoffii taasisuu fi torbee sanuma keessatti guyyaa jimaaataa haala daa'imni irra jirtu duuka bu'uu. Ji'a dhufu keessatti yoo xiqqaate torbanitti yeroo lama hordoffii taasisuu. Yoo haalli daa'imaa haala barbaadameen /karoorfameen/ jijjiirame ji'a dhufu keessatti yeroo hordoffii kan jijjiiramu ta'a.
+        option_strings_text:
+          one_time: Yeroo tokko
+          daily: Guyyaa guyyaan
+          weekly: Torbaniin
+          monthly: Ji'aan
+          other: Kan biroo
+      case_plan_monitoring_schedule_notes:
+        display_name: Yaadannoowwan yeroo hordoffii
+      interventions_status:
+        display_name: Sadarkaa
+        option_strings_text:
+          pending: Kan tursiisame.
+          ongoing: Adeemsa/raawwii irra kan jiru.
+          completed: Kan xumurame.
+      interventions_notes:
+        display_name: Yaadannoo.
+        guiding_questions: "Fakkeenyaaf.,ciminaalee fi danqaawwan  milkaa'ina gargaaruu ykn gufachiisuu danda'an."

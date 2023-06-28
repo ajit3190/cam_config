@@ -1,0 +1,24 @@
+---
+om:
+  child_preferences_section:
+    name: Filannoo daa'imaa mana keessa
+    description: Kutaa gucaa filannoo daa'imaa
+    fields:
+      wishes_name:
+        display_name: "Nama/namoota/ daa'imni akka deebisu barbaadu  "
+      wishes_preference_relocated:
+        display_name: Feedhii daa'imni nama sanatti deebi'uuf qabu
+        option_strings_text:
+          first_choice: Filannoo duraa
+          second_choice: Filannoo lammaffaa
+          third_choice: Filannoo sadaffaa
+      wishes_relationship:
+        display_name: "Walitti dhufeenyi/firoomini/  daa'ima waliin namni kun qabu maali?"
+      wishes_address:
+        display_name: Teessoon dhumaa itti  beekamuu
+      wishes_landmark:
+        display_name: Daangaa
+      wishes_location:
+        display_name: "Teessoon beekamaa dhumaa "
+      wishes_telephone:
+        display_name: Bilbila

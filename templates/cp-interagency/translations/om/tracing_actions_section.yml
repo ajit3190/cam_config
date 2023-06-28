@@ -1,0 +1,30 @@
+---
+om:
+  tracing_actions_section:
+    name: Tarkaanfii barbaacha goojjoof irratti taasisame.
+    description: Guca/unka xixiqqaa tarkaanfii barbaaachaa.
+    fields:
+      date_tracing:
+        display_name: Guyyaa barbaachi itti gaggeessame.
+      tracing_type:
+        display_name: Akaakuu/gosa tarkaanfii fudhatamee
+        option_strings_text:
+          case_by_case_tracing: Barbaacha //hordoffii dhimma dhimmaan taasisame.
+          individual_tracing: Barbaacha  dhuunfaadhaan.
+          mass_tracing: Brbaacha tuutaanii/ jumlaanii.
+          photo_tracing: Barbaacha suuraan.
+          referral_to_ngo: Dabarsa gara dhaabbilee miti-mootummaatti  taasisame.
+          referral_to_icrc: Dabarsa gara Dhaabbata Fannoo Diimaa Idil-addunyaatti taasisame.
+      address_tracing:
+        display_name: Teessoo/Ganda hordoffiin/ duuka bu'insi  barbaachaa itti gaggeessame.
+      location_tracing:
+        display_name: Iddoo/bakka barbaachaa.
+      tracing_action_description:
+        display_name: Tarkaanfii fudhatamee fi yaada kennaman.
+      tracing_outcome:
+        display_name: Bu'aa tarkaanfii barbaachaa irraa argame.
+        option_strings_text:
+          pending: Eggachaa kan jiru/kan tursiisame.
+          successful: Milkaa'aa.
+          unsuccessful: Kan hin milkaa'in.
+          'yes': 'Eeyyen.'

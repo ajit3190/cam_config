@@ -1,0 +1,56 @@
+---
+om:
+  services_section:
+    name: Tajaajiloota  goojjoo.
+    description: Guca//unka xixiqqaa tajaajilootaa..
+    fields:
+      service_response_type:
+        display_name: Akaakuu/gosa  deebii gaaffiif kennamee.
+      service_type:
+        display_name: Akaakuu/gosa Tajaajilaa.
+        guiding_questions: |-
+          1. Kunuunsa xin-sammuu hawaasaa bu'uuraa,iddoo nageenyummaan itti eegame (iddoowwan  mijjataa daa'immanii dabalatee),gareewwan daa'immanii hiriyyaa ta'anii, gumiiwwan dargaggootaa,leenjii mala jireenyaa fi gareewwan deeggarssaa kunuunsistootaa.
+          2. Deeggarsa irratti xiyyeefate,kan adda hintaane, bulchiinsa/hoggansa dhimmaa eegumsa daa'imaa, gargaarsa dursaa xin-sammuu tokkoo fi tokkoonii ykn ragaa garee/itti galumsa beekamaa  xin-sammuu hojjettoota hawaasaa ogeessa ogummaa addaa hin qabnee,,hojjetaa dhimmaa,tola ooltota hawaasaa, hojjetaa fayyaa fi kkf  dabalatee.
+          3. Kunuunsa addaa xin-sammuu, qu'annoo fi wal'aansa  dhukkuba sammuu,kunuunsa fayyaa sammuu tokkoo fi tokkoon  ogeessoota fayyaa sammuutiin  kennaman kan biraa.
+      service_type_other:
+        display_name: "Yoo kan biraa jiraate, ibsaa maaloo."
+      service_referral:
+        display_name: Akaakuu//gosa Dabarsaa.
+      service_response_day_time:
+        display_name: Guyyaa  dabarsi itti raawwatame.
+      service_appointment_date:
+        display_name: Guyyaa eegalama tajaajilaa.
+      service_implementing_agency:
+        display_name: Ejensii hojiirra oolchu/ raawwatu.
+      service_provider:
+        display_name: Tajaajila kennaa/qaama tajaajila kennu.
+      service_delivery_location:
+        display_name: "Bakka /iddoo tajaajili itti kennamu. "
+      service_implementing_agency_individual:
+        display_name: Maqaa nama tajaajila kennuu.
+      service_status_referred:
+        display_name: "Akeekamee/dabree?"
+        tick_box_label: 'Eeyyen.'
+      service_location:
+        display_name: Bakka/iddoo  tajaajilaa.
+      service_referral_notes:
+        display_name: Yaadannoo.
+      service_implemented:
+        display_name: Taajajila hojirra oolan/raawwataman.
+      service_implemented_day_time:
+        display_name: Tajaajila  xumuraman.
+      details_service_provided:
+        display_name: Ibsa gadi fageenyaan/  yaada tajaajila kennaman irratti taasifaman.
+      recommendations_followup:
+        display_name: Yaada /gorsa hordoffiif kennaman.
+      accountability_separator:
+        display_name: Itti-gaafatamummaa.
+        help_text: "Hojjetaa dhimmaa  daa'ima tajaajila kennameef irratti maaltu akka isaanitti dhagahame gaafachuuf (haala/akkaataa umrii isaanii madaaluun,fakkeenya, fuula seequu/ifaa daa'imaa ilaaluun)"
+      focal_agency_location:
+        display_name: Sadarkaa itti quufiinsa daa'imaa tajaajila kennameefiin  walqabatee.
+      suggestions_improvement:
+        display_name: Yaada daa'imaa waan foyya'uu qabu irratti dhiyaate.
+      caregivers_satisfaction:
+        display_name: Sadarkaa ittiquufiinsa kunuunsaa daa'imaa tajaajila kenname wajjiin  walqabatee.
+      caregivers_suggestions:
+        display_name: Yaada  kunuunsaa waan  fooyya'uu qaban irratti dhiyaate.

@@ -1,0 +1,8 @@
+---
+am-ET:
+  conference_details_container:
+    name: የጉዳይ አያያዝ ምክክር ዝርዝር
+    description: የጉዳይ አያያዝ ምክክር ዝርዝር
+    fields:
+      conference_details_subform:
+        display_name: የጉዳይ አያያዝ ምክክር ዝርዝር

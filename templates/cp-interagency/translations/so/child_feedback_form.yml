@@ -1,0 +1,7 @@
+so:
+  child_feedback_form:
+    name: Jawaab celinta ilmaha
+    description: Jawaab celinta ilmaha
+    fields:
+      child_feedback_separator_consent:
+        display_name: ansixinta iyo Oggolaanshaha

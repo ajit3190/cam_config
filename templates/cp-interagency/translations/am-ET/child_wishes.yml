@@ -1,0 +1,46 @@
+---
+am-ET:
+  child_wishes:
+    name: የህጻኑ/ኗ ምኞት
+    description: የህጻኑ/ኗ ምኞት
+    fields:
+      wishes_child_family_tracing:
+        display_name: "ህጻኑ/ኗ ቤተሰብ እንዲፈላለግ ይፈልጋል/ትፈልጋለች?"
+      wishes_reason_no_tracing:
+        display_name: "ቤተሰብ እንዲፈላለግ ካልፈለጉ ለምን?"
+      wishes_reunification:
+        display_name: "ህጻኑ/ኗ ከቤተሰብ ጋር መቀላቀል ይፈልጋል/ትፈልጋለች?"
+        option_strings_text:
+          yes_as_soon_as_possible: አዎ በተቻለ ፍጥነት
+          yes_but_later: አዎ ግን ቆይቶ
+          not_sure: እርግጠኛ አይደሉም
+          'no': 'አይፈልጉም'
+      wishes_reason_no_reunification:
+        display_name: አዎ ግን ቆይቶ፣ እርግጠኛ አይደሉም፣ አይፈልጉም፣ ለሚለው ምላሽ ለምን እንደሆነ ያብራሩ
+      wishes_contacted:
+        display_name: "ህጻኑ/ኗ ስለቤተሰቦቻቸው ሰምተው ያውቃሉ/ግንኙነት ነበራቸው?"
+      wishes_contacted_details:
+        display_name: ዝርዝር ነገር ያስቀምጡ
+      child_preferences_section:
+        display_name: የህጻኑ/ኗ ምርጫ
+      wishes_care_arrangement_desired:
+        display_name: "ህጻኑ/ኗ አሁን ባሉበት የኑሮ ሁኔታ መቀጠል ይፈልጋሉ?"
+      wishes_reason_no_care_arrangement:
+        display_name: "ህጻኑ/ኗ አሁን ባሉበት የኑሮ ሁኔታ መቀጠል ካልፈለጉ ለምን?"
+      wishes_care_arrangement_type_desired:
+        display_name: የህጻኑ የመኖሪያ ምርጫ/ፍላጎት
+        option_strings_text:
+          independent_living: ለብቻ መኖር
+          alternative_interim_care: " አማራጭ ጊዚያዊ መኖሪያ"
+          with_husband_wife_partner: ከባል/ሚስት/የትዳር አጋር ጋር
+          other_family: ሌላ ቤተሰብ
+          dont_know: አያውቁም
+          other: ሌላ
+      wishes_care_arrangement_type_other:
+        display_name: የህጻኑ የመኖሪያ ምርጫ/ፍላጎት ሌላ ከሆነ ይገለጽ
+      wishes_location_plan_live:
+        display_name: "ህጻኑ ለመኖር የሚፈልገው/ያቀደው የት ነው?"
+      wishes_address_plan_live:
+        display_name: "ህጻኑ ለመኖር የሚፈልገው/ያቀደው የትኛው ጎዳና ላይ ነው?"
+      wishes_landmarks_plan_live:
+        display_name: "ህጻኑ ለመኖር የሚፈልገው/ያቀደው የትኛው አካባቢ/ቦታ ላይ ነው?"

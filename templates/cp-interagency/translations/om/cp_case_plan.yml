@@ -1,0 +1,49 @@
+---
+om:
+  cp_case_plan:
+    name: Karoora Dhimmaa
+    description: Karoora Dhimmaa
+    fields:
+      case_plan_approved:
+        display_name: Hogggansa  mirkaneesse.
+        tick_box_label: 'Eeyyen.'
+      case_plan_approved_date:
+        display_name: Guyyaa.
+      case_plan_approved_comments:
+        display_name: Yaada Hogganaa ol'aanaa.
+      approval_status_case_plan:
+        display_name: Sadarkaaa Mirkaneessaa.
+      case_plan_section_header:
+        display_name: Karoora Dhimmaa.
+      date_case_plan:
+        display_name: Guyyaa Karoora dhimmaa irratti yaadni haaraa maddisiifame.
+        help_text: Dirreen kun  haala sadarkaa  yaa'insa hojii irra jiruuf kan fayyada.
+      date_case_plan_agreed:
+        display_name: Guyyaa Karoorri  dhimmaa  itti waliigalame.
+      protection_concerns:
+        display_name: Yaaddowwaan dhimmoota Eegumsa daa'imaa.
+      protection_concerns_other:
+        display_name: Yoo kan biraa jiraate maaloo ifteessaa/ibsaa.
+      case_plan_separator:
+        display_name: Galma waliigalaa karoora dhimmaa.
+      case_plan_goal:
+        display_name: Galma Waliigalaa.
+        help_text: " *SMART*imaal akka ta'e  ibsi. (Murtaa'aa,kan madaalamu ta'uu,Milkaa'aa/kan walii nama galchu,dhugaa kan ta'e/barbaachisaa fi kan yeroon ibsamu ta'uu)"
+      case_plan_header:
+        display_name: Karoorawwan  hojitti galuu fi tajaajilootaa kennamuu qaban.
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: Karoorawwan itti galumsa hojii   fi tajaajilootaa kennamanii gadi fageenyaan.
+      approval_separator:
+        display_name: Mirkaneessaa fi Waliigalteewwan.
+      interventions_names_involved:
+        display_name: Maqaa fi  hariiroo/qunnamtii namni  karoora baasu daa'ima wajjiin qabu.
+      interventions_details_disagree:
+        display_name: "Ibsa bal'ina garaagarummaa nama karoora irratti waalii gallee fi maaliif  akka ta'e. "
+      interventions_child_involved:
+        display_name: "Karoora dhimmaa guddisuu keessatti daa'imni  hirmaateeraa?"
+      interventions_steps:
+        display_name: "Yoo kan hin hirmaanne ta'e,maaliif?"
+      interventions_caregiver_involved:
+        display_name: "Kunuusaan daa'imaa  karoora dhimmaa guddisuu/fooyyeessuu keessatti qooda fudhateeraa?"
+      interventions_caregiver_steps:
+        display_name: "Yoo qooda kan hinfudhanne/hin hirmaanne ta'e ,maaliif?"

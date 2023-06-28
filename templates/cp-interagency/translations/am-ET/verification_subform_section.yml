@@ -1,0 +1,57 @@
+---
+am-ET:
+  verification_subform_section:
+    name: የማረጋገጫ ንዑስ ቅጽ
+    description: የማረጋገጫ ንዑስ ቅጽ
+    fields:
+      verification_name_inquirer:
+        display_name: የአመልካች ስም
+      verification_inquirer_relationship:
+        display_name: ግንኙነት
+      verification_inquirer_sex:
+        display_name: ጾታ
+      verification_inquirer_age:
+        display_name: እድሜ
+      verification_inquirer_address_current:
+        display_name: አድራሻ
+      verification_inquirer_location:
+        display_name: አሁን የሚገኝበት አድራሻ
+      verification_phone_inquirer:
+        display_name: ስልክ ቁጥር
+      verification_inquirer_wants_to_care_for_child:
+        display_name: "ህጻኑ እንዲመጣና ከእርስዎ ጋር እንዲኖር ፈቃደኛ ነዎት?"
+      verification_inquirer_able_to_care_for_child:
+        display_name: "ህጻናቱን/ኑን ለመንከባከብ አቅም አለዎት?"
+      verification_alternate_caregiver_exists:
+        display_name: "ካልቻሉ/ህጻናቱን/ኑን ለመንከባከብ የሚችል የቤተሰብ አባል አለ?"
+      verification_alternate_caregiver_name:
+        display_name: ድጋፍ ሊያደርግ የሚችለው ቤተሰብ ስም
+      verification_alternate_caregiver_relationship:
+        display_name: ከቤተሰቡ ጋር ያለው ግንኙነት/ዝምድና
+      verification_address_alternate_caregiver:
+        display_name: የተንከባካቢው አድራሻ
+      verification_location_alternate_caregiver:
+        display_name: የተንከባካቢው አድራሻ/ሰፈር/ቀበሌ
+      verification_comments:
+        display_name: ተጨማሪ አስተያየቶች ካሉ
+      verification_acceptance_date:
+        display_name: ህጻኑን ለመንከባበከብ የተቀበለበት ቀን
+      verification_inquirer_known_to_child:
+        display_name: ህጻኑን የአዋቂ የማረጋገጫ ፎርሙን ተገንዝቧል/ያውቃል
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: "ህጻኑ ከዚህ ቤተሰብ ጋር ለመቀላቀል ፍቃደኛ ነው?"
+      verification_inquirer_information_match:
+        display_name: "ህጻኑና ቤተሰብ የሰጠው መረጃ ተመሳሳይ/ግንኑነት አለው?"
+      verification_inquierer_recommendation:
+        display_name: "ህጻኑ መቀላቀል አለበት ብለው ያስባሉ ወይም ሌሎች መወሰድ ያለባቸው ውሳኔዎች ካሉ?"
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'አይ/መቀላቀል የለበትም'
+          further_tracing: ተጨማሪ ፍለጋ
+          long_term_alternative_care: የረጅም ጊዜ አማራጭ እንክብካቤ
+          reunification: የመማቀላቀል
+          reunification_enhanced_support: ከተሻሻለ ድጋፍ ጋር እንደገና መገናኘት
+      verification_inquierer_recommendation_comments:
+        display_name: ተጨማሪ አስተያየቶች
+      verification_date:
+        display_name: የማረጋገጫ ቀን

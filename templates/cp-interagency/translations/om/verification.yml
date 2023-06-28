@@ -1,0 +1,8 @@
+---
+om:
+  verification:
+    name: Mirkanaa'ina/mirkaneessa.
+    description: Mirkanaa'ina./mirkaneessa.
+    fields:
+      verification_subform_section:
+        display_name: Mirkanaa'ina./mirkaneessa.

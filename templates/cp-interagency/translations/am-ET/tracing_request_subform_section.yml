@@ -1,0 +1,58 @@
+---
+am-ET:
+  tracing_request_subform_section:
+    name: የመፈለግያ ጥያቄ ንዑስ ቅጽ
+    description: የመፈለግያ ጥያቄ ንዑስ ቅጽ
+    fields:
+      matched_case_id:
+        display_name: ተዛማጅ መያዣ መታወቂያ
+      tracing_request_status:
+        display_name: የማዛመድ ሁኔታ
+      individual_details_section:
+        display_name: የግለሰብ ዝርዝሮች
+      name:
+        display_name: ስም
+      relation:
+        display_name: "ጠያቂው/አመልካች ከህጻኑ ጋር እንዴት ይዛመዳል?"
+      relation_child_lived_with_pre_separation:
+        display_name: "ህጻኑ/ኗ ከመለያየቱ በፊት ከጠያቂው ጋር ይኖር ነበር?"
+      name_nickname:
+        display_name: ቅጽል ስም
+      name_other:
+        display_name: ሌላ ስም
+      sex:
+        display_name: ጾታ
+      age:
+        display_name: እድሜ
+      date_of_birth:
+        display_name: የትውልድ ቀን
+      physical_characteristics:
+        display_name: የአካላዊ ባህሪያትን መለየት
+      inquirer_special_message:
+        display_name: ለሚፈለገው ሰው ልዩ መልእክት
+      same_separation_details:
+        display_name: "ልክ እንደ ጠያቂው የመለያያ ዝርዝሮች?"
+      separation_details_section:
+        display_name: የተለያየበት ዝርዝሮች (ከጠያቂው ቅጽ የተለየ ከሆነ)
+      date_of_separation:
+        display_name: የተለያየበት ቀን
+      separation_cause:
+        display_name: "የመለያየት ዋና ምክንያት ምን ነበር?"
+      separation_evacuation:
+        display_name: "መለያየቱ የተከሰተው ከመልቀቅ/ከመውጣት ጋር በተያያዘ ነው?"
+      separation_details:
+        display_name: የመለያየት ሁኔታዎች (እባክዎ ዝርዝሮችን ይስጡ)
+      address_separation:
+        display_name: መለያየት አድራሻ (ቦታ)
+      location_separation:
+        display_name: የተለየበት/ መለያየት ቦታ
+      address_last:
+        display_name: የመጨረሻ አድራሻ
+      landmark_last:
+        display_name: የመጨረሻው የአካባቢው ምልክት
+      location_last:
+        display_name: የመጨረሻው ቦታ
+      telephone_last:
+        display_name: የመጨረሻው ስልክ
+      additional_tracing_info:
+        display_name: "ለመፈለግ የሚረዳ ተጨማሪ መረጃ?"

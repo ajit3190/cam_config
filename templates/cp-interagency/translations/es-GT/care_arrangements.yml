@@ -1,0 +1,21 @@
+es-GT:
+  care_arrangements:
+    name: Arreglos sobre el cuidado
+    description: Arreglos sobre el cuidado
+    fields:
+      child_current_location:
+        display_name: Dirección actual del niño
+      address_current:
+        display_name: Dirección actual
+        help_text: En caso de no haber dirección, por favor indique lugares de referencia o una descripción de su locación actual
+      location_current:
+        display_name: Ubicación actual
+      address_child_future:
+        display_name: Si el niño planea mudarse, cuál será la futura dirección?
+        help_text: En caso de no haber dirección, por favor indique lugares de referencia o una descripción de su locación actual
+      location_child_future:
+        display_name: Cuál será la futura locación?
+      telephone_child_future:
+        display_name: Cuál será el número telefónico en el futuro?
+      care_arrangements_section:
+        display_name: Arreglos sobre el cuidado

@@ -1,0 +1,107 @@
+---
+am-ET:
+  basic_identity:
+    name: የህጻኑ/ኗ ዝርዝር መረጃ
+    description: ከቤተሰቦቻቸውና ሞግዚቶቻቸው የተነጠሉ ህጻናት መረጃ
+    fields:
+      case_id_display:
+        display_name: መለያ/ኮድ ቁጥር
+      cpims_id:
+        display_name: የቀድሞ መለያ/ኮድ ቁጥር
+        help_text: የቀድሞ መለያ በህጻናት መረጃ አያያዝ ስርዓት ያለፈና ኮድ ቁጥር ካለው
+      marked_for_mobile:
+        display_name: "ተለይቷል/ምልክት ተደርጓል?"
+        tick_box_label: 'አዎ'
+      child_status:
+        display_name: የጉዳዩ ሁኔታ
+      case_status_reopened:
+        display_name: "ጉዳዩ ዳግም ተከፍቷል?"
+        tick_box_label: 'አዎ'
+      case_status_reopened_reasons:
+        display_name: ዳግም የተከፈተበት ምክንያት
+        option_strings_text:
+          break_down_of_reunification_placement: ከቤተሰብ መልሶ ማቀላቀልና ማገናኘት
+          death_of_caregiver_s: የሞግዚት መሞት
+          physical_abuse_violence: አካላዊ ጥቃት/ጥሰት
+          sexual_abuse_violence: ወሲባዊ ጥቃት/ጥሰት
+          emotional_or_psychological_abuse_violence: ስሜታዊ፣ ስነልቦናዊ ጥቃት/ጥሰት
+          physical_neglect: አካላዊ ችላ ማለት
+          emotional_neglect: ስሜታዊ ቸልተኝነት
+          medical_neglect: የህክምና አገልግሎት ችላ መባል
+          educational_neglect: የትምህርት ችላ መባል
+          supervisory_neglect: ቁጥጥር አለመደረግ/ችላ መባል
+          abandonment: የተጣለ
+          child_labour: የጉልበት ብዝበዛ
+          hazardous_work: አደገኛ ስራ
+          sexual_exploitation: የወሲብ ብዝበዛ
+          slavery_sale_trafficking_forced_labour: ባርነት/ሽያጭ/ህገ-ወጥ ዝውውር/ አስገድዶ ማሰራት
+          in_conflict_with_the_law: ህግ-የጣሰ
+          associated_with_armed_forces_or_groups: ከታጠቁ/ወታደራዊ ቡድኖች/ሀይል ጋር የተያያዘ
+          unaccompanied: ከቤተሰብ/ሞግዚት/ተንከባካቢ የተለያዩ
+          separated: ከቤተሰብ/ሞግዚት የተነጠሉ
+          orphan: ቤተሰቦቻቸውን በሞት ያጡ
+          functional_difficulties: አካል ጉዳተኞች (የማየት፣ ፣ የመስማት፣ የመንቀሳቀስ፣ የማስታወስና የመረጋጋት፣ እራስን የመንከባከብ ችግር ያለባቸው)
+          psychosocial_distress: የስነ-ልቦናና ማህበራዊ ቀውስ/መረበሽ
+          substance_abuse_and_addiction_child: ለአደገኛ ሱስ ተጋላጭ የሆነ ህጻን
+          belongs_to_marginalised_discriminated_group: የአናሳ ወይም ድጋፍ የሚሹ ማህበረሰብ አባል የሆነ
+          lack_of_documentation_birth_registration: መረጃ አለመኖር/የልደት ሰርተፍኬት ጨምሮ
+          child_marriage: ያለእድሜ ጋብቻ
+          fgm: የሴት ልጅ ግርዛት
+          pregnancy_child_parent: " ነፍሰጡር ህጻን/ ልጆች ወላጅ መሆን"
+          inappropriate_care_arrangement: አስቸጋሪ የድጋፍ ትስስር መኖር (ምሳሌ፡ ከ8 በላይ ህጻናት መኖር፣ ሱሰኛ ቤተሰብ መኖር፣ ተጋላጭ የሆነ ብቸኛ ተንከባካቢ መኖር)
+          other: ሌሎች
+      name:
+        display_name: ሙሉ ስም
+      name_first:
+        display_name: " ስም"
+      name_middle:
+        display_name:  የአባት ስም
+      name_last:
+        display_name: የአያት ስም
+      name_nickname:
+        display_name: የቅጽል ስም
+      name_other:
+        display_name: ሌላ ስም ካለ
+      registration_date:
+        display_name: የተመዘገበበት ቀን
+      identification_date:
+        display_name: ጉዳዩ የተለየበት/ሪፖርት የተደረገበት ቀን
+      assessment_due_date:
+        display_name: ዳሰሳ የሚደረግበት  ቀን
+      sex:
+        display_name: ጾታ
+      age:
+        display_name: እድሜ
+      date_of_birth:
+        display_name: የትውልድ ቀን
+      estimated:
+        display_name: "አማካኝ እድሜ ነው?"
+        tick_box_label: 'አዎ'
+      national_id_no:
+        display_name: የሀገራዊ መታወቂያ ቁጥር
+      unhcr_individual_no:
+        display_name: በተባበሩት መንግስታት የስደተኞች ተቋም የተሰጠ መለያ ቁጥር
+      other_id_type:
+        display_name: "ሌሎች አስፈላጊ መታወቂያ አይነት "
+      other_id_no:
+        display_name: ሌሎች አስፈላጊ መታወቂያ ቁጥር ካለ
+      nationality:
+        display_name: ዜግነት
+      ethnicity:
+        display_name: ብሄር/ጎሳ/ነገድ
+      sub_ethnicity_1:
+        display_name: ንኡስ ብሄረሰብ 1
+      sub_ethnicity_2:
+        display_name: ንኡስ ብሄረሰብ 2
+      language:
+        display_name: የህጻኑ አፍ መፍቻ/የሚናገረው ቋንቋ
+      religion:
+        display_name: ሀይማኖት
+      displacement_status:
+        display_name: የህዝብ ቡድን
+      displacement_status_other:
+        display_name: ሌሎች መጠቀስ ያለባቸው ካሉ ይጥቀሱ
+      disability_type_communications:
+        display_name: ልዩ ድጋፍ/ ተግባቦት ድጋፍ/ የሚያስፈልገው ነው
+      telephone_current:
+        display_name: የህጻኑ/ኗ ስልክ ቁጥር/ ሌሎች ህጻኗ/ኑን ለማግኘት የሚያስችሉ ቁጥሮች

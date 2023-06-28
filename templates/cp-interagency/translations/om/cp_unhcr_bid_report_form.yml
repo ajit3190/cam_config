@@ -1,0 +1,8 @@
+---
+om:
+  cp_unhcr_bid_report_form:
+    name: Gabaasa fedhii ol'aanaa daa'imaa murteessuu.
+    description: Gabaasa fedhii ol'aanaa daa'imaa murteessuu.
+    fields:
+      unhcr_bid_report_subform:
+        display_name: Gabaasa fedhii ol'aanaa daa'imaa Komishiinii Ol'aanaa Koolugaltootaa Motummoota Gamtoomanii.

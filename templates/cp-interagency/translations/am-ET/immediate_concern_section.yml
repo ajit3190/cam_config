@@ -1,0 +1,19 @@
+---
+am-ET:
+  immediate_concern_section:
+    name: በአፋጣኝ የታዩ ስጋቶች
+    description: የታዩ ስጋቶች ንዑስ ቅጽ
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: ወዲያውኑ አሳሳቢ አይነት
+        option_strings_text:
+          health_care: የጤና ድጋፍ
+          safety: ደህንነት
+          interim_care: የጊዚያዊ ድጋፍ
+          other: ሌሎች
+      immediate_concerns_immediate_concern_type_other:
+        display_name: ሌሎች ካሉ ይግለጹ
+      immediate_concerns_immediate_concern_summary:
+        display_name: የጉዳዩ ማጠቃለያ
+      immediate_concerns_immediate_concern_action:
+        display_name: አፋጣኝ እርምጃ ተወሰደ/ ሪፈራል ተካሂዷል

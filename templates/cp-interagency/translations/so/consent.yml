@@ -1,0 +1,68 @@
+so:
+  consent:
+    name: ansaxinta iyo Oggolaanshaha
+    description: ansaxinta iyo Oggolaanshaha
+    fields:
+      interview_subject:
+        display_name: Oggolaanshaha/Ogolaanshaha Laga Helay
+        option_strings_text:
+          child: ilmo
+          caregiver: Daryeelaha
+          other: kuwa kale
+      consent_source_other:
+        display_name: Haddii Kale, fadlan sheeg
+      consent_notes:
+        display_name: Xusuusin
+      consent_for_services:
+        display_name: Ogolaanshaha ayaa la siiyay ubadka si uu uga qaybqaato nidaamka maaraynta kiiskaOgolaanshaha ayaa la siiyay ubadka si uu uga qaybqaato nidaamka maaraynta kiiska
+        help_text: Haddii ogolaanshaha aan la bixin, ha dooran
+        tick_box_label: 'haa'
+      consent_reporting:
+        display_name: Oggolaanshaha waxaa la bixiyaa wadaaga macluumaadka aan la aqoonsan karin ee ka warbixinta
+      consent_for_data_collection:
+        display_name: Ogolaanshaha waxaa la siiyay hawlwadeenka kiiska loo xilsaaray si uu u ururiyo oo u kaydiyo macluumaadka gaarka ah ee kiiska (tusaale, magaca, sawirka, faahfaahinta qoyska).
+      disclosure_other_orgs:
+        display_name: Shakhsiga bixinaya ogolaanshaha waxa uu aqbalay in uu xogta kiiskan la wadaago adeeg bixiyayaasha kale sida ku cad tafaasiisha hoos lagu faahfaahiyay.
+        help_text: Tan waxaa ku jira la wadaaga macluumaadka hay'adaha kale ee bixiya adeegyada, tani kuma jiraan la wadaaga macluumaadka UNHCR.
+        tick_box_label: 'yes'
+      information_shared_services:
+        display_name: Macluumaadka waxaa loo wadaagi karaa adeegyada soo socda
+        option_strings_text:
+          alternative_care: Daryeel kaduwan
+          cash_assistance: Kaalmada lacagta caddaanka ah
+          education_formal: Waxbarashada (rasmiga ah)
+          family_tracing_and_reunification: Baafinta qoyska iyo dib u midaynta
+          food: cuntada
+          gbv_survivor_support: taagerada badbaadiyaha GBV
+          legal_support: taagerada sharciga
+          livelihoods: Maciishada
+          medical: caafimaadka
+          mental_health: cafimadka maskaxda
+          non_food_items: Alaabta aan cuntada ahayn
+          non_formal_education: Waxbarashada dadban
+          nutrition: nafaqada
+          psychosocial_support: Taageerada nafsiga ah ee bulshada
+          services_for_children_with_disabilities: Adeegyada carruurta naafada ah
+          shelter: Hoyga
+          sexual_and_reproductive_health: Caafimaadka Galmada iyo Taranka
+          rescue: badbaadin
+          wash: dhaqmada
+          case_transfer: kiis gudbin
+          other: 'kuwa kale '
+      information_shared_services_other:
+        display_name: Haddii Kale, fadlan sheeg
+      unhcr_export_opt_out:
+        display_name: Shakhsiga ogolaanshaha bixinaya waxa uu aqbalay in uu xogta kiiskan la wadaago UNHCR ujeeddooyinka maaraynta kiisaska ilaalinta qaxootiga.
+        tick_box_label: 'haa'
+      withhold_details:
+        display_name: Ka ilaali xogta gaarka ah
+      disclosure_deny_details:
+        display_name: What specific information should be withheld
+      withholding_info_reason:
+        display_name: Sababta xogta loo hayo
+        option_strings_text:
+          fear: Cabsida ay ka qabaan waxyeello naftooda ama dadka kale
+          communicate_information: Waxa ay rabaan in ay is gudbiyaan macluumaadka
+          others: kuwa kale
+      withholding_info_other_reason:
+        display_name: Haddii sabab kale oo lagu hayo macluumaadka, fadlan sheeg

@@ -1,0 +1,183 @@
+---
+om:
+  child_feedback_form:
+    name: Dub-deebii daa'imaa
+    description: Dub-deebii daa'imaa
+    fields:
+      child_feedback_date_completed:
+        display_name: Guyyaa gucichi itti guutame
+      child_feedback_separator_consent:
+        display_name: Waliigaltee abbaa dhimmaa
+        guiding_questions: |-
+          Fakkeenya barruu: ''  "Akkaataa hojjetaan dhimmaa/hawaasaa sii fi maatii kee waalin hojjechaa jiru ilaalchisee si waliin haasa'uun barbaada.  Kayyoon keenya tajaajila qul-qulluu daa'ima keessaniif akka kennamu taasisuudha. 
+          Kanaafuu, akkaataa hojjataan dhimmaa isin deeggaraa turee isin gaafachuun wanti ful-dura sirreessuu qabnu isin irraa baruuf.  Wanti nutti himuu hin feene yoo jiraate. rakkoo hin qabu hin hiphatina sababa isaas isin hin gaafanu.  Yoo waan tokkoyyuu nutti himuu hin feene ykn hin barbaane hin dhiisuus ni dandeessu wanta nutti hin himneef tajaaijila argachaa turtanii fi fuul dura argachuu qabdan irratti dhiibba tokkoyyuu hin qabu. 
+          Haata'uu malee, yaadni isin nuuf kennitan hojii nutti daa'imaa fi maatii biroof hojjennuuf bu'aa ol'aanaa ni qaba.
+          Waan isin nutti himtan kamuu hiccitiin isaa eegamadha. Kana jechuun,yoo yaada isin nuuf kennitan nama biroof qoodneeyyuu eenyu irraa akka argane hin kaasnu.
+           Gaafilee hin deebisuu hin barbaadne dhiisuu qofa otoo hin ta'iin yeroo barbaadanitti / yoo fedhii hin qabne/  yeroo kamittu addaan kutuuf mirga ni qabdu.''
+      child_feedback_interview_subject:
+        display_name: Guca  waliigaltee  eessaa akka argatan
+        option_strings_text:
+          child: Daa'imaa
+          caregiver: Kunuunistoota
+          other: Kan biroo
+      child_feedback_consent_source_other:
+        display_name: Yoo kan biroo ta'e maaloo ibsa.
+      child_feedback_consent:
+        display_name: Adeemsa bulchiinsa dhimmaa keessatti  dub-deebii  daa'imaa  fudhachuuf eeyyamameera.
+        tick_box_label: 'Eeyyeen'
+      child_feedback_consent_caregiver:
+        display_name: Adeemsa bulchiinsa dhimmaa keessatti dub-deebii daa'imaa fudhachuuf kunuunsittootni daa'imaa eeyyamanii jiru.
+        help_text: Iddoo barbaachisaa ta'e qofatti guuti.
+        tick_box_label: 'Eeyyeen '
+      child_feedback_consent_date:
+        display_name: Guyyaa waliigalteen raawwate
+      child_feedback_separator_questions:
+        display_name: 'Gaafilee: Kutaa 1'
+        guiding_questions: |-
+          Akkaataa dub-deebiin itti kennamu ibsuun ni danda'ama.Haata'uu malee, gaafilee kallattii mul'isuu  akka hin taane of-eeganoo taasisuu qabda.  
+          Gucni kun daa'imman umuriin isaanii waggaa 10 fi isa oliif kan mijatu ta'a. Akkaataa barbaachisummaa isaatiin daa'immaan umuriin isaanii waggaa 10 gadi taniif kan foyyaa'u ta'a.  Kuniis Afaan dhaloota daa'imaan kan raawwatu ta'a. Kan raawwatuus nama ogummaa fi leenjii daa'imaa waliin hojjechuu ilaachisee qabuun ta'uu qaba.
+      child_feedback_services_discovery:
+        display_name: "Waa'ee kennisaa tajaajila bulchiinsa dhimmaa(Maqaa dhaabbata galcha)  kennamu akkamite hubatee?"
+        option_strings_text:
+          caseworker_approached_me: Hojjettaan dhimmaa haala itti natti dhiyaate
+          another_organization: Dhaabbilee biroo
+          parents: "Maatii "
+          family_friends: Maatii/Hiriyaa
+          school: Barnoota
+          community_leader: Oggansa hawaasaa
+          community_based_child_protection_focal_point: Qabxii ijoo eegumsa daa'immanii haawaasa bu'urreefatee
+          authorities: Aangoowoota/gahee hojii/
+          saw_a_poster_information_leaflet: Manxansa Odeeffannoo
+          cannot_recall: Yaadachuu/qalbifachuu hin dandeenye
+          other: Kan biroo
+      child_feedback_services_discovery_other:
+        display_name: Yoo kan biraa ta'e maaloo ibsi.
+      child_feedback_help_asked:
+        display_name: "Hojjettaa dhimmaa waliin hojjechuu eegaluun dura, haala kanaan akka deeggaramtuuf  gaafatamtee ture?"
+        option_strings_text:
+          'yes': 'Eeyyeen'
+          'no': 'Lakki'
+          unknown: Hin beekamu
+      child_feedback_help_asked_details:
+        display_name: Maaloo ibsa gadi fageenya kenni
+      child_feedback_expectations:
+        display_name: "Deeggarsa gosa akkamii  Waajjira Dhimma Dubartootaa fi Daa'immanii irraa eegaa turte? "
+        option_strings_text:
+          alternative_care: Filannoowwan kunuunsaa
+          security_e_g_safe_shelter: Eegumsa nageenyaa(Mana mijataa)
+          education_formal: Barnoota(Kan-idilee)
+          non_formal_education: Barnoota idileen alaa
+          family_tracing_and_reunification: Maatii adda baasanii akka maatitti na deebisaniif
+          basic_psychosocial_support: Deeggarsa xin-sammuu fi hawaasummaa bu'uraa
+          focused_non_specialized_mhpss_care: "Kunaansa /deeggarsa fayyummaa sammuu, xin-sammuu fi hawaasummaa"
+          specialized_mhpss_services: "Tajaajila fayyummaa sammuu,xin-sammuu fi hawaasummaa ol'aanaa."
+          food: Nyaata
+          non_food_items: "Deeggarsa nyaatan alaa "
+          cash_assistance: Deeggarsa Maallaqaa
+          livelihoods: Deeggarsa mana keessaa
+          medical: Deeggarsa fayyaa
+          nutrition: "Nyaata "
+          legal_support: Tajaajila seeraa
+          documentation: Qabiinsa ragaa
+          services_for_children_with_disabilities: Tajaajila daa'imman qaama miidhamaaf mijjataa.
+          sexual_and_reproductive_health: Tajaajila fayyummaa wal-hormaata saalaa
+          shelter: Mana jireenya
+          wash: "Tajaajila bishaanii, qul-qullinaa"
+          durable_solution_in_coordination_with_unhcr: Furmaata Waaraa(qindoomina UNHCR waliin)
+          relocation: Tajaajila dabarsuu
+          other: Kan biroo
+      child_feedback_expectations_other:
+        display_name: Kan biroo yoo ta'e maaloo ibsi
+      child_feedback_expectations_received:
+        display_name: "Deeggarsa argachuuf eegde argadhe jettee yaada?"
+        option_strings_text:
+          'yes': 'Eeyyeen'
+          'no': 'Lakki'
+          unknown: Hin beekamu
+      child_feedback_expectations_received_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_process_plan:
+        display_name: "Deeggarsa fi fedhii isin qabdan guutuuf hojjetaan hawaasaa /dhimmaa/ karoora(karoora dhimmaa) isin waliin karoorse?"
+        option_strings_text:
+          'yes': 'Eeyyen'
+          'no': 'Lakki'
+          unknown: Hin beekamu
+      child_feedback_process_plan_details:
+        display_name: Maaloo ibsa gadi fageenyaa ibsi.
+      child_feedback_process_connect:
+        display_name: "Hojjettaan hawaasaa tajaajila biroo isin barbaachisutti isin dabarsee jira?  "
+        option_strings_text:
+          'yes': 'Eeyyeen'
+          no_did_not_need_other_services: "Lakki,tajaajila biroo hin barbaachisne"
+          no_did_not_want_other_services: "Lakki,tajaajila biroo hin feene"
+          unknown: Hin beekamu
+      child_feedback_process_connect_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_process_consent:
+        display_name: "Hojjetaan dhimmaa odeeffannoo haala daa'ima keetii( kee fi maatii keetii) namoota/dhabbata biroof dabarsee? Itti waliigaluu keessan gaafatamtanii turtani?"
+        option_strings_text:
+          'yes': 'Eeyyeen'
+          'no': 'lakki'
+          unknown: Hin beekamu
+      child_feedback_process_consent_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_process_closure:
+        display_name: "Tajaajila bulchiinsa dhimmaa waajira dhimma dubartootaa fi daa'immaniin  daa'ima keetiif kennamaa ture dhaabbuuf hojjettaa dhimmaa waliin murteesitani?"
+        option_strings_text:
+          'yes': 'Eeyyeen'
+          'no': 'Lakki'
+          unknown: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_process_closure_details:
+        display_name: "Maaloo ibsa gadi fageenyaa kenni\n "
+      child_feedback_questions_ii:
+        display_name: 'Gaafilee: Kutaa II'
+        guiding_questions: |-
+          Fakkeenya barruu: ''Qaafilee ani armaan booda isin gaafachuuf deemuuf sadarkaa himatti itti waliif galtan sadarkeessuun kan deebistan ta'a. Yoo himatti guutummaa guututti waliif galtan ta'e qabxii 10 kenni.Yoo guutumaan guututti himatti waliif hin galle ta'e qabxii 1 kenni.Gaafileef ykn himaaf qabxii 1 hanga 10 jiran gidduu kennuun deebissuun ni danda'ama. Yoo himatti baayyee waliigaltu ta'e qabxiin kennitu karaa 10 kan siiqu ta'a. Yoo himatti baayyee waliif hin galle ta'e qabxiin himaaf kennitu karaa lakkoosfa tokkotti kan siiqu ta'a'' 
+      child_feedback_ii_explanation:
+        display_name: Hojjetaan dhimmaa haalota haala ani hin hubanneen kan ibseedha.
+        help_text: Lakkoofsa 1 hanga 10 jidduu jiru filadhu.
+      child_feedback_ii_explanation_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_ii_listening:
+        display_name: "Hojjettaan hawaasaa /dhimmaa yeroo hundaa kan gaafatamu ilaalcha, yaada fi miira koo akka dhageefattuudha."
+        help_text: Lakkoofsa 1 hanga 10 jidduu jiru filadhu.
+      child_feedback_ii_listening_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_ii_pressured:
+        display_name: Yeroo baayyeee waan yaaduu fi fedhu akkan hin murteesineef dhiibbaan hojjetaa dhimmaa/hawaasatu jira.
+        help_text: Lakkoofsa 1 hanga 10 jidduu jiru filadhu
+      child_feedback_ii_pressured_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_ii_followup:
+        display_name: Hojjettaan dhimmaa waan jedhuu fi hojjetu ilaalamee ni hordofama/duuka ni bu'ama/
+        help_text: Lakkoofsa 1 hanga 10 jidduu jiru filadhu
+      child_feedback_ii_followup_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_ii_visits:
+        display_name: Hojjetaan dhimmaa yeroo tokko tokko qofa(quubsaa mitti) anaa fi daa'ima koo bira dhufa.
+        help_text: Lakkoofsa 1 hanga 10 jidduu jiru filadhu
+      child_feedback_ii_visits_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_ii_support:
+        display_name: Deeggarsa hojjetaan dhimmaa daa'ima koof taaise( fi anaaf fi maatii kootiif taasise-iddoo barbaachisaa ta'etti) gaarii ture.
+        help_text: "Lakkoofsa 1 hanga 10 jidduu jiru filadhu\n "
+      child_feedback_ii_support_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_ii_improvement:
+        display_name: Erga hojjetaa hawaasaa/dhimmaa/ waliin hojjechuu eegalee kaasee haalli daa'ima kootii foyya'ee jira.
+        help_text: Lakkoofsa 1 hanga 10 jidduu jiru filadhu&nbsp;<br><br>
+      child_feedback_ii_improvement_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni<br><br>
+      child_feedback_ii_satisfaction:
+        display_name: "Akka waliigalatti, deeggarsa hojjetaa dhimmaa/hawaasaa/ irraa argadheen baayyee gamaddeen jira."
+        help_text: Lakkoofsa 1 hanga 10 jidduu jiru filadhu
+      child_feedback_ii_satisfaction_details:
+        display_name: Maaloo ibsa gadi fageenyaa kenni
+      child_feedback_final_question:
+        display_name: Dub-deebii fi yaada biroo nuuf qoodan qabdu
+        option_strings_text:
+          'yes': 'Eeyyen'
+          'no': 'Lakki'
+          unknown: Hin beekamu
+      child_feedback_final_question_details:
+        display_name: Maaloo ibsa dabalataa kenni

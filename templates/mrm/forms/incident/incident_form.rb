@@ -100,7 +100,6 @@ incident_fields = [
     'display_name_en' => 'Relevant violations',
     'multi_select' => true,
     'option_strings_source' => 'lookup lookup-violation-type',
-    'help_text_en' => "If you have entered and saved a violation subform and you want to REMOVE it from reporting (e.g. if the violation was entered by mistake, and should not be counted in the reports), you may delete any data you have entered in that subform, and save the record.\nPlease do not click on the Action -\u003e Disable button to remove a single violation subform, as the ‘Disable’ button will disable (and exclude from the reports) the whole incident, and not just a single violation.",
     'required' => true
   ),
   Field.new(
@@ -431,6 +430,22 @@ incident_fields = [
   ),
   Field.new(
     'mobile_visible' => true,
+    'required' => false,
+    'show_on_minify_form' => false,
+    'hidden_text_field' => false,
+    'autosum_total' => false,
+    'autosum_group' => '',
+    'hide_on_view_page' => false,
+    'visible' => true,
+    'editable' => true,
+    'disabled' => false,
+    'multi_select' => false,
+    'name' => 'incident_update',
+    'type' => 'textarea',
+    'display_name_en' => 'Update of Incident'
+  ),
+  Field.new(
+    'mobile_visible' => true,
     'show_on_minify_form' => false,
     'hidden_text_field' => false,
     'autosum_total' => true,
@@ -443,6 +458,15 @@ incident_fields = [
     'name' => 'incident_total_tally',
     'type' => 'tally_field',
     'display_name_en' => 'Number of victims',
+    'display_conditions_record' => {
+      'or' => [
+        { 'in' => { 'violation_category' => %w[killing] } },
+        { 'in' => { 'violation_category' => %w[maiming] } },
+        { 'in' => { 'violation_category' => %w[abduction] } },
+        { 'in' => { 'violation_category' => %w[sexual_violence] } },
+        { 'in' => { 'violation_category' => %w[recruitment] } }
+      ]
+    },
     'tally_en' => [
       {
         'id' => 'boys',
@@ -514,7 +538,7 @@ incident_fields = [
     'type' => 'textarea',
     'display_name_en' => 'Additional details on the incident',
     'help_text_en' => 'E.g. time of the day at which the incident took place',
-    'guiding_questions_en' => "Supporting materials can be uploaded in the 'Supporting materials' form"
+    'guiding_questions_en' => "Supporting materials can be uploaded in the 'Supporting materials' form\n  "
   )
 ]
 

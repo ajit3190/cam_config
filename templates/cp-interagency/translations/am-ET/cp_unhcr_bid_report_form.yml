@@ -1,0 +1,8 @@
+---
+am-ET:
+  cp_unhcr_bid_report_form:
+    name: " የጥቅምና ደህንነት ሪፖርት"
+    description: የጥቅምና ደህንነት ሪፖርት
+    fields:
+      unhcr_bid_report_subform:
+        display_name: የጥቅምና ደህንነት ሪፖርት

@@ -1,0 +1,106 @@
+so:
+  care_arrangements_section:
+    name: Qabanqaabada Daryeelka guri
+    description: Habbaynta daryeelka
+    fields:
+      child_caregiver_reason_change:
+        display_name: Haddii kani yahay daryeele cusub, sheeg sababta isbeddelka
+        option_strings_text:
+          abuse_exploitation: Xadgudubka & Ka faa'iidaysiga
+          death_of_caregiver: Dhimashada Daryeelaha
+          Education: waxbarasho
+          ill_health_of_caregiver: Caafimaad darada daryeelaha
+          other: kuwa kale
+          poverty: faqriga
+          relationship_breakdown: Burburka Xiriirka
+      care_arrangements_type:
+        display_name: '11
+
+          What are the child''s current care arrangements?'
+        option_strings_text:
+          parent_s: waalidka(s)
+          step_parent: Waalidka ku xigaha
+          customary_caregiver_s: Daryeel bixiyayaasha caadiga ah(s)
+          adult_sibling: Walaalka weyn
+          kinship_care_extended_family: Daryeelka xigaalka / qoyska ballaaran
+          foster_care: Daryeelka korinta
+          residential_care: Daryeelka deegaanka
+          kafala: kafaala
+          independent_living: Nolol madaxbannaan
+          child_headed_household: Qoyska uu ilmuhu hogaamiyo
+          unrelated_adult: Qof weyn oo aan xiriir la lahayn
+          no_care_arrangement: Ma jiro habayn daryeel
+          other: kuwa kale
+      care_arrangements_type_other:
+        display_name: Haddii Kale, fadlan sheeg
+      name_caregiver_separator:
+        display_name: 'Haddii aysan la joogin waalidka, qofka ugu muhiimsan ee daryeelaya ubadka
+
+           '
+      name_caregiver:
+        display_name: Magaca Daryeel bixiyaha hadda
+        help_text: "(Haddii ilmuhu la joogo waalidka, u gudub Qorshaha Daryeelka.)"
+      nickname_caregiver:
+        display_name: Magacyo kale ama daryeele higaada waxaa loo yaqaan
+        help_text: tusaale, naanays, magaca qoyska labaad
+      caregiver_age:
+        display_name: dada daryeelaha
+      caregiver_dob:
+        display_name: Taariikhda Dhalashada Daryeel bixiyaha (DOB)
+      age_estimated_caragiver:
+        display_name: Da'da ma la qiyaasaa?
+        tick_box_label: 'haa'
+      caregiver_sex:
+        display_name: jinsiga
+      caregiver_national_id:
+        display_name: aqoosiga sharciga
+      caregiver_unhcr_individual_id:
+        display_name: '37
+
+          UNHCR aqoonsigaID'
+      caregiver_other_id:
+        display_name: 'aqoonsi kale '
+      caregiver_related_child:
+        display_name: Daryeeluhu ma la xidhiidhaa ilmaha?
+      relationship_caregiver:
+        display_name: Xiriirka ilmaha
+      caregiver_know_family:
+        display_name: Haddi aanay qaraabo ahayn, daryeelaha ma yaqaanaa qoyska ilmaha?
+      family_size_under_18:
+        display_name: 'Baaxadda Qoyska: Ka hooseeya 18'
+      family_size_over_18:
+        display_name: 'Baaxadda Qoyska: In ka badan 18'
+      address_caregiver:
+        display_name: cinwaanka daryeelaha
+        guiding_questions: Geli ciwaanka Daryeel bixiyaha iyo goobta uu joogo xittaa haddii la mid yahay ciwaanka ilmaha ee raadraaca haddi ubadku dhaqaaqo ama daryeelaha uu is bedelo.
+      location_caregiver:
+        display_name: goobta daryeelaha
+      care_arrangement_started_date:
+        display_name: Goorma ayay bilaabantay qabanqaabada daryeelka?
+      caregiver_willing_to_continue:
+        display_name: Daryeel bixiyaha diyaar ma u yahay inuu sii wado daryeelka ilmaha?
+        option_strings_text:
+          yes_short_term: Haa, muddo gaaban
+          yes_long_term: Haa, waqti dheer
+          'no': 'maya'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: Hadday haa tahay, ilaa intee?
+      caregiver_willing_to_continue_not_reason:
+        display_name: Haddii aadan rabin inaad sii wado daryeelka ilmaha, bixi faahfaahin
+      caregiver_location_status:
+        display_name: Meesha uu hadda joogo daryeeluhu waa ku meel gaadh
+      address_caregiver_future:
+        display_name: Hadday haa tahay, waa maxay ciwaanka mustaqbalka?
+      location_caregiver_future:
+        display_name: Waa maxay goobta mustaqbalka?
+      telephone_caregiver_future:
+        display_name: Waa maxay telefoonka mustaqbalka?
+      telephone_caregiver:
+        display_name: taleefanka daryeelaha
+        help_text: Geli taleefoonka hadda ee daryeel bixiyaha / faahfaahinta xiriirka kale
+      child_consent_caregiver_contacted:
+        display_name: Does the child consent for the caregiver to be contacted?
+      child_consent_caregiver_contacted_no_details:
+        display_name: Haddii ay maya tahay, bixi faahfaahin
+      other_persons_living_in_household:
+        display_name: Dadka kale ee ku nool guriga

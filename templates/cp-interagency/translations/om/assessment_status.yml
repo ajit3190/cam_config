@@ -1,0 +1,29 @@
+---
+om:
+  assessment_status:
+    name: Sadarkaa Sakatta'iinsi irra jiru
+    description: "Guca sadarkaa  sakatta'iinsaa "
+    fields:
+      bia_approved:
+        display_name: Hojii gaggeessa mirkanneese
+        tick_box_label: 'Eeyyeen'
+      bia_approved_date:
+        display_name: Guyyaa
+      bia_approved_comments:
+        display_name: Yaada hojii gaggeesaa
+      approval_status_bia:
+        display_name: Sadarkaa mirkanneesaa
+      assessment_header:
+        display_name: Guca sakatta'iinsaa
+      assessment_requested_on:
+        display_name: Guyyaa sakatta'iinsi itti eegalu
+        help_text: Iddoon kun kan fayyadu sadarkaa yaa'iinsa hojiif
+      assessment_completed_on:
+        display_name: Guyyaan sakatta'iinsi itti xummuramu
+      case_plan_due_date:
+        display_name: Guyyaa karoorri dhimmaa itti raawwatu
+        guiding_questions: |-
+          Haala sadarkaa  balaa  dhimmaa irratti hunda'uun 
+          Ol'aanaa: Guyyoota 3 erga sakatta'iinsi raawwate booda
+          Giddu-galeessa: Torbee tokko keessatti erga sakatta'iinsi raawwatee booda
+          Gadi aanaa: Torbee lama keessatti erga sakatta'iinsi raawwatee booda

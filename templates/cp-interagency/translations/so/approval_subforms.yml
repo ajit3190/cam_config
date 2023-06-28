@@ -1,0 +1,19 @@
+so:
+  approval_subforms:
+    name: cade form hosaadka
+    description: cade form hosaad
+    fields:
+      approval_requested_for:
+        display_name: cade cida codsatay
+      approval_response_for:
+        display_name: loo cadeeyay
+      approval_for_type:
+        display_name: nooca qorshaha kiiska
+      approval_date:
+        display_name: taarikh
+      approval_manager_comments:
+        display_name: faaloyinka maamulaha
+      approval_status:
+        display_name: heerka ansixinta
+      approved_by:
+        display_name: cida ansixisay

@@ -1,0 +1,107 @@
+---
+om:
+  basic_identity:
+    name: "Ibsa waa'ee daa'imaa   "
+    description: Odeeffannoo waa'ee daa'ima maatiin adda bahanii fi daa'ima maatii/kunuunsittoota hin qabne/UASC/
+    fields:
+      case_id_display:
+        display_name: "Koodii Dhimmicha "
+      cpims_id:
+        display_name: Koodii duranii dhimmicha
+        help_text: "Sirni bulchiinsa odeeffannoo eegumsa daa'imaa/CPIMS//sirni biroo yoo jiraate? Koodii"
+      marked_for_mobile:
+        display_name: "Yaadannoon bilbila harkaa fudhatame?"
+        tick_box_label: 'Eeyyeen'
+      child_status:
+        display_name: Sadarkaa dhimmichi irra jiru.
+      case_status_reopened:
+        display_name: "Dhimmichi irra deebiin baname?"
+        tick_box_label: 'Eeyyeen'
+      case_status_reopened_reasons:
+        display_name: Sababa irra deebiin banameef
+        option_strings_text:
+          break_down_of_reunification_placement: Ibsa maatitti deebisanii makuu.
+          death_of_caregiver_s: Du'a kunuunsittoota.
+          physical_abuse_violence: Miidhaa qaamaa
+          sexual_abuse_violence: Miidhaa sal-qunnamtii
+          emotional_or_psychological_abuse_violence: Miidhaa xin-sammuu/miiraa
+          physical_neglect: Dagannaa qaamaa/Physical neglect/.
+          emotional_neglect: Dagannaa xin-sammuu/miiraa/.
+          medical_neglect: Dagannaa fayyaa.
+          educational_neglect: Dagannaa barnootaa
+          supervisory_neglect: Dagannaa nama dhimmicha hogganuu/hordofuu/.
+          abandonment: Gatuu/Abandoment/.
+          child_labour: Humna daa'imaa
+          hazardous_work: Hojii daa'ima balaaf saaxilu
+          sexual_exploitation: " Sal-qunnamtiif fayyadamuu."
+          slavery_sale_trafficking_forced_labour: "Garboomsuu/gurgurruu/godaansa seeran alaa/ dirqiin hojjechiisuu "
+          in_conflict_with_the_law: Seera waliin walitti bu'uu.
+          associated_with_armed_forces_or_groups: "Humna waraanaa ykn garee waliin kan walitti dhufeenya qabu. "
+          unaccompanied: Kan maatii /kunuunsittoota/ hin qabne.
+          separated: Kan maatii/kunuunsittoota/ biraa adda bahan.
+          orphan: Kan abbaa fi hadha hin qabne.
+          functional_difficulties: "Kan hanqinaalee adda addaa qaban( Fkn. ilaaluu,dhageeffachuu,deemuu,dubbachuu,yaadachuu,of-kunuunsuu fi kkf)"
+          psychosocial_distress: Rakkoo/hiphina/ xin-sammuu fi hawaasummaa
+          substance_abuse_and_addiction_child: Miidhaa suusii/qoricha sammuu haddoochanii fi  butii.
+          belongs_to_marginalised_discriminated_group: Qaama /garee gadi aanaa keessatti qoodamuu.
+          lack_of_documentation_birth_registration: Odeeffannoon dhabamuu/ragaan dhalootaa/
+          child_marriage: Eeruma daa'imummaa/Umurii malee heerumuu/-ECM.
+          fgm: Kittaanaa  daa'ima dubaraa
+          pregnancy_child_parent: Daa'ima ulfaa/ daa'ima mana bulchan/.
+          inappropriate_care_arrangement: "Qophii /karoora/ kunuunsaa sirrii hin taane(Fkn. daa'imman 8 mana tokko keessa jiraachuu, maatiin suusii addaa addaan qabamuu, kunuunsan tokko qofa ta'uu fi saaxilamaa ta'uu)"
+          other: Kan biroo
+      name:
+        display_name: Maqaa guutuu
+      name_first:
+        display_name: Maqaa Daa'imaa
+      name_middle:
+        display_name: Maqaa abbaa
+      name_last:
+        display_name: Maqaa akakayyuu
+      name_nickname:
+        display_name: Maqaa biroo itti beekamu
+      name_other:
+        display_name: Maqaa biroo
+      registration_date:
+        display_name: Guyyaa galmee
+      identification_date:
+        display_name: Guyyaa dhimmichi adda bahe/gabaafame/
+      assessment_due_date:
+        display_name: Guyyaa sakatta'iinsaa
+      sex:
+        display_name: Koorniyaa
+      age:
+        display_name: Umurii
+      date_of_birth:
+        display_name: Guyyaa Dhalootaa
+      estimated:
+        display_name: "Umuriin ni tilmaamamee?"
+        tick_box_label: 'Eeyyeen'
+      national_id_no:
+        display_name: Lakkofsa koodii biyyoolessaa.
+      unhcr_individual_no:
+        display_name: Koodii Dhuunfaa UNHCR
+      other_id_type:
+        display_name: Gosa koodii ragaa biroo
+      other_id_no:
+        display_name: Lokkoosfa koodii biroo
+      nationality:
+        display_name: Biyya isaanii
+      ethnicity:
+        display_name: Saba
+      sub_ethnicity_1:
+        display_name: Gosa saba 1
+      sub_ethnicity_2:
+        display_name: Gosa sabaa 2
+      language:
+        display_name: Afaan daa'imni haasa'u.
+      religion:
+        display_name: Amantaa
+      displacement_status:
+        display_name: Garee hawaasaa
+      displacement_status_other:
+        display_name: Yoo kan biroo jiraate maaloo ibsa.
+      disability_type_communications:
+        display_name: Fedhii addaa biroo
+      telephone_current:
+        display_name: Odeeffannoo waa’ee daa’imichaa

@@ -1,10 +1,11 @@
 # frozen_string_literal: true
 
-require_relative '../../../common/lookups.rb'
+require_relative '../../../common/lookups_mrm.rb'
 
 Lookup.create_or_update!(
   unique_id: 'lookup-armed-force-group-or-other-party',
   name_en: 'Armed Force Group Or Other Party',
+  locked: true,
   lookup_values: [
     { id: 'armed_force_1', display_text: 'Armed Force 1', tags: %w[armed-force] }.with_indifferent_access,
     { id: 'armed_force_2', display_text: 'Armed Force 2', tags: %w[armed-force] }.with_indifferent_access,
@@ -20,19 +21,9 @@ Lookup.create_or_update!(
 )
 
 Lookup.create_or_update!(
-  unique_id: 'lookup-armed-force-group-name',
-  name_en: 'Armed Force Group Name',
-  lookup_values_en: [
-    { id: 'armed_force_or_group_1', display_text: 'Armed Force or Group 1' }.with_indifferent_access,
-    { id: 'armed_force_or_group_2', display_text: 'Armed Force or Group 2' }.with_indifferent_access,
-    { id: 'armed_force_or_group_3', display_text: 'Armed Force or Group 3' }.with_indifferent_access,
-    { id: 'other_please_specify', display_text: 'Other, please specify' }.with_indifferent_access
-  ]
-)
-
-Lookup.create_or_update!(
   unique_id: 'lookup-armed-force-group-type',
   name_en: 'Armed Force Group Type',
+  locked: true,
   lookup_values_en: [
     { id: 'national_army', display_text: 'National Army' }.with_indifferent_access,
     { id: 'security_forces', display_text: 'Security Forces' }.with_indifferent_access,
@@ -47,54 +38,31 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-perpetrator-category-type',
   name_en: 'Perpetrator Category Type',
+  locked: true,
   lookup_values_en: [
-    { id: 'armed_force', display_text: 'Armed force' }.with_indifferent_access,
-    { id: 'armed_group', display_text: 'Armed group' }.with_indifferent_access,
-    { id: 'other_party_to_the_conflict', display_text: 'Other party to the conflict' }.with_indifferent_access,
+    { id: 'armed_force', display_text: 'Armed force', tags: %w[not-crossfire] }.with_indifferent_access,
+    { id: 'armed_group', display_text: 'Armed group', tags: %w[not-crossfire] }.with_indifferent_access,
+    { id: 'other_party_to_the_conflict', display_text: 'Other party to the conflict', tags: %w[not-crossfire] }.with_indifferent_access,
     { id: 'crossfire', display_text: 'Crossfire' }.with_indifferent_access,
-    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
-  ]
-)
-
-Lookup.create_or_update!(
-  unique_id: 'lookup-armed-force-name',
-  name_en: 'Armed Force Name',
-  lookup_values_en: [
-    { id: 'armed_force_1', display_text: 'Armed Force 1' }.with_indifferent_access,
-    { id: 'armed_force_2', display_text: 'Armed Force 2' }.with_indifferent_access,
-    { id: 'armed_force_3', display_text: 'Armed Force 3' }.with_indifferent_access,
-    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
-  ]
-)
-
-Lookup.create_or_update!(
-  unique_id: 'lookup-armed-group-name',
-  name_en: 'Armed Group Name',
-  lookup_values_en: [
-    { id: 'armed_group_1', display_text: 'Armed Group 1' }.with_indifferent_access,
-    { id: 'armed_group_2', display_text: 'Armed Group 2' }.with_indifferent_access,
-    { id: 'armed_group_3', display_text: 'Armed Group 3' }.with_indifferent_access,
-    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
+    { id: 'unknown', display_text: 'Unknown', tags: %w[not-crossfire] }.with_indifferent_access
   ]
 )
 
 Lookup.create_or_update!(
   unique_id: 'lookup-attack-type',
   name_en: 'Attack Type',
+  locked: true,
   lookup_values_en: [
-    { id: 'aerial_attack', display_text: 'Aerial attack' }.with_indifferent_access,
-    { id: 'arson', display_text: 'Arson' }.with_indifferent_access,
-    { id: 'land_based_attack', display_text: 'Land-based attack' }.with_indifferent_access,
-    { id: 'sea_based_attack', display_text: 'Sea-based attack' }.with_indifferent_access,
-    { id: 'shooting_e_g_sniper', display_text: 'Shooting (e.g. sniper)' }.with_indifferent_access,
-    { id: 'suicide_attack', display_text: 'Suicide attack' }.with_indifferent_access,
-    { id: 'other', display_text: 'Other' }.with_indifferent_access
+    { id: 'direct_attack', display_text: 'Direct attack' }.with_indifferent_access,
+    { id: 'indirect_attack', display_text: 'Indirect attack' }.with_indifferent_access,
+    { id: 'undetermined', display_text: 'Undetermined' }.with_indifferent_access
   ]
 )
 
 Lookup.create_or_update!(
   unique_id: 'lookup-ctfmr-member-or-partner',
   name_en: 'Ctfmr Member Or Partner',
+  locked: false,
   lookup_values_en: [
     { id: 'partner_1', display_text: 'Partner 1' }.with_indifferent_access,
     { id: 'partner_2', display_text: 'Partner 2' }.with_indifferent_access,
@@ -106,6 +74,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-facility-impact-type',
   name_en: 'Facility Impact Type',
+  locked: true,
   lookup_values_en: [
     { id: 'total_destruction', display_text: 'Total destruction' }.with_indifferent_access,
     { id: 'serious_damage', display_text: 'Serious damage' }.with_indifferent_access,
@@ -117,6 +86,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-healthcare-facility-type',
   name_en: 'Healthcare Facility Type',
+  locked: true,
   lookup_values_en: [
     { id: 'hospital', display_text: 'Hospital' }.with_indifferent_access,
     { id: 'health_centre', display_text: 'Health centre' }.with_indifferent_access,
@@ -130,6 +100,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-ill-treatment-violations',
   name_en: 'Ill Treatment Violations',
+  locked: true,
   lookup_values_en: [
     { id: 'blindfolded', display_text: 'Blindfolded' }.with_indifferent_access,
     { id: 'denial_of_access_to_toilets', display_text: 'Denial of access to toilets' }.with_indifferent_access,
@@ -151,7 +122,6 @@ Lookup.create_or_update!(
     { id: 'attempt_to_recruit_as_informant', display_text: 'Attempt to recruit as informant' }.with_indifferent_access,
     { id: 'position_abuse', display_text: 'Position abuse' }.with_indifferent_access,
     { id: 'attempt_to_sexual_abuse', display_text: 'Attempt to sexual abuse' }.with_indifferent_access,
-    { id: 'position_abuse_attempt_to_sexual_abuse', display_text: 'Position abuse, Attempt to sexual abuse' }.with_indifferent_access,
     { id: 'sexual_abuse', display_text: 'Sexual abuse' }.with_indifferent_access
   ]
 )
@@ -159,6 +129,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-language',
   name_en: 'Language',
+  locked: false,
   lookup_values_en: [
     { id: 'language1', display_text: 'Language1' }.with_indifferent_access,
     { id: 'language2', display_text: 'Language2' }.with_indifferent_access,
@@ -174,19 +145,9 @@ Lookup.create_or_update!(
 )
 
 Lookup.create_or_update!(
-  unique_id: 'lookup-other-party-name',
-  name_en: 'Other Party Name',
-  lookup_values_en: [
-    { id: 'other_party_1', display_text: 'Other Party 1' }.with_indifferent_access,
-    { id: 'other_party_2', display_text: 'Other Party 2' }.with_indifferent_access,
-    { id: 'other_party_3', display_text: 'Other Party 3' }.with_indifferent_access,
-    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
-  ]
-)
-
-Lookup.create_or_update!(
   unique_id: 'lookup-religion',
   name_en: 'Religion',
+  locked: false,
   lookup_values_en: [
     { id: 'religion1', display_text: 'Religion1' }.with_indifferent_access,
     { id: 'religion2', display_text: 'Religion2' }.with_indifferent_access,
@@ -205,6 +166,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-school-age-level',
   name_en: 'School Age Level',
+  locked: true,
   lookup_values_en: [
     { id: '0_5', display_text: '0 - 5' }.with_indifferent_access,
     { id: '6_10', display_text: '6 - 10' }.with_indifferent_access,
@@ -214,17 +176,9 @@ Lookup.create_or_update!(
 )
 
 Lookup.create_or_update!(
-  unique_id: 'lookup-individual-age-range',
-  name_en: 'School Age Level',
-  lookup_values_en: [
-    { id: '0_15', display_text: '0 - 15' }.with_indifferent_access,
-    { id: '16_18', display_text: '16 - 18' }.with_indifferent_access
-  ]
-)
-
-Lookup.create_or_update!(
   unique_id: 'lookup-school-sex-type',
   name_en: 'School Sex Type',
+  locked: true,
   lookup_values_en: [
     { id: 'male_school', display_text: 'Male school' }.with_indifferent_access,
     { id: 'female_school', display_text: 'Female school' }.with_indifferent_access,
@@ -236,6 +190,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-school-type',
   name_en: 'School Type',
+  locked: true,
   lookup_values_en: [
     { id: 'early_childhood_pre_primary', display_text: 'Early childhood/pre-primary' }.with_indifferent_access,
     { id: 'primary', display_text: 'Primary' }.with_indifferent_access,
@@ -255,6 +210,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-verification-status',
   name_en: 'Verification Status',
+  locked: true,
   lookup_values_en: [
     { id: 'verified', display_text: 'Verified' }.with_indifferent_access,
     { id: 'report_pending_verification', display_text: 'Report pending verification' }.with_indifferent_access,
@@ -266,6 +222,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-violation-type',
   name_en: 'Violation Type',
+  locked: true,
   lookup_values_en: [
     { id: 'killing', display_text: 'Killing' }.with_indifferent_access,
     { id: 'maiming', display_text: 'Maiming' }.with_indifferent_access,
@@ -282,6 +239,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-vulnerability-type',
   name_en: 'Vulnerability Type',
+  locked: true,
   lookup_values_en: [
     { id: 'abducted', display_text: 'Abducted' }.with_indifferent_access,
     { id: 'asylum_seeker', display_text: 'Asylum seeker' }.with_indifferent_access,
@@ -301,44 +259,58 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-weapon-type',
   name_en: 'Weapon Type',
+  locked: true,
   lookup_values_en: [
-    { id: 'aerial_bomb', display_text: 'Aerial bomb' }.with_indifferent_access,
-    { id: 'barrel_bomb', display_text: 'Barrel bomb' }.with_indifferent_access,
-    { id: 'baton', display_text: 'Baton' }.with_indifferent_access,
-    { id: 'beheading', display_text: 'Beheading' }.with_indifferent_access,
-    { id: 'burned_alive', display_text: 'Burned alive' }.with_indifferent_access,
-    { id: 'booby_trap', display_text: 'Booby trap' }.with_indifferent_access,
-    { id: 'biological_weapons', display_text: 'Biological weapons' }.with_indifferent_access,
-    { id: 'chemical_weapons', display_text: 'Chemical weapons' }.with_indifferent_access,
-    { id: 'dirty_atomic_weapons', display_text: 'Dirty/atomic weapons (e.g. depleted uranium ammunition)' }.with_indifferent_access,
-    { id: 'hanging', display_text: 'Hanging' }.with_indifferent_access,
-    { id: 'explosive_remnant_of_war_erw', display_text: 'Explosive remnant of war – ERW (includes unexploded ordnance and abandoned ordnance)' }.with_indifferent_access,
-    { id: 'ied_command_wire_operated', display_text: 'Improvised Explosive Device (IED) – Command-wire operated' }.with_indifferent_access,
-    { id: 'ied_flying_ied', display_text: 'Improvised Explosive Device (IED) – Flying IED' }.with_indifferent_access,
-    { id: 'ied_person_borne_ied', display_text: 'Improvised Explosive Device (IED) - Person-borne IED' }.with_indifferent_access,
-    { id: 'ied_remote_controlled_ied', display_text: 'Improvised Explosive Device (IED) - Remote-controlled IED' }.with_indifferent_access,
-    { id: 'ied_timer_operated_ied', display_text: 'Improvised Explosive Device (IED) - Timer-operated IED' }.with_indifferent_access,
-    { id: 'ied_vehicle_borne_ied', display_text: 'Improvised Explosive Device (IED) - Vehicle-borne IED' }.with_indifferent_access,
-    { id: 'ied_grenade', display_text: 'Improvised Explosive Device (IED) - Grenade' }.with_indifferent_access,
-    { id: 'landmine', display_text: 'Landmine (includes anti-personnel and anti-vehicle landmine, both factory-made and improvised, and pressure-plate IEDs)' }.with_indifferent_access,
-    { id: 'light_weapons_designed_to_be_used_by_several_persons', display_text: 'Light weapons (designed to be used by several persons, i.e. heavy machine guns, air defence weapons, etc.)' }.with_indifferent_access,
-    { id: 'missile', display_text: 'Missile' }.with_indifferent_access,
-    { id: 'mortar_rocket', display_text: 'Mortar/Rocket' }.with_indifferent_access,
-    { id: 'sharp_weapon', display_text: 'Sharp weapon' }.with_indifferent_access,
-    { id: 'small_arm_e_g_ak_47', display_text: 'Small arm (e.g. AK-47)' }.with_indifferent_access,
-    { id: 'submunition_e_g_cluster_munitions', display_text: 'Submunition (e.g. cluster munitions)' }.with_indifferent_access,
-    { id: 'stoning', display_text: 'Stoning' }.with_indifferent_access,
-    { id: 'tear_gas', display_text: 'Tear gas' }.with_indifferent_access,
-    { id: 'unmaned_aerial_vehicle', display_text: 'Unmaned aerial vehicle' }.with_indifferent_access,
-    { id: 'water_cannons', display_text: 'Water cannons' }.with_indifferent_access,
-    { id: 'other', display_text: 'Other weapon' }.with_indifferent_access,
-    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
+    { id: 'airstrike', display_text: 'Airstrike', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'anti_personnel_landmine', display_text: 'Anti-personnel Landmine', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'anti_vehicle_landmine', display_text: 'Anti-vehicle Landmine', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'arson', display_text: 'Arson', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'assault_rifle', display_text: 'Assault rifle', tags: %w[small-arms-lights-weapons] }.with_indifferent_access,
+    { id: 'baton', display_text: 'Baton', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'beheading', display_text: 'Beheading', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'burned_alive', display_text: 'Burned alive', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'biological_weapons', display_text: 'Biological weapons', tags: %w[weapons-mass-destruction] }.with_indifferent_access,
+    { id: 'chemical_weapons', display_text: 'Chemical weapons', tags: %w[weapons-mass-destruction] }.with_indifferent_access,
+    { id: 'dirty_weapons_radiological_dispersion_device', display_text: 'Dirty weapons/radiological dispersion device (eg. Depleted uranium ammunition)', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'explosive_remnant_of_war_erw', display_text: 'ERW - includes UXO and abandoned ordnance (AXO)', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'hand_grenade_factory_made', display_text: 'Hand grenade (factory-made)', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'hanging', display_text: 'Hanging', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'ied_barrel_bomb', display_text: 'IED - Barrel bomb', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'ied_booby_trap', display_text: 'IED - Booby trap', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'ied_command_wire_operated', display_text: 'IED - Command-wire operated', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'ied_flying_ied', display_text: 'IED - Flying IED', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'ied_person_borne_ied', display_text: 'IED - Person-borne IED', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'ied_remote_controlled_ied', display_text: 'IED - Remote-controlled IED', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'ied_timer_operated_ied', display_text: 'IED - Timer-operated IED', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'ied_vehicle_borne_ied', display_text: 'IED - Vehicle-borne IED', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'improvised_anti_personnel_landmine', display_text: 'Improvised anti-personnel landmine', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'improvised_anti_vehicle_landmine', display_text: 'Improvised anti-vehicle landmine', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'light_weapons_designed_to_be_used_by_several_persons', display_text: 'Light weapons (designed to be used by several persons, i.e. heavy machine guns, air defence weapons, etc.)', tags: %w[small-arms-lights-weapons] }.with_indifferent_access,
+    { id: 'missile', display_text: 'Missile', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'mortar_rocket', display_text: 'Mortar/Rocket', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'nuclear_weapons', display_text: 'Nuclear weapons', tags: %w[weapons-mass-destruction] }.with_indifferent_access,
+    { id: 'ied_other', display_text: 'Other IED - e.g. home made hand grenade', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'projectile_electric_shock_weapons', display_text: 'Projectile Electric-Shock Weapons (Tasers)', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'sharp_weapon', display_text: 'Sharp weapon', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'small_arm', display_text: 'Small arm (e.g. AK-47, other rifles, handgun, pistol...)', tags: %w[small-arms-lights-weapons] }.with_indifferent_access,
+    { id: 'small_munitions', display_text: 'Small munitions (cartridges, detonator, fuse, etc.)', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'submunition_e_g_cluster_munitions', display_text: 'Submunition (e.g. cluster munitions)', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'stoning', display_text: 'Stoning', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'tear_gas', display_text: 'Tear gas', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'unknown_improvised_landmine', display_text: 'Unknown Improvised Landmine (anti-personnel or anti-vehicle)', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'unknown_landmine', display_text: 'Unknown Landmine (anti-personnel or anti-vehicle)', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'unmaned_aerial_vehicle', display_text: 'Unmaned aerial vehicle', tags: %w[conventional-explosive-weapons] }.with_indifferent_access,
+    { id: 'water_cannons', display_text: 'Water cannons', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'white_phosphorus_munitions', display_text: 'White phosphorus munitions', tags: %w[other-weapon-methods] }.with_indifferent_access,
+    { id: 'unknown', display_text: 'Unknown', tags: %w[conventional-explosive-weapons weapons-mass-destruction small-arms-lights-weapons other-weapon-methods unknown] }.with_indifferent_access,
+    { id: 'other', display_text: 'Other', tags: %w[conventional-explosive-weapons weapons-mass-destruction small-arms-lights-weapons other-weapon-methods] }.with_indifferent_access
   ]
 )
 
 Lookup.create_or_update!(
   unique_id: 'lookup-recruitment-factors',
   name_en: 'Recruitment Factors',
+  locked: true,
   lookup_values_en: [
     { id: 'abduction', display_text: 'Abduction' }.with_indifferent_access,
     { id: 'conscription', display_text: 'Conscription' }.with_indifferent_access,
@@ -359,6 +331,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-context',
   name_en: 'Context',
+  locked: true,
   lookup_values_en: [
     { id: 'military_clashes', display_text: 'Military clashes' }.with_indifferent_access,
     { id: 'erw', display_text: 'ERW' }.with_indifferent_access,
@@ -374,6 +347,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-detention-facility-type',
   name_en: 'Detention Facility Type',
+  locked: true,
   lookup_values_en: [
     { id: 'civilian_infrastructure', display_text: 'Civilian infrastructure' }.with_indifferent_access,
     { id: 'informal_detention_facility', display_text: 'Informal detention facility' }.with_indifferent_access,
@@ -388,6 +362,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-abduction-purpose',
   name_en: 'Abduction Purpose',
+  locked: true,
   lookup_values_en: [
     { id: 'extortion', display_text: 'Extortion' }.with_indifferent_access,
     { id: 'forced_marriage', display_text: 'Forced marriage' }.with_indifferent_access,
@@ -409,10 +384,22 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-yes-no-partially',
   name_en: 'Yes No Partially',
+  locked: true,
   lookup_values_en: [
-    { id: 'true', display_text: 'Yes' }.with_indifferent_access,
-    { id: 'false', display_text: 'No' }.with_indifferent_access,
+    { id: 'yes', display_text: 'Yes' }.with_indifferent_access,
+    { id: 'no', display_text: 'No' }.with_indifferent_access,
     { id: 'partially', display_text: 'Partially' }.with_indifferent_access,
+    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
+  ]
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-mrm-yes-no-unknown',
+  name_en: 'Yes, No, or Unknown',
+  locked: true,
+  lookup_values_en: [
+    { id: 'yes', display_text: 'Yes' }.with_indifferent_access,
+    { id: 'no', display_text: 'No' }.with_indifferent_access,
     { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
   ]
 )
@@ -420,6 +407,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-gender-unknown',
   name_en: 'gender unknown',
+  locked: true,
   lookup_values_en: [
     { id: 'male', display_text: 'Male' }.with_indifferent_access,
     { id: 'female', display_text: 'Female' }.with_indifferent_access,
@@ -430,6 +418,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-gender-na',
   name_en: 'gender na',
+  locked: true,
   lookup_values_en: [
     { id: 'male', display_text: 'Male' }.with_indifferent_access,
     { id: 'female', display_text: 'Female' }.with_indifferent_access,
@@ -440,6 +429,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-gender-mixed',
   name_en: 'gender mixed',
+  locked: true,
   lookup_values_en: [
     { id: 'male', display_text: 'Male' }.with_indifferent_access,
     { id: 'female', display_text: 'Female' }.with_indifferent_access,
@@ -451,6 +441,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-mrm-sexual-violence-type',
   name_en: 'MRM Sexual Violence Type',
+  locked: true,
   lookup_values_en: [
     { id: 'rape', display_text: 'Rape' }.with_indifferent_access,
     { id: 'gang_rape', display_text: 'Gang rape' }.with_indifferent_access,
@@ -468,13 +459,14 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-facility-attack-type',
   name_en: 'Facility Attack Type',
+  locked: true,
   lookup_values_en: [
     { id: 'attack_on_school_s', display_text: 'Attack on school(s)', tags: %w[armed-on-school] }.with_indifferent_access,
-    { id: 'attack_on_education_personnel', display_text: 'Attack on education personnel', tags: %w[armed-on-school] }.with_indifferent_access,
+    { id: 'attack_on_protected_persons_schools', display_text: 'Attack on protected persons in relation to schools', tags: %w[armed-on-school] }.with_indifferent_access,
     { id: 'threat_of_attack_on_school_s', display_text: 'Threat of attack on school(s)', tags: %w[armed-on-school] }.with_indifferent_access,
     { id: 'other_interference_with_education', display_text: 'Other interference with education', tags: %w[armed-on-school] }.with_indifferent_access,
     { id: 'attack_on_hospital_s', display_text: 'Attack on hospital(s)', tags: %w[armed-on-hospital] }.with_indifferent_access,
-    { id: 'attack_on_medical_personnel', display_text: 'Attack on medical personnel', tags: %w[armed-on-hospital] }.with_indifferent_access,
+    { id: 'attack_on_protected_persons_hospitals', display_text: 'Attack on protected persons in relation to hospitals', tags: %w[armed-on-hospital] }.with_indifferent_access,
     { id: 'threat_of_attack_on_hospital_s', display_text: 'Threat of attack on hospital(s)', tags: %w[armed-on-hospital] }.with_indifferent_access,
     { id: 'other_interference_with_healthcare', display_text: 'Other interference with healthcare', tags: %w[armed-on-hospital] }.with_indifferent_access
   ]
@@ -483,6 +475,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-military-use-type',
   name_en: 'Military Use Type',
+  locked: true,
   lookup_values_en: [
     { id: 'military_use_of_school', display_text: 'Military use of school' }.with_indifferent_access,
     { id: 'military_use_of_hospital', display_text: 'Military use of hospital' }.with_indifferent_access
@@ -492,6 +485,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-denial-method',
   name_en: 'Denial Method',
+  locked: true,
   lookup_values_en: [
     { id: 'abduction_of_humanitarian_personnel', display_text: 'Abduction of humanitarian personnel' }.with_indifferent_access,
     { id: 'besiegement', display_text: 'Besiegement' }.with_indifferent_access,
@@ -512,8 +506,9 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-form-group-mrm-incident',
   name_en: 'Form Groups - MRM Incident',
+  locked: true,
   lookup_values_en: [
-    { id: 'violations', display_text: 'Violations' }.with_indifferent_access,
+    { id: 'violations', display_text: 'Violations Forms' }.with_indifferent_access,
     { id: 'group_victims', display_text: 'Group victim(s)' }.with_indifferent_access,
     { id: 'incident', display_text: 'Incident' }.with_indifferent_access,
     { id: 'record_history', display_text: 'Record History' }.with_indifferent_access,
@@ -523,7 +518,7 @@ Lookup.create_or_update!(
     { id: 'response', display_text: 'Response' }.with_indifferent_access,
     { id: 'sources', display_text: 'Sources' }.with_indifferent_access,
     { id: 'supporting_materials', display_text: 'Supporting Materials' }.with_indifferent_access,
-    { id: 'additional_details', display_text: 'Additional Details' }.with_indifferent_access,
+    { id: 'additional_details', display_text: 'Other Forms' }.with_indifferent_access,
     { id: 'record_information', display_text: 'Record Information' }.with_indifferent_access
   ]
 )
@@ -531,6 +526,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-reasons-deprivation-liberty',
   name_en: 'Reasons Deprivation Liberty',
+  locked: true,
   lookup_values_en: [
     { id: 'security_reasons', display_text: 'Security reasons' }.with_indifferent_access,
     { id: 'association_with_armed_groups_or_forces', display_text: 'Association with armed groups or forces' }.with_indifferent_access
@@ -540,6 +536,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-combat-role-type',
   name_en: 'Combat Role Type',
+  locked: true,
   lookup_values_en: [
     { id: 'combatant', display_text: 'Combatant' }.with_indifferent_access,
     { id: 'non_combatant', display_text: 'Non-combatant' }.with_indifferent_access,
@@ -550,6 +547,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-regained-freedom-how',
   name_en: 'Regained Freedom How',
+  locked: true,
   lookup_values_en: [
     { id: 'release_by_abductors', display_text: 'Release by abductors' }.with_indifferent_access,
     { id: 'payment_of_ransom', display_text: 'Payment of ransom' }.with_indifferent_access,
@@ -564,6 +562,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-organization-type',
   name_en: 'Organization Type',
+  locked: true,
   lookup_values_en: [
     { id: 'governmental', display_text: 'Governmental' }.with_indifferent_access,
     { id: 'international_inter_governmental', display_text: 'International/Inter-Governmental' }.with_indifferent_access,
@@ -582,6 +581,7 @@ Lookup.create_or_update!(
 Lookup.create_or_update!(
   unique_id: 'lookup-aid-service-type',
   name_en: 'Aid Service Type',
+  locked: true,
   lookup_values_en: [
     { id: 'food', display_text: 'Food' }.with_indifferent_access,
     { id: 'medical_care', display_text: 'Medical care' }.with_indifferent_access,
@@ -601,12 +601,14 @@ end
 Lookup.create_or_update!(
   unique_id: 'lookup-verified-ghn-reported',
   name_en: 'GHN in which this incident was included ',
+  locked: true,
   lookup_values_en: lookup_values
 )
 
 Lookup.create_or_update!(
   unique_id: 'lookup-denial-personnel',
   name_en: 'Denial personnel type',
+  locked: true,
   lookup_values_en: [
     { id: 'humanitarian_personnel_killed', display_text: 'Humanitarian personnel was killed' }.with_indifferent_access,
     { id: 'humanitarian_personnel_injured', display_text: 'Humanitarian personnel was injured' }.with_indifferent_access,
@@ -618,10 +620,36 @@ Lookup.create_or_update!(
 
 Lookup.create_or_update!(
   unique_id: 'lookup-violation-tally-options',
-  name_en: 'Denial personnel type',
+  name_en: 'Violation Tally Options',
+  locked: true,
   lookup_values_en: [
     { id: 'boys', display_text: 'Boys' }.with_indifferent_access,
     { id: 'girls', display_text: 'Girls' }.with_indifferent_access,
+    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access,
+    { id: 'total', display_text: 'Total' }.with_indifferent_access
+  ]
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-weapon-category',
+  name_en: 'Category of weapon/method used Options',
+  locked: true,
+  lookup_values_en: [
+    { id: 'conventional_explosive_weapons', display_text: 'Conventional explosive weapons (incl. IEDs)' }.with_indifferent_access,
+    { id: 'weapons_mass_destruction', display_text: 'Weapons of mass destruction' }.with_indifferent_access,
+    { id: 'small_arms_lights_weapons', display_text: 'Small arms and light weapons (SALW)' }.with_indifferent_access,
+    { id: 'other_weapon_methods', display_text: 'Other weapons/methods' }.with_indifferent_access,
+    { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access
+  ]
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-gender-unknown-total',
+  name_en: 'Gender options for insights',
+  locked: true,
+  lookup_values_en: [
+    { id: 'male', display_text: 'Male' }.with_indifferent_access,
+    { id: 'female', display_text: 'Female' }.with_indifferent_access,
     { id: 'unknown', display_text: 'Unknown' }.with_indifferent_access,
     { id: 'total', display_text: 'Total' }.with_indifferent_access
   ]

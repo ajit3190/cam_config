@@ -1,8 +1,0 @@
----
-en:
-  verification:
-    name: Verification
-    description: Verification
-    fields:
-      verification_subform_section:
-        display_name: Verification

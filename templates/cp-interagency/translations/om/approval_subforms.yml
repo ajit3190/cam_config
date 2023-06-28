@@ -1,0 +1,20 @@
+---
+om:
+  approval_subforms:
+    name: " Mirkanneesa  qaama gucaa"
+    description: " Mirkanneesa qaama gucaa"
+    fields:
+      approval_requested_for:
+        display_name: Mirkanneessuun dhimma gaafatameef
+      approval_response_for:
+        display_name: Waan Mirkanna'eef
+      approval_for_type:
+        display_name: Akaakuu karoora dhimmaa
+      approval_date:
+        display_name: Guyyaa
+      approval_manager_comments:
+        display_name: Yaada hojii gaggeessa
+      approval_status:
+        display_name: Mirkanneesi haala irra jiru
+      approved_by:
+        display_name: Kan mirkanneese

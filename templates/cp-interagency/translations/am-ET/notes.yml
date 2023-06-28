@@ -1,0 +1,8 @@
+---
+am-ET:
+  notes:
+    name: ማስታወሻዎች
+    description: ማስታወሻዎች
+    fields:
+      notes_section:
+        display_name: ማስታወሻዎች
