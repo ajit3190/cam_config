@@ -1,0 +1,188 @@
+---
+am-ET:
+  child_feedback_form:
+    name: የህጻኑ/ኗ ምላሽ
+    description: የህጻኑ/ኗ ምላሽ
+    fields:
+      child_feedback_date_completed:
+        display_name: ቅጹ የተሞላበበት ቀን
+      child_feedback_separator_consent:
+        display_name: የጽሁፍና የቃል ስምምነት
+        guiding_questions: |-
+          ማሳያ ጽሁፍ፡ “የጉዳይ አያያዝ ባለሙያው ከእናንተ ጋር በምን አግባብ እየሰራ እንደነበረ ለመወያየት ነው የመጣሁት”
+          ለህጻናት ጥሩ እና ተገቢው ድጋፍ እየተሰጠ መሆኑን ማረጋገጥ እንፈልጋለን፡፡ ስለዚህ የጉዳይ አያያዝ ባለሙያው እንዴት እየረዳችሁ ነው፤ በተለየ መልኩ መሰራት ያለበት ወይም መስተካከል ያለበት ሃሳብ ካለ ግለጹ፡፡
+          መናገር የማትፈልጉት ሃሳብ ካለ ለመናገርም ሆነ ለምን እንደማትናገሩ ምክንያቱን ለመግለጽ አትገደዱም፡፡
+          ነገር ግን ሃሳብን ለመግለጽ አለመቻል በምንሰጣችሁ አገልግሎት ጥራት ላይ ክፍተት ሊፈጥር ይችላል፡፡
+          በአገልግሎቱ ላይ የሚሰጡን ማንኛውም ሃሳብ እና ስሜት ወደፊት የተሻለ አገልግሎት ለህጻናት ተደራሽ ለማድረግ ይጠቅመናል፡፡
+          ማንኛውም የምትነግሩን ጉዳይ ሚስጥራዊነቱ የተጠበቀነው፡፡ ይህ ማለት የሰጡንን አስተያየት ሃሳቡን ለሌሎች ብናጋራም ማን እንደተናገረው ግን አናሳውቅም፡፡
+          የተወሰኑ ጥያቄዎችን አለመመለስ ወይም በጥያቄው አለመቀጠል ትችላላችሁ፡፡
+      child_feedback_interview_subject:
+        display_name: ስምምነቱን የሰጠው አካል
+        option_strings_text:
+          child: ህጻን
+          caregiver: ተንበባካቢ
+          other: ሌላ
+      child_feedback_consent_source_other:
+        display_name: ሌላ ካለ እባክዎ ይጥቀሱ
+      child_feedback_consent:
+        display_name: በጉዳይ አያያዝ ሂደቱ ላይ አስተያየት ለመስተት ህጻኑ/ኗ ስምምነቱን/ስምምነቷን ሰጥታለች
+        tick_box_label: 'አዎ'
+      child_feedback_consent_caregiver:
+        display_name: በጉዳይ አያያዝ ሂደቱ ላይ ከህጻኑ/ኗ አስተያየት ለመሰብሰብ ተንከባካቢዎች ፈቃድ ሰጥተዋል
+        help_text: መሙላት በሚቻልበትና አስፈላጊ በሆነ ጊዜ ብቻ ይጠናቀቅ
+        tick_box_label: 'አዎ'
+      child_feedback_consent_date:
+        display_name: ስምምነቱ የተሰጠበት ቀን
+      child_feedback_separator_questions:
+        display_name: 'ጥያቄ፡ ክፍል አንድ'
+        guiding_questions: |-
+          ፈጣን ምላሽ ለማግኘት ፍንጭ/ምሳሌ መስጠት ይችላሉ፡፡ ነገር ግን መሪ ጥያቄዎችን እንዳይጠይቁ ይጠንቀቁ፡፡
+          ይህ ቅጽ የሚያገለግለው ከ10 ዓመት በላይ ላሉ ህጻን ነው፡፡ አስፈላጊ ከሆነ ከዚህ በታች ለሚገኙ ህጻናት በሚመጥን መልኩ ሊቀየር ይገባል፡፡
+          ለህጻናት በሚመጥኑ ቃላት መቅረብ አለበት፡፡ መከናወን ያለበትም ለህጻናት ቃለ መጠየቅ በማድረግ ምላሾችን ለማሰባሰብ እውቀትና ክህሎት ከህጻናት ጋር በመስራ ሂደት ያሉ ስነምግባር ባለው የሰለጠነ አካል ቢሆን ተገቢ ነው፡፡
+      child_feedback_services_discovery:
+        display_name: "በኤጀንሲው እየተሰጠ ያለውን የጉዳይ አያያዝ አገልግሎት እንዴት ያዩታል? (የኤጀንሲውን ስም በመጥቀስ ይጠይቁ)"
+        option_strings_text:
+          caseworker_approached_me: የጉዳይ አያያዝ ባለሙያው አግኝቶኛል
+          another_organization: ሌላ ተቋም
+          parents: ወላጅ
+          family_friends: ቤተሰብ/ጓደኛ
+          school: ትምህርት ቤት
+          community_leader: የማህበረሰብ መሪዎች
+          community_based_child_protection_focal_point: ማህበረሰብን መሰረት ያደረገ የህጻናት ጥበቃ ዋና ነጥብ
+          authorities: ባለስልጣን
+          saw_a_poster_information_leaflet: ፖስተር/በራሪ ወረቀት በማየት
+          cannot_recall: ማስታዎስ አልችልም
+          other: ሌላ
+      child_feedback_services_discovery_other:
+        display_name: ሌላ ካለ ግለጹ
+      child_feedback_help_asked:
+        display_name: "የጉዳይ አያያዝ ባለሙያ ጋር ከመምጣትህ/ሽ በፊት በዚህ መልኩ መፈታት እንዳለበት ተነግሯችኋል?"
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'የለም'
+          unknown: አይታወቅም
+      child_feedback_help_asked_details:
+        display_name: ዝርዝር ነገር አስቀምጡ
+      child_feedback_expectations:
+        display_name: "ከዚህ ተቋም (የተቋሙን ስም ይግለጹ) የሚጠብቁት ምን አይነት አገልግሎት ነው?"
+        option_strings_text:
+          alternative_care: አማራጭ ድጋፍ
+          security_e_g_safe_shelter: ደህንነት (ምቹ መጠለያ)
+          education_formal: ትምህርት (መደበኛ)
+          non_formal_education: "መደበኛ ያልሆነ ትምህርት "
+          family_tracing_and_reunification: ቤተሰብ ማፈላለግና ማቀላቀል
+          basic_psychosocial_support: "ዋና ዋና የማህበራዊና ስነልቦና ድጋፎች "
+          focused_non_specialized_mhpss_care: ጥልቅ/ልዩ ያልሆነ የአዕምሮ ጤና የስነልቦና እና የማህበራዊ ድጋፍ ላይ ማተኮር
+          specialized_mhpss_services: ጥልቅ/ሙያዊ የሆነ የአዕምሮ ጤና የስነልቦና እና የማህበራዊ ድጋፍ ላይ ማተኮር
+          food: ምግብ
+          non_food_items: ምግብ ነክ ያልሀነ
+          cash_assistance: የገንዘብ ድጋፍ
+          livelihoods: የአኗኗር ሁኔታ
+          medical: የህክምና
+          nutrition: የአመጋገብ ዘዴ
+          legal_support: የህግ ድጋፍ
+          documentation: የመረጃ አያያዝ
+          services_for_children_with_disabilities: የአካል ጉዳት ላለባቸው ህጻናት የሚሰጡ አገልግሎቶች
+          sexual_and_reproductive_health: የስነተዋልዶ ጤና
+          shelter: መጠለያ
+          wash: የውሃ፣ የአካባቢ ንጽህና እና የጤና አጠባበቅ
+          durable_solution_in_coordination_with_unhcr: ዘላቂ መፍትሄ (ከዩ.ኤን.ኤች.ሲ.አር ጋር በመቀናጀት)
+          relocation: ቦታ መቀየር
+          other: ሌላ
+      child_feedback_expectations_other:
+        display_name: ሌላ ካለ ግለጹ
+      child_feedback_expectations_received:
+        display_name: ለማግኘት የፈለጋችሁትን/የጠበቃችሁትን አገልግሎት አግኝታችኋል
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'የለም'
+          unknown: አይታወቅም
+      child_feedback_expectations_received_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_process_plan:
+        display_name: "የጉዳይ አያያዝ ባለሙያው የድጋፍ እቅዱን በሚሰራበት ጊዜ እናንተን አሳትፏል?"
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'የለም'
+          unknown: አይታወቅም
+      child_feedback_process_plan_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_process_connect:
+        display_name: "የጉዳይ አያያዝ ባለሙያው ሊረዳችሁ የሚችል የአገልግሎት አማራጭ አገናኝቷችኋል?"
+        option_strings_text:
+          'yes': 'አዎ'
+          no_did_not_need_other_services: የለም፡፡ ሌላ አገልግሎት አያስፈልግም
+          no_did_not_want_other_services: የለም፡፡ ሌላ አገልግሎት አያስፈልግም
+          unknown: አይታወቅም
+      child_feedback_process_connect_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_process_consent:
+        display_name: "የጉዳይ አያያዝ ባለሙያው  አንተን/አንቺን  የተመለከቱ መረጃዎችን ለሌሎች በማጋራት ሂደት ከማጋራቱ በፊት ስምምነትታችሁን ይጠይቃል?"
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'የለም'
+          unknown: አይታቅም
+      child_feedback_process_consent_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_process_closure:
+        display_name: "በተቋሙ (የተቋሙን ስም ይግለጹ) በጉዳይ አያያዝ የሚሰጥን አገልግሎት በማቋረጥ ውሳኔ ላይ ከጉዳይ አያያዝ ባለሙያው ጋር የጋራ ውይይት አድርጋችሁ?"
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'የለም'
+          unknown: አይታወቅም
+      child_feedback_process_closure_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_questions_ii:
+        display_name: 'ጥያቄ፡ ክፍል ሁለት'
+        guiding_questions: |-
+          ማሳያ ጽሁፍ፡ “በቀጣይ ለማቀርብላችሁ ጥያቄ በምን ደረጃ እንደምትስማሙ ግለጹ ፡፡”
+          ሙሉ በሙሉ የምትስማሙባቸው ከሆነ 10 ነጥብ ስጡ፡፡ በፍጹም የማትስማሙ ከሆነ ደግሞ 1 ነጥብ ስጡ፡፡
+          የስምምነት ክብደትን መሰረት በማድረግ ከ1-10 ባሉ ነጥቦች መካከል ባሉ ቁጥሮች የስምምነት ደረጃችሁን መግለጽ ይቻላል፡፡ በጣም የምትስማሙባቸውን ሃሳቦች ወደ 10 የተጠጉ ቁጥሮችን በመስጠት በጣም የማትስማሙባቸውን ሃሳቦች ደግሞ ዝቅተኛ ቁጥር በመስጠት መግለጽ ይቻላል፡፡
+      child_feedback_ii_explanation:
+        display_name: የጉዳይ አያያዝ ባለሙያው ነገሮችን የሚያስረዳኝ ለመረዳት በሚከብድ መልኩ ነው፡፡
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_explanation_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_ii_listening:
+        display_name: "የጉዳይ አያያዝ ባለሙያው ሁሌም የእኔን ስሜት፣ ሃሳብና አስተያየት በመጠየቅ ለመረዳት ይሞክራል፡፡ "
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_listening_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_ii_pressured:
+        display_name: በጉዳይ አያያዝ ባለሙያው መወሰን የሌለብኝን ጉዳዮች ዙሪያ እንድወስን ወይም ማድረግ የማልፈልገውን እንዳደርግ በተደጋጋሚ ጫና ተደርጎብኛል፡፡
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_pressured_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_ii_followup:
+        display_name: የጉዳይ አያያዝ ባለሙያው/ዋ ክትትል በማድረግ የተናገረውን/ችውን እና ማድረግ ያለበትን/ያለባትን ይፈጽማል/ትፈጽማለች
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_followup_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_ii_visits:
+        display_name: የጉዳይ  አያያዝ ባለሙያው ጉብኝት የሚያደርግልን አልፎ አልፎ ነው
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_visits_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_ii_support:
+        display_name: በጉዳይ አያያዝ ባለሙያ የተደረግልኝ ድጋፍ ለእኔ/ለቤተሰቤ ጠቅሞናል፡፡
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_support_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_ii_improvement:
+        display_name: "ከጉዳይ አያያዝ ባለሙያ ጋር አብሬ በመስራቴ ሁኔታዎች ተሻሽለዋል፡፡ "
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_improvement_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_ii_satisfaction:
+        display_name: እንደ አጠቃላይ የጉዳይ አያያዝ ባለሙያው በሰጠኝ/በሰጠችኝ አገልግሎት በጣም እረክቻለሁ፡፡
+        help_text: ከ1-10 ያሉ ቁጥሮችን ይምረጡ
+      child_feedback_ii_satisfaction_details:
+        display_name: ዝርዝር ነገር ግለጹ
+      child_feedback_final_question:
+        display_name: "ሌላ ማጋራት የምትፈልጉት ሃሳብ ወይም ስጋት የፈጠረባችሁ ጉዳይ ካለ?"
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'የለም'
+          unknown: አይታወቅም
+      child_feedback_final_question_details:
+        display_name: ዝርዝር ነገር ግለጹ

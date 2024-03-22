@@ -1,0 +1,8 @@
+---
+ar:
+  other_documents:
+    name: مستندات أخرى
+    description: مستندات أخرى
+    fields:
+      upload_other_document:
+        display_name: وثيقة أخرى

@@ -1,0 +1,88 @@
+so:
+  conference_details_subform_section:
+    name: Faahfaahinta Shirka
+    description: Faahfaahinta Shirka
+    fields:
+      conference_date:
+        display_name: Conference Details
+      conference_reason:
+        display_name: Sababta Shirka Dacwadda
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: Ka saarida suurtogalka ah ee ilmaha laga saarayo daryeelahooda aasaasiga ah/dhaqanka/sharciga ah (waxaa fasaxay maamulka dawlada)
+          placement_of_a_child_into_alternative_care: Ku meelaynta ubadka daryeel kale
+          situation_of_family_reunification_with_potential_harm_to_the_child: Xaalada dib u midoobida qoyska oo leh waxyeelo ka iman karta ilmaha
+          relocation_of_the_child: Dib u dejinta ubadka
+          complex_child_protection_case_requiring_a_multi_partner_intervention: Kiis adag oo ilaalinta ilmaha oo u baahan faragelinta lammaane badan
+          other: kuwa kale
+      conference_reason_other:
+        display_name: Haddii Kale, fadlan sheeg
+      conference_participants:
+        display_name: Ka qaybgalayaasha
+        help_text: Liis garee ka qaybgale kasta oo shirka. Ku dar magacooda, doorkooda ama xiriirka ay la leeyihiin ubadka, Ururkooda, iyo nambarka taleefanka lagala xiriiri karo ama iimaylka
+      conference_current_situation:
+        display_name: Warbixin kooban oo ku saabsan xaaladda taagan
+        help_text: Muuji dhammaan arrimaha ilaalinta muhiimka ah, habka daryeelka ilmaha ee hadda, iyo dulmar ku saabsan sababaha shirka kiiska
+        guiding_questions: |-
+          Haddii shir kiis la qabto inta lagu guda jiro tallabada qorsheynta: soo koob arrimaha muhiimka ah ee halista ah, arrimaha ilaalinta iyo baahiyaha ubadka (iyo qoyska) iyadoo lagu salaynayo qiimaynta baahiyaha. Haddii shir kiis la qabto inta lagu jiro dabagalka iyo tallaabada dib u eegista: sharax xaaladda guud ee hadda ee ilmaha.
+      conference_discussions_options:
+        display_name: Wada-hadallada ku saabsan ikhtiyaarrada adeegga / faragelinta la xidhiidha danaha ugu wanaagsan ee ubadka
+        help_text: Liis garee saamaynta togan iyo taban ee ka iman kara ubadka ikhtiyaar adeeg kasta, iyo haddii ay ku habboon yihiin iyo in kale iyo in ay dani ugu jirto ilmaha marka la eego xaaladda kiiska.
+        guiding_questions: Ka qaybgalayaasha si ay uga doodaan fursadaha suurtagalka ah ee looga jawaabi karo caqabadaha soo wajaha kiiskii keenay shirkii dacwadda. Shaqaaluhu waa inuu qaataa qoraallo faahfaahsan marka ay wada hadlayaan.
+      conference_outcome_recommendations:
+        display_name: Natiijada iyo talooyinka guddiga
+        help_text: Si kooban u soo koob sababaha go'aannada la gaaray iyo hoos talooyinka. Ficilada la qorsheeyay in lagu cusboonaysiiyo qorshayaasha kiiska shakhsi ahaaneed ee shaqaalaha kiis.
+      conference_case_status:
+        display_name: xaalada kiiska
+        help_text: Haddii kiis la xidhi doono, fadlan buuxi foomka xidhitaanka.
+      conference_case_status_other:
+        display_name: Haddii Kale, fadlan sheeg
+      conference_other_assessment:
+        display_name: Xaalada ubadku miyay isku beddeshay qaab keenaya in qiimayn kale la sameeyo?
+      other_assessment_specify:
+        display_name: Fadlan bixi faahfaahin
+      conference_adjustments:
+        display_name: a jiraan wax hagaajin ah oo loo baahan yahay qorshaha kiiska?
+      adjustments_specify:
+        display_name: Fadlan bixi faahfaahin
+      conference_reason_multi:
+        display_name: Heerka halista kiis miyuu is beddelay?
+        option_strings_text:
+          'no': 'maya'
+          yes_changed_to_high: Haa, loo beddelay sare
+          yes_changed_to_medium: Haa, loo beddelay dhexdhexaad
+          yes_change_to_low: Haa, u beddel hoos
+          yes_changed_to_no: Haa, loo beddelay maya
+      risk_level_changed_specify:
+        display_name: Fadlan bixi faahfaahin
+      conference_case_transfer_reason:
+        display_name: Haddii kiiska la wareejiyo, fadlan keen sabab
+        guiding_questions: |-
+          Faahfaahin dheeraad ah:
+          1) Wakaalad kale ayaa si fiican loogu meeleeyaa si ay u maareyso kiiska sababo la xiriira adeegyada gaarka ah ee uu ilmuhu u baahan yahay.
+          2) Ilmaha / qoyska u guuraya meel cusub; kiiska waxaa loo wareejin doonaa Hay'adda Ilaalinta Carruurta ee ka shaqeysa goobtaas.
+          3) Waxaa jira sababo urureed oo lagu wareejinayo kiiska ubadkan; kiiska waa la xirayaa waxaana loo wareejin doonaa wakaalad kale.
+          4) Ilmaha waxaa loo rari doonaa sababo la xiriira ilaalinta qoyskooda/bulshadooda.
+          5) Ilmuhu waa 18 jir waxaana kiiska loo wareejinayaa hay'ad ilaalin ah oo bixisa adeegyada dadka 18 ama ka weyn maadaama ilmuhu qabo naafo jir ama maskaxeed una baahan ilaalin joogto ah.
+        option_strings_text:
+          specialized_service: 1) Adeegyada gaarka ah ee loo baahan yahay
+          new_location: )2U guurista meel cusub
+          organisational_reasons: 3) Sababaha ururka
+          protection_concerns: 4) Dib udejin sababo la xiriira ilaalinta awgeed
+          child_turned_18: 5) Ilmuhu 18 jirsaday wuxuuna u baahan yahay ilaalin joogto ah
+          other: 6)kuwa kale
+      conference_case_transfer_reason_other:
+        display_name: Haddii Kale, fadlan sheeg
+      conference_followup_actions:
+        display_name: La soco falalka/gudbinta/adeegyada loo baahan yahay iyo dadka ka mas'uulka ah
+        guiding_questions: Hubi in ilmaha/xannaaneeyaha lagu wargeliyay natiijada shirka kiiska iyo sidoo kale dhammaan talooyinka iyo tallaabooyinka loo baahan yahay. Ficilada la qorsheeyay in lagu cusboonaysiiyo qorshayaasha kiis shakhsi ahaaneed oo ay sameeyaan Shaqaalaha Kiis/Shaqaalaha Bulshada/Shaqaalaha Wakaalada
+      details_anyone_disagrees:
+        display_name: Faahfaahinta qof kasta oo khilaafsan qaybo ka mid ah qorshaha iyo sababta
+      was_child_present:
+        display_name: Cunuga ma joogay?
+      was_caregiver_present:
+        display_name: Ma joogay daryeelaha?
+      conference_monitoring_schedule:
+        display_name: Jadwalka dabagalka/kormeerka
+        help_text: Tusaale ahaan. La socoshada usbuuca soo socda Isniinta adeegyada la bixin doono iyo Jimcaha soo socda oo ku saabsan xaaladda ilmaha. Dabagal oo la soco laba jeer todobaadkii ugu yaraan bisha soo socota. Haddii xaaladdu u socoto sidii la filayey/la rabay, markaas beddel la-socodka oo la soco jadwalka bisha soo socota iyadoo lagu salaynayo kulanka dib-u-eegista iyo heerka khatarta ah ee wax laga beddelay dhammaadka bishan.
+      date_next_conference:
+        display_name: Haddii loo baahdo, taariikhda shirka kiiska soo socda

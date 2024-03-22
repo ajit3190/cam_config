@@ -1,0 +1,139 @@
+---
+am-ET:
+  closure_form:
+    name: መዝጋት
+    description: መዝጋት
+    fields:
+      closure_approved:
+        display_name: በማኔጀር ጸድቋል
+        tick_box_label: 'አዎ'
+      closure_approved_date:
+        display_name: ቀን
+      closure_approved_comments:
+        display_name: የስራ ሀላፊ አስተያየት
+      approval_status_closure:
+        display_name: ለመጽደቅ/ለማረጋገጥ ያለበት ሁኔታ
+      approval_obtained_child:
+        display_name: በህጻኑ ተቀባይነት አግኝቷል/ጸድቋል
+        tick_box_label: 'አዎ'
+      approval_obtained_caregiver:
+        display_name: በቤተሰብ/በሞግዚት/ተንከባካቢ ተረጧል
+        tick_box_label: 'አዎ'
+      approval_obtained_details:
+        display_name: እባክዎ ዝርዝር መረጃ ያስቀምጡ
+        help_text: የሞግዚት ስልክ ቁጥርና ያላቸው ዝምድና/ግንኙነት
+      child_status:
+        display_name: የጉዳዩ ሁኔታ
+      date_closure:
+        display_name: የጉዳይ መዝጊያ ቀን
+      closure_reason:
+        display_name: ለጉዳዩ መዝጋት አንደኛ ምክንያት
+        option_strings_text:
+          overall_goal_of_the_case_plan: አጠቃላይ የድጋፍ እቅዱ በአግባቡ ተሳክቷል፣ ህጻኑ ከጉዳት ነጻ ነው፣ የህጻኑ ደህንነትና ክብካቤ  በተሻለ ሁኔታ ነው፤ አስጊ ችግሮች የሉም፡፡
+          child_has_turned_18_years_old: ህጻኑ 18 ዓመት አልፎታል (ተገቢው ሽግግር ተደርጎለታል፤ ድጋፎችን ለማግኘት በሚችልበት በቂ ሁኔታ ላይና አስተማማኝ እድገት ላይ ነው)
+          relocation_of_child_to_an_area: ህጻኑ ያለበት ቦታ የተቀየረና ጉዳዩን ለመያዝ/ለማስተላለፍ የሚያስችል አካል/ተቋም በሌለበት አካባቢ ነው
+          child_departed_for_a_durable_solution: ህጻኑ በዘላቂነት አካባቢውን ቀይሯል ጉዳዩን ለመያዝ/ለማስተላለፍ የሚያስችል አካል/ተቋም በሌለበት አካባቢ ነው
+          child_no_longer_contactable: ህጻኑን ማግኘት አለመቻሉ (ቢያንስ ጉዳዩ ሳይዘጋ ለ3 ወር ተጠብቋል)
+          death_of_child: የህጻኑ/ኗ መሞት
+          no_further_action_possible_required: ምንም አይነት ተጨማሪ ድጋፍ አያስፈልግም
+          case_opened_in_error: ጉዳዩ በስህተት በመከፈቱ
+          other: ሌሎች
+      closure_reason_other:
+        display_name: 'ሌሎች ምክንያቶች ካሉ ይጠቀሱ'
+      closure_details:
+        display_name: ሌሎች ምክንያቶች ካሉ ይጠቀሱ
+      closure_situation_child_separator:
+        display_name: የህጻኑ የጉዳይ ሁኔታ የጉዳይ መዝጊያ ደረጃ ላይ ነው
+      closure_how_long_case_opened:
+        display_name: ይህ ጉዳይ ከተከፈተ ምን ያህል ጊዜ ነው
+        help_text: አንድ ሳምንት
+      closure_current_situation:
+        display_name: ስለ ጉዳዩ ያለበት ሁኔታ ሰፋ ያለ ማጠቃለያ
+        help_text: ስለ ጉዳዩ ታሪካዊና አሁናዊ ሁኔታ፣ የተሠጡ አገልግሎቶችና የተወሰዱ እርምጃዎች
+      closure_child_moving_separator:
+        display_name: ህጻኑ ወደ ሌላ አካባቢ እየተንቀሳቀሰ ከሆነ
+      closure_new_child_location:
+        display_name: አዲስ አደራሻ/ህጻኑ አሁን የሚኖርበት
+        help_text: "ስለህጻኑ አድራሻ ግልጽ መረጃ ይቀመጥ ምሳሌ፡- ክልል፣ ዞን፣ ወረዳ፣ ቀበሌ ስም፣ የመንገድ ቁጥር፣ አጎራባች ሰፈሮች/አቅጣጫ፣ የቤት ቁጥር፣ "
+      closure_new_telephone_contact_details:
+        display_name: ስልክ ቁጥርና ሌሎች መረጃዎች
+      closure_care_arrangements_separator:
+        display_name: በጉዳይ መዝጋት ወቅት የተመቻቸው የድጋፍ አይነት
+      closure_current_care_arrangement:
+        display_name: ህጻኑ አሁን ያለበት የድጋፍና ክብካቤ አይነት
+        option_strings_text:
+          parent_s: ቤተሰቦች
+          step_parent: የእንጀራ አባት/እናት
+          customary_caregiver_s: በባህል በሚደረግ የቤተሰብ ትስስር ምሳሌ፡- የማር ልጅ፣ ክርስትና ልጅ…
+          kafala: ካፋላ (በእስልምና እምነት አማካኝነት የሚደረግ የቤተሰብ ትስስር)
+          independent_living: እራሱን ችሎ የሚኖር ነው
+          child_headed_household: በህጻን የሚመራ ቤት
+          adult_sibling: ከታላቅ እህት/ወንድም ጋር
+          kinship_care_extended_family: ቋጠሮ ዝምድና
+          foster_care: የፎስተር ድጋፍ
+          residential_care: ተቋማዊ ድጋፍና ክብካቤ
+          unrelated_adult: ዝምድና ከሌላቸው ሰዎች ጋር
+          no_care_arrangement: የድጋፍ አማራጭ አልተመቻቸላቸውም
+          other: ሌሎች
+      closure_current_care_arrangement_other:
+        display_name: ሌሎች ካሉ፡- በዝርዝር ይገለጹ
+      closure_current_care_arrangement_permanent:
+        display_name: ይህ ዘላቂ አማራጭ ከሆነ
+      closure_current_care_arrangement_permanent_no:
+        display_name: "አይ/ይህ ዘላቂ አማራጭ ድጋፍ አይደለም፡፡ ለምን?"
+      primary_caregiver_separator:
+        display_name: ሞግዚቶች ዝርዝር
+      name_caregiver_closing:
+        display_name: የሞግዚት/ተንከባካቢ ስም
+      relationship_caregiver_closing:
+        display_name: ከህጻኑ ጋር ያለው ዝምድና/ግንኙነት
+      address_caregiver_closing:
+        display_name: የሞግዚት/ተንከባካቢ አድራሻ
+      location_caregiver_closing:
+        display_name: የሞግዚት/ተንከባካቢ የሚገኝበት ቦታ
+      closure_caregiver_contact_details:
+        display_name: የሞግዚት/ተንከባካቢ ስልክ ቁጥር/ሌሎች ዝርዝር መረጃዎች
+      closure_arrangements_separator:
+        display_name: የተሳካ የጉዳይ መዝጋት ለማድረግ የተደረገ የድጋፍ ስልት
+      case_closure_process:
+        display_name: "የጉዳይ መዝጋት ሂደቱ ምን ይመስል ነበር?"
+        help_text: "ምን አይነት የጉዳይ መዝጋት ሂደት/የውይይት ጊዜ ነበር? ምሳሌ፡- ከህጻኑና የጉዳይ ባለሙያ/ኬዝ ወርከር፣ ከሞግዚት/ተንከባካቢና ኬዝ ወርከር፣ በኬዝወርከርና ሱፐርቫይዘር በኩል"
+      closure_discussed_child:
+        display_name: "ህጻኑ በጉዳይ መዝጋት ወቅት ተሳታፊ ነበር፣ ከህጻኑ ጋር ስምምነት ላይ ተደርሷል?"
+      closure_discussed_child_no:
+        display_name: የለም ከሆነ ምክንያቱን ግለጽ/ጭ
+      closure_discussed_caregiver:
+        display_name: "የጉዳይ መዝጋት ከቤተሰብ ጋር ውይይትና ስምምነት ላይ ተደርሷል?"
+      closure_discussed_caregiver_no:
+        display_name: የለም ከሆነ ምክንያቱን ግለጽ/ጭ
+      closure_child_feedback_form:
+        display_name: "ስለጉዳይ አያያዝ ሂደትና ድጋፍ ከህጻኑ አስተያየት ተወስዷል (በአስተያየት መስጫ ቅጽ)?"
+      closure_child_feedback_form_no:
+        display_name: የለም ከሆነ ምክንያቱን ግለጽ/ጭ
+      closure_caregiver_feedback_form:
+        display_name: "ስለጉዳይ አያያዝ ሂደትና ድጋፍ ከቤተሰብ/ድጋፍ ሰጭ/ተንከባካቢ አስተያየት ተወስዷል (በአስተያየት መስጫ ቅጽ)?"
+      closure_caregiver_feedback_form_no:
+        display_name: የለም ከሆነ ምክንያቱ ተብራርቶ ይቅረብ
+      closure_final_followup_meeting:
+        display_name: "ጉዳዩ በተዘጋ በ3ወር የህጻኑን ሁኔታ የመጨረሻ ክትትል ለማድረግ ታቅዷል?"
+      closure_final_followup_meeting_no:
+        display_name: የለም ከሆነ ምክንያቱ ተብራርቶ ይቅረብ
+      closure_child_case_file_complete:
+        display_name: "የህጻኑ ኬዝ ፋይል ሁሉም መረጃዎች የተሟሉለትና እስካሁን ያለው ሂደት ተካቷል?"
+      closure_child_case_file_complete_no:
+        display_name: የለም ከሆነ ምክንያቱ ተብራርቶ ይቅረብ
+      closure_case_file_stored:
+        display_name: ለምን ያህል ጊዜ ፋይሉ ይቀመጣል
+        option_strings_text:
+          electronically: በኮምፒውተር/ ዳታቤዝ
+          hard_copy: በወረቀት
+          both: በሁለቱም
+      closure_case_file_stored_date:
+        display_name: "ምን ያህል ቀን/ጊዜ የህጻኑ ፋይል ይቀመጣል?"
+      closure_child_told_contact_support:
+        display_name: "ህጻኑ ድጋፍ ቢያስፈልገው ማንን ማናገር/ማግኘት እንደሚችል ያውቃል?"
+      closure_child_told_contact_support_no:
+        display_name: የለም ከሆነ ምክንያቱን ግለጽ/ጭ
+      closure_child_contact_support:
+        display_name: "ህጻኑ ድጋፍ ቢያስፈልገው ማንን ማናገር/ማግኘት እንደሚችል ያውቃል?"
+        help_text: ዝርዝር ስምና ስልክ ቁጥር ያስቀምጡ

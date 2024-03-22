@@ -1,0 +1,29 @@
+---
+ar:
+  assessment_status:
+    name: حالة التقييم
+    description: نموذج حالة التقييم
+    fields:
+      bia_approved:
+        display_name: تمّت الموافقة عليه من قبل المدير
+        tick_box_label: 'نعم'
+      bia_approved_date:
+        display_name: التاريخ
+      bia_approved_comments:
+        display_name: تعليقات المدير
+      approval_status_bia:
+        display_name: حالة الموافقة
+      assessment_header:
+        display_name: نموذج التقييم
+      assessment_requested_on:
+        display_name: تاريخ بداية التقييم
+        help_text: يستخدم هذا الحقل لحالة سير العمل
+      assessment_completed_on:
+        display_name: اكتمل التقييم في
+      case_plan_due_date:
+        display_name: تاريخ استحقاق خطة الحالة
+        guiding_questions: |-
+          اعتمادًا على مستوى الخطر في الحالة.
+           مرتفع: في غضون 3 أيام بعد التقييم.
+          متوسط: في غضون أسبوع واحد بعد التقييم. 
+          منخفض: في غضون أسبوعين بعد التقييم.

@@ -1,0 +1,7 @@
+uk:
+  family_details:
+    name: Подробиці про сім'ю
+    description: Подробиці про сім'ю
+    fields:
+      family_details_section:
+        display_name: Подробиці про сім'ю

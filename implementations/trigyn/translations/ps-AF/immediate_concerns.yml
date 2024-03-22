@@ -1,0 +1,7 @@
+ps-AF:
+  immediate_concerns:
+    name: سمدستي اندیښنې
+    description: سمدستي اندیښنې
+    fields:
+      immediate_concern_section:
+        display_name: سمدستي اندیښنې

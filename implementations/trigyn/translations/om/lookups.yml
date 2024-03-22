@@ -1,0 +1,850 @@
+---
+om:
+  lookup-age-group-type:
+    name: Akaakuu  garee daa'imaa  umuriin
+    lookup_values:
+      adult: Ga'eessa/gaheessa.
+      minor: Gadi aanaa/salphaa.
+      unknown: Kan hin beekamin.
+  lookup-agency-office:
+    name: Waajjira  Ejensii.
+    lookup_values:
+      agency_office_1: Waajjira Ejensii 1
+      agency_office_2: Waajjira Ejensii 2
+      agency_office_3: Waajjira Ejensii 3
+      agency_office_4: Waajjira Ejensii  4
+      agency_office_5: Waajjira Ejensii 5
+  lookup-approval-for:
+    name: Waayee mirkanaa'eef.
+    lookup_values:
+      bia: Sakatta'insa faayyidaa daa'imaa isa olaanaa
+      case_plan: Karoora  Dhimmaa.
+      closure: kan cufame.
+  lookup-approval-status:
+    name: Sadarkaa mirkaneessaa.
+    lookup_values:
+      requested: " Gaafatameera."
+      pending: " Akka turu/dhaabbatu  taasisameera."
+      approved: " Mirkanaa'eera."
+      rejected: Kan kuffisame/gatame.
+  lookup-approval-type:
+    name: Akaakuu/gosa Mirkaneessaa.
+    lookup_values:
+      case_plan: Karoora Dhimmaa.
+      action_plan: Karoora Raawwii.
+      service_provision: Kenna tajaajilaa.
+  lookup-armed-force-group-name:
+    name: Maqaa Garee Humna hidhataa.
+    lookup_values:
+      armed_force_or_group_1: Humna hidhataa ykn Garee 1
+      armed_force_or_group_2: Humna hidhataa ykn Garee 2
+      armed_force_or_group_3: Humna hidhataa  ykn Garee 3
+      other_please_specify: Kan biraa yoo jiraate ifteessaa maaloo.
+  lookup-armed-force-group-type:
+    name: Akaakuu/gosa Garee Humna hidhataa.
+    lookup_values:
+      national_army: Raayyaa Biyyaaleessaa.
+      security_forces: Humna Nageenyaa.
+      international_forces: Humnoota Idil addunyaa.
+      police_forces: Humnoota Poolisii.
+      para-military_forces: Humnoota hawaasaa/uummataa loltummaan  leenji'an.
+      unknown: Hin beekamne.
+      other: Kan biraa.
+  lookup-assessment-duration:
+    name: Yeroo turmaata sakatta'iinsaa
+    lookup_values:
+      less_than_15_minutes: Daqiiqaa 15 gadi.
+      16_30_minutes: Daqiiqaa 16-30
+      31_minutes_1_hour: Daqiiqaa31-Sa'aa 1
+      1_2_hours: Sa'aa 1-2
+      more_than_2_hours: Sa'aa 2 ol.
+  lookup-assessment-progress:
+    name: Fooyya'insa Sakatta'iinsaa.
+    lookup_values:
+      n_a: N/A
+      in_progress: Kan Fooyya'iinsa irra jiru.
+      met: Itti quufame/milkaa'eera.
+  lookup-case-status:
+    name: Sadarkaa Dhimmaa.
+    lookup_values:
+      open: Dhimma Baname.
+      closed: Cufameera.
+      transferred: Gara biraatti Dabarsameera.
+      duplicate: " Baay'isame."
+  lookup-child-minor-age-group:
+    name: Daa'ima/Garee umurii xiqqaa.
+    lookup_values:
+      0_5_year_old: Umurii 0-5
+      6_12_year_old: Umurii 6-12
+      13_17_year_old: Umurii 13-17
+  lookup-conference-case-status:
+    name: Sadarkaa  Dhimma Konfirensii.
+    lookup_values:
+      open: "Dhimmichi bana ta'ee tura. "
+      closed: Dhimmichi ni cufama.
+      transferred: Dhimmichi  gara biraatti dabarsama.
+      other: Kan biraa.
+  lookup-country:
+    name: Biyya.
+    lookup_values:
+      afghanistan: Afgaanistaan.
+      albania: Albaaniyaa.
+      algeria: Aljeeriyaa.
+      andorra: Andooraa.
+      angola: Angoolaa.
+      antigua_and_barbuda: Antiguwaa fi Barbudaa.
+      argentina: Arjeentiinaa.
+      armenia: Armeeniyaa.
+      australia: Ostireeliyaa.
+      austria: Oostriyaa.
+      azerbaijan: Azerbaajaan.
+      bahamas: Bahaamaas.
+      bahrain: Bahreen.
+      bangladesh: Baangilaadeesh.
+      barbados: Barbaadoos.
+      belarus: Beelaaruus.
+      belgium: Beljiyaam.
+      belize: Beeliz
+      benin: Beeniin.
+      bhutan: Buhtaan.
+      bolivia: Boliviyaa.
+      bosnia_and_herzegovina: Bosiniyaa fi Herzogoviniyaa.
+      botswana: Botsiwaanaa.
+      brazil: Biraaziil.
+      brunei: Burunee.
+      bulgaria: Bulgeeriyaa.
+      burkina_faso: Burkinaafaassoo.
+      burundi: Burundii.
+      cabo_verde: Keppi Veerdee.
+      cambodia: Kaamboodiyaa.
+      cameroon: Kaameroon.
+      canada: Kaanaadaa.
+      central_african_republic: Rippablika Sentraal Afrikaa.
+      chad: Chaad.
+      chile: Chiilii.
+      china: Chaayinaa.
+      colombia: Kaambodiyaa.
+      comoros: Komooros.
+      congo: Rippaabilika Koongoo.
+      drc: Rippablika Dimokiraatik Kongoo.
+      costa_rica: Kostaariikaa.
+      cote_divoire: Kootidiivaar.
+      croatia: Kiroo'eeshiyaa.
+      cuba: Kuubaa.
+      cyprus: Saaypiras.
+      czech_republic: Cheek Rippaablik.
+      denmark: Deenmaark.
+      djibouti: Jibuutii.
+      dominica: Doominikaa.
+      dominican_republic: Riipaablika Dominiika.
+      ecuador: Ikuwaador.
+      egypt: Ijipti.
+      el_salvador: El Saalvaadoor.
+      equatorial_guinea: Ikuwaatoriyaal Giinii.
+      eritrea: Eritriyaa.
+      estonia: Istooniyaa.
+      ethiopia: Itiyoophiyaa/Itoophiyaa.
+      fiji: Fiijii.
+      finland: Fiinlaand.
+      france: Firaans.
+      gabon: Gaaboon.
+      gambia: Gaambiyaa.
+      georgia: Joorjiyaa.
+      germany: Jarmanii.
+      ghana: Gaanaa.
+      greece: Giriis.
+      grenada: Giriinaadaa.
+      guatemala: Guatimaalaa.
+      guinea: Glnii.
+      guinea_bissau: Giinii Biisaawuu.
+      guyana: Guyaanaa.
+      haiti: Haaytii.
+      honduras: Honduuraas.
+      hungary: Haangaarii.
+      iceland: Aayislaand.
+      india: Indiyaa.
+      indonesia: Indooneshiyaa.
+      iran: Iiraan.
+      iraq: Iraaq.
+      ireland: Ayerlaand.
+      israel: Israa'eel.
+      italy: Itiliii.
+      jamaica: Jaamaayikaa.
+      japan: Jaappaan.
+      jordan: Joordaan.
+      kazakhstan: Kazaakistaan.
+      kenya: Kenyaa/Keeniyaa.
+      kiribati: Kiirbaatii.
+      kosovo: Kosoovoo.
+      kuwait: Kuweet.
+      kyrgyzstan: Kirgistaan.
+      laos: Laa'oos.
+      latvia: Laativiyaa.
+      lebanon: Libanaan
+      lesotho: Leseetoo.
+      liberia: Laaybeeriyaa.
+      libya: Liibiyaa.
+      liechtenstein: Lishitenisteeyin.
+      lithuania: Litu'eniyaa.
+      luxembourg: Lukzemberg.
+      macedonia: Maaseedooniyaa/Maqedooniyaa.
+      madagascar: Maadaagaaskaar.
+      malawi: Maalaawii.
+      malaysia: Maaleezhiyaa.
+      maldives: Maaldeevis.
+      mali: Maalii.
+      malta: Maaltaa.
+      marshall_islands: Maarshaal Aaylaands.
+      mauritania: Moriitaaniyaa.
+      mauritius: Moriishiyas.
+      mexico: Meksiikoo.
+      micronesia: Maaykiroon Eshiyaa
+      moldova: Moldoovaa.
+      monaco: Monaakoo.
+      mongolia: Mongooliyaa.
+      montenegro: Moonteeneegroo.
+      morocco: Moorookoo.
+      mozambique: Moozaambiik.
+      myanmar: Maaynimaar.
+      namibia: Naamiibiyaa.
+      nauru: Naa'uuruu.
+      nepal: Neeppaal.
+      netherlands: Nezeerlaands.
+      new_zealand: Niiwziilaand.
+      nicaragua: Niikaraaguwaa.
+      niger: Niijeer.
+      nigeria: Naayjeeriyaa.
+      north_korea: Norzi Koriyaa/Koriyaa Kaabaa.
+      norway: Norweey.
+      oman: Omaan.
+      pakistan: Paakistaan.
+      palau: Paalaa'uu.
+      palestine: Palastaayin.
+      panama: Paanaamaa.
+      papua_new_guinea: Paapaawaa Niiw Giinii.
+      paraguay: Paraaguwaay.
+      peru: Peeruu.
+      philippines: Filiippiins.
+      poland: Poolaand.
+      portugal: Poortugaal.
+      qatar: Kuwaataar/Qaataar.
+      romania: Roomaaniyaa.
+      russia: Ruusiyaa.
+      rwanda: Ruwaandaa.
+      st_kitts_and_nevis: Seeyint Kiitis endi Neevis.
+      st_lucia: Seeyinti Lusiyaa.
+      st_vincent_and_the_grenadines: Seeyinti Viinseent endi Zi Giraandiis.
+      samoa: Saamoo'aa.
+      san_marino: Saan Maariinoo.
+      sao_tome_and_principe: Saa'oo Toomee endi Piriinsiippee.
+      saudi_arabia: Sa'uudii Arabiyaa.
+      senegal: Senegaal.
+      serbia: Serbiyaa.
+      seychelles: Siishels.
+      sierra_leone: Seraa Liiyoon.
+      singapore: Siingaapoor.
+      slovakia: Siloovaakiyaa.
+      slovenia: Silooveeniyaa.
+      solomon_islands: Solomon Ayjlaandis.
+      somalia: Somaaliyaa.
+      south_africa: Sawuz Afrikaa/Afrikaa Kibbaa.
+      south_korea: Saawuz Kooriyaa/Kooriyaa Kibbaa.
+      south_sudan: Sawuz Suudaan./Suudaan Kibbaa.
+      spain: Ispeen.
+      sri_lanka: Siiri Laankaa.
+      sudan: Suudaan.
+      suriname: Suuriinaam.
+      swaziland: Siwaaziilaand.
+      sweden: Siwiidiin.
+      switzerland: Siwiizarlaand.
+      syria: Siiriyaa.
+      taiwan: Taayiwaan.
+      tajikistan: Taayiwaan.
+      tanzania: Taanzaaniyaa.
+      thailand: Taaylaand.
+      timor_leste: Tiimoor-Leestee.
+      togo: Toogoo.
+      tonga: Tongaa.
+      trinidad_and_tobago: Tiriindaad endi Tobeegoo.
+      tunisia: Tuuniziyaa.
+      turkey: Tarkii.
+      turkmenistan: Tarkmeenistaan.
+      tuvalu: Tuvaaluu.
+      uganda: Yugaandaa.
+      ukraine: Yukireen.
+      united_arab_emirates: Yunaaytid Arab Emereetis.
+      uk: UK(Yunaaytid Kiingdam)
+      usa: USA(Yunaaytid Isteetis of Ameerikaa)
+      uruguay: Uraaguwaay.
+      uzbekistan: Uzibeekistaan.
+      vanuatu: Vaanutuu.
+      vatican: Vaatikaan Siitii (Hoolii Sii)
+      venezuela: Venzuweelaa.
+      vietnam: Veetinaam.
+      yemen: Yaman.
+      zambia: Zaambiyaa.
+      zimbabwe: Zimbaabwee.
+  lookup-cp-violence-type:
+    name: Akaakuu miidhaa/jeequmsa eegumsa daa'imaa.
+    lookup_values:
+      rape: Dirqisiisanii gudeeduu/gudeeddii.
+      sexual_assault: Miidhaa saalaa.
+      physical_assault: Miidhaa qaamaa.
+      forced_marriage: Butii.
+      denial_of_resources_opportunities_or_services: "Sarbamuu/dhorkamuu qabeenyaa,Carraalee ykn Tajaajiloota."
+      psychological_emotional_abuse: Miidhaa Xin-sammuu/Miiraa.
+      non-gbv: Miidhaa kornaayaa bu'ureeffateen ala kan ta'e.
+  lookup-disability-type:
+    name: Akaakuu miidhamaa/hanqinaa.
+    lookup_values:
+      mental_disability: Hanqina/miidhama sammuu.
+      physical_disability: Hanqina/miidhama qaamaa.
+      both: Lamaanuu kanqaban.
+  lookup-disability-type-with-mental-physical:
+    name: Akaakuu hanqinaa/miidhamaa sammuu fi qaamaa  lamaanuu qaban.
+    lookup_values:
+      'no': 'Miti.'
+      mental_disability: Hanqina sammuu/ miidhamaa.samuu.
+      physical_disability: Miidhama qaamaa.
+      mental_physical_disability: Miidhama sammuu fi qaamaa.
+  lookup-disability-type-with-no:
+    name: Akaakuu miidhamaa.
+    lookup_values:
+      'no': 'Miti.'
+      mental_disability: Hanqina/miidhama sammuu.
+      physical_disability: Hanqina/miidhama qaama.
+      both: Lamaanuu/lachuu.
+  lookup-discovery-method:
+    name: Mala /toftaa Argamaa/argannoo.
+    lookup_values:
+      family_or_friend: Maatii ykn hiriyyaa/michuu.
+      referral: Dabarsa dhaabbata biraa  irraa ergame.
+      neighbor: Ollaa ykn miseensa hawaasaa.
+      community_discussion: Marii hawaasaa.
+      pamphlet: Barreeffama  gabaabaa argite ykn fudhatte.
+      other: Kanbiraa.
+  lookup-displacement-status:
+    name: Sadarkaa buqqaatii.
+    lookup_values:
+      asylum_seeker: Koolu galtummaa kan barbaadan.
+      refugee: Kooluu galtuu.
+      idp: Namoota Buqqaatoota Keessaa(NBK)
+      migrant: Baqataaa/godaansa.
+      host:community: Hawaasa  keessumsiisaa.
+      returnee: Warra qe'etti deebi'an.
+      stateless_person: Nama biyya hinqabne..
+      resident: Jiraataa biyyaaleessaa.(kan hin buqqaafamin/iddoo jireenyaa gad hin lakisin.
+      foreign_national: Jiraataa lammii biyya Alaa.
+      other: Kanbiraa.
+  lookup-ethnicity:
+    name: Gosa/sanyii.
+    lookup_values:
+      ethnicity1: Gosa 1
+      ethnicity2: Gosa 2
+      ethnicity3: Gosa 3
+      ethnicity4: Gosa 4
+      ethnicity5: Gosa 5
+      ethnicity6: Gosa 6
+      ethnicity7: Gosa 7
+      ethnicity8: Gosa 8
+      ethnicity9: Gosa 9
+      ethnicity10: Gosa 10
+  lookup-family-relationship:
+    name: Firoomina/quunnamtii maatii.
+    lookup_values:
+      mother: Harmee/Haadha.
+      father: Aabboo/abbaa.
+      aunt: Adaadaa.
+      uncle: Eessuma.
+      grandmother: Akkayoo/Akkoo.
+      grandfather: Akaakayyuu.
+      brother: Obboleessa.
+      sister: Obboleettii.
+      husband: Abbaa warraa.
+      wife: Haadha  warraa.
+      partner: Michuu/miltoo.
+      other_family: Maatii biraa.
+      other_nonfamily: Miseensa maatii hintaane kanbiraa.
+  lookup-followedup-with:
+    name: Qaama Hordoffiin waliin taasifame.
+    lookup_values:
+      child: Daa'ima.
+      caregiver_s_family: Kunuunsaa(kunuunsitoota)/Maatii.
+      service_provider_own_agency: Kennaa tajaajilaa.(Ejensii dhuunfaan)
+      service_provider_referral: Keennaa tajaajilaa (Dabarsa).
+      other: Kanbiraa.
+  lookup-followup-type:
+    name: Akaakuu Hordoffii.
+    lookup_values:
+      after_reunification: Hordooffii maatiin walitti makiinsaan boodaa.
+      in_care: Hordoffii kunuunsaa.
+      for_service: Hordoffii tajaajila kennuuf taasifamu.
+      for_assesment: Sakatta'insa adeemsisuuf hordoffii taasisame.
+  lookup-form-group-cp-case:
+    name: Gareewwan ijaaruu Dhimma Eegumsa Daa'imaa.
+    lookup_values:
+      record_information: Odeeffannoo waraabbii.
+      approvals: Mirkaneessaman.
+      case_conference_details: Bal'ina Kora/ konferensii dhimmaa.
+      identification_registration: Maqeessuu/Galmee/galmeessaa.
+      data_confidentiality: Iccitooma ragaa.
+      review: Kutaa qorqoruu/irra deebi'anii ilaaluu.
+      assessment: Sakatta'insa.
+      family_partner_details: Bal'ina maatii/miltoo.
+      case_plan: Karoora Dhimmaa.
+      services_follow_up: Tajaajiloota/Hordoffii.
+      closure: Kan cufame.
+      feedback: Dub-deebii/yaada.
+      tracing: Maatii barbaaduu.
+      bia_form: Unka sakatta'insa fedhii ol'aanaa daa'imaa.
+      photos_audio: Suuraa fi Dhageettii.
+      other_documents: Ragaa/dokimentiwwan biraa.
+      referrals_transfers: "Dhimma gara biraatti Dabarsamanii fi ceesisaman. "
+      notes: Yaadannoo.
+  lookup-form-group-cp-incident:
+    name: Gareewwan ijaaraman  Muudannaa Egumsa daa'imaa.
+    lookup_values:
+      record_owner: Abbaa waraabbii taasise.
+      perpetrator_details: Bal'ina yakka maqa balleessii.
+      cp_incident: Muudannaa/taatee Eegumsa daa'imaa irra gahe.
+      cp_individual_details: Bal'na dhuunfaan eegumsa daa'imaa irra gahe.
+  lookup-form-group-cp-tracing-request:
+    name: Gareewwan ijaaruu Gaaffii barbaaduu Eegumsa daa'imaa.
+    lookup_values:
+      record_owner: Abbaa waraabbii raawwate.
+      inquirer: Gaafataa.
+      tracing_request: Gaaffii barbaaduu.
+      photos_audio: Suuraa fi Dhageettii.
+      other_reportable_fields: Wantoota/dirrewwan  gabaasamuu danda'an kan biraa.
+  lookup-form-group-gbv-case:
+    name: Gareewwan ijaaruu  Dhimma miidhaa kornaayaa bu'ureeffatee.
+    lookup_values:
+      record_information: Odeeffannoo waraabbii.
+      consent_for_services: Hayyama/Waliigaltee tajaajiloota kennamanii.
+      documents: Ragaa/sanadiiwwan.
+      consent_for_referrals: Hayyama dabarsaa.
+      safety_plan: Karoora Nageenyummaa.
+      action_plan: Karora raawwii.
+      survivor_assessment: Sakatta'insa ijoollee du'arraa /miidhaa irraa hafan/baraaraman)
+      case_closure: Dhimma baname.
+      client_feedback: Dub-deebii maamilaa.
+      identification_registration: Maqeessuu/adda baasuu /galmeessuu.
+      referrals_transfers: Tajaajilaa gaafachuu fi  dabarsaawwan.
+      other_reportable_fields: Wantoota gabaasamuu qaban kanbiraa.
+  lookup-form-group-gbv-incident:
+    name: Gareewwan ijaaruu  taatee midhaa kornaayaa bu'ureeffatee(MKB)irra gahe.
+    lookup_values:
+      gbv_individual_details: Bal'ina  nama dhuunfaa MKB.irra gahe.
+      incident: Taatee.
+      type_of_violence: Akaakuu midhaa irra gahe.
+      record_owner: Abbaa waraabbii raawwate.
+      alleged_perpetrator: Nama yakka maqa balleessii raawwate.
+      service_referral: Dabarsa tajaajilaa.
+      other_reportable_fields: Dhimmoota gabaasaman kan biraa.
+  lookup-further-action_needed:
+    name: Tarkaanfii dabalataa barbaachisan.
+    lookup_values:
+      no_further_action_needed: Tarkaanfii dabalataa  hin barbaachisu.
+      ongoing_monitoring: Hordoffii taasifamaa jiru.
+      urgent_intervention: Tarkaanfii hatattamaa kanbarbaadan.
+  lookup-gbv-approval-types:
+    name: Akaakuu mirkaneessaa fayyadamtoota miidhaan kornaayaa bu'ureeffate irra gaheef.
+    lookup_values:
+      case_plan: Karoora dhimmaa.
+      closure: Kan Cufame.
+  lookup-gbv-reported-elsewhere:
+    name: "Eeyyeen,Miti, ykn Hin bekamne."
+    lookup_values:
+      'no': 'Miti.'
+      gbvims-org: Eeyyen-dhaabbata/ejensii  Jeequmsa Koornaayaa Bu'ureeffateen alaa.
+      non-gbvims-org: Eeyyen-dhaabbata /ejensii Jeequmsa Koornaayaa Bu'ureeffateen alaa.
+  lookup-gbv-sexual-violence-type:
+    name: Akaakuu miidha saalaa MKB
+    lookup_values:
+      rape: Dirqiisiisanii gudeeduu.
+      sexual_assault: Miidhaa saalaa.
+      physical_assault: Miidhaa qaamaa.
+      forced_marriage: Butii.
+      denial_of_resources_opportunities_or_services: "Qabeenya dhoorkachuu/ganuu,,Carrawwanii fi tajaajiloota jiran."
+      psychological_emotional_abuse: Miidhaa xin-sammuu/Miiraa.
+      non-gbv: Midhaa kornaayaa bu'ureeffateen ala kan ta'an.
+  lookup-gender:
+    name: Kornaayaa.
+    lookup_values:
+      male: Dhiira.
+      female: Dubartii /dhalaa.
+  lookup-incident-identification:
+    name: Taatee/muudanna maqeessuu/adda baasuu.
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: Saaxiluu/Himannaa/komii miseena  nama ykn maatii miidhaan irra gaheen dhiyaate.
+      discovered_by_service_provider: Kennaa tajaajilaatiin kan irra gahame.
+      report_by_the_institution_providing_the_service_discovery: "Gabaasa dhaabbata tajaajila kennuun dhiyaate(Argannoo) "
+      other: Kan biraa.
+  lookup-incident-location:
+    name: Baka taateen/muudanni itti rawwate.
+    lookup_values:
+      home: Mana jireenyaa/mana.
+      street: Daandii.
+      school: Mana barnootaa.
+      work_place: Iddoo /Bakka hojii.
+      other: Kan biraa.
+  lookup-incident-status:
+    name: Sadarkaa taatee/muudannoo.
+    lookup_values:
+      open: Kan baname.
+      closed: Kan cufame.
+      duplicate: Kan Baay'isaman.
+  lookup-inquiry-status:
+    name: Sadarkaa Gaaffii dhiyaatanii.
+    lookup_values:
+      open: Dhima banaa/baname.
+      closed: Dhimma cufame.
+  lookup-language:
+    name: Afaan/qooqa.
+    lookup_values:
+      language1: Afaan 1
+      language2: Afaan 2
+      language3: Afaan 3
+      language4: Afaan 4
+      language5: Afaan 5
+      language6: Afaan 6
+      language7: Afaan 7
+      language8: Afaan 8
+      language9: Afaan 9
+      language10: Afaan 10
+  lookup-location-type:
+    name: "Akaakuu/gosa Iddoo /bakka "
+    lookup_values:
+      country: Biyya.
+      region: Naannoo
+      province: Konyaa/kutaa biyyaa.
+      district: Aanaa/Ona.
+      governorate: Bulchinsa.
+      chiefdom: Bulchinsa olaanaa.
+      state: Mootummaa.
+      city: Magaalaa.
+      county: Biyya/kutaa biyyaa.
+      camp: Buufata.
+      site: Iddoo.
+      village: Ganda/Araddaa.
+      zone: Godina.
+      sub_district: Damee aanaa/onaa.
+      locality: Naannoo.
+      prefecture: Waajjira teessoo bulchinsaa.
+      sub-prefecture: Damee waajjira teessoo bulchinsaa.
+      commune: Hawaasa baadiyyaa.
+      payam: Paayamii
+      parish: Kutaa Bulchinsa hawaasaa.
+      municipality: Mana qopheessaa.
+      other: Kan biraa.
+  lookup-marital-status:
+    name: Sadarkaa/haala gaa'elaa.
+    lookup_values:
+      single: Kan gaa'ela hin horanne/leexaa.
+      married_cohabitating: Bultii kan horatan/kan wajjiin jiraatan.
+      divorced_separated: Kan walhiikan/Adda bahan.
+      widowed: Ka irraa du'e/gursummaa.
+  lookup-marital-status-unknown:
+    name: Sadarkaa/haala gaa'elaa.
+    lookup_values:
+      single: Kan gaa'ela hin horatin/leexaa.
+      married_cohabitating: Kan gaa'ela horatan/walfuudhan/waliin jiraatan.
+      divorced_separated: Kan walhiikan/adda bahan.
+      widowed: Kan irraa du'e.
+      unknown_not_applicable: Kan hinbeekamne/kan ifa hin taane.
+  lookup-marital-status-with-spouse:
+    name: Sadarkaa/haala  gaa'elaa.
+    lookup_values:
+      single: Kan gaa'ela hin horanne/leexaa.
+      married_cohabitating: ka bultii horatan/kan akka waan gaa'ela horatanitti wajjiin jiraatan.
+      divorced_separated: "Kan walhiikan/gaa'ela diigan/kan adda bahan. "
+      widowed: Abbaan warraa kan irraaa du'e/gursummaa.
+      with_spouse: Michuu/miltoo wajjiinii/abbaa warraa/haadha warraa.
+  lookup-nationality:
+    name: Lammummaa.
+    lookup_values:
+      nationality1: Lammummaa 1.
+      nationality2: Lammummaa. 2
+      nationality3: Lammummaa 3
+      nationality4: Lammummaa 4
+      nationality5: Lammummaa 5
+      nationality6: Lammummaa 6
+      nationality7: Lammummaa 7
+      nationality8: Lammummaa 8
+      nationality9: Lammummaa 9
+      nationality10: Lammummaa 10
+  lookup-number-range-one-to-ten:
+    name: Bal'ina garaagarummaa lakkoofsaa mul'ate 1-haga 10
+    lookup_values:
+      '1': '1'
+      '2': '2'
+      '3': '3'
+      '4': '4'
+      '5': '5'
+      '6': '6'
+      '7': '7'
+      '8': '8'
+      '9': '9'
+      '10': '10'
+  lookup-perpetrator-relationship:
+    name: Quunnamtii yakka raawwataan/yakkamaan  daa'ima wajjiin qabu
+    lookup_values:
+      intimate_partner_former_partner: Michuu dhihoo/ michuu duraanii.
+      primary_caregiver: Kunuunsaa dursaa.
+      family_other_than_spouse_or_caregiver: Maatii abba warraa/haadha warraatiin ala jiran ykn kunuunsaan alaa.
+      supervisor_employer: To'ataa/Mindeessaa/qaxaraa.
+      schoolmate: Hiriyyaa mana barumsaa.
+      teacher_school_official: Barsiisaa/Qondaala mana barumsaa.
+      service_provider: Kennaa tajaajjilaa.
+      cotenant_housemate: Wajjiiin jiiraataa/jiraata mana tokko keessaa.
+      family_friend_neighbor: Maattii michuu/ollaa.
+      other_refugee_idp_returnee: Baqattoota biraa/Namoota Buqqaatoota biyya keessaa.
+      other_resident_community_member: Miseensa hawaasaa  jiraataa naannoo biraa.
+      other: Kan biraa.
+      no_relation: Quunnamtii wayiituu hnqaban.
+      unknown: Hin beekamne.
+  lookup-protection-concerns:
+    name: Yaaddowwan Eegumsaa.
+    lookup_values:
+      physical_abuse_violence: Midhaa qaamaa./jeequmsa.
+      sexual_abuse_violence: Midhaa saalaa/jeequmsa.
+      rape: Dirqisiisanii gudeeduu..
+      emotional_or_psychological: Midhaa miiraa ykn xin-sammuu/jeequmsa.
+      neglect: Kan dagataman/qaritti dhiibaman.
+      abandonment: Kan Gataman.
+      child_labour: "daa'imman hojii humnaa irratti bobba'an [kan bifa hamaan  hin taane.]"
+      hazardous_work: Hojii rakkisaa/balaa qabu.
+      sexual_exploitation: Sarbama/midhaa saalaa.
+      slavery_sale_abduction: Gabrummaa/Gurgurtaa/butii/ daddabarsa daa'imaa/sarbama humna daa'imaa.
+      in_conflict_with_the_law: Daa'imman seeraan walitti bu'an.
+      associated_with_armed: Humna ykn garee  hidhateen kan walqabatan(loltuu daa'imaa)
+      deprived_of_liberty: Dhorkama mirga bilisummaa/walabummaa.
+      serious_medical_condition: Akkaataa/haala wal'aansa ulfataa.
+      functional_difficulty_seeing: Rakkina ifatti mul'atu(rakkina ijaan waa arguu dhabuu yoma kalaa ijaa kaa'ataniiyyuu)
+      functional_difficulty_hearing: ;Rakkina qabatamaan mul'atu (rakkina waa dhagayuu  dhabuu yoma meeshaa gargaarsa dhageettiitti fayyadamaniiyyuu.
+      functional_difficulty_walking: "Rakkina dalagaa qabatamaan mul'atu[rakkoo deemsaa ykn qaama ofiitti  fayyadamuu."
+      functional_difficulty_remembering: Rakkina dalagaa qabatamaan mul'atu(rakkina waa qaabachuu  ykn xiyyeeffachuu)
+      difficulty_with_self_care: "Umurii daa'imaa hiriyyaa isaa/eshii  waliin yoo madaalamu kanneen akka nyaataa ykn uffataan Of-eeguun itti cima. "
+      difficulty_communicating: Quunnamtii/walitti dhufeenya rakkisaa.
+      unaccompanied: Daa'imman maatii irraa adda bahan.
+      separated: Addaan kan bayan.
+      orphan: Abbaa fi harmee /maatii kan hinqabne/yatiima.
+      psychosocial_distress: Haala gaddisiisaa xin-sammuu hawaasaa keessa kan jiru.
+      mental_disorder: Jeeqama/waliin dhahama sammuu kan qabu.
+      substance_abuse: "Meeshaa  miidhaann ittiin raawwatamuu fi araada gar malee[daa'ima]"
+      belongs_to_marginalised: Daa'ima qariitti dhiibame/tuffatame/garee  loogiin irra gahe.
+      lack_of_documentation_birth_registration: Hanqina galmeessanii kaa'uu.
+      child_marriage: Heeruma daa'imaa/ijoollummaa.
+      female_genital_mutilation_fgm: Kittaannaa /dhagna qabaa..
+      pregnancy_child_parent: Ulfa/maatii daa'imaa.
+      denial_of_resources_opportunities_or_services: "Qabeenya dhorkachuu,/milqsuu,Carraalee fi tajaajiloota jiran."
+      highly_vulnerable_care: Sirreeffama/qindeessama kunuunsa daa'ima  baayyee saaxilamaaf taasisame.
+      child_survivor_of_explosive: Daa'imni saamicha humnaa irraa kan hafeedha.
+      other: Kan biraa.
+  lookup-protection-status:
+    name: Sadarka eegumsa daa'imaa.
+    lookup_values:
+      unaccompanied: Maatii irraa kan adda bahan.
+      separated: Addaan kan  bayan.
+  lookup-religion:
+    name: Amanti.
+    lookup_values:
+      religion1: Amantii 1
+      religion2: Amantaa 2
+      religion3: Amantaa 3
+      religion4: Amantaa 4
+      religion5: Amantaa 5
+      religion6: Amanraa 6
+      religion7: Amantaa 7
+      religion8: Amantaa 8
+      religion9: Amantaa 9
+      religion10: Amantaa 10
+  lookup-reporting-location-type:
+    name: Akaakuu gabaasa iddoo/bakkaa.
+    lookup_values:
+      province: Kutaa biyyaa.
+      district: Aanaa/Ona.
+  lookup-risk-level:
+    name: Sadarkaa balaa/midhaa.
+    lookup_values:
+      high: Ol'aanaa/ollka'aa.
+      medium: Giddu galeessa.
+      low: Gad aanaa.
+  lookup-separation-cause:
+    name: Sababa addaan bahuu.
+    lookup_values:
+      abandoned: Daa'imman maatii irraa adda bahan.
+      family_abuse_violence_neglect_exploitation: Miidhaa /jeequmsa/irraanfatamuu/saamicha maatiin  irra gahe.
+      death_sickness_of_family_member: Du'aatii/dhibaayuuu/dhibamuu miseensa maatii irra gahe.
+      separation_because_of_fleeing_violence_war: Addaan bahiinsa jeequmsa/waraana baqachuuf taasifame.
+      separation_because_of_fleeing_natural_disaster: Addaan bahinsa balaa uumamaa irraa of-baraaruuf  taasifame.
+      separation_because_of_fleeing_persecution: Addaan bahinsa badii dhabamsisa gosa irraa of-baraaruuf taasifame.
+      search_for_employment: Carraaqqii barbaacha qacarriif taasifaman.
+      search_for_educational_opportunities: Carraawwan barbaacha barnootaaf taasifaman.
+      search_for_services_support: Tajaajiloota/deeggarsa  barbaaduu.
+      migration: Godaansa.
+      organized_population_movement_e_g_evacuation: Sosochii gurmaa'aa  uummataa.(fknf.naannoo gadi lakkisaii deemuu)
+      entrusted_into_the_care_of_individual_institution: Kunuunsa dhuunfaan/dhaabbataan kennamanitti amanuu.
+      repatriation: Biyyatti deebisuu.
+      poverty: Hiyyummaa.
+      recruitment_into_armed_forces_or_armed_groups: Loltummaa waraanaa  ykn garee hidhataa keessatti qacaruu.
+      abducted_trafficked: Kan butaman/kan daddabarsaman.
+      arrest_detention: Kan hidhaman ykn qabaman/adda baasaman.
+      other_please_specify: Kan biraa yoo jiraate ifteessaa maaloo.
+  lookup-service-implemented:
+    name: Tajaajila hojirra oolchame.
+    lookup_values:
+      not_implemented: Hojirra kan hin oolle.
+      implemented: Hojirra kan oolee.
+  lookup-service-referred:
+    name: Tajaajila dabarsame.
+    lookup_values:
+      internal_referral: Dabarsama keessoo.
+      external_referral: Dabarsama gara biraa.
+  lookup-service-referred-gbv:
+    name: Tajaajila  midhaa koornaayaa bu'ureeffatee dabarsaman.
+    lookup_values:
+      referred: Kan dabarsaman.
+      no_referral_service_provided_by_your_agency: "Kan hin dabarsamin,tajaajila ejensii keessaniin kennaman."
+      no_referral_services_already_received_from_another_agency: Dabarsamni hin raawwatamne .tajaajila ejensii biraa irraa dursanii waan argataniif.
+      no_referral_service_not_applicable: "Dabarsi hin raawwatamne,tajaajjilis mijaawaa miti."
+      no_referral_declined_by_survivor: "Dabarsa raawwachuu hindandeenye.,daa'imni miidhama irraa baraarame hayyamaa waan hin taaneef."
+      no_referral_service_unavailable: "Dabarsi hintaasisamne,Tajaajila argachuu hindandeenye."
+  lookup-service-response-type:
+    name: Akaakuu/gosa deebii tajaajilaa.
+    lookup_values:
+      service_provision: Kenna tajaajilaa.
+  lookup-service-type:
+    name: Akaakuu/gosa tajaajilaa.
+    lookup_values:
+      alternative_care: Kunuunsa filannoo.
+      security_e_g_safe_shelter: "Nageenya/ittisa (fakkeenya, mana/dawoo  nagaa qabuu)"
+      education_formal: Barnoota (Idilee/sirnaawaa)
+      non_formal_education: Barnoota al-idilee.
+      family_tracing_and_reunification: Maatii daa'imaa barbaaduu fi walitti makuu.
+      basic_psychosocial_support: Kunuunsa  xin-sammuu bu'uraa.
+      focuses_non_specialized_mhpss_care: Deeggars fayyummaa sammuu fi xin-sammuu fi hawaasummaa duraa irratti xiyyeeffachuu.
+      specialized_mhpss_services: Kunuuns ogummaa addaa MHPSS.
+      food: Nyaata/dhangaa.
+      non_food_items: Wantoota nyaatan alaa
+      cash_assistance: Gargaaraa maallaqaa/qarshii.
+      livelihoods: Madda jireenyaa.
+      medical: Walaansaa.
+      nutrition: Nyaata madaalawaa.
+      legal_support: Deeggarsa seera qabeessa.
+      documentation: Galmeessa/ Galmeessanii kaa'uu.
+      services_for_children_with_disabilities: Tajaajiloota daa'imman qaama miidhaamtotaaf taasifamu
+      sexual_and_reproductive_health: Fayyaa qaama wal hormaataa fi saalaa.
+      shelter: Mana jireenyaa/qubannaa.
+      wash: "Sagantaa bishaan,qulqullina dhuunfaa fi eegumsa naannoo."
+      durable_solution_in_coordination_with_unhcr: Furmaata amansiisaa waaraa (Komishiinii Ol'aanaa Kooluu galtootaa Dhaabbataa Mootummoota Gamtoomanii wajjiin kennaman)
+      relocation: Irra deebiin kan ramadaman.
+      other_please_specify: Kanbiraa.
+  lookup-time-of-day:
+    name: Yeroo guyyaa.
+    lookup_values:
+      morning: Ganama/barraaqa.
+      noon: Waaree/saafaa.
+      evening: Galgala.
+      night: Halkan.
+  lookup-tracing-status:
+    name: Sadarkaa barbaachi irra jiru.
+    lookup_values:
+      open: Kan baname.
+      tracing_in_progress: Barbaacha  fooyya'insa irra jiru.
+      verified: Kan mirkaneessame.
+      reunified: Daa'imman maatiitti deebi'anii makaman.
+      closed: Dhimma cufame.
+  lookup-transition-type:
+    name: Akaakuu bakka/iddoon  jijjirame.
+    lookup_values:
+      referral: Dabarsa.
+      reassign: Irra-deebiin kan ramadaman.
+      transfer: Dabarsa.
+      transfer_request: Gaaffii Dabarsaa.
+  lookup-unaccompanied-separated-status:
+    name: Sadarkaa daa'imman maatii irraa adda bahanii.
+    lookup_values:
+      'no': 'Miti.'
+      unaccompanied_minor: Daa'ima maatii /guddistuu irraa adda bahee fi dhabe
+      separated_child: Daa'ima maatii irra adda bahe.
+      other_vulnerable_child: Daa'ima maatii hinqabne ykn saaxilamoo.
+  lookup-unhcr-needs-codes:
+    name: Koodiiwwan feedhiiwwan Komishinii Ol'aanaa Koolu galtootaa Mootummoota Gamtoomanii.
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR-TP
+      cr-lw: CR-LW
+      cr-lo: CR-LO
+      cr-ne: CR-NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: SC-FC
+      ds-bd: DS-BD
+      ds-df: DS-DF
+      ds-pm: DS-PM
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-FR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HO
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-verification-status:
+    name: Sadarkaa mirkaa'inaa.
+    lookup_values:
+      verified: Kan mirkanaa'e.
+      unverified: Kan hin mirkanaa'in.
+      pending_verification: Akka hin mirkanaa'in kan tursiisaman.
+      falsely_attributed: Sobaan kan abboomsaman.
+      rejected: Kan fudhatama dhaban.
+  lookup-workflow:
+    name: Yaa'insa hojii.
+    lookup_values:
+      new: Dhimma haaraa baname.
+      closed: Dhimma daa'imaa cufame.
+      reopened: Dhimma daa'imaa irra deebiin baname.
+      service_provision: Kenna tajaajilaa.
+      services_implemented: Tajaajiloota deebii gaaffii hojirra oolfaman.
+      case_plan: Karoora dhimmaa.
+  lookup-yes-no:
+    name: Eeyyeen ykn miti.
+    lookup_values:
+      'true': 'Eeyyen.'
+      'false': 'Miti.'
+  lookup-yes-no-not-applicable:
+    name: "Eeyyen,Miti,Barbaachisaa miti."
+    lookup_values:
+      'true': 'Eeyyen.'
+      'false': 'Miti.'
+      not_applicable: Hojitti  hiikuun hindanda'amne.
+  lookup-yes-no-undecided:
+    name: "Eeyyen, miti, ykn  murtoo kan hin argatin."
+    lookup_values:
+      'true': 'Eeyyen.'
+      'false': 'Miti.'
+      undecided: Murteessuu hindandenye.
+  lookup-yes-no-unknown:
+    name: "Eeyyen,Miti, ykn hinbeekamne."
+    lookup_values:
+      'true': 'Eeyyen.'
+      'false': 'Miti.'
+      unknown: Hinbeekamne.

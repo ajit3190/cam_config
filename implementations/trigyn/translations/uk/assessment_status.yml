@@ -1,0 +1,28 @@
+uk:
+  assessment_status:
+    name: Статус оцінювання
+    description: Форма статусу оцінювання
+    fields:
+      bia_approved:
+        display_name: Погоджено менеджером
+        tick_box_label: 'Так'
+      bia_approved_date:
+        display_name: Дата
+      bia_approved_comments:
+        display_name: Коментарі менеджера
+      approval_status_bia:
+        display_name: Статус погодження
+      assessment_header:
+        display_name: Форма оцінювання
+      assessment_requested_on:
+        display_name: Дата початку оцінювання
+        help_text: Це поле використовується для статусу робочого процесу.
+      assessment_completed_on:
+        display_name: 'Оцінювання завершено '
+      case_plan_due_date:
+        display_name: Дата скалдання кейс плану
+        guiding_questions: |-
+          Залежно від рівня ризику кейсу.
+          Високий: протягом 3 днів після оцінювання.
+          Середній: протягом 1 тижня після оцінювання
+          Низький: протягом 2 тижнів після оцінювання.

@@ -1,0 +1,56 @@
+ps-AF:
+  verification_subform_section:
+    name: د تاییدی فورمه
+    description: د تاییدی فورمه
+    fields:
+      verification_name_inquirer:
+        display_name: د پلټونکي نوم
+      verification_inquirer_relationship:
+        display_name: اړیکه
+      verification_inquirer_sex:
+        display_name: جنس
+      verification_inquirer_age:
+        display_name: عمر
+      verification_inquirer_address_current:
+        display_name: پته
+      verification_inquirer_location:
+        display_name: اوسنی موقعیت
+      verification_phone_inquirer:
+        display_name: تلیفون
+      verification_inquirer_wants_to_care_for_child:
+        display_name: ایا تاسو غواړئ چې ماشوم راشي او له تاسو سره ژوند وکړي؟
+      verification_inquirer_able_to_care_for_child:
+        display_name: ایا تاسو کولای شی چې د هغه / هغې / دوی باندې پام وکړی؟
+      verification_alternate_caregiver_exists:
+        display_name: که نه شی کولای ، ایا د کورنۍ کوم بل غړی شتون لري چې ماشوم له ځان سره بوځي؟
+      verification_alternate_caregiver_name:
+        display_name: د بدیل سرپرست نوم
+      verification_alternate_caregiver_relationship:
+        display_name: د بدیل سرپرست سره اړیکه
+      verification_address_alternate_caregiver:
+        display_name: د هغه شخص پته (بدیل سرپرست)
+      verification_location_alternate_caregiver:
+        display_name: د بدیل سرپرست کلی / سیمه / فزیکي پته
+      verification_comments:
+        display_name: نظرونه یا تبصرې
+      verification_acceptance_date:
+        display_name: ' ماشوم د پاملرنې لپاره د منلو نیټه'
+      verification_inquirer_known_to_child:
+        display_name: ایا ماشوم پوهیږي چې بالغ شخص د تصدیق غوښتنه کوي؟
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: ایا ماشوم غواړي د دې شخص سره یوځای شي؟
+      verification_inquirer_information_match:
+        display_name: ایا هغه معلومات چې د ماشوم او بالغ شخص لخوا ورکړل شوي سره ورته والی لري؟
+      verification_inquierer_recommendation:
+        display_name: ایا تاسو د بیا یوځای کیدو وړاندیز کوئ او که نه نو کوم بله عمل باید ترسره شي؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          further_tracing: نورې پلټنې
+          long_term_alternative_care: د اوږدې مودې لپاره بدیل ساتنه
+          reunification: یوځای کیدنه
+          reunification_enhanced_support: د پوره ملاتړ سره یوځای کیدنه
+      verification_inquierer_recommendation_comments:
+        display_name: اضافي تبصرې
+      verification_date:
+        display_name: د تایید نیټه

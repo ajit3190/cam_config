@@ -1,0 +1,24 @@
+---
+ar:
+  child_preferences_section:
+    name: تفضيلات الطفل الذي تم احتضانه
+    description: النموذج الفرعي لتفضيلات الطفل
+    fields:
+      wishes_name:
+        display_name: الشخص (الأشخاص) الذي يرغب الطفل في تحديد مكانه/اماكنهم
+      wishes_preference_relocated:
+        display_name: تفضيل الطفل أن يتم نقله مع هذا الشخص
+        option_strings_text:
+          first_choice: الخيار الاول
+          second_choice: الخيار الثاني
+          third_choice: الخيار الثالث
+      wishes_relationship:
+        display_name: ما علاقة هذا الشخص بالطفل؟
+      wishes_address:
+        display_name: آخر عنوان معروف
+      wishes_landmark:
+        display_name: مَعلَم معروف
+      wishes_location:
+        display_name: آخر موقع معروف
+      wishes_telephone:
+        display_name: هاتف

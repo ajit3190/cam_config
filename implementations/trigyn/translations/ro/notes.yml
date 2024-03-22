@@ -1,0 +1,7 @@
+ro:
+  notes:
+    name: Notițe
+    description: Notițe
+    fields:
+      notes_section:
+        display_name: Notițe

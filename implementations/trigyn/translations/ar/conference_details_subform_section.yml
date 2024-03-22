@@ -1,0 +1,89 @@
+---
+ar:
+  conference_details_subform_section:
+    name: تفاصيل المؤتمر
+    description: تفاصيل المؤتمر
+    fields:
+      conference_date:
+        display_name: تاريخ مؤتمر الحالة
+      conference_reason:
+        display_name: سبب مؤتمر الحالة
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: ابعاد محتمل للطفل من مقدم الرعاية الأساسي / العرفي / القانوني (مصرح به من قبل السلطة الحكومية)
+          placement_of_a_child_into_alternative_care: إيداع الطفل في رعاية بديلة
+          situation_of_family_reunification_with_potential_harm_to_the_child: حالة لم شمل الأسرة مع احتمال إلحاق الضرر بالطفل
+          relocation_of_the_child: تغير موقع الطفل (نقل الطفل)
+          complex_child_protection_case_requiring_a_multi_partner_intervention: "حالة معقدة لحماية الطفل تتطلب تدخلات متعددة "
+          other: أخرى
+      conference_reason_other:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      conference_participants:
+        display_name: المشاركين
+        help_text: قم باعداد قائمة تتضمن كل مشارك في المؤتمر. قم بتضمين اسمه ودوره أو علاقته بالطفل ومنظمته ورقم هاتف الاتصال أو البريد الإلكتروني
+      conference_current_situation:
+        display_name: ملخص موجز للوضع الحالي
+        help_text: قم بتسليط الضوء على جميع قضايا الحماية الرئيسية ، وترتيب رعاية الطفل الحالي ، ولمحة عامة عن أسباب مؤتمر الحالة
+        guiding_questions: |-
+          إذا تم عقد مؤتمر الحالة أثناء خطوة تخطيط الحالة: لخص عوامل الخطر الرئيسية وعوامل الحماية واحتياجات الطفل (والأسرة) بناءً على تقييم الاحتياجات - إذا تم عقد مؤتمر الحالة أثناء خطوة المتابعة والمراجعة: قم بوصف الوضع الحالي العام للطفل.
+      conference_discussions_options:
+        display_name: مناقشات حول خيارات الخدمة / التدخلات المتعلقة بمصالح الطفل الفضلى
+        help_text: ضع قائمة بالتأثيرات الإيجابية والسلبية المحتملة على الطفل لكل خيار خدمة ، وما إذا كانت مناسبة أم لا وتخدم مصلحة الطفل الفضلى بالنظر إلى وضع الحالة.
+        guiding_questions: يناقش المشاركون الخيارات الممكنة للاستجابة للتحديات التي تمت مواجهتها في القضية التي أدت إلى مؤتمر الحالة. يجب على أخصائي الحالة تدوين ملاحظات مفصلة أثناء المناقشات
+      conference_outcome_recommendations:
+        display_name: نتائج وتوصيات الفريق
+        help_text: لخص بإيجاز مبررات القرارات المتخذة والتوصيات أدناه. الإجراءات المخططة ليتم تحديثها في خطط الحالة الفردية من قبل أخصائيي الحالة.
+      conference_case_status:
+        display_name: وضع الحالة
+        help_text: إذا كانت القضية ستغلق ، يرجى إكمال نموذج الإغلاق.
+      conference_case_status_other:
+        display_name: إذا كان  غير ذلك ، يرجى التحديد
+      conference_other_assessment:
+        display_name: هل تغير وضع الطفل بطريقة تتطلب إجراء تقييم آخر؟
+      other_assessment_specify:
+        display_name: يرجى تقديم تفاصيل
+      conference_adjustments:
+        display_name: هل هناك حاجة إلى أي تعديلات في خطة الحالة؟
+      adjustments_specify:
+        display_name: يرجى تقديم تفاصيل
+      conference_reason_multi:
+        display_name: هل تغير مستوى المخاطر في القضية؟
+        option_strings_text:
+          'no': 'لا'
+          yes_changed_to_high: نعم، تغير إلى مستوى عالي
+          yes_changed_to_medium: نعم ، تغيرت إلى متوسطة
+          yes_change_to_low: نعم ، تغير إلى مستوى منخفض
+          yes_changed_to_no: نعم ، تغيرت إلى لا
+      risk_level_changed_specify:
+        display_name: يرجى تقديم تفاصيل
+      conference_case_transfer_reason:
+        display_name: إذا كان سيتم تحويل الحالة ، يرجى تقديم السبب
+        guiding_questions: |-
+          تفاصيل إضافية:
+           1) وكالة أخرى في وضع أفضل لإدارة الحالة بسبب الخدمات المتخصصة المطلوبة من قبل الطفل. 
+          2) انتقال الطفل / الأسرة إلى موقع جديد ؛ سيتم تحويل الحالة إلى وكالة حماية الطفل العاملة في ذلك الموقع. 
+          3) هناك أسباب تنظيمية لنقل حالة هذا الطفل ؛ سيتم إغلاق القضية وتحويلها إلى وكالة أخرى. 
+          4) يتم نقل الطفل بسبب مخاوف تتعلق بالحماية في أسرته / مجتمعه. 
+          5) بلغ الطفل 18 عامًا ويتم تحويل الحالة إلى هيئة حماية تقدم الخدمات إلى الأشخاص الذين يبلغون من العمر 18 عامًا أو أكثر لأن الطفل يعاني من إعاقة جسدية أو عقلية ويتطلب حماية مستمرة.
+        option_strings_text:
+          specialized_service: 1) الخدمات المتخصصة المطلوبة
+          new_location: 2)  الانتقال إلى موقع جديد
+          organisational_reasons: 3)  أسباب تنظيمية
+          protection_concerns: 4) نقل بسبب مخاوف تتعلق بالحماية
+          child_turned_18: " بلغ الطفل 18 عامًا ويحتاج إلى حماية مستمرة"
+          other: 6) أخرى
+      conference_case_transfer_reason_other:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      conference_followup_actions:
+        display_name: متابعة الإجراءات / الإحالات / الخدمات المطلوبة والأشخاص المسؤولين
+        guiding_questions: تأكد من إبلاغ الطفل / مقدم الرعاية بنتيجة مؤتمر الحالة بالإضافة إلى جميع التوصيات والإجراءات المطلوبة. الإجراءات المخططة ليتم تحديثها في خطط الحالات الفردية من قبل اخصائي الحالة / الأخصائي الاجتماعي / موظفي الوكالة
+      details_anyone_disagrees:
+        display_name: تفاصيل أي شخص لا يتفق مع أجزاء من الخطة ولماذا
+      was_child_present:
+        display_name: هل كان الطفل حاضرا؟
+      was_caregiver_present:
+        display_name: هل كان مقدم الرعاية حاضرًا؟
+      conference_monitoring_schedule:
+        display_name: جدول المتابعة / المراقبة
+        help_text: "على سبيل المثال متابعة الاسبوع المقبل الاثنين بخصوص الخدمات المزمع تقديمها وفي الاسبوع المقبل الجمعة بخصوص حالة الطفل.\n المتابعة والمراقبة مرتين أسبوعياً على الأقل للشهر القادم. إذا تحسن الوضع  كما هو متوقع / مرغوب ، فقم بتغيير جدول المتابعة والمراقبة في الشهر التالي بناءً على اجتماع المراجعة ومستوى المخاطر المعدل في نهاية هذا الشهر."
+      date_next_conference:
+        display_name: إذا لزم الأمر ، تاريخ مؤتمر الحالة التالي

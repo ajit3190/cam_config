@@ -1,0 +1,19 @@
+---
+om:
+  immediate_concern_section:
+    name: Yaaddoowwan hatattamaa yaachisaa  ta'an.
+    description: Guca /unka xixiqqaa  yaaddowwan hatattamaa.
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: Gosa/Akaakuu yaachisaa hatattamaa.
+        option_strings_text:
+          health_care: Kunuunsa Fayyaa.
+          safety: Haala Nageenyummaa amansiisaa daa'imaa.
+          interim_care: Kunuunsa yeroo gabaabaa.
+          other: Kan biraa.
+      immediate_concerns_immediate_concern_type_other:
+        display_name: Kan biraa yoo jiraate maaloo ibsaa/.
+      immediate_concerns_immediate_concern_summary:
+        display_name: Cuunfaa/goolaba Dhimma daa'imaa.
+      immediate_concerns_immediate_concern_action:
+        display_name: Tarkaanfii hatattamaa fudhatame/dabarsa taasisame.

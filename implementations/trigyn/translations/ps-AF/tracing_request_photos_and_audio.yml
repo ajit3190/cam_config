@@ -1,0 +1,8 @@
+ps-AF:
+  tracing_request_photos_and_audio:
+    name: عکسونه او آډیو
+    fields:
+      current_photo_key:
+        display_name: اوسني عکس کیلي
+      recorded_audio:
+        display_name: ثبت شوې آډیو

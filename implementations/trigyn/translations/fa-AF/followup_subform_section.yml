@@ -1,0 +1,64 @@
+fa-AF:
+  followup_subform_section:
+    name: فورم های تعقیب پیچیده
+    description: فورم های تعقیب پیچیده
+    fields:
+      followup_needed_by_date:
+        display_name: تعقیب نیاز است توسط
+        help_text: "(این قسمت باعث ایجاد یادآوری در لیست کارها می شود.)"
+      followup_date:
+        display_name: 'تاریخ تعقیب '
+      followup_with_multi:
+        display_name: تعقیب با
+      other_please_specify:
+        display_name: 'اکر وغیره ,لطفآمشخص کنید '
+      followed_up_through:
+        display_name: تعقیب توسط
+        option_strings_text:
+          phone_call: زنگ تلفون
+          instant_message_sms_whatsapp: پیام فوری / پیام کوتاه / واتس اپ
+          email: ایمیل
+          social_media: رسانه اجتماعی
+          ad_hoc_home_visit_child_family: بازدید از منزل موقت (کودک / خانواده)
+          scheduled_home_visit_child_family: بازدید خانگی تقسیم اوقات شده (طفل /فامیل)
+          face_to_face_meeting_outside_of_home_child_family: باز دید رودررو خارج از خانه (طفل /فامیل)
+          face_to_face_meeting_service_provider_and_child_family: جلسه رو در رو با ارایه کننده گان خدمات و طفل/فامیل
+          face_to_face_meeting_service_provider_only: جلسه رو در رو تنها با ارایه کننده گان خدمات
+          community_based_group: گروپ هابی اجتماعی به سطح جامعه
+          authorities: مقامات
+          other: وغیره
+      followup_other_specify:
+        display_name: 'اگر وغیره ,لطفآجزییات ارایه کنید '
+      followed_specific_action:
+        display_name: تعقیب عملکرد مشخص /خدمات شامل پلان قضیه  ؟
+      specify_action:
+        display_name: 'مشخص کنید  که کدام اقدام / سرویس (پلان قضیه ) پیگیری شده یا کدام عنصر دیگری چه پیگیری شده است '
+      purpose_followup:
+        display_name: هدف پیگیری
+        help_text: دلیل پیگیری اقدام مشحص / خدمات / عنصر خاص را شرح دهید
+      followup_result_separator:
+        display_name: نتیجه پیگیری
+      outcome_followup:
+        display_name: دست آورد پیگیری
+        help_text: ' مثلآ جزئیات مربوط به اقدام انجام شده / خدمات ارائه شده ، نتایج اقدام انجام شده / خدمات ارائه شده ، جزئیات تغییر وضعیت طفل'
+      action_conducted:
+        display_name: در صورت پیگیری ، آیا اقدام  خاص/ خدمات خاصی از پلان قضیه  انجام شده است؟
+        option_strings_text:
+          'yes': 'بلی'
+          'no': 'نه'
+          unable_to_determine: 'تعین نمیشود '
+      situation_changed:
+        display_name: در صورت پیگیری ، آیا وضعیت کودک به طور قابل توجهی تغییر کرده است؟
+        option_strings_text:
+          'yes': 'بلی'
+          improved: بهبود یافته
+          declined: نپذیرفته
+          'no': 'نه'
+          unable_to_determine: تعیین امکان پذیر نیست
+      next_steps_separator:
+        display_name: قدم بعدی
+      need_follow_up_visit:
+        display_name: آبا به پیگیری بعدی نیاز است ؟
+        help_text: اگر نیازی به پیگیری بیشتر است ، برای آن پیگیری یک  زیر فرم  فرعی جدید ایجاد کنید و تاریخ پیگیری که مورد نیاز است را در آنجا درج کنید.
+      other_recommend_followup:
+        display_name: آیا براساس پیگیری های انجام شدهپیشنهادات  دیگری وجود دارد؟

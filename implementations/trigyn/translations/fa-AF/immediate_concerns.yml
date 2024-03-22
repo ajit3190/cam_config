@@ -1,0 +1,7 @@
+fa-AF:
+  immediate_concerns:
+    name: 'نگرانی های فوری '
+    description: نگرانی های فوری
+    fields:
+      immediate_concern_section:
+        display_name: نگرانی های فوری

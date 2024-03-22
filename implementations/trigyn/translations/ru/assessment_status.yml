@@ -1,0 +1,25 @@
+ru:
+  assessment_status:
+    name: Статус оценки
+    description: Бланк статуса оценки
+    fields:
+      bia_approved:
+        display_name: 'Согласовано руководителем '
+        tick_box_label: 'Да'
+      bia_approved_date:
+        display_name: Дата
+      bia_approved_comments:
+        display_name: Комментарии руководителя
+      approval_status_bia:
+        display_name: Статус согласования
+      assessment_header:
+        display_name: БЛАНК ОЦЕНКИ
+      assessment_requested_on:
+        display_name: Дата начала оценки
+        help_text: Это поле содержит информацию о статусе выполнения процесса.
+      assessment_completed_on:
+        display_name: Дата окончания оценки
+      case_plan_due_date:
+        display_name: Срок выполнения плана
+        guiding_questions: |-
+          В зависимости от степени риска случая. Высокий: в течение 3 дней после оценки. Средний: в течение 1 недели после оценки. Низкий: в течение 2 недель после оценки.

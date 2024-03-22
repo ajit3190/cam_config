@@ -1,0 +1,13 @@
+es:
+  notes_section:
+    name: Notas del subformulario anidadas
+    description: Notas del subformulario anidadas
+    fields:
+      notes_date:
+        display_name: Fecha
+      note_subject:
+        display_name: Tema
+      field_notes_subform_fields:
+        display_name: Notas
+      note_created_by:
+        display_name: Gerente

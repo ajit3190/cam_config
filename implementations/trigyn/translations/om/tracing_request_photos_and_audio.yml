@@ -1,0 +1,9 @@
+---
+om:
+  tracing_request_photos_and_audio:
+    name: Suuraawwanii fi  sagalee waraabaman.
+    fields:
+      current_photo_key:
+        display_name: Ibsituu/furtuu suuraa ammee.
+      recorded_audio:
+        display_name: Sagalee waraabame.

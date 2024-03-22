@@ -1,0 +1,24 @@
+so:
+  assessment_status:
+    name: xaalada darasaadka
+    description: herka darasadka fomka
+    fields:
+      bia_approved:
+        display_name: ansixiyay maamulaha
+        tick_box_label: 'Haa'
+      bia_approved_date:
+        display_name: Taariikh
+      bia_approved_comments:
+        display_name: faaloyinka mamulaha
+      approval_status_bia:
+        display_name: xaaladaha  la ansixiyay
+      assessment_header:
+        display_name: darasaadka foomka
+      assessment_requested_on:
+        display_name: waqtiga bilaabmayo daraasadka
+        help_text: shaqadan waxa lo isticmalay xalado kala duwan
+      assessment_completed_on:
+        display_name: darasada waxa la dhameyay
+      case_plan_due_date:
+        display_name: xiliga qorshaha laqabtay
+        guiding_questions: "heerka khatarta kiiska\n sare: 3 cisho kadib darasadka \ndhexe:1 isbuuc darasadka kadib\nhoose:2 isbuuc kadib darasaadka"

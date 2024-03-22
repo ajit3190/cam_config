@@ -1,0 +1,18 @@
+ro:
+  summary_and_conclusions:
+    name: Sumar și Concluzii
+    description: Formular Sumar și Concluzii
+    fields:
+      assessment_summary:
+        display_name: Sumar
+        help_text: Rezumă factorii cheie de risc, factorii de protecție și nevoile pe baza secțiunilor de evaluare de mai sus și ia în considerare opiniile/ dorințele copilului (și ale familiei).
+      protection_concerns:
+        display_name: Preocupări Protecție
+        help_text: Câmp partajat cu formularul Preocupări Protecție.
+      protection_concerns_other:
+        display_name: Dacă altceva, te rugăm să detaliezi
+      risk_level:
+        display_name: Nivel Risk
+        help_text: Acest câmp se află și în formularul Preocupări Protecție. Dacă nu există un nivel de risc, cazul poate fi închis.
+      assessment_risk_level_reasons:
+        display_name: Rezumatul motivelor pentru nivelul de risc

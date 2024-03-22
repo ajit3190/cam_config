@@ -1,0 +1,7 @@
+fr:
+  approvals:
+    name: Approbations
+    description: Approbations
+    fields:
+      approval_subforms:
+        display_name: Approbation

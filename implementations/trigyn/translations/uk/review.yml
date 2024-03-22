@@ -1,0 +1,7 @@
+uk:
+  review:
+    name: Огляд справи
+    description: Огляд справи
+    fields:
+      review_section:
+        display_name: Огляд справи

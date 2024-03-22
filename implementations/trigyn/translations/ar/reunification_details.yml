@@ -1,0 +1,8 @@
+---
+ar:
+  reunification_details:
+    name: تفاصيل لم الشمل
+    description: تفاصيل لم الشمل
+    fields:
+      reunification_details_section:
+        display_name: تفاصيل لم الشمل

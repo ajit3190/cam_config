@@ -1,0 +1,7 @@
+uk:
+  followup:
+    name: Моніторинг
+    description: Моніторинг
+    fields:
+      followup_subform_section:
+        display_name: Моніторинг

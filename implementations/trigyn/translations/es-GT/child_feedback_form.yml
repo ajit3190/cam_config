@@ -1,0 +1,179 @@
+es-GT:
+  child_feedback_form:
+    name: Retroalimentación del Niño
+    description: Retroalimentación del Niño
+    fields:
+      child_feedback_date_completed:
+        display_name: Fecha del Formulario Completado
+      child_feedback_separator_consent:
+        display_name: Consentimiento y asentimiento
+        guiding_questions: |-
+          Escrito de muestra: "Me gustaría hablar con usted en relación a cómo el/la trabajador/a social ha trabajado con usted y su niño. Queremos asegurarnos que ofrecemos el mejor servicio posible a los niños, así que le pedimos nos diga cómo le ha ayudado el/la trabajador/a social a su niño y si hay algo que pudiéramos hacer diferente/mejor. No tiene que que decirnos si no lo desea, tampoco decirnos las razones para esto. Incluso si decide no decirnos nada, esto no afectará el apoyo que su niño recibe de nosotros. Sin embargo, compartir sus ideas y sentir con nosotros nos puede ayudar a mejorar lo que hacemos por otros niños y familias.Cualquier cosa que nos diga se mantendrá en privacidad. Esto significa que aunque compartamos la información que nos da no diremos a nadie que fue usted quien la dijo.También puede elegir solo no responder a algunas preguntas, o cambiar de opinión y decidir no continuar cuando lo desee."
+      child_feedback_interview_subject:
+        display_name: Consentimiento / asentimiento obtenido de
+        option_strings_text:
+          child: Niño
+          caregiver: Cuidador
+          other: Otro
+      child_feedback_consent_source_other:
+        display_name: Si otro, por favor especificar
+      child_feedback_consent:
+        display_name: Se ha concedido permiso por el niño para obtener su retroalimentación en relación al proceso de gestión de casos
+        tick_box_label: 'Sí'
+      child_feedback_consent_caregiver:
+        display_name: Se ha concedido permiso por el cuidador para obtener su retroalimentación en relación al proceso de gestión de casos de su niño/a
+        help_text: Solo complete cuando sea posible y apropiado
+        tick_box_label: 'Sí'
+      child_feedback_consent_date:
+        display_name: Fecha de consentimiento / asentimiento
+      child_feedback_separator_questions:
+        display_name: 'Preguntas: Parte I'
+        guiding_questions: "Puede dar ejemplos para una rápida retroalimentación, pero sea cuidadoso de usar preguntas inductivas. Este formato es apropiado para niños mayores a diez años (10 años o más) - puede ser adaptado para niños menores si se requiere. \nDebe ser conducido en el lenguaje del niño, y facilitado por alguien con las habilidades necesarias y el entrenamiento apropiado para obtener la retroalimentación de los niños, y que entienda la ética del trabajo directo con niños."
+      child_feedback_services_discovery:
+        display_name: Cómo se enteró acerca de los servicios de [inserte el nombre de la agencia de gestión de casos] para gestión de casos?
+        option_strings_text:
+          caseworker_approached_me: El gestor de casos se me acercó
+          another_organization: Otra organización
+          parents: Padres
+          family_friends: Familia/ amigos
+          school: Escuela
+          community_leader: Líder comunitario
+          community_based_child_protection_focal_point: Community-based child protection focal point
+          authorities: Autoridades
+          saw_a_poster_information_leaflet: Vio un poster/folleto informativo
+          cannot_recall: No logra recordar
+          other: Otro
+      child_feedback_services_discovery_other:
+        display_name: Si otro, favor especificar
+      child_feedback_help_asked:
+        display_name: Antes de comenzar a trabajar con el gestor de casos, ¿se le preguntó si quería ser ayudado de esta manera?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          unknown: Desconocido
+      child_feedback_help_asked_details:
+        display_name: Pro favor brinde detalles
+      child_feedback_expectations:
+        display_name: ¿Qué tipo de apoyo esperaba de [inserte el nombre de la agencia de Gestión de Casos]?
+        option_strings_text:
+          alternative_care: Cuidado alternativo
+          security_e_g_safe_shelter: 'Seguridad (Ejemplo: refugio seguro)'
+          education_formal: Educación (formal)
+          non_formal_education: Educación no formal
+          family_tracing_and_reunification: Localización y reunificación familiar
+          basic_psychosocial_support: Apoyo básico psicosocial
+          focused_non_specialized_mhpss_care: Cuidados en salud mental y apoyo psicosocial no especializado
+          specialized_mhpss_services: Servicios especializados en salud mental y apoyo psicosocial
+          food: Alimentación
+          non_food_items: Artículos no alimenticios
+          cash_assistance: Asistencia en efectivo
+          livelihoods: Medios de vida
+          medical: Médica
+          nutrition: Nutrición
+          legal_support: Apoyo legal
+          documentation: Documentación
+          services_for_children_with_disabilities: Servicios para niños con discapacidad
+          sexual_and_reproductive_health: Salud sexual y reproductiva
+          shelter: Refugio
+          wash: Agua Saneamiento e Higiene
+          durable_solution_in_coordination_with_unhcr: Soluciones duraderas (en coordinación con ACNUR)
+          relocation: Reubicación
+          other: Otro
+      child_feedback_expectations_other:
+        display_name: Si otro, favor especificar
+      child_feedback_expectations_received:
+        display_name: ¿Recibió el apoyo que esperaba recibir?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          unknown: Desconocido
+      child_feedback_expectations_received_details:
+        display_name: Por favor dar detalles
+      child_feedback_process_plan:
+        display_name: ¿El gestor de casos hizo un plan [plan del caso] junto a usted para recibir el apoyo que necesitaba?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          unknown: Desconocido
+      child_feedback_process_plan_details:
+        display_name: Por favor dar detalles
+      child_feedback_process_connect:
+        display_name: ¿El gestor de casos lo conectó con servicios que estaban disponibles para ayudarlo?
+        option_strings_text:
+          'yes': 'Sí'
+          no_did_not_need_other_services: No, no necesitaba otros servicios
+          no_did_not_want_other_services: No, no quería otros servicios
+          unknown: Desconocido
+      child_feedback_process_connect_details:
+        display_name: Por favor dar detalles
+      child_feedback_process_consent:
+        display_name: ¿Cada vez que el gestor de casos compartió con otros información sobre usted se le consultó si estaba de acuerdo en compartir esa información sobre usted y su situación con esos otros?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          unknown: Desconocido
+      child_feedback_process_consent_details:
+        display_name: Por favor dar detalles
+      child_feedback_process_closure:
+        display_name: ¿Tomó la decisión de parar los servicios de gestión de casos de [inserte el nombre de la agencia] junto con el gestor de casos?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          unknown: Desconocido
+      child_feedback_process_closure_details:
+        display_name: Por favor dar detalles
+      child_feedback_questions_ii:
+        display_name: 'Preguntas: Parte II'
+        guiding_questions: |-
+          Ejemplo de guión: "Para las próximas preguntas, le preguntaré hasta qué punto está de acuerdo con la afirmación que menciono.
+          Si estás completamente de acuerdo con la afirmación, puedes darle un 10.
+          Si no está de acuerdo con la afirmación en absoluto, puede darle un 1.
+          También puede decidir responder con cualquier otro número entre 1 y 10, cuanto más esté de acuerdo con la afirmación, más cerca debería estar de un 10, y cuanto más esté en desacuerdo, más cerca debería estar de un 1".
+      child_feedback_ii_explanation:
+        display_name: El gestor de casos explicó las cosas de una manera que eran difíciles de comprender para mi
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_explanation_details:
+        display_name: Por favor dar detalles
+      child_feedback_ii_listening:
+        display_name: El gestor de casos siempre pidió y escuchó mis puntos de vista, opiniones y sentimientos.
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_listening_details:
+        display_name: Por favor dar detalles
+      child_feedback_ii_pressured:
+        display_name: Frecuentemente me sentí presionado por el gestor de casos para tomar decisiones o hacer cosas que no deseaba hacer
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_pressured_details:
+        display_name: Por favor dar detalles
+      child_feedback_ii_followup:
+        display_name: El gestor de casos hizo seguimiento y realizó las cosas que él/ella dijo que haría
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_followup_details:
+        display_name: Por favor dar detalles
+      child_feedback_ii_visits:
+        display_name: El gestor de casos rara vez me visitó
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_visits_details:
+        display_name: Por favor dar detalles
+      child_feedback_ii_support:
+        display_name: El apoyo que el gestor de casos nos brindó a mi familia y a mi fue útil
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_support_details:
+        display_name: Por favor dar detalles
+      child_feedback_ii_improvement:
+        display_name: Desde que estoy trabajando con el gestor de casos mi situación ha mejorado
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_improvement_details:
+        display_name: Por favor dar detalles
+      child_feedback_ii_satisfaction:
+        display_name: En general, estoy muy satisfecho con el apoyo brindado por el gestor de casos.
+        help_text: Elija un número del 1 al 10
+      child_feedback_ii_satisfaction_details:
+        display_name: Por favor dar detalles
+      child_feedback_final_question:
+        display_name: ¿Tiene alguna otra opinión o preocupación que le gustaría compartir?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          unknown: Desconocido
+      child_feedback_final_question_details:
+        display_name: Por favor dar detalles

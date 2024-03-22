@@ -1,0 +1,7 @@
+fr:
+  notes:
+    name: Notes
+    description: Notes
+    fields:
+      notes_section:
+        display_name: Notes

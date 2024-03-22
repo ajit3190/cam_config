@@ -1,0 +1,100 @@
+ps-AF:
+  care_arrangements_section:
+    name: تنظیم شوې پاملرنې
+    description: د پاملرنې د تنظیم فرعي فورمه
+    fields:
+      child_caregiver_reason_change:
+        display_name: که دا نوی سرپرست وي ، د بدلون لپاره دلیل وړاندې کړئ
+        option_strings_text:
+          abuse_exploitation: ناوړه ګټه اخیستنه او استثمار
+          death_of_caregiver: د سرپرست مرینه
+          Education: تعلیم
+          ill_health_of_caregiver: د سرپرست مریضي
+          other: نور
+          poverty: عربت
+          relationship_breakdown: د اړیکو خرابی
+      care_arrangements_type:
+        display_name: د ماشوم اوسني د پاملرنې تنظیمات کوم دي؟
+        option_strings_text:
+          parent_s: والدین
+          step_parent: میرني مور او پلار
+          customary_caregiver_s: رواجي سرپرست
+          adult_sibling: بالغ خور او ورور
+          kinship_care_extended_family: د خپلوانو پاملرنه / غټه کورنۍ
+          foster_care: د موقت وخت لپاره پاملرنه
+          residential_care: د اوسیدو لپاره څارنه
+          kafala: کافاله
+          independent_living: خپلواک ژوند
+          child_headed_household: هغه کورنی چې ماشوم پکې مشر وي
+          unrelated_adult: داسې بالغ شخص چې ورسره تړاو ونه لري
+          no_care_arrangement: د پاملرنې لپاره ترتیبات نشته
+          other: نور
+      care_arrangements_type_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص یې کړئ
+      name_caregiver_separator:
+        display_name: 'که چیرې د مور او پلار سره نه وي ، نو اصلي شخص چې پر ماشوم پام ساتي. '
+      name_caregiver:
+        display_name: د اوسني سرپرست نوم
+        help_text: "(که ماشوم د مور او پلار سره وي ، نو د پاملرنې ترتیباتو ته لاړ شئ.)"
+      nickname_caregiver:
+        display_name: نور نومونه چې د ماشوم سرپرست ورباندې پیژندل کیږي
+        help_text: د مثال په توګه ، مستعار نوم ، د کورنۍ دوهم نوم
+      caregiver_age:
+        display_name: د ماشوم د سرپرست نوم
+      caregiver_dob:
+        display_name: د سرپرست د زیږیدنې نیټه
+      age_estimated_caragiver:
+        display_name: ایا دا عمر اټکلي ده؟
+        tick_box_label: 'هو'
+      caregiver_sex:
+        display_name: جنس
+      caregiver_national_id:
+        display_name: د پیژند پاڼې شمیره
+      caregiver_unhcr_individual_id:
+        display_name: ID انفرادی UNHCR
+      caregiver_other_id:
+        display_name: ID نورې
+      caregiver_related_child:
+        display_name: ایا سرپرست له ماشوم سره تړاو لري ؟
+      relationship_caregiver:
+        display_name: له ماشوم سره یې اړیکه
+      caregiver_know_family:
+        display_name: که له ماشوم سره اړیکه نه لري ، نو  سرپرست د ماشوم کورنۍ پیژني؟
+      family_size_under_18:
+        display_name: 'د کورنۍ کچه: له 18 څخه کم عمره کسان'
+      family_size_over_18:
+        display_name: 'د کورنۍ کچه: له 18 څخه زیات عمره کسان'
+      address_caregiver:
+        display_name: د سرپرست پته
+        guiding_questions: د سرپرست پته دلته ولیکئ حتی که د ماشوم او د سرپرست پته یو ډول هم وي.
+      location_caregiver:
+        display_name: د سرپرست موقعیت
+      care_arrangement_started_date:
+        display_name: د پاملرنې د تنظیم دغه کار کله پیل شو؟
+      caregiver_willing_to_continue:
+        display_name: ایا سرپرست غواړي د ماشوم پاملرنې ته دوام ورکړي؟
+        option_strings_text:
+          yes_short_term: هو د کم وخت لپاره
+          yes_long_term: هو د زیات وخت لپاره
+          'no': 'نه'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: که هو وي نو د څومره وخت لپاره
+      caregiver_willing_to_continue_not_reason:
+        display_name: که نه غواړي د ماشوم پاملرنې ته دوام ورکړي ، نو توضیحات ورکړئ
+      caregiver_location_status:
+        display_name: ' ایا د سرپرست اوسنی پته لنډمهاله ده؟ '
+      address_caregiver_future:
+        display_name: کو هو وي نو راتلونکې پته یې کومه ده؟
+      location_caregiver_future:
+        display_name: راتلونکی موقعیت یې کوم ده؟
+      telephone_caregiver_future:
+        display_name: راتلونکې د ټلیفون شمیره یې څو ده؟
+      telephone_caregiver:
+        display_name: د سرپرست د ټلیفون شمیره
+        help_text: دلته د سرپرست د ټلیفون شمیره او یا هم نورې د اړیکو شمارې ولیکئ
+      child_consent_caregiver_contacted:
+        display_name: ایا ماشوم رضایت لري چې له سرپرست سره یې اړیکه ونیول شي؟
+      child_consent_caregiver_contacted_no_details:
+        display_name: که نه غواړي نو توضیحات ورکړئ
+      other_persons_living_in_household:
+        display_name: نور خلک چې په کورنۍ کې ژوند کوي

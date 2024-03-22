@@ -1,0 +1,54 @@
+---
+am-ET:
+  services_section:
+    name: አገልግሎቶች
+    description: አገልግሎቶች ንዑስ ቅጽ
+    fields:
+      service_response_type:
+        display_name: የምላሽ አይነት
+      service_type:
+        display_name: የአገልግሎት ዓይነት
+        guiding_questions: |-
+          1. መሰረታዊ የስነ-ልቦና-ማህበራዊ እንክብካቤ - ደህንነቱ የተጠበቀ ቦታዎች (ከልጆች እና ህጻናት ተስማሚ ቦታዎችን ጨምሮ), የአቻ ለአቻ ቡድኖች, የወጣት ክበቦች, የህይወት ክህሎቶች ስልጠና እና የአሳዳጊ ድጋፍ ቡድኖች. 2.  የአእምሮ ስነልቦናና ማህበራዊ ጤና ያተኮረ ልዩ ያልሆነ  በኬዝ አስተዳደር፣ በስነ ልቦና የመጀመሪያ እርዳታ፣ የአንድ ለአንድ ወይም የቡድን ማስረጃ  የስነ-ልቦና ጣልቃገብነት በልዩ ባለሙያ ባልሆኑ ማህበራዊ ሰራተኞች፣ ኬዝ ሰራተኞች፣ የማህበረሰብ በጎ ፈቃደኞች፣ የጤና ሰራተኞች፣ ወዘተ.  3. ስነ-ልቦና፣ ሳይካትሪ ወይም ሌላ የአንድ ለአንድ የአእምሮ ጤና እንክብካቤ በአእምሮ ጤና ባለሙያዎች የሚሰጥ።
+      service_type_other:
+        display_name: ሌላ ከሆነ እባክዎን ይግለጹ
+      service_referral:
+        display_name: የሪፈራል አይነት
+      service_response_day_time:
+        display_name: የሪፈራል ቀን
+      service_appointment_date:
+        display_name: የአገልግሎት መጀመሪያ ቀን
+      service_implementing_agency:
+        display_name: ማስፈጸሚያ ኤጀንሲ
+      service_provider:
+        display_name: አገልግሎት አቅራቢ
+      service_delivery_location:
+        display_name: የአገልግሎት አሰጣጥ ቦታ
+      service_implementing_agency_individual:
+        display_name: የአገልግሎት አቅራቢ ስም
+      service_status_referred:
+        display_name: "ተጠቅሷል?"
+        tick_box_label: 'አዎ'
+      service_location:
+        display_name: የአገልግሎት ቦታ
+      service_referral_notes:
+        display_name: ማስታወሻዎች
+      service_implemented:
+        display_name: አገልግሎት ተተግብሯል።
+      service_implemented_day_time:
+        display_name: አገልግሎቱ አልቋል
+      details_service_provided:
+        display_name: በተሰጠው አገልግሎት ላይ ዝርዝሮች / አስተያየቶች
+      recommendations_followup:
+        display_name: ለክትትል ምክሮች
+      accountability_separator:
+        display_name: ተጠያቂነት
+        help_text: የጉዳይ ሰራተኛ ህጻኑ ስለተሰጠው አገልግሎት ምን እንደሚሰማቸው ለመጠየቅ (ከዕድሜ ጋር በሚስማማ መልኩ፣ ለምሳሌ  ደስተኛ ፊቶችን ማየት)
+      focal_agency_location:
+        display_name: "ህጻኑ በተሰጠው አገልግሎት ያለው የእርካታ ደረጃ "
+      suggestions_improvement:
+        display_name: ለማሻሻል የህጻኑ ምክሮች/ሀሳብ
+      caregivers_satisfaction:
+        display_name: በተሰጠው አገልግሎት የተንከባካቢ እርካታ ደረጃ
+      caregivers_suggestions:
+        display_name: ለማሻሻል የተንከባካቢ ምክሮች/ሀሳብ

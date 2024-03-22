@@ -1,0 +1,55 @@
+uk:
+  services_section:
+    name: Вкладені Послуги
+    description: Субформа Послуги
+    fields:
+      service_response_type:
+        display_name: Ти відповіді
+      service_type:
+        display_name: Тип послуги
+        guiding_questions: |-
+          1. Базовий психосоціальний догляд – безпечні місця (включаючи місця, дружні до дітей та немовлят), групи однолітків, молодіжні клуби, тренінги з життєвих навичок та групи підтримки опікунів.
+          2. Зосереджена неспеціалізована підримка щодо психічного здоров’я та психосоціальної підтримки – перша психологічна допомога, індивідуальне або групове психологічне втручання, засноване на доказах/інформованості, яке здійснюється нефахівцями, включаючи соціальних працівників, медичних працівників, громадських волонтерів, медичних працівників тощо .
+          3. Спеціалізована допомога щодо психічного здоров’я та психосоціальної підтримки – психологічна, психіатрична або інша індивідуальна допомога в області психічного здоров'я, яку надають фахівці з психічного здоров'я.
+      service_type_other:
+        display_name: Якщо інше, вкажіть
+      service_referral:
+        display_name: Тип направлення
+      service_response_day_time:
+        display_name: Дата направлення
+      service_appointment_date:
+        display_name: Дата початку обслуговування
+      service_implementing_agency:
+        display_name: Виконавча агенція
+      service_provider:
+        display_name: Постачальник послуг
+      service_delivery_location:
+        display_name: Місце надання послуг
+      service_implementing_agency_individual:
+        display_name: Назва постачальника послуг
+      service_status_referred:
+        display_name: Направлено?
+        tick_box_label: 'Так'
+      service_location:
+        display_name: Розташування служби
+      service_referral_notes:
+        display_name: Нотатки
+      service_implemented:
+        display_name: Послуга впроваджена
+      service_implemented_day_time:
+        display_name: Сервіс завершено
+      details_service_provided:
+        display_name: Деталі / коментарі про надану послугу
+      recommendations_followup:
+        display_name: Рекомендації щодо подальшого спостереження
+      accountability_separator:
+        display_name: Підзвітність
+        help_text: Працівник, відповідальний за справу, повинен запитати дитину про те, як вона ставиться до наданої послуги (відповідно до віку, наприклад, вибираючи смайлики)
+      focal_agency_location:
+        display_name: Рівень задоволеності дитини наданими послугами
+      suggestions_improvement:
+        display_name: Пропозиції дитини щодо покращення
+      caregivers_satisfaction:
+        display_name: Рівень задоволеності опікуна наданою послугою
+      caregivers_suggestions:
+        display_name: Пропозиції опікуна щодо покращення

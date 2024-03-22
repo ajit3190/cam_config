@@ -1,0 +1,48 @@
+ro:
+  cp_case_plan:
+    name: Plan Servicii
+    description: Plan Servicii
+    fields:
+      case_plan_approved:
+        display_name: Aprobat de Manager
+        tick_box_label: 'Da'
+      case_plan_approved_date:
+        display_name: Dată
+      case_plan_approved_comments:
+        display_name: Comentarii Manager
+      approval_status_case_plan:
+        display_name: Status Aprobare
+      case_plan_section_header:
+        display_name: Plan Servicii
+      date_case_plan:
+        display_name: Dată inițiere Plan Servicii
+        help_text: Acest câmp este utilizat pentru status Fluxuri
+      date_case_plan_agreed:
+        display_name: Dată Agreere Plan Servicii
+      protection_concerns:
+        display_name: Preocupări Protecție
+      protection_concerns_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      case_plan_separator:
+        display_name: Obiectivul general al planului de servicii
+      case_plan_goal:
+        display_name: Obiectiv general
+        help_text: Definește un obiectiv SMART (specific, măsurabil, realizabil/ acordat, realist/ relevant și limitat în timp)
+      case_plan_header:
+        display_name: Planuri de Intervenții și Servicii de acordat
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: Detaliere Planuri de intervenții și servicii
+      approval_separator:
+        display_name: Aprobări și acorduri
+      interventions_names_involved:
+        display_name: Numele și relația cu copilul pentru persoanele implicate în realizarea planului
+      interventions_details_disagree:
+        display_name: Detalii despre oricine nu este de acord cu anumite părți ale planului și de ce
+      interventions_child_involved:
+        display_name: Copilul a fost implicat în elaborarea planului de servicii?
+      interventions_steps:
+        display_name: Dacă nu, de ce?
+      interventions_caregiver_involved:
+        display_name: A fost îngrijitorul implicat în elaborarea planului de servicii?
+      interventions_caregiver_steps:
+        display_name: Dacă nu, de ce?

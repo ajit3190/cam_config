@@ -1,0 +1,17 @@
+fa-AF:
+  bid_status:
+    name: 'حالت منافع علیاو عزم راسخ '
+    description: وضیعت فورم علاقه مندی و عزم راسخ
+    fields:
+      assessment_formal_bid:
+        display_name: آیا تعیین بهترین منافع (BID) رسمی لازم است؟
+        help_text: با هماهنگی کمیساریای عالی پناهندگان سازمان ملل در متن تعیین شده است.
+      assessment_bid_direction:
+        display_name: اگر بله ، لطفا جهت منهفع علیا  را انتخاب کنید
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: شناسایی راه حل های دوامدار و مسیرهای مکمل برای کودکان بدون همراه
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: تعیین مناسب ترین گزینه ها برای کودکان در معرض خطر در شرایط استثنایی (از جمله پیوند خانواده و مراقبت های موقت)
+          possible_separation_of_a_child_from_parents_against_their_will: جدایی احتمالی کودک از والدین برخلاف میل آنها
+      assessment_bid_details:
+        display_name: ارائه جزئیات
+        help_text: جزئیات را ارائه دهید و سپس با فرم تعیین بهترین منافع UNHCR (BID) ادامه دهید.

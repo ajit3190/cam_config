@@ -1,0 +1,50 @@
+uk:
+  interview_details:
+    name: Деталі інтерв`ю
+    description: Деталі інтерв`ю
+    fields:
+      interview_date:
+        display_name: Дата інтерв`ю
+      interviewer_name:
+        display_name: Ім'я інтерв'юера
+      interviewer_postion:
+        display_name: Посада інтерв'юера
+      interviewer_agency:
+        display_name: Агентство інтерв'юера
+        option_strings_text:
+          agency_1: Агенство 1
+          agency_2: Агенство 2
+          agency_3: Агенство 3
+          agency_4: Агенство 4
+      address_interview:
+        display_name: Адреса інтерв`ю
+      landmark_interview:
+        display_name: Інтерв'ю Орієнтир
+      location_interview:
+        display_name: Місце інтерв`ю
+      source_interview:
+        display_name: Інформація, отримана від
+        option_strings_text:
+          child: Дитина
+          caregiver: Опікун
+          other: Якщо інше, вкажіть
+      source_interview_other:
+        display_name: Якщо інформацію отримано від Іншого, будь ласка, вкажіть.
+      other_org_interview_status:
+        display_name: Чи проводила інша організація інтерв`ю з дитиною?
+      other_org_reference_no:
+        display_name: Довідковий номер, наданий дитині іншою організацією
+      case_eligibility_criteria:
+        display_name: Випадок відповідає критеріям прийнятності?
+      source_identification_referral:
+        display_name: Джерело ідентифікації/спрямування
+        option_strings_text:
+          child_family_member: Дитина / член сім'ї
+          community_members_cpc: Члени спільноти / CPC
+          school_personnel: Персонал школи
+          health_personnel: Медичний персонал
+          population_registration_services: Послуги реєстрації населення
+          law_enforcement_agencies: Правоохоронні органи
+          humanitarian_agencies: Гуманітарні установи
+      consent_form_completed:
+        display_name: Форму згоди заповнено?

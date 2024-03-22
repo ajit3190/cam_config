@@ -1,0 +1,106 @@
+ps-AF:
+  basic_identity:
+    name: د ماشوم معلومات
+    description: د د پیژندنې لومړني معلومات د دا سې ماشوم چې له خپلې کورنی او مور پلار څخه جدا وي او فعلآ له خپلو خپلوانو سره اوسي او او همداشان د دا سې ماشوم چې له خپلې کورنی او مور پلار څخه جدا وي خو له خپلو خپلوانو سره نه اوسي.
+    fields:
+      case_id_display:
+        display_name: د قضیې د پیژندې نمبر
+      cpims_id:
+        display_name: د پخوانی قضیې کوډ
+        help_text: میراثي CPIMS (یا بل سیسټم) ID
+      marked_for_mobile:
+        display_name: د موبایل لپاره نښه شوی؟
+        tick_box_label: 'هو'
+      child_status:
+        display_name: د قضیې حالت
+      case_status_reopened:
+        display_name: ایا قضيه دوباره خلاصه شوې ؟
+        tick_box_label: 'هو'
+      case_status_reopened_reasons:
+        display_name: ' دوهم ځل د قضیې د خلاصیدو علت'
+        option_strings_text:
+          break_down_of_reunification_placement: د بیا یو ځای کیدو ناکاموالی
+          death_of_caregiver_s: د ماشوم د سرپرست مړینه
+          physical_abuse_violence: فزیکي ناوړه استفاده/ تاوتریخوالی
+          sexual_abuse_violence: جنسي ناوړه استفاده/ تاوتریخوالی
+          emotional_or_psychological_abuse_violence: عاطفي ناوړه استفاده
+          physical_neglect: فزیکي غفلت
+          emotional_neglect: عاطفي عفلت
+          medical_neglect: طبي عفلت
+          educational_neglect: تعلیمي عفلت
+          supervisory_neglect: نظارتي عفلت
+          abandonment: پریښودنه
+          child_labour: پر ماشوم کار
+          hazardous_work: خطرناکه کار
+          sexual_exploitation: جنسي استثمار
+          slavery_sale_trafficking_forced_labour: علامي/ خرڅلاوو/ قاچاقبري/ او په زوره کار
+          in_conflict_with_the_law: د قانون سره په ټکر کې
+          associated_with_armed_forces_or_groups: د وسله والو ځواکونو یا ډلو سره تړاو
+          unaccompanied: ' دا سې ماشوم چې له خپلې کورنی او مور پلار څخه جدا وي او  خپلو خپلوانو سره نه اوسي '
+          separated: دا سې ماشوم چې له خپلې کورنی او مور پلار څخه جدا وي او فعلآ له خپلو خپلوانو سره اوسي
+          orphan: یتیم
+          functional_difficulties: فعاليتي مشکلات (د بیلګې په توګه لیدل ، اوریدل ، تګ ، خبری کول ، یاد ساتل / تمرکز کول ، ځان ساتنه)
+          psychosocial_distress: رواني ټولنیز تکلیف
+          substance_abuse_and_addiction_child: دوامدره  ناوړه ګټه اخیستنه او روږدي کول (ماشوم)
+          belongs_to_marginalised_discriminated_group: له تبغیض شوې ډلې سره تړاو لري
+          lack_of_documentation_birth_registration: 'د اسنادو  نه شتون/ د زیږون د ثبت '
+          child_marriage: د ماشوم واده
+          fgm: FGM
+          pregnancy_child_parent: حمل
+          inappropriate_care_arrangement: د پاملرنې نامناسبه تنظیم (د مثال په توګه په یوه کورنی کې اته ماشومان ، د سرپرست لخوا دوامداره ناوړه ګټه اخیستنه ، او یوازینی اسیب پزیره سرپرست)
+          other: نوره
+      name:
+        display_name: مکمل نوم
+      name_first:
+        display_name: لمړنی نوم
+      name_middle:
+        display_name: منځنی نوم
+      name_last:
+        display_name: تخلص
+      name_nickname:
+        display_name: لقب
+      name_other:
+        display_name: بل نوم
+      registration_date:
+        display_name: د ثبت تاریخ
+      identification_date:
+        display_name: د قضیې د پیژندلو نیټه
+      assessment_due_date:
+        display_name: د ارزونې نيټه
+      sex:
+        display_name: جنس
+      age:
+        display_name: عمر
+      date_of_birth:
+        display_name: د زیږدنې نیټه
+      estimated:
+        display_name: ایا دا عمر اټکلي ده؟
+        tick_box_label: 'هو'
+      national_id_no:
+        display_name: د پیژند پاڼې شمیره
+      unhcr_individual_no:
+        display_name: د UNHCR انفرادي د پیژندې نمبر
+      other_id_type:
+        display_name: دنورو اړونده اسنادو د پیژندې نمبر
+      other_id_no:
+        display_name: دنورو اړونده د پیژندې نمبر
+      nationality:
+        display_name: ملیت
+      ethnicity:
+        display_name: توکم او قبیله
+      sub_ethnicity_1:
+        display_name: ۱- فرعي نژاد
+      sub_ethnicity_2:
+        display_name: ۲- فرعي نژاد
+      language:
+        display_name: هغه ژبه چې ماشوم پرې خبرې کوي
+      religion:
+        display_name: دین
+      displacement_status:
+        display_name: د نفوسو ډله
+      displacement_status_other:
+        display_name: که نور وي مهرباني وکړئ مشخص یې کړئ
+      disability_type_communications:
+        display_name: دخبرو اترو لپاره ځانګړې اړتیاوې
+      telephone_current:
+        display_name: د ماشوم د اړیکې شمیره/ او یا نورې شمارې

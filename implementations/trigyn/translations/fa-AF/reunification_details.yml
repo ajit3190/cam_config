@@ -1,0 +1,7 @@
+fa-AF:
+  reunification_details:
+    name: جزئیات اتحاد مجدد
+    description: جزئیات اتحاد مجدد
+    fields:
+      reunification_details_section:
+        display_name: جزئیات اتحاد مجدد

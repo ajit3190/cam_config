@@ -1,0 +1,14 @@
+---
+om:
+  referral_transfer:
+    name: Dhimma gara biraatti ergamanii /eeramanii  fi Dabarsaawwan taasisaman..
+    description: Tarreeffama dabarsaawwanii  fi dhimma gara biraatti  ergaman.
+    fields:
+      transfer_status:
+        display_name: Haala/sadarkaa dabarsaa/jijjiirraa.
+        option_strings_text:
+          in_progress: Adeemsarra kan jiru.
+          accepted: Fudhateera/fudhatameera..
+          rejected: Fudhatama hin arganne.
+      transitions:
+        display_name: Dabarsaawwanii fi gara biraattii kan ergaman.

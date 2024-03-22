@@ -1,0 +1,83 @@
+fr:
+  unhcr_bid_report_subform:
+    name: Rapport du HCR sur la DIS
+    description: Sous-formulaire du rapport du HCR sur la DIS
+    fields:
+      bid_date:
+        display_name: Date de l'entretien de la DIS
+      bid_participants:
+        display_name: Liste de tous les participants à l'entretien
+        help_text: Inclure la ou les personnes interrogées, l'interviewer et l'interprète (si nécessaire)
+      bid_separation_status:
+        display_name: Situation de séparation de l'enfant
+        option_strings_text:
+          unaccompanied: 'Non accompagné '
+          separated: Séparé
+          orphan: Orphelin
+          none_of_the_above: Aucun des éléments ci-dessus
+      bid_purpose:
+        display_name: Objectif de la DIS
+        option_strings_text:
+          durable_solution: 'Solution durable '
+          family_reunification: 'Réunification familiale '
+          temporary_care_arrangements: 'Prise en charge temporaire '
+          separation_from_parents_caregiver: Séparation des parents/personne en charge de l'enfants
+          other: Autre
+      bid_purpose_other:
+        display_name: Si autre, précisez
+      bid_priority:
+        display_name: 'Priorité du cas '
+        option_strings_text:
+          emergency: 'Urgence '
+          high: 'Elevé '
+          medium: 'Moyen '
+          low: 'Faible '
+      bid_priority_reasons:
+        display_name: Motifs de cette priorité
+      bid_specific_needs:
+        display_name: 'Spécifié les besoins de l''enfant '
+      bid_brief_summary:
+        display_name: Veuillez résumer brièvement les problèmes clés
+        guiding_questions: par exemple, les modalités actuelles de prise en charge, les informations sur les parents et la famille, et les options envisagées.
+      bid_separator_recommendations:
+        display_name: 'Options et recommandations '
+      bid_child_history:
+        display_name: Veuillez noter l'historique de l'enfant avant et pendant le vol/séparation.
+        guiding_questions: Incluez les souvenirs de l'enfant concernant la fuite/séparation et les preuves fournies par les personnes proches de l'enfant (si elles sont interrogées). Indiquez comment ces informations ont été vérifiées.
+      bid_current_situation:
+        display_name: Veuillez décrire la situation de vie actuelle de l'enfant
+        guiding_questions: |-
+          Inclure :
+          - Modalités actuelles de prise en charge, conditions de vie, sécurité, relations avec les parents, les frères et sœurs, les personnes qui s'occupent des enfants et les autres membres de la famille ;
+          - Réseaux communautaires, éducation et fréquentation scolaire ;
+          - Évaluation de l'âge et de la maturité de l'enfant, de sa santé physique et mentale et toute évaluation de ses besoins spécifiques. Veuillez indiquer qui a été contacté et qui a fourni des informations, par exemple l'enfant, la famille, les personnes proches de l'enfant, les personnes s'occupant de l'enfant, les enseignants, les voisins, les travailleurs sociaux/le personnel des ONG.
+      bid_available_options:
+        display_name: Veuillez indiquer toutes les options disponibles et les mécanismes de suivi, ainsi que l'analyse de chacune d'entre elles.
+        guiding_questions: |-
+          Veuillez vous référer à tous les facteurs inclus dans la liste de contrôle de l'annexe 9 pour recommander ce qui est dans l'intérêt supérieur de l'enfant, sous les rubriques suivantes :
+          - Opinions de l'enfant
+          - Famille et relations proches
+          - Un environnement sûr
+          - Besoins de développement et d'identité
+      bid_final_recommendations:
+        display_name: 'Veuillez fournir la recommandation finale et les motifs '
+      bid_separator_panel_decision:
+        display_name: 'Décision du panel '
+      bid_date_panel_decision:
+        display_name: 'Date de la décision du panel '
+      bid_panel_members:
+        display_name: Noms et organisations de tous les membres du panel
+      bid_panel_decision:
+        display_name: 'Le panel :'
+        option_strings_text:
+          approves_the_recommendations: Approuve les recommandations
+          defers_decison_please_explain_why: Reporte la décision (veuillez expliquer pourquoi)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: N'approuve pas les recommandations (veuillez expliquer pourquoi et fournir la recommandation du panel)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: Réouverture du cas (veuillez expliquer pourquoi et qui a demandé la réouverture)
+          closes_the_case: 'Clos le cas '
+      bid_panel_decision_reasons:
+        display_name: Motivation complète de cette décision
+      bid_panel_decision_actions:
+        display_name: 'Décrire les actions de suivi requis '
+      bid_panel_comments:
+        display_name: 'Commentaires '

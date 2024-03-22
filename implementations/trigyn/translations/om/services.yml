@@ -1,0 +1,8 @@
+---
+om:
+  services:
+    name: Tajaajiloota.
+    description: Guca/unka tajaajilootaa.
+    fields:
+      services_section:
+        display_name: Tajaajiloota.

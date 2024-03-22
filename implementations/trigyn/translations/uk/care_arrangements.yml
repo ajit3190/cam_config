@@ -1,0 +1,21 @@
+uk:
+  care_arrangements:
+    name: Порядок Догляду
+    description: Порядок Догляду
+    fields:
+      child_current_location:
+        display_name: Поточна адреса дитини
+      address_current:
+        display_name: Поточна адреса
+        help_text: Якщо адреси немає, надайте орієнтири або опис поточного місцезнаходження
+      location_current:
+        display_name: Поточне місцерозташування
+      address_child_future:
+        display_name: Якщо дитина планує переїхати, яка майбутня адреса?
+        help_text: Якщо адреси немає, надайте орієнтири або опис поточного місцезнаходження
+      location_child_future:
+        display_name: Яке майбутнє розташування?
+      telephone_child_future:
+        display_name: Який майбутній номер телефону?
+      care_arrangements_section:
+        display_name: Порядок Догляду

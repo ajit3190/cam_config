@@ -1,0 +1,64 @@
+uk:
+  followup_subform_section:
+    name: Вкладена Субформа по Моніторингу
+    description: Вкладена Субформа по Моніторингу
+    fields:
+      followup_needed_by_date:
+        display_name: Моніторинг потрібен ким
+        help_text: "(Це поле створить нагадування в списку завдань.)"
+      followup_date:
+        display_name: Дата моніторингу
+      followup_with_multi:
+        display_name: Промоніторив з
+      other_please_specify:
+        display_name: Якщо інше, вкажіть
+      followed_up_through:
+        display_name: Промоніторив через
+        option_strings_text:
+          phone_call: Телефонний дзвінок
+          instant_message_sms_whatsapp: Миттєве повідомлення/SMS/WhatsApp
+          email: Імейл
+          social_media: Соціальні мережі
+          ad_hoc_home_visit_child_family: Спеціальне відвідування додому (дитина/сім’я)
+          scheduled_home_visit_child_family: Планове відвідування додому (дитина/сім’я)
+          face_to_face_meeting_outside_of_home_child_family: Зустріч віч-на-віч поза домом (дитина/сім’я)
+          face_to_face_meeting_service_provider_and_child_family: Зустріч віч-на-віч (постачальник послуг і дитина/сім'я)
+          face_to_face_meeting_service_provider_only: Зустріч віч-на-віч (лише постачальник послуг)
+          community_based_group: Громадська група
+          authorities: Влада
+          other: Інше
+      followup_other_specify:
+        display_name: Якщо інше, вкажіть
+      followed_specific_action:
+        display_name: Профоловапив щодо конкретних дій/послуг з кейс плану?
+      specify_action:
+        display_name: Укажіть, які дії/послуги (з кейс плану) були профоловаплені або який щодо якого іншого елементу був фоловап
+      purpose_followup:
+        display_name: Мета моніторингу
+        help_text: Опишіть причину пфоловапу щодо цієї конкретної дії/послуги/елемента
+      followup_result_separator:
+        display_name: Результат моніторингу
+      outcome_followup:
+        display_name: Результат моніторингу
+        help_text: Напр. подробиці про вжиті дії/надану послугу, результати вжитої дії/наданої послуги, деталі про зміну ситуації з дитиною
+      action_conducted:
+        display_name: Якщо був моніторинг, чи були здійснені конкретні дії/послуги з кейс плану?
+        option_strings_text:
+          'yes': 'Так'
+          'no': 'Ні'
+          unable_to_determine: Неможливо визначити
+      situation_changed:
+        display_name: Якщо був моніторинг, чи суттєво змінилося становище дитини?
+        option_strings_text:
+          'yes': 'Так'
+          improved: Покращився
+          declined: Видхилено
+          'no': 'Ні'
+          unable_to_determine: Неможливо визначити
+      next_steps_separator:
+        display_name: Наступні кроки
+      need_follow_up_visit:
+        display_name: Чи є необхідність подальшого спостереження?
+        help_text: Якщо є потреба в подальшому спостереженні, створіть новий запис субформи для цього моніторингу та введіть дату, коли він повинен відбутися.
+      other_recommend_followup:
+        display_name: Чи є якісь інші рекомендації на основі проведеного моніторингу?

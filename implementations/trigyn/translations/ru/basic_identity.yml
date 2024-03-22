@@ -1,0 +1,106 @@
+ru:
+  basic_identity:
+    name: Данные о ребенке
+    description: Основная информация о личности несопровождаемого и разлученного с семьей ребенка.
+    fields:
+      case_id_display:
+        display_name: Идентификатор или ID случая
+      cpims_id:
+        display_name: Код предыдущего случая
+        help_text: ID старой системы CPIMS (или другой системы)
+      marked_for_mobile:
+        display_name: Отмечено как мобильный?
+        tick_box_label: 'Да'
+      child_status:
+        display_name: Статус случая
+      case_status_reopened:
+        display_name: Случай возобновлен?
+        tick_box_label: 'Да'
+      case_status_reopened_reasons:
+        display_name: Причина возобновления
+        option_strings_text:
+          break_down_of_reunification_placement: Срыв процесса воссоединения/размещения
+          death_of_caregiver_s: Смерть опекуна (опекунов)
+          physical_abuse_violence: Физическое насилие
+          sexual_abuse_violence: Сексуальное домогательство / насилие
+          emotional_or_psychological_abuse_violence: Эмоциональное или психологическое насилие
+          physical_neglect: Физическое пренебрежение
+          emotional_neglect: Эмоциональное пренебрежение
+          medical_neglect: Медицинский недосмотр
+          educational_neglect: Отсутствие образования
+          supervisory_neglect: Пренебрежение со стороны надзорных органов
+          abandonment: Заброшенность
+          child_labour: Детский труд
+          hazardous_work: Опасная работа
+          sexual_exploitation: Сексуальная эксплуатация
+          slavery_sale_trafficking_forced_labour: Рабство / продажа / торговля людьми / принудительный труд
+          in_conflict_with_the_law: В конфликте с законом
+          associated_with_armed_forces_or_groups: Связь с вооруженными силами или группировками
+          unaccompanied: Несопровождаемый
+          separated: разлученный
+          orphan: Сирота
+          functional_difficulties: Функциональные трудности (например, со зрением, слухом, ходьбой, общением, запоминанием/концентрацией внимания, уходом за собой)
+          psychosocial_distress: Психосоциальное расстройство
+          substance_abuse_and_addiction_child: Злоупотребление психоактивными веществами и зависимость (ребенок)
+          belongs_to_marginalised_discriminated_group: Принадлежит к маргинальной / дискриминируемой группе
+          lack_of_documentation_birth_registration: Не хватает документов / регистрации о рождении
+          child_marriage: Детский брак
+          fgm: Калечащие операции на женских половых органах/ КЖПО
+          pregnancy_child_parent: Беременность / ребенок-родитель
+          inappropriate_care_arrangement: Неправильная организация ухода (например, >8 детей в семье, злоупотребление психоактивными веществами со стороны ухаживающего лица, одинокий опекун в уязвимом положении)
+          other: Другое
+      name:
+        display_name: Полное имя
+      name_first:
+        display_name: Имя
+      name_middle:
+        display_name: Второе имя
+      name_last:
+        display_name: Фамилия
+      name_nickname:
+        display_name: Прозвище
+      name_other:
+        display_name: Другое имя
+      registration_date:
+        display_name: Дата регистрации
+      identification_date:
+        display_name: Дата выявления случая / сообщения о нем
+      assessment_due_date:
+        display_name: Дата проведения оценки
+      sex:
+        display_name: Пол
+      age:
+        display_name: Возраст
+      date_of_birth:
+        display_name: Дата рождения
+      estimated:
+        display_name: Возраст установлен приблизительно?
+        tick_box_label: 'Да'
+      national_id_no:
+        display_name: Национальный ID-номер
+      unhcr_individual_no:
+        display_name: УВКБ ООН Индивидуальный ID
+      other_id_type:
+        display_name: Тип другого документа, удостоверяющего личность
+      other_id_no:
+        display_name: Номер другого соответствующего удостоверения личности
+      nationality:
+        display_name: Гражданство
+      ethnicity:
+        display_name: Этническая принадлежность/клан/племя
+      sub_ethnicity_1:
+        display_name: Субэтническая принадлежность 1
+      sub_ethnicity_2:
+        display_name: Субэтническая принадлежность 2
+      language:
+        display_name: Языки, на которых говорит ребенок
+      religion:
+        display_name: Религия
+      displacement_status:
+        display_name: Группа населения
+      displacement_status_other:
+        display_name: Если "Другое", пожалуйста, укажите
+      disability_type_communications:
+        display_name: Особые потребности и трудности в общении
+      telephone_current:
+        display_name: Телефон ребенка / другие контактные данные

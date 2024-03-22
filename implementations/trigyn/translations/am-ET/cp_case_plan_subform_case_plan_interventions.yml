@@ -1,0 +1,38 @@
+---
+am-ET:
+  cp_case_plan_subform_case_plan_interventions:
+    name: የተሰጡ ምላሽ እና አገልግሎቶች ዝርዝር
+    description: የተሰጡ ምላሽ/ ምላሽ ያገኙ እና አገልግሎቶች ዝርዝር
+    fields:
+      intervention_service_to_be_provided:
+        display_name: የተሰጡ ምላሽ/ ምላሽ ያገኙ እና አገልግሎቶች  ስም ዝርዝር
+      intervention_service_goal:
+        display_name: በአገልግሎት ፈላጊው ፍላጎት መሰረት አገልግሎቶች እየተሰጡ ነው
+        guiding_questions: "በዳሰሳ እንደተለየው, ለምሳሌ. አማራጭ ድጋፍና እንክብካቤ  (ለምሳሌ ምቹ መጠለያ)፣ ትምህርት (መደበኛ)፣ መደበኛ ያልሆነ ትምህርት፣ ቤተሰብን ማቀላቀልና እና ማዋኀድ፣ መሰረታዊ የስነ-ልቦና ድጋፍ፣ የአዕምሮ ጤና፣ የማህበራዊና ስነልቦናዊ ድጋፍ ና እንክብካቤ፣ የተለየ የእምሮ ጤናና ማህበራዊና ስነልቦናዊ ህክምና አገልግሎቶች፣ ምግብ፣ ምግብ ነክ ያልሆኑ ድጋፎች፣ የገንዘብ እርዳታ፣ መተዳደሪያ፣ ሕክምና፣ ስርዓተ ምግብ ፣ የሕግ ድጋፍ፣ መረጃ፣ ልዩ ፍላጎት ህጻናት አገልግሎቶች፣ የስርዓተ ጾታ እና የስነ ተዋልዶ ጤና፣ መጠለያ፣ ንጽህና አጠባበቅ፣ ዘላቂ መፍትሄ፣ ወደ ሌላ ቦታ ማዛወር።\n\n "
+      case_plan_provider_and_contact_details:
+        display_name: "አገልግሎቱን የሚሰጥ ወይም አገልግሎቶቹን የሚተገበር ግለሰብ/ኤጀንሲ የአድራሻ ዝርዝሮችን "
+      case_plan_timeframe:
+        display_name: የማጠናቂያ ቀን
+        help_text: ቀን/ወር/ዓ/ም
+      case_plan_monitoring_schedule:
+        display_name: ክትትል / ቁጥር መርሐግብር
+        guiding_questions: |-
+          ለምሳሌ፡- በሚቀጥለው ሳምንት ሰኞ ስለሚሰጡ አገልግሎቶች እና በሚቀጥለው ሳምንት አርብ በህጻኑ ሁኔታ ላይ ክትትል ያድርጉ። ለቀጣዩ ወር ቢያንስ በሳምንት ሁለት ጊዜ ይከታተሉ።
+          ሁኔታው እንደተጠበቀው/እንደሚፈለገው ከቀጠለ፣ በወሩ መጨረሻ ላይ በሚደረገው ውይይት መሰረት የስጋት ተጋላጭነት በሚቀንስ መልኩ  የክትትል ሂደቱን መርሀግብር ይቀይሩ ።
+        option_strings_text:
+          one_time: አንድ ጊዜ
+          daily: በየቀኑ
+          weekly: በየሳምንቱ
+          monthly: በየወሩ
+          other: "ሌሎች "
+      case_plan_monitoring_schedule_notes:
+        display_name: የክትትልና ቁጥጥር መርሀግብርን መከታተያ ማስታወሻ
+      interventions_status:
+        display_name: የጉዳዩ ሁኔታ/አኳኀን
+        option_strings_text:
+          pending: በእንጥልጥል/በሂደት ላይ ያለ
+          ongoing: በሂደት ላይ ያለ
+          completed: ተጠናቋል
+      interventions_notes:
+        display_name: ማስታወሻ
+        guiding_questions: ለምሳሌ፡-  ዉጤታማነትን ሊያደናቅፉ የሚችሉ ጥንካሬዎች እና ችግሮች

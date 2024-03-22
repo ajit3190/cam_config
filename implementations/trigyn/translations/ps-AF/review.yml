@@ -1,0 +1,7 @@
+ps-AF:
+  review:
+    name: د قضیې بیاکتنه
+    description: د قضیې بیاکتنه
+    fields:
+      review_section:
+        display_name: د قضیې بیاکتنه

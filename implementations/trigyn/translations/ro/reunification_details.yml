@@ -1,0 +1,7 @@
+ro:
+  reunification_details:
+    name: Detalii Reunificare
+    description: Detalii Reunificare
+    fields:
+      reunification_details_section:
+        display_name: Detalii Reunificare

@@ -1,0 +1,9 @@
+fr:
+  photos_and_audio:
+    name: 'Photo et audio '
+    description: Tous les fichiers audio et photos associés à ce cas
+    fields:
+      current_photo_key:
+        display_name: Clé photo actuelle
+      recorded_audio:
+        display_name: 'Audio enregistré '

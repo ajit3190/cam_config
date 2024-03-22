@@ -1,0 +1,17 @@
+es:
+  bid_status:
+    name: Estado del DIS
+    description: Formulario del Estado de DIS
+    fields:
+      assessment_formal_bid:
+        display_name: Se requiere una Determinación del Interés Superior del Niño (DIS) formal?
+        help_text: Determinado en contexto en coordinación con ACNUR
+      assessment_bid_direction:
+        display_name: En caso afirmativo, por favor seleccione la dirección del DIS
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Identificar soluciones durables y caminos complementarios para niños no acompañados
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Determinar las opciones más apropiadas para niños en riesgo en circunstancias excepcionales (incluyendo reunificación familiar y cuidado temporal)
+          possible_separation_of_a_child_from_parents_against_their_will: Posible separación del niño de sus padres en contra de su voluntad
+      assessment_bid_details:
+        display_name: Dar detalles
+        help_text: Dar detalles y luego continuar con el formulario de Determinación del Interés Superior del Niño (DIS) de ACNUR

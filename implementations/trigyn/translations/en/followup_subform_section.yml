@@ -1,0 +1,74 @@
+---
+en:
+  followup_subform_section:
+    name: Nested Followup Subform
+    description: Nested Followup Subform
+    fields:
+      followup_needed_by_date:
+        display_name: Follow up needed by
+        help_text: "(This field will create a reminder in the Task list.)"
+      followup_date:
+        display_name: Date of follow-up
+      followup_with_multi:
+        display_name: Followed up with
+      other_please_specify:
+        display_name: If other, please specify
+      followed_up_through:
+        display_name: Followed up through
+        option_strings_text:
+          phone_call: Phone call
+          instant_message_sms_whatsapp: Instant message/SMS/WhatsApp
+          email: Email
+          social_media: Social media
+          ad_hoc_home_visit_child_family: Ad-hoc home visit (child/family)
+          scheduled_home_visit_child_family: Scheduled home visit (child/family)
+          face_to_face_meeting_outside_of_home_child_family: Face-to-face meeting
+            outside of home (child/family)
+          face_to_face_meeting_service_provider_and_child_family: Face-to-face meeting
+            (service provider and child/family)
+          face_to_face_meeting_service_provider_only: Face-to-face meeting (service
+            provider only)
+          community_based_group: Community-based group
+          authorities: Authorities
+          other: Other
+      followup_other_specify:
+        display_name: If other, please specify
+      followed_specific_action:
+        display_name: Followed up on specific action/service from case plan?
+      specify_action:
+        display_name: Specify which action/service (from case plan) followed up on
+          or what other element followed-up on
+      purpose_followup:
+        display_name: Purpose of follow up
+        help_text: Describe the reason for following-up on this specific action/service/element
+      followup_result_separator:
+        display_name: Follow up Result
+      outcome_followup:
+        display_name: Outcome of follow up
+        help_text: E.g. details about the action taken/service provided, the outcomes
+          of the action taken/service provided, details about the change in the child's
+          situation
+      action_conducted:
+        display_name: If followed up on, has the specific action/service from the
+          case plan been conducted?
+        option_strings_text:
+          'yes': 'Yes'
+          'no': 'No'
+          unable_to_determine: Unable to determine
+      situation_changed:
+        display_name: If followed up on, has the situation of the child significantly
+          changed?
+        option_strings_text:
+          'yes': 'Yes'
+          improved: Improved
+          declined: Declined
+          'no': 'No'
+          unable_to_determine: Unable to determine
+      next_steps_separator:
+        display_name: Next Steps
+      need_follow_up_visit:
+        display_name: Is there a need for further Follow up?
+        help_text: If there is a need for a further follow up, create a new subform
+          entry for that follow up and enter the date the follow is needed by there.
+      other_recommend_followup:
+        display_name: Are there any other recommendations based on the follow-up conducted?

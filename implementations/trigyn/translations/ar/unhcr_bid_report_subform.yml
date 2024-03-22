@@ -1,0 +1,84 @@
+---
+ar:
+  unhcr_bid_report_subform:
+    name: تقرير متداخل للمفوضية السامية لشؤون اللاجئين بخصوص تحديد المصالح الفضلى
+    description: تقرير متداخل للمفوضية السامية لشؤون اللاجئين بخصوص تحديد المصالح الفضلى
+    fields:
+      bid_date:
+        display_name: تاريخ مقابلة المصلحة الفضلى للطفل BID
+      bid_participants:
+        display_name: قم باعداد قائمة بجميع المشاركين في المقابلة
+        help_text: قم بتضمين الشخص / الأشخاص الذين تمت مقابلتهم ، الشخص الذي يجري المقابلة، والمترجم الفوري (عند اللزوم)
+      bid_separation_status:
+        display_name: حالة الانفصال عن الطفل
+        option_strings_text:
+          unaccompanied: من غير مرافق
+          separated: منفصل
+          orphan: يتيم
+          none_of_the_above: لا شيء مما سبق
+      bid_purpose:
+        display_name: الغرض من تحديد المصلحى الفضلى للطفل
+        option_strings_text:
+          durable_solution: حل دائم
+          family_reunification: اعادة لم شمل العائلة
+          temporary_care_arrangements: ترتيب رعاية مؤقت
+          separation_from_parents_caregiver: الانفصال عن الوالدين / مقدم الرعاية
+          other: غير ذلك
+      bid_purpose_other:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      bid_priority:
+        display_name: أولوية الحالة
+        option_strings_text:
+          emergency: حالة طارئة
+          high: مرتفع
+          medium: متوسط
+          low: منحفض
+      bid_priority_reasons:
+        display_name: أسباب هذه الأولوية
+      bid_specific_needs:
+        display_name: احتياجات الطفل الخاصة
+      bid_brief_summary:
+        display_name: يرجى تلخيص القضايا الرئيسية بإيجاز
+        guiding_questions: على سبيل المثال ترتيبات الرعاية الحالية ، ومعلومات عن الوالدين والأسرة ، والخيارات قيد الدراسة
+      bid_separator_recommendations:
+        display_name: الخيارات والتوصيات
+      bid_child_history:
+        display_name: يرجى تسجيل تاريخ الطفل قبل وأثناء الرحلة / الانفصال.
+        guiding_questions: قم بتضمين ذكريات الطفل عن الرحلة / الانفصال ، والأدلة التي قدمها الأشخاص المقربون من الطفل (إذا تمت مقابلته). وضّح كيف تم التحقق من هذه المعلومات.
+      bid_current_situation:
+        display_name: يرجى وصف الحالة المعيشية الحالية للطفل
+        guiding_questions: |-
+          :قم بتضمين
+          - ترتيبات الرعاية الحالية ، وظروف المعيشة ، والسلامة ، والعلاقات مع الوالدين بالتبني / الأشقاء / مقدمي الرعاية / أفراد الأسرة الآخرين ؛
+          - شبكات المجتمع والتعليم والالتحاق بالمدارس ؛
+          - تقييم عمر الطفل ونضجه وصحته البدنية والعقلية وأي تقييم محدد للاحتياجات. يرجى تحديد من تم الاتصال به ومن قدم المعلومات ، على سبيل المثال الطفل ، والأسرة ، والأشخاص القريبين من الطفل ، ومقدمي الرعاية ، والمعلمين ، والجيران ، والأخصائيين الاجتماعيين / موظفي المنظمات غير الحكومية.
+      bid_available_options:
+        display_name: يرجى الإشارة إلى كافة الخيارات المتاحة وآليات المتابعة وتحليل لكل منهما.
+        guiding_questions: |-
+          يرجى الاشارة إلى جميع العوامل المدرجة في قائمة المَراجع 9 عند التوصية بما هو في مصلحة الطفل ، تحت العناوين التالية:
+          - آراء الطفل
+          - الأسرة والصلات المقربة
+          - بيئة آمنة
+          - احتياجات التنمية والهوية
+      bid_final_recommendations:
+        display_name: يرجى تقديم التوصية النهائية والأسباب
+      bid_separator_panel_decision:
+        display_name: قرار الهيئة
+      bid_date_panel_decision:
+        display_name: تاريخ قرار اللجنة
+      bid_panel_members:
+        display_name: الأسماء والمنظمات الخاصة جميع أعضاء الفريق
+      bid_panel_decision:
+        display_name: 'الهيئة:'
+        option_strings_text:
+          approves_the_recommendations: يوافق (توافق) على التوصيات
+          defers_decison_please_explain_why: يؤجل القرار (يرجى توضيح السبب)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: لا يوافق على التوصيات (يرجى توضيح السبب وتقديم توصية الفريق)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: إعادة فتح القضية (يُرجى توضيح السبب ومن طلب إعادة الفتح)
+          closes_the_case: اغلاق الحالة
+      bid_panel_decision_reasons:
+        display_name: الأسباب الكاملة لهذا القرار
+      bid_panel_decision_actions:
+        display_name: قم بوصف إجراءات المتابعة المطلوبة
+      bid_panel_comments:
+        display_name: التعليقات

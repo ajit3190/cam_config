@@ -1,0 +1,7 @@
+fa-AF:
+  conference_details_container:
+    name: تفصیل کنفرانس قضیه
+    description: تفصیل کنفرانس قضیه
+    fields:
+      conference_details_subform:
+        display_name: تفصیل کنفرانس قضیه

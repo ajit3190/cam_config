@@ -1,0 +1,7 @@
+fr:
+  services:
+    name: Services
+    description: 'Formulaire des services '
+    fields:
+      services_section:
+        display_name: Services

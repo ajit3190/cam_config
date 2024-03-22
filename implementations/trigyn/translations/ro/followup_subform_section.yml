@@ -1,0 +1,64 @@
+ro:
+  followup_subform_section:
+    name: Subformular Revenire Imbricat
+    description: Subformular Revenire Imbricat
+    fields:
+      followup_needed_by_date:
+        display_name: Revenire necesară penru
+        help_text: "(Acest câmp va crea un memento în lista de activități.)"
+      followup_date:
+        display_name: Dată revenire
+      followup_with_multi:
+        display_name: Revenire la
+      other_please_specify:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      followed_up_through:
+        display_name: Revenire prin
+        option_strings_text:
+          phone_call: Telefon
+          instant_message_sms_whatsapp: Mesaj instantaneu/ SMS/ WhatsApp
+          email: E-mail
+          social_media: Social media
+          ad_hoc_home_visit_child_family: Vizită ad-hoc la domiciliu (copil/ familie)
+          scheduled_home_visit_child_family: Vizită la domiciliu programată (copil/ familie)
+          face_to_face_meeting_outside_of_home_child_family: Întâlnire față în față în afara casei (copil/ familie)
+          face_to_face_meeting_service_provider_and_child_family: Întâlnire față în față (furnizor de servicii și copil/ familie)
+          face_to_face_meeting_service_provider_only: Întâlnire față în față (numai furnizorul de servicii)
+          community_based_group: Grup la nivel de comunitate
+          authorities: Autorități
+          other: Altceva
+      followup_other_specify:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      followed_specific_action:
+        display_name: Revenire la o acțiune/ un serviciu specific din planul de servicii?
+      specify_action:
+        display_name: Menționează ce acțiune/serviciu (din planul de servicii) asupra căreia s-a revenit
+      purpose_followup:
+        display_name: Scopul revenirii
+        help_text: Descrieți motivul revenirii la această acțiune/ serviciu/ element specific
+      followup_result_separator:
+        display_name: Rezultat Revenire
+      outcome_followup:
+        display_name: Produs al revenirii
+        help_text: De exemplu. detalii despre acțiunea întreprinsă/ serviciul furnizat, rezultatele acțiunii întreprinse/ serviciului furnizat, detalii despre schimbarea situației copilului
+      action_conducted:
+        display_name: Dacă s-a făcut revenirea, a fost efectuată acțiunea/ serviciul specific din planul de servicii?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unable_to_determine: Nu pot aprecia
+      situation_changed:
+        display_name: Dacă revenirea s-a produs, s-a schimbat semnificativ situația copilului?
+        option_strings_text:
+          'yes': 'Da'
+          improved: S-a îmbunătățit
+          declined: S-a înrăutățit
+          'no': 'Nu'
+          unable_to_determine: Nu pot aprecia
+      next_steps_separator:
+        display_name: Pașii următori
+      need_follow_up_visit:
+        display_name: Este nevoie de o revenire ulterioară?
+        help_text: Dacă este nevoie de o revenire ulterioară, creează o nouă intrare în subformular pentru respectiva revenire și introdu data la care este necesară revenirea.
+      other_recommend_followup:
+        display_name: Există alte recomandări bazate pe revenirea efectuată?

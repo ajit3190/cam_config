@@ -1,0 +1,76 @@
+fr:
+  tracing_request_inquirer:
+    name: 'Demandeur '
+    description: 'Demandeur '
+    fields:
+      tracing_request_id:
+        display_name: 'Long Identifiant '
+      short_id:
+        display_name: ID du demandeur
+      inquiry_date:
+        display_name: 'Date de la demande '
+      inquiry_status:
+        display_name: 'Statut de la demande '
+      inquirer_details_section:
+        display_name: 'Détails du demandeur '
+      relation_name:
+        display_name: 'Nom du demandeur '
+      relation_nickname:
+        display_name: 'Surnom du demandeur '
+      relation_age:
+        display_name: 'Age '
+      relation_date_of_birth:
+        display_name: 'Date de naissance '
+      relation_language:
+        display_name: 'Langue '
+      relation_religion:
+        display_name: 'Religion  '
+      relation_ethnicity:
+        display_name: 'Ethnie '
+      relation_sub_ethnicity1:
+        display_name: Sous-groupe ethnique 1
+      relation_sub_ethnicity2:
+        display_name: Sous-groupe ethnique 2
+      relation_nationality:
+        display_name: Nationalité
+      relation_comments:
+        display_name: 'Détails additionnels / Commentaires '
+      contact_information_section:
+        display_name: Information contact
+      relation_address_current:
+        display_name: 'Adresse actuelle '
+      relation_location_current:
+        display_name: 'Localisation actuelle '
+      relation_address_is_permanent:
+        display_name: 'Est ce une localisation permanente ? '
+      relation_telephone:
+        display_name: Téléphone
+      separation_history_section:
+        display_name: 'Historique de la séparation '
+      date_of_separation:
+        display_name: 'Date de la séparation '
+      separation_cause:
+        display_name: 'Quelle était la cause principale de la séparation ? '
+      separation_cause_other:
+        display_name: Si autre, précisez
+      separation_evacuation:
+        display_name: 'La séparation a - t -elle eu lieu lors d''une évacuation ? '
+      separation_details:
+        display_name: Circonstances de la séparation (veuillez fournir des détails)
+      address_separation:
+        display_name: Adresse de séparation (lieu)
+      location_separation:
+        display_name: Lieu de séparation
+      address_last:
+        display_name: 'Dernière adresse connue '
+      landmark_last:
+        display_name: Point de repère
+      location_last:
+        display_name: 'Dernier lieux connu '
+      telephone_last:
+        display_name: 'Dernier numéro de téléphone '
+      additional_tracing_info:
+        display_name: Des informations supplémentaires qui pourraient aider au traçage ?
+      disclosure_other_orgs:
+        display_name: Le demandeur accepte-t-il de partager les informations recueillies avec d'autres organisations ?
+        tick_box_label: 'Oui'

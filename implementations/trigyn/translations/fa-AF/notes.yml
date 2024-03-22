@@ -1,0 +1,7 @@
+fa-AF:
+  notes:
+    name: یادداشت ها
+    description: یادداشت ها
+    fields:
+      notes_section:
+        display_name: یادداشت ها

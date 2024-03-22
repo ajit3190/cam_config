@@ -1,0 +1,76 @@
+fa-AF:
+  tracing_request_inquirer:
+    name: 'پرسشگر/تحقیق کننده '
+    description: پرسش/ تحقیق
+    fields:
+      tracing_request_id:
+        display_name: 'شناختی کارت دراز '
+      short_id:
+        display_name: 'شناختی کارت تحقیق کننده '
+      inquiry_date:
+        display_name: تاریخ سوال یا تحقیق
+      inquiry_status:
+        display_name: وضیعت سوال/تحقیق
+      inquirer_details_section:
+        display_name: جززییات سوال /تحقیق
+      relation_name:
+        display_name: 'نام سوال یا تحقق کننده '
+      relation_nickname:
+        display_name: 'نام مستعار پرسشگر/تحقیق کننده '
+      relation_age:
+        display_name: عمر
+      relation_date_of_birth:
+        display_name: 'تاریخ تولد '
+      relation_language:
+        display_name: 'لسان '
+      relation_religion:
+        display_name: دین
+      relation_ethnicity:
+        display_name: قومیت
+      relation_sub_ethnicity1:
+        display_name: قومیت فرعی 1
+      relation_sub_ethnicity2:
+        display_name: قومیت فرعی 2
+      relation_nationality:
+        display_name: ملیت
+      relation_comments:
+        display_name: 'جزییات /نظریات اضافی '
+      contact_information_section:
+        display_name: 'معلومات ارتباط '
+      relation_address_current:
+        display_name: آدرس موجوده
+      relation_location_current:
+        display_name: موقعیت موجوده
+      relation_address_is_permanent:
+        display_name: آیا این موقغیت دایمی است ؟
+      relation_telephone:
+        display_name: تلفون
+      separation_history_section:
+        display_name: تاریخچه جدایی
+      date_of_separation:
+        display_name: تاریخ جدایی
+      separation_cause:
+        display_name: علت اصلی جدایی چی بود؟
+      separation_cause_other:
+        display_name: 'اگر وعیره ,لطفآ توضیح وهید '
+      separation_evacuation:
+        display_name: آیا جدایی در رابطه باتخلیه  رخ داده است؟
+      separation_details:
+        display_name: شرایط جدایی (لطفاً جزئیات را ارائه دهید)
+      address_separation:
+        display_name: 'آدرس جایی که جدایی صورت گرفته '
+      location_separation:
+        display_name: 'موقعیت که جدایی صورت گرفته '
+      address_last:
+        display_name: آآخرین آدرس
+      landmark_last:
+        display_name: آخرین نشانه
+      location_last:
+        display_name: 'آخرین موقعیت '
+      telephone_last:
+        display_name: 'آخرین تلفون '
+      additional_tracing_info:
+        display_name: معلونات  اضافی که می توانند در ردیابی کمک کنند
+      disclosure_other_orgs:
+        display_name: آیا پرسشگر /تحقیق کننده موافقت می کند که اطلاعات جمع آوری شده را با سازمان های دیگر به اشتراک بگذارد؟
+        tick_box_label: 'بلی '

@@ -1,0 +1,7 @@
+fr:
+  review:
+    name: Revue des cas
+    description: Revue des cas
+    fields:
+      review_section:
+        display_name: Revue des cas

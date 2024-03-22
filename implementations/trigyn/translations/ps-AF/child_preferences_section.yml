@@ -1,0 +1,23 @@
+ps-AF:
+  child_preferences_section:
+    name: د کوچني ماشوم غوره توبونه
+    description: د ماشوم د غوره توبو فرعي فورمه
+    fields:
+      wishes_name:
+        display_name: شخص چې د ماشوم هیلې انتخابوي
+      wishes_preference_relocated:
+        display_name: د ماشوم غوره توبونه چې له دې شخص سره یو ځای شي
+        option_strings_text:
+          first_choice: لمړی انتخاب
+          second_choice: دوهم انتخاب
+          third_choice: دریم انتخاب
+      wishes_relationship:
+        display_name: د ماشوم سره د دې شخص  اړیکه څه ده؟
+      wishes_address:
+        display_name: وروستی پیژندل شوي پته
+      wishes_landmark:
+        display_name: لویه نښه
+      wishes_location:
+        display_name: وروستی پیژندل شوی ځای
+      wishes_telephone:
+        display_name: ټلیفون

@@ -1,0 +1,85 @@
+---
+am-ET:
+  unhcr_bid_report_subform:
+    name: የተባበሩት መንግስታት ከፍተኛ የስደተኞች ኮሚሽን የህጻናት ጥቅምና ደህንነት ሪፖርት
+    description: የተባበሩት መንግስታት ከፍተኛ የስደተኞች ኮሚሽን የህጻናት ጥቅምና ደህንነት ሪፖርት ንዑስ ቅጽ
+    fields:
+      bid_date:
+        display_name: የህጻናት ጥቅምና ደህንነትን አስመልክቶ  ቃለመጠይቅ የሚደረግበት ቀን
+      bid_participants:
+        display_name: " የቃለ መጠይቁ ተሳታፊዎች ዝርዝሩ"
+        help_text: ቃለ መጠይቅ የተደረገለትን ሰው፣ ጠያቂውን እና አስተርጓሚውን (አስፈላጊ ከሆነ) ያካትቱ።
+      bid_separation_status:
+        display_name: የህጻኑ መለያየት ሁኔታ
+        option_strings_text:
+          unaccompanied: ብቸኛ ህጻን
+          separated: የተለያየ ህጻን
+          orphan: ወላጁን ያጣ
+          none_of_the_above: አይታወቅም
+      bid_purpose:
+        display_name: የህጻናት ጥቅምና ደህንነት መወሰን አላማ
+        option_strings_text:
+          durable_solution: ዘላቂ መፍትሄ
+          family_reunification: ወደ ቤተሰብ ማዋሀድ
+          temporary_care_arrangements: ጊዜያዊ ድጋፍ ማመቻቸት
+          separation_from_parents_caregiver: ከወላጆች / ተንከባካቢዎች መለየት
+          other: ሌሎች
+      bid_purpose_other:
+        display_name: ሌላ ከሆነ እባክዎን ይግለጹ
+      bid_priority:
+        display_name: ለጉዳዩ ቅድሚያ መስጠት
+        option_strings_text:
+          emergency: ድንገተኛ አደጋ
+          high: ከፍተኛ
+          medium: መካከለኛ
+          low: ዝቅተኛ
+      bid_priority_reasons:
+        display_name: ለዚህ ቅድሚያ የሚሰጡ ምክንያቶች
+      bid_specific_needs:
+        display_name: የህጻኑ የተለዩ ፍላጎቶች
+      bid_brief_summary:
+        display_name: እባክዎ ቁልፍ ጉዳዮችን ባጭሩ ጠቅለል የድርጉነና አስቀምጡ
+        guiding_questions: ለምሳሌ፡-  አሁን ያሉ የእንክብካቤ አይነቶች፣ የወላጆች/የቤተሰብ መረጃ፣ እና እየታሰቡ ያሉ አማራጮች።
+      bid_separator_recommendations:
+        display_name: አማራጮች እና አስተያየቶች
+      bid_child_history:
+        display_name: እባክዎን የህጻኑን ታሪክ ከመለያየት በፊት እና በአሁኑ ወቅት ያለውን ይመዝግቡ።
+        guiding_questions: ስለ ህጻኑ መለያየት  ከልጁ ቅርብ ሰዎች (ቃለ መጠይቅ ከተደረገ) የቀረበ ማስረጃን ያካትቱ። ይህ መረጃ እንዴት እንደተረጋገጠ ያመልክቱ።
+      bid_current_situation:
+        display_name: እባክዎን የህጻኑን ወቅታዊ የኑሮ ሁኔታ ይግለጹ
+        guiding_questions: |-
+          ያካትቱ፡
+          - አሁን ያለው የአማራጭ ድጋፍና እንክብካቤ፣ የኑሮ ሁኔታ፣ ደህንነት፣ ከአሳዳጊ ወላጆች/ወንድሞች/ እህቶች/ተንከባካቢዎች/ከሌሎች የቤተሰብ አባላት ጋር ያለ ግንኙነት;
+          - የማህበረሰብ መስተጋብር , ትምህርት እና ትምህርት ቤት መገኘት;
+          - የልጁን ዕድሜ እና ብስለት, አካላዊ እና አእምሮአዊ ጤንነት እና ማንኛውም ልዩ ፍላጎቶች መዳስ
+           እባክዎ አስካሁን ከማን እንደተገናኘ እና ማን መረጃ እንደሰጠ ይግለጹ፣ ለምሳሌ፡- የህጻኑ፣ ቤተሰብ፣ ለህጻኑ ቅርብ የሆኑ ሰዎች፣ ተንከባካቢዎች፣ አስተማሪዎች፣ ጎረቤቶች፣ ማህበራዊ ሰራተኞች/መንግስታዊ ያልሆኑ ድርጅቶች ሰራተኞች።
+      bid_available_options:
+        display_name: እባኮትን ያሉትን ሁሉንም አማራጮች እና የመከታተያ ዘዴዎች እና የእያንዳንዱን ትንተና ያመልክቱ።
+        guiding_questions: |-
+          እባክዎን የህጻኑ ጥቅምና ደህንነት ለማስጠበቅ በአባሪ 9 ዝርዝር ውስጥ የተካተቱትን የሚከተሉትን ዋና ነጥቦች ይመልከቱ፡
+          - የህጻኑ እይታዎች
+          - ቤተሰብ እና የቅርብ ግንኙነቶች
+          - ደህንነቱ የተጠበቀ አካባቢ
+          - የእድገት እና የማንነት ፍላጎቶች
+      bid_final_recommendations:
+        display_name: እባክዎ የመጨረሻውን አስተያየትና እና ምክንያቶች ያቅርቡ
+      bid_separator_panel_decision:
+        display_name: የፓነል ውሳኔ
+      bid_date_panel_decision:
+        display_name: የፓነል ውሳኔ ቀን
+      bid_panel_members:
+        display_name: የፓኔል አባላት ስሞች እና ድርጅቶች
+      bid_panel_decision:
+        display_name: 'ፓኔሉ፡-'
+        option_strings_text:
+          approves_the_recommendations: አስተያየቶችን/ምክሮቹን ያጸድቃል
+          defers_decison_please_explain_why: ውሳኔውን ያቋርጣል (እባክዎ ምክንያቱን ያብራሩ)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: ምክሮቹን አያፀድቅም (እባክዎ ለምን እንደሆነ ያብራሩ እና የፓነሉን ምክር ይስጡ)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: ጉዳዩን እንደገና ይከፍታል (እባክዎ ምክንያቱን ያብራሩ እና እንደገና እንዲከፈት የጠየቀው)
+          closes_the_case: ጉዳዩን ይዘጋል
+      bid_panel_decision_reasons:
+        display_name: ለዚህ ውሳኔ ሙሉ ምክንያቶች
+      bid_panel_decision_actions:
+        display_name: የሚፈለጉትን የክትትል እርምጃዎች ይግለጹ
+      bid_panel_comments:
+        display_name: አስተያየቶች

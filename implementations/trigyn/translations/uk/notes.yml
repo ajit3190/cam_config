@@ -1,0 +1,7 @@
+uk:
+  notes:
+    name: Нотатки
+    description: Нотатки
+    fields:
+      notes_section:
+        display_name: Нотатки

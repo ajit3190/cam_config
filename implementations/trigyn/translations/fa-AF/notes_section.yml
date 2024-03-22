@@ -1,0 +1,13 @@
+fa-AF:
+  notes_section:
+    name: فورم فرعی یاداشت های پیچیده
+    description: فورم فرعی یاداشت های پیچیده
+    fields:
+      notes_date:
+        display_name: تاریخ
+      note_subject:
+        display_name: موصوع
+      field_notes_subform_fields:
+        display_name: یادداشت ها
+      note_created_by:
+        display_name: منجر

@@ -1,0 +1,7 @@
+uk:
+  verification:
+    name: Верифікація
+    description: Верифікація
+    fields:
+      verification_subform_section:
+        display_name: Верифікація

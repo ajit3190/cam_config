@@ -1,0 +1,9 @@
+es-ES:
+  reopened_logs:
+    name: Caso reabierto
+    description: Subformulario de caso reabierto
+    fields:
+      reopened_date:
+        display_name: Fecha de caso reabierto
+      reopened_user:
+        display_name: Reabierto por

@@ -1,0 +1,9 @@
+ro:
+  photos_and_audio:
+    name: Fotografii și Audio
+    description: Toate fișierele Foto și Audio asociate unui Copil
+    fields:
+      current_photo_key:
+        display_name: Cheie Foto actuală
+      recorded_audio:
+        display_name: Audio înregistrat

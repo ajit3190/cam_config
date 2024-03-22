@@ -1,0 +1,8 @@
+---
+en:
+  cp_unhcr_bid_report_form:
+    name: BID Report
+    description: BID Report
+    fields:
+      unhcr_bid_report_subform:
+        display_name: UNHCR BID Report

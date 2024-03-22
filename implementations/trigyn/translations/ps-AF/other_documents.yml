@@ -1,0 +1,7 @@
+ps-AF:
+  other_documents:
+    name: ' نور لاسوندونه یا اسناد'
+    description: ' نور لاسوندونه یا اسناد'
+    fields:
+      upload_other_document:
+        display_name: ' نور لاسوندونه یا اسناد'

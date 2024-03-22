@@ -1,0 +1,43 @@
+---
+am-ET:
+  transitions:
+    name: የማሸጋገርያ ንዑስ ቅጽ
+    description: የማሸጋገርያ ንዑስ ቅጽ
+    fields:
+      type:
+        display_name: ዓይነት
+      to_user_local:
+        display_name: የአካባቢ ተጠቃሚ
+      to_user_remote:
+        display_name: የርቀት/ሌሎች ተጠቃሚ
+      to_user_local_status:
+        display_name: ሁኔታ
+        option_strings_text:
+          in_progress: በሂደት ላይ
+          pending: በመጠባበቅ/በእንጥልጥል ላይ
+          accepted: ተቀባይነት አግኝቷል
+          rejected: ውድቅ ተደርጓል
+          done: ተከናውኗል
+      rejected_reason:
+        display_name: ውድቅ የተደረገበት ምክኒያት  (አስፈላጊ ከሆነ)
+      to_user_agency:
+        display_name: የርቀት/ሌሎቸ ተጠቃሚ ኤጀንሲ
+      notes:
+        display_name: ማስታወሻዎች
+      transitioned_by:
+        display_name: የተላለፈው ወይም የተጠቀሰው በ...
+      service:
+        display_name: አገልግሎት
+      is_remote:
+        display_name: "ሪፈራሉ ወይም ወደ የርቀት ስርዓት እየተላለፉ ነው?"
+        tick_box_label: 'አዎ'
+      type_of_export:
+        display_name: ምን አይነት ማስተላለፊያ ይፈልጋሉ
+      consent_overridden:
+        display_name: መረጃውን ለማጋራት ምንም ፍቃድ የለም ተሽሯል።
+        tick_box_label: 'አዎ'
+      consent_individual_transfer:
+        display_name: "የጉዳይ ሰራተኛው ይህንን ዝውውር ለማድረግ የህጻኑ ፈቃድ ነበረው?"
+        tick_box_label: 'አዎ'
+      created_at:
+        display_name: ሪፈራል ወይም ማስተላለፍ/ማሸጋገርያ ቀን

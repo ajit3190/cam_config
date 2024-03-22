@@ -1,0 +1,8 @@
+---
+am-ET:
+  verification:
+    name: ማረጋገጫ
+    description: ማረጋገጫ
+    fields:
+      verification_subform_section:
+        display_name: ማረጋገጫ

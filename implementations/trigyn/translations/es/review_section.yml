@@ -1,0 +1,67 @@
+es:
+  review_section:
+    name: Revisión Anidada
+    description: Subformulario de Revisión
+    fields:
+      review_form_date:
+        display_name: Fecha del formulario completado
+        help_text: dd/mm/aa
+      review_separator:
+        display_name: Detalles de la reunión de revisión
+      review_date:
+        display_name: 'Fecha de la reunión de revisión '
+        help_text: dd/mm/aa
+      previous_review_date:
+        display_name: Fecha de la reunión de revisión anterior (si es relevante)
+        help_text: dd/mm/aa
+      was_child_present:
+        display_name: ¿Estuvo el/la niño/a presente?
+      how_child_review:
+        display_name: ¿Si no, cómo se involucró al niño/a en la revisión?
+      was_caregiver_present:
+        display_name: ¿Estuvo el cuidador presente?
+      how_caregiver_review:
+        display_name: Si no, ¿cómo se involucró al cuidador en la revisión?
+      outcome_review_separator:
+        display_name: Resultados de la reunión de revisión
+      review_childs_situation:
+        display_name: Revisión de la situación actual del niño/a
+        help_text: Describa la situación actual general del niño/a como se discutió en la reunión de revisión
+      review_implementation:
+        display_name: Revisión de la implementación del plan del caso
+        help_text: Evaluar el estado de las acciones tomadas y los servicios provistos como se describe en el plan del caso y se discutió durante la reunión de revisión.
+      review_progress_goal:
+        display_name: Revisión del progreso hacia la meta general del plan del caso
+        help_text: Evaluar el progreso hacia el cumplimiento de la meta general del plan del caso como se discutió durante la reunión de revisión.
+      review_other_notes:
+        display_name: Otras notas/observaciones durante la reunión de revisión
+      next_steps_separator:
+        display_name: Próximos pasos
+      review_situation_change:
+        display_name: ¿Cambió la situación del niño de tal manera que justifica que se realice otra evaluación?
+      situation_change_details:
+        display_name: Por favor brinde detalles
+      adjustments_case_plan:
+        display_name: ¿Se necesitan ajustes en el plan del caso?
+      adjustment_details:
+        display_name: Por favor brinde detalles
+      risk_level_changed:
+        display_name: ¿Ha cambiado el nivel de riesgo?
+      action_conducted:
+        display_name: Sí es afirmativo, indique el nuevo nivel de riesgo
+        option_strings_text:
+          high: Alto
+          medium: Medio
+          low: Bajo
+          'no': 'No'
+      risk_level_details:
+        display_name: Sí es afirmativo, de más detalles
+      recommend_close_case:
+        display_name: ¿Recomienda cerrar el caso?
+      close_case_details:
+        display_name: Dar más detalle
+      next_case_review:
+        display_name: ¿Es necesaria una próxima revisión del caso?
+      date_next_review:
+        display_name: Sí es afirmativo, indicar la fecha de la próxima reunión de revisión
+        help_text: dd/mm/aa

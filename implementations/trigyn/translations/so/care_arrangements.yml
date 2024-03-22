@@ -1,0 +1,21 @@
+so:
+  care_arrangements:
+    name: Qabanqaabada daryeelka
+    description: Qabanqaabada daryeelka
+    fields:
+      child_current_location:
+        display_name: cinwanka hore daryeelaha ilmaha
+      address_current:
+        display_name: Ciwaanka Hadda
+        help_text: Meesha uusan jirin cinwaan, fadlan bixi calaamado ama sharaxaad goobta hadda
+      location_current:
+        display_name: goobta hada
+      address_child_future:
+        display_name: Haddii ilmuhu qorsheynayo inuu guuro, waa maxay ciwaanka mustaqbalka?
+        help_text: Meesha uusan jirin cinwaan, fadlan bixi calaamado ama sharaxaad goobta hadda
+      location_child_future:
+        display_name: Waa maxay goobta mustaqbalka?
+      telephone_child_future:
+        display_name: Waa maxay telefoonka mustaqbalka?
+      care_arrangements_section:
+        display_name: Qabanqaabada daryeelka

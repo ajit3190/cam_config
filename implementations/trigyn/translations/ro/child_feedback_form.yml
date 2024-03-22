@@ -1,0 +1,187 @@
+ro:
+  child_feedback_form:
+    name: Feedback Copil
+    description: Feedback Copil
+    fields:
+      child_feedback_date_completed:
+        display_name: Dată completare formular
+      child_feedback_separator_consent:
+        display_name: Consimțământ și acord
+        guiding_questions: |-
+          Exemplu de scenariu: „Aș dori să vorbesc cu tine despre modul în care responsabilul de caz a lucrat cu tine și cu familia ta.
+          Dorim să ne asigurăm că oferim cele mai bune servicii posibile copiilor, așa că întrebăm cum te-a ajutat responsabilul de caz și dacă există ceva ce am putea face diferit/ mai bine.
+          Nu trebuie să ne spui nimic dacă nu dorești și nu trebuie să ne dai motive pentru asta.
+          Chiar dacă decizi să nu ne spui nimic, acest lucru nu va afecta sprijinul pe care tu și familia ta îl primiți de la noi.
+          Cu toate acestea, împărtășirea gândurilor și sentimentelor tale cu noi ne va ajuta să îmbunătățim ceea ce facem pentru alți copii și familii.
+          Orice ne spui va fi păstrat în privat. Asta înseamnă că, deși vom împărtăși ceea ce spui, nu vom spune nimănui că tu ești cel/ cea care ne-a spus.
+          De asemenea, poți decide să nu răspunzi la anumite întrebări sau să te răzgândești și să decizi să nu mai continui.”
+      child_feedback_interview_subject:
+        display_name: Consimțământ/ acord obținut de la
+        option_strings_text:
+          child: Copil
+          caregiver: Îngrijitor
+          other: Altcineva
+      child_feedback_consent_source_other:
+        display_name: Dacă Altcineva, te rugăm să detaliezi
+      child_feedback_consent:
+        display_name: Copilul ne-a dat permisiunea de a colecta feedback-ul ei/ lui cu privire la procesul de management de caz
+        tick_box_label: 'Da'
+      child_feedback_consent_caregiver:
+        display_name: Îngrijitorul ne-a dat permisiunea de a colecta feedback de la copil cu privire la procesul de management de caz
+        help_text: Completați doar acolo unde este posibil și dacă se aplică
+        tick_box_label: 'Da'
+      child_feedback_consent_date:
+        display_name: Data consimțământului/ acordului
+      child_feedback_separator_questions:
+        display_name: 'Întrebări: Partea I'
+        guiding_questions: |-
+          Poți da exemple pentru a solicita feedback, dar ai grijă să adresezi întrebările principale.
+          Acest format este potrivit pentru copiii mai mari (10 ani sau mai mult) – poate fi adaptat pentru copiii mai mici, după cum este necesar.
+          Ar trebui să fie desfășurat în limba copilului și facilitat de cineva care are abilitățile și pregătirea necesare pentru a colecta feedback-ul copiilor și care înțelege etica lucrului direct cu copiii.
+      child_feedback_services_discovery:
+        display_name: Cum ai aflat despre serviciile [inserați numele organizației/ instituției] de management de caz?
+        option_strings_text:
+          caseworker_approached_me: Responsabilul de caz m-a abordat
+          another_organization: De la altă organizație
+          parents: De la părinți
+          family_friends: Familie/ prieteni
+          school: Școală
+          community_leader: Liderul comunității
+          community_based_child_protection_focal_point: Punct focal comunitar pentru protecția copilului
+          authorities: Autorități
+          saw_a_poster_information_leaflet: Am văzut un afiș/ un pliant informativ
+          cannot_recall: Nu îmi amintesc
+          other: Altcineva
+      child_feedback_services_discovery_other:
+        display_name: Dacă Altcineva, te rugăm să detaliezi
+      child_feedback_help_asked:
+        display_name: Înainte de a începe să lucrezi cu responsabilul de caz, ai fost întrebat dacă dorești să fii ajutat în acest fel?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      child_feedback_help_asked_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_expectations:
+        display_name: La ce tip de sprijin te așteptai de la [inserați numele organizației/ instituției care a gestionat cazul]?
+        option_strings_text:
+          alternative_care: Îngrijire alternativă
+          security_e_g_safe_shelter: Siguranță (de exemplu, un adăpost sigur)
+          education_formal: Educație (formală)
+          non_formal_education: Educație informală
+          family_tracing_and_reunification: Urmărire și reunificare familie
+          basic_psychosocial_support: Îngrijire psihosocială de bază
+          focused_non_specialized_mhpss_care: Îngrijire non-specializată MHPSS/ sănătate mintală și suport psihosocial
+          specialized_mhpss_services: Îngrijire specializată MHPSS/ sănătate mintală și suport psihosocial
+          food: Mâncare
+          non_food_items: Produse non-alimentare
+          cash_assistance: Ajutor cu bani
+          livelihoods: Bunuri de strictă necesitate
+          medical: Medical
+          nutrition: Nutriție
+          legal_support: Asistență legală
+          documentation: Documentație
+          services_for_children_with_disabilities: Servicii pentru copii cu dizabilități
+          sexual_and_reproductive_health: Sănătate sexuală și reproductivă
+          shelter: Adăpost
+          wash: WASH/ apă, salubritate, igienă
+          durable_solution_in_coordination_with_unhcr: Soluții de durată (în coordonare cu UNHCR)
+          relocation: Relocare
+          other: Altceva
+      child_feedback_expectations_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      child_feedback_expectations_received:
+        display_name: Ai primit sprijinul pe care te așteptai să îl primești?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      child_feedback_expectations_received_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_process_plan:
+        display_name: A făcut responsabilul de caz un plan [plan de servicii] împreună cu tine pentru a obține sprijinul de care aveai nevoie?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      child_feedback_process_plan_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_process_connect:
+        display_name: Responsabilul de caz te-a conectat cu servicii care te-au putut ajuta?
+        option_strings_text:
+          'yes': 'Da'
+          no_did_not_need_other_services: Nu, nu a fost nevoie de alte servicii
+          no_did_not_want_other_services: Nu, nu am dorit alte servicii
+          unknown: Nespecificat
+      child_feedback_process_connect_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_process_consent:
+        display_name: Ori de câte ori responsabilul de caz a împărtășit informații despre tine altor persoane, ai fost întrebat dacă ești de acord să împărtășească acele informații despre tine și despre situația ta cu ceilalți?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      child_feedback_process_consent_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_process_closure:
+        display_name: Ai luat decizia de a opri serviciile de management de caz ale [inserați numele organizației/ instituției] împreună cu responsabilul de caz?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      child_feedback_process_closure_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_questions_ii:
+        display_name: 'Întrebări: Partea II'
+        guiding_questions: |-
+          Exemplu de scenariu: „În continuare, am să te întreb în ce măsură ești de acord cu câteva afirmații pe care le menționez.
+          Dacă ești pe deplin de acord cu una dintre afirmații, îi poți da un 10. Dacă nu ești deloc de acord cu afirmația, atunci îi poți da un 1.
+          De asemenea, poți decide să răspunzi cu orice alt număr între 1 și 10; cu cât ești mai de acord cu afirmația, cu atât ar trebui ca numărul să fie mai aproape de 10 și cu cât ești mai în dezacord cu afirmația, cu atât ar trebui ca numărul să fie mai aproape de 1."
+      child_feedback_ii_explanation:
+        display_name: Responsabilul de caz a explicat lucrurile într-un mod greu de înțeles pentru mine.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_explanation_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_ii_listening:
+        display_name: Responsabilul de caz mi-a cerut și ascultat întotdeauna părerile, opiniile și sentimentele.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_listening_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_ii_pressured:
+        display_name: Adesea m-am simțit presat de responsabilul de caz să iau o decizie sau să fac ceva ce nu îmi doream.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_pressured_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_ii_followup:
+        display_name: Responsabilul de caz a revenit asupra lucrurilor și a făcut ceea ce a spus că va face.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_followup_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_ii_visits:
+        display_name: Responsabilul de caz m-a vizitat rar.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_visits_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_ii_support:
+        display_name: Sprijinul oferit de responsabilul de caz mie și familiei mele a fost util.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_support_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_ii_improvement:
+        display_name: De când lucrez cu responsabilul de caz, situația mea s-a îmbunătățit.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_improvement_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_ii_satisfaction:
+        display_name: Per ansamblu, sunt foarte mulțumit de sprijinul oferit de responsabilul de caz.
+        help_text: Alege un număr între 1 și 10
+      child_feedback_ii_satisfaction_details:
+        display_name: Te rugăm să furnizezi detalii
+      child_feedback_final_question:
+        display_name: Ar mai fi și altceva ce ai dori să ne împărtășești, sub formă de feedback?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      child_feedback_final_question_details:
+        display_name: Te rugăm să furnizezi detalii

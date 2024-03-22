@@ -1,0 +1,7 @@
+ps-AF:
+  followup:
+    name: تعقیب
+    description: تعقیب
+    fields:
+      followup_subform_section:
+        display_name: تعقیب

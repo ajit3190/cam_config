@@ -1,0 +1,19 @@
+---
+ar:
+  summary_and_conclusions:
+    name: الملخص و الاستناتاجات
+    description: نموذج الملخص والاستنتاجات
+    fields:
+      assessment_summary:
+        display_name: ملخص
+        help_text: لخص عوامل الخطر الرئيسية وعوامل الحماية والاحتياجات بناءً على أقسام التقييم أعلاه وخُذ في الاعتبار آراء / رغبات الطفل (والأسرة).
+      protection_concerns:
+        display_name: مخاوف الحماية
+        help_text: حقل مشترك مع نموذج "مخاوف الحماية".
+      protection_concerns_other:
+        display_name: إذا كان  غير ذلك ، يرجى التحديد
+      risk_level:
+        display_name: مستوى الخطر
+        help_text: هذا الحقل موجود أيضًا في نموذج "مخاوف الحماية". إذا لم يكن هناك مستوى خطر، فقد يتم إغلاق القضية.
+      assessment_risk_level_reasons:
+        display_name: ملخص أسباب مستوى المخاطر

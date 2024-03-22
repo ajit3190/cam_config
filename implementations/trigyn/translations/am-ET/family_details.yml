@@ -1,0 +1,8 @@
+---
+am-ET:
+  family_details:
+    name: የቤተሰብ ዝርዝሮች
+    description: የቤተሰብ ዝርዝሮች
+    fields:
+      family_details_section:
+        display_name: የቤተሰብ ዝርዝሮች

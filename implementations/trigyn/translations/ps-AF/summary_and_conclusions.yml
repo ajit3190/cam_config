@@ -1,0 +1,18 @@
+ps-AF:
+  summary_and_conclusions:
+    name: لنډیز او پایلې
+    description: د لنډیز او د پایلو فورمه
+    fields:
+      assessment_summary:
+        display_name: لنډیز
+        help_text: مهم د خطر عوامل خلاصه کړئ، د ساتنې عوامل او د ارزونې پر اساس اړتیاوې او همداشان د ماشوم او ماشوم د کورنی نظریات په نظر کې ولرئ.
+      protection_concerns:
+        display_name: د ساتنې اندیښنې
+        help_text: د ساتنې د انديښنو سره د شریکې ساحې فورمه
+      protection_concerns_other:
+        display_name: که نور وي، مهرباني وکړئ مشخص کړئ
+      risk_level:
+        display_name: د خطر کچه
+        help_text: دا ساحه د ساتنې د اندیښنو په فارم کې هم شته. که چیرې د خطر کچه شتون نلري ، نو قضیه ممکن وتړل شي.
+      assessment_risk_level_reasons:
+        display_name: ' خطر د کچې لپاره د دلایلو لنډیز'

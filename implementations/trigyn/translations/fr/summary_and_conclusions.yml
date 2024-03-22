@@ -1,0 +1,18 @@
+fr:
+  summary_and_conclusions:
+    name: 'Résumé et conclusion '
+    description: 'Formulaire du résumé et conclusion '
+    fields:
+      assessment_summary:
+        display_name: 'Résumé '
+        help_text: Résumer les principaux facteurs de risque, facteurs de protection et besoins en fonction des sections d'évaluation ci-dessus et prendre en compte les points de vue/souhaits de l'enfant (et de la famille).
+      protection_concerns:
+        display_name: 'problème de protection '
+        help_text: Champ partagé avec le formulaire des problèmes de protection.
+      protection_concerns_other:
+        display_name: Si autre, précisez
+      risk_level:
+        display_name: 'Niveau de risque '
+        help_text: Ce champ se trouve également sur le formulaire "Problème de protection". S'il n'y a pas de niveau de risque, le cas peut être clos.
+      assessment_risk_level_reasons:
+        display_name: 'Résumé des raisons pour le niveau de risque '

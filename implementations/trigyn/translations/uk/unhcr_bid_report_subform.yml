@@ -1,0 +1,83 @@
+uk:
+  unhcr_bid_report_subform:
+    name: Вкладений BID Звіт УВКБ ООН
+    description: BID Звіт УВКБ ООН Субформа
+    fields:
+      bid_date:
+        display_name: Дата BID інтерв`ю
+      bid_participants:
+        display_name: Перелічіть усіх учасників співбесіди
+        help_text: Включіть особу(и), з яку(-их) опитували, інтерв'юера та перекладача (за необхідності)
+      bid_separation_status:
+        display_name: Статус відділення дитини
+        option_strings_text:
+          unaccompanied: Без супроводу
+          separated: Відділена
+          orphan: Сирота
+          none_of_the_above: Жодні з вищезазначених
+      bid_purpose:
+        display_name: Мета BID
+        option_strings_text:
+          durable_solution: Довговічне рішення
+          family_reunification: Возз'єднання сім'ї
+          temporary_care_arrangements: Порядок тимчасового догляду
+          separation_from_parents_caregiver: Розлука з батьками/опікунами
+          other: Інше
+      bid_purpose_other:
+        display_name: Якщо інше, вкажіть
+      bid_priority:
+        display_name: Пріоритет кейсу
+        option_strings_text:
+          emergency: Надзвичайна ситуація
+          high: Високий
+          medium: Середній
+          low: Низький
+      bid_priority_reasons:
+        display_name: Причини цього пріоритету
+      bid_specific_needs:
+        display_name: Специфічні потреби дитини
+      bid_brief_summary:
+        display_name: Будь ласка, коротко опишіть ключові питання
+        guiding_questions: напр. поточний порядок догляду, інформація про батьків і сім'ю, а також варіанти, які розглядаються.
+      bid_separator_recommendations:
+        display_name: Варіанти та рекомендації
+      bid_child_history:
+        display_name: Будь ласка, запишіть історію дитини до та під час польоту/розлуки.
+        guiding_questions: Включіть спогади дитини про політ/розлуку, а також докази, надані близькими особами (якщо брали участь у опитуванні). Вкажіть, як цю інформацію було перевірено.
+      bid_current_situation:
+        display_name: Опишіть, будь ласка, поточну життєву ситуацію дитини
+        guiding_questions: |-
+          Включіть:
+          - Поточний режим догляду, умови проживання, безпеку, стосунки з прийомними батьками/братами/сестрами/опікунами/іншими членами сім'ї;
+          - Громадські мережі, освіта та відвідування школи;
+          - Оцінка віку та зрілості дитини, фізичного та психічного здоров’я та оцінка будь-яких специфічних потреб. Будь ласка, вкажіть, до кого зверталися та хто надав інформацію, напр. дитина, сім’я, близькі до дитини особи, вихователі, вчителі, сусіди, соціальні працівники/співробітники НУО.
+      bid_available_options:
+        display_name: Будь ласка, вкажіть усі доступні варіанти та механізми подальших заходів та аналіз кожного з них.
+        guiding_questions: |-
+          Будь ласка, зверніться до всіх факторів, включених у контрольний список Додатку 9, щоб рекомендувати те, що відповідає найкращим інтересам дитини, у наступних заголовках:
+          - Погляди дитини
+          - Сім'я та близькі стосунки
+          - Безпечне середовище
+          - Потреби розвитку та ідентичності
+      bid_final_recommendations:
+        display_name: Будь ласка, надайте остаточну рекомендацію та причини
+      bid_separator_panel_decision:
+        display_name: Рішення комісії
+      bid_date_panel_decision:
+        display_name: Дата рішення комісії
+      bid_panel_members:
+        display_name: Імена та організації всіх членів комісії
+      bid_panel_decision:
+        display_name: 'Комісія:'
+        option_strings_text:
+          approves_the_recommendations: Затверджує рекомендації
+          defers_decison_please_explain_why: Відкладає рішення (будь ласка, поясніть чому)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: Не схвалює рекомендації (будь ласка, поясніть чому та надайте рекомендацію комісії)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: Повторно відкриває справу (будь ласка, поясніть, чому та хто подав запит на повторне відкриття)
+          closes_the_case: Закриває кейс
+      bid_panel_decision_reasons:
+        display_name: Повні причини такого рішення
+      bid_panel_decision_actions:
+        display_name: Опишіть необхідні подальші дії
+      bid_panel_comments:
+        display_name: Коментарі

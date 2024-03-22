@@ -1,0 +1,29 @@
+ps-AF:
+  tracing_actions_section:
+    name: د شریک تعقیب کړنه
+    description: د تعقیب د کړنې فرعي فورمه
+    fields:
+      date_tracing:
+        display_name: د تعقیب نیټه
+      tracing_type:
+        display_name: کوم ډول کارونه شوي دي
+        option_strings_text:
+          case_by_case_tracing: حالت پر حالت تعقیب
+          individual_tracing: انفرادي تعقیب
+          mass_tracing: ' ډله ایز تعقیب'
+          photo_tracing: د انځوریز تعقیب
+          referral_to_ngo: ته راجع کول NGO
+          referral_to_icrc: ته راجع کول ICRC
+      address_tracing:
+        display_name: هغه پته او کلی چیرته چې د تعقیب کړنه ترسره شوې ده
+      location_tracing:
+        display_name: د تعقیب موقعیت
+      tracing_action_description:
+        display_name: ترسره شوې کړنې او تبصرې
+      tracing_outcome:
+        display_name: د تعقیب د کړنې پایله
+        option_strings_text:
+          pending: په انتظار کې ده
+          successful: بریالی
+          unsuccessful: ناکامي
+          'yes': 'هو'

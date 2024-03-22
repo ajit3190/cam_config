@@ -1,0 +1,10 @@
+---
+am-ET:
+  reopened_logs:
+    name: ጉዳዩ እንደገና ተከፍቷል።
+    description: ጉዳዩ እንደገና የተከፈተበት ንዑስ ቅጽ
+    fields:
+      reopened_date:
+        display_name: እንደገና የተከፈተበት ቀን
+      reopened_user:
+        display_name: እንደገና የተከፈተው በ

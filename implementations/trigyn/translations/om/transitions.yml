@@ -1,0 +1,43 @@
+---
+om:
+  transitions:
+    name: "Guca/unka xixiqqaa bakka jijjiirraa. "
+    description: Guca/unka xixiqqaa bakka jiijjiirraa.
+    fields:
+      type:
+        display_name: Akaakuu/gosa.
+      to_user_local:
+        display_name: Fayyadamaa  naannoo.
+      to_user_remote:
+        display_name: " Fayyadamaa fagoo"
+      to_user_local_status:
+        display_name: Sadarkaa.
+        option_strings_text:
+          in_progress: " Adeemsa irra kan jiru."
+          pending: Kan mirkaneessa eeggacha jiru.
+          accepted: " Fudhatama argateera/ fudhatameera."
+          rejected: Fudhatama hin arganne.
+          done: " Raawwatameera/Xumurameera."
+      rejected_reason:
+        display_name: Sababa ittiin fudhatama dhabeef(hojirra ooluu kan danda'u yoo ta'e)
+      to_user_agency:
+        display_name: Ejensii fayyadamaa fagoo.
+      notes:
+        display_name: Yaadannoo.
+      transitioned_by:
+        display_name: Kan dabarsaman ykn qaama gara biraatti akka darbu taasise.
+      service:
+        display_name: Tajaajila.
+      is_remote:
+        display_name: "Dhimmicha gara biraatti eeruudha moo gara sirna faggootti dabarsutu barbaadama?"
+        tick_box_label: 'Eeyyeen.'
+      type_of_export:
+        display_name: "Akaakuu gara alatti erguu akkamii barbaaddu?"
+      consent_overridden:
+        display_name: " Qindoomina jiru faccisuuf/diiguuf/hayyamni argame wayiituu hin jiru."
+        tick_box_label: 'Eeyyeen.'
+      consent_individual_transfer:
+        display_name: "Hojjetaan dhimmaa  dabarsa kana raawwachuuf hayyama daa'imaa  argateeraa?"
+        tick_box_label: 'Eeyyeen.'
+      created_at:
+        display_name: Guyyaa eeramni gara biraa ykn dabarsi itti taasisame.

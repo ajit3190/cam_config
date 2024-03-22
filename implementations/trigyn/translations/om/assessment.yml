@@ -1,0 +1,105 @@
+---
+om:
+  assessment:
+    name: Sakatta'insa.
+    description: Guca/unka  sakatta'iinsaa.
+    fields:
+      assessment_home_visit:
+        display_name: "Dowwannaan manaa -manattii akka qaama sakatta'iinsaa tokkotti raawwateeraa?"
+      assessment_home_visit_details:
+        display_name: 'Yoo hin raawwatamin ta''e, maaloo ibsa itti kennaa.'
+      assessment_child_seen:
+        display_name: "Daa'imni dhuunfaan/kophaatti ilaalameeraa?"
+      assessment_child_seen_details:
+        display_name: 'Yoo hin ilaalamiin ta''e,bal''inaan ibsa itti kennaa maaloo.'
+      assessment_separator:
+        display_name: lIaalchaa fi fedhiiwwan daa'imaa fi kunuunsaa(kunuunsitootaa)
+      assessment_child_views:
+        display_name: Ilaalcha daa'imaa
+        help_text: "Ilaalchaa fi  fedhiiwwan  daa'imaa haala keessa jiraniin walqabsiisaa  ibsaa. Kutaan kun  sagalee daa'ima sanii, dhugaa/ragaa kenniinsaa fi ykn haala keessa jiru mul'isuu (fknf.haala mataa isaanii, maatii fi ykn imala isaanii)dabaluun babal'achuuu danda'a."
+      assessment_caregiver_views:
+        display_name: ilaalcha kunuunsaa (kunuunsitootaa).
+        help_text: Haala daa'imaatiin walqabatee ilaalchaa fi fedhiiwwan kunuunsaa (kunuunsitootaa)  ibsaa.
+      assessment_needs_separator:
+        display_name: Sakatta'iinsa fedhii
+        guiding_questions: |-
+          Odeeffannoo yoomii fi eessaa akka argattu ibsi- Odeeffannoo madda adda addaa irraa argamuu danda'a( Fkn gabaasa barreefamaa daa'ima ilaalchisee gabaafame, ijaan ilaaluun,af-gaafii daa'imaa fi maatii waliin taasisuun, hojiilee kalaqaan(suuraa yaada ibsachuu daa’imaa ) fi kan biroo daa'ima waliin taasifamuun, bar-gaafilee fi cheek-liistii, dhaabbilee waliin marii taasisuu fi nama daa'ima beekuu fi dawwanaa manaa tasisuun).
+          Odeeffannoo madda duraa irraa argamu koti/cuftuu gam-lamee keessa ka'uu/.
+          Odeeffannoon qaamolee biroon fudhatama qabaachuu fi mirkaneeffamuu isaa ibsi. 
+          Bakka barbaachisaa ta'etti seenaa fi haala amma irra jiru ibsu.
+          Baayyina namoota haala dhimmicha gabaasan ykn baayyina yeroo dhimmichi itti gabaafame ibsi.
+          Sababa xin-xaala haalaa ibsi.
+          Tajaajila jiran barbaachisu caala fedhii ka'uutu si gargaggaara. Fkn Daa'imni mana barnootaa deemii qabdi jechuu mannaa daa'imni fedhii barnootaa qabdi jechuutu gaaridha. Sababni isaas karaan daa'ima fedhii barnootaa eshii/isaa itti guutan baayyeen waan jiruuf.
+      assessment_physical_wellbeing:
+        display_name: Nageenyummaa qaamaa fi fayyummaa
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Fkn Guddinni qaamaa daa'imaa umurii isaa waliin wal-gitaa?
+          Haalli fayyummaa daa'imaa maal fakkaataa(Mallattoo rakkoo argansuu kan akka qufaa, dhangalaa funyaanii/furrii/, ilkaan hin qul-qulloofne, afuura badaa afanii)?
+          Daa'imni miidhamni qaama irratti mul'atu qaba?
+          Daa'imni miidhama sammuu fi qaamaa qabaa? 
+          Daa'imni dubara yoo taate garaatti  ni baatti?
+          Fuulli daa'imaa waan dadhabe ni fakkaataa?
+          Daa'imman biroo hawaasa keessa jiran  waliin yoo ilaalamu haalli huccuu isaa maal fakkaataa? Huccuu hin qamnee fi tatarsa'aadha?
+      assessment_emotional_wellbeing:
+        display_name: "Nageenyummaa miiraa,beekumsaa fi dandeettii daa'imaa."
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Akka waliigalatti daa'imatti maaltu dhagamaa?
+          Yaadoof saaxilamee/tee ykn of-ibsuu /ofitti amanuun gadi bu'ee? Daa'imni gammachuu qabdi?
+          Daa'imni sodaa ykn yoo raftu/rafu tasgabbii dhabuun ni mul'ata? Hiphina qabaa/qabdi?Miiraa kamuu dhabuu ykn adda bahuu ni mul'ata? Yeroo baayee loluu/aaruun, haamilee dhabuu, daa'ima irratti ni mul'ata? Akkaataa umuriitiin  daa'imni hirkattummaa guddaa ykn of-danda'uu hin qabdu? child overly clingy or independent according to their age? Rakkoo jireenya keessatti nama mudatuuf haala kamiin deebii kenna/kennitti? Daa'imni beekumsaa fi dandeettii  kanneen akka miira fi amala of-beekuu fi to'achuu, wal-abdeef furmaata yaaduu, waliigalteen taphachuu,  amaloota  fi miira nama biroo haala sirriin hiikuu fi namoota biroof waan garii yaaduu qabdi/qaba?
+      assessment_social_relationships:
+        display_name: "Walitti  dhufeenya hawaasummaa hiriyaa,maatii fi haawaasa waliin jiru."
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Fkn Daa'imni hojiilee hawaasummaa keessatti ni hirmaata?  Hojiilee hawaasummaa keessa ni baha? 
+          Baayyinni yeroo fi haalli jireenya  isaa/eshii keessatti hiriyaa, maatii fi gaheessota ibsi( qaamolee kanneen keessa daa'imni walitti dhufeenya qabaachuu kan hin feene jira, kan daa'imma irraa fagaatan jiru? yoo jiraatan sababni isaa maal? 
+          Miseensota maatii keessaa yeroon daa'ima waliin hin hasofne  /walitti dhufeenya hin barbaadne jira?(FKn namoota baayyee biratti) 
+          Yoo daa'imma waliin haasan sagaleen isaan itti haasa'an haala kamiin ibsama?
+          Nageenyummaa daa'imaa irratti dhibbaa qabu ibsi. 
+      assessment_education:
+        display_name: "Barnoota,hojii, yeroo boqonnaa fi fedhiilee"
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Fkn Daa'imni barnoota maal argachaa ture ? Mana barnoota galee/tee? Daa'imni sagantaalee barnootaa idileen hordofaa ture/turtee  ?  Naannoo fi haala mana barnoota ibsi. Carraa fi filannoon barnoota daa'imaa ilaalchisee jiran maali maali?
+          Yeroo boqonnaatti daa'imni maal hojjetaa? Fedheen daa'imaa maali? Daa'imni hojii seeran walitti bu'u hojjettu jira?
+          Daa'imni hojii ni hojjeta? Hojiin daa'imni hojjettuu ,yeroo fi dhibbaa nageenyummaa daa'imman irratti fidu ibsi.  Daa'imni hojii ni hojjeta ta'e maallaqni argatu, maallaqa  argatuu maal irra oolcha? 
+      assessment_documentation:
+        display_name: Qabiinsa ragaa fi odeeffannoo
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Fkn Ragaan galmee dhalootaa daa'imaa ni jira? Daa'imni galmee biroo kanneen akka galmee simannaa ni qabaa? 
+          Eegumsa fi tajaajila daa'imaaf  kan barbaachisu ragaan yeroo ammaa ykn fuul-duraaf dhabe jira?  Nageenyummaa daa'imaa irratti dhibbaan inni fidu ibsa.  
+      assessment_living_environment_family_separator:
+        display_name: Naannoo jireenyaa fi maatii
+      assessment_living_environment_family:
+        display_name: Naannoo jireenyaa fi maatii
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Fkn Haalli jireenya yeroo ammaa maal fakkaataa(haala mana jireenyaa, fi kkf)?  Walitti dhufeenya daa'imaa fi maatii biroo ibsa.  Dandeettii fi gahumsi gaheessotni miseensa maatii keessaa daa'imaaf eegumsa fi fedhii isaa/eshiif  deebii kennuu itti danda'an ibsa. 
+          Haalli jireenya maatii maal fakkaataa?
+           Daa'imni eenyu waliin jiraataa/jiraatti?  Jijjiiramni naannoo  jireenyaa jiru maal fakkaataa?  Kutaa ciisicha daa'imaa kan bulu eenyuffaadha?  Daa'imni ykn maatiin guyyaatti yeroo meeqa nyaata/ nyaatuu?  Haalli kun hawaasaa fi maatii biroo irra adda ? Gahee daa'imaa fi qabiinsi daa'imaa daa'imman biroo hawaasa keessa jiran waliin yoo madaalamu maal fakkaataa? Haala jireenyaa ibsa. 
+          Daa'imni tajaajila mijataa fi dhaqabamaa kanneen akka bishaan dhugaattii, mana fincaanii, iddoo qul-qullinaa qaba/qabdi?
+          Iddoon daa'imni jiraatu/jiraattu  daa'imaaf nageenyummaa ni qaba?   Nageenyummaa daa'imaa irratti dhibbaa inn qabu ibsi.  Filannoowwan tajaajilaa jiranii fi fageenya tajaajila ibsa. 
+      assessment_care_arrangement_separator:
+        display_name: Qophii/karoora/kunuunsaa
+      assessment_care_arrangment:
+        display_name: Qophii/karoora/kunuunsaa.
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Fkn. Qophiin kunuunsaa yeroo ammaa jiru maal fakkaataa? Qophiin kunuunsa kun itti fufiinsa qaba? Qophiin /karoorri kunuunsaa kun haala fi umurii waliin rogummaa ni qaba?  Akkamitti karoorfamee(maatii daa'imaan, iddoo dhaloota -biyya daa'imaatti, biyya yeroo ammaatti,dhaabbileen,caasalee hawaasaan) 
+          Walitti dhufeenya daa'imaa fi maatii/kunuunsittoota/ ibsi/ . 
+          Maatiin daa'ima maatii hin qabne biroo(UASC) ni guddisuu?  Kunuunsittootni daa'ima waliin walitti dhufeenya qabu?(eeyyeen yoo ta'e walitti dhufeenya akkami?)  Kunuusittootni daa'imaa maatii daa'imaa waliin wal-qunnamuu?
+          Fedhii ykn hawwiin maatiin daa'imaa maali(yoo beekame)? Fedhiin ykn hawwiin daa'imaa maali?  
+      assessment_community_separator:
+        display_name: Hawaasa
+      assessment_community:
+        display_name: "Hawaasa, Mijatummaa fi nageenyummaa, wal-ta'iinsaa /qindoomina/ fi deeggarsa"
+        help_text: 'Dhimmoota daa''imaaf sodaa ,eegumsa ta''anii fi fedhiilee adda bahan.'
+        guiding_questions: |-
+          Fkn. Rakkoolee nageenyummaa daa'imaaniif sodaa ta'an ibsi( Fkn Miidhaalee hawaasaa , BMG, haala naannoo hojii,  miidhaalee daa'immanii ittisuuf ilaalchisee hirmaanaa hawaasaa jiru, balaa daa'ima waraana keessatti hirmaachisuun qabu)? 
+          Daa'imni bilisummaa sochii qaba/qabdi? Haala daa'imman biroo keessa jiraniin adda? Nageenyummaa daa'imaa irratti dhibbaa qabu ibsi.
+          Daa'imni ykn maatiin daa'imaa hawaasaa keessatti fudhatama qabu moo ni dhiibamu? 
+          Daa'imni ykn maatiin tajaajila argachuu irratti loogitu nurra gahaa jira jedhanii yaaduu?  Daa'imni fi maatiin garee biroon dhibbatu nurra gahaa jira jedhanii ni yaadu? 
+          Daa'imni fi maatiin deeggarsa argataniif  tajaajila/gatii  barbaachisaa hin taane biroo  akka kennaniif gaafatamanii beekuu?  Daa'imni ykn maatiin iddoo amma jiraatan akka turaniif beekamtiin seera qabeessa kennameefii jira?
+          Hojiilee hawaasaa ykn garee keessa daa'imni akka hin hirmaane taasifame jira?   Daa'imni kanaan dura hawaasaa keessaatti loogiin gosa adda addaa irra gahee jira?  Jiraachuu fi dhaqabamummaa tajaajilaa hawaasa keessaa ibsi(fkn. sirna eegumsa daa'immanii hawaasaa fi kkf).

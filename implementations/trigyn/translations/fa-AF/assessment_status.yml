@@ -1,0 +1,24 @@
+fa-AF:
+  assessment_status:
+    name: وضیعت ارزیابی
+    description: 'وضعیت فرم ارزیابی '
+    fields:
+      bia_approved:
+        display_name: ـتآیید مدیر
+        tick_box_label: 'بلی'
+      bia_approved_date:
+        display_name: تاریخ
+      bia_approved_comments:
+        display_name: نظرات مدیر
+      approval_status_bia:
+        display_name: وضعیت تأیید
+      assessment_header:
+        display_name: فورمه های ارزیابی
+      assessment_requested_on:
+        display_name: تاریخ آغاز ارزیابی
+        help_text: این قسمت برای وضعیت  جریان کار استفاده می شود
+      assessment_completed_on:
+        display_name: ارزیابی به پایان رسید
+      case_plan_due_date:
+        display_name: تاریخ طرح قضیه به سررسید
+        guiding_questions: " به سطح رحطر ارتباط میگیرد ighبالا: ظرف 3 روز پس از ارزیابی. متوسط\n- خطر بالا ظرف 3 روز پس از ارزیابی\n- خطر متوسط یک هفته پس از ارزیابی \n- خطر پایین دو هفته پس از ارزیابی "

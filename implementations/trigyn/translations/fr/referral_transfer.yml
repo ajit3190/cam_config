@@ -1,0 +1,13 @@
+fr:
+  referral_transfer:
+    name: 'Transfert et références '
+    description: 'Liste des transferts et références '
+    fields:
+      transfer_status:
+        display_name: Statut des transferts
+        option_strings_text:
+          in_progress: En cour
+          accepted: 'Accepté '
+          rejected: 'Rejeté '
+      transitions:
+        display_name: Transferts et références

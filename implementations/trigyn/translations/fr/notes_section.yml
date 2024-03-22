@@ -1,0 +1,13 @@
+fr:
+  notes_section:
+    name: Sous formulaire intégré des notes
+    description: Sous formulaire intégré des notes
+    fields:
+      notes_date:
+        display_name: Date
+      note_subject:
+        display_name: 'Objet '
+      field_notes_subform_fields:
+        display_name: Notes
+      note_created_by:
+        display_name: 'Superviseur '

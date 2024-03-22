@@ -1,0 +1,68 @@
+---
+am-ET:
+  review_section:
+    name: ግምገማ/ክለሳ
+    description: የክለሳ ንዑስ ቅጽ
+    fields:
+      review_form_date:
+        display_name: ቅጽ የተጠናቀቀበት ቀን
+        help_text: ቀ/ወ/ዓመት
+      review_separator:
+        display_name: ክለሳ ስብሰባ ዝርዝሮች
+      review_date:
+        display_name: ክለሳ ስብሰባ ቀን
+        help_text: ቀ/ወ/ዓ
+      previous_review_date:
+        display_name: ያለፈው የግምገማ ስብሰባ ቀን (አስፈላጊ ከሆነ)
+        help_text: ቀ/ወ/ዓ
+      was_child_present:
+        display_name: "ህጻኑ በቦታው ነበር?"
+      how_child_review:
+        display_name: "አይደለም ከሆነ ልጁ በግምገማው ውስጥ እንዴት ተሳተፈ?"
+      was_caregiver_present:
+        display_name: "ተንከባካቢው በቦታው ነበር?"
+      how_caregiver_review:
+        display_name: "አይደለም ከሆነ፣ ተንከባካቢው በግምገማው ውስጥ እንዴት ተሳተፈ?"
+      outcome_review_separator:
+        display_name: የግምገማ ስብሰባ ውጤቶች
+      review_childs_situation:
+        display_name: የህጻን ወቅታዊ ሁኔታ ይከልሱ
+        help_text: በግምገማ ስብሰባው ላይ እንደተገለጸው የህጻኑን አጠቃላይ ሁኔታ ይግለጹ
+      review_implementation:
+        display_name: የጉዳይ እቅድ ትግበራ ግምገማ
+        help_text: በጉዳዩ እቅድ ውስጥ በተገለፀው እና በግምገማ ስብሰባው ወቅት በተብራራ መልኩ የተከናወኑ ተግባራት እና የተሰጡ አገልግሎቶችን ሁኔታ መገምገም።
+      review_progress_goal:
+        display_name: የጉዳይ ዕቅዱ አጠቃላይ ግብ ላይ መሻሻል ላይ ግምገማ
+        help_text: በግምገማ ስብሰባው ወቅት እንደተብራራው የጉዳዩን እቅድ አጠቃላይ ግብ ለማሳካት ያለውን ሂደት ይገምግሙ።
+      review_other_notes:
+        display_name: በግምገማ ስብሰባ ወቅት ሌሎች ማስታወሻዎች / ምልከታዎች
+      next_steps_separator:
+        display_name: ቀጣይ ደረጃዎች
+      review_situation_change:
+        display_name: "የሕፃኑ ሁኔታ ሌላ ግምገማ እንዲደረግ በሚያስገድድ መልኩ ተለውጧል?"
+      situation_change_details:
+        display_name: እባክዎ ዝርዝሮችን ያቅርቡ
+      adjustments_case_plan:
+        display_name: "በጉዳዩ እቅድ ውስጥ ማስተካከያዎች ያስፈልጋሉ?"
+      adjustment_details:
+        display_name: እባክዎ ዝርዝሮችን ያቅርቡ
+      risk_level_changed:
+        display_name: "የጉዳዩ ስጋት ደረጃ ተለውጧል?"
+      action_conducted:
+        display_name: አዎ ከሆነ፣ አዲስ የአደጋ ደረጃ
+        option_strings_text:
+          high: ከፍተኛ
+          medium: መካከለኛ
+          low: ዝቅተኛ
+          'no': 'አይ'
+      risk_level_details:
+        display_name: አዎ ከሆነ፣ እባክዎን ዝርዝሮችን ይስጡ
+      recommend_close_case:
+        display_name: "ጉዳዩን ለመዝጋት ትመክራለህ?"
+      close_case_details:
+        display_name: እባክዎ ዝርዝሮችን ያቅርቡ
+      next_case_review:
+        display_name: "የሚቀጥለው ጉዳይ ግምገማ ያስፈልጋል?"
+      date_next_review:
+        display_name: አዎ ከሆነ፣ የሚቀጥለው የግምገማ ስብሰባ ቀን
+        help_text: ቀ/ወ/ዓ

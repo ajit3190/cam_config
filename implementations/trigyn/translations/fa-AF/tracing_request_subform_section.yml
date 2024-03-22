@@ -1,0 +1,57 @@
+fa-AF:
+  tracing_request_subform_section:
+    name: 'فورم های فرعی درخواست رد بابی پیچیده '
+    description: فورم های فرعی درخواست رد بابی پیچیده
+    fields:
+      matched_case_id:
+        display_name: 'شناسنامه مطابق با قضیه '
+      tracing_request_status:
+        display_name: 'حالت رد یابی '
+      individual_details_section:
+        display_name: 'جزییات فردی '
+      name:
+        display_name: نام
+      relation:
+        display_name: 'چگنه این تحقیقات /سوالگری ارتباط به طفل داشت '
+      relation_child_lived_with_pre_separation:
+        display_name: 'آیا ط؟فل قبلآ با سوال کننده زندگی میکرد '
+      name_nickname:
+        display_name: 'نام مستعار '
+      name_other:
+        display_name: 'دیگر نام '
+      sex:
+        display_name: جنس
+      age:
+        display_name: عمر
+      date_of_birth:
+        display_name: 'تاریخ تولد '
+      physical_characteristics:
+        display_name: متمایز کردن خصوصیات فیزیکی
+      inquirer_special_message:
+        display_name: پیام خاص برای شخصی که جستجو /تحقیق می شود
+      same_separation_details:
+        display_name: آیا جزئیات جدا در  فورم سوال / تحقیق  است؟
+      separation_details_section:
+        display_name: جزئیات جدایی (اگر با فروم سوال /تحقیق متفاوت باشد)
+      date_of_separation:
+        display_name: تاریخ جدایی
+      separation_cause:
+        display_name: 'دلیل اصلی جدایی چی بود '
+      separation_evacuation:
+        display_name: آیا جدایی در رابطه با تخلیه رخ داده است؟
+      separation_details:
+        display_name: شرایط جدایی (لطفاً جزئیات را ارائه دهید)
+      address_separation:
+        display_name: 'موقعیت  جدایی '
+      location_separation:
+        display_name: 'محل جدایی '
+      address_last:
+        display_name: 'آدرس آخر '
+      landmark_last:
+        display_name: 'نشانی آخر '
+      location_last:
+        display_name: 'موقعیت آخر '
+      telephone_last:
+        display_name: 'تلفون آخر '
+      additional_tracing_info:
+        display_name: آیا معلومات اضافی که می توانند در ردیابی کمک کنند؟

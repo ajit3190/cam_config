@@ -1,0 +1,16 @@
+---
+am-ET:
+  protection_concern:
+    name: ጥበቃ ስጋቶች
+    description: ጥበቃ ስጋቶች
+    fields:
+      risk_level:
+        display_name: የተጋላጭነት ደረጃ
+      displacement_status:
+        display_name: የማህበረሰብ ቡድን
+      displacement_status_other:
+        display_name: ሌላ ከሆነ እባክዎን ይግለጹ
+      protection_concerns:
+        display_name: ጥበቃ ስጋቶች
+      protection_concerns_other:
+        display_name: ሌላ ከሆነ እባክዎን ይግለጹ

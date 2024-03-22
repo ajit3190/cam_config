@@ -1,0 +1,7 @@
+fa-AF:
+  review:
+    name: 'بر رسی قضیه '
+    description: بر رسی قضیه
+    fields:
+      review_section:
+        display_name: بر رسی قضیه

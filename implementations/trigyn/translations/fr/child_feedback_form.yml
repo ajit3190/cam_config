@@ -1,0 +1,174 @@
+fr:
+  child_feedback_form:
+    name: Feedback à l'intention de l'enfant
+    description: Feedback à l'intention de l'enfant
+    fields:
+      child_feedback_date_completed:
+        display_name: Formulaire rempli le
+      child_feedback_separator_consent:
+        display_name: Accord et Consentement
+        guiding_questions: "Exemple d’intervention : \"J’aimerais te parler du travail que le gestionnaire de cas a fait avec ta famille et toi. On veut donner le meilleur service possible aux enfants. \nC’est pour ça qu’on voudrait savoir ce que ton gestionnaire de cas a fait pour t’aider. On aimerait aussi savoir si tu penses qu’il aurait pu faire les choses différemment ou s’il aurait pu t’aider davantage. Tu n’es pas obligé de répondre. C’est ton choix, et tu n’as pas à m’expliquer pourquoi tu ne veux pas répondre.\nLe fait de ne pas répondre à mes questions n’aura aucune conséquence sur les services qu’on vous offre, à ta famille et toi. \nMais en me confiant ton point de vue et tes sentiments, tu nous aideras à offrir de meilleurs services aux autres enfants et aux autres familles. Tout ce que tu me diras aujourd’hui restera confidentiel. Cela veut dire que je ne dirai jamais à personne que c’est toi qui m’as confié ces commentaires. \nTu peux aussi décider de répondre uniquement à certaines questions. Tu peux aussi décider d’arrêter de répondre en tout temps.\""
+      child_feedback_interview_subject:
+        display_name: Consentement / Accord obtenu de
+        option_strings_text:
+          child: Enfant
+          caregiver: Tuteur
+          other: Autre
+      child_feedback_consent_source_other:
+        display_name: Si autre, précisez
+      child_feedback_consent:
+        display_name: L'enfant a donné son autorisation pour recueillir ses commentaires sur le processus de gestion de cas.
+        tick_box_label: 'Oui'
+      child_feedback_consent_caregiver:
+        display_name: Le tuteur a donné l'autorisation de recueillir les commentaires de son enfant sur le processus de gestion du cas.
+        help_text: Remplir seulement si et quand la situation l’exige
+        tick_box_label: 'Oui'
+      child_feedback_consent_date:
+        display_name: Date du consentement / accord
+      child_feedback_separator_questions:
+        display_name: 'Questions : Partie 1'
+        guiding_questions: "Vous pouvez donner des exemples pour accélérer la rétroaction, mais en évitant de poser des questions qui orienteraient trop les réponses de l’enfant. \nCe format convient aux enfants plus vieux (10 ans ou plus). Vous pouvez l’adapter dans le cas d’enfants plus jeunes, au besoin. \nLes questions doivent être posées dans la langue de l’enfant et par une personne qui possède la formation et les compétences nécessaires pour effectuer un feedback auprès d’un enfant, et qui connaît les règles d’éthique à suivre lorsqu’on travaille directement avec des enfants."
+      child_feedback_services_discovery:
+        display_name: Comment as-tu entendu parler des services de gestion de cas de [nom de l’agence] ?
+        option_strings_text:
+          caseworker_approached_me: Le gestionnaire de cas m'a contacté
+          another_organization: Autre organisation
+          parents: Parents
+          family_friends: Famille ou amis
+          school: École
+          community_leader: Leader de la communauté
+          community_based_child_protection_focal_point: Centre de coordination communautaire en protection de l’enfance
+          authorities: Autorités
+          saw_a_poster_information_leaflet: Affiche ou brochure
+          cannot_recall: Ne se souvient pas
+          other: Autre
+      child_feedback_services_discovery_other:
+        display_name: Si autre, précisez
+      child_feedback_help_asked:
+        display_name: Avant que tu commences à travailler avec le gestionnaire de cas, est-ce qu’on t’a demandé si tu voulais recevoir ce genre d’aide ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          unknown: Ne sait pas
+      child_feedback_help_asked_details:
+        display_name: Veuillez préciser
+      child_feedback_expectations:
+        display_name: Quel type d’aide t’attendais-tu à recevoir de [nom de l’agence de gestion de cas] ?
+        option_strings_text:
+          alternative_care: Prise en charge des enfants
+          security_e_g_safe_shelter: Sécurité (logement sécuritaire, p. ex.)
+          education_formal: Éducation (formelle)
+          non_formal_education: Éducation non formelle
+          family_tracing_and_reunification: Localisation de la famille et réunification familiale
+          basic_psychosocial_support: Soutien psychosocial de base
+          focused_non_specialized_mhpss_care: Soins ciblés non spécialisés de SPSSM
+          specialized_mhpss_services: Services spécialisés de SPSSM
+          food: Nourriture
+          non_food_items: Articles non alimentaires
+          cash_assistance: Aide financière
+          livelihoods: Moyen de subsistance
+          medical: Soins médicaux
+          nutrition: Nutrition
+          legal_support: Aide juridique
+          documentation: Papiers officiels
+          services_for_children_with_disabilities: Services pour enfants handicapés
+          sexual_and_reproductive_health: Soins de santé sexuelle et reproductive
+          shelter: Logement
+          wash: Eau, hygiène et assainissement (EHA)
+          durable_solution_in_coordination_with_unhcr: Solutions durables (en coordination avec l’UNHCR)
+          relocation: Réinstallation
+          other: Autre
+      child_feedback_expectations_other:
+        display_name: Si autre, précisez
+      child_feedback_expectations_received:
+        display_name: As-tu reçu l’aide que tu pensais recevoir ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          unknown: Ne sait pas
+      child_feedback_expectations_received_details:
+        display_name: Veuillez préciser
+      child_feedback_process_plan:
+        display_name: Le gestionnaire de cas a-t-il préparé un plan [plan de prise en charge] avec toi pour que tu reçoives l’aide dont tu avais besoin ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          unknown: Ne sait pas
+      child_feedback_process_plan_details:
+        display_name: Veuillez préciser
+      child_feedback_process_connect:
+        display_name: 'Le gestionnaire de cas t’a-t-il référé vers des services qui pouvaient t’aider ? '
+        option_strings_text:
+          'yes': 'Oui'
+          no_did_not_need_other_services: Non, n’avait pas besoin d’autres services
+          no_did_not_want_other_services: Non, ne voulait pas d’autres services
+          unknown: Ne sait pas
+      child_feedback_process_connect_details:
+        display_name: Veuillez préciser
+      child_feedback_process_consent:
+        display_name: Si le gestionnaire de cas a partagé de l’information à ton sujet avec d’autres personnes, est-ce qu’il t’a demandé si tu étais d’accord avant de le faire ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          unknown: Ne sait pas
+      child_feedback_process_consent_details:
+        display_name: Veuillez préciser
+      child_feedback_process_closure:
+        display_name: As-tu pris la décision de mettre fin aux services de [nom de l’agence] en collaboration avec ton gestionnaire de cas ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          unknown: Ne sait pas
+      child_feedback_process_closure_details:
+        display_name: Veuillez préciser
+      child_feedback_questions_ii:
+        display_name: 'Questions : Partie 2'
+        guiding_questions: "Exemple d'intervention :  \"Pour les prochaines questions, je vais te demander si tu es d’accord avec les phrases que je vais te lire. \nSi tu es tout à fait d’accord, tu peux mettre 10 sur 10. \nSi tu es totalement en désaccord, tu peux mettre 1 sur 10. \nTu peux aussi décider de donner une autre note entre 1 et 10. Plus tu es d’accord avec la phrase, plus ta note sera près de 10. Moins tu es d’accord avec la phrase, plus ta note sera près de 1.\""
+      child_feedback_ii_explanation:
+        display_name: Le gestionnaire de cas m’a expliqué les choses d’une façon difficile à comprendre.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_explanation_details:
+        display_name: Veuillez préciser
+      child_feedback_ii_listening:
+        display_name: Le gestionnaire de cas m’écoutait, me demandait toujours mon opinion et tenait toujours compte de mes idées, de mes opinions et de mes sentiments.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_listening_details:
+        display_name: Veuillez préciser
+      child_feedback_ii_pressured:
+        display_name: Je sentais souvent que le gestionnaire de cas me poussait à prendre une décision ou à faire quelque chose que je ne voulais pas faire.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_pressured_details:
+        display_name: Veuillez préciser
+      child_feedback_ii_followup:
+        display_name: Le gestionnaire de cas a fait des suivis et a fait les choses qu’il m’avait promises.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_followup_details:
+        display_name: Veuillez préciser
+      child_feedback_ii_visits:
+        display_name: Le gestionnaire de cas m’a rarement rendu visite.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_visits_details:
+        display_name: Veuillez préciser
+      child_feedback_ii_support:
+        display_name: L’aide que le gestionnaire de cas nous a donnée, à ma famille et moi, nous a été utile.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_support_details:
+        display_name: Veuillez préciser
+      child_feedback_ii_improvement:
+        display_name: Ma situation s’est améliorée depuis que je vois mon gestionnaire de cas.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_improvement_details:
+        display_name: Veuillez préciser
+      child_feedback_ii_satisfaction:
+        display_name: De façon générale, je suis satisfait de l’aide que j’ai reçue de mon gestionnaire de cas.
+        help_text: Note entre 1 et 10
+      child_feedback_ii_satisfaction_details:
+        display_name: Veuillez préciser
+      child_feedback_final_question:
+        display_name: Aimerais-tu ajouter des commentaires ou me faire part de certaines préoccupations ?
+        option_strings_text:
+          'yes': 'Oui'
+          'no': 'Non'
+          unknown: Ne sait pas
+      child_feedback_final_question_details:
+        display_name: Veuillez préciser

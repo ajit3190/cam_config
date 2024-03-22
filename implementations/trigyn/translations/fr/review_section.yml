@@ -1,0 +1,67 @@
+fr:
+  review_section:
+    name: 'Revue '
+    description: 'Sous formulaire revue '
+    fields:
+      review_form_date:
+        display_name: Formulaire rempli le
+        help_text: jj/mm/aaaa
+      review_separator:
+        display_name: 'Détails de la rencontre de revue '
+      review_date:
+        display_name: 'Date de la rencontre de revue '
+        help_text: jj/mm/aaaa
+      previous_review_date:
+        display_name: Date de la précédente rencontre de revue (Si nécessaire )
+        help_text: jj/mm/aaaa
+      was_child_present:
+        display_name: L'enfant était - il présent ?
+      how_child_review:
+        display_name: Si non, comment l'enfant a-t-il été impliqué dans la revue ?
+      was_caregiver_present:
+        display_name: 'La personne en charge de l''enfant était présent ? '
+      how_caregiver_review:
+        display_name: Si non, comment la personne en charge a-t-il été impliqué dans la revue ?
+      outcome_review_separator:
+        display_name: 'Résultats de la réunion de revue '
+      review_childs_situation:
+        display_name: Revue de la situation actuelle de l'enfant
+        help_text: 'Décrivez la situation globale actuelle de l''enfant telle qu''elle a été examinée lors de la réunion de revue '
+      review_implementation:
+        display_name: 'Revue de la mise en œuvre du plan d''action '
+        help_text: Évaluer l'état d'avancement des mesures prises et des services fournis, comme indiqué dans le plan d'action du cas et discuté lors de la réunion de revue.
+      review_progress_goal:
+        display_name: Revue des progrès accomplis dans la réalisation de l'objectif global du plan d'action du cas
+        help_text: Évaluer les progrès réalisés pour atteindre l'objectif global du plan d'action du cas tel qu'il a été discuté lors de la réunion d'examen.
+      review_other_notes:
+        display_name: Autres notes / observations lors de la réunion de revue
+      next_steps_separator:
+        display_name: 'Prochaines étapes '
+      review_situation_change:
+        display_name: La situation de l'enfant a-t-elle évolué d'une manière qui justifie la réalisation d'une nouvelle évaluation ?
+      situation_change_details:
+        display_name: Veuillez préciser
+      adjustments_case_plan:
+        display_name: Des ajustements sont-ils nécessaires dans le plan d'action du cas ?
+      adjustment_details:
+        display_name: Veuillez préciser
+      risk_level_changed:
+        display_name: Le niveau de risque du cas a-t-il changé ?
+      action_conducted:
+        display_name: Si oui, nouveau niveau de risque
+        option_strings_text:
+          high: Haute
+          medium: 'Moyen '
+          low: 'Faible '
+          'no': 'Non'
+      risk_level_details:
+        display_name: Si oui, veuillez préciser
+      recommend_close_case:
+        display_name: 'Recommandez vous de clôturer le cas ? '
+      close_case_details:
+        display_name: Veuillez préciser
+      next_case_review:
+        display_name: Est-il nécessaire de procéder à une nouvelle revue du cas ?
+      date_next_review:
+        display_name: 'Si oui, date de la prochaine revue '
+        help_text: jj/mm/aaaa

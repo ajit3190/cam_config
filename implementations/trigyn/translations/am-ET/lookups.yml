@@ -1,0 +1,850 @@
+---
+am-ET:
+  lookup-age-group-type:
+    name: "የእድሜ ክልል\n\n "
+    lookup_values:
+      adult: "አዋቂ\n\n "
+      minor: "ህጻን\n\n "
+      unknown: "አይታወቅም\n\n "
+  lookup-agency-office:
+    name: "የኤጀንሲ ቢሮ\n\n "
+    lookup_values:
+      agency_office_1: የኤጀንሲው ቢሮ 1
+      agency_office_2: የኤጀንሲው ቢሮ 2
+      agency_office_3: የኤጀንሲው ቢሮ 3
+      agency_office_4: የኤጀንሲው ቢሮ 4
+      agency_office_5: የኤጀንሲው ቢሮ 5
+  lookup-approval-for:
+    name: "የጸደቀለት ኤጀንሲ\n\n "
+    lookup_values:
+      bia: "የህጻኑ ጥቅምና ደህንነት ዳሰሳ\n\n "
+      case_plan: "የድጋፍ እቅድ\n\n "
+      closure: "መዝጋት\n "
+  lookup-approval-status:
+    name: "የማጽደቅ ሁኔታ\n\n "
+    lookup_values:
+      requested: "ተጠይቋል\n\n "
+      pending: "በእንጥልጥል ላይ ያለ\n\n "
+      approved: "የጸደቀ\n\n "
+      rejected: "ያልጸደቀ/የተጣለ\n\n "
+  lookup-approval-type:
+    name: "ያልጸደቀ/የተጣለ\n\n \n\n "
+    lookup_values:
+      case_plan: "የድጋፍ እቅድ\n\n "
+      action_plan: "የድርጊት መርሀ ግብር\n\n "
+      service_provision: "አገልግሎት አሰጣጥ\n\n "
+  lookup-armed-force-group-name:
+    name: የታጠቁ ቡድኖች/ሀይሎች ስም
+    lookup_values:
+      armed_force_or_group_1: የጦር ሃይል ወይም ቡድን 1
+      armed_force_or_group_2: የጦር ሃይል ወይም ቡድን 2
+      armed_force_or_group_3: የጦር ሃይል ወይም ቡድን 3
+      other_please_specify: "ሌሎች፡- በግልጽ ይቀመጥ\n\n "
+  lookup-armed-force-group-type:
+    name: የጦር ሃይል ወይም ቡድን አይነት
+    lookup_values:
+      national_army: ብሔራዊ ጦር
+      security_forces: የደህንነት ሃይሎች
+      international_forces: ዓለም አቀፍ ኃይሎች
+      police_forces: የፖሊስ ሃይሎች
+      para-military_forces: ሌሎች-ወታደራዊ ኃይሎች
+      unknown: ያልታወቀ
+      other: "ሌሎች\n\n "
+  lookup-assessment-duration:
+    name: የዳሰሳ ቆይታ
+    lookup_values:
+      less_than_15_minutes: ከ15 ደቂቃ በታች
+      16_30_minutes: 16-30 ደቂቃዎች
+      31_minutes_1_hour: 31 ደቂቃዎች - 1 ሰዓት
+      1_2_hours: 1-2 ሰአታት
+      more_than_2_hours: ከ 2 ሰዓታት በላይ
+  lookup-assessment-progress:
+    name: የዳሰሳ ሂደት
+    lookup_values:
+      n_a: የለም
+      in_progress: በሂደት ላይ
+      met: ተገናኘቷል
+  lookup-case-status:
+    name: የጉዳይ ሁኔታ
+    lookup_values:
+      open: ክፈት
+      closed: ተዘግቷል
+      transferred: ተላልፏል/ተሸጋግሯል
+      duplicate: የተደገመ
+  lookup-child-minor-age-group:
+    name: የህጻን / ትንሽ ዕድሜ ቡድን
+    lookup_values:
+      0_5_year_old: 0-5 አመት
+      6_12_year_old: 6-12 አመት
+      13_17_year_old: 13-17 አመት
+  lookup-conference-case-status:
+    name: የኮንፈረንስ ጉዳይ ሁኔታ
+    lookup_values:
+      open: ጉዳዩ ክፍት ሆኖ ይቆያል
+      closed: ጉዳዩ ይዘጋል
+      transferred: ጉዳዩ ይተላለፋል
+      other: ሌሎች
+  lookup-country:
+    name: ሀገር
+    lookup_values:
+      afghanistan: አፍገነን
+      albania: አለባኒያ
+      algeria: አለጀረርሬ
+      andorra: አንደዶረራ
+      angola: አገጎለላ
+      antigua_and_barbuda: በባረበቡደዳ
+      argentina: አርጀንቲና
+      armenia: አርመኒያ
+      australia: አውስትራሊያ
+      austria: አውስትርያ
+      azerbaijan: አዘረርበባጀጃነ
+      bahamas: በባመማሰ
+      bahrain: በባሀረሬነን
+      bangladesh: ባገላዲሽ
+      barbados: በረርበባደዶሰስ
+      belarus: በብለረሮሰ
+      belgium: በብለጀጅየመም
+      belize: በብለዘዜ
+      benin: "የሀገሮች ዝርዝር "
+      bhutan: "የሀገሮች ዝርዝር "
+      bolivia: "የሀገሮች ዝርዝር "
+      bosnia_and_herzegovina: "የሀገሮች ዝርዝር "
+      botswana: "የሀገሮች ዝርዝር "
+      brazil: "የሀገሮች ዝርዝር "
+      brunei: "የሀገሮች ዝርዝር "
+      bulgaria: "የሀገሮች ዝርዝር "
+      burkina_faso: "የሀገሮች ዝርዝር "
+      burundi: "የሀገሮች ዝርዝር "
+      cabo_verde: "የሀገሮች ዝርዝር "
+      cambodia: "የሀገሮች ዝርዝር "
+      cameroon: "የሀገሮች ዝርዝር "
+      canada: "የሀገሮች ዝርዝር "
+      central_african_republic: "የሀገሮች ዝርዝር "
+      chad: "የሀገሮች ዝርዝር "
+      chile: "የሀገሮች ዝርዝር "
+      china: "የሀገሮች ዝርዝር "
+      colombia: "የሀገሮች ዝርዝር "
+      comoros: "የሀገሮች ዝርዝር "
+      congo: "የየሀገሮች ዝርዝር ሀገሮች ዝርዝር "
+      drc: "የሀገሮች ዝርዝር "
+      costa_rica: "የሀገሮች ዝርዝር "
+      cote_divoire: "የሀገሮች ዝርዝር "
+      croatia: "የሀገሮች ዝርዝር "
+      cuba: "የሀገሮች ዝርዝር "
+      cyprus: "የሀገሮች ዝርዝር "
+      czech_republic: "የሀገሮች ዝርዝር "
+      denmark: "የሀገሮች ዝርዝር "
+      djibouti: "የሀገሮች ዝርዝር "
+      dominica: "የሀገሮች ዝርዝር "
+      dominican_republic: "የሀገሮች ዝርዝር "
+      ecuador: "የሀገሮች ዝርዝር "
+      egypt: "የሀገሮች ዝርዝር "
+      el_salvador: "የሀገሮች ዝርዝር "
+      equatorial_guinea: "የሀገሮች ዝርዝር "
+      eritrea: "የሀገሮች ዝርዝር "
+      estonia: "የሀገሮች ዝርዝር "
+      ethiopia: ኢትዮጵያ
+      fiji: "የሀገሮች ዝርዝር "
+      finland: "የሀገሮች ዝርዝር "
+      france: "የሀገሮች ዝርዝር "
+      gabon: "የሀገሮች ዝርዝር "
+      gambia: "የሀገሮች ዝርዝር "
+      georgia: "የሀገሮች ዝርዝር "
+      germany: "የሀገሮች ዝርዝር "
+      ghana: "የሀገሮች ዝርዝር "
+      greece: "የሀገሮች ዝርዝር "
+      grenada: "የሀገሮች ዝርዝር "
+      guatemala: "የሀገሮች ዝርዝር "
+      guinea: "የሀገሮች ዝርዝር "
+      guinea_bissau: "የሀገሮች ዝርዝር "
+      guyana: "የሀገሮች ዝርዝር "
+      haiti: "የሀገሮች ዝርዝር "
+      honduras: "የሀገሮች ዝርዝር "
+      hungary: "የሀገሮች ዝርዝር "
+      iceland: "የሀገሮች ዝርዝር "
+      india: "የሀገሮች ዝርዝር "
+      indonesia: "የሀገሮች ዝርዝር "
+      iran: "የሀገሮች ዝርዝር "
+      iraq: "የሀገሮች ዝርዝር "
+      ireland: "የሀገሮች ዝርዝር "
+      israel: "የሀገሮች ዝርዝር "
+      italy: "የሀገሮች ዝርዝር "
+      jamaica: "የሀገሮች ዝርዝር "
+      japan: "የሀገሮች ዝርዝር "
+      jordan: "የሀገሮች ዝርዝር "
+      kazakhstan: "የሀገሮች ዝርዝር "
+      kenya: "የሀገሮች ዝርዝር "
+      kiribati: "የሀገሮች ዝርዝር "
+      kosovo: "የሀገሮች ዝርዝር "
+      kuwait: "የሀገሮች ዝርዝር "
+      kyrgyzstan: "የሀገሮች ዝርዝር "
+      laos: "የሀገሮች ዝርዝር "
+      latvia: "የሀገሮች ዝርዝር "
+      lebanon: "የሀገሮች ዝርዝር "
+      lesotho: "የሀገሮች ዝርዝር "
+      liberia: "የሀገሮች ዝርዝር "
+      libya: "የሀገሮች ዝርዝር "
+      liechtenstein: "የሀገሮች ዝርዝር "
+      lithuania: "የሀገሮች ዝርዝር "
+      luxembourg: "የሀገሮች ዝርዝር "
+      macedonia: "የሀገሮች ዝርዝር "
+      madagascar: "የሀገሮች ዝርዝር "
+      malawi: "የሀገሮች ዝርዝር "
+      malaysia: "የሀገሮች ዝርዝር "
+      maldives: "የሀገሮች ዝርዝር "
+      mali: "የሀገሮች ዝርዝር "
+      malta: "የሀገሮች ዝርዝር "
+      marshall_islands: "የሀገሮች ዝርዝር "
+      mauritania: "የሀገሮች ዝርዝር "
+      mauritius: "የሀገሮች ዝርዝር "
+      mexico: "የሀገሮች ዝርዝር "
+      micronesia: "የሀገሮች ዝርዝር "
+      moldova: "የሀገሮች ዝርዝር "
+      monaco: "የሀገሮች ዝርዝር "
+      mongolia: "የሀገሮች ዝርዝር "
+      montenegro: "የሀገሮች ዝርዝር "
+      morocco: "የሀገሮች ዝርዝር "
+      mozambique: "የሀገሮች ዝርዝር "
+      myanmar: "የሀገሮች ዝርዝር "
+      namibia: "የሀገሮች ዝርዝር "
+      nauru: "የሀገሮች ዝርዝር "
+      nepal: "የሀገሮች ዝርዝር "
+      netherlands: "የሀገሮች ዝርዝር "
+      new_zealand: "የሀገሮች ዝርዝር "
+      nicaragua: "የሀገሮች ዝርዝር "
+      niger: "የሀገሮች ዝርዝር "
+      nigeria: "የሀገሮች ዝርዝር "
+      north_korea: "የሀገሮች ዝርዝር "
+      norway: "የሀገሮች ዝርዝር "
+      oman: "የሀገሮች ዝርዝር "
+      pakistan: "የሀገሮች ዝርዝር "
+      palau: "የሀገሮች ዝርዝር "
+      palestine: "የሀገሮች ዝርዝር "
+      panama: "የሀገሮች ዝርዝር "
+      papua_new_guinea: "የሀገሮች ዝርዝር "
+      paraguay: "የሀገሮች ዝርዝር "
+      peru: "የሀገሮች ዝርዝር "
+      philippines: "የሀገሮች ዝርዝር "
+      poland: "የሀገሮች ዝርዝር "
+      portugal: "የሀገሮች ዝርዝር "
+      qatar: "የሀገሮች ዝርዝር "
+      romania: "የሀገሮች ዝርዝር "
+      russia: "የሀገሮች ዝርዝር "
+      rwanda: "የሀገሮች ዝርዝር "
+      st_kitts_and_nevis: "የሀገሮች ዝርዝር "
+      st_lucia: "የሀገሮች ዝርዝር "
+      st_vincent_and_the_grenadines: "የሀገሮች ዝርዝር "
+      samoa: "የሀገሮች ዝርዝር "
+      san_marino: "የሀገሮች ዝርዝር "
+      sao_tome_and_principe: "የሀገሮች ዝርዝር "
+      saudi_arabia: "የሀገሮች ዝርዝር "
+      senegal: "የሀገሮች ዝርዝር "
+      serbia: "የሀገሮች ዝርዝር "
+      seychelles: "የሀገሮች ዝርዝር "
+      sierra_leone: "የሀገሮች ዝርዝር "
+      singapore: "የሀገሮች ዝርዝር "
+      slovakia: "የሀገሮች ዝርዝር "
+      slovenia: "የሀገሮች ዝርዝር "
+      solomon_islands: "የሀገሮች ዝርዝር "
+      somalia: "የሀገሮች ዝርዝር "
+      south_africa: "የሀገሮች ዝርዝር "
+      south_korea: "የሀገሮች ዝርዝር "
+      south_sudan: "የሀገሮች ዝርዝር "
+      spain: "የሀገሮች ዝርዝር "
+      sri_lanka: "የሀገሮች ዝርዝር "
+      sudan: "የሀገሮች ዝርዝር "
+      suriname: "የሀገሮች ዝርዝር "
+      swaziland: "የሀገሮች ዝርዝር "
+      sweden: "የሀገሮች ዝርዝር "
+      switzerland: "የሀገሮች ዝርዝር "
+      syria: "የሀገሮች ዝርዝር "
+      taiwan: "የሀገሮች ዝርዝር "
+      tajikistan: "የሀገሮች ዝርዝር "
+      tanzania: "የሀገሮች ዝርዝር "
+      thailand: "የሀገሮች ዝርዝር "
+      timor_leste: "የሀገሮች ዝርዝር "
+      togo: "የሀገሮች ዝርዝር "
+      tonga: "የሀገሮች ዝርዝር "
+      trinidad_and_tobago: "የሀገሮች ዝርዝር "
+      tunisia: "የሀገሮች ዝርዝር "
+      turkey: "የሀገሮች ዝርዝር "
+      turkmenistan: "የሀገሮች ዝርዝር "
+      tuvalu: "የሀገሮች ዝርዝር "
+      uganda: "የሀገሮች ዝርዝር "
+      ukraine: "የሀገሮች ዝርዝር "
+      united_arab_emirates: "የሀገሮች ዝርዝር "
+      uk: "የሀገሮች ዝርዝር "
+      usa: "የሀገሮች ዝርዝር "
+      uruguay: "የሀገሮች ዝርዝር "
+      uzbekistan: "የሀገሮች ዝርዝር "
+      vanuatu: "የሀገሮች ዝርዝር "
+      vatican: "የሀገሮች ዝርዝር "
+      venezuela: "የሀገሮች ዝርዝር "
+      vietnam: "የሀገሮች ዝርዝር "
+      yemen: "የሀገሮች ዝርዝር "
+      zambia: "የሀገሮች ዝርዝር "
+      zimbabwe: "የሀገሮች ዝርዝር "
+  lookup-cp-violence-type:
+    name: የጥቃት አይነት
+    lookup_values:
+      rape: መደፈር
+      sexual_assault: ወሲባዊ ጥቃት
+      physical_assault: አካላዊ ጥቃት
+      forced_marriage: የግዳጅ ጋብቻ
+      denial_of_resources_opportunities_or_services: የሃብት፣ እድሎች ወይም አገልግሎቶች መከልከል
+      psychological_emotional_abuse: የስነ-ልቦና / ስሜታዊ ጥቃት
+      non-gbv: ጾታዊ ጥቃት ያልሆነ
+  lookup-disability-type:
+    name: የጉዳት ዓይነት
+    lookup_values:
+      mental_disability: የአእምሮ ጉዳት
+      physical_disability: "የአካል ጉዳት "
+      both: ሁለቱም
+  lookup-disability-type-with-mental-physical:
+    name: የጉዳት አይነት ከአእምሮ እና ከአካላዊ ጥምር ጋር
+    lookup_values:
+      'no': 'የለም'
+      mental_disability: የአእምሮ እክል
+      physical_disability: የአካል ጉዳት
+      mental_physical_disability: የአዕምሮ እና የአካል ጉዳት
+  lookup-disability-type-with-no:
+    name: የጉዳት አይነት
+    lookup_values:
+      'no': 'የለም'
+      mental_disability: የአዕምሮ ጉዳት
+      physical_disability: የአካል ጉዳት
+      both: ሁለቱም
+  lookup-discovery-method:
+    name: የግኝት ዘዴ
+    lookup_values:
+      family_or_friend: ቤተሰብ ወይም ጓደኛ
+      referral: ከሌላ ድርጅት ሪፈራል
+      neighbor: ጎረቤት ወይም የማህበረሰብ አባል
+      community_discussion: የማህበረሰብ ውይይት
+      pamphlet: "ያዩት ወይም የተቀበሉት በራሪ ወረቀት "
+      other: ሌላ
+  lookup-displacement-status:
+    name: የመፈናቀል ሁኔታ
+    lookup_values:
+      asylum_seeker: ጥገኝነት ጠያቂ
+      refugee: ስደተኛ
+      idp: ከውስጥ የተፈናቀሉ ሰዎች ()
+      migrant: ስደተኛ
+      host:community: አስተናጋጅ ማህበረሰብ
+      returnee: ተመላሽ
+      stateless_person: ሀገር አልባ ሰው
+      resident: " ነዋሪ (ያልተፈናቀለ)"
+      foreign_national: የውጭ ሀገር ነዋሪ
+      other: ሌላ
+  lookup-ethnicity:
+    name: ብሄር
+    lookup_values:
+      ethnicity1: ብሄር 1
+      ethnicity2: ብሄር 2
+      ethnicity3: ብሄር 3
+      ethnicity4: ብሄር 4
+      ethnicity5: ብሄር 5
+      ethnicity6: ብሄር 6
+      ethnicity7: ብሄር 7
+      ethnicity8: ብሄር 8
+      ethnicity9: ብሄር 9
+      ethnicity10: ብሄር 10
+  lookup-family-relationship:
+    name: የቤተሰብ ግንኙነት
+    lookup_values:
+      mother: እናት
+      father: አባት
+      aunt: አክስቴ
+      uncle: አጎቴ
+      grandmother: ሴት አያት
+      grandfather: ወንድ አያት
+      brother: ወንድም
+      sister: እህት
+      husband: ባል
+      wife: ሚስት
+      partner: አጋር
+      other_family: ሌላ ቤተሰብ
+      other_nonfamily: ሌሎች ቤተሰብ ያልሆኑ
+  lookup-followedup-with:
+    name: ከ...ጋር ተከታትሏል
+    lookup_values:
+      child: ልጅ
+      caregiver_s_family: ተንከባካቢ(ዎች)/ቤተሰብ
+      service_provider_own_agency: አገልግሎት ሰጪ (የራሱ ኤጀንሲ)
+      service_provider_referral: አገልግሎት ሰጪ (ማጣቀሻ)
+      other: ሌላ
+  lookup-followup-type:
+    name: የክትትል አይነት
+    lookup_values:
+      after_reunification: እንደገና ከተዋሃደ በኋላ ይከታተሉ
+      in_care: ድጋፍ በሚደረግበት ወቅት ይከታተሉ
+      for_service: ለአገልግሎት ይከታተሉ
+      for_assesment: በዳሰሳ ወቅት  ይከታተሉ
+  lookup-form-group-cp-case:
+    name: የቅጽ ቡድኖች መያዣ
+    lookup_values:
+      record_information: የመረጃ መዝገብ
+      approvals: ማጽደቂያዎች
+      case_conference_details: የጉዳይ ኮንፈረንስ ዝርዝሮች
+      identification_registration: ልየታ / ምዝገባ
+      data_confidentiality: የመረጃ ሚስጥራዊነት
+      review: የክለሳ ክፍል
+      assessment: ዳሰሳ
+      family_partner_details: የቤተሰብ / የአጋር ዝርዝሮች
+      case_plan: የድጋፍ እቅድ
+      services_follow_up: አገልግሎቶች / ክትትል
+      closure: መዝጋት
+      feedback: ግብረ መልስ
+      tracing: መከታተል/መፈለግ
+      bia_form: የህጻን/ኗ ጥቅምና ደህንነት ዳሰሳ ቅጽ
+      photos_audio: ፎቶዎች እና ድምጽ
+      other_documents: ሌሎች ሰነዶች
+      referrals_transfers: ማሸጋገርና ማሰተላለፍ
+      notes: ማስታወሻዎች
+  lookup-form-group-cp-incident:
+    name: የቅጽ ቡድኖች  የህጻናት ጥበቃ ክስተት
+    lookup_values:
+      record_owner: የመዝገብ ባለቤት
+      perpetrator_details: የወንጀል አድራጊ ዝርዝሮች
+      cp_incident: የህጻናት ጥበቃ ክስተቶች
+      cp_individual_details: የህጻናት ጥበቃ የግለሰብ ዝርዝሮች
+  lookup-form-group-cp-tracing-request:
+    name: የህጻናት ጥበቃ የመከታተያ ጥያቄ ቅጽ
+    lookup_values:
+      record_owner: የመዝገብ ባለቤት
+      inquirer: ጠያቂ
+      tracing_request: የመከታተያ/የፍለጋ ጥያቄ
+      photos_audio: ፎቶዎች እና ድምጽ ቅጅ
+      other_reportable_fields: ሌሎች ሪፖርት ሊደረጉ የሚችሉ መስኮች
+  lookup-form-group-gbv-case:
+    name: የጾታ ጥቃት የመከታተያ ጥያቄ ቅጽ
+    lookup_values:
+      record_information: "የመረጃ መዝገብ "
+      consent_for_services: ለአገልግሎቶች ስምምነት
+      documents: ሰነዶች
+      consent_for_referrals: የሪፈራል/ማሸጋገርያ ስምምነት ቅጽ
+      safety_plan: የደህንነት እቅድ
+      action_plan: የድርጊት መርሃ ግብር
+      survivor_assessment: የተጎጅ ዳሰሳ
+      case_closure: የጉዳይ መዘጋት
+      client_feedback: የደንበኛ ግብረመልስ
+      identification_registration: ልየታ / ምዝገባ
+      referrals_transfers: ማሸጋገር እና ማስተላለፎች
+      other_reportable_fields: ሌሎች ሪፖርት ሊደረጉ የሚችሉ መስኮች
+  lookup-form-group-gbv-incident:
+    name: " ጾታዊ ጥቃት ክስተት ቅጽ "
+    lookup_values:
+      gbv_individual_details: ጾታዊ ጥቃት የግለሰብ ዝርዝሮች
+      incident: ክስተት
+      type_of_violence: የጥሰት አይነት
+      record_owner: የመዝገብ ባለቤት
+      alleged_perpetrator: ንጀል ፈጽሟል የተባለው/ተጠርጣሪ
+      service_referral: የአገልግሎት ቅብብሎሽ
+      other_reportable_fields: ሌሎች ሪፖርት ሊደረጉ የሚችሉ መስኮች
+  lookup-further-action_needed:
+    name: ተጨማሪ እርምጃ ያስፈልጋል
+    lookup_values:
+      no_further_action_needed: ምንም ተጨማሪ እርምጃ አያስፈልግም
+      ongoing_monitoring: ቀጣይነት ያለው ክትትል
+      urgent_intervention: አስቸኳይ ምላሽ
+  lookup-gbv-approval-types:
+    name: ለጾታ ጥቃት የደረሰባቸው ተጠቃሚዎች የማጽደቅ አይነት
+    lookup_values:
+      case_plan: የድጋፍ እቅድ
+      closure: መዝጋት
+  lookup-gbv-reported-elsewhere:
+    name: አዎ፣ አይ፣ ወይም ያልታወቀ
+    lookup_values:
+      'no': 'አይ'
+      gbvims-org: "አዎ, የፆታዊ ጥቃት መረጃ ቋት / ተቋም"
+      non-gbvims-org: አዎ- ያልሆነ / ኤጀንሲ
+  lookup-gbv-sexual-violence-type:
+    name: የጾታዊ የወሲብ ጥቃት አይነት
+    lookup_values:
+      rape: መደፈር
+      sexual_assault: ወሲባዊ ጥቃት
+      physical_assault: አካላዊ ጥቃት
+      forced_marriage: የግዳጅ ጋብቻ
+      denial_of_resources_opportunities_or_services: የሃብት፣ እድሎች ወይም አገልግሎቶች መከልከል
+      psychological_emotional_abuse: የስነ-ልቦና / ስሜታዊ ጥቃት
+      non-gbv: የጾታዊ ጥቃት ያልሆነ
+  lookup-gender:
+    name: ጾታ
+    lookup_values:
+      male: ወንድ
+      female: ሴት
+  lookup-incident-identification:
+    name: የክስተት መለያ
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: የተበደለው ሰው ወይም የቤተሰብ አባል ይፋ ማድረግ/ ቅሬታ
+      discovered_by_service_provider: በአገልግሎት አቅራቢው ተገኝቷል
+      report_by_the_institution_providing_the_service_discovery: አገልግሎቱን በሚሰጥ ተቋም ሪፖርት (ግኝት)
+      other: ሌላ
+  lookup-incident-location:
+    name: የክስተት ቦታ
+    lookup_values:
+      home: ቤት
+      street: ጎዳና
+      school: ትምህርት ቤት
+      work_place: የስራ ቦታ
+      other: ሌላ
+  lookup-incident-status:
+    name: የክስተት ሁኔታ
+    lookup_values:
+      open: ክፈት
+      closed: ዝግ
+      duplicate: ማባዛት።
+  lookup-inquiry-status:
+    name: የጥያቄ ሁኔታ
+    lookup_values:
+      open: ክፈት
+      closed: ዝግ
+  lookup-language:
+    name: ቋንቋ
+    lookup_values:
+      language1: "ቋንቋ1 "
+      language2: ቋንቋ 2
+      language3: ቋንቋ 3
+      language4: ቋንቋ 4
+      language5: ቋንቋ 5
+      language6: ቋንቋ 6
+      language7: ቋንቋ 7
+      language8: ቋንቋ 8
+      language9: ቋንቋ 9
+      language10: ቋንቋ 10
+  lookup-location-type:
+    name: የአካባቢ አይነት
+    lookup_values:
+      country: ሀገር
+      region: ክልል
+      province: ክፍለ ሀገር
+      district: ወረዳ
+      governorate: ጠቅላይ ግዛት
+      chiefdom: አለቃነት
+      state: ግዛት
+      city: ከተማ
+      county: ሀገር
+      camp: ካምፕ
+      site: ጣቢያ
+      village: መንደር
+      zone: ዞን
+      sub_district: ንዑስ አውራጃ
+      locality: አካባቢ
+      prefecture: ክልል
+      sub-prefecture: ንኡስ ክልል
+      commune: መግባባት
+      payam: ፓይም
+      parish: ደብር
+      municipality: ማዘጋጃ ቤት
+      other: ሌላ
+  lookup-marital-status:
+    name: የጋብቻ ሁኔታ
+    lookup_values:
+      single: ነጠላ
+      married_cohabitating: ባለትዳር/ አብሮ የሚኖር
+      divorced_separated: የተፋታ/የተለያየ
+      widowed: ባል የሞተባት
+  lookup-marital-status-unknown:
+    name: የጋብቻ ሁኔታ
+    lookup_values:
+      single: ነጠላ/ያላገባ
+      married_cohabitating: ባለትዳር/ አብሮ የሚኖር
+      divorced_separated: የተፋታ/የተለያየ
+      widowed: ባል የሞተባት
+      unknown_not_applicable: ያልታወቀ/የማይተገበር
+  lookup-marital-status-with-spouse:
+    name: የጋብቻ ሁኔታ
+    lookup_values:
+      single: ነጠላ/ያላገባ
+      married_cohabitating: ባለትዳር/ አብሮ የሚኖር
+      divorced_separated: የተፋታ/የተለያየ
+      widowed: ባል የሞተባት
+      with_spouse: ከአጋር/የትዳር ጓደኛ ጋር
+  lookup-nationality:
+    name: ዜግነት
+    lookup_values:
+      nationality1: ዜግነት 1
+      nationality2: ዜግነት 2
+      nationality3: ዜግነት 3
+      nationality4: ዜግነት 4
+      nationality5: ዜግነት 5
+      nationality6: ዜግነት 6
+      nationality7: ዜግነት 7
+      nationality8: ዜግነት 8
+      nationality9: ዜግነት 9
+      nationality10: ዜግነት 10
+  lookup-number-range-one-to-ten:
+    name: 3
+    lookup_values:
+      '1': '1'
+      '2': '2'
+      '3': '3'
+      '4': '4'
+      '5': '5'
+      '6': '6'
+      '7': '7'
+      '8': '8'
+      '9': '9'
+      '10': '10'
+  lookup-perpetrator-relationship:
+    name: ከአጥቂው ጋር ያለው ግንኙነት
+    lookup_values:
+      intimate_partner_former_partner: የቅርብ አጋር / የቀድሞ አጋር
+      primary_caregiver: የመጀመሪያ ደረጃ ተንከባካቢ
+      family_other_than_spouse_or_caregiver: ከትዳር ጓደኛ ወይም ተንከባካቢ ሌላ ቤተሰብ
+      supervisor_employer: ተቆጣጣሪ / ቀጣሪ
+      schoolmate: የትምህርት ቤት ጓደኛ
+      teacher_school_official: መምህር / የትምህርት ቤት ባለሥልጣን
+      service_provider: አገልግሎት አቅራቢ
+      cotenant_housemate: ኮቴነንት / የቤት ጓደኛ
+      family_friend_neighbor: የቤተሰብ ጓደኛ / ጎረቤት
+      other_refugee_idp_returnee: ሌላ ስደተኛ  / ተመላሽ
+      other_resident_community_member: ሌላ ነዋሪ የማህበረሰብ አባል
+      other: ሌላ
+      no_relation: ዝምድና የለም።
+      unknown: ያልታወቀ
+  lookup-protection-concerns:
+    name: ጥበቃ ስጋቶች
+    lookup_values:
+      physical_abuse_violence: አካላዊ ጥቃት / ጥቃት
+      sexual_abuse_violence: ወሲባዊ ጥቃት / ጥቃት
+      rape: መደፈር
+      emotional_or_psychological: ስሜታዊ ወይም ሥነ ልቦናዊ ጥቃት / ጥቃት
+      neglect: ችላ ማለት
+      abandonment: መተው
+      child_labour: የሕፃናት ጉልበት ብዝበዛ (ከዚህ የከፋ አይደለም)
+      hazardous_work: አደገኛ ሥራ
+      sexual_exploitation: ወሲባዊ ብዝበዛ
+      slavery_sale_abduction: ባርነት / ሽያጭ / ጠለፋ / ማዘዋወር / የግዳጅ ሥራ
+      in_conflict_with_the_law: ከህግ ጋር የሚጋጭ
+      associated_with_armed: ከታጠቁ ኃይሎች ወይም ቡድኖች ጋር የተቆራኘ
+      deprived_of_liberty: ነፃነት የተነፈገ / በእስር ላይ
+      serious_medical_condition: ከባድ የሕክምና ሁኔታ
+      functional_difficulty_seeing: የተግባር ችግር (ማየት፣ መነጽር ቢያደርግም)
+      functional_difficulty_hearing: የተግባር ችግር (መስማት፣ የመስማት ችሎታ መርጃዎችን ቢጠቀሙም)
+      functional_difficulty_walking: የተግባር ችግር (መራመድ ወይም የአካል ክፍሎችን መጠቀም)
+      functional_difficulty_remembering: የተግባር ችግር (ማስታወስ ወይም ማተኮር)
+      difficulty_with_self_care: ራስን የመንከባከብ ችግር ለምሳሌ እርሷን መመገብ ወይም መልበስ (ከሌሎች ተመሳሳይ ዕድሜ ካላቸው ልጆች ጋር ሲወዳደር)
+      difficulty_communicating: የመግባባት ችግር
+      unaccompanied: ያልታጀበ
+      separated: ተለያይተዋል።
+      orphan: ወላጅ አልባ
+      psychosocial_distress: የስነ-ልቦና-ማህበራዊ ጭንቀት
+      mental_disorder: የአእምሮ ሕመም
+      substance_abuse: የዕፅ ሱስ እና ሱስ (ልጅ)
+      belongs_to_marginalised: የተገለሉ/የተገለሉ ቡድኖች አባል ናቸው።
+      lack_of_documentation_birth_registration: የሰነድ እጥረት / የልደት ምዝገባ
+      child_marriage: የልጅ ጋብቻ
+      female_genital_mutilation_fgm: "የሴት ልጅ ግርዛት "
+      pregnancy_child_parent: እርግዝና / ልጅ ወላጅ
+      denial_of_resources_opportunities_or_services: የሀብት፣ እድሎች ወይም አገልግሎቶች መከልከል
+      highly_vulnerable_care: ከፍተኛ ተጋላጭነት ያለው እንክብካቤ ዝግጅት
+      child_survivor_of_explosive: "ከፈንጂ የተረፉ ሕጻናት "
+      other: ሌላ
+  lookup-protection-status:
+    name: የጥበቃ ሁኔታ
+    lookup_values:
+      unaccompanied: ያልታጀበ
+      separated: ተለያይተዋል።
+  lookup-religion:
+    name: ሃይማኖት
+    lookup_values:
+      religion1: ሃይማኖት1
+      religion2: ሃይማኖት2
+      religion3: ሃይማኖት3
+      religion4: ሃይማኖት4
+      religion5: ሃይማኖት5
+      religion6: ሃይማኖት6
+      religion7: ሃይማኖት7
+      religion8: ሃይማኖት8
+      religion9: ሃይማኖት9
+      religion10: ሃይማኖት10
+  lookup-reporting-location-type:
+    name: የአካባቢ አይነት ሪፖርት ማድረግ
+    lookup_values:
+      province: ክፍለ ሀገር
+      district: ወረዳ
+  lookup-risk-level:
+    name: የአደጋ/ተጋላጭነት ደረጃ
+    lookup_values:
+      high: ከፍተኛ
+      medium: መካከለኛ
+      low: ዝቅተኛ
+  lookup-separation-cause:
+    name: መለያየት ምክንያት
+    lookup_values:
+      abandoned: የተተወ
+      family_abuse_violence_neglect_exploitation: የቤተሰብ ጥቃት/ጥቃት/ቸልተኝነት/ብዝበዛ
+      death_sickness_of_family_member: የቤተሰብ አባል ሞት / ህመም
+      separation_because_of_fleeing_violence_war: ጥቃት/ጦርነት በመሸሽ ምክንያት መለያየት
+      separation_because_of_fleeing_natural_disaster: የተፈጥሮ አደጋን በመሸሽ ምክንያት መለያየት
+      separation_because_of_fleeing_persecution: ስደትን በመሸሽ መለያየት
+      search_for_employment: ሥራ ፍለጋ
+      search_for_educational_opportunities: የትምህርት እድሎችን ይፈልጉ
+      search_for_services_support: አገልግሎቶችን/ድጋፎችን ፈልግ
+      migration: ስደት
+      organized_population_movement_e_g_evacuation: የተደራጀ የህዝብ ንቅናቄ (ለምሳሌ መልቀቅ)
+      entrusted_into_the_care_of_individual_institution: ለግለሰብ/ተቋም እንክብካቤ የተሰጠ
+      repatriation: ወደ ሀገር መመለስ
+      poverty: ድህነት
+      recruitment_into_armed_forces_or_armed_groups: በታጠቁ ኃይሎች ወይም በታጠቁ ቡድኖች ውስጥ መመልመል
+      abducted_trafficked: ተጠልፏል/በህገወጥ መንገድ ተዘዋውሯል።
+      arrest_detention: እስራት/መታሰር
+      other_please_specify: ሌላ፣ እባክዎን ይግለጹ
+  lookup-service-implemented:
+    name: አገልግሎት ተተግብሯል።
+    lookup_values:
+      not_implemented: አልተተገበረም።
+      implemented: ተተግብሯል
+  lookup-service-referred:
+    name: የተጠቀሰው አገልግሎት
+    lookup_values:
+      internal_referral: የውስጥ ሪፈራል
+      external_referral: የውጭ ሪፈራል
+  lookup-service-referred-gbv:
+    name: የተጠቀሰው አገልግሎት
+    lookup_values:
+      referred: ተጠቅሷል
+      no_referral_service_provided_by_your_agency: ምንም ሪፈራል የለም፣ በእርስዎ ኤጀንሲ የቀረበ አገልግሎት
+      no_referral_services_already_received_from_another_agency: ምንም ሪፈራል የለም፣ አስቀድሞ ከሌላ ኤጀንሲ የተቀበሉ አገልግሎቶች
+      no_referral_service_not_applicable: ሪፈራል የለም፣ አገልግሎት አይተገበርም።
+      no_referral_declined_by_survivor: ሪፈራል የለም፣ በተረፈ ሰው ተቀባይነት አላገኘም።
+      no_referral_service_unavailable: ሪፈራል የለም፣ አገልግሎት የለም።
+  lookup-service-response-type:
+    name: የአገልግሎት ምላሽ አይነት
+    lookup_values:
+      service_provision: የአገልግሎት አቅርቦት
+  lookup-service-type:
+    name: የአገልግሎት ዓይነት
+    lookup_values:
+      alternative_care: አማራጭ እንክብካቤ
+      security_e_g_safe_shelter: ደህንነት (ለምሳሌ አስተማማኝ መጠለያ)
+      education_formal: ትምህርት (መደበኛ)
+      non_formal_education: መደበኛ ያልሆነ ትምህርት
+      family_tracing_and_reunification: የቤተሰብ ፍለጋ እና እንደገና መገናኘት
+      basic_psychosocial_support: መሰረታዊ የስነ-ልቦና-ማህበራዊ እንክብካቤ
+      focuses_non_specialized_mhpss_care: ያተኮረ ልዩ ያልሆነ የአዕምሮ ጤና፣ ስነልቦናዊና ማህበራዊ ድጋፎች
+      specialized_mhpss_services: ልዩ  እንክብካቤየአዕምሮ ጤና፣ ስነልቦናዊና ማህበራዊ ድጋፎች
+      food: ምግብ
+      non_food_items: ምግብ ያልሆኑ እቃዎች
+      cash_assistance: የገንዘብ እርዳታ
+      livelihoods: መተዳደሪያ
+      medical: ሕክምና
+      nutrition: የተመጣጠነ ምግብ
+      legal_support: የህግ ድጋፍ
+      documentation: ሰነድ
+      services_for_children_with_disabilities: የአካል ጉዳተኛ ልጆች አገልግሎቶች
+      sexual_and_reproductive_health: የጾታ እና የመራቢያ ጤና
+      shelter: መጠለያ
+      wash: መታጠብ
+      durable_solution_in_coordination_with_unhcr: ዘላቂ መፍትሄ (በማስተባበር
+      relocation: ማዛወር
+      other_please_specify: ሌላ
+  lookup-time-of-day:
+    name: የቀን ሰዓት
+    lookup_values:
+      morning: ጠዋት
+      noon: ቀትር
+      evening: ምሽት
+      night: ለሊት
+  lookup-tracing-status:
+    name: የመከታተያ ሁኔታ
+    lookup_values:
+      open: ክፈት
+      tracing_in_progress: ፍለጋ በሂደት ላይ
+      verified: የተረጋገጠ
+      reunified: የተዋሃደ
+      closed: ዝግ
+  lookup-transition-type:
+    name: የሽግግር ዓይነት
+    lookup_values:
+      referral: ሪፈራል
+      reassign: እንደገና መመደብ
+      transfer: ማስተላለፍ
+      transfer_request: የማስተላለፊያ ጥያቄ
+  lookup-unaccompanied-separated-status:
+    name: አብሮ የሌለው የተለየ ሁኔታ
+    lookup_values:
+      'no': 'አይ'
+      unaccompanied_minor: የማይታጀብ አናሳ
+      separated_child: የተለየ ልጅ
+      other_vulnerable_child: ወላጅ አልባ ወይም ደካማ ልጅ
+  lookup-unhcr-needs-codes:
+    name: Unhcr ኮዶችን ይፈልጋል
+    lookup_values:
+      cr-cp: ግልጽ ያልሆነ
+      cr-cs: ግልጽ ያልሆነ
+      cr-cc: ግልጽ ያልሆነ
+      cr-tp: ግልጽ ያልሆነ
+      cr-lw: ግልጽ ያልሆነ
+      cr-lo: ግልጽ ያልሆነ
+      cr-ne: ግልጽ ያልሆነ
+      cr-se: ግልጽ ያልሆነ
+      cr-af: ግልጽ ያልሆነ
+      cr-cl: ግልጽ ያልሆነ
+      sc-ch: ግልጽ ያልሆነ
+      sc-ic: ግልጽ ያልሆነ
+      sc-fc: ግልጽ ያልሆነ
+      ds-bd: ግልጽ ያልሆነ
+      ds-df: ግልጽ ያልሆነ
+      ds-pm: ግልጽ ያልሆነ
+      ds-ps: ግልጽ ያልሆነ
+      ds-mm: ግልጽ ያልሆነ
+      ds-ms: ግልጽ ያልሆነ
+      ds-sd: ግልጽ ያልሆነ
+      sm-mi: ግልጽ ያልሆነ
+      sm-mn: ግልጽ ያልሆነ
+      sm-ci: ግልጽ ያልሆነ
+      sm-cc: ግልጽ ያልሆነ
+      sm-ot: ግልጽ ያልሆነ
+      fu-tr: ግልጽ ያልሆነ
+      fu-fr: ግልጽ ያልሆነ
+      lp-nd: ግልጽ ያልሆነ
+      tr-pi: ግልጽ ያልሆነ
+      tr-ho: ግልጽ ያልሆነ
+      tr-wv: ግልጽ ያልሆነ
+      sv-va: ግልጽ ያልሆነ
+      lp-an: ግልጽ ያልሆነ
+      lp-md: ግልጽ ያልሆነ
+      lp-ms: ግልጽ ያልሆነ
+      lp-rr: ግልጽ ያልሆነ
+  lookup-verification-status:
+    name: የማረጋገጫ ሁኔታ
+    lookup_values:
+      verified: የተረጋገጠ
+      unverified: ያልተረጋገጠ
+      pending_verification: ማረጋገጫ በመጠባበቅ ላይ
+      falsely_attributed: በሐሰት ተወስኗል
+      rejected: ውድቅ ተደርጓል
+  lookup-workflow:
+    name: የስራ ፍሰት
+    lookup_values:
+      new: አዲስ ጉዳይ
+      closed: ጉዳዩ ተዘግቷል።
+      reopened: ጉዳዩ እንደገና ተከፍቷል።
+      service_provision: የአገልግሎት አቅርቦት
+      services_implemented: ሁሉም የምላሽ አገልግሎቶች ተግባራዊ ሆነዋል
+      case_plan: የጉዳይ እቅድ
+  lookup-yes-no:
+    name: አዎ ወይም አይ
+    lookup_values:
+      'true': 'አዎ'
+      'false': 'አይ'
+  lookup-yes-no-not-applicable:
+    name: አዎ፣ አይ፣ ወይም አይተገበርም።
+    lookup_values:
+      'true': 'አዎ'
+      'false': 'አይ'
+      not_applicable: ተፈፃሚ የማይሆን
+  lookup-yes-no-undecided:
+    name: አዎ፣ አይ፣ ወይም አልወሰንም።
+    lookup_values:
+      'true': 'አዎ'
+      'false': 'አይ'
+      undecided: አልተወሰነም።
+  lookup-yes-no-unknown:
+    name: አዎ፣ አይ፣ ወይም ያልታወቀ
+    lookup_values:
+      'true': 'አዎ'
+      'false': 'አይ'
+      unknown: ያልታወቀ

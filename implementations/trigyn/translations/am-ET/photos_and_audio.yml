@@ -1,0 +1,10 @@
+---
+am-ET:
+  photos_and_audio:
+    name: ፎቶዎች እና ኦዲዮ
+    description: ከህጻናት መዝገብ ጋር የተያያዙ ሁሉም የፎቶ እና የድምጽ ፋይሎች
+    fields:
+      current_photo_key:
+        display_name: የአሁኑ የፎቶ ቁልፍ
+      recorded_audio:
+        display_name: የተቀዳ ኦዲዮ

@@ -1,0 +1,14 @@
+---
+am-ET:
+  referral_transfer:
+    name: ማመሳከሪያዎች እና ማስተላለፎች
+    description: የዝውውር እና የማጣቀሻዎች ዝርዝር
+    fields:
+      transfer_status:
+        display_name: የማስተላለፊያ ሁኔታ
+        option_strings_text:
+          in_progress: በሂደት ላይ
+          accepted: ተቀባይነት አግኝቷል
+          rejected: ውድቅ ተደርጓል
+      transitions:
+        display_name: ማስተላለፎች እና ማጣቀሻዎች

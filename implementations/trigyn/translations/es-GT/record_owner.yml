@@ -1,0 +1,31 @@
+es-GT:
+  record_owner:
+    name: Información de registro
+    description: Información de registro
+    fields:
+      current_owner_separator:
+        display_name: Dueño actual
+      owned_by_text:
+        display_name: Campo/Caso/Trabajador social
+      owned_by:
+        display_name: Código del Gestor de Casos
+      reassigned_tranferred_on:
+        display_name: Reasignado/Transferido
+      owned_by_agency:
+        display_name: Agencia
+      assigned_user_names:
+        display_name: Otros usuarios asignados
+      record_history_separator:
+        display_name: Historial de Registro
+      created_by:
+        display_name: Registro creado por
+      created_by_agency:
+        display_name: Creado por la agencia
+      previously_owned_by:
+        display_name: Dueño anterior
+      previous_agency:
+        display_name: Agencia anterior
+      module_id:
+        display_name: Módulo
+      reopened_logs:
+        display_name: Caso reabierto

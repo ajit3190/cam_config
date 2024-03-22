@@ -1,0 +1,9 @@
+uk:
+  reopened_logs:
+    name: Справу перевідкрито
+    description: Субформа Перевідкриття справи
+    fields:
+      reopened_date:
+        display_name: Дата перевідкриття
+      reopened_user:
+        display_name: Перевідкрито ким

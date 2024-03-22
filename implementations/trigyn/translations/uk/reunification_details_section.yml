@@ -1,0 +1,44 @@
+uk:
+  reunification_details_section:
+    name: Вкладене Воз`єднання
+    description: Субформа Воз`єднання
+    fields:
+      name_reunified_adult:
+        display_name: Ім’я дорослого, з яким було воз`єднано дитину
+      relationship_reunified_adult:
+        display_name: Відношення дорослого до дитини
+      address_reunified_adult:
+        display_name: Адреса
+      location_reunified_adult:
+        display_name: Місцезнаходження дорослого, з яким возз’єдналася дитина
+      address_reunification:
+        display_name: Адреса, де відбувається возз’єднання
+      location_reunification:
+        display_name: Місце, де відбувається об’єднання
+      reunification_type:
+        display_name: Тип воз`єднання
+        option_strings_text:
+          case_by_case: Від випадку до випадку
+          informal_spontaneous: Неформальне/Спонтанне
+          mass_tracing: Масове відстеження
+          mediation: Медіація
+          other: Інше (будь ласка, вкажіть)
+          photo_tracing: Відстеження фотографій
+          spontaneous: Спонтанне
+      date_reunification:
+        display_name: Дата воз`єднання
+      child_reunited_with_verified_adult:
+        display_name: Чи була дитина возз’єднана з перевіреним дорослим?
+      not_reunited_with_verified_adult_reason:
+        display_name: Якщо ні, то яка причина зміни?
+        option_strings_text:
+          change_of_mind: Зміна думки
+          death: Смерть
+          death_of_adult: Смерть дорослого
+          failed_verification: Провалена верифікація
+          n_a: Не застосовується
+          other: Інше (будь ласка, вкажіть)
+      reunification_follow_up_needed:
+        display_name: Чи є необхідність подальшого спостереження?
+      closure_recommendation:
+        display_name: Якщо ні, то чи рекомендуєте ви закрити справу?

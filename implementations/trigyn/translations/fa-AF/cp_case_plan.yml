@@ -1,0 +1,48 @@
+fa-AF:
+  cp_case_plan:
+    name: پلان قضیه
+    description: پلان قضیه
+    fields:
+      case_plan_approved:
+        display_name: 'توسط منجر تآیید شد '
+        tick_box_label: 'بلی'
+      case_plan_approved_date:
+        display_name: تاریخ
+      case_plan_approved_comments:
+        display_name: نظریات منجر
+      approval_status_case_plan:
+        display_name: 'حالت تآییدی '
+      case_plan_section_header:
+        display_name: پلان قضیه
+      date_case_plan:
+        display_name: تاریخ   آغاز قضیه
+        help_text: این  بخش برای وضعیت جریان کار استفاده می شود
+      date_case_plan_agreed:
+        display_name: تاریخ موافقت پلان قضیه
+      protection_concerns:
+        display_name: 'نگرانی های امنیتی '
+      protection_concerns_other:
+        display_name: 'اگر وغیره لطفآ مشخص کنید '
+      case_plan_separator:
+        display_name: 'هدف کلی پلان قضیه '
+      case_plan_goal:
+        display_name: 'هدف کلی '
+        help_text: ' هدف  SMART (مشخص، قابل اندازه گیری ، قابل دستیابی /  ، واقع گرایانه / مرتبط و با محدودیت زمانی)را تشریح کنید .'
+      case_plan_header:
+        display_name: پلان اقدامات و حدمان که باید ارایه شود .
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: 'پلان اقدامات و حزییات حدمات '
+      approval_separator:
+        display_name: 'تآیید ومواققت '
+      interventions_names_involved:
+        display_name: 'تام و قرابت به طفل و شخصی که در ساختن پلان دخیل است '
+      interventions_details_disagree:
+        display_name: جزییات کسی که با بخشی از پلان موافق نیست و چرا
+      interventions_child_involved:
+        display_name: آیا طفل در شاختن پلان دخیل بود ؟
+      interventions_steps:
+        display_name: اگر نه چرا ؟
+      interventions_caregiver_involved:
+        display_name: آیا مراقبت کننده در ساختن پلان دخیل بود .ا
+      interventions_caregiver_steps:
+        display_name: گر نه چرا؟

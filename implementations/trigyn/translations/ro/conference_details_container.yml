@@ -1,0 +1,7 @@
+ro:
+  conference_details_container:
+    name: Detalii despre Conferință Caz
+    description: Detalii despre Conferință Caz
+    fields:
+      conference_details_subform:
+        display_name: Detalii despre Conferință Caz

@@ -1,0 +1,55 @@
+fr:
+  services_section:
+    name: Services
+    description: 'Formulaire des services '
+    fields:
+      service_response_type:
+        display_name: Type de reponse
+      service_type:
+        display_name: 'Type de service '
+        guiding_questions: |-
+          1. Santé mentale et soutien psychosocial de base - Espaces sécurisés (y compris les espaces amis des enfants et des bébés), groupes de pairs, clubs de jeunes, formation aux compétences de la vie courante et groupes de soutien.
+          2. Santé mentale et soutien psychosocial non spécialisés - Soins psychosociaux non spécialisés par le biais de la gestion des cas de protection de l'enfant, des premiers soins psychologiques, d'une intervention psychologique individuelle ou collective basée sur des preuves/informations fournies par des non-spécialistes, notamment des travailleurs sociaux, des agents chargés de la gestion des cas, des bénévoles communautaires, des agents de santé, etc.
+          3. Santé mentale et soutien psychosocial spécialisé - Soins psychologiques, psychiatriques ou autres soins de santé mentale individualisés dispensés par des professionnels de la santé mentale.
+      service_type_other:
+        display_name: Si autre, précisez
+      service_referral:
+        display_name: 'Type de référence '
+      service_response_day_time:
+        display_name: 'Date de la référence '
+      service_appointment_date:
+        display_name: 'Date de début du service '
+      service_implementing_agency:
+        display_name: 'Agence de mise en œuvre '
+      service_provider:
+        display_name: 'Prestataire de service '
+      service_delivery_location:
+        display_name: Lieu de prestation de service
+      service_implementing_agency_individual:
+        display_name: 'Nom du prestataire de service '
+      service_status_referred:
+        display_name: 'Référé ? '
+        tick_box_label: 'Oui'
+      service_location:
+        display_name: 'Lieu du service '
+      service_referral_notes:
+        display_name: Notes
+      service_implemented:
+        display_name: 'Service mis en œuvre ?  '
+      service_implemented_day_time:
+        display_name: Service terminé
+      details_service_provided:
+        display_name: Détails / commentaires sur le service fourni
+      recommendations_followup:
+        display_name: 'Recommandation pour le suivi '
+      accountability_separator:
+        display_name: 'Redevabilité '
+        help_text: Le gestionnaire de cas doit demander à l'enfant ce qu'il pense du service fourni (d'une manière adaptée à son âge, par exemple en choisissant des visages souriants)
+      focal_agency_location:
+        display_name: Le niveau de satisfaction de l'enfant par rapport au service fourni
+      suggestions_improvement:
+        display_name: Suggestions d'amélioration de l'enfant
+      caregivers_satisfaction:
+        display_name: Le niveau de satisfaction de la personne en charge de l'enfant par rapport au service fourni
+      caregivers_suggestions:
+        display_name: Suggestion d'amélioration de la personne en charge de l'enfant

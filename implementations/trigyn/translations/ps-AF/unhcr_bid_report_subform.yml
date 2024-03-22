@@ -1,0 +1,83 @@
+ps-AF:
+  unhcr_bid_report_subform:
+    name: راپور BID UNHCR د
+    description: راپور فرعي فورمه BID UNHCR د
+    fields:
+      bid_date:
+        display_name: ' د مرکې نیټه BIDد'
+      bid_participants:
+        display_name: د مرکې ټولو برخه وال لیست کړئ
+        help_text: مرکه شوی شخص ، مرکه کوونکی ، او ترجمان (چې مناسب وي) شامل يې کړئ
+      bid_separation_status:
+        display_name: د ماشوم د جلا کیدو وضعیت
+        option_strings_text:
+          unaccompanied: داسې ماشوم چې له خپلې کورنی جدا وي خو له خپلو خپلوانو سره نه اوسې
+          separated: داسې ماشوم چې له خپلې کورنی جدا وي خو له خپلو خپلوانو سره اوسې
+          orphan: یتیم
+          none_of_the_above: له پورتنیو څخه یو هم نه
+      bid_purpose:
+        display_name: 'هدف BIDد '
+        option_strings_text:
+          durable_solution: ' دوامداره حل لاره'
+          family_reunification: د کورنۍ سره یوځای کیدنه
+          temporary_care_arrangements: د لنډمهاله پاملرنې تنظیمات
+          separation_from_parents_caregiver: له والدینو او له سرپرست څخه جلاوالی
+          other: نور
+      bid_purpose_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      bid_priority:
+        display_name: د قضیې لومړیتوب
+        option_strings_text:
+          emergency: عاجل
+          high: لوړ
+          medium: منځنی
+          low: ټیټ
+      bid_priority_reasons:
+        display_name: د دې لومړیتوب لپاره دلیلونه
+      bid_specific_needs:
+        display_name: د ماشوم ځانګړې اړتیاوې
+      bid_brief_summary:
+        display_name: مهرباني وکړئ په لنډ ډول د کليدو مسلو لنډېز ولیکئ
+        guiding_questions: د مثال په توګه د پاملرنې اوسنۍ تنظیمات ، د والدینو او کورنۍ په اړه معلومات ، اوهغه اختیارات چې تر لاس لاندې دي.
+      bid_separator_recommendations:
+        display_name: اختیارونه او وړاندیزونه
+      bid_child_history:
+        display_name: مهرباني وکړئ د الوتنې / جلا کیدو څخه دمخه او دوران کې د ماشوم پس منظر ولیکئ.
+        guiding_questions: ' د الوتنې / جلا کیدو په اړه د ماشوم یادونه پکې شامل کړئ ، او همدا شان هغه شواهد چې د ماشوم نږدې کسانو لخوا چمتو شوي (که مرکه ورسره شوې وي). په ګوته کړئ چې دا معلومات څنګه تایید دي.'
+      bid_current_situation:
+        display_name: مهرباني وکړئ د ماشوم اوسني ژوند وضعیت تشریح کړئ
+        guiding_questions: |-
+          پکې شامل کړئ
+          د اوسنی پاملرنې تنظیم ، د ژوند شرایط ، خوندیتوب ، د رضاعي والدینو / خویندو / سرپرستانو / کورنۍ غړو سره اړیکې؛
+          -  د ټولنې شبکې ، ښوونه او روزنه او په ښوونځي کې شاملیت
+          - د ماشوم عمر او  پوخوالي ارزیابی ، فزیکي او رواني روغتیا او  ځانګړو اړتیاوو ارزونه. مهرباني وکړئ ووایاست چې له چا سره اړیکه نیول شوې او چا معلومات برابر کړي ، د مثال په توګه ماشوم ، کورنۍ ، ماشوم ته نږدې اشخاص ، سرپرست ، ښوونکي ، ګاونډیان ، ټولنیز کارګران / د انجیو کارمندان.
+      bid_available_options:
+        display_name: مهرباني وکړئ ټول موجود اختیارات تعقیب کړئ او د هر څه تعقیبي میکانیزمونه او تحلیل.
+        guiding_questions: |-
+          مهرباني وکړئ د لاندې عواملو لاندې ، د ماشوم په غوره ګټو کې د وړاندیز کولو لپاره په ضمیمه 9 چیک لست کې شامل ټولو عواملو ته مراجعه وکړئ:
+          - د ماشوم نظریات
+          - کورنۍ او نږدې اړیکې
+          - خوندي چاپیریال
+          - پرمختیا او پیژندنل شوې اړتیاوې
+      bid_final_recommendations:
+        display_name: مهرباني وکړئ وروستی وړاندیز او دلایل وړاندې کړئ
+      bid_separator_panel_decision:
+        display_name: د پینل پریکړه
+      bid_date_panel_decision:
+        display_name: د پینل د پریکړې نیټه
+      bid_panel_members:
+        display_name: د  پینل د ټولو غړو نومونه او اړونده ادارې
+      bid_panel_decision:
+        display_name: 'پینل:'
+        option_strings_text:
+          approves_the_recommendations: وړاندیزونه تصویب کوي
+          defers_decison_please_explain_why: د مدافعینو پریکړه (مهرباني وکړئ روښانه کړئ چې ولې)
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: وړاندیزونه نه مني (مهرباني وکړئ تشریح کړئ چې د پینل وړاندیز ولې چمتو شی)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: قضیه بیا پرانيستل کیږي (مهرباني وکړئ تشریح کړئ چې ولې ، او چا د بیا خلاصولو غوښتنه کړې)
+          closes_the_case: قضیه بندوي
+      bid_panel_decision_reasons:
+        display_name: د دې پریکړې بشپړ دلیلونه
+      bid_panel_decision_actions:
+        display_name: اړینې تعقیبې کړنې بیان کړئ
+      bid_panel_comments:
+        display_name: تبصرې

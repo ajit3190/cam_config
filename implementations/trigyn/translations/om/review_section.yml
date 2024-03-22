@@ -1,0 +1,68 @@
+---
+om:
+  review_section:
+    name: Gamaaggama goojjoo/daa'ima iddoo argatee.
+    description: Guca xixiqqaa gamaaggamaa.
+    fields:
+      review_form_date:
+        display_name: Unka/Guyyaa xumurame.
+        help_text: guyyaa/ji'a /bara.
+      review_separator:
+        display_name: Ibsa tarreeffamoota walga'ii gamaaggamaa.
+      review_date:
+        display_name: Guyyaa walga'ii gamaaggamaa.
+        help_text: guyyaa/ji'a/bara.
+      previous_review_date:
+        display_name: Guyyaa walga'ii gamaaggama duraanii.(yoo barbaachisaa ta'e)
+        help_text: guyyaa/ji'a /bara
+      was_child_present:
+        display_name: "Daa'imni  iddoo sanitti argameeraa?"
+      how_child_review:
+        display_name: "Yoo hindhiyaanne ta'e,daa'imni sun akkamitti gamaaggama keessatti qooda fudhate?"
+      was_caregiver_present:
+        display_name: "Kunuunsaan daa'imaa iddoo gamaaggamaatti argameeraa?"
+      how_caregiver_review:
+        display_name: "Hin argamne taanaan, kunuunsaan daa'imaa kun akkamitti gamaaggama keessatti qooda fudhate?"
+      outcome_review_separator:
+        display_name: Bu'aawwan walga'ii gamaaggamaa.
+      review_childs_situation:
+        display_name: Gamaaggama haala daa'maa yeroo ammaa keessa jiru irratti taasisame.
+        help_text: Haala waliigalaa daa'imni yeroo  ammaa keessa jiru  akkaatuma walga'ii gamaaggamaa irratti mari'atameen ibsaa.
+      review_implementation:
+        display_name: Gamaaggama raawwii karoora dhimmaa irratti taasisame.
+        help_text: Akkaataa karoora dhimmaa keessatti adda baasamani tarraa'anii fi yeroo walga'ii gamaaggamaa irratti mari'ataman irratti hundaa'uun  sadarkaa tarkaanfiiwwan fudhatamanii fi tajaajiloota kennamanii madaalaa.
+      review_progress_goal:
+        display_name: Gamaaggama fooyya'insa kaayoo/galma  waliigalaa  karoora dhimmaa irratti taasisame.
+        help_text: Akkaataadhuma yeroo  walga'ii  gamaaggamaa irratti mari'atameen fooyya'insa galma gahiinsa  kaayoo waliigalaa karoora dhimmaa keesstti mul'ate madaalaa.
+      review_other_notes:
+        display_name: Yeroo walga'ii gamaaggamaa  keessatti  yaadannoowwan/hubannowwan biraa jiran.
+      next_steps_separator:
+        display_name: Tarkaanfiiwwan itti aanan.
+      review_situation_change:
+        display_name: "  Haalli daa'imichaa sakatta'insi biraa akka adeemsisamu  bifa dirqisiisuun jijjirameeraa?"
+      situation_change_details:
+        display_name: Bal'ina isaa dhiyeessaa maaloo.
+      adjustments_case_plan:
+        display_name: "Karoora dhimmichaa keessatti sirreeffamoonni barbaachisan jiruu?"
+      adjustment_details:
+        display_name: Bal'ina isaa dhiyeessaa maaloo.
+      risk_level_changed:
+        display_name: "Sadarkaan balaa dhimmaa jijjirameeraa?"
+      action_conducted:
+        display_name: "Yoo eeyyen ta'e, sadarkaa balaa haaraa jiru."
+        option_strings_text:
+          high: Olka'aa/ol'aanaa.
+          medium: Giddugaleessa.
+          low: Gadi aanaa.
+          'no': 'Miti.'
+      risk_level_details:
+        display_name: "Yoo eeyyen ta'e,bal'inaan dhiyeessaa maaloo."
+      recommend_close_case:
+        display_name: "Dhimmi akka cufamu  gorsa/yaada ni kennitaa?"
+      close_case_details:
+        display_name: Bal'inaan dhiyeessaa maaloo.
+      next_case_review:
+        display_name: "Gamaaggama dhimmaa itti aanu adeemsisuuf fedhiin jiraa?"
+      date_next_review:
+        display_name: "Eeyyen yoo ta'e,guyyaa walga'ii gamaaggamaa itti aanuu."
+        help_text: guyyaa/ji'a/bara.

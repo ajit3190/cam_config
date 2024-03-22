@@ -1,0 +1,46 @@
+---
+om:
+  child_wishes:
+    name: Fedhii daa'imaa
+    description: Fedhii daa'imaa
+    fields:
+      wishes_child_family_tracing:
+        display_name: "Daa'imni akka miseensootni maatii isa/eshi barbaadaman ni fedha/feeti?"
+      wishes_reason_no_tracing:
+        display_name: Yoo daa'imni maatiin isaa akka hin barbaadne fedhe maaliif akka ta'e ibsi.
+      wishes_reunification:
+        display_name: "Daa'imni maatitti deebi'uu ni fedha?"
+        option_strings_text:
+          yes_as_soon_as_possible: "Eeyyaan,yeroo dhiyyootti"
+          yes_but_later: "Eeyyeen,garuu booda/turee"
+          not_sure: Ifaa miti
+          'no': 'Lakki'
+      wishes_reason_no_reunification:
+        display_name: "Yoo ''lakki,ifaa miti' ykn eeyyeen,garuu turee'' ta'e maaliif akka ta'e ibsi"
+      wishes_contacted:
+        display_name: "Daa'imni fira isaa waliin wal-arguu/qunnamuu keenya aga'ee/ageessee?"
+      wishes_contacted_details:
+        display_name: Maaloo ibsa dabalataa kenni
+      child_preferences_section:
+        display_name: Filannoo daa'imaa
+      wishes_care_arrangement_desired:
+        display_name: "Daa'imni tajaajila kunuunsaa yeroo ammaa keninuuf itti fufuuf fedhii qaba?"
+      wishes_reason_no_care_arrangement:
+        display_name: "Yoo daa'imni  tajaajila kuunsaa yeroo ammaa  kennaa jirruufii  hin barbaadne ta'e maaliif akka  ta'e ibsi. "
+      wishes_care_arrangement_type_desired:
+        display_name: "Tajaajila kunuunsaa daa'imni barbaadu maali?"
+        option_strings_text:
+          independent_living: Jireenya qofaa
+          alternative_interim_care: Filannoowwan kunuunsaa yeroo
+          with_husband_wife_partner: Abbaa manaa/haadha manaa/maatii waliin
+          other_family: Maatii biroo
+          dont_know: Hin beeku
+          other: Kan biroo
+      wishes_care_arrangement_type_other:
+        display_name: Tajaajila kunuunsaa daa'imni barbaadu  kan biroo yoo ta'e ibsi.
+      wishes_location_plan_live:
+        display_name: "Daa'imni eessa jiraachuu fedha/karoorsa?"
+      wishes_address_plan_live:
+        display_name: "Jireenya daandii irra jiraachuu fedhaa/karoorsa?"
+      wishes_landmarks_plan_live:
+        display_name: "Daangaaleen  daa'imni jiraachuu barbaadu eessa? "

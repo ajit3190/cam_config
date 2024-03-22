@@ -1,0 +1,64 @@
+es-ES:
+  followup_subform_section:
+    name: Subformulario de seguimiento anidado
+    description: Subformulario de seguimiento anidado
+    fields:
+      followup_needed_by_date:
+        display_name: Seguimiento necesario por
+        help_text: "(Este campo creará un recordatorio en la lista de tareas)."
+      followup_date:
+        display_name: Fecha de seguimiento
+      followup_with_multi:
+        display_name: Seguimiento con
+      other_please_specify:
+        display_name: Si otro, favor especificar
+      followed_up_through:
+        display_name: Seguimiento a través de
+        option_strings_text:
+          phone_call: Llamada telefónica
+          instant_message_sms_whatsapp: Mensajería instantánea/SMS/WhatsApp
+          email: Correo electrónico
+          social_media: Redes sociales
+          ad_hoc_home_visit_child_family: Visita a domicilio Ad-hoc (niño/familia)
+          scheduled_home_visit_child_family: Cronograma de la visita a domicilio (niño/familia)
+          face_to_face_meeting_outside_of_home_child_family: Reuniones presenciales fuera del hogar (niño/familia)
+          face_to_face_meeting_service_provider_and_child_family: Reuniones presenciales (proveedor de servicio y niño/familia)
+          face_to_face_meeting_service_provider_only: Reuniones presenciales (solo proveedor de servicio)
+          community_based_group: Grupo comunitario
+          authorities: Autoridades
+          other: Otro
+      followup_other_specify:
+        display_name: Si otro, favor especificar
+      followed_specific_action:
+        display_name: ¿Dio seguimiento a una acción/servicio específico del plan del caso?
+      specify_action:
+        display_name: Especifique qué acción/servicio (del plan del caso) siguió o qué otro elemento siguió
+      purpose_followup:
+        display_name: Propósito del seguimiento
+        help_text: Describa el motivo del seguimiento de esta acción/servicio/elemento específico
+      followup_result_separator:
+        display_name: Resultado del seguimiento
+      outcome_followup:
+        display_name: Resultado del seguimiento
+        help_text: Ej. detalles sobre la acción tomada/el servicio brindado, los resultados de la acción tomada/el servicio brindado, detalles sobre el cambio en la situación del niño
+      action_conducted:
+        display_name: Si se le dio seguimiento, ¿se llevó a cabo la acción/servicio específico del plan del caso?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          unable_to_determine: Incapaz de determinar
+      situation_changed:
+        display_name: Si se le da seguimiento, ¿ha cambiado significativamente la situación del niño?
+        option_strings_text:
+          'yes': 'Sí'
+          improved: Mejorado
+          declined: Desmejorado
+          'no': 'No'
+          unable_to_determine: Incapaz de determinarse
+      next_steps_separator:
+        display_name: Próximos pasos
+      need_follow_up_visit:
+        display_name: ¿Existe la necesidad de un seguimiento adicional?
+        help_text: Si es necesario realizar un seguimiento adicional, cree una nueva entrada de subformulario para ese seguimiento e ingrese la fecha en que se necesita el seguimiento allí.
+      other_recommend_followup:
+        display_name: ¿Existen otras recomendaciones basadas en el seguimiento realizado?

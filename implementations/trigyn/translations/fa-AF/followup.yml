@@ -1,0 +1,7 @@
+fa-AF:
+  followup:
+    name: 'پیگیری '
+    description: 'پیگیری '
+    fields:
+      followup_subform_section:
+        display_name: 'پیگیری '

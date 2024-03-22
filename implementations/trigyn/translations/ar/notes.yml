@@ -1,0 +1,8 @@
+---
+ar:
+  notes:
+    name: الملاحظات
+    description: الملاحظات
+    fields:
+      notes_section:
+        display_name: الملاحظات

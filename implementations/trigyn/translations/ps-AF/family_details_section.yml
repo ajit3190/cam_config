@@ -1,0 +1,58 @@
+ps-AF:
+  family_details_section:
+    name: د کورنۍ په اړه توضیحات
+    description: د کورنی د توضیحاتو فرعي فورمه
+    fields:
+      relation_name:
+        display_name: نوم
+      relation:
+        display_name: دا څنګه د ماشوم سره تړاو لري؟
+      relation_lives_with_child:
+        display_name: ایا دا شخص د ماشوم سره ژوند کوي؟
+        tick_box_label: 'هو'
+      relation_nickname:
+        display_name: نور نومونه چې ورباندې پیژندل کیږي
+        help_text: د مثال په توګه؛ تخلص ، د کورنۍ دوهم نوم
+      relation_is_alive:
+        display_name: ایا دا د کورنۍ غړی ژوندی دی؟
+        option_strings_text:
+          unknown: نامعلوم
+          alive: ژوندي دي
+          dead: مړ
+      relation_death_details:
+        display_name: که مړ شوی وي ، مهرباني وکړئ توضیحات ورکړئ
+        help_text: 'که معلومه وي د مړيني نیټه پکې ولیکئ'
+      relation_age:
+        display_name: عمر
+      relation_date_of_birth:
+        display_name: د زیږون نیټه
+      relation_age_estimated:
+        display_name: ایا دا اټکلي عمر ده؟
+        tick_box_label: 'هو'
+      relation_national_id:
+        display_name: د هویت پاڼې شمیره
+      relation_unhcr_individual_id:
+        display_name: '  ID UNHCR انفرادي '
+      relation_other_id:
+        display_name: ID بله
+      relation_ethnicity:
+        display_name: توکم
+      relation_sub_ethnicity1:
+        display_name: فرعي نژاد 1
+      relation_sub_ethnicity2:
+        display_name: فرعي نژاد 2
+      relation_occupation:
+        display_name: مسلک
+      relation_address_current:
+        display_name: اوسنی پته (که له ماشوم څخه توپیر ولري)
+      relation_landmark_current:
+        display_name: اوسنی لویه نښه
+      relation_location_current:
+        display_name: اوسنی ځای
+      relation_telephone:
+        display_name: ' تلیفون / د اړیکې نور توضیحات'
+      child_consent_relation_contact:
+        display_name: ایا ماشوم رضایت لري چې له دې شخص سره اړیکه ونیول شي؟
+        tick_box_label: 'هو'
+      no_consent_provide_details:
+        display_name: که نه وي ، توضیحات وړاندې کړئ

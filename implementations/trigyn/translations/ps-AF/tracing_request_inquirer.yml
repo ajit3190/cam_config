@@ -1,0 +1,76 @@
+ps-AF:
+  tracing_request_inquirer:
+    name: پلټونکی
+    description: پلټونکی
+    fields:
+      tracing_request_id:
+        display_name: Long ID
+      short_id:
+        display_name: 'ID د پلټونکي '
+      inquiry_date:
+        display_name: د پلټنې نیټه
+      inquiry_status:
+        display_name: ' د پلټنې حالت'
+      inquirer_details_section:
+        display_name: د پلټونکي توضیحات
+      relation_name:
+        display_name: ' د پلټونکي نوم'
+      relation_nickname:
+        display_name: د پلټونکي تخلص
+      relation_age:
+        display_name: عمر
+      relation_date_of_birth:
+        display_name: د زیږون نیټه
+      relation_language:
+        display_name: ژبه
+      relation_religion:
+        display_name: دین
+      relation_ethnicity:
+        display_name: توکم
+      relation_sub_ethnicity1:
+        display_name: اول فرعي توکم
+      relation_sub_ethnicity2:
+        display_name: دوهم فرعي توکم
+      relation_nationality:
+        display_name: ملیت
+      relation_comments:
+        display_name: اضافي توضیحات او تبصرې
+      contact_information_section:
+        display_name: د اړیکې معلومات
+      relation_address_current:
+        display_name: اوسنی پته
+      relation_location_current:
+        display_name: اوسنی ادرس
+      relation_address_is_permanent:
+        display_name: ایا دا یو دایمي موقعیت دی؟
+      relation_telephone:
+        display_name: ټلیفون
+      separation_history_section:
+        display_name: د جلاوالي تاریخ
+      date_of_separation:
+        display_name: د جلاوالي نیټه
+      separation_cause:
+        display_name: د جلاوالي اصلي دلیل څه وه؟
+      separation_cause_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      separation_evacuation:
+        display_name: ایا جلاوالی د کور څخه د ایستلو په تړاو پیښ شوی؟
+      separation_details:
+        display_name: د جلا کیدو حالت (مهرباني وکړئ توضیحات وړاندې کړئ)
+      address_separation:
+        display_name: د جلاکیدو پته یا ځای
+      location_separation:
+        display_name: د جلاکیدو موقعیت
+      address_last:
+        display_name: وروستی پته
+      landmark_last:
+        display_name: 'وروستی لویه نښه '
+      location_last:
+        display_name: وروستی موقعیت
+      telephone_last:
+        display_name: وروستی تلیفون
+      additional_tracing_info:
+        display_name: نور اضافي معلومات چې تعقیب کې به مرسته وکړي
+      disclosure_other_orgs:
+        display_name: ایا پلټونکی رضایت لري چې راټول شوي معلومات له نورو ادارو سره شریک کړي؟
+        tick_box_label: 'هو'

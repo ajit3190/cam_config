@@ -1,0 +1,7 @@
+es-GT:
+  immediate_concerns:
+    name: Necesidades inmediatas
+    description: Necesidades inmediatas
+    fields:
+      immediate_concern_section:
+        display_name: Necesidades inmediatas

@@ -1,0 +1,100 @@
+es-GT:
+  care_arrangements_section:
+    name: Arreglos de Cuidado Anidados
+    description: Subforma de Arreglos de Cuidado
+    fields:
+      child_caregiver_reason_change:
+        display_name: Si es un nuevo cuidador, explique las razones del cambio
+        option_strings_text:
+          abuse_exploitation: Abuso y Explotación
+          death_of_caregiver: Muerte del Cuidador
+          Education: Educación
+          ill_health_of_caregiver: III Salud del cuidador
+          other: Otro
+          poverty: Pobreza
+          relationship_breakdown: Ruptura de la relación
+      care_arrangements_type:
+        display_name: Cuáles son los arreglos actuales del cuidado del niño?
+        option_strings_text:
+          parent_s: Progenitor (es)
+          step_parent: Padrastro/madrastra
+          customary_caregiver_s: Cuidador (es) habitual (es)
+          adult_sibling: Hermanos adultos
+          kinship_care_extended_family: Cuidador familiar/familia extendida
+          foster_care: Albergue
+          residential_care: Cuidado residencial
+          kafala: Patrocinio
+          independent_living: Vida independiente
+          child_headed_household: Niño cabeza de hogar
+          unrelated_adult: Adulto sin vínculo
+          no_care_arrangement: Ningún arreglo de cuidado
+          other: Otro
+      care_arrangements_type_other:
+        display_name: Si otro, favor especificar
+      name_caregiver_separator:
+        display_name: Si no son los padres, la principal persona a cargo del niño
+      name_caregiver:
+        display_name: Nombre del cuidador actual
+        help_text: "(Si el niño está con los padres, proceder a los arreglos de cuidado)"
+      nickname_caregiver:
+        display_name: Otros nombres o sobrenombres con los que se conoce al cuidador
+        help_text: p. ej. apodo, segundo nombre
+      caregiver_age:
+        display_name: Edad del cuidador
+      caregiver_dob:
+        display_name: Fecha de nacimiento del cuidador (FDN)
+      age_estimated_caragiver:
+        display_name: es la edad estimada?
+        tick_box_label: 'Sí'
+      caregiver_sex:
+        display_name: Sexo
+      caregiver_national_id:
+        display_name: Número de Identificación Nacional
+      caregiver_unhcr_individual_id:
+        display_name: Identificación individual ACNUR
+      caregiver_other_id:
+        display_name: Otra identificación
+      caregiver_related_child:
+        display_name: El cuidador tiene relación con el niño?
+      relationship_caregiver:
+        display_name: Relación con el niño
+      caregiver_know_family:
+        display_name: Si no tienen relación, el cuidador conoce la familia del niño?
+      family_size_under_18:
+        display_name: 'Tamaño de la familia: menos de 18'
+      family_size_over_18:
+        display_name: 'Tamaño de la familia: más de 18'
+      address_caregiver:
+        display_name: Dirección del cuidador
+        guiding_questions: Introduzca la dirección del cuidador aquí, aun cuando pueda ser la misma que la direeción actual del niño, para trazabilidad en caso que el niño se mude o cambie el cuidador
+      location_caregiver:
+        display_name: Locación del cuidador
+      care_arrangement_started_date:
+        display_name: Cuándo comenzaron los arreglos de cuidado?
+      caregiver_willing_to_continue:
+        display_name: El cuidador está dispuesto a continuar el cuidado del niño?
+        option_strings_text:
+          yes_short_term: Sí, a corto plazo
+          yes_long_term: Sí, a largo plazo
+          'no': 'No'
+      caregiver_willing_to_continue_for_how_long:
+        display_name: De ser afirmativo, por cuánto tiempo?
+      caregiver_willing_to_continue_not_reason:
+        display_name: 'Si no está dispuesto a continuar con el cuidado del niño, provea detalles '
+      caregiver_location_status:
+        display_name: Es la dirección actual del cuidador temporal?
+      address_caregiver_future:
+        display_name: De ser afirmativo, cuál será la futura dirección?
+      location_caregiver_future:
+        display_name: Cuál es la futura dirección?
+      telephone_caregiver_future:
+        display_name: Cuál es el futuro teléfono?
+      telephone_caregiver:
+        display_name: Teléfono del cuidador
+        help_text: Introduzca el número telefónico actual del cuidador/detalle de otros contactos
+      child_consent_caregiver_contacted:
+        display_name: El niño dio su consentimiento para que el cuidador fuese contactado?
+      child_consent_caregiver_contacted_no_details:
+        display_name: Si no, de los detalles
+      other_persons_living_in_household:
+        display_name: Otras personas viviendo en el hogar

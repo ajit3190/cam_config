@@ -1,0 +1,9 @@
+fr:
+  reopened_logs:
+    name: 'Cas réouvert '
+    description: 'Formulaire de réouverture de cas '
+    fields:
+      reopened_date:
+        display_name: 'Date de réouverture '
+      reopened_user:
+        display_name: 'Réouvert par '

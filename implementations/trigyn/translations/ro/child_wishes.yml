@@ -1,0 +1,45 @@
+ro:
+  child_wishes:
+    name: Dorințele Copilului
+    description: Dorințele Copilului
+    fields:
+      wishes_child_family_tracing:
+        display_name: Copilul vrea să urmărească membrii familiei?
+      wishes_reason_no_tracing:
+        display_name: Dacă copilul NU dorește urmărirea familiei, explicați de ce
+      wishes_reunification:
+        display_name: Copilul dorește reîntregirea familiei?
+        option_strings_text:
+          yes_as_soon_as_possible: Da, cât mai curând posibil
+          yes_but_later: Da, dar mai târziu
+          not_sure: Incert
+          'no': 'Nu'
+      wishes_reason_no_reunification:
+        display_name: Dacă „Nu”, „Incert” sau „Da, dar mai târziu”, explicați de ce
+      wishes_contacted:
+        display_name: Copilul a aflat de/ a fost în contact cu vreo rudă?
+      wishes_contacted_details:
+        display_name: Te rugăm să introduci detalii
+      child_preferences_section:
+        display_name: Preferințele Copilului
+      wishes_care_arrangement_desired:
+        display_name: Dorește copilul să continue în aranjamentul actual de îngrijire?
+      wishes_reason_no_care_arrangement:
+        display_name: Dacă copilul NU dorește să rămână în aranjamentul actual de îngrijire, explicați de ce
+      wishes_care_arrangement_type_desired:
+        display_name: Tipul de aranjament de îngrijire pe care copilul dorește să îl aibă
+        option_strings_text:
+          independent_living: Independent/ pe cont propriu
+          alternative_interim_care: Îngrijire alternativă temporară
+          with_husband_wife_partner: Cu soțul/ soția/ partenerul
+          other_family: Alți membri ai familiei
+          dont_know: Nespecificat
+          other: Altceva
+      wishes_care_arrangement_type_other:
+        display_name: Dacă tipul de aranjament de îngrijire pe care copilul dorește să îl aibă este Altceva, specificați
+      wishes_location_plan_live:
+        display_name: Unde își dorește/ unde planifică copilul să locuiască?
+      wishes_address_plan_live:
+        display_name: Strada unde dorește/ își planifică copilul să locuiască?
+      wishes_landmarks_plan_live:
+        display_name: Repere unde dorește/ își planifică copilul să locuiască?

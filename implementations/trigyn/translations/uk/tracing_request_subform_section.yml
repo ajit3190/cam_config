@@ -1,0 +1,57 @@
+uk:
+  tracing_request_subform_section:
+    name: Вкладена Субформа Запит на відстеження
+    description: Вкладена Субформа Запит на відстеження
+    fields:
+      matched_case_id:
+        display_name: Відповідний ідентифікатор справи
+      tracing_request_status:
+        display_name: Статус відстеження
+      individual_details_section:
+        display_name: Індивідуальні деталі
+      name:
+        display_name: Ім`я
+      relation:
+        display_name: Як ставиться запитувач до дитини?
+      relation_child_lived_with_pre_separation:
+        display_name: Чи жила дитина з запитувачем до розлучення?
+      name_nickname:
+        display_name: Нікнейм
+      name_other:
+        display_name: Інше ім`я
+      sex:
+        display_name: Стать
+      age:
+        display_name: Вік
+      date_of_birth:
+        display_name: Дата народження
+      physical_characteristics:
+        display_name: Відмінні фізичні характеристики
+      inquirer_special_message:
+        display_name: Спеціальне повідомлення для особи, яку шукають
+      same_separation_details:
+        display_name: Такі ж деталі розділення, що й у формі запиту?
+      separation_details_section:
+        display_name: Інформація про розділення (якщо відрізняється від форми запиту)
+      date_of_separation:
+        display_name: Дата розділення
+      separation_cause:
+        display_name: Що стало основною причиною розлуки?
+      separation_evacuation:
+        display_name: Чи відбулося поділ у зв’язку з евакуацією?
+      separation_details:
+        display_name: Обставини розлуки (будь ласка, надайте деталі)
+      address_separation:
+        display_name: Роздільна адреса (місце)
+      location_separation:
+        display_name: Місце поділу
+      address_last:
+        display_name: Остання адреса
+      landmark_last:
+        display_name: Останній орієнтир
+      location_last:
+        display_name: Останнє розташування
+      telephone_last:
+        display_name: Останній телефон
+      additional_tracing_info:
+        display_name: Додаткова інформація, яка може допомогти у відстеженні?

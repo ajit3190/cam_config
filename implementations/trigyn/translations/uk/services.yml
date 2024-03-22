@@ -1,0 +1,7 @@
+uk:
+  services:
+    name: Послуги
+    description: Форма послуг
+    fields:
+      services_section:
+        display_name: Послуги

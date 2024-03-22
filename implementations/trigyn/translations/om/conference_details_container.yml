@@ -1,0 +1,8 @@
+---
+om:
+  conference_details_container:
+    name: Ibsa gadi fageenyaa konfiransii dhimmaa
+    description: Ibsa gadi fageenyaa konfiransii dhimmaa
+    fields:
+      conference_details_subform:
+        display_name: Ibsa gadi fageenyaa konfiransii dhimmaa

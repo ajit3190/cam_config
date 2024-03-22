@@ -1,0 +1,156 @@
+---
+en:
+  closure_form:
+    name: Closure
+    description: Closure
+    fields:
+      closure_approved:
+        display_name: Approved by Manager
+        tick_box_label: 'Yes'
+      closure_approved_date:
+        display_name: Date
+      closure_approved_comments:
+        display_name: Manager Comments
+      approval_status_closure:
+        display_name: Approval Status
+      approval_obtained_child:
+        display_name: Approved by Child
+        tick_box_label: 'Yes'
+      approval_obtained_caregiver:
+        display_name: Approved by Caregiver
+        tick_box_label: 'Yes'
+      approval_obtained_details:
+        display_name: Please provide details
+        help_text: Include contact details and relationship of caregiver to child
+      status:
+        display_name: Case Status
+      date_closure:
+        display_name: Date of Closure
+      closure_reason:
+        display_name: Primary reason for case closure
+        option_strings_text:
+          overall_goal_of_the_case_plan: Overall goal of the case plan has been met,
+            child is safe from harm, child's care and wellbeing is supported and there
+            are no additional concerns
+          child_has_turned_18_years_old: Child has turned 18 years-old (ensure a transition
+            plan is in place and the case know where and how to access support)
+          relocation_of_child_to_an_area: Relocation of child to an area where there
+            is no agency to transfer the case to
+          child_departed_for_a_durable_solution: Child departed for a durable solution
+            where there is no agency to transfer the case to
+          child_no_longer_contactable: Child no longer contactable (wait at least
+            3 months before closing the case)
+          death_of_child: Death of child
+          no_further_action_possible_required: No further action possible/required
+          case_opened_in_error: Case opened in error
+          other: Other
+      closure_reason_other:
+        display_name: 'If other, please specify '
+      closure_details:
+        display_name: Provide further details on reason for case closure
+      closure_situation_child_separator:
+        display_name: Situation of child at case closure
+      closure_how_long_case_opened:
+        display_name: How long has this case been opened
+        help_text: In weeks
+      closure_current_situation:
+        display_name: Brief summary on current situation of case
+        help_text: Describe history and current situation of the case, including last
+          services provided/actions taken
+      closure_child_moving_separator:
+        display_name: If child is moving to a new location
+      closure_new_child_location:
+        display_name: New address / location where the child is living
+        help_text: Provide as much detail as possible about the location so others
+          can find the location e.g. house, landmark, street, city/village, district,
+          province (adapt according to context)
+      closure_new_telephone_contact_details:
+        display_name: Telephone / other contact details
+      closure_care_arrangements_separator:
+        display_name: Care arrangement at closure
+      closure_current_care_arrangement:
+        display_name: Child's current care / living arrangement
+        option_strings_text:
+          parent_s: Parent(s)
+          step_parent: Step parent
+          customary_caregiver_s: Customary caregiver(s)
+          kafala: Kafala
+          independent_living: Independent living
+          child_headed_household: Child-headed household
+          adult_sibling: Adult sibling
+          kinship_care_extended_family: Kinship care/extended family
+          foster_care: Foster care
+          residential_care: Residential care
+          unrelated_adult: Unrelated adult
+          no_care_arrangement: No care arrangement
+          other: Other
+      closure_current_care_arrangement_other:
+        display_name: If other, please specify
+      closure_current_care_arrangement_permanent:
+        display_name: Is this the permanent care arrangement
+      closure_current_care_arrangement_permanent_no:
+        display_name: If no, please specify why
+      primary_caregiver_separator:
+        display_name: Primary caregiver details
+      name_caregiver_closing:
+        display_name: Caregiver Name
+      relationship_caregiver_closing:
+        display_name: Relationship to child
+      address_caregiver_closing:
+        display_name: Caregiver Address
+      location_caregiver_closing:
+        display_name: Caregiver Location
+      closure_caregiver_contact_details:
+        display_name: Caregiver's telephone / other contact details
+      closure_arrangements_separator:
+        display_name: Arrangements made to support successful closure of the case
+      case_closure_process:
+        display_name: Describe the case closure process
+        help_text: Provide details of meetings held to discuss closure of the case
+          e.g. between the caseworker and the child, between the caseworker and the
+          caregiver(s), between the caseworker and the supervisor.
+      closure_discussed_child:
+        display_name: Has the case closure been discussed and agreed with the child?
+      closure_discussed_child_no:
+        display_name: If no, please specify why
+      closure_discussed_caregiver:
+        display_name: Has the case closure been discussed and agreed with the caregiver(s)?
+      closure_discussed_caregiver_no:
+        display_name: If no, please specify why
+      closure_child_feedback_form:
+        display_name: Has feedback on case management process been gathered from child
+          using 'child feedback form'?
+      closure_child_feedback_form_no:
+        display_name: If no, please specify why
+      closure_caregiver_feedback_form:
+        display_name: Has feedback on case management process been gathered from caregiver
+          using 'caregiver feedback form'?
+      closure_caregiver_feedback_form_no:
+        display_name: If no, please specify why
+      closure_final_followup_meeting:
+        display_name: Has a final follow-up meeting in 3 months' time been planned
+          with the child and/or caregiver(s) to ensure the situation remains stable?
+      closure_final_followup_meeting_no:
+        display_name: If no, please specify why
+      closure_child_case_file_complete:
+        display_name: Is the child's case file complete and up-to-date with all relevant
+          documents included?
+      closure_child_case_file_complete_no:
+        display_name: If no, please specify why
+      closure_case_file_stored:
+        display_name: How will the case file be stored?
+        option_strings_text:
+          electronically: Electronically
+          hard_copy: Hard copy
+          both: Both
+      closure_case_file_stored_date:
+        display_name: Until what date will the child's case file be stored?
+      closure_child_told_contact_support:
+        display_name: Has the child been told who to contact if s/he has questions,
+          concerns or to access support if required?
+      closure_child_told_contact_support_no:
+        display_name: If no, please specify why
+      closure_child_contact_support:
+        display_name: Who has the child been told to contact if s/he has questions,
+          concerns or to access support if required?
+        help_text: Provide names and contact details

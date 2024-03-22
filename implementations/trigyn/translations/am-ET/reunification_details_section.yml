@@ -1,0 +1,45 @@
+---
+am-ET:
+  reunification_details_section:
+    name: ዳግም የማዋሃድ ንዑስ ቅጽ
+    description: እንደገና የማዋሃድ ንዑስ ቅጽ
+    fields:
+      name_reunified_adult:
+        display_name: የጎልማሳ ልጅ ስም እንደገና ተዋህዷል
+      relationship_reunified_adult:
+        display_name: የአዋቂ እና ልጅ ግንኙነት
+      address_reunified_adult:
+        display_name: አድራሻ
+      location_reunified_adult:
+        display_name: ህጻኑ እንደገና የተዋሃደበት የአዋቂ ሰው ቦታ
+      address_reunification:
+        display_name: ዳግም መገናኘቱ የሚካሄድበት አድራሻ
+      location_reunification:
+        display_name: ዳግም መገናኘቱ የሚካሄድበት ቦታ
+      reunification_type:
+        display_name: "ምን ዓይነት ዳግም ማዋሀድ?"
+        option_strings_text:
+          case_by_case: እያንዳንዱን ጉዳዩ
+          informal_spontaneous: መደበኛ ያልሆነ/ድንገተኛ
+          mass_tracing: የጅምላ መፈለግ
+          mediation: ማስታረቅ
+          other: ሌላ (እባክዎ ይግለጹ)
+          photo_tracing: የፎቶ ፍለጋ
+          spontaneous: ድንገተኛ
+      date_reunification:
+        display_name: እንደገና የተዋሃዱበት ቀን
+      child_reunited_with_verified_adult:
+        display_name: "ልጁ ከተረጋገጠው አዋቂ ጋር እንደገና ተቀላቅሏል?"
+      not_reunited_with_verified_adult_reason:
+        display_name: "ካልሆነ የለውጡ ምክንያቱ ምን ነበር?"
+        option_strings_text:
+          change_of_mind: የሀሳብ ለውጥ
+          death: ሞት
+          death_of_adult: የአዋቂዎች ሞት
+          failed_verification: ማረጋገጥ/ውድቅ አልተሳካም።
+          n_a: ተፈፃሚ የማይሆን/አላስፈላጊ
+          other: ሌላ (እባክዎ ይግለጹ)
+      reunification_follow_up_needed:
+        display_name: "ክትትል ያስፈልጋል?"
+      closure_recommendation:
+        display_name: "ካልሆነ ጉዳዩ እንዲዘጋ ትመክራለህ?"

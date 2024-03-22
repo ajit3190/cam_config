@@ -1,0 +1,138 @@
+ps-AF:
+  closure_form:
+    name: بندول
+    description: بندول
+    fields:
+      closure_approved:
+        display_name: د مدیر لخوا منظور شوی
+        tick_box_label: 'هو'
+      closure_approved_date:
+        display_name: نیټه
+      closure_approved_comments:
+        display_name: د مدیر تبصره/ نظرونه
+      approval_status_closure:
+        display_name: د تاییدی وضعیت
+      approval_obtained_child:
+        display_name: د ماشوم لخوا تصویب شوی
+        tick_box_label: 'هو'
+      approval_obtained_caregiver:
+        display_name: د سرپرست لخوا منظور شوی
+        tick_box_label: 'هو'
+      approval_obtained_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+        help_text: د اړیکو د شمارو توضیحات او ماشوم سره د سرپرست د اړیکې په اړه معلومات ورکړئ
+      child_status:
+        display_name: 'د قضیې حالت '
+      date_closure:
+        display_name: د بندولو نیټه
+      closure_reason:
+        display_name: د قضیې د بندیدو لو اصلي علت/دلیل
+        option_strings_text:
+          overall_goal_of_the_case_plan: د قضیې پلان عمومي هدف بشپړ شوی ، ماشوم له زیان څخه خوندي دی ، د ماشوم پاملرنه او هوساینه ملاتړ شوې او اضافي اندیښنې شتون نلري.
+          child_has_turned_18_years_old: ماشوم 18 کلن شوی (ډاډ ترلاسه کړئ چې د لیږد پلان شتون لري او قضیه پوهیږي چې چیرې او څنګه ملاتړ ته لاسرسی ولري)
+          relocation_of_child_to_an_area: ماشوم داسې ّځای کې میشت شوی چېرته چې داسې تون نه لري چې قضیه دوی ته ولیږدول شي
+          child_departed_for_a_durable_solution: ماشوم د دوامداره حل لپاره داسې ځای ته تلیی چیرته جې کومه اداره شتون نه لري ترڅو قضیه دوی ته ولیږدول شي
+          child_no_longer_contactable: ماشوم نور د اړیکې وړ ندی (د قضیې پای ته رسیدو دمخه لږ تر لږه 3 میاشتې انتظار وکړئ)
+          death_of_child: د ماشوم مړینه
+          no_further_action_possible_required: نور هیڅ اقدام شونی یا اړتیا نلري
+          case_opened_in_error: دوسیه په خطا خلاصه شوې وه
+          other: نور
+      closure_reason_other:
+        display_name: 'که نور وي ، مهرباني وکړئ مشخص یې کړئ'
+      closure_details:
+        display_name: د قضیې د بندیدو  په اړه نور دلایل او جزییات وړاندې کړئ
+      closure_situation_child_separator:
+        display_name: د قضیې بندیدو په وخت کې د ماشوم وضعیت
+      closure_how_long_case_opened:
+        display_name: څومره موده کیږي چې دا قضیه خلاصه شوې وه
+        help_text: څو اونی
+      closure_current_situation:
+        display_name: د قضیې اوسني وضعیت لنډیز
+        help_text: د قضیې تاریخ او اوسنی وضعیت تشریح کړئ ، په شمول وروستیو خدمتونو او هغه کړنې چې ترسره شوي دي
+      closure_child_moving_separator:
+        display_name: که چیرې ماشوم یو نوی ځای ته کوچ کوي
+      closure_new_child_location:
+        display_name: نوې پته / موقعیت چیرې چې ماشوم اوسیږي
+        help_text: د موقعیت په اړه د امکان تر حده جزییات برابر کړئ ترڅو نور خلک موقعیت ومومي د مثال په توګه. کور ، لویه نښه ، ښار / کلی ، ولسوالۍ ، ولایت (د شرایطو سره سم یې برابر کړئ
+      closure_new_telephone_contact_details:
+        display_name: ' تلیفون / د اړیکې نور توضیحات'
+      closure_care_arrangements_separator:
+        display_name: د بندولو په وخت کې د پاملرنې بندوبست
+      closure_current_care_arrangement:
+        display_name: پر ماشوم اوسنی پاملرنه/  او د ژوند ترتیب یې
+        option_strings_text:
+          parent_s: مور او پلار
+          step_parent: میرني مور او پلار
+          customary_caregiver_s: رواجي سرپرست
+          kafala: کفاله
+          independent_living: خپلواک ژوند
+          child_headed_household: یو ماشوم د کورنی مشر
+          adult_sibling: بالغ خویندې او وروڼه
+          kinship_care_extended_family: د خپلوانو لخوا پاملرنه/ یا لویه کورنی
+          foster_care: موقتي پاملرنه
+          residential_care: د اوسیدو د ځای لپاره پاملرنه
+          unrelated_adult: غیر متعلقه بالغ شخص
+          no_care_arrangement: د پاملرنې هیڅ بندوبست نشته
+          other: نور
+      closure_current_care_arrangement_other:
+        display_name: که نوي وي، مهرباني وکړئ مشخص یې کړئ
+      closure_current_care_arrangement_permanent:
+        display_name: ایا دا د پاملرنې دایمي تنظیم دی؟
+      closure_current_care_arrangement_permanent_no:
+        display_name: که نه وي، نو مهرباني وکړئ مشخص یې کړئ
+      primary_caregiver_separator:
+        display_name: د اول  سرپرست جزیات
+      name_caregiver_closing:
+        display_name: د سرپرست نوم
+      relationship_caregiver_closing:
+        display_name: له ماشوم سره یې اړیکه
+      address_caregiver_closing:
+        display_name: د سرپرست پته
+      location_caregiver_closing:
+        display_name: د سرپرست موقعیت
+      closure_caregiver_contact_details:
+        display_name: د سرپرست تلیفون/ د نورو اړیکو جزیات
+      closure_arrangements_separator:
+        display_name: د قضیې د بریالي بندولو د ملاتړ لپاره تنظیمات
+      case_closure_process:
+        display_name: د قضیې د بندولو پروسه تشریح کړئ
+        help_text: د قضیې د بندیدو په اړه د بحث لپاره د غونډو جزئیات وړاندې کړئ د قضیې کارمند او ماشوم ترمنځ، د قضیې کارکوونکي او سرپرست ترمنځ، او دقضیې د کارکوونکي او څارونکي ترمنځ
+      closure_discussed_child:
+        display_name: ایا د قضیې ذ تړلو لپاره له ماشوم سره بحث او موافقه شوې ده؟
+      closure_discussed_child_no:
+        display_name: که نه وي، نو مهرباني وکړئ مشخص یې کړی چې ولې
+      closure_discussed_caregiver:
+        display_name: ایا دقضیې د تړلو لپاره د ماشوم له سرپرست سره بحث شوی؟
+      closure_discussed_caregiver_no:
+        display_name: که نه وي، نو مهربانی وکړئ مشخص یې کړئ
+      closure_child_feedback_form:
+        display_name: ایا د قضیې مدیریت پروسې په اړه فیډبیک د ماشوم له نظره د 'ماشوم فیډبیک فارم' په کارولو سره راټول شوي دي؟
+      closure_child_feedback_form_no:
+        display_name: که نه وي، نو مهرباني وکړئ مشخص یې کړی چې ولې
+      closure_caregiver_feedback_form:
+        display_name: ایا د قضیې مدیریت پروسې په اړه فیډبیک د سرپرست له نظره د سرپرست فیډبیک فارم په کارولو سره راټول شوي دي؟
+      closure_caregiver_feedback_form_no:
+        display_name: که نه وي، نو مهرباني وکړئ مشخص یې کړی چې ولې
+      closure_final_followup_meeting:
+        display_name: ایا د ۳ میاشتو په موده کې د ماشوم او یا هم د ماشوم له سرپرست سره تعقیبي ناسته پلان شوي ترڅو ډاډ تر لاسه شي چې وضعیت ارمه دی؟
+      closure_final_followup_meeting_no:
+        display_name: که نه وي، نو مهرباني وکړئ مشخص یې کړی چې ولې
+      closure_child_case_file_complete:
+        display_name: ایا د ماشوم قضیې دوسیه بشپړه او تر دې نیټې پورې د ټولو اړوند اسناد پکې شامل دي؟
+      closure_child_case_file_complete_no:
+        display_name: که نه وي، نو مهرباني وکړئ مشخص یې کړی چې ولې
+      closure_case_file_stored:
+        display_name: دقضیې دوسیه څه ډول ذخیره کیږي؟
+        option_strings_text:
+          electronically: په برقي شکل
+          hard_copy: 'په فزیکي شکل یو نقل د قضیې '
+          both: دواړه
+      closure_case_file_stored_date:
+        display_name: تر کوم نیټې پورې به د ماشوم قضیې دوسیه وساتل شي؟
+      closure_child_told_contact_support:
+        display_name: ایا ماشوم ته ویل شوي چې له چا سره اړیکه ونیسي که هغه پوښتنې ، اندیښنې یا د اړتیا په صورت کې مرستې ته اړتیا ولري؟
+      closure_child_told_contact_support_no:
+        display_name: که نه وي، نو مهرباني وکړئ مشخص یې کړی چې ولې
+      closure_child_contact_support:
+        display_name: ماشوم چا ته ویلي چې له دوی سره اړیکه ونیسي که هغه پوښتنې ، اندیښنې یا د اړتیا په صورت کې مرستې ته اړتیا ولري؟
+        help_text: نومونه او د اړیکې توضیحات وړاندې کړئ

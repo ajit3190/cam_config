@@ -1,0 +1,849 @@
+uk:
+  lookup-age-group-type:
+    name: Тип вікової групи
+    lookup_values:
+      adult: Дорослий
+      minor: Незначний
+      unknown: Невідомо
+  lookup-agency-office:
+    name: Офіс агентства
+    lookup_values:
+      agency_office_1: Офіс агентства 1
+      agency_office_2: Офіс агентства 2
+      agency_office_3: Офіс агентства 3
+      agency_office_4: Офіс агентства 4
+      agency_office_5: Офіс агентства 5
+  lookup-approval-for:
+    name: Погодження на
+    lookup_values:
+      bia: Bia
+      case_plan: Кейс план
+      closure: Закриття
+  lookup-approval-status:
+    name: Статус погодження
+    lookup_values:
+      requested: Запитано
+      pending: Очікується
+      approved: Погоджено
+      rejected: Відхилено
+  lookup-approval-type:
+    name: Тип погодження
+    lookup_values:
+      case_plan: Кейс план
+      action_plan: План дій
+      service_provision: Надання послуг
+  lookup-armed-force-group-name:
+    name: Назва групи Збройних Сил
+    lookup_values:
+      armed_force_or_group_1: Збройні сили або Група 1
+      armed_force_or_group_2: Збройні сили або Група 2
+      armed_force_or_group_3: Збройні сили або Група 3
+      other_please_specify: Якщо інше, вкажіть
+  lookup-armed-force-group-type:
+    name: Тип групи Збройних Сил
+    lookup_values:
+      national_army: Національна армія
+      security_forces: Сили безпеки
+      international_forces: Міжнародні сили
+      police_forces: Сили поліції
+      para-military_forces: Паравійськові сили
+      unknown: Невідомо
+      other: Інше
+  lookup-assessment-duration:
+    name: Тривалість оцінювання
+    lookup_values:
+      less_than_15_minutes: Менше 15 хвилин
+      16_30_minutes: 16-30 хвилин
+      31_minutes_1_hour: 31 хвилина - 1 година
+      1_2_hours: 1-2 години
+      more_than_2_hours: Більше ніж 2 години
+  lookup-assessment-progress:
+    name: Прогрес оцінювання
+    lookup_values:
+      n_a: Н/Д
+      in_progress: В процесі
+      met: Зустрівся
+  lookup-case-status:
+    name: Статус кейсу
+    lookup_values:
+      open: Відкритий
+      closed: Закритий
+      transferred: Перенаправлений
+      duplicate: Дублікат
+  lookup-child-minor-age-group:
+    name: Дитина / неповнолітня вікова група
+    lookup_values:
+      0_5_year_old: 0-5 років
+      6_12_year_old: 6-12 років
+      13_17_year_old: 13-17 років
+  lookup-conference-case-status:
+    name: Стан конференції по кейсу
+    lookup_values:
+      open: Справа залишиться відкритою
+      closed: Справу буде закрито
+      transferred: Справу буде передано
+      other: Інше
+  lookup-country:
+    name: Країна
+    lookup_values:
+      afghanistan: Афганістан
+      albania: Албанія
+      algeria: Алжир
+      andorra: Андорра
+      angola: Ангола
+      antigua_and_barbuda: Антигуа і Барбуда
+      argentina: Аргентина
+      armenia: Вірменія
+      australia: Австралія
+      austria: Австрія
+      azerbaijan: Азейбарджан
+      bahamas: Багами
+      bahrain: Бахрейн
+      bangladesh: Бангладеш
+      barbados: Барбадос
+      belarus: Білорусь
+      belgium: Бельгія
+      belize: Беліз
+      benin: Бенін
+      bhutan: Бутан
+      bolivia: Болівія
+      bosnia_and_herzegovina: Боснія і Герцеговина
+      botswana: Ботсвана
+      brazil: Бразилія
+      brunei: Бруней
+      bulgaria: Болгарія
+      burkina_faso: Буркіна Фасо
+      burundi: Бурунді
+      cabo_verde: Кабо Верде
+      cambodia: Камбоджа
+      cameroon: Камерун
+      canada: Канада
+      central_african_republic: Центральна Африканська Республіка
+      chad: Чад
+      chile: Чилі
+      china: Китай
+      colombia: Колумбія
+      comoros: Коморські острови
+      congo: Республіка Конго
+      drc: Демократична Республіка Конго
+      costa_rica: Коста Ріка
+      cote_divoire: Кот-д'Івуар
+      croatia: Хорватія
+      cuba: Куба
+      cyprus: Кіпр
+      czech_republic: Чехія
+      denmark: Данія
+      djibouti: Джибуті
+      dominica: Домініка
+      dominican_republic: Домініканська Республіка
+      ecuador: Еквадор
+      egypt: Єгипет
+      el_salvador: Сальвадор
+      equatorial_guinea: Еваторіальна Гвінея
+      eritrea: Еритрея
+      estonia: Естонія
+      ethiopia: Ефіопія
+      fiji: Фіджі
+      finland: Фінляндія
+      france: Франція
+      gabon: Габон
+      gambia: Гамбія
+      georgia: Грузія
+      germany: Німеччина
+      ghana: Гана
+      greece: Греція
+      grenada: Канада
+      guatemala: Гватемала
+      guinea: Гвінея
+      guinea_bissau: Гвінея-Бісау
+      guyana: Гаяна
+      haiti: Гаїті
+      honduras: Гондурас
+      hungary: Угорщина
+      iceland: Ісландія
+      india: Індія
+      indonesia: Індонезія
+      iran: Іран
+      iraq: Ірак
+      ireland: Ірландія
+      israel: Ізраїль
+      italy: Італія
+      jamaica: Ямайка
+      japan: Японія
+      jordan: Йорданія
+      kazakhstan: Казахстан
+      kenya: Кенія
+      kiribati: Кірибаті
+      kosovo: Косово
+      kuwait: Кувейт
+      kyrgyzstan: Киргизстан
+      laos: Лаос
+      latvia: Латвія
+      lebanon: Ліван
+      lesotho: Лесото
+      liberia: Ліберія
+      libya: Лівія
+      liechtenstein: Ліхтенштейн
+      lithuania: Литва
+      luxembourg: Люксембург
+      macedonia: Македонія
+      madagascar: Мадагаскар
+      malawi: Малаві
+      malaysia: Малайзія
+      maldives: Мальдіви
+      mali: Малі
+      malta: Мальта
+      marshall_islands: Маршаллові Острови
+      mauritania: Мавританія
+      mauritius: Маврикій
+      mexico: Мексика
+      micronesia: Мікронезія
+      moldova: Молдова
+      monaco: Монако
+      mongolia: Монголія
+      montenegro: Чорногорія
+      morocco: Марокко
+      mozambique: Мозамбік
+      myanmar: М`янма
+      namibia: Намібія
+      nauru: Науру
+      nepal: Непал
+      netherlands: Нідерланди
+      new_zealand: Нова Зеландія
+      nicaragua: Нікарагуа
+      niger: Нігер
+      nigeria: Нігерія
+      north_korea: Північна Корея
+      norway: Норвегія
+      oman: Оман
+      pakistan: Пакистан
+      palau: Палау
+      palestine: Палестина
+      panama: Панама
+      papua_new_guinea: Папуа Нова Гвінея
+      paraguay: Парагвай
+      peru: Перу
+      philippines: Філіпіни
+      poland: Польща
+      portugal: Португалія
+      qatar: Катар
+      romania: Румунія
+      russia: Росія
+      rwanda: Руанда
+      st_kitts_and_nevis: Сент-Кіттс і Невіс
+      st_lucia: Сент-Люсія
+      st_vincent_and_the_grenadines: Сент-Вінсент і Гренадини
+      samoa: Самоа
+      san_marino: Сан Марино
+      sao_tome_and_principe: Сан-Томе і Принсіпі
+      saudi_arabia: Саудівська Аравія
+      senegal: Сенегал
+      serbia: Сербія
+      seychelles: Сейшели
+      sierra_leone: Сьерра-Леоне
+      singapore: Сингапур
+      slovakia: Словаччина
+      slovenia: Словенія
+      solomon_islands: Соломонові острови
+      somalia: Сомалі
+      south_africa: Південна Африка
+      south_korea: Південна Корея
+      south_sudan: Південний Судан
+      spain: Іспанія
+      sri_lanka: Шрі Ланка
+      sudan: Судан
+      suriname: Сурінам
+      swaziland: Свазіленд
+      sweden: Швеція
+      switzerland: Швейцарія
+      syria: Сирія
+      taiwan: Тайвань
+      tajikistan: Таджикистан
+      tanzania: Танзанія
+      thailand: Тайланд
+      timor_leste: Східний Тимор
+      togo: Того
+      tonga: Тонга
+      trinidad_and_tobago: Тринідад і Тобаго
+      tunisia: Туніс
+      turkey: Туреччина
+      turkmenistan: Туркменістан
+      tuvalu: Тувалу
+      uganda: Уганда
+      ukraine: Україна
+      united_arab_emirates: Об`єднані Арабські Емірати
+      uk: Великобританія
+      usa: Сполучені Штати Америки
+      uruguay: Уругвай
+      uzbekistan: Узбекистан
+      vanuatu: Вануату
+      vatican: Ватикан
+      venezuela: Венесуела
+      vietnam: В`єтнам
+      yemen: Ємен
+      zambia: Замбія
+      zimbabwe: Зімбабве
+  lookup-cp-violence-type:
+    name: Тип насильства
+    lookup_values:
+      rape: Зґвалтування
+      sexual_assault: Сексуальне насильство
+      physical_assault: Фізичне насильство
+      forced_marriage: Примусове одруження
+      denial_of_resources_opportunities_or_services: Відмова в ресурсах, можливостях або послугах
+      psychological_emotional_abuse: Психологічне / Емоційне насильство
+      non-gbv: Неґендерне насильство
+  lookup-disability-type:
+    name: Тип інвалідності
+    lookup_values:
+      mental_disability: Психічна інвалідність
+      physical_disability: Фізичні втрати
+      both: Обидва варіанти
+  lookup-disability-type-with-mental-physical:
+    name: Тип інвалідності з розумовою та фізичною комбінацією
+    lookup_values:
+      'no': 'Ні'
+      mental_disability: Психічна інвалідність
+      physical_disability: Фізичні вади
+      mental_physical_disability: Ментальні і фізичні вади
+  lookup-disability-type-with-no:
+    name: Тип інвалідності
+    lookup_values:
+      'no': 'Ні'
+      mental_disability: Психічні вади
+      physical_disability: Фізичні вади
+      both: Обидва варіанти
+  lookup-discovery-method:
+    name: Метод виявлення
+    lookup_values:
+      family_or_friend: Сім`я / друзі
+      referral: Направлення від іншої організації
+      neighbor: Сусід або член громади
+      community_discussion: Обговорення в громаді
+      pamphlet: Флаєр або брошура, яку ви бачили або отримали
+      other: Інше
+  lookup-displacement-status:
+    name: Статус переміщення
+    lookup_values:
+      asylum_seeker: Шукач притулку
+      refugee: Біженець
+      idp: Внутрішньо переміщена особа (ВПО)
+      migrant: Мігрант
+      host:community: Приймаюча спільнота
+      returnee: Повернута
+      stateless_person: Особа без громадянства
+      resident: Національний резидент (не переміщений)
+      foreign_national: Іноземний громадянин
+      other: Інше
+  lookup-ethnicity:
+    name: Етнічність
+    lookup_values:
+      ethnicity1: Етнічність1
+      ethnicity2: Етнічність2
+      ethnicity3: Етнічність3
+      ethnicity4: Етнічність4
+      ethnicity5: Етнічність5
+      ethnicity6: Етнічність6
+      ethnicity7: Етнічність7
+      ethnicity8: Етнічність8
+      ethnicity9: Етнічність9
+      ethnicity10: Етнічність10
+  lookup-family-relationship:
+    name: Сімейні стосунки
+    lookup_values:
+      mother: Мама
+      father: Батько
+      aunt: Тітка
+      uncle: Дядько
+      grandmother: Бабуся
+      grandfather: Дідусь
+      brother: Брат
+      sister: Сестра
+      husband: Чоловік
+      wife: Дружина
+      partner: Партнер
+      other_family: Інше Сім`я
+      other_nonfamily: Інше Несім`я
+  lookup-followedup-with:
+    name: Промоніторив з
+    lookup_values:
+      child: Дитина
+      caregiver_s_family: Сім`я опікуна
+      service_provider_own_agency: Постачальник послуг (власне агентство)
+      service_provider_referral: Постачальник послуг (реферал)
+      other: Інше
+  lookup-followup-type:
+    name: Тип моніторингу
+    lookup_values:
+      after_reunification: Моніторинг після воз`єднання
+      in_care: Моніторинг по догляду
+      for_service: Моніторинг по послузі
+      for_assesment: Моніторинг для оцінювання
+  lookup-form-group-cp-case:
+    name: Групи Форм Кейс по закисту дітей
+    lookup_values:
+      record_information: Запис інформації
+      approvals: Погодження
+      case_conference_details: Деталі конференції по кейсу
+      identification_registration: Ідентифікація / Реєстрація
+      data_confidentiality: Конфіденційність даних
+      review: Розділ Огляду
+      assessment: Оцінювання
+      family_partner_details: Інформація про сім'ю / партнера
+      case_plan: Кейс план
+      services_follow_up: Послуги / моніторинг
+      closure: Закриття
+      feedback: Зворотній зв`зок
+      tracing: Відстеження
+      bia_form: Форма Апеляційної ради з питань імміграції
+      photos_audio: Фото та аудіо
+      other_documents: Інші документи
+      referrals_transfers: Реферали та трансфери
+      notes: Нотатки
+  lookup-form-group-cp-incident:
+    name: Групи Форм Інцидент
+    lookup_values:
+      record_owner: Власник запису
+      perpetrator_details: Деталі злочинця
+      cp_incident: Інцидент із захисту дітей(ЗД)
+      cp_individual_details: Індивідуальні деталі із захисту дітей
+  lookup-form-group-cp-tracing-request:
+    name: Групи Форм Запит на відстеження по захисту дітей
+    lookup_values:
+      record_owner: Власник запису
+      inquirer: Запитувач
+      tracing_request: Запит на відстеження
+      photos_audio: Фото та аудіо
+      other_reportable_fields: Інші звітні поля
+  lookup-form-group-gbv-case:
+    name: Групи Форм Кейс з гендерного насильства
+    lookup_values:
+      record_information: Запис інформації
+      consent_for_services: Згода на послуги
+      documents: Документи
+      consent_for_referrals: Згода на реферал
+      safety_plan: План безпеки
+      action_plan: План дій
+      survivor_assessment: Оцінювання виживання
+      case_closure: Закриття кейсу
+      client_feedback: Зворотній зв`язок клієнта
+      identification_registration: Ідентифікація / Реєстрація
+      referrals_transfers: Реферали та трансфери
+      other_reportable_fields: Інші звітні поля
+  lookup-form-group-gbv-incident:
+    name: Групи Форм Інцидент з гендерного насильства
+    lookup_values:
+      gbv_individual_details: Індивідуальні деталі із гендерного насильства
+      incident: Інцидент
+      type_of_violence: Тип насильства
+      record_owner: Власник запису
+      alleged_perpetrator: Передбачуваний злочинець
+      service_referral: Реферал на послугу
+      other_reportable_fields: Інші звітні поля
+  lookup-further-action_needed:
+    name: Потрібні подальші дії
+    lookup_values:
+      no_further_action_needed: Подальші дії не потрібні
+      ongoing_monitoring: Постійний моніторинг
+      urgent_intervention: Невідкладне втручання
+  lookup-gbv-approval-types:
+    name: Тип схвалення для користувачів з гендерного насильства
+    lookup_values:
+      case_plan: Кейс план
+      closure: Закриття
+  lookup-gbv-reported-elsewhere:
+    name: Так, ні або невідомо
+    lookup_values:
+      'no': 'Ні'
+      gbvims-org: Так-GBVIMS організація / агенція
+      non-gbvims-org: Ні - Не GBVIMS організація / агенція
+  lookup-gbv-sexual-violence-type:
+    name: Тип сексуального насильства на гендерній основі
+    lookup_values:
+      rape: Зґвалтування
+      sexual_assault: Сексуальне насильство
+      physical_assault: Фізичне насильство
+      forced_marriage: Примусове одруження
+      denial_of_resources_opportunities_or_services: Відмова в ресурсах, можливостях або послугах
+      psychological_emotional_abuse: Психологічне / Емоційне насильство
+      non-gbv: Неґендерне насильство
+  lookup-gender:
+    name: Стать
+    lookup_values:
+      male: Чоловіча
+      female: Жіноча
+  lookup-incident-identification:
+    name: Ідентифікація інциденту
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: Розкриття / скарга особи, яка стала жертвою насильства, або члена сім'ї
+      discovered_by_service_provider: Виявлено постачальником послуг
+      report_by_the_institution_providing_the_service_discovery: Звіт установи, що надає послугу (відкриття)
+      other: Інше
+  lookup-incident-location:
+    name: Місце інциденту
+    lookup_values:
+      home: Дім
+      street: Вулиця
+      school: Школа
+      work_place: Робоче місце
+      other: Інше
+  lookup-incident-status:
+    name: Статус інциденту
+    lookup_values:
+      open: Відкритий
+      closed: Закритий
+      duplicate: Дублікат
+  lookup-inquiry-status:
+    name: Статус запиту
+    lookup_values:
+      open: Відкритий
+      closed: Закритий
+  lookup-language:
+    name: Мова
+    lookup_values:
+      language1: Мова1
+      language2: Мова2
+      language3: Мова3
+      language4: Мова4
+      language5: Мова5
+      language6: Мова6
+      language7: Мова7
+      language8: Мова8
+      language9: Мова9
+      language10: Мова10
+  lookup-location-type:
+    name: Тип розташування
+    lookup_values:
+      country: Країна
+      region: Область
+      province: Провінція
+      district: Район
+      governorate: Губернаторство
+      chiefdom: Вождівство
+      state: Штат
+      city: Місто
+      county: Країна
+      camp: Табір
+      site: Місце розташування
+      village: Село
+      zone: Зона
+      sub_district: Підрайон
+      locality: Місцевість
+      prefecture: Префектура
+      sub-prefecture: Субпрефектура
+      commune: Комуна
+      payam: Payam
+      parish: Парафія
+      municipality: Муніципалітет
+      other: Інше
+  lookup-marital-status:
+    name: Сімейний стан
+    lookup_values:
+      single: Неодружений
+      married_cohabitating: Одружений/Спільне проживання
+      divorced_separated: Розлучений/окреме проживання
+      widowed: Вдівець
+  lookup-marital-status-unknown:
+    name: Сімейний стан
+    lookup_values:
+      single: Неодружений
+      married_cohabitating: Одружений/Спільне проживання
+      divorced_separated: Розлучений/окреме проживання
+      widowed: Вдівець
+      unknown_not_applicable: Невідомо/Не застосовується
+  lookup-marital-status-with-spouse:
+    name: Сімейний стан
+    lookup_values:
+      single: Неодружений
+      married_cohabitating: Одружений/Спільне проживання
+      divorced_separated: Розлучений/окреме проживання
+      widowed: Вдівець
+      with_spouse: З партнером/дружиною
+  lookup-nationality:
+    name: Національність
+    lookup_values:
+      nationality1: Національність1
+      nationality2: Національність2
+      nationality3: Національність3
+      nationality4: Національність4
+      nationality5: Національність5
+      nationality6: Національність6
+      nationality7: Національність7
+      nationality8: Національність8
+      nationality9: Національність9
+      nationality10: Національність10
+  lookup-number-range-one-to-ten:
+    name: Діапазон чисел від 1 до 10
+    lookup_values:
+      '1': '1'
+      '2': '2'
+      '3': '3'
+      '4': '4'
+      '5': '5'
+      '6': '6'
+      '7': '7'
+      '8': '8'
+      '9': '9'
+      '10': '10'
+  lookup-perpetrator-relationship:
+    name: Відносини зі зловмисником
+    lookup_values:
+      intimate_partner_former_partner: Інтимний партнер / Колишній партнер
+      primary_caregiver: Основний опікун
+      family_other_than_spouse_or_caregiver: Сім'я, крім подружжя або опікуна
+      supervisor_employer: Керівник / Роботодавець
+      schoolmate: Однокласник
+      teacher_school_official: Вчитель / Директор школи
+      service_provider: Постачальник послуг
+      cotenant_housemate: Співмешканець / квартирант
+      family_friend_neighbor: Друг сім`ї / сусід
+      other_refugee_idp_returnee: Інші біженці / Той, хто повернувся
+      other_resident_community_member: Інший постійний член громади
+      other: Інше
+      no_relation: Ніякого стосунку
+      unknown: Невідомо
+  lookup-protection-concerns:
+    name: Занепокоєння щодо захисту
+    lookup_values:
+      physical_abuse_violence: Фізичне насильств
+      sexual_abuse_violence: Сексуальне насильство
+      rape: Зґвалтування
+      emotional_or_psychological: Емоційне чи психологічне насильство
+      neglect: Неналежна опіка
+      abandonment: Відмова
+      child_labour: Дитяча праця (не найгірші форми)
+      hazardous_work: Шкідлива робота
+      sexual_exploitation: Сексуальна експлуатація
+      slavery_sale_abduction: Рабство / продаж / торгівля людьми / примусова праця
+      in_conflict_with_the_law: Конфлікт із законом
+      associated_with_armed: Пов’язаний зі збройними силами чи угрупованнями
+      deprived_of_liberty: Позбавлений волі / під вартою
+      serious_medical_condition: Серйозний стан здоров'я
+      functional_difficulty_seeing: Функціональні труднощі (бачить, навіть якщо носить окуляри)
+      functional_difficulty_hearing: Функціональні труднощі (чує, навіть при використовує слуховий апарат)
+      functional_difficulty_walking: Функціональні труднощі (ходить або використовує частини свого тіла)
+      functional_difficulty_remembering: Функціональні труднощі (запам'ятовування або концентрація)
+      difficulty_with_self_care: Труднощі з самообслуговуванням, наприклад, з годуванням або одяганням (у порівнянні з іншими дітьми того ж віку)
+      difficulty_communicating: Труднощі в спілкуванні
+      unaccompanied: Без супроводу
+      separated: Відділена
+      orphan: Сирота
+      psychosocial_distress: Психосоціальний дистрес
+      mental_disorder: Психічний розлад
+      substance_abuse: Зловживання психоактивними речовинами та наркоманія (дитина)
+      belongs_to_marginalised: Належить до маргіналізованої / дискримінованої групи
+      lack_of_documentation_birth_registration: Відсутність документації / свідоцтва про народження
+      child_marriage: Дитячий шлюб
+      female_genital_mutilation_fgm: Обрізання жіночих статевих органів
+      pregnancy_child_parent: Вагітність / дитяче батьківство
+      denial_of_resources_opportunities_or_services: Відмова в ресурсах, можливостях або послугах
+      highly_vulnerable_care: Дуже вразлива організація догляду
+      child_survivor_of_explosive: Дитина, яка пережила вибухонебезпечні ситуації
+      other: Інше
+  lookup-protection-status:
+    name: Статус захисту
+    lookup_values:
+      unaccompanied: Без супроводу
+      separated: Відділена
+  lookup-religion:
+    name: Релігія
+    lookup_values:
+      religion1: Релігія1
+      religion2: Релігія2
+      religion3: Релігія3
+      religion4: Релігія4
+      religion5: Релігія5
+      religion6: Релігія6
+      religion7: Релігія7
+      religion8: Релігія8
+      religion9: Релігія9
+      religion10: Релігія10
+  lookup-reporting-location-type:
+    name: Тип розташування звіту
+    lookup_values:
+      province: Провінція
+      district: Район
+  lookup-risk-level:
+    name: Рівень ризику
+    lookup_values:
+      high: Високий
+      medium: Середній
+      low: Низький
+  lookup-separation-cause:
+    name: Причина розлуки
+    lookup_values:
+      abandoned: Покинутий
+      family_abuse_violence_neglect_exploitation: Жорстоке поводження з сім’єю/насильство/недбалість/експлуатація
+      death_sickness_of_family_member: Смерть/хвороба члена сім'ї
+      separation_because_of_fleeing_violence_war: Розлука через втечу від насильства/війни
+      separation_because_of_fleeing_natural_disaster: Розлука через втечу від стихійного лиха
+      separation_because_of_fleeing_persecution: Розлука через втечу від переслідування
+      search_for_employment: Пошук роботи
+      search_for_educational_opportunities: Пошук освітніх можливостей
+      search_for_services_support: Пошук послуг/підтримки
+      migration: Міграція
+      organized_population_movement_e_g_evacuation: Організований рух населення (наприклад, евакуація)
+      entrusted_into_the_care_of_individual_institution: Довірено під опіку особи/установи
+      repatriation: Репатріація
+      poverty: Бідність
+      recruitment_into_armed_forces_or_armed_groups: Вербування до збройних сил або збройних груп
+      abducted_trafficked: Викрадення/торгівля
+      arrest_detention: Арешт/затримання
+      other_please_specify: Якщо інше, вкажіть
+  lookup-service-implemented:
+    name: Послуга впроваджена
+    lookup_values:
+      not_implemented: Не запроваджена
+      implemented: Запроваджено
+  lookup-service-referred:
+    name: Послуга рекомендована
+    lookup_values:
+      internal_referral: Внутрішнє перенаправлення
+      external_referral: Зовнішнє перенаправлення
+  lookup-service-referred-gbv:
+    name: Насильство на основі гендерної ознаки
+    lookup_values:
+      referred: Направлено
+      no_referral_service_provided_by_your_agency: Без направлення, послуги надаються вашим агентством
+      no_referral_services_already_received_from_another_agency: Без направлення, послуги вже отримані від іншого агентства
+      no_referral_service_not_applicable: Без направлення, послуга не застосовується
+      no_referral_declined_by_survivor: Без направлення, відхилено постраждалим
+      no_referral_service_unavailable: Без направлення, сервіс недоступний
+  lookup-service-response-type:
+    name: Тип відповіді на послугу
+    lookup_values:
+      service_provision: Надання послуг
+  lookup-service-type:
+    name: Тип сервісу
+    lookup_values:
+      alternative_care: Альтернативний догляд
+      security_e_g_safe_shelter: Безпека (наприклад, безпечний притулок)
+      education_formal: Освіта (формальна)
+      non_formal_education: Неформальна освіта
+      family_tracing_and_reunification: Розшук сім'ї та возз'єднання
+      basic_psychosocial_support: Базова психосоціальна підтримка
+      focuses_non_specialized_mhpss_care: Цілеспрямована неспеціалізована допомога з психічного здоров'я та психосоціальної підтримки
+      specialized_mhpss_services: Спеціалізовані послуги з психічного здоров'я та психосоціальної підтримки
+      food: Їжа
+      non_food_items: Непродовольчі товари
+      cash_assistance: Грошова допомога
+      livelihoods: Засоби існування
+      medical: Медицина
+      nutrition: Харчування
+      legal_support: Юридична підтримка
+      documentation: Документація
+      services_for_children_with_disabilities: Послуги для дітей з обмеженими можливостями
+      sexual_and_reproductive_health: Сексуальне та репродуктивне здоров'я
+      shelter: Притулок
+      wash: Вода, санітарія та гігієна
+      durable_solution_in_coordination_with_unhcr: Довговічне рішення (у координації з УВКБ ООН)
+      relocation: Релокація
+      other_please_specify: Інше
+  lookup-time-of-day:
+    name: Час дня
+    lookup_values:
+      morning: Ранок
+      noon: Обід
+      evening: Вечір
+      night: Ніч
+  lookup-tracing-status:
+    name: Статус відстеження
+    lookup_values:
+      open: Відкритий
+      tracing_in_progress: Відстежування в процесі
+      verified: Верифіковано
+      reunified: Воз`єднано
+      closed: Закрито
+  lookup-transition-type:
+    name: Тип переходу
+    lookup_values:
+      referral: Перенаправлення
+      reassign: Перепризначити
+      transfer: Передача
+      transfer_request: Запит на передачу
+  lookup-unaccompanied-separated-status:
+    name: Статус розлученого без супроводу
+    lookup_values:
+      'no': 'Ні'
+      unaccompanied_minor: Неповнолітній без супроводу
+      separated_child: Відділена дитина
+      other_vulnerable_child: Дитина-сирота або вразлива дитина
+  lookup-unhcr-needs-codes:
+    name: Верховний комісар ООН у справах біженців Коди
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR-TP
+      cr-lw: CR-LW
+      cr-lo: CR-LO
+      cr-ne: CR-NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: SC-FC
+      ds-bd: DS-BD
+      ds-df: DS-DF
+      ds-pm: DS-PM
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-FR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HO
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-verification-status:
+    name: Статус верфікації
+    lookup_values:
+      verified: Верифіковано
+      unverified: Невиріфіковано
+      pending_verification: Очікує підтвердження
+      falsely_attributed: Помилково приписується
+      rejected: Відхилено
+  lookup-workflow:
+    name: Робочий процес
+    lookup_values:
+      new: Новий кейс
+      closed: Кейс закрито
+      reopened: Справу перевідкрито
+      service_provision: Надання послуг
+      services_implemented: Впроваджено всі сервіси реагування
+      case_plan: Кейс план
+  lookup-yes-no:
+    name: Так чи ні
+    lookup_values:
+      'true': ' Так'
+      'false': 'Ні'
+  lookup-yes-no-not-applicable:
+    name: Так, Ні або Не Застосовується
+    lookup_values:
+      'true': 'Так'
+      'false': 'Ні'
+      not_applicable: Не застосовується
+  lookup-yes-no-undecided:
+    name: Так, ні, або не визначився
+    lookup_values:
+      'true': 'Так'
+      'false': 'Ні'
+      undecided: Не визначився
+  lookup-yes-no-unknown:
+    name: Так, ні або невідомо
+    lookup_values:
+      'true': 'Так'
+      'false': 'Ні'
+      unknown: Невідомо

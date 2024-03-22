@@ -1,0 +1,7 @@
+ro:
+  cp_unhcr_bid_report_form:
+    name: Raport BID/ Determinare interes superior
+    description: Raport BID/ Determinare interes superior
+    fields:
+      unhcr_bid_report_subform:
+        display_name: Raport BID/ Determinare interes superior UNHCR

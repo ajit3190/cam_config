@@ -1,0 +1,7 @@
+fr:
+  immediate_concerns:
+    name: Problèmes pressants
+    description: Problèmes pressants
+    fields:
+      immediate_concern_section:
+        display_name: Problèmes pressants

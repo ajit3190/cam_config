@@ -1,0 +1,7 @@
+ps-AF:
+  tracing_request_tracing_request:
+    name: د تعقیب غوښتنه
+    description: د تعقیب غوښتنه
+    fields:
+      tracing_request_subform_section:
+        display_name: د تعقیب غوښتنه

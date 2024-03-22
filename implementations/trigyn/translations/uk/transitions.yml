@@ -1,0 +1,42 @@
+uk:
+  transitions:
+    name: Вкладена Субформа Переходів
+    description: Субформа Переходу
+    fields:
+      type:
+        display_name: Тип
+      to_user_local:
+        display_name: Локальний користувач
+      to_user_remote:
+        display_name: Віддалений користувач
+      to_user_local_status:
+        display_name: Статус
+        option_strings_text:
+          in_progress: В процесі
+          pending: Очікується
+          accepted: Прийнято
+          rejected: Відхилено
+          done: Готово
+      rejected_reason:
+        display_name: Причина відхилення (якщо є)
+      to_user_agency:
+        display_name: Агентство віддаленого користувача
+      notes:
+        display_name: Нотатки
+      transitioned_by:
+        display_name: Передано або направлено ким
+      service:
+        display_name: Послуга
+      is_remote:
+        display_name: Направлення чи переведення на віддалену систему?
+        tick_box_label: 'Так'
+      type_of_export:
+        display_name: Який тип експорту ви хочете
+      consent_overridden:
+        display_name: Немає згоди на Поширення Перезаписаних Налаштувань
+        tick_box_label: 'Так'
+      consent_individual_transfer:
+        display_name: Чи мав працівник, відповідальний за справу згоду дитини на таке переведення?
+        tick_box_label: 'Так'
+      created_at:
+        display_name: Дата направлення або переведення

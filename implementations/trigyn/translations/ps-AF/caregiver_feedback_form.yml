@@ -1,0 +1,181 @@
+ps-AF:
+  caregiver_feedback_form:
+    name: د سرپرست کتنې/ فیډبک
+    description: د سرپرست کتنې/ فیډبک
+    fields:
+      caregiver_feedback_date_completed:
+        display_name: هغه نیټه چې دا فورم ورباندې تکمیل شو
+      caregiver_feedback_separator_consent:
+        display_name: رضایت
+        guiding_questions: "د نمونې لیکنه: \"زه غواړم له تاسو سره په دې اړه وغږیږم چې څنګه د قضیې کار کونکی ستاسو او ستاسو له ماشوم سره کار کړی.\nموږ غواړو ډاډ ترلاسه کړو چې موږ ماشومانو ته ترټولو غوره ممکنه خدمت چمتو کوو ، نو موږ پوښتنه کوو چې د قضیې کارکوونکی ستاسو ماشوم سره څنګه مرسته کړې او که کوم څه شتون ولري نو موږ کولی شو چې هغه په غوره او مختلف شکل ترسره کړو.\nتاسو اړتیا نلرئ موږ ته څه ووایاست که تاسو نه غواړئ او تاسو باید د دې لپاره خپل دلایل راته ووایاست.\nحتی که تاسو پریکړه وکړئ چې موږ ته څه ونه ووایی ، دا به په هغه ملاتړ اغیزه ونلري چې ستاسو ماشوم یې زموږ څخه ترلاسه کوي.\nپه هرصورت ، زموږ سره د خپلو افکارو او احساساتو شریکول ممکن موږ سره مرسته وکړي د هغه څه په ښه کولو کې چې موږ د نورو ماشومانو او کورنیو لپاره کوو.\nهرڅه چې تاسو موږ ته ووایی هغه به خصوصي ساتل کیږي. د دې معنی دا ده چې موږ به یې شریک کړو ، خو موږ به هیچا ته ونه وایو چې تاسو هغه څوک یاست چې موږ ته یې وویل.\nاو همدا شان تاسو کولای شی پریکړه وکړئ چې یوازې څو  پوښتنو  ته ځواب ورنکړی ، او هر کله چې تاسو خپل فکر بدل کړی کولای شی بیا یې بس کړی. "
+      caregiver_feedback_consent_relationship:
+        display_name: 'د سرپرست اړیکه له ماشوم سره'
+        option_strings_text:
+          primary_caregiver: لمړنی سرپرست
+          legal_guardian: قانوني ساتونکی
+          other_family_member_close_to_the_child: ماشوم ته نږدې د کورنۍ نور غړي
+          unrelated_adult_close_to_the_child: ماشوم ته نزدې بالغ شخص چې له ماشوم سره خپلوي ونه لري
+          other: نور
+      caregiver_feedback_consent_relationship_other:
+        display_name: که چیرته نور هم موجود وي نو مهربانی وکړئ واضح یې کړئ
+      caregiver_feedback_sex:
+        display_name: د سرپرست جنس
+      caregiver_feedback_dob:
+        display_name: د سرپرست د زیږېدو نيټه
+      caregiver_feedback_consent:
+        display_name: سرپرست لخوا اجازه ورکړل شوې وه چې د قضیې مدیریت پروسې په اړه د هغه یا دهغې نظر راټول کړي.
+        tick_box_label: 'هو'
+      caregiver_feedback_consent_date:
+        display_name: د رضایت نیټه
+      caregiver_feedback_separator_questions:
+        display_name: 'سوالونه: ۱ برخه'
+        guiding_questions: |-
+          تاسو کولی شئ د فوري فیډبیک لپاره مثالونه ورکړئ ، مګر د مخکښو پوښتنو په اړه پاملرنه وکړئ.
+          دا باید د سرپرست په ژبه ترسره شي ، او د داسې چا لخوا پرمخ یوړل شي څوک چې د مرکو ترسره کولو او نظر راټولولو لپاره اړین مهارتونه او روزنه ولري.
+      caregiver_feedback_services_discovery:
+        display_name: 'تاسو د [دلته د ادارې نوم ولیکئ :                                          ] قضیې مدیریت خدماتو په اړه څنګه پوه شوی؟'
+        option_strings_text:
+          caseworker_approached_me: د قضیې کارمند ماته راغی
+          another_organization: ' د بلې ادارې لخوا'
+          my_child: زما د ماشوم لخوا
+          family_friends: کورنی/ ملګري
+          school: ښوونځی
+          community_leader: د ټولنې مشر
+          community_based_child_protection_focal_point: په ټولنه کې میشت د ماشومانو د خوندیتوب مرکزي شخص
+          authorities: چارواکي
+          saw_a_poster_information_leaflet: د معلوماتو یو صفحه مې ولیده
+          cannot_recall: نشم کولای په یاد یې راوړم
+          other: نور
+      caregiver_feedback_services_discovery_other:
+        display_name: که نور وي مشخص یې کړئ
+      caregiver_feedback_help_asked:
+        display_name: مخکې له دې چې تاسو د قضیې کارکوونکي سره کار پیل کړئ ، ایا تاسو څخه پوښتل شوي و چې ستاسو ماشوم غواړي پدې برخه کې ورسره مرسته وشي؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      caregiver_feedback_help_asked_details:
+        display_name: مهرباني وکړئ نور توضیحات ورکړئ
+      caregiver_feedback_expectations:
+        display_name: 'تاسو له [د قضیې د مدیرت د ادارې نوم دلته ولیکئ:                    څخه کوم ډول ملاتړ تمه درلوده؟'
+        option_strings_text:
+          alternative_care: بدیل سرپرست
+          security_e_g_safe_shelter: امنیت (د بیلګې په توګه خوندي پناه ځای)
+          education_formal: رسمي تعلیم
+          non_formal_education: غیر رسمي تعلیم
+          family_tracing_and_reunification: د کورنۍ تعقیب او بیا یوځای کیدل
+          basic_psychosocial_support: لومړنی رواني - ټولنیز ملاتړ
+          focused_non_specialized_mhpss_care: متمرکز غیر متخصص MHPSS پاملرنه
+          specialized_mhpss_services: '  ځانګړي خدمتونه MHPSS '
+          food: خواړه
+          non_food_items: غیر خوراکي توکي
+          cash_assistance: نغدي مرسته
+          livelihoods: معیشت
+          medical: طبي
+          nutrition: 'تغذیه '
+          legal_support: قانوني ملاتړ
+          documentation: لاسوندونه
+          services_for_children_with_disabilities: د معلولیت لرونکو ماشومانو لپاره خدمتونه
+          sexual_and_reproductive_health: جنسي او د زیږون روغتیا
+          shelter: سرپناه
+          wash: WASH
+          durable_solution_in_coordination_with_unhcr: '  سره په همغږی کې UNHCR دومداره حل لاره د'
+          relocation: ځای په ځای کول
+          other: نور
+      caregiver_feedback_expectations_other:
+        display_name: که نور وي، مهرباني وکړئ مشخص یې کړئ
+      caregiver_feedback_expectations_received:
+        display_name: ایا ستاسو ماشوم (او تاسو او ستاسو کورنۍ - د پلي کیدو وړ) هغه ملاتړ ترلاسه کړ چې تمه مو لرله؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      caregiver_feedback_expectations_received_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_process_plan:
+        display_name: ایا د قضیې کارکوونکی تاسو او ستاسو ماشوم سره یوځای [د  قضیې پلان] پلان جوړ کړی ترڅو هغه ملاتړ ترلاسه کړي چې هغه یا هغې  ورته اړتیا لرله؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      caregiver_feedback_process_plan_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_process_connect:
+        display_name: ایا د قضیې کارکوونکی ستاسو ماشوم (او تاسو او ستاسو کورنۍ - چېرته د تطبیق وړ دي) خدماتو سره وصل کړل چې امکان یې درلوده؟
+        option_strings_text:
+          'yes': 'هو'
+          no_did_not_need_other_services: نه ، نورو خدماتو ته اړتیا نه وه
+          no_did_not_want_other_services: نه ، نور خدمات یې نه غوښتل
+          unknown: نامعلوم
+      caregiver_feedback_process_connect_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_process_consent:
+        display_name: هرکله چې د قضیې کارکوونکی ستاسو د ماشوم په اړه معلومات شریک کول (او تاسو او ستاسو کورنۍ - چیرته چې پلي کیږي) له نورو سره ، ایا له تاسو څخه یې پوښتنه کوله چې تاسو موافق یاست چې دا معلومات د نورو سره ستاسو او ستاسو د وضعیت په اړه شریک کړي؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      caregiver_feedback_process_consent_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_process_closure:
+        display_name: ایا تاسو له قضیې له کارمند سره یوځای پرېکړه کړې چې د ادارې نو                 خدمات نور لاس ته را نه وړی؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      caregiver_feedback_process_closure_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_questions_ii:
+        display_name: 'پوښتنې: دوهمه برخه'
+        guiding_questions: |-
+          د نمونې لیکنه: "د راتلونکو څو پوښتنو لپاره ، زه به تاسو څخه وپوښتم چې تاسو تر کومې اندازې پورې چې زما د ذکر شوو جملو سره موافق یاست.
+          که تاسو د جملې سره په بشپړ ډول موافق یاست نو تاسو کولی شئ هغه ته 10 ورکړئ. که تاسو په جمله سره موافق نه اوسئ نو تاسو دا 1 ورکړئ.
+          تاسو کولی شئ د 1 او 10 تر مینځ د کوم بل شمیر سره د ځواب ویلو پریکړه هم وکړئ ، هرڅومره چې تاسو د جملې سره موافق یاست نو دا باید 10 ته نږدې وي ، او هرڅومره چې تاسو سره موافق نه یاست دا باید 1 ته نږدې وي. "
+      caregiver_feedback_ii_explanation:
+        display_name: د قضیې کارکوونکی شیان په داسې ډول تشریح کول چې زما لپاره پوهیدل ګران وو.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_explanation_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_ii_listening:
+        display_name: د قضیې کار کونکي تل زما نظرونو او غوښتنو ته غوږ نیولو.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_listening_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_ii_pressured:
+        display_name: ما ډیری وخت د قضیې کارکوونکي لخوا فشار احساسولو چې پریکړه وکړم او یا یو څه وکړم چې هغه ما نه غوښتل..
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_pressured_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_ii_followup:
+        display_name: د قضیې کارمند تعقیب کړي او هغه څه یې اجرآ کړي چې هغه یا هغې به ویل چې هغه به یې اجرآ کړي.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_followup_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_ii_visits:
+        display_name: د قضیې کارمند زما او زما له ماشوم سره ډیر کم لیدل.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_visits_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_ii_support:
+        display_name: هغه کومک چې د قضیې کارمند زما سره، زما له ماشوم سره او زما له کورنی سره ترسره کړ ګټور وه.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_support_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_ii_improvement:
+        display_name: له هغه وخته چې زه د قضیې کارکوونکي سره کار کوم زما د ماشوم وضعیت ښه شوی.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_improvement_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_ii_satisfaction:
+        display_name: په ټوله کې ، زه د قضیې کار کوونکي لخوا چمتو شوي ملاتړ څخه ډیر خوښ یم.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      caregiver_feedback_ii_satisfaction_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      caregiver_feedback_final_question:
+        display_name: ایا تاسو کوم بل نظر یا اندیښنه لرئ چې تاسو یې غواړئ شریک کړئ؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      caregiver_feedback_final_question_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ

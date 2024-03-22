@@ -1,0 +1,7 @@
+ps-AF:
+  reunification_details:
+    name: د بیا یو ځای کیدو توضیحات
+    description: د بیا یو ځای کیدو توضیحات
+    fields:
+      reunification_details_section:
+        display_name: د بیا یو ځای کیدو توضیحات

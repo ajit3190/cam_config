@@ -1,0 +1,51 @@
+---
+om:
+  interview_details:
+    name: Tarreeffamoota af-gaaffiii.
+    description: "  Tarreeffamoota  af-gaaffii."
+    fields:
+      interview_date:
+        display_name: Guyyaa af-gaaffiin itti adeemsisame.
+      interviewer_name:
+        display_name: Maqaa nama  af-gaaffii adeemsise.
+      interviewer_postion:
+        display_name: Sadarkaa  gaafatamummaa nama af-gaaffii  adeemsisee.
+      interviewer_agency:
+        display_name: Ejensii nama af-gaaffii adeemsisee.
+        option_strings_text:
+          agency_1: Ejensii 1.
+          agency_2: Ejensii 2.
+          agency_3: Ejensii 3.
+          agency_4: Ejensii 4.
+      address_interview:
+        display_name: Teessoo /bakka af-gaaffiin itti adeemsifame.
+      landmark_interview:
+        display_name: Mallattoo lafa af-gaaffii.
+      location_interview:
+        display_name: Bakka/iddoo af-gaaffiin itti adeemsifame.
+      source_interview:
+        display_name: Qaama odeeffannoon irraa argame.
+        option_strings_text:
+          child: Daa'ima.
+          caregiver: Kunuunsaa.
+          other: "Kan biraa,maaloo ibsaa."
+      source_interview_other:
+        display_name: " Odeeffannoon qaama biraa irraa  kan argame yoo  ta'e, maaloo ifteessaa."
+      other_org_interview_status:
+        display_name: "Daa'imni kun dhaabbata biraatiin af-gaaffiin taasifameefii  beekaa?"
+      other_org_reference_no:
+        display_name: Lakkofsa madda wabii  dhaabbata biraatiin daa'imaaf kenname.
+      case_eligibility_criteria:
+        display_name: "Dhimmichi ulaagaa seera qabeessummaa  guuttateeraa?"
+      source_identification_referral:
+        display_name: Madda itti adda baafannaa /dabarsaa.
+        option_strings_text:
+          child_family_member: Daa'ima/miseensa maatii.
+          community_members_cpc: Miseensoota hawaasaa/Koree Eegumsa Daa'immanii/KED/.
+          school_personnel: Hojjettoota  Mana barumsaa/mana barnootaa.
+          health_personnel: Hojjetoota Fayyaa.
+          population_registration_services: Tajaajiloota galmeessa uummataa.
+          law_enforcement_agencies: Ejensiiwwan seera kabachiisan.
+          humanitarian_agencies: Ejensiiwwan Gargaarsa Namommaa kennan.
+      consent_form_completed:
+        display_name: "Unki/gucni  waliigaltee fi hayyamaa xumuramee guutameeraa?"

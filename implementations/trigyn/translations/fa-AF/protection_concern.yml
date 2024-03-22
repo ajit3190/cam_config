@@ -1,0 +1,15 @@
+fa-AF:
+  protection_concern:
+    name: نگرانی های محافظتی
+    description: نگرانی های محافظتی
+    fields:
+      risk_level:
+        display_name: سطح خطر
+      displacement_status:
+        display_name: گروپ جمعیت
+      displacement_status_other:
+        display_name: اکر وغیره ,لطفآ مشخص کنید
+      protection_concerns:
+        display_name: نگرانی های محافظتی
+      protection_concerns_other:
+        display_name: اگر وغیره ,لطفآ مشخص کنید

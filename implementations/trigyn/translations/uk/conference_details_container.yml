@@ -1,0 +1,7 @@
+uk:
+  conference_details_container:
+    name: Деталі конференції по кейсу
+    description: Деталі конференції по кейсу
+    fields:
+      conference_details_subform:
+        display_name: Деталі конференції по кейсу

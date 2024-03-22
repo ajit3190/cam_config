@@ -1,0 +1,7 @@
+uk:
+  cp_unhcr_bid_report_form:
+    name: BID Звіт
+    description: BID Звіт
+    fields:
+      unhcr_bid_report_subform:
+        display_name: BID Звіт УВКБ ООН

@@ -1,0 +1,18 @@
+es-ES:
+  immediate_concern_section:
+    name: Necesidades inmediatas anidadas
+    description: Subformulario de necesidades inmediatas
+    fields:
+      immediate_concerns_immediate_concern_type:
+        display_name: Tipos de necesidades inmediatas
+        option_strings_text:
+          health_care: Salud
+          safety: Seguridad
+          interim_care: Cuidado temporal
+          other: Otro
+      immediate_concerns_immediate_concern_type_other:
+        display_name: Si otro, favor especificar
+      immediate_concerns_immediate_concern_summary:
+        display_name: Resumen del problema
+      immediate_concerns_immediate_concern_action:
+        display_name: Acciones inmediatas tomadas/remisiones realizadas

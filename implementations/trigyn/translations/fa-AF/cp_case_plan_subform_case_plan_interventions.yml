@@ -1,0 +1,35 @@
+fa-AF:
+  cp_case_plan_subform_case_plan_interventions:
+    name: 'لست اقدامات و خدمات '
+    description: لست اقدامات و خدمات
+    fields:
+      intervention_service_to_be_provided:
+        display_name: 'نام اقدامات و خدمات که باید ارایه شود '
+      intervention_service_goal:
+        display_name: ن اقدامات   / خدمات  که نیاز به رسیدگی دارد
+        guiding_questions: همانطور که در ارزیابی مشخص شد ، به طور مثال مراقبت های جایگزین ، امنیت (به عنوان مثال پناهگاه مصون ) ، آموزش (رسمی) ، آموزش غیر رسمی ، پیگیری و پیوند مجدد خانواده ، حمایت اولیه روانشناسی  ، مراقبت های غیر تخصصی MHPSS ، خدمات تخصصی MHPSS ، غذا ، اقلام غیر غذایی ، كمك نقدی ، معیشت ، ادویه ، تغذیه ، پشتیبانی حقوقی ، اسناد ، خدمات برای اطفال دارای معلولیت ، صحت  جنسی و باروری ، سرپنا ، WASH ، راه حل دوامدار ، جابجایی.
+      case_plan_provider_and_contact_details:
+        display_name: 'جزیات ارتباط وآدرس شخص / موسسه  که خدمات یا مداخلات / با تطبیق و ارایه میکنند '
+      case_plan_timeframe:
+        display_name: تاریخ ختم
+        help_text: 'روز /ما/ سال '
+      case_plan_monitoring_schedule:
+        display_name: 'تقسیم اوقات باز نگری و و بازدید '
+        guiding_questions: "طور مثال ، هفته آینده دوشنبه در مورد خدمات ارائه شده و در هفته آینده جمعه در مورد وضعیت طفل پیگیری کنید. حداقل برای ماه آینده هفته ای دو بار پیگیری و نظارت کنید.\nاگر وضعیت مطابق توقع / مطلوب پیش رفت ، سپس پیگیری را تغییر دهید و برنامه بعدی را ماه آینده بر اساس جلسه بررسی و سطح خطر اصلاح شده در پایان این ماه پلان کنید "
+        option_strings_text:
+          one_time: 1 مرتبه
+          daily: روزانه
+          weekly: هفته وار
+          monthly: ماهانه
+          other: 'وغیره '
+      case_plan_monitoring_schedule_notes:
+        display_name: 'یادداشت  های تقسیم اوقات  پیگیری / نظارت '
+      interventions_status:
+        display_name: 'وضیعت /حالت '
+        option_strings_text:
+          pending: معلق
+          ongoing: در جریان
+          completed: تکمیل شده
+      interventions_notes:
+        display_name: 'یادداشت ها '
+        guiding_questions: طور مثال ، نقاط قوت و موانعی که می توانند به پیشرفت / کمک کنند یا مانع دست آورد ها  شوند

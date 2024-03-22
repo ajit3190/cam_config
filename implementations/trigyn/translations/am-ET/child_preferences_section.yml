@@ -1,0 +1,24 @@
+---
+am-ET:
+  child_preferences_section:
+    name: ህጻኑ ለመኖሪያነት የሚመርጠው
+    description: የህጻናት ምርጫ መሙያ ንዑስ ቅጽ
+    fields:
+      wishes_name:
+        display_name: ግለሰቡ/ቧ- ህጻኑ ለመኖር የሚመኘው ቦታ
+      wishes_preference_relocated:
+        display_name: ህጻኑ ተዘዋውሮ አብሮ ለመኖር የሚመኘው ሰው
+        option_strings_text:
+          first_choice: የመጀመሪያ ምርጫ
+          second_choice: ሁለተኛ ምርጫ
+          third_choice: ሶስተኛ ምርጫ
+      wishes_relationship:
+        display_name: ግለሰቡ/ቧ ከህጻኑ/ኗ ጋር ያላቸው ዝምድና
+      wishes_address:
+        display_name: የቅርብ ጊዜ አድራሻ
+      wishes_landmark:
+        display_name: ምልክት ሊሆን የሚችል ቦታ
+      wishes_location:
+        display_name: የቅርብ ጊዜ መገኛ
+      wishes_telephone:
+        display_name: ስልክ ቁጥር

@@ -1,0 +1,7 @@
+es-ES:
+  other_documents:
+    name: Otros documentos
+    description: Otros documentos
+    fields:
+      upload_other_document:
+        display_name: Otros documentos

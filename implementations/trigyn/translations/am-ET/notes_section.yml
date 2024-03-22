@@ -1,0 +1,14 @@
+---
+am-ET:
+  notes_section:
+    name: "ኝዑስ ቅጽና ማስታወሻዎች "
+    description: "ንዑስ ቅጽና ማስታወሻዎች "
+    fields:
+      notes_date:
+        display_name: ቀን
+      note_subject:
+        display_name: ርዕሰ ጉዳይ
+      field_notes_subform_fields:
+        display_name: "ማስታወሻዎች "
+      note_created_by:
+        display_name: አስተዳዳሪ/ሀላፊ

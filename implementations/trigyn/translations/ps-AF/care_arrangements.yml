@@ -1,0 +1,21 @@
+ps-AF:
+  care_arrangements:
+    name: د پاملرنې لپاره بندوبست
+    description: د پاملرنې لپاره بندوبست
+    fields:
+      child_current_location:
+        display_name: د ماشوم اوسنی پته
+      address_current:
+        display_name: اوسنی پته
+        help_text: چیرې چې هیڅ پته شتون نلري ، نو مهرباني وکړئ د اوسني موقعیت لویه نښه یا نور توضیحات وړاندې کړئ
+      location_current:
+        display_name: اوسنی پته
+      address_child_future:
+        display_name: که چیرې ماشوم غواړي بل ځای ته ولاړ شي نو راتلونکې پته به یې کومه وي؟
+        help_text: که چیرې  هیڅ پته شتون نلري ،  نو مهرباني وکړئ د اوسني موقعیت لویه نښه یا نور توضیحات وړاندې کړئ
+      location_child_future:
+        display_name: راتلونکی موقعیت یې څه ده
+      telephone_child_future:
+        display_name: د راتلونکې لپاره یې د مبایل شمیره څو ده
+      care_arrangements_section:
+        display_name: د پاملرنې لپاره بندوبست

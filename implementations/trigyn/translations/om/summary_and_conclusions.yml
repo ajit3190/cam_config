@@ -1,0 +1,19 @@
+---
+om:
+  summary_and_conclusions:
+    name: Cuunfaa fi Gudunfaa yaadaa.
+    description: Guca/unka cuunfaa fi gudunfaa yaadaa.
+    fields:
+      assessment_summary:
+        display_name: Cuunfaa/goolabbii.
+        help_text: "Kutaalee sakatta'insaa olitti argaman irratti hundaa'uun ka'umsa balaa ijoo ta'an ,haaloota ittisaa fi fedhiiwwanii cuunfaatii  yaada/fedhii daa'imaa (fi maatii)tilmaama keessa galchaa."
+      protection_concerns:
+        display_name: Yaaddoo/sodaawwan eegumsaa.
+        help_text: Unka dirree walii qoodamanii sodaawwan balaa wajjiinii.
+      protection_concerns_other:
+        display_name: "kan bira yoo jiraate,ibsaa maaloo."
+      risk_level:
+        display_name: Sadarkaa balaa.
+        help_text: Dhimmi kun unka sodaawwan eegumsaa irras jira.Sadarkaan balaa yoo hinjiraanee dhimmichi cufamuu danda'a.
+      assessment_risk_level_reasons:
+        display_name: Cuunfaa  sadarkaa balaatiif sababoota ta'anii.

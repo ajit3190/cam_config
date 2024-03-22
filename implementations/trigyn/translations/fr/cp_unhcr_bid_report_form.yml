@@ -1,0 +1,7 @@
+fr:
+  cp_unhcr_bid_report_form:
+    name: Rapport DIS
+    description: Rapport DIS
+    fields:
+      unhcr_bid_report_subform:
+        display_name: Rapport DIS de l'UNHCR

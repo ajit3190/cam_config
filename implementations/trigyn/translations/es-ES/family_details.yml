@@ -1,0 +1,7 @@
+es-ES:
+  family_details:
+    name: Detalles de la familia
+    description: Detalles de la familia
+    fields:
+      family_details_section:
+        display_name: Detalles de la familia

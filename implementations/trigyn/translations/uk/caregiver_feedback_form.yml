@@ -1,0 +1,188 @@
+uk:
+  caregiver_feedback_form:
+    name: Фідбек опікуна
+    description: Фідбек опікуна
+    fields:
+      caregiver_feedback_date_completed:
+        display_name: Дата заповнення форми
+      caregiver_feedback_separator_consent:
+        display_name: Згода
+        guiding_questions: |-
+          Зразок сценарію: «Я хотів би поговорити з вами щодо того, як працівник по справі працював з вами та вашою дитиною.
+          Ми хочемо переконатися, що ми надаємо найкращі послуги дітям, тому ми запитуємо, як працівник допоміг вашій дитині, і чи є щось, що ми могли б зробити інакше / краще.
+          Ви не повинні говорити нам нічого, якщо ви цього не хочете, і ви не повинні розповідати мені свої причини цього.
+          Навіть якщо ви вирішите нічого нам не розповідати, це не вплине на підтримку, яку отримує ваша дитина від нас.
+          Однак, поділившись з нами своїми думками та почуттями, ви можете допомогти нам покращити те, що ми робимо для інших дітей та сімей.
+          Все, що ви нам скажете, буде приватним. Це означає, що, хоча ми поділимося тим, що ви говорите, ми нікому не скажемо, що це саме ви сказали нам.
+          Ви також можете вирішити відповідати лише на певні запитання або змінити свою думку і вирішити не продовжувати, коли забажаєте».
+      caregiver_feedback_consent_relationship:
+        display_name: 'Відносини опікуна до дитини:'
+        option_strings_text:
+          primary_caregiver: Основний опікун
+          legal_guardian: Законний опікун
+          other_family_member_close_to_the_child: Інший близький до дитини член сім'ї
+          unrelated_adult_close_to_the_child: Непов’язаний дорослий, близький до дитини
+          other: Інше
+      caregiver_feedback_consent_relationship_other:
+        display_name: Якщо інше, вкажіть
+      caregiver_feedback_sex:
+        display_name: Стать опікуна
+      caregiver_feedback_dob:
+        display_name: Дата народження опікуна
+      caregiver_feedback_consent:
+        display_name: Вихователь надав дозвіл зібрати його/її відгуки щодо процесу ведення справи.
+        tick_box_label: 'Так'
+      caregiver_feedback_consent_date:
+        display_name: Дата згоди
+      caregiver_feedback_separator_questions:
+        display_name: 'Запитання: Частина І'
+        guiding_questions: |-
+          Ви можете наводити приклади для швидкого зворотного зв’язку, але будьте обережні, ставлячи навідні запитання.
+          Воно має проводитися мовою особи, яка здійснює догляд, і проводитися тим, хто має необхідні навички та підготовку для проведення співбесід і збору відгуків.
+      caregiver_feedback_services_discovery:
+        display_name: Як ви дізналися про [вказати назву агентства] кейс менеджиент послуги?
+        option_strings_text:
+          caseworker_approached_me: До мене підійшов працівник, відповідальний за кейс
+          another_organization: Інша організація
+          my_child: Моя дитина
+          family_friends: Сім`я / друзі
+          school: Школа
+          community_leader: Лідер громади
+          community_based_child_protection_focal_point: Координаційний центр захисту дітей у громаді
+          authorities: Влада
+          saw_a_poster_information_leaflet: Бачив плакат/інформаційний листок
+          cannot_recall: Не можу згадати
+          other: Інше
+      caregiver_feedback_services_discovery_other:
+        display_name: Якщо інше, вкажіть
+      caregiver_feedback_help_asked:
+        display_name: До того, як ви почали працювати з працівником, відповідальний за кейс, вас запитували, чи хоче ваша дитина, щоб їй допомогли в такий спосіб?
+        option_strings_text:
+          'yes': 'Так'
+          'no': 'Ні'
+          unknown: Невідомо
+      caregiver_feedback_help_asked_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_expectations:
+        display_name: Якого типу підтримки ви очікували від [вказати назву агентства з ведення справ]?
+        option_strings_text:
+          alternative_care: Альтернативний догляд
+          security_e_g_safe_shelter: Безпека (наприклад, безпечний притулок)
+          education_formal: Освіта (формальна)
+          non_formal_education: Неформальна освіта
+          family_tracing_and_reunification: Розшук сім'ї та возз'єднання
+          basic_psychosocial_support: Базова психосоціальна підтримка
+          focused_non_specialized_mhpss_care: Цілеспрямована неспеціалізована допомога з психічного здоров'я та психосоціальної підтримки
+          specialized_mhpss_services: Спеціалізовані послуги з психічного здоров'я та психосоціальної підтримки
+          food: Їжа
+          non_food_items: Непродовольчі товари
+          cash_assistance: Грошова допомога
+          livelihoods: Засоби існування
+          medical: Медицина
+          nutrition: Харчування
+          legal_support: Юридична підтримка
+          documentation: Документація
+          services_for_children_with_disabilities: Послуги для дітей з обмеженими можливостями
+          sexual_and_reproductive_health: Сексуальне та репродуктивне здоров'я
+          shelter: Притулок
+          wash: Вода, санітарія та гігієна
+          durable_solution_in_coordination_with_unhcr: Довговічне рішення (у координації з УВКБ ООН)
+          relocation: Релокація
+          other: Інше
+      caregiver_feedback_expectations_other:
+        display_name: Якщо інше, вкажіть
+      caregiver_feedback_expectations_received:
+        display_name: Чи отримала ваша дитина (і ви та ваша сім’я – де це можливо) підтримку, яку ви очікували?
+        option_strings_text:
+          'yes': 'Так'
+          'no': 'Ні'
+          unknown: Невідомо
+      caregiver_feedback_expectations_received_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_process_plan:
+        display_name: Чи розробив працівник, відповідальний за справу разом з вами та вашою дитиною план [кейс план], щоб надати вам необхідну підтримку?
+        option_strings_text:
+          'yes': 'Так'
+          'no': 'Ні'
+          unknown: Невідомо
+      caregiver_feedback_process_plan_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_process_connect:
+        display_name: Чи підключив працівник, відповідальний за справк, вашу дитину (і вас і вашу сім’ю – де це було можливо) до служб, які змогли вам допомогти?
+        option_strings_text:
+          'yes': 'Так'
+          no_did_not_need_other_services: Ні, інших послуг не потребували
+          no_did_not_want_other_services: Ні, інших послуг не хотіли
+          unknown: Невідомо
+      caregiver_feedback_process_connect_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_process_consent:
+        display_name: Щоразу, коли працівник, який займається справою, ділився інформацією про вашу дитину (а також про вас і вашу сім’ю – де це можливо) з іншими, чи вас запитували, чи погоджуєтеся ви поділитися цією інформацією про вас і вашу ситуацію з іншими?
+        option_strings_text:
+          'yes': 'Так'
+          'no': 'Ні'
+          unknown: Невідомо
+      caregiver_feedback_process_consent_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_process_closure:
+        display_name: Чи прийняли ви (і ваша дитина, де це доречно) рішення припинити співпрацю по кейс менеджменту з [вставити назву агентства] разом із працівником справи?
+        option_strings_text:
+          'yes': 'Так'
+          'no': 'Ні'
+          unknown: Невідомо
+      caregiver_feedback_process_closure_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_questions_ii:
+        display_name: 'Запитання: Частина ІІ'
+        guiding_questions: |-
+          Зразок сценарію: «Щодо наступних кількох запитань я збираюся запитати вас, наскільки ви згодні з реченням, яке я згадую.
+          Якщо ви повністю згодні з реченням, ви можете поставити йому 10. Якщо ви зовсім не згодні з реченням, ви можете поставити йому 1.
+          Ви також можете вирішити відповісти будь-яким іншим числом від 1 до 10, чим більше ви згодні з реченням, тим ближче воно має бути до 10, і чим більше ви не згодні, тим ближче воно має бути до 1».
+      caregiver_feedback_ii_explanation:
+        display_name: Працівник, відповідальний за справу пояснив речі так, що мені було важко зрозуміти.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_explanation_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_ii_listening:
+        display_name: Працівник, відповідальний за справу завжди запитував і прислухався до моїх поглядів, думок і почуттів.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_listening_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_ii_pressured:
+        display_name: Я часто відчував тиск з боку працівника, відповідального за справу, щоб прийняти рішення або зробити те, чого я не хотів робити.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_pressured_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_ii_followup:
+        display_name: Працівник, відповідальний за справу прослідкував і зробив те, що він/вона сказав, що буде робити.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_followup_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_ii_visits:
+        display_name: Працівник, відповідальний за справу відвідував мене та мою дитину рідко.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_visits_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_ii_support:
+        display_name: Підтримка, яку працівник, відповіадльний за справу надавав моїй дитині (а також мені та моїй родині – де це було можливо), була корисною.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_support_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_ii_improvement:
+        display_name: З тих пір, як я працюю з працівником, відповідальним за справу, становище моєї дитини покращилося.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_improvement_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_ii_satisfaction:
+        display_name: Загалом, я дуже задоволений підтримкою, наданою працівником, відповідальним за справу.
+        help_text: Виберіть число від 1 до 10
+      caregiver_feedback_ii_satisfaction_details:
+        display_name: Надайте деталі, будь ласка
+      caregiver_feedback_final_question:
+        display_name: Чи є у вас інші відгуки чи проблеми, якими ви хотіли б поділитися?
+        option_strings_text:
+          'yes': 'Так'
+          'no': 'Ні'
+          unknown: Невідомо
+      caregiver_feedback_final_question_details:
+        display_name: Надайте деталі, будь ласка

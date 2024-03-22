@@ -1,0 +1,21 @@
+fr:
+  care_arrangements:
+    name: Prise en charge
+    description: Prise en charge
+    fields:
+      child_current_location:
+        display_name: Adresse actuelle de l'enfant
+      address_current:
+        display_name: 'Adresse actuelle '
+        help_text: S'il n'y a pas d'adresse, veuillez fournir des points de repère ou une description du lieu actuel
+      location_current:
+        display_name: 'Localisation actuelle '
+      address_child_future:
+        display_name: Si l'enfant prévoit de déménager, quelle est sa future adresse ?
+        help_text: S'il n'y a pas d'adresse, veuillez fournir des points de repère ou une description du lieu actuel
+      location_child_future:
+        display_name: Quelle est la future adresse ?
+      telephone_child_future:
+        display_name: Quelle est le futur numéro de téléphone ?
+      care_arrangements_section:
+        display_name: Prise en charge

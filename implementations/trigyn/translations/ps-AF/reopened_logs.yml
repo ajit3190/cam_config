@@ -1,0 +1,9 @@
+ps-AF:
+  reopened_logs:
+    name: قضیه بیا پرانستل شوې ده
+    description: د قضیې بیا پرانیستل کیدو فرعي فورمه
+    fields:
+      reopened_date:
+        display_name: د بیا پرانیستل کیدو نیټه
+      reopened_user:
+        display_name: د چا لخوا بیا پرانیستل شوه

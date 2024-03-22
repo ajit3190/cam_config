@@ -1,0 +1,7 @@
+ro:
+  immediate_concerns:
+    name: Preocupări imediate
+    description: Preocupări imediate
+    fields:
+      immediate_concern_section:
+        display_name: Preocupări imediate

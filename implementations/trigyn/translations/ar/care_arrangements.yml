@@ -1,0 +1,22 @@
+---
+ar:
+  care_arrangements:
+    name: ترتيبات الرعاية
+    description: ترتيبات الرعاية
+    fields:
+      child_current_location:
+        display_name: عنوان الطفل الحالي
+      address_current:
+        display_name: العنوان الحالي
+        help_text: في حالة عدم وجود عنوان ، يرجى تقديم المعالم أو وصف الموقع الحالي
+      location_current:
+        display_name: الموقع الحالي
+      address_child_future:
+        display_name: إذا كان الطفل يخطط للانتقال فما هو العنوان المستقبلي؟
+        help_text: في حالة عدم وجود عنوان ، يرجى تقديم المعالم أو وصف الموقع الحالي
+      location_child_future:
+        display_name: ما هو الموقع المستقبلي؟
+      telephone_child_future:
+        display_name: ما هو رقم الهاتف المستقبلي؟
+      care_arrangements_section:
+        display_name: ترتيبات الرعاية

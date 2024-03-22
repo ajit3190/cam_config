@@ -1,0 +1,19 @@
+---
+am-ET:
+  summary_and_conclusions:
+    name: ማጠቃለያ እና መደምደሚያ
+    description: ማጠቃለያ እና ማጠቃለያ ቅጽ
+    fields:
+      assessment_summary:
+        display_name: ማጠቃለያ
+        help_text: ከላይ ባሉት የግምገማ ክፍሎች ላይ በመመስረት ዋና ዋና የአደጋ መንስኤዎችን፣ የመከላከያ ሁኔታዎችን እና ፍላጎቶችን ጠቅለል አድርገው የልጁን (እና ቤተሰብ) አስተያየት/ምኞቶችን ግምት ውስጥ ያስገቡ።
+      protection_concerns:
+        display_name: ጥበቃ ስጋቶች
+        help_text: የጋራ ጥበቃ ስጋቶች ቅጽ ጋር።
+      protection_concerns_other:
+        display_name: ሌላ ከሆነ እባክዎን ይግለጹ
+      risk_level:
+        display_name: የስጋት ደረጃ
+        help_text: ይህ መስክ የጥበቃ ስጋቶች ቅጽ ላይም አለ።የስጋት ደረጃ ከሌለ ጉዳዩ ሊዘጋ ይችላል
+      assessment_risk_level_reasons:
+        display_name: የስጋት ደረጃ ምክንያቶች ማጠቃለያ

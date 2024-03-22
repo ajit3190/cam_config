@@ -1,0 +1,9 @@
+fa-AF:
+  photos_and_audio:
+    name: عکس و صدا
+    description: تمام  دوسیهعکس و صدا مرتبط بادوسیه  طفل
+    fields:
+      current_photo_key:
+        display_name: کلید عکس موجوده
+      recorded_audio:
+        display_name: صیای ثبت شده

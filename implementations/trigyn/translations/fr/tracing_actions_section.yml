@@ -1,0 +1,29 @@
+fr:
+  tracing_actions_section:
+    name: Actions de traçage
+    description: 'Sous formulaire action de traçage '
+    fields:
+      date_tracing:
+        display_name: 'Date du traçage '
+      tracing_type:
+        display_name: Type de mesures prises
+        option_strings_text:
+          case_by_case_tracing: 'Cas par demande de traçage '
+          individual_tracing: Recherches individuelles
+          mass_tracing: Traçage de masse
+          photo_tracing: 'Traçage par photo '
+          referral_to_ngo: Référé à une ONG
+          referral_to_icrc: Référé au CICR
+      address_tracing:
+        display_name: Adresse/village où l'action de traçage a eu lieu
+      location_tracing:
+        display_name: Lieu de la recherche
+      tracing_action_description:
+        display_name: Mesures prises et remarques
+      tracing_outcome:
+        display_name: Résultats de l'action de traçage
+        option_strings_text:
+          pending: 'En cour '
+          successful: 'Avec succès '
+          unsuccessful: Sans succès
+          'yes': 'Oui'

@@ -1,0 +1,78 @@
+---
+om:
+  unhcr_bid_report_subform:
+    name: Gabaasa Fedhii Daa'imaa Ol'aanaa murteessuu daa'imman dawoo agatanii  Komishiinii Ol'aanaa Kooluu galtootaa Dhaabbata Mootummoota Gamtoomanii jala jiran.
+    description: Unka xixiqqaa gabaasa Fedhii Daa'imaa Ol'aanaa murteessuu Komishiinii Ol'aanaa Koolu galtootaa Dhaabbata Mootummoota Gamtoomanii.
+    fields:
+      bid_date:
+        display_name: Guyyaa Af-gaaffii fedhii ol'aanaa murteessummaa daa'imaa itti gaggeessame.
+      bid_participants:
+        display_name: Namoota af-gaaffii irratti hirmaatan hunda isaanii tarreessaa.
+        help_text: "Nama/namoota af-gaaffiin  taasisameef,nama af-gaaffii gaggeessee  fi  nama turjumaana kenne hunda itti idda'aa (bakka barbaachisaa ta'etti)"
+      bid_separation_status:
+        display_name: Haala sadarkaa addaan bahinsaa jiru.
+        option_strings_text:
+          unaccompanied: Daa'imman maatii irraa gargar bahan/kophaa jiran.
+          separated: Daa'imman maatii irraa adda bahan.
+          orphan: Daa'ima haadhaa fi abbaa  hinqabne.
+          none_of_the_above: " Wantoota armaan olitti eeraman keessaa tokkollee hinqaban."
+      bid_purpose:
+        display_name: Kaayoo Fedhii Ol'aanaa Daa'imaa murteessuu.
+        option_strings_text:
+          durable_solution: Furmaata waaraa /fala waaraa.
+          family_reunification: Maatiin walitti deebisanii makuu.
+          temporary_care_arrangements: Qophii  kunuunsaa yeroodhaaf taasisame.
+          separation_from_parents_caregiver: Addaan bahiinsa maatii/kunuunsaa irraa ta'e.
+          other: Kan biraa.
+      bid_purpose_other:
+        display_name: "Kan biraa yoo jiraate,ibsaa maaloo."
+      bid_priority:
+        display_name: " Dursa dhimmichi barbaadu."
+        option_strings_text:
+          emergency: Balaa tasaa.
+          high: Ol'aanaa.
+          medium: Giddu galeessa.
+          low: Gadi aanaa.
+      bid_priority_reasons:
+        display_name: Sababoota dursa kanaaf kennaman.
+      bid_specific_needs:
+        display_name: Feedhiiwwan murtaa'aa daa'imaa.
+      bid_brief_summary:
+        display_name: Dhimmoottan ijoo ta'an gabaabinaan cuunfaa isaa kaa'aa maaloo.
+        guiding_questions: "Fknf. qophii kunuunsaa amma jiru,odeeffannoo warraa  fi maatiin irra jiruu fi filannowwan  tilmaama keessa galfaman."
+      bid_separator_recommendations:
+        display_name: Filannowwanii fi yaada dhiyaatan.
+      bid_child_history:
+        display_name: Maaloo seenaa daa'imichaa balal'uun dura turee fi achii boodaa/yeroo  addaan bahiinsa jiru galmeessaa.
+        guiding_questions: Sosochii daa'imaa iddoo tokkoo gara iddoo biraatti taasisaman waayee imalaa/addaan  bahiinsaa fi ragaa namoota daa'imatti dhiyoo jiraniin dhiyaate ida'aa (yoo af-gaaffiin taasisameeraaf ta'e).Akkaataa odeeffannoon kun ittiin mirkanaa'een agarsiisaa.
+      bid_current_situation:
+        display_name: Haala jireenyaa daa'imni yeroo ammaa  keessa jiru ibsaa maaloo.
+        guiding_questions: |-
+          Sirreefama kunuunsaa ammee,haaloota jireenyaa,nagenyummaa,hariiroo maatii imaanaa wajjiin qaban /obbolaawwan/kunuunsitoota/miseensota maatii biraa;Neeworkii/cimdaa/ hirmaachuu  barnootaa  fi mana barumsaa ;tilmaammii umurii fi ga'eessummaa,fayyaa qaamaa fi sammuu fi fedhiiwwan murtaa'aa daa'imaa. Eenyu akka isaan qunnamee fi odeeffannoo isaanii dhiyeesse ,fakkeeenya.daa'ima,maatii,nama daa'imatti  siqu,kunuunsitoota,barsiistoota, ollaa,hojjettoota hawaasaa/hojjetaa dhaabbilee miti-mootummaa hunda dabalaa.
+      bid_available_options:
+        display_name: "Filannoowwan jiranii fi maloota hordoffii fi xinxala tokkoo tokkoon isaaniitiif taasisaman hunda agarsiisaa maaloo. "
+        guiding_questions: |-
+          Mee maaloo duuka deemtuu cheeklistii 9 jalatti ibsaman hundaa ilaaluun  mata duree armaan gaditti taa'an keessaa  daantaa daa'imaa isa ol'aanaa kan eegsisan irratti yaada keessan kenna: Yaada daa'imaa -Maatii fi fira walitti - dhiyoo
+          ddoo mijjataa -Fedhiilee guddinaa fi eenyummaa,
+      bid_final_recommendations:
+        display_name: Yada xumuraa fi sababoottan isaanii  dhiyeessaa maaloo.
+      bid_separator_panel_decision:
+        display_name: Murtii marii paanaalii.
+      bid_date_panel_decision:
+        display_name: Guyyaa murtii marii paanaalii.
+      bid_panel_members:
+        display_name: "Maqaa fi  dhaabbilee miseensoota  marii paanaalii ta'anii hunda. "
+      bid_panel_decision:
+        display_name: 'Marii paanaalii.'
+        option_strings_text:
+          approves_the_recommendations: Yaada furmaataa mirkaneessuu.
+          defers_decison_please_explain_why: " Dubatti harkifatiinsa kenna  murtii irratti mul'ate (maaliif akka ta'e ibsaa maaloo)"
+          does_not_approve_the_recommendations_please_explain_why_and_provide_the_panel_s_recommendation: yaada kennaman hin mirkaneessu. (maaliif akka ta'ee fi  yaada marii paanaalii irratti kennaman dhiyeessaa maaloo)
+          reopens_the_case_please_explain_why_and_who_requested_the_reopening: " Dhimma  irra deebiin banaa (maaliif akka irra deebi'mee banamee fi irra deebiin akka  banamuu qabu eenyu akka gaafate ibsaa maaloo)."
+          closes_the_case: Dhimmicha cufuu.
+      bid_panel_decision_reasons:
+        display_name: Sababoota qabatamaa guutuu murtiin kun akka darbu taasisan.
+      bid_panel_decision_actions:
+        display_name: Tarkaanfiiwwan hordoffiif barbaadaman  ibsaa.
+      bid_panel_comments:
+        display_name: Yaada.

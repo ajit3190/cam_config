@@ -1,0 +1,105 @@
+es-GT:
+  assessment:
+    name: Evaluación
+    description: Formato de Evaluación
+    fields:
+      assessment_home_visit:
+        display_name: ¿Se realizó una visita domiciliaria como parte de la evaluación?
+      assessment_home_visit_details:
+        display_name: 'Si no se hizo, por favor de detalles:'
+      assessment_child_seen:
+        display_name: ¿Se atendió al niño individualmente / solo?
+      assessment_child_seen_details:
+        display_name: 'Si no se hizo, por favor de detalles:'
+      assessment_separator:
+        display_name: Puntos de vista y deseos del niño y de los cuidadores (as)
+      assessment_child_views:
+        display_name: Puntos del vista del niño
+        help_text: Describa las opiniones y deseos del niño con respecto a su situación. Esta sección se puede ampliar para incluir las propias palabras, testimonio y / o dibujo del niño (por ejemplo, de su situación, familia y / o viaje).
+      assessment_caregiver_views:
+        display_name: Puntos de vista del cuidador (a)
+        help_text: Describa las opiniones y deseos de los cuidadores (as) con respecto a la situación del niño.
+      assessment_needs_separator:
+        display_name: Evaluación de la necesidades
+        guiding_questions: |-
+          Describa cuándo y de dónde obtuvo su información: la información puede provenir de una variedad de fuentes (por ejemplo, informes escritos sobre el niño, observaciones, entrevistas con el niño y la familia, actividades creativas como dibujar o contar historias realizadas con el niño, cuestionarios y listas de verificación, conversaciones con otras agencias y quienes conocen al niño, visitas domiciliarias).
+          Cita información de fuentes de primera mano.
+          Describe si la información está respaldada y verificada por cualquier otra cosa.
+          Cuando sea relevante, describa tanto la historia como la situación actual.
+          Describa cuántas veces presenció una situación o cuántas personas informaron sobre la inquietud.
+          Proporcione razones para su análisis de una situación.
+          Puede ser más útil para usted identificar las necesidades que los servicios requeridos. P.ej. se podría decir que un niño necesita educación en lugar de decir que el niño necesita ir a la escuela, ya que hay muchas formas diferentes de proporcionar educación a un niño.
+      assessment_physical_wellbeing:
+        display_name: Bienestar físico y salud
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P.ej. ¿El desarrollo físico del niño es el esperado según su edad?
+          ¿Tiene el niño algún problema de salud (signos de problemas respiratorios como tos, congestión nasal, dientes sucios, olor fuerte de la boca, de la persona)?
+          ¿Tiene el niño alguna herida? ¿Tiene el niño algún impedimento o discapacidad mental, física o sensorial?
+          ¿Está embarazada la niña? ¿Está el niño fatigado / agotado? ¿La ropa del niño está sucia o en malas condiciones en comparación con otros niños de la comunidad)?
+      assessment_emotional_wellbeing:
+        display_name: Bienestar emocional, conocimientos y habilidades
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P.ej. ¿Cómo se siente el niño en general? ¿Sufre el niño de depresión o baja autoestima? ¿El niño se siente feliz? ¿Tiene el niño miedos y / o pesadillas?
+          ¿El niño está ansioso? ¿El niño se siente entumecido o parece indiferente? ¿Sufre el niño mucha ira, culpa o desesperanza?
+          ¿Es el niño demasiado pegajoso o independiente según su edad? Describe cómo se enfrenta a los reveses de la vida.
+          ¿Tiene el niño conocimientos y habilidades esenciales como identificar y regular las emociones y el comportamiento, pensar en soluciones apropiadas a los conflictos, participar en juegos cooperativos, interpretar correctamente los comportamientos y emociones de los demás y sentirse bien consigo mismo y con los demás?
+      assessment_social_relationships:
+        display_name: Relaciones sociales con compañeros, familia y comunidad.
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P.ej. ¿Participa el niño en actividades sociales? ¿El niño está socialmente retraído?
+          Describa la calidad y frecuencia del contacto del niño con sus compañeros, la familia y otros adultos en la vida del niño (¿evita el niño el contacto con alguno de ellos? ¿Alguno de ellos se distancia del niño y, de ser así, cuáles son las razones? ¿Los miembros de la familia evitan la interacción con el niño en ciertos entornos (por ejemplo, en público)?
+          ¿Qué tono de voz adoptan al interactuar con el niño? Describa cómo esto afecta el bienestar del niño.
+      assessment_education:
+        display_name: Educación, trabajo, tiempo libre e intereses
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P.ej. ¿Qué educación obtuvo el niño? ¿Está el niño matriculado y asiste regularmente a algún programa educativo?
+          Describe el entorno escolar. ¿Existen opciones y oportunidades para el niño en términos de educación?
+          ¿Qué hace el niño en su tiempo libre? Describe los intereses del niño. ¿Participa el niño en actividades que puedan considerarse contrarias a la ley?
+          ¿El niño trabaja? Describa el tipo de trabajo, la frecuencia del trabajo y cómo esto afecta el bienestar del niño. Si el niño está trabajando, ¿Cómo se usa el dinero ganado / en qué gasta el niño el dinero?
+      assessment_documentation:
+        display_name: Documentación
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P.ej. ¿Tiene el niño documentación de registro de nacimiento? ¿Tiene el niño algún otro documento de registro / identificación?
+          ¿Le falta al niño alguna documentación necesaria para su protección y / o para acceder a los servicios ahora o en el futuro? Describa cómo esto afecta el bienestar del niño.
+      assessment_living_environment_family_separator:
+        display_name: Ambiente de vida y familia
+      assessment_living_environment_family:
+        display_name: Ambiente de vida y familia
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P. ej. ¿Cuál es el arreglo de vivienda actual (tipo de refugio; privacidad)? Describe la relación entre el niño y el resto de la familia.
+          Describa la capacidad y habilidad de los adultos de la familia para proteger al niño y responder a sus necesidades.
+          Describa la situación de los medios de vida de la familia / hogar. ¿Con quién más vive el niño y cuáles son las dinámicas dentro del entorno de vida?
+          ¿Quién duerme en la misma habitación que el niño? ¿Cuántas comidas come el niño / hogar al día? ¿Es esto diferente de otros hogares en la comunidad del niño?
+          Describa el papel del niño y si el niño es tratado de manera diferente a otros niños en el entorno de vida. Describe las condiciones de vida.
+          ¿Tiene el niño acceso seguro al agua potable, las duchas y los baños? ¿El niño se siente seguro donde vive?
+          Describa cómo esto afecta el bienestar del niño. Describa la distancia y las opciones para acceder a los servicios.
+      assessment_care_arrangement_separator:
+        display_name: Arreglo de cuidado
+      assessment_care_arrangment:
+        display_name: Arreglo de cuidado
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P.ej. ¿Cuál es el arreglo de cuidado actual y qué tan estable / permanente es el arreglo? ¿El arreglo de cuidado es apropiado para la edad y situación?
+          ¿Cómo se organizó el cuidado (organizado por los padres del niño antes de salir del país de origen; espontáneamente en el país de origen; espontáneamente en el país actual; organizado por una organización; organizado por la comunidad);
+          Describa la relación entre el niño y el cuidador. ¿El cuidador / la familia se ocupa de otro UASC? ¿El cuidador está relacionado con el niño (si es así, cuál es la relación ?;
+          ¿El cuidador está en contacto con los padres del niño? ¿Cuáles son los deseos de los padres (si se conocen)? ¿Cuáles son los deseos del niño?
+      assessment_community_separator:
+        display_name: 'Comunidad '
+      assessment_community:
+        display_name: Comunidad, seguridad y protección, integración y apoyo
+        help_text: 'Factores de riesgo, factores de protección y necesidades identificadas:'
+        guiding_questions: |-
+          P.ej. Describa cualquier inquietud sobre la seguridad y protección del niño (por ejemplo, violencia comunitaria, prácticas tradicionales nocivas, situación en el lugar de trabajo, percepciones de la comunidad sobre violencia / abuso; riesgo de reclutamiento por fuerzas o grupos armados).
+          ¿Tiene el niño libertad de movimiento (la situación es diferente a la del resto de la comunidad y de los niños en general)?
+          Describa cómo esto afecta el bienestar del niño.
+          ¿El niño o la familia es aceptado en la comunidad / aislado? ¿El niño o la familia se sienten discriminados en el acceso a los servicios?
+          ¿Se ha sentido el niño y su familia atacados por algún grupo? ¿El niño o la familia enfrentan solicitudes de servicios inapropiados a cambio de apoyo?
+          ¿Se le ha otorgado al niño o la familia un reconocimiento formal para permanecer en la ubicación actual? ¿Está el niño excluido de actividades o grupos en la comunidad?
+          ¿Experimenta el niño algún tipo de discriminación, prejuicio o acoso en la comunidad?
+          Describir la disponibilidad y el acceso a asistencia / servicios dentro de la comunidad (incluidos los mecanismos de protección comunitarios).

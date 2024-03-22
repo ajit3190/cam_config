@@ -1,0 +1,58 @@
+---
+ar:
+  tracing_request_subform_section:
+    name: نموذج فرعي متداخل لطلب التتبع
+    description: نموذج فرعي متداخل لطلب التتبع
+    fields:
+      matched_case_id:
+        display_name: معرف الحالة المتطابق
+      tracing_request_status:
+        display_name: حالة التتبع
+      individual_details_section:
+        display_name: تفاصيل فردية
+      name:
+        display_name: اسم
+      relation:
+        display_name: ما علاقة المستعلم بالطفل؟
+      relation_child_lived_with_pre_separation:
+        display_name: هل عاش الطفل مع المستفسر قبل الانفصال؟
+      name_nickname:
+        display_name: اللقب
+      name_other:
+        display_name: اسم آخر
+      sex:
+        display_name: الجنس
+      age:
+        display_name: العمر
+      date_of_birth:
+        display_name: تاريخ الميلاد
+      physical_characteristics:
+        display_name: علامات جسدية مميزة
+      inquirer_special_message:
+        display_name: رسالة خاصة للشخص المطلوب البحث عنه
+      same_separation_details:
+        display_name: نفس تفاصيل الفصل كما في نموذج المستعلم؟
+      separation_details_section:
+        display_name: تفاصيل الانفصال ( اذا كانت مختلفة عن نموذج المستعلم)
+      date_of_separation:
+        display_name: تاريخ الانفصال
+      separation_cause:
+        display_name: ما هو السبب الرئيسي للانفصال
+      separation_evacuation:
+        display_name: هل وقع الانفصال بسبب شيئ له علاقة بالإخلاء؟
+      separation_details:
+        display_name: ظروف الانفصال (يرجى تقديم التفاصيل)
+      address_separation:
+        display_name: عنوان الانفصال (مكان)
+      location_separation:
+        display_name: مكان الانفصال
+      address_last:
+        display_name: اخر عنوان
+      landmark_last:
+        display_name: اخر نقطة علام
+      location_last:
+        display_name: اخر موقع
+      telephone_last:
+        display_name: اخر هاتف
+      additional_tracing_info:
+        display_name: معلومات إضافية يمكن أن تساعد في عملية التتبع

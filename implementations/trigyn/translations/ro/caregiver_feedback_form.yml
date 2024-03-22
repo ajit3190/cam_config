@@ -1,0 +1,188 @@
+ro:
+  caregiver_feedback_form:
+    name: Feedback Îngrijitor
+    description: Feedback Îngrijitor
+    fields:
+      caregiver_feedback_date_completed:
+        display_name: Dată completare formular
+      caregiver_feedback_separator_consent:
+        display_name: Consimțământ și acord
+        guiding_questions: |-
+          Exemplu de scenariu: „Aș dori să vorbesc cu dumneavoastră despre modul în care responsabilul de caz a lucrat cu dumneavoastră și cu copilul dumneavoastră.
+          Dorim să ne asigurăm că oferim cele mai bune servicii posibile copiilor, așa că întrebăm cum l-a ajutat responsabilul de caz pe copilul dumneavoastră și dacă există ceva ce am putea face diferit/ mai bine.
+          Nu trebuie să ne spuneți nimic dacă nu doriți și nu trebuie să ne dați motive pentru asta.
+          Chiar dacă decideți să nu ne spuneți nimic, acest lucru nu va afecta sprijinul pe care copilul dumneavoastră îl primește de la noi.
+          Cu toate acestea, împărtășirea gândurilor și sentimentelor dumneavoastră cu noi ne va ajuta să îmbunătățim ceea ce facem pentru alți copii și familii.
+          Orice ne spuneți va fi păstrat în privat. Asta înseamnă că, deși vom împărtăși ceea ce spuneți, nu vom spune nimănui că dumneavoastră sunteți cel/ cea care ne-a spus.
+          De asemenea, puteți decide să nu răspundeți la anumite întrebări sau să vă răzgândiți și să decideți să nu mai continuați oricând.”
+      caregiver_feedback_consent_relationship:
+        display_name: 'Legătura îngrijitorului cu copilul:'
+        option_strings_text:
+          primary_caregiver: Îngrijitor principal
+          legal_guardian: Tutore legal
+          other_family_member_close_to_the_child: Alt membru al familiei apropiat de copil
+          unrelated_adult_close_to_the_child: Adult neînrudit apropiat de copil
+          other: Altceva
+      caregiver_feedback_consent_relationship_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      caregiver_feedback_sex:
+        display_name: Sexul Îngrijitorului
+      caregiver_feedback_dob:
+        display_name: Data de naștere a Îngrijitorului
+      caregiver_feedback_consent:
+        display_name: Îngrijitorul ne-a dat permisiunea de a colecta feedback-ul său cu privire la procesul de management de caz
+        tick_box_label: 'Da'
+      caregiver_feedback_consent_date:
+        display_name: Data consimțământului/ acordului
+      caregiver_feedback_separator_questions:
+        display_name: 'Întrebări: Partea I'
+        guiding_questions: |-
+          Puți da exemple pentru a solicita feedback, dar ai grijă să adresezi întrebările principale.
+          Ar trebui să se desfășoare în limba îngrijitorului și să fie facilitată de cineva care are abilitățile și pregătirea necesare pentru a efectua interviuri și pentru a colecta feedback.
+      caregiver_feedback_services_discovery:
+        display_name: Cum ați aflat despre serviciile [inserați numele organizației/ instituției] de management de caz?
+        option_strings_text:
+          caseworker_approached_me: Responsabilul de caz m-a abordat
+          another_organization: De la altă organizație
+          my_child: De la copilul meu
+          family_friends: Familie/ prieteni
+          school: Școală
+          community_leader: Liderul comunității
+          community_based_child_protection_focal_point: Punct focal comunitar pentru protecția copilului
+          authorities: Autorități
+          saw_a_poster_information_leaflet: Am văzut un afiș/ un pliant informativ
+          cannot_recall: Nu îmi amintesc
+          other: Altceva
+      caregiver_feedback_services_discovery_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      caregiver_feedback_help_asked:
+        display_name: Înainte de a începe să lucrați cu responsabilul de caz, ați fost întrebat dacă copilul dumneavoastră dorește să fie ajutat în acest fel?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      caregiver_feedback_help_asked_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_expectations:
+        display_name: La ce tip de sprijin vă așteptați de la [inserați numele organizației/ instituției care a gestionat cazul]?
+        option_strings_text:
+          alternative_care: Îngrijire alternativă
+          security_e_g_safe_shelter: Siguranță (de exemplu, un adăpost sigur)
+          education_formal: Educație (formală)
+          non_formal_education: Educație informală
+          family_tracing_and_reunification: Urmărire și reunificare familie
+          basic_psychosocial_support: Îngrijire psihosocială de bază
+          focused_non_specialized_mhpss_care: Îngrijire non-specializată MHPSS/ sănătate mintală și suport psihosocial
+          specialized_mhpss_services: Îngrijire specializată MHPSS/ sănătate mintală și suport psihosocial
+          food: Mâncare
+          non_food_items: Produse non-alimentare
+          cash_assistance: Ajutor cu bani
+          livelihoods: Bunuri de strictă necesitate
+          medical: Medical
+          nutrition: Nutriție
+          legal_support: Asistență legală
+          documentation: Documentație
+          services_for_children_with_disabilities: Servicii pentru copii cu dizabilități
+          sexual_and_reproductive_health: Sănătate sexuală și reproductivă
+          shelter: Adăpost
+          wash: WASH/ apă, salubritate, igienă
+          durable_solution_in_coordination_with_unhcr: Soluții de durată (în coordonare cu UNHCR)
+          relocation: Relocare
+          other: Altceva
+      caregiver_feedback_expectations_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      caregiver_feedback_expectations_received:
+        display_name: Copilul tău (și tu și familia ta – acolo unde este cazul) a primit sprijinul pe care te așteptai să îl primești?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      caregiver_feedback_expectations_received_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_process_plan:
+        display_name: A făcut responsabilul de caz un plan [plan de servicii] împreună cu dumneavoastră și copilul dumneavoastră pentru a vă obține sprijinul de care e nevoie?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      caregiver_feedback_process_plan_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_process_connect:
+        display_name: Responsabilul de caz a conectat pe copilul dumneavoastră (și pe dumneavoastră/ familia dumneavoastră, acolo unde este cazul) la servicii care v-au putut ajuta?
+        option_strings_text:
+          'yes': 'Da'
+          no_did_not_need_other_services: Nu, nu a fost nevoie de alte servicii
+          no_did_not_want_other_services: Nu, nu am dorit alte servicii
+          unknown: Nespecificat
+      caregiver_feedback_process_connect_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_process_consent:
+        display_name: Ori de câte ori responsabilul de caz a împărtășit informații despre copilul dvs. (și despre dvs. și familia dvs., acolo unde este cazul) altor persoane, ați fost întrebat dacă sunteți de acord să împărtășească acele informații despre dvs. și despre situația dvs. cu ceilalți?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      caregiver_feedback_process_consent_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_process_closure:
+        display_name: Dumneavoastră (și copilul dvs., acolo unde este cazul) ați luat decizia de a opri serviciile de management de caz ale [inserați numele organizației/ instituției] împreună cu responsabilul de caz?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      caregiver_feedback_process_closure_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_questions_ii:
+        display_name: 'Întrebări: Partea II'
+        guiding_questions: |-
+          Exemplu de scenariu: „În continuare, am să vă întreb în ce măsură sunteți de acord cu câteva afirmații pe care le menționez.
+          Dacă sunteți pe deplin de acord cu una dintre afirmații, îi puteți da un 10. Dacă nu sunteți deloc de acord cu afirmația, atunci îi puteți da un 1.
+          De asemenea, puteți decide să răspundeți cu orice alt număr între 1 și 10; cu cât sunteți mai de acord cu afirmația, cu atât ar trebui ca numărul să fie mai aproape de 10 și cu cât sunteți mai în dezacord cu afirmația, cu atât ar trebui ca numărul să fie mai aproape de 1."
+      caregiver_feedback_ii_explanation:
+        display_name: Responsabilul de caz a explicat lucrurile într-un mod greu de înțeles pentru mine.
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_explanation_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_ii_listening:
+        display_name: Responsabilul de caz mi-a cerut și ascultat întotdeauna părerile, opiniile și sentimentele.
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_listening_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_ii_pressured:
+        display_name: Adesea m-am simțit presat de responsabilul de caz să iau o decizie sau să fac ceva ce nu îmi doream.
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_pressured_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_ii_followup:
+        display_name: Responsabilul de caz a revenit asupra lucrurilor și a făcut ceea ce a spus că va face.
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_followup_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_ii_visits:
+        display_name: Responsabilul de caz ne-a vizitat, pe mine și pe copil, rar.
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_visits_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_ii_support:
+        display_name: Sprijinul oferit de responsabilul de caz copilului meu (sau mie și familiei mele, acolo unde este cazul) a fost util
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_support_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_ii_improvement:
+        display_name: De când lucrez cu responsabilul de caz, situația copilului meu s-a îmbunătățit.
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_improvement_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_ii_satisfaction:
+        display_name: Per ansamblu, sunt foarte mulțumit de sprijinul oferit de responsabilul de caz.
+        help_text: Alegeți un număr între 1 și 10
+      caregiver_feedback_ii_satisfaction_details:
+        display_name: Vă rugăm să furnizați detalii
+      caregiver_feedback_final_question:
+        display_name: Ar mai fi și altceva ce ați dori să ne împărtășiți, sub formă de feedback?
+        option_strings_text:
+          'yes': 'Da'
+          'no': 'Nu'
+          unknown: Nespecificat
+      caregiver_feedback_final_question_details:
+        display_name: Vă rugăm să furnizați detalii

@@ -1,0 +1,106 @@
+fr:
+  basic_identity:
+    name: Renseignements sur l'enfant
+    description: Renseignements de base sur l'identité d'un enfant séparé ou non accompagné.
+    fields:
+      case_id_display:
+        display_name: Numéro de dossier
+      cpims_id:
+        display_name: Numéro de dossier préalable
+        help_text: Numéro CPIMS (ou autre système)
+      marked_for_mobile:
+        display_name: Marqué pour le mobile ?
+        tick_box_label: 'Oui'
+      child_status:
+        display_name: État d'avancement du dossier
+      case_status_reopened:
+        display_name: Réouverture du dossier ?
+        tick_box_label: 'Oui'
+      case_status_reopened_reasons:
+        display_name: 'Motifs de la réouverture du dossier '
+        option_strings_text:
+          break_down_of_reunification_placement: Échec du placement/de la réunification familiale
+          death_of_caregiver_s: Décès de la personne qui s’occupait de l’enfant
+          physical_abuse_violence: Violence et abus physiques
+          sexual_abuse_violence: Violence et abus sexuels
+          emotional_or_psychological_abuse_violence: Violence et abus affectifs et psychologiques
+          physical_neglect: Négligence physique
+          emotional_neglect: Négligence psychologique
+          medical_neglect: Négligence médicale
+          educational_neglect: Négligence éducative
+          supervisory_neglect: Défaut de supervision
+          abandonment: Abandon
+          child_labour: Travail des enfants
+          hazardous_work: Travail dangereux
+          sexual_exploitation: Exploitation sexuelle
+          slavery_sale_trafficking_forced_labour: Esclavage, vente, traite et travail forcé
+          in_conflict_with_the_law: Démêlés avec la loi
+          associated_with_armed_forces_or_groups: Association avec des forces ou des groupes armés
+          unaccompanied: Non accompagné
+          separated: Séparé
+          orphan: Orphelin
+          functional_difficulties: Déficiences fonctionnelles (p. ex. problèmes de vision, d’audition, de mémoire, de concentration ou de communication, problèmes moteurs [difficulté à marcher, p. ex.] ou manque d’autonomie)
+          psychosocial_distress: Détresse psychosociale
+          substance_abuse_and_addiction_child: Toxicomanie et addiction (pour l'enfant)
+          belongs_to_marginalised_discriminated_group: Appartenance à un groupe discriminé ou marginalisé
+          lack_of_documentation_birth_registration: Absence de papiers officiels ou d’acte de naissance
+          child_marriage: Enfant marié
+          fgm: Mutilations génitales féminines
+          pregnancy_child_parent: Grossesse ou enfant parent
+          inappropriate_care_arrangement: 'Prise en charge inappropriée (Ex. : >8 enfants dans la maison, adulte responsable toxicomane, un seul adulte responsable très vulnérable)'
+          other: Autre
+      name:
+        display_name: Nom complet
+      name_first:
+        display_name: Prénom
+      name_middle:
+        display_name: Deuxième prénom
+      name_last:
+        display_name: Nom de famille
+      name_nickname:
+        display_name: Surnom
+      name_other:
+        display_name: Autre nom
+      registration_date:
+        display_name: Date d'enregistrement
+      identification_date:
+        display_name: Date de l’identification ou du signalement de l’enfant
+      assessment_due_date:
+        display_name: Date d'échéance de l'évaluation
+      sex:
+        display_name: Sexe
+      age:
+        display_name: Âge
+      date_of_birth:
+        display_name: Date de naissance
+      estimated:
+        display_name: S’agit-il d’une estimation?
+        tick_box_label: 'Oui'
+      national_id_no:
+        display_name: Numéro de carte d’identité nationale
+      unhcr_individual_no:
+        display_name: Numéro d’identification de l’UNHCR
+      other_id_type:
+        display_name: Type d'autre document d'identité pertinent
+      other_id_no:
+        display_name: Autres numéros d’identification pertinents
+      nationality:
+        display_name: Nationalité
+      ethnicity:
+        display_name: Ethnicité/Clan/Tribu
+      sub_ethnicity_1:
+        display_name: Sous-groupe ethnique 1
+      sub_ethnicity_2:
+        display_name: Sous-groupe ethnique 2
+      language:
+        display_name: Langues parlées par l’enfant
+      religion:
+        display_name: Religion
+      displacement_status:
+        display_name: Groupe de population
+      displacement_status_other:
+        display_name: Si autre, précisez
+      disability_type_communications:
+        display_name: Besoins particuliers en matière de communication
+      telephone_current:
+        display_name: Téléphone et autres coordonnées de l’enfant

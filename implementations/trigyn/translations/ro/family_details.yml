@@ -1,0 +1,7 @@
+ro:
+  family_details:
+    name: Detalii familie
+    description: Detalii familie
+    fields:
+      family_details_section:
+        display_name: Detalii familie

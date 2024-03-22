@@ -1,0 +1,19 @@
+es:
+  approval_subforms:
+    name: Subformulario de Aprobación
+    description: Subformulario de Aprobación
+    fields:
+      approval_requested_for:
+        display_name: Aprobación solicitada para
+      approval_response_for:
+        display_name: Aprobación para
+      approval_for_type:
+        display_name: Tipo de Plan de Caso
+      approval_date:
+        display_name: 'Fecha '
+      approval_manager_comments:
+        display_name: Comentarios del Gerente
+      approval_status:
+        display_name: Estado de Aprobación
+      approved_by:
+        display_name: Aprobado por

@@ -1,0 +1,65 @@
+---
+ar:
+  followup_subform_section:
+    name: نموذج فرعي متداخل للمتابعة
+    description: نموذج فرعي متداخل للمتابعة
+    fields:
+      followup_needed_by_date:
+        display_name: الحاجة للمتابعة من قبل
+        help_text: "(سينشئ هذا الحقل تذكيرًا في قائمة المهام.)"
+      followup_date:
+        display_name: تاريخ المتابعة
+      followup_with_multi:
+        display_name: المتابعة مع
+      other_please_specify:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      followed_up_through:
+        display_name: المتابعة من خلال
+        option_strings_text:
+          phone_call: اتصال هاتفي
+          instant_message_sms_whatsapp: الرسائل الفورية / الرسائل القصيرة / واتساب
+          email: البريد الالكتروني
+          social_media: وسائل التواصل الاجتماعي
+          ad_hoc_home_visit_child_family: زيارة منزلية مخصصة (طفل / أسرة)
+          scheduled_home_visit_child_family: جدولة زيارة المنزل (الطفل / الأسرة)
+          face_to_face_meeting_outside_of_home_child_family: اجتماع وجهاً لوجه خارج المنزل  (الطفل / الأسرة)
+          face_to_face_meeting_service_provider_and_child_family: اجتماع وجهاً لوجه (مقدم الخدمة والطفل / الأسرة)
+          face_to_face_meeting_service_provider_only: اجتماع وجهًا لوجه (مقدم الخدمة فقط)
+          community_based_group: مجموعة مجتمعية
+          authorities: السلطات
+          other: أخرى
+      followup_other_specify:
+        display_name: فضلا حدد إن كنت اخترت غير ذلك
+      followed_specific_action:
+        display_name: متابعة الإجراءات / الخدمة المحددة من خطة الحالة؟
+      specify_action:
+        display_name: حدد الإجراء / الخدمة (من خطة الحالة) التي تمت متابعتها أو العنصر الآخر الذي تمت متابعته
+      purpose_followup:
+        display_name: الغرض من المتابعة
+        help_text: صف سبب متابعة هذا الإجراء / الخدمة / العنصر المحدد
+      followup_result_separator:
+        display_name: نتيجة المتابعة
+      outcome_followup:
+        display_name: نتيجة المتابعة
+        help_text: على سبيل المثال تفاصيل حول الإجراء المتخذ / الخدمة المقدمة ، ونتائج الإجراء المتخذ / الخدمة المقدمة ، وتفاصيل عن التغيير في وضع الطفل
+      action_conducted:
+        display_name: في حال المتابعة ، هل تم تنفيذ الإجراءات / الخدمة المحددة من خطة الحالة؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          unable_to_determine: غير قادر على التحديد
+      situation_changed:
+        display_name: إذا تمت المتابعة ، هل تغير وضع الطفل بشكل كبير؟
+        option_strings_text:
+          'yes': 'نعم'
+          improved: في تحسن
+          declined: رفض
+          'no': 'لا'
+          unable_to_determine: غير قادر على التحديد
+      next_steps_separator:
+        display_name: الخطوات التالية
+      need_follow_up_visit:
+        display_name: هل هناك حاجة لمزيد من المتابعة؟
+        help_text: إذا كانت هناك حاجة لمزيد من المتابعة ، فقم بإنشاء إدخال نموذج فرعي جديد لتلك المتابعة وأدخل التاريخ الذي تحتاجه هناك للمتابعة.
+      other_recommend_followup:
+        display_name: هل هناك توصيات أخرى مبنية على المتابعة التي أجريت؟

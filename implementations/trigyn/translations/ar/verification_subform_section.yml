@@ -1,0 +1,57 @@
+---
+ar:
+  verification_subform_section:
+    name: نموذج فرعي متداخل للتحقق
+    description: نموذج فرعي متداخل للتحقق
+    fields:
+      verification_name_inquirer:
+        display_name: اسم المستفسر
+      verification_inquirer_relationship:
+        display_name: الصلة
+      verification_inquirer_sex:
+        display_name: الجنس
+      verification_inquirer_age:
+        display_name: العمر
+      verification_inquirer_address_current:
+        display_name: العنوان
+      verification_inquirer_location:
+        display_name: الموقع الحالي
+      verification_phone_inquirer:
+        display_name: رقم الهاتف
+      verification_inquirer_wants_to_care_for_child:
+        display_name: هل تريد(ين) أن يأتي الطفل ويعيش معك؟
+      verification_inquirer_able_to_care_for_child:
+        display_name: هل أنت قادر على الاعتناء به / بها / بهم؟
+      verification_alternate_caregiver_exists:
+        display_name: إذا لم يكن كذلك ، فهل هناك أي فرد آخر في الأسرة يمكنه أخذ الطفل؟
+      verification_alternate_caregiver_name:
+        display_name: اسم مقدم الرعاية البديل
+      verification_alternate_caregiver_relationship:
+        display_name: علاقة القرابة مع  مقدم الرعاية البديل
+      verification_address_alternate_caregiver:
+        display_name: عنوان ذلك الشخص (مقدم رعاية بديل)
+      verification_location_alternate_caregiver:
+        display_name: "العنوان الفعلي لمقدم الرعاية البديل / قرية / منطقة "
+      verification_comments:
+        display_name: التعليقات
+      verification_acceptance_date:
+        display_name: تاريخ قبول رعاية الطفل
+      verification_inquirer_known_to_child:
+        display_name: هل يعرف الطفل الشخص البالغ الذي يطلب التحقق؟
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: هل يرغب الطفل في لم شمله بهذا الشخص؟
+      verification_inquirer_information_match:
+        display_name: هل المعلومات التي قدمها الطفل والبالغ متطابقة؟
+      verification_inquierer_recommendation:
+        display_name: هل توصي بلم الشمل ؟ وإن لم يكن ما هي الإجراءات الأخرى؟
+        option_strings_text:
+          'yes': 'نعم'
+          'no': 'لا'
+          further_tracing: مزيد من المتابعة
+          long_term_alternative_care: الرعاية البديلة طويلة الأمد
+          reunification: لم الشمل
+          reunification_enhanced_support: لم الشمل مع الدعم المعزز
+      verification_inquierer_recommendation_comments:
+        display_name: تعليقات اضافية
+      verification_date:
+        display_name: تاريخ التحقق

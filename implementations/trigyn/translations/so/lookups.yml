@@ -1,0 +1,157 @@
+so:
+  lookup-age-group-type:
+    name: nooca dada kooxda
+    lookup_values:
+      adult: da da
+      minor: yar
+      unknown: aan la aqoon
+  lookup-agency-office:
+    name: xafiiska wakiilka
+    lookup_values:
+      agency_office_1: xafiiska wakiilka 1
+      agency_office_2: xafiiska wakiilka 2
+      agency_office_3: xafiiska wakiilka3
+      agency_office_4: xafiiska wakiilka 4
+      agency_office_5: xafiiska wakiilka 5
+  lookup-approval-for:
+    name: Oggolaanshaha
+    lookup_values:
+      bia: bia
+      case_plan: kiiska qorshaha
+      closure: xirid
+  lookup-approval-status:
+    name: heerka ansixinta
+    lookup_values:
+      requested: lacodsaday
+      pending: xanibayo
+      approved: la ansixiyay
+      rejected: ladiday
+  lookup-approval-type:
+    name: nooca ansixinta
+    lookup_values:
+      case_plan: qorshaha kiiska
+      action_plan: qorshaha ficilka
+      service_provision: adeeg bixinta
+  lookup-armed-force-group-name:
+    name: Magaca Kooxda Ciidanka Qalabka Sida
+    lookup_values:
+      armed_force_or_group_1: Magaca Kooxda Ciidanka Qalabka Sida 1
+      armed_force_or_group_2: Magaca Kooxda Ciidanka Qalabka Sida 2
+      armed_force_or_group_3: Magaca Kooxda Ciidanka Qalabka Sida 3
+      other_please_specify: Mid kale, fadlan sheeg
+  lookup-armed-force-group-type:
+    name: nooca cidanka qalabka sida
+    lookup_values:
+      national_army: cidanka qaranka
+      security_forces: xoogaga amaanka
+      international_forces: ciidanka caalamiga
+      police_forces: ciidanka booliska
+      para-military_forces: Ciidamada Militariga
+      unknown: aan la aqoon
+      other: kuwa kale
+  lookup-assessment-duration:
+    name: Muddada Qiimaynta
+    lookup_values:
+      less_than_15_minutes: In ka yar 15 daqiiqo
+      16_30_minutes: 39-16-30 daqiiqo
+      31_minutes_1_hour: 40-31 daqiiqo- 1 saac
+      1_2_hours: 1-2 saac
+      more_than_2_hours: inkabada 2 saac
+  lookup-assessment-progress:
+    name: Horumarka Qiimaynta
+    lookup_values:
+      n_a: N/A
+      in_progress: Waa socotaa
+      met: kulan
+  lookup-case-status:
+    name: xalada kiiska
+    lookup_values:
+      open: fur
+      closed: xiran
+      transferred: la gudbiyay
+      duplicate: nuqul
+  lookup-child-minor-age-group:
+    name: Kooxda da'da ilmaha / da'da yar
+    lookup_values:
+      0_5_year_old: 0-5 sano kayar
+      6_12_year_old: 6-12 jir
+      13_17_year_old: 13-17 jir
+  lookup-conference-case-status:
+    name: shirka xalada kiiska
+    lookup_values:
+      open: kiiska wuu sii furnan doona
+      transferred: kiiska waa la gudbin doona
+      other: kuwa kale
+  lookup-country:
+    name: wadan
+    lookup_values:
+      afghanistan: cp nooca xadgudub
+  lookup-cp-violence-type:
+    lookup_values:
+      rape: kufsi
+      sexual_assault: Xadgudubka Galmada
+      physical_assault: xadgudubka muuqal
+      forced_marriage: guurka qasabka
+      denial_of_resources_opportunities_or_services: Diidmada Khayraadka, Fursadaha ama Adeegyada
+      psychological_emotional_abuse: Xadgudub nafsi ah / niyadeed
+      non-gbv: ahayn GBV
+  lookup-disability-type:
+    name: nooca cuuuryanka
+    lookup_values:
+      mental_disability: maskaxda ka cuuryaman
+      physical_disability: Naafada Jirka
+      both: labada
+  lookup-disability-type-with-mental-physical:
+    name: Nooca Naafanimada ee Maskaxda iyo Jirka la isku daray
+    lookup_values:
+      'no': 'maya'
+      mental_disability: naafada maskaxda
+      physical_disability: naafada jirka
+      mental_physical_disability: Dhimirka & Naafanimada Jirka
+  lookup-disability-type-with-no:
+    name: nooca naafada
+    lookup_values:
+      'no': 'maya'
+      mental_disability: naafo maskaxda
+      physical_disability: naafada jirka
+      both: labadaba
+  lookup-discovery-method:
+    name: Habka Daahfurka
+    lookup_values:
+      family_or_friend: qoyska asxaabta
+      referral: U gudbinta urur kale
+      neighbor: Jaarka ama xubin bulshada
+      community_discussion: Doodda bulshada
+      pamphlet: Warqad ama warqad yar oo aad aragtay ama heshay
+      other: kuwa kale
+  lookup-displacement-status:
+    name: heerka dibudajinta
+    lookup_values:
+      asylum_seeker: Magangalyo doon
+      refugee: qaxoooti
+      idp: Dadka Gudaha Ku Barokacay (IDP)
+      migrant: dahriibe
+      host:community: bulshada qabatay
+      returnee: soo noqday
+      stateless_person: Qof aan Dal lahayn
+      resident: Degenaansho Qaran (Ma Barako)
+      foreign_national: Deganaansho Qaran oo Ajaanib ah
+      other: kuwa kale
+  lookup-ethnicity:
+    name: Qowmiyad
+    lookup_values:
+      ethnicity1: Qowmiyad1
+      ethnicity2: Qowmiyad2
+      ethnicity3: Qowmiyad3
+      ethnicity4: Qowmiyad4
+      ethnicity5: Qowmiyad5
+      ethnicity6: Qowmiyad6
+      ethnicity7: Qowmiyad7
+      ethnicity8: Qowmiyad8
+      ethnicity9: Qowmiyad9
+      ethnicity10: Qowmiyad10
+  lookup-family-relationship:
+    name: xiriirka bulshada
+    lookup_values:
+      mother: hooyo
+      father: aabe

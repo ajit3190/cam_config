@@ -1,0 +1,48 @@
+---
+om:
+  tracing:
+    name: Maatii Barbaaduu.
+    description: " maatii barbaaduu."
+    fields:
+      matched_tracing_request_id:
+        display_name: Eenyumeessaa gaaffii barbaachaa waliin walsimatan.
+      separation_separator:
+        display_name: Seenaa Adda bahiinsaa.
+      tracing_status:
+        display_name: Sadarkaa Barbaacha Maatii.
+      date_of_separation:
+        display_name: Guyyaa itti addaan bahan.
+      separation_cause:
+        display_name: "Sababni ijoon addaan bahiinsaa maal ture?"
+      separation_cause_other:
+        display_name: "Sababni biraa yoo jiraate,ifa taasisaa maaloo."
+      separation_other_applicable_causes:
+        display_name: 'Yoo barbaachisaa ta''e, dhimmotni  biraa  addaan bahiinsaaf sababa ta''an  maal fa''i turan?'
+      separation_details:
+        display_name: Haaloota addaan bahiinsaa (bal'inaan dhiyeessaa maaloo)
+      separation_additional_movements:
+        display_name: Sochiiwwan dabalataa gidduu iddoo addaa bahiinsaatii fi  iddoo amma jiraachaa jiranii kana ibsi.
+      separation_witnessed_violence:
+        display_name: "Daa'imni  yeroo imalu /imaltu keessatti akaakuun jeequmsaa,doorsisaa ykn miidhaa kamiyyuu irra gaheeraa?"
+      separation_witnessed_violence_comments:
+        display_name: Tarreeffamoota ibsa waayee daa'ima mudatanii/quunnamanii.
+      address_separation:
+        display_name: Teessoo bakka addaan bahiinsaa(iddoo)
+      location_separation:
+        display_name: Bakka/i.ddoo adda bahiinsaa
+      additional_tracing_info:
+        display_name: "Odeeffannoo dabalataa  barbachaaf nama gargaaruu danda'an?"
+      evacuation_status:
+        display_name: "Daa'imni iddoo gadi dhiisee deemeeraa?"
+      evacuation_agent:
+        display_name: "Yoo eeyyen ta'e, karaa dhaabbata kamiitiin deeme?"
+      evacuation_from:
+        display_name: Guca/unka Gadhiisanii deemuu.
+      evacuation_date:
+        display_name: Guyyaa gadhiisanii itti deeman.
+      evacuation_to:
+        display_name: Gara itti deeman.
+      care_arrangements_arrival_date:
+        display_name: Guyyaa achi itti gahan.
+      tracing_actions_section:
+        display_name: Tarkaanfiwwan  barbaachaa/faana dhawuu.

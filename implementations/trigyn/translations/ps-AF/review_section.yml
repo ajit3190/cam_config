@@ -1,0 +1,67 @@
+ps-AF:
+  review_section:
+    name: ' بیاکتنه'
+    description: د بیا کتنې فرعي فورمه
+    fields:
+      review_form_date:
+        display_name: د فورمې د ډکیدو نیټه
+        help_text: ورځ/میاشت/کال
+      review_separator:
+        display_name: د بیاکتنې د ناستې جزیات
+      review_date:
+        display_name: د بیاکتنې د ناستې نیټه
+        help_text: ورځ/میاشت/کال
+      previous_review_date:
+        display_name: د تیرو کتنو نیټه (که اړوند وي)
+        help_text: ورځ/میاشت/کال
+      was_child_present:
+        display_name: ایا ماشوم حاضر وه؟
+      how_child_review:
+        display_name: که نه وي، نو ماشوم څنګه په بیاکتنه کې دخیل و؟
+      was_caregiver_present:
+        display_name: ایا د ماشوم سرپرست حاضر وه؟
+      how_caregiver_review:
+        display_name: که نه ، سرپرست څنګه په بیاکتنه کې دخیل و؟
+      outcome_review_separator:
+        display_name: د بیاکتنې د ناستې پایله
+      review_childs_situation:
+        display_name: د ماشوم اوسني وضعیت ته کتنه
+        help_text: د ماشوم عمومي وضعیت تشریح کړئ لکه څنګه چې د بیاکتنې په ناسته کې ورباندې بحث شوی
+      review_implementation:
+        display_name: د قضیې پلان پر پلي کولو باندې بیاکتنه
+        help_text: د ترسره شوو اقداماتو او خدماتو د وضعیت ارزونه چې د قضیې پلان کې ذکر شوي او د بیاکتنې ناستې په جریان کې ورباندې بحث شوی.
+      review_progress_goal:
+        display_name: ' قضیې د پلان د عمومي هدف د جریان بیا کتنه'
+        help_text: لکه څنګه چې د قضیې د بیا کتنې په ناسته کې ورباندې بحث شوی د قضیې د پلان عمومي هدف د جریان تحلیل وکړئ
+      review_other_notes:
+        display_name: د بیاکتنې د غونډې په جریان کې نور یادداشتونه / مشاهدې
+      next_steps_separator:
+        display_name: نور ګامونه
+      review_situation_change:
+        display_name: ایا د ماشوم وضعیت په داسې ډول بدل شو چې د یوې بلې ارزونې ترسره کیدو غوښتنه کوي؟
+      situation_change_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      adjustments_case_plan:
+        display_name: ایا د قضیې په پلان کې کوم ډول اصلاحات اړین دي؟
+      adjustment_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      risk_level_changed:
+        display_name: ایا د قضیې د خطر کچه بدله شوې؟
+      action_conducted:
+        display_name: که هو وي ، د خطر نوې کچه
+        option_strings_text:
+          high: لوړه کچه
+          medium: منځنی کچه
+          low: ټیټه کچه
+          'no': 'نه'
+      risk_level_details:
+        display_name: که هو وي ، لطفا توضیحات وړاندې کړئ
+      recommend_close_case:
+        display_name: ایا تاسو د قضیې د بندولو وړاندیز کوئ؟
+      close_case_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      next_case_review:
+        display_name: ایا د قضیې یوې بلې بیاکتنې ته اړتیا شتون لري؟
+      date_next_review:
+        display_name: که هو وي ، د راتلونکې بیاکتنې غونډې نیټه
+        help_text: ورځ/میاشت/کال

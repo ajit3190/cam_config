@@ -1,0 +1,13 @@
+ps-AF:
+  referral_transfer:
+    name: ارجاعات او لیږدونې
+    description: د لېږدونو او ارجاعاتو لیست
+    fields:
+      transfer_status:
+        display_name: د لېږد حالت
+        option_strings_text:
+          in_progress: 'په جریان کې ده '
+          accepted: قبول شوی ده
+          rejected: رد شوی ده
+      transitions:
+        display_name: ارجاعات او لیږدونې

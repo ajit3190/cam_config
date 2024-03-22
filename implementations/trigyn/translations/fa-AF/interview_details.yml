@@ -1,0 +1,50 @@
+fa-AF:
+  interview_details:
+    name: تفصیل مصاحبه
+    description: تفصیل مصاحبه
+    fields:
+      interview_date:
+        display_name: تاریخ مصاحبه
+      interviewer_name:
+        display_name: نام مصاحبه کننده
+      interviewer_postion:
+        display_name: موقف مصاحبه کننده
+      interviewer_agency:
+        display_name: موسسه مصاحبه کننده
+        option_strings_text:
+          agency_1: موسسه 1
+          agency_2: موسسه 2
+          agency_3: موسسه 3
+          agency_4: موسسه 4
+      address_interview:
+        display_name: آدرس مصاحبه
+      landmark_interview:
+        display_name: 'نشانی مصاحبه '
+      location_interview:
+        display_name: موقعیت مصاحبه
+      source_interview:
+        display_name: فورم معلومات بدست آمده
+        option_strings_text:
+          child: طفل
+          caregiver: مراقبت کننده
+          other: 'وغیره ,لطفآ مشخض سازید '
+      source_interview_other:
+        display_name: اگر معلومات از جایی دیکر بدست آمده لطفاً  ، توضیح دهید.
+      other_org_interview_status:
+        display_name: آیا طفل توسط موسسه دیگر مصاحبه شده؟
+      other_org_reference_no:
+        display_name: شماره مرجع داده شده توسط سازمان دیگر به کودک
+      case_eligibility_criteria:
+        display_name: ' آیامعیارهای واجد شرایط  برای قضیه ا است؟'
+      source_identification_referral:
+        display_name: 'منبع شناسایی / راجع سازی '
+        option_strings_text:
+          child_family_member: طفل /اعضای فامیل
+          community_members_cpc: اعضایجامعه /CPC
+          school_personnel: کارمندان مکتب
+          health_personnel: کارمندان صحی
+          population_registration_services: مراکز ثبت نفوس
+          law_enforcement_agencies: سازمان های اجرای قانون
+          humanitarian_agencies: سازمان های بشردوستانه
+      consent_form_completed:
+        display_name: آیا فورم رضایت نامه و اجازه نامه تکمیل شده ؟

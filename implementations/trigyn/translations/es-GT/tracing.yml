@@ -1,0 +1,47 @@
+es-GT:
+  tracing:
+    name: Rastreo
+    description: Rastreo
+    fields:
+      matched_tracing_request_id:
+        display_name: ID de solicitud de seguimiento coincidente
+      separation_separator:
+        display_name: Historia de Separación
+      tracing_status:
+        display_name: Estatus de Rastreo
+      date_of_separation:
+        display_name: Fecha de Separación
+      separation_cause:
+        display_name: ¿Cuál fue la principal razón de la separación?
+      separation_cause_other:
+        display_name: Si otro, especificar
+      separation_other_applicable_causes:
+        display_name: 'Si aplica, ¿cuáles otras causas de separación hubo?'
+      separation_details:
+        display_name: Circunstancias de la Separación (dar detalles)
+      separation_additional_movements:
+        display_name: Describir movimientos adicionales entre el lugar de separación y la ubicación actual
+      separation_witnessed_violence:
+        display_name: ¿El/la niño/a enfrentó o presenció algún tipo de violencia, amenaza o daño durante su viaje?
+      separation_witnessed_violence_comments:
+        display_name: Detalles sobre lo que el/la niño/a enfrentó/presenció
+      address_separation:
+        display_name: Dirección de Separación (lugar)
+      location_separation:
+        display_name: Ubicación de la Separación
+      additional_tracing_info:
+        display_name: ¿Información adicional que podría ayudar en el rastreo?
+      evacuation_status:
+        display_name: ¿Ha sido el/la niño/a evacuado?
+      evacuation_agent:
+        display_name: En caso afirmativo, ¿a través de cuál organización?
+      evacuation_from:
+        display_name: Evacuado de
+      evacuation_date:
+        display_name: Fecha de Evacuación
+      evacuation_to:
+        display_name: 'Evacuado a '
+      care_arrangements_arrival_date:
+        display_name: Fecha de Llegada
+      tracing_actions_section:
+        display_name: Acciones de rastreo

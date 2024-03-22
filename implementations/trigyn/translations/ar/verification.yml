@@ -1,0 +1,8 @@
+---
+ar:
+  verification:
+    name: التحقق
+    description: التحقق
+    fields:
+      verification_subform_section:
+        display_name: التحقق

@@ -1,0 +1,8 @@
+ru:
+  care_arrangements_section:
+    description: Бланк Обеспечение ухода
+    fields:
+      child_caregiver_reason_change:
+        display_name: Если это новый опекун, укажите причину такого изменения
+        option_strings_text:
+          abuse_exploitation: Насилие и эксплуатация

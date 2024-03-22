@@ -1,0 +1,58 @@
+fr:
+  family_details_section:
+    name: 'Détails de la famille '
+    description: 'Sous formulaire des détails de la famille '
+    fields:
+      relation_name:
+        display_name: Nom
+      relation:
+        display_name: Quel est leur lien de parenté avec l'enfant ?
+      relation_lives_with_child:
+        display_name: 'La personne vit - elle avec l''enfant ? '
+        tick_box_label: 'Oui'
+      relation_nickname:
+        display_name: Autres noms ou appellation connus par
+        help_text: par exemple, surnom, deuxième nom de famille
+      relation_is_alive:
+        display_name: Ce membre de la famille est-il vivant ?
+        option_strings_text:
+          unknown: Ne sait pas
+          alive: 'En vie '
+          dead: 'Décédé '
+      relation_death_details:
+        display_name: 'Si décédé, donnez les détails '
+        help_text: 'Inclure la date de décès si connu'
+      relation_age:
+        display_name: Age
+      relation_date_of_birth:
+        display_name: 'Date de naissance '
+      relation_age_estimated:
+        display_name: S’agit-il d’une estimation?
+        tick_box_label: 'Oui'
+      relation_national_id:
+        display_name: 'N° d''identité national '
+      relation_unhcr_individual_id:
+        display_name: 'ID Individuel UNHCR  '
+      relation_other_id:
+        display_name: 'Autre identifiant '
+      relation_ethnicity:
+        display_name: 'Ethnie '
+      relation_sub_ethnicity1:
+        display_name: Sous-groupe ethnique 1
+      relation_sub_ethnicity2:
+        display_name: Sous-groupe ethnique 2
+      relation_occupation:
+        display_name: Occupation
+      relation_address_current:
+        display_name: Adresse actuelle (si elle est différente de celle de l'enfant)
+      relation_landmark_current:
+        display_name: Repère actuel
+      relation_location_current:
+        display_name: 'Localisation actuelle '
+      relation_telephone:
+        display_name: Téléphone / autres contacts
+      child_consent_relation_contact:
+        display_name: L'enfant consent-il à ce que cette personne soit contactée ?
+        tick_box_label: 'Oui'
+      no_consent_provide_details:
+        display_name: 'Si non, veuillez préciser :'

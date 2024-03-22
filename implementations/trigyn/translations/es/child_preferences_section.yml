@@ -1,0 +1,23 @@
+es:
+  child_preferences_section:
+    name: Preferencias del niño/a anidadas
+    description: Subformulario de las preferencias del niño/a
+    fields:
+      wishes_name:
+        display_name: Persona (as) que el niño desea localizar
+      wishes_preference_relocated:
+        display_name: Preferencia del niño/a de ser reubicado con esta persona
+        option_strings_text:
+          first_choice: Primera opción
+          second_choice: Segunda opción
+          third_choice: Tercera opción
+      wishes_relationship:
+        display_name: ¿Cuál es la relación de esta persona con el/la niño/a?
+      wishes_address:
+        display_name: Última dirección conocida
+      wishes_landmark:
+        display_name: Punto de referencia
+      wishes_location:
+        display_name: Última ubicación conocida
+      wishes_telephone:
+        display_name: Teléfono

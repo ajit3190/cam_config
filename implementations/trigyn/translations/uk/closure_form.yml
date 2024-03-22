@@ -1,0 +1,138 @@
+uk:
+  closure_form:
+    name: Закриття
+    description: Закриття
+    fields:
+      closure_approved:
+        display_name: Погоджено менеджером
+        tick_box_label: 'Так'
+      closure_approved_date:
+        display_name: Дата
+      closure_approved_comments:
+        display_name: Коментарі менеджера
+      approval_status_closure:
+        display_name: Статус погодження
+      approval_obtained_child:
+        display_name: Погоджено дитиною
+        tick_box_label: 'Так'
+      approval_obtained_caregiver:
+        display_name: Погоджено опікуном
+        tick_box_label: 'Так'
+      approval_obtained_details:
+        display_name: Надайте деталі, будь ласка
+        help_text: Включіть контактні дані та відносини опікуна з дитиною
+      child_status:
+        display_name: Статус кейсу
+      date_closure:
+        display_name: Дата закриття
+      closure_reason:
+        display_name: Основна причина закриття кейсу
+        option_strings_text:
+          overall_goal_of_the_case_plan: Загальна ціль кейс плану була досягнута, дитина застрахована від шкоди, піклування та благополуччя дитини підтримано, і немає додаткових занепокоєнь
+          child_has_turned_18_years_old: Дитині виповнилося 18 років (переконайтеся, що існує план переходу, а вона знає, де і як отримати доступ до підтримки)
+          relocation_of_child_to_an_area: Переселення дитини в місцевість, де немає органу, куди передати справу
+          child_departed_for_a_durable_solution: Дитина передана за довготривалим рішенням, де немає агенції, до якої можна було б передати справу
+          child_no_longer_contactable: З дитиною більше не можна зв'язатися (зачекайте принаймні 3 місяці, перш ніж закрити справу)
+          death_of_child: Смерть дитини
+          no_further_action_possible_required: Подальші дії неможливі/непотрібні
+          case_opened_in_error: Справу відкрито помилково
+          other: Інше
+      closure_reason_other:
+        display_name: 'Якщо інше, вкажіть'
+      closure_details:
+        display_name: Надайте додаткову інформацію про причину закриття справи
+      closure_situation_child_separator:
+        display_name: Ситуація дитини на момент закриття справи
+      closure_how_long_case_opened:
+        display_name: Як давно відкрито цю справу
+        help_text: Через тижні
+      closure_current_situation:
+        display_name: Короткий опис поточної ситуації у справі
+        help_text: Опишіть історію та поточну ситуацію, включаючи останні надані послуги/вжиті дії
+      closure_child_moving_separator:
+        display_name: Якщо дитина переїжджає на нове місце
+      closure_new_child_location:
+        display_name: Нова адреса / місце проживання дитини
+        help_text: Надайте якомога більше інформації про місцезнаходження, щоб інші могли знайти це місце, напр. будинок, орієнтир, вулиця, місто/село, район, провінція (адаптувати відповідно до контексту)
+      closure_new_telephone_contact_details:
+        display_name: Телефон / інші контактні дані
+      closure_care_arrangements_separator:
+        display_name: Організація догляду на момент закриття
+      closure_current_care_arrangement:
+        display_name: Поточна організація догляду / життя дитини
+        option_strings_text:
+          parent_s: Батьки
+          step_parent: Прийомні батьки
+          customary_caregiver_s: Звичайний опікун
+          kafala: Кафала
+          independent_living: Самостійне життя
+          child_headed_household: Господарство, яке очолює дитина
+          adult_sibling: Дорослий брат і сестра
+          kinship_care_extended_family: Родинний догляд / велика родина
+          foster_care: Прийомний вихователь
+          residential_care: Догляд за місцем проживання
+          unrelated_adult: Неспоріднений дорослий
+          no_care_arrangement: Без організації догляду
+          other: Інше
+      closure_current_care_arrangement_other:
+        display_name: Якщо інше, вкажіть
+      closure_current_care_arrangement_permanent:
+        display_name: Чи це постійний догляд
+      closure_current_care_arrangement_permanent_no:
+        display_name: Якщо ні, вкажіть чому
+      primary_caregiver_separator:
+        display_name: Дані про ссновного опікуна
+      name_caregiver_closing:
+        display_name: Ім`я опікуна
+      relationship_caregiver_closing:
+        display_name: Зв`язок з дитиною
+      address_caregiver_closing:
+        display_name: Адреса опікуна
+      location_caregiver_closing:
+        display_name: Розташування опікуна
+      closure_caregiver_contact_details:
+        display_name: Телефон опікуна / інші контактні дані
+      closure_arrangements_separator:
+        display_name: Вжиті заходи для успішного закриття справи
+      case_closure_process:
+        display_name: Опишіть процес закриття справи
+        help_text: Надайте деталі зустрічей, проведених для обговорення закриття справи, наприклад. між працівником справи та дитиною, між працівником справи та опікуном(ами), між працівником справи та керівником.
+      closure_discussed_child:
+        display_name: Чи обговорено та узгоджено з дитиною закриття справи?
+      closure_discussed_child_no:
+        display_name: Якщо ні, вкажіть чому
+      closure_discussed_caregiver:
+        display_name: Чи обговорено та узгоджено з опікуном закриття справи?
+      closure_discussed_caregiver_no:
+        display_name: Якщо ні, вкажіть чому
+      closure_child_feedback_form:
+        display_name: Чи було зібрано відгук про процес ведення справи від дитини за допомогою «форми зворотного зв’язку з дітьми»?
+      closure_child_feedback_form_no:
+        display_name: Якщо ні, вкажіть чому
+      closure_caregiver_feedback_form:
+        display_name: Чи було зібрано відгук про процес ведення справи від опікуна за допомогою «форми зворотного зв’язку з опікуном»?
+      closure_caregiver_feedback_form_no:
+        display_name: Якщо ні, вкажіть чому
+      closure_final_followup_meeting:
+        display_name: Чи була запланована остання зустріч із дитиною та/або опікуном(ами) через 3 місяці, щоб впевнитися у стабільності ситуації?
+      closure_final_followup_meeting_no:
+        display_name: Якщо ні, вкажіть чому
+      closure_child_case_file_complete:
+        display_name: Чи повні та актуальні матеріали справи дитини з усіма відповідними документами?
+      closure_child_case_file_complete_no:
+        display_name: Якщо ні, вкажіть чому
+      closure_case_file_stored:
+        display_name: Як будуть зберігатися матеріали справи?
+        option_strings_text:
+          electronically: В електронному варіанті
+          hard_copy: Жорстка копія
+          both: Обидва варіанти
+      closure_case_file_stored_date:
+        display_name: До якого терміну зберігатимуться матеріали справи дитини?
+      closure_child_told_contact_support:
+        display_name: Чи сказали дитині, до кого звернутися, якщо вона/він матиме запитання, занепокоєння, чи захоче отримати доступ до підтримки, якщо буде потрібно?
+      closure_child_told_contact_support_no:
+        display_name: Якщо ні, вкажіть чому
+      closure_child_contact_support:
+        display_name: До кого дитині було сказано звернутися, якщо у неї виникнуть запитання, занепокоєння, або буде потрібна підтримка?
+        help_text: Вкажіть імена та контактні дані

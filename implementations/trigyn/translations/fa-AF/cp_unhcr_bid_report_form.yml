@@ -1,0 +1,7 @@
+fa-AF:
+  cp_unhcr_bid_report_form:
+    name: 'راپور بی آی دی '
+    description: راپور بی ]ی دی
+    fields:
+      unhcr_bid_report_subform:
+        display_name: راپور UNHCR

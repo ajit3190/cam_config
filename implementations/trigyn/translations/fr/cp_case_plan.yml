@@ -1,0 +1,48 @@
+fr:
+  cp_case_plan:
+    name: Plan de prise en charge
+    description: Plan de prise en charge
+    fields:
+      case_plan_approved:
+        display_name: Approuvé par le superviseur
+        tick_box_label: 'Oui'
+      case_plan_approved_date:
+        display_name: Date
+      case_plan_approved_comments:
+        display_name: Commentaires du superviseur
+      approval_status_case_plan:
+        display_name: Statut d'approbation
+      case_plan_section_header:
+        display_name: Plan de prise en charge
+      date_case_plan:
+        display_name: 'Date d''élaboration du plan d''action '
+        help_text: Ce champ est utilisé pour le Workflow.
+      date_case_plan_agreed:
+        display_name: 'Date d''approbation du plan d''action '
+      protection_concerns:
+        display_name: 'problèmes de protection '
+      protection_concerns_other:
+        display_name: Si autre, précisez
+      case_plan_separator:
+        display_name: 'Objectif général du plan d''action '
+      case_plan_goal:
+        display_name: 'Objectif général '
+        help_text: Définir un objectif SMART (spécifique, mesurable, réalisable/accordé, réaliste/pertinent et limité dans le temps)
+      case_plan_header:
+        display_name: Plans d'intervention et services à fournir
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: Détails des plans d'intervention et des services
+      approval_separator:
+        display_name: Approbation et accord
+      interventions_names_involved:
+        display_name: Noms et relations de l'enfants et les personnes impliquées dans l'élaboration du plan
+      interventions_details_disagree:
+        display_name: Détails sur toute personne en désaccord avec certaines parties du plan et pourquoi
+      interventions_child_involved:
+        display_name: L'enfant a-t-il participé à l'élaboration du plan d'action du cas ?
+      interventions_steps:
+        display_name: 'Si non, pourquoi ? '
+      interventions_caregiver_involved:
+        display_name: La personne en charge de l'enfant a-t-il participé à l'élaboration du plan de traitement du cas ?
+      interventions_caregiver_steps:
+        display_name: 'Si non, pourquoi ? '

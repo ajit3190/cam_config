@@ -1,0 +1,78 @@
+so:
+  assessment:
+    name: daraasada
+    description: foomka daraasada
+    fields:
+      assessment_home_visit:
+        display_name: qayb maka tahay darasada guri boqasho?
+      assessment_home_visit_details:
+        display_name: 'hadi maya. sheeg warbixin'
+      assessment_child_seen:
+        display_name: ilmaha ma waxad u aragta inu keliyahay
+      assessment_child_seen_details:
+        display_name: 'hadi ayna ahayn maya. nagasii warbixin'
+      assessment_separator:
+        display_name: aragtida iyo rajaynta daryel bixiyasha(s) ilmaha
+      assessment_child_views:
+        display_name: aragtida caruurta
+        help_text: qeex aragtida iyo rajaynta ilmaha loo tixgelinayo xaladisaqaybtan waxa lagu fidin kara in ku jiraan hadalada ilmaha.cadeyn ama sawirasho tusale (xaladoda qoyska iyo safarka)
+      assessment_caregiver_views:
+        display_name: aragtida(s) daryelahayasha
+        help_text: qeex aragtida iyo rajaynta daryelayasha(s) lo texgelinayo ilmaha xaladoda
+      assessment_needs_separator:
+        display_name: baahida darasaadka
+        guiding_questions: "qeex halka goorta iyo meesha ka heshay warbixinta  ilo kala duwana(qor warbixinta ilmaha indha indheenta ilmaha iyo qoyska ficilada hal abuurka sawirada sheeko tirin suaalo jeedin iyo warbixin wadaxajodka ee xarumaha kale iyo cida ilmaha taqanto guri booqasho xogta lasoo xigtay ee laga keenay listiga)\nqeex hadii xogta dib usoo labaneso\nmeesha la xariirta qeex labada taarikhda iyo xalada hada\nqeex  inta jeer aad cadeysay xalada ama imisa qof ay quseso warbixinta\naad ayey kaga cawin kartaa inaad aqoonsatid baahiyaha inkabadan adeega loo bhan yahay tusale halki ad ka oran lahayd ilamha waxbarasho ayu ubahan yahay halki aad ka oran lahayd \nilaha wux ubahan  yahay inuu iskuul tago waxaa jira wadoyin badan oo ilmaha waxbarasho  lagu siin karo"
+      assessment_physical_wellbeing:
+        display_name: muuqal ahan iyo cafimad ahan fican
+        help_text: 'sababaha qataraha sababaha ka hortaga iyo baahiyaha la aqoonsaday'
+        guiding_questions: "muqalka ilmaha maloo barbar dhigikaraa dadisa?\n waxxalado cafimaad maleeyahay ilmaha?\n(calamado neefsasho sida qufaca san neefsi badan ilko aan nadiif ahahyn neef daran?ilmaha maleyahay wax dhawac? \nah maleyhay maskax ahan iyo muqal ahan caqabadaha dareemada ?ilmaha uur maleyaha)?i\nlmaha madalan yahay? ilmaha dharkisa nadiif mahan miya ama xaalada hoose marka loo bar bardhigo ilmaha bulshada)?"
+      assessment_emotional_wellbeing:
+        display_name: Ladnaanta shucuurta, aqoonta, iyo xirfadaha
+        help_text: 'Qodobbada khatarta ah, arrimaha ilaalinta, iyo baahiyaha la aqoonsaday:'
+        guiding_questions: |-
+          Tusaale ahaan. Sidee buu ilmuhu guud ahaan dareemayaa? Ilmuhu ma la ildaran yahay niyad-jab ama kalsooni hoose? Ilmuhu ma dareemayaa farxad? Ilmuhu miyuu qabaa wax cabsi ah iyo/ama riyooyin ah? Cunuga miyuu dareemaya kabuubyo ama la kulma isagoo ka go'an? Ilmuhu ma wax ka qabtaa xanaaq badan, dambi ama rajo la'aan? Sharaxaad ka bixi sida isaga/iyadu ula tacaalaan dib u dhaca nolosha? Ilmuhu ma leeyahay aqoon iyo xirfado lagama maarmaan ah sida aqoonsashada iyo habaynta shucuurta iyo hab-dhaqanka, ka fakarka xalalka ku habboon ee isku dhaca, ku lug-yeelashada ciyaarta iskaashiga, si sax ah u fasiridda dabeecadaha iyo dareenka dadka kale, iyo dareenka. u fiican naftiisa iyo kuwa kale?
+      assessment_social_relationships:
+        display_name: xiriirka bulshada iyo asxaabta qoyska bulshada
+        help_text: 'sababaha qatarta sababaha difaca iyo bahiyaha la aqoonsaday'
+        guiding_questions: "Tusaale ahaan. Ilmuhu ma ka qaybqaataa hawlaha bulshada? \nCunuga bulsho ahaan ma ka fogaatay?\nSharax tayada iyo inta jeer ee xidhiidhka ubadku la leeyahay asxaabta,(qoyska iyo dadka kale ee qaangaarka ah ee nolosha ubadka haddii ay sidaas tahay waa maxay sababaha, xubnaha qoysku miyay ka fogaadaan la dhexgalka ubadka meelaha qaarkood (tusaale ahaan dadweynaha)?\nsharax sida ugu ficcan ilmaha."
+      assessment_education:
+        display_name: waxbarasho shaqo fasax iyo madadaalo
+        help_text: 'sababaha qatarta sababaha ka hortaga iyo baahiyaha la aqonsaaday'
+        guiding_questions: |-
+          Tusaale ahaan. Waa maxay waxbarashada uu ilmuhu helay? Ilmuhu ma ka diiwaan gashan yahay oo si joogto ah ma u dhigaa barnaamij kasta oo waxbarasho? Sharax deegaanka dugsiga. Ma jiraan fursado iyo fursado ubadka u leh xagga waxbarashada? Qeex danaha ubadka? Ilmuhu ma ku lug leeyahay wax qabad kasta oo loo arko inay sharciga ka hor imanayaan? Sharaxaad ka bixi nooca shaqada, inta jeer ee shaqada, iyo sida ay tani u saamayso wanaagga ilmaha. Haddii ilmuhu shaqeeyo, sidee loo isticmaalaa lacagta uu helay/maxuu ilmuhu ku bixiyaa lacagta?
+      assessment_documentation:
+        display_name: xog aruurin
+        help_text: 'sababta qatarta sababaha kahortaga'
+        guiding_questions: |-
+          Tusaale ahaan. Ilmuhu ma haystaa waraaqaha diiwaangelinta dhalashada? Ilmuhu ma haystaa dukumeenti kale oo diwaangelin/aqoonsi ah? Sharaxaad ka bixi sida ay tani u saamaynayso wanaagga ubadka.
+      assessment_living_environment_family_separator:
+        display_name: qoyska iyo degaanka nolosha
+      assessment_living_environment_family:
+        display_name: qoyska iyo degaanka nolosha
+        help_text: 'sababaha qatarta iyo sababaha difaaca iyo baahiyaha la aqoonsaday'
+        guiding_questions: |-
+          Tusaale ahaan. Waa maxay qaabka nololeed ee hadda (nooca hoyga; sirnimada)? Sharaxaad ka bixi xidhiidhka ka dhexeeya ilmaha iyo qoyska intiisa kale. Sharaxaad ka bixi kartida iyo kartida dadka waaweyn ee qoyska si ay u ilaaliyaan ilmaha ugana jawaabaan baahideeda. Waa ayo qofka kale ee ilmaha la nool, maxayse yihiin dhaq-dhaqaaqa ka jira deegaanka uu ku nool yahay? Immisa cunto ayay cunaan/qoysku maalintii? Tani miyay ka duwan tahay qoysaska kale ee bulshada ubadka?Sharax doorka ilmaha iyo in ilmaha loola dhaqmo si ka duwan carruurta kale ee deegaanka ku nool? Sharaxaad ka bixi xaaladaha nololeed. Cunuga badbaado ma ku dareemaa halka uu ku nool yahay? Sharaxaad ka bixi fogaanta iyo fursadaha helitaanka adeegyada.
+      assessment_care_arrangement_separator:
+        display_name: isku duba ridida daryeeelka
+      assessment_care_arrangment:
+        display_name: isku duba ridida daryeeelka
+        help_text: 'sababaha qatarta iyo sababaha difaaca iyo baahiyaha la aqoonsaday'
+        guiding_questions: |-
+          Tusaale ahaan. Waa maxay habka daryeelka hadda iyo sida ay u deggan tahay/joogteynta u tahay habayntu? Habka daryeelku ma ku habboon yahay da'da iyo xaaladda?
+          Sidee loo habeeyey daryeelka (waxaa habeeyey waalidka ilmaha ka hor inta aanu ka tagin waddanka uu asal ahaan ka soo jeedo, si kedis ah waddankii uu asal ahaan ka soo jeedo, si kedis ah oo waddankan hadda jooga, oo uu abaabulo hay'ad, qabanqaabisay bulshada);
+          Sharax xidhiidhka ka dhexeeya ilmaha iyo daryeelaha. Daryeel bixiyaha/qoysku ma daryeelayaa UASC kale? Daryeeluhu ma la xidhiidhaa ilmaha (haddii ay sidaas tahay, waa maxay xidhiidhka?;
+          Daryeeluhu ma xidhiidh la leeyahay waalidka ilmaha? Waa maxay rabitaanka waalidka (haddii la yaqaan); Waa maxay rabitaanka ubadku?
+      assessment_community_separator:
+        display_name: bulshada
+      assessment_community:
+        display_name: Bulshada, badbaadada iyo amniga, isdhexgalka iyo taageerada
+        help_text: 'Qodobbada khatarta ah, arrimaha ilaalinta, iyo baahiyaha la aqoonsaday:'
+        guiding_questions: |-
+          E.g. Describe any concerns about the safety and security of the child (e.g. community violence, harmful traditional practices, situation in the workplace, community perceptions about violence / abuse; risk of recruitment by armed forces or groups)?
+          Does the child have freedom of movement (is the situation different from the rest of the community, and children in general)?
+          Describe how this impacts the child’s wellbeing.
+          Is the child or family accepted in the community / isolated? Does the child or family feel discriminated against in accessing services?
+          Has the child and their family feel targeted by any group? Does the child or family face requests for inappropriate services in return for support?
+          Does the child or family have been given formal recognition to remain in the current location? Is the child excluded from activities or groups in the community?
+          Does the child experience any discrimination, prejudice, or bullying in the community?
+          Describe the availability of and access to assistance / services within the community (including community protective mechanisms).

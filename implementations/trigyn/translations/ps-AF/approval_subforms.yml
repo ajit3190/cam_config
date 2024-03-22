@@ -1,0 +1,19 @@
+ps-AF:
+  approval_subforms:
+    name: د منظوري فرعي فورمه
+    description: د منظوري فرعي فورمه
+    fields:
+      approval_requested_for:
+        display_name: ' منظوري د څه لپاره غوښتل شوي'
+      approval_response_for:
+        display_name: منظوري د څه لپاره
+      approval_for_type:
+        display_name: د قضیې د پلان ډول
+      approval_date:
+        display_name: تاریخ
+      approval_manager_comments:
+        display_name: د مدیر څرګندون/تبصره
+      approval_status:
+        display_name: د منظوری حالت
+      approved_by:
+        display_name: د چا لخوا منظور شوی

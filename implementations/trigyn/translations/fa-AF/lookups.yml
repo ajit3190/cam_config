@@ -1,0 +1,849 @@
+fa-AF:
+  lookup-age-group-type:
+    name: نوعیت گروه سنی
+    lookup_values:
+      adult: بزرگسال
+      minor: کوچک
+      unknown: نامعلوم
+  lookup-agency-office:
+    name: دفتر نمایندگی
+    lookup_values:
+      agency_office_1: دفتر سازمان 1
+      agency_office_2: دفتر سازمان 2
+      agency_office_3: دفتر سازمان 3
+      agency_office_4: دفتر سازمان 4
+      agency_office_5: دفتر سازمان 5
+  lookup-approval-for:
+    name: تآیید برای
+    lookup_values:
+      bia: ِّ بیا
+      case_plan: پلان قضیه
+      closure: بسته شدن
+  lookup-approval-status:
+    name: 'حالت تایید '
+    lookup_values:
+      requested: 'درخواست '
+      pending: تعلیق
+      approved: تآیید شد
+      rejected: رد شد
+  lookup-approval-type:
+    name: نوعیت تآیید
+    lookup_values:
+      case_plan: پلان قضیه
+      action_plan: پلان عملی
+      service_provision: ارائه خدمات
+  lookup-armed-force-group-name:
+    name: نام گروه های مسلح
+    lookup_values:
+      armed_force_or_group_1: نیروی مسلح یا گروه 1
+      armed_force_or_group_2: نیروی مسلح یا گروه 2
+      armed_force_or_group_3: نیروی مسلح یا گروه 3
+      other_please_specify: 'وغیره,لطفآمشخص کنید '
+  lookup-armed-force-group-type:
+    name: نوعیت نیروی های مسلح
+    lookup_values:
+      national_army: ارتش ملی
+      security_forces: قوای امنیتی
+      international_forces: 'قوای بینامللی '
+      police_forces: قوای پولیس
+      para-military_forces: نیروهای پیش نظامی
+      unknown: ناشناخته
+      other: وغیره
+  lookup-assessment-duration:
+    name: مدت زمان ارزیابی
+    lookup_values:
+      less_than_15_minutes: کمتر از 15 دقیقه
+      16_30_minutes: 16-30 دقیقه
+      31_minutes_1_hour: 31 دقیقه الی 1 ساعت
+      1_2_hours: 1-2 ساعت
+      more_than_2_hours: 'اضافه از 2 ساعت '
+  lookup-assessment-progress:
+    name: پیشرفت ارزیابی
+    lookup_values:
+      n_a: 'قابل نطبیق نیست '
+      in_progress: 'در جریان پیشرفت '
+      met: ملاقات کرد
+  lookup-case-status:
+    name: حالت قضیه
+    lookup_values:
+      open: باز
+      closed: بسته
+      transferred: راجع شده
+      duplicate: تکراری
+  lookup-child-minor-age-group:
+    name: گروه سنی طفل / خردسال
+    lookup_values:
+      0_5_year_old: 'از 0 -5 سال '
+      6_12_year_old: 6-12 سال
+      13_17_year_old: 13-17 سال
+  lookup-conference-case-status:
+    name: حالت کنبرانس قضیه
+    lookup_values:
+      open: قضیه باز خواهد ماند
+      closed: 'قضیه بسته خواهد شد '
+      transferred: 'قضیه راجع خواهد شد '
+      other: وغیره
+  lookup-country:
+    name: مملکت
+    lookup_values:
+      afghanistan: افغانستان
+      albania: البانیا
+      algeria: الجریا
+      andorra: اندورا
+      angola: انگولا
+      antigua_and_barbuda: آنتیگوا و باربودا
+      argentina: ارجینتاین
+      armenia: آرمینیا
+      australia: آسترلیا
+      austria: آستریا
+      azerbaijan: آذربایجان
+      bahamas: باهاماس
+      bahrain: بحرین
+      bangladesh: بنگلدیش
+      barbados: بربادوس
+      belarus: بلاروس
+      belgium: بلجیم
+      belize: برازیل
+      benin: بنین
+      bhutan: بهوتان
+      bolivia: 'بلیویا '
+      bosnia_and_herzegovina: بوسنیا و هرزگوینا
+      botswana: بوتسوانا
+      brazil: برازیل
+      brunei: برنوی
+      bulgaria: بلغاریا
+      burkina_faso: بورکینافاسو
+      burundi: براندی
+      cabo_verde: کابو ورده
+      cambodia: کنبودیا
+      cameroon: کمرون
+      canada: کانادا
+      central_african_republic: جمهوری آفریقای مرکزی
+      chad: چاد
+      chile: چیلی
+      china: چین
+      colombia: کولمبیا
+      comoros: کمروس
+      congo: جمهوریت کانگو
+      drc: جمهوری دیموکراتیک کانگو
+      costa_rica: کوست ریکا
+      cote_divoire: ساحل عاج
+      croatia: کروشیا
+      cuba: کویا
+      cyprus: قبرس
+      czech_republic: جمهوری چک
+      denmark: دنمارک
+      djibouti: جیبوتی
+      dominica: دونیمیکا
+      dominican_republic: جمهوریت دونیمیکا
+      ecuador: اکوادور
+      egypt: مصر
+      el_salvador: السلوادور
+      equatorial_guinea: گینه استوایی
+      eritrea: اریتریا
+      estonia: استونیا
+      ethiopia: ایتوپیا
+      fiji: فیجی
+      finland: فنلند
+      france: فرانسه
+      gabon: گابون
+      gambia: گمبیا
+      georgia: جورجیا
+      germany: جرمنی
+      ghana: گانا
+      greece: یونان
+      grenada: گرندا
+      guatemala: گواتمالا
+      guinea: گینیا
+      guinea_bissau: گینی بیساو
+      guyana: گویان
+      haiti: هایتی
+      honduras: هندوراس
+      hungary: هنگری
+      iceland: ایسلند
+      india: هند
+      indonesia: اندونیزیا
+      iran: ایران
+      iraq: عراق
+      ireland: آرلند
+      israel: اسرایل
+      italy: ایتالیا
+      jamaica: جمیکا
+      japan: جاپان
+      jordan: اردن
+      kazakhstan: قزاقستان
+      kenya: کنیا
+      kiribati: کیریباتی
+      kosovo: 'کوسوفو '
+      kuwait: کویت
+      kyrgyzstan: قرغزستان
+      laos: لاوس
+      latvia: لتویا
+      lebanon: لبنان
+      lesotho: لسوتو
+      liberia: لایبریا
+      libya: لایبریا
+      liechtenstein: لیختن اشتاین
+      lithuania: لتوانیا
+      luxembourg: لگزامبورگ
+      macedonia: مقدونیه
+      madagascar: ماداگاسکار
+      malawi: مالاوی
+      malaysia: مالیزیا
+      maldives: مالدیو
+      mali: مالی
+      malta: مالتا
+      marshall_islands: جزایر مارشال
+      mauritania: موریتانی
+      mauritius: موریس
+      mexico: مکسیکو
+      micronesia: میکرونزی
+      moldova: مولداوی
+      monaco: موناکو
+      mongolia: منگولیا
+      montenegro: مونته نگرو
+      morocco: مراکو
+      mozambique: موزمبیق
+      myanmar: میامار
+      namibia: نامیبیا
+      nauru: نیرو
+      nepal: نپال
+      netherlands: ندرلند
+      new_zealand: نیوزرلند
+      nicaragua: نیکاراگوا
+      niger: نیگار
+      nigeria: نایجریا
+      north_korea: کوریای شمالی
+      norway: ناروی
+      oman: عمان
+      pakistan: پاکستان
+      palau: پولو
+      palestine: پلستین
+      panama: پانامه
+      papua_new_guinea: پاپوآ گینه نو
+      paraguay: پاراگوی
+      peru: پیرو
+      philippines: فلپین
+      poland: پولند
+      portugal: پرتگال
+      qatar: قطر
+      romania: رومانیا
+      russia: روسیه
+      rwanda: روندا
+      st_kitts_and_nevis: سنت کیتس و نویس
+      st_lucia: سنت لوسیا
+      st_vincent_and_the_grenadines: سنت وینسنت و گرنادین ها
+      samoa: ساموآ
+      san_marino: سان مارینو
+      sao_tome_and_principe: سائوتومه و پرینسیپ
+      saudi_arabia: عربستان سعودی
+      senegal: سینیگال
+      serbia: صربیا
+      seychelles: سیشل
+      sierra_leone: سرالیون
+      singapore: سینگاپور
+      slovakia: سلواکیا
+      slovenia: ' سلوانیا'
+      solomon_islands: جزایر سلیمان
+      somalia: سومالیا
+      south_africa: افریقای جنوبی
+      south_korea: کوریای جنوبی
+      south_sudan: سودان جنوبی
+      spain: اسپانیا
+      sri_lanka: سریلانکا
+      sudan: سودان
+      suriname: سورینام
+      swaziland: سویتزرلند
+      sweden: سویدن
+      switzerland: سویتزرلند
+      syria: سوریه
+      taiwan: تایوان
+      tajikistan: تاجکستان
+      tanzania: تانزانیا
+      thailand: تایلند
+      timor_leste: تیمور-لسته
+      togo: تاگو
+      tonga: تانگو
+      trinidad_and_tobago: ترینیداد و توباگو
+      tunisia: تونیس
+      turkey: ترکیه
+      turkmenistan: ترکمنستان
+      tuvalu: '       تووالو'
+      uganda: یوگندا
+      ukraine: یوکراین
+      united_arab_emirates: امارات متحده عربی
+      uk: انگلستان
+      usa: ایالات متحده امریکا
+      uruguay: یوروگوی
+      uzbekistan: ازبکستان
+      vanuatu: وانواتو
+      vatican: شهر واتیکان (مقدس)
+      venezuela: ونزوئلا
+      vietnam: ویتنام
+      yemen: یمن
+      zambia: زمبیا
+      zimbabwe: زیمبابوی
+  lookup-cp-violence-type:
+    name: نوع خشونت CP
+    lookup_values:
+      rape: تجاوز
+      sexual_assault: حمله جنسی
+      physical_assault: حمله فیزیکی
+      forced_marriage: ازدواج اجباری
+      denial_of_resources_opportunities_or_services: انکار منابع ، فرصت ها یا خدمات
+      psychological_emotional_abuse: سو  استفاده روانی / احساسی
+      non-gbv: 'غیر از خشونت هاب مبنی بر جندر '
+  lookup-disability-type:
+    name: نوع معیوبیت
+    lookup_values:
+      mental_disability: 'معیوبیت ذهنی '
+      physical_disability: معیوبیت فزیکی
+      both: هردو
+  lookup-disability-type-with-mental-physical:
+    name: 'نوع معیوبیت   روانی و جسمی ویا ترکیب هردو '
+    lookup_values:
+      'no': 'نه'
+      mental_disability: معیوبیت ذهنی
+      physical_disability: معیوبیت فزیکی
+      mental_physical_disability: معیوبیت ذهنی و فزیکی
+  lookup-disability-type-with-no:
+    name: نوع معیوبیت
+    lookup_values:
+      'no': 'نه'
+      mental_disability: معیوبیت ذهنی
+      physical_disability: معیوبیت فزیکی
+      both: هردو
+  lookup-discovery-method:
+    name: روش کشف
+    lookup_values:
+      family_or_friend: فامیل یا دوست
+      referral: مراجعه از موسسه دیگری
+      neighbor: همسایه یا عضو جامعه
+      community_discussion: تصمیم اجتماعی
+      pamphlet: بروشور یا جزوه ای که دیدید یا دریافت کردید
+      other: وغیره
+  lookup-displacement-status:
+    name: حالت بیجاشدگی
+    lookup_values:
+      asylum_seeker: پناهجو
+      refugee: مهاجر
+      idp: شخص بیجا شده داخلی
+      migrant: '             مهاجر'
+      host:community: جامعه میزبان
+      returnee: عودت کننده
+      stateless_person: شخص بی تابعیت
+      resident: ساکن ملی (بیجا نشده)
+      foreign_national: باشنده ملیت خارجی
+      other: وغیره
+  lookup-ethnicity:
+    name: قومیت
+    lookup_values:
+      ethnicity1: قومیت1
+      ethnicity2: قومیت 2
+      ethnicity3: قومیت 3
+      ethnicity4: قومیت 4
+      ethnicity5: قومیت 5
+      ethnicity6: قومیت 6
+      ethnicity7: قومیت 7
+      ethnicity8: قومیت 8
+      ethnicity9: قومیت 9
+      ethnicity10: قومیت 10
+  lookup-family-relationship:
+    name: ابتباط فامیلی
+    lookup_values:
+      mother: مادر
+      father: پدر
+      aunt: عمه
+      uncle: کاکا
+      grandmother: مادرکلان
+      grandfather: پدرکلان
+      brother: برادر
+      sister: خواهر
+      husband: شوهر
+      wife: خانم
+      partner: شریک
+      other_family: فامیل دیگر
+      other_nonfamily: غیر فامیلی دیگر
+  lookup-followedup-with:
+    name: پیگیری با
+    lookup_values:
+      child: طفل
+      caregiver_s_family: مراقبت کننده گان /خانواده
+      service_provider_own_agency: ارائه کننده خدمات (موسسه شخصی)
+      service_provider_referral: ارایه کننده خدمات (راجع شده)
+      other: وغیره
+  lookup-followup-type:
+    name: پیگیری
+    lookup_values:
+      after_reunification: 'پیگیری پس از یکجا شدن مجدد  '
+      in_care: 'پیگیری در وقت  مراقبت '
+      for_service: پیگیری به خاطر خدمات
+      for_assesment: پیگیری برای ارزیابی
+  lookup-form-group-cp-case:
+    name: تشکیل گروهپ های مورد قضیه مراقبت طفل
+    lookup_values:
+      record_information: ثبت معلومات
+      approvals: 'تآیید ها '
+      case_conference_details: تفصیل کنفرانس قضیه
+      identification_registration: تشخیص و ثبت
+      data_confidentiality: محرمیت معلومات
+      review: بخش مرور
+      assessment: ارزیابی
+      family_partner_details: جزییات فامیل/شریک
+      case_plan: پلان قضیه
+      services_follow_up: پیگیری خدمات
+      closure: بسته شدن
+      feedback: بازخورد /نظریات
+      tracing: ردیابی
+      bia_form: 'فورم بی آی ای '
+      photos_audio: عکس و صدا
+      other_documents: 'دیگر اسناد '
+      referrals_transfers: راجع سازی و انتقال
+      notes: یادداشت ها
+  lookup-form-group-cp-incident:
+    name: 'فرم گروپ های رویداد محافظت اطفال '
+    lookup_values:
+      record_owner: 'کسی که ثبت میگند '
+      perpetrator_details: جزئیات مجرم
+      cp_incident: CP Incident
+      cp_individual_details: جزئیات فردی محافظت طفل
+  lookup-form-group-cp-tracing-request:
+    name: درخواست ردیابی  گروه ها محافظت اطفال
+    lookup_values:
+      record_owner: ' ثبت کننده'
+      inquirer: پرسشگر
+      tracing_request: درخواست رد یابی
+      photos_audio: عکس و صدا
+      other_reportable_fields: سایر ساحات  قابل گزارش
+  lookup-form-group-gbv-case:
+    name: تشکیل گروپ های قضیه خشونت مبنی بر جندر
+    lookup_values:
+      record_information: ثبت معلومات
+      consent_for_services: رضایت برای خدمات
+      documents: اسناد
+      consent_for_referrals: رضاییت برای راجع سازی
+      safety_plan: پلان محافظتی
+      action_plan: پلان عملی
+      survivor_assessment: ارزیابی بازماندگان
+      case_closure: بسته شدن قضیه
+      client_feedback: بازخورد /نظریات مشتری
+      identification_registration: تشخیص و ثبت
+      referrals_transfers: راجع سازی/ انتقال
+      other_reportable_fields: 'ساحات دیگر قابل گزارش '
+  lookup-form-group-gbv-incident:
+    name: 'تشکیل گروپ های حوادث مبنی بر چندر '
+    lookup_values:
+      gbv_individual_details: 'جزییات انفرادی خشونت مبنی بر جندر '
+      incident: حادثه
+      type_of_violence: نوع خشونت
+      record_owner: ثبت کننده
+      alleged_perpetrator: مرتکب ادعاشده
+      service_referral: راجع سازی خدمات
+      other_reportable_fields: ساحات دیکر قابل گزارش
+  lookup-further-action_needed:
+    name: اقدامات بعدی مورد نیاز
+    lookup_values:
+      no_further_action_needed: اقدامات بعدی نیاز نیست
+      ongoing_monitoring: نظارت  در حال انجام
+      urgent_intervention: اقدامات عاجل
+  lookup-gbv-approval-types:
+    name: 'نوع تآییدی برای استفاده کنندهگان خشونت مبنی بر جندر '
+    lookup_values:
+      case_plan: پلان قضیه
+      closure: بسته شدن
+  lookup-gbv-reported-elsewhere:
+    name: بلی/نه/نمیدانم
+    lookup_values:
+      'no': 'نه'
+      gbvims-org: Yes-GBVIMS Org / Agency
+      non-gbvims-org: 'بله - غیر GBVIMS سازمان '
+  lookup-gbv-sexual-violence-type:
+    name: نوع خشونت جنسی مبنی بر جندر
+    lookup_values:
+      rape: تجاوز
+      sexual_assault: حمله جنسی
+      physical_assault: جمله فزیکی
+      forced_marriage: ازدواج اجباری
+      denial_of_resources_opportunities_or_services: انکار منابع ، فرصت ها یا خدمات
+      psychological_emotional_abuse: سو استفاده روانی / احساسی
+      non-gbv: 'نبودن حشونت مبنی بر جندر '
+  lookup-gender:
+    name: جندر
+    lookup_values:
+      male: 'مرد '
+      female: زن
+  lookup-incident-identification:
+    name: تشخیص حادثه
+    lookup_values:
+      disclosure_complaint_by_the_abused_person_or_family_member: افشاگری / شکایت توسط شخص که سو استفاده شده  یا اعضای خانواده
+      discovered_by_service_provider: توسط ارائهکننده خدمات کشف شده است
+      report_by_the_institution_providing_the_service_discovery: گزارش توسط موسسه ارائه دهنده خدمات (کشف)
+      other: وغیره
+  lookup-incident-location:
+    name: محل حادثه
+    lookup_values:
+      home: خانه
+      street: سرک
+      school: مکتب
+      work_place: محل کار
+      other: وعیره
+  lookup-incident-status:
+    name: حالت حادثه
+    lookup_values:
+      open: باز
+      closed: بسته
+      duplicate: کپی شده
+  lookup-inquiry-status:
+    name: وضیعت تحقیق
+    lookup_values:
+      open: باز
+      closed: بسته
+  lookup-language:
+    name: لسان
+    lookup_values:
+      language1: لسان 1
+      language2: لسان 2
+      language3: لسان 3
+      language4: لسان 4
+      language5: لسان 5
+      language6: لسان 6
+      language7: لسان 7
+      language8: لسان 8
+      language9: لسان 9
+      language10: لسان 10
+  lookup-location-type:
+    name: نوع موقعیت
+    lookup_values:
+      country: مملکت
+      region: حوزه
+      province: ولایت
+      district: '                           ولسوالی             '
+      governorate: فرمانداری
+      chiefdom: رئیس بودن
+      state: ایالت
+      city: شهر
+      county: مملکت
+      camp: کمپ
+      site: سایت
+      village: قریه
+      zone: زون
+      sub_district: ولسوالی فرعی
+      locality: مرجع
+      prefecture: استان /ولسوالی
+      sub-prefecture: استان فرعی
+      commune: کمون/ بخش
+      payam: پیام
+      parish: محله
+      municipality: شهرداری /شاروالی
+      other: وعیره
+  lookup-marital-status:
+    name: حالت مدنی
+    lookup_values:
+      single: مجرد
+      married_cohabitating: متآهل/زندگی مشترک
+      divorced_separated: مطلقه /جدا شده
+      widowed: بیوه
+  lookup-marital-status-unknown:
+    name: حالت مدنی
+    lookup_values:
+      single: مجرد
+      married_cohabitating: متآهل /زندگی کشترک
+      divorced_separated: مطلقه / جدا شده
+      widowed: بیوه
+      unknown_not_applicable: تاشناخته /قابل اجرا نیست
+  lookup-marital-status-with-spouse:
+    name: حالت مدنی
+    lookup_values:
+      single: مجرد
+      married_cohabitating: متآهل / زندگی مشترک
+      divorced_separated: مطلقه/جداشده
+      widowed: بیوه
+      with_spouse: با شریک /همسر
+  lookup-nationality:
+    name: ملیت
+    lookup_values:
+      nationality1: ملیت 1
+      nationality2: ملیت 2
+      nationality3: ملیت 3
+      nationality4: ملیت 4
+      nationality5: ملیت 5
+      nationality6: ملیت 6
+      nationality7: ملیت 7
+      nationality8: ملیت 8
+      nationality9: ملیت 9
+      nationality10: ملیت 10
+  lookup-number-range-one-to-ten:
+    name: حدوده نمبر  1 تا 10
+    lookup_values:
+      '1': '1'
+      '2': '2'
+      '3': '3'
+      '4': '4'
+      '5': '5'
+      '6': '6'
+      '7': '7'
+      '8': '8'
+      '9': '9'
+      '10': '10'
+  lookup-perpetrator-relationship:
+    name: رابطه مجرم
+    lookup_values:
+      intimate_partner_former_partner: شریک صمیمی / شریک سابق
+      primary_caregiver: مراقبت کننده اصلی
+      family_other_than_spouse_or_caregiver: خانواده ای غیر از همسر یا سرپرست
+      supervisor_employer: 'ناظر / صاحب کار '
+      schoolmate: هم مکتب بودن
+      teacher_school_official: معلم/اعضای مکتب
+      service_provider: ارایه کننده خدمات
+      cotenant_housemate: هم خانه
+      family_friend_neighbor: 'فامیل/دوست / همسایه '
+      other_refugee_idp_returnee: دیگر ,مهاجر/ بیجاشده داخلی/عودت کننده
+      other_resident_community_member: 'سایر اعضای مقیم جامعه '
+      other: وغسره
+      no_relation: ارتباط ندارد
+      unknown: ناشناخته
+  lookup-protection-concerns:
+    name: نگرانی های محافظتی
+    lookup_values:
+      physical_abuse_violence: خشونت و سو استفاده فزیکی
+      sexual_abuse_violence: خشونت و سو استفاده جنسی
+      rape: تجاور
+      emotional_or_psychological: حشونت و سو استهاده روانی و احساسی
+      neglect: غفلت
+      abandonment: رها شدن/ترک کردن
+      child_labour: کار اطفال  (نهبه بدترین اشکل)
+      hazardous_work: کار خطرناک
+      sexual_exploitation: استثمار جنسی
+      slavery_sale_abduction: برده داری / فروش / آدم ربایی / قاچاق / کار اجباری
+      in_conflict_with_the_law: در تضاد با قانون است
+      associated_with_armed: 'مرتبط با نیروهای یا گروپمسلح '
+      deprived_of_liberty: از آزادی محروم / در بازداشت
+      serious_medical_condition: شرایط صحی جدی
+      functional_difficulty_seeing: مشکل عملکردی (بینایی ، حتی اگر عینک داشته باشد)
+      functional_difficulty_hearing: مشکل عملکردی (شنوایی ، حتی اگر از گوشکی استفاده کند)
+      functional_difficulty_walking: مشکل عملکردی (راه رفتن یا استفاده از قسمت هایی از بدن )
+      functional_difficulty_remembering: مشکل عملکردی (یادآوری یا تمرکز)
+      difficulty_with_self_care: مشکل در مراقبت از خود مانند تغذیه یا لباس پوشیدن خود (در مقایسه با سایر کودکان هم سن)
+      difficulty_communicating: مشکل در برقراری ارتباط
+      unaccompanied: بدون همراه
+      separated: جدا شده
+      orphan: یتیم
+      psychosocial_distress: پریشانی روانی - اجتماعی
+      mental_disorder: اختلال روانی
+      substance_abuse: سو استفاده ومصرف موادمخدر و اعتیاد (کودک)
+      belongs_to_marginalised: به گروه حاشیه نشین / تبعیض شده تعلق دارد
+      lack_of_documentation_birth_registration: عدم وجوداسناد  / ثبت تولد
+      child_marriage: ازدواج طفل
+      female_genital_mutilation_fgm: ختنه دستگاه تناسلی زنان (FGM)
+      pregnancy_child_parent: 'بارداری / طفل مادر '
+      denial_of_resources_opportunities_or_services: انکار منابع ، فرصت ها یا خدمات
+      highly_vulnerable_care: 'مراقبت محافظتی نیازمندی به سطح بلند '
+      child_survivor_of_explosive: طفل بازمانده /قربانی از مواد منفجره (EO)
+      other: وغیره
+  lookup-protection-status:
+    name: حالت محافظتی
+    lookup_values:
+      unaccompanied: بدون همره
+      separated: جداشده
+  lookup-religion:
+    name: دین
+    lookup_values:
+      religion1: دین 1
+      religion2: دین 2
+      religion3: دین 3
+      religion4: دین 4
+      religion5: دین 5
+      religion6: دین 6
+      religion7: دین 7
+      religion8: دین 8
+      religion9: دین 9
+      religion10: دین 10
+  lookup-reporting-location-type:
+    name: راپور  نوعیت مکان
+    lookup_values:
+      province: ولایت
+      district: ولسوالی
+  lookup-risk-level:
+    name: سطح خطر
+    lookup_values:
+      high: بلند
+      medium: میانه
+      low: پایین
+  lookup-separation-cause:
+    name: علت جدایی
+    lookup_values:
+      abandoned: رها شده
+      family_abuse_violence_neglect_exploitation: سواستفاده بامیلی  / خشونت / غفلت / استثمار
+      death_sickness_of_family_member: مرگ / مریضی   اعضای خانواده
+      separation_because_of_fleeing_violence_war: جدایی به دلیل احساس از خشونت / جنگ
+      separation_because_of_fleeing_natural_disaster: جدایی به دلیل فرار اآفات  طبیعی
+      separation_because_of_fleeing_persecution: جدایی به دلیل احساس از آزار و اذیت
+      search_for_employment: جستجو برای استخدام
+      search_for_educational_opportunities: جستجو برای فرصت های تحصیلی
+      search_for_services_support: 'جستجوی خدمات / حمایت '
+      migration: مهاجرت
+      organized_population_movement_e_g_evacuation: 'جنبش سازمان یافته جمعیت '
+      entrusted_into_the_care_of_individual_institution: تحت مراقبت فرد / موسسه قرار گرفته است
+      repatriation: بازگشت به وطن
+      poverty: فقر
+      recruitment_into_armed_forces_or_armed_groups: استخدام در نیروهای یا گروپ های مسلح
+      abducted_trafficked: 'ربوده شده / قاچاق شده '
+      arrest_detention: دستگیری / بازداشت
+      other_please_specify: وغیره ,لطفآمشخص سازید
+  lookup-service-implemented:
+    name: خدمات ارایه شده
+    lookup_values:
+      not_implemented: ارایه نشده
+      implemented: ارایه شده
+  lookup-service-referred:
+    name: به خدماتی که راجع شد
+    lookup_values:
+      internal_referral: راجع سازی داحلی
+      external_referral: راجع سازی خارجی
+  lookup-service-referred-gbv:
+    name: 'راجع سازی خدمات حشونت مبنی بر جندر '
+    lookup_values:
+      referred: راجع شد
+      no_referral_service_provided_by_your_agency: ' ، خدمات  راجع سازی توسط موسسه شما ارایه نشد '
+      no_referral_services_already_received_from_another_agency: 'خدمات راجع سازی  قبلآتوسط موسسه دیگر ارایه نشد '
+      no_referral_service_not_applicable: خدمات راجع سازس   قابل اجرا نیست
+      no_referral_declined_by_survivor: '،راجع ساریاز طرف بازمانده /قربانی رد شد '
+      no_referral_service_unavailable: خدمات راجع سازی  در دسترس نیست
+  lookup-service-response-type:
+    name: نوعیت  جوابگوی خدمات
+    lookup_values:
+      service_provision: ارائه خدمات
+  lookup-service-type:
+    name: نوع خومات
+    lookup_values:
+      alternative_care: مراقبت جایگزین/بدیل
+      security_e_g_safe_shelter: امنیت (مثلآپناهگاه امن)
+      education_formal: تعلیم رسمی
+      non_formal_education: تعلیم غیر رسمی
+      family_tracing_and_reunification: پیگیری و پیوند خانواده
+      basic_psychosocial_support: مراقبت های اساسی روانی اجتماعی
+      focuses_non_specialized_mhpss_care: 'ممرکز برغیر تخصصی MHPSS '
+      specialized_mhpss_services: مراقبت های تخصصی MHPSS
+      food: غذا
+      non_food_items: اقلام غیر غذایی
+      cash_assistance: کمک نقذی
+      livelihoods: معیشت
+      medical: ادویه
+      nutrition: تغذی
+      legal_support: حنایت های قانونی
+      documentation: مستندسازی
+      services_for_children_with_disabilities: خدمات برای اطفال دارای معیوبیت
+      sexual_and_reproductive_health: صحت جنسی و باروری
+      shelter: سرپناه
+      wash: واش
+      durable_solution_in_coordination_with_unhcr: راه حل دوامدار به همکاری UNHCR
+      relocation: جابجایی مجدد
+      other_please_specify: وغیره
+  lookup-time-of-day:
+    name: وقت روز
+    lookup_values:
+      morning: صبح
+      noon: چاشت
+      evening: عصر
+      night: شب
+  lookup-tracing-status:
+    name: حالت رد یابی
+    lookup_values:
+      open: باز
+      tracing_in_progress: رد یابی در پیشرفت است
+      verified: تأیید شده
+      reunified: متحد شد
+      closed: بسته شده
+  lookup-transition-type:
+    name: نوعیت ردیابی
+    lookup_values:
+      referral: راجع سازی
+      reassign: متحد شد/یکجا شد
+      transfer: انتقال
+      transfer_request: درخواست انتقال
+  lookup-unaccompanied-separated-status:
+    name: وضعیت جداشده  بدون همراه
+    lookup_values:
+      'no': 'نه'
+      unaccompanied_minor: صغیر بی همراه
+      separated_child: طفل جدا شده
+      other_vulnerable_child: طفل بدون همراه  یا آسیب پذیر
+  lookup-unhcr-needs-codes:
+    name: 'ه UNHCR به کود نیاز دارد '
+    lookup_values:
+      cr-cp: CR-CP
+      cr-cs: CR-CS
+      cr-cc: CR-CC
+      cr-tp: CR_TP
+      cr-lw: CR-LW
+      cr-lo: CR-LO
+      cr-ne: -NE
+      cr-se: CR-SE
+      cr-af: CR-AF
+      cr-cl: CR-CL
+      sc-ch: SC-CH
+      sc-ic: SC-IC
+      sc-fc: DS-BD
+      ds-bd: DS-DF
+      ds-df: DS-PM
+      ds-pm: DS-PS
+      ds-ps: DS-PS
+      ds-mm: DS-MM
+      ds-ms: DS-MS
+      ds-sd: DS-SD
+      sm-mi: SM-MI
+      sm-mn: SM-MN
+      sm-ci: SM-CI
+      sm-cc: SM-CC
+      sm-ot: SM-OT
+      fu-tr: FU-TR
+      fu-fr: FU-TR
+      lp-nd: LP-ND
+      tr-pi: TR-PI
+      tr-ho: TR-HO
+      tr-wv: TR-WV
+      sv-va: SV-VA
+      lp-an: LP-AN
+      lp-md: LP-MD
+      lp-ms: LP-MS
+      lp-rr: LP-RR
+  lookup-verification-status:
+    name: وضعیت تأیید
+    lookup_values:
+      verified: تآیید شد
+      unverified: تآیید نشده
+      pending_verification: تایید در حال تعلیق
+      falsely_attributed: به دروغ منسوب است
+      rejected: رد شده
+  lookup-workflow:
+    name: جریان کار
+    lookup_values:
+      new: قضیه جدید
+      closed: قضیه بسته شده
+      reopened: قضیه دوباره باز شده
+      service_provision: ارایه خدمات
+      services_implemented: تمام خدمات پاسخگویی اجرا شده است
+      case_plan: پلان قضیه
+  lookup-yes-no:
+    name: بلی یا نه
+    lookup_values:
+      'true': 'بلی'
+      'false': 'نه'
+  lookup-yes-no-not-applicable:
+    name: بلی,نه ویا قابل اجرا نیست
+    lookup_values:
+      'true': 'بلی'
+      'false': 'نه'
+      not_applicable: قابل اجرا نیست
+  lookup-yes-no-undecided:
+    name: بله ، نه ، یا بلاتکلیف
+    lookup_values:
+      'true': 'بلی'
+      'false': 'نه'
+      undecided: فیصله ناشده
+  lookup-yes-no-unknown:
+    name: بلی ,نه ویا نامعلوم
+    lookup_values:
+      'true': 'بلی'
+      'false': 'نه'
+      unknown: نامعلوم

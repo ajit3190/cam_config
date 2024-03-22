@@ -1,0 +1,7 @@
+es-GT:
+  reunification_details:
+    name: Detalles de reunificación
+    description: Detalles de reunificación
+    fields:
+      reunification_details_section:
+        display_name: Detalles de reunificación

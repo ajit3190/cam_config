@@ -1,0 +1,7 @@
+fr:
+  followup:
+    name: 'Suivi '
+    description: 'Suivi '
+    fields:
+      followup_subform_section:
+        display_name: 'Suivi '

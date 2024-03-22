@@ -1,0 +1,65 @@
+---
+am-ET:
+  followup_subform_section:
+    name: "በአንድ ጣርያ ስር የሚኖሩ ቤተሰብ/የቤተሰብ አባላትን  ክትትል ቅጽ "
+    description: "በአንድ ጣርያ ስር የሚኖሩ ቤተሰብ/የቤተሰብ አባላትን ክትትል ቅጽ "
+    fields:
+      followup_needed_by_date:
+        display_name: ክትትል ያስፈልጋል በማን
+        help_text: "(ይህ ቦታ በተግባር ዝርዝር ውስጥ እንደማስታወሻነት ይሆናል)"
+      followup_date:
+        display_name: ክትትል የሚደረግበት ቀን
+      followup_with_multi:
+        display_name: ከ.....ክትትል ተካሂዷል<br>
+      other_please_specify:
+        display_name: ሌላ ካለ እባክዎን ይግለጹ
+      followed_up_through:
+        display_name: በ.....ተከታትሏል
+        option_strings_text:
+          phone_call: በስልክ ጥሪ
+          instant_message_sms_whatsapp: በአጭር መልእክት መጻፊያ
+          email: በኢሜል
+          social_media: ማህበራዊ ሚዲያ
+          ad_hoc_home_visit_child_family: በድገተኛ የቤት ጉብኝት (ልጅ/ቤተሰብ)
+          scheduled_home_visit_child_family: የታቀደ የቤት ጉብኝት (ልጅ/ቤተሰብ)
+          face_to_face_meeting_outside_of_home_child_family: ከቤት ውጭ (ህጻኑን/ቤተሰብ) በአካል በመገናኘት
+          face_to_face_meeting_service_provider_and_child_family: በአካል በመገናኘት (አገልግሎት አቅራቢ እና ህጻን/ቤተሰብ)
+          face_to_face_meeting_service_provider_only: በአካል በመገናኘት (አገልግሎት አቅራቢ ጋር ብቻ)
+          community_based_group: "በማህበረሰብ አባላት ላይ የተመሰረተ "
+          authorities: አካላት
+          other: ሌሎች
+      followup_other_specify:
+        display_name: ሌላ ካለ እባክዎን ይግለጹ
+      followed_specific_action:
+        display_name: "በጉዳይ እቅድ መሰረት ክትትል ይደረግበታል?"
+      specify_action:
+        display_name: የትኛውን ተግባር/አገልግሎት (በጉዳይ እቅድ) መሰረት ክትትል እንደተደረገለት ያስቀምጡ
+      purpose_followup:
+        display_name: የክትትል ዓላማ
+        help_text: በዚህ የተለየ ተግባር/አገልግሎት/ አካል ላይ የመከታተል ምክንያትን ግለጽ
+      followup_result_separator:
+        display_name: የክትትሉ ውጤት
+      outcome_followup:
+        display_name: የክትትሉ ተጨባጭ ውጤት
+        help_text: ለምሳሌ፡-  የተሰጠው አገልግሎት፣ የተሰጠው አገልግሎት ውጤቶች፣ በሕፃኑ ሁኔታ ላይ ስላለው ለውጥ ዝርዝሮች
+      action_conducted:
+        display_name: "ክትትል ከተደረገለት ከጉዳይ ዕቅዱ የተወሰነው ተግባር/አገልግሎት ተከናውኗል?"
+        option_strings_text:
+          'yes': 'አዎ'
+          'no': 'አልተከናወነም'
+          unable_to_determine: ማወቅ አልተቻለም
+      situation_changed:
+        display_name: "ክትትል ሲደረግ የህጻኑ ሁኔታ በከፍተኛ ሁኔታ ተለውጧል?"
+        option_strings_text:
+          'yes': 'አዎ'
+          improved: ተሻሽሏል
+          declined: አልተሻሻለም
+          'no': 'የለም'
+          unable_to_determine: ማወቅ አልተቻለም
+      next_steps_separator:
+        display_name: ቀጣይ ስራዎች
+      need_follow_up_visit:
+        display_name: "ተጨማሪ ክትትል ያስፈልጋል?"
+        help_text: ለተጨማሪ ክትትል አስፈላጊ ከሆነ ለዚያ ክትትል አዲስ የንዑስ ቅጽ በማስቀመጥ ተጨማሪ ክትትል የሚደረግበትን ቀነ ገደብ ያስገቡ።
+      other_recommend_followup:
+        display_name: "በተደረገው ክትትል ላይ የተመሠረቱ ሌሎች አስተያየቶች ካሉ?"

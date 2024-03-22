@@ -1,0 +1,7 @@
+fa-AF:
+  other_documents:
+    name: اسناد دیگر
+    description: اسناد دیگر
+    fields:
+      upload_other_document:
+        display_name: اسناد دیگر

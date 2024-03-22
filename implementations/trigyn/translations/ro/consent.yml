@@ -1,0 +1,68 @@
+ro:
+  consent:
+    name: Consimțământ și acord
+    description: Consimțământ și acord
+    fields:
+      interview_subject:
+        display_name: Consimțământ/ acord obținut de la
+        option_strings_text:
+          child: Copil
+          caregiver: Îngrijitor
+          other: Altcineva
+      consent_source_other:
+        display_name: Dacă Altcineva, te rugăm să detaliezi
+      consent_notes:
+        display_name: Notițe
+      consent_for_services:
+        display_name: A fost dat consimțământul pentru ca copilul să participe în procesul de management de caz
+        help_text: Dacă nu a fost dat consimțământul, nu selectați
+        tick_box_label: 'Da'
+      consent_reporting:
+        display_name: Consimțământul este dat pentru partajarea de informații sub anonimat, în scop de raportare
+      consent_for_data_collection:
+        display_name: A fost dat consimțământul responsabilului de caz asignat pentru a colecta și stoca informații personale cu privire la caz (de exemplu, nume, fotografie, detalii de familie).
+      disclosure_other_orgs:
+        display_name: Persoana care oferă consimțământul este de acord să partajeze informații despre acest caz cu alți furnizori de servicii, conform detaliilor descrise mai jos.
+        help_text: Aceasta presupune schimbul de informații cu alte organizații care oferă servicii, nu include schimbul de informații cu UNHCR.
+        tick_box_label: 'Da'
+      information_shared_services:
+        display_name: Informațiile pot fi partajate pentru următoarele servicii
+        option_strings_text:
+          alternative_care: Îngrijire alternativă
+          cash_assistance: Ajutor cu bani
+          education_formal: Educație (formală)
+          family_tracing_and_reunification: Urmărire și reunificare familie
+          food: Mâncare
+          gbv_survivor_support: Suport supraviețuitor GBV
+          legal_support: Asistență legală
+          livelihoods: Bunuri de strictă necesitate
+          medical: Medical
+          mental_health: Sănătate mintală
+          non_food_items: Produse non-alimentare
+          non_formal_education: Educație informală
+          nutrition: Nutriție
+          psychosocial_support: Suport psihosocial
+          services_for_children_with_disabilities: Servicii pentru copiii cu dizabilități
+          shelter: Adăpost
+          sexual_and_reproductive_health: Sănătate sexuală și reproductivă
+          rescue: Salvare
+          wash: WASH/ apă, salubritate, igienă
+          case_transfer: Transfer Caz
+          other: Altceva
+      information_shared_services_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      unhcr_export_opt_out:
+        display_name: Persoana care oferă consimțământul este de acord să partajeze informații despre acest caz cu UNHCR pentru managementul de caz al refugiaților.
+        tick_box_label: 'Da'
+      withhold_details:
+        display_name: Ascunde informații specifice de
+      disclosure_deny_details:
+        display_name: Ce informații specifice ar trebui ascunse
+      withholding_info_reason:
+        display_name: Motiv ascundere informații
+        option_strings_text:
+          fear: Teama de a se răni pe ei sau pe alții
+          communicate_information: Doresc să comunice ei înșiși informații
+          others: Altceva
+      withholding_info_other_reason:
+        display_name: Dacă există alt motiv pentru ascundere, specificați

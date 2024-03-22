@@ -1,0 +1,30 @@
+---
+am-ET:
+  tracing_actions_section:
+    name: የመከታተያ/ፍለጋ እርምጃ
+    description: የመከታተያ/ፍለጋ እርምጃ ንዑስ ቅጽ
+    fields:
+      date_tracing:
+        display_name: የመከታተያ ቀን
+      tracing_type:
+        display_name: የተወሰደው እርምጃ አይነት
+        option_strings_text:
+          case_by_case_tracing: የእያንዳንዱ ጉዳይ ፍለጋ
+          individual_tracing: የግለሰብ ፍለጋ
+          mass_tracing: " የቡድን ፍለጋ"
+          photo_tracing: የፎቶ መከታተያ
+          referral_to_ngo: ወደ መንግሥታዊ ያልሆነ ድርጅት መላክ
+          referral_to_icrc: ወደ አለማቀፍ ቀይ መስቀል ተላልፏል
+      address_tracing:
+        display_name: የመከታተያ ድርጊቱ የተፈፀመበት አድራሻ/መንደር
+      location_tracing:
+        display_name: የመከታተያ/ፈለጋ ቦታ
+      tracing_action_description:
+        display_name: የተወሰዱ እርምጃዎች እና አስተያየቶች
+      tracing_outcome:
+        display_name: የመከታተያ እርምጃ ውጤት
+        option_strings_text:
+          pending: በመጠባበቅ ላይ
+          successful: ስኬታማ
+          unsuccessful: አልተሳካም።
+          'yes': 'አዎ'

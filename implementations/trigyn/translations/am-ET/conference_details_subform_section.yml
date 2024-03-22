@@ -1,0 +1,86 @@
+---
+am-ET:
+  conference_details_subform_section:
+    name: ስለ የጉዳይ ኮንፈረንስ ዝርዝር
+    description: ስለ የጉዳይ ኮንፈረንስ ዝርዝር
+    fields:
+      conference_date:
+        display_name: የጉዳይ ኮንፈረንስ የሚካሄድበት ቀን
+      conference_reason:
+        display_name: የጉዳይ ኮንፈረንስ የተካሄደበት ምክንያት
+        option_strings_text:
+          potential_removal_of_a_child_from_thei_caregiver: ህጻኑ/ኗ ከአሳዳጊዎቹ/ቤተሰቦች/ህጋዊ ሞግዚትና/ ተንከባካቢ መነጠል በማስፈለጉ (በመንግስት አካል ተረጋግጧል)
+          placement_of_a_child_into_alternative_care: ህጻኑ/ኗ በአማራጭ ድጋፍና ክብካቤ ምደባ
+          situation_of_family_reunification_with_potential_harm_to_the_child: ህጻኑ/ኗ ወደ ቤተሰብ ማቀላቀል ለስጋት/ለጉዳት አጋላጭ ሁኔታ
+          relocation_of_the_child: ህጻኑ/ኗን ማዛወር
+          complex_child_protection_case_requiring_a_multi_partner_intervention: ውስብስብ የሆኑ ጉዳዮች የተለያዩ አጋር አካላትን ምላሽና ጣልቃገብነት የሚሻ ሲሆን
+          other: ሌሎች
+      conference_reason_other:
+        display_name: ሌሎች ካሉ፡- በዝርዝር ይቅረብ
+      conference_participants:
+        display_name: ተሳታፊዎች
+        help_text: የኮንፈረንስ ተሳታፊዎችን ዘርዝር፣ ስም፣ ከህጻኑ ጋር ያላቸው ግንኙነት፣ የመጡበት ተቋም፣ ስልክ/ኢ-ሜይል
+      conference_current_situation:
+        display_name: አሁን ስላለበት ሁኔታ በዝርዝር በማስቀመጥ ያጠቃሉ
+        help_text: የጥበቃ ጉዳዮችን ማሳየት፣ አሁን ያለበትን ድጋፍ አማራጭ ሁኔታ፣ እና የኬዝ ኮንፈረንስ የተጠራበት ምክንያት
+        guiding_questions: |-
+          የኬዝ ኮንፈረንስ በድጋፍ እቅድ ዝግጅት ወቅት ከሆነ የተዘጋጀ፡- አጠቃሎ ማስቀመጥ (የተጋላጭነት ስጋት ደረጃዎች፣ የጥበቃ ስልቶችና የህጻኑ መሰረታዊ ፍላጎትና የቤተሰብ ሁኔታ በዳሰሳ በተለየው መሰረት)፣
+
+          የኬዝ ኮንፈረንስ በክትትልና ድጋፍ ወቅት በተገኘው መረጃ ከሆነ የተዘጋጀው፡ አሁን ስላለበት ሁኔታ ተብራርቶ ይቀመጥ፡፡
+      conference_discussions_options:
+        display_name: የተሻለ አማራጭ ድጋፎች ላይ ውይይት /የህጻኑ ጥቅምና ደህንነትን ለማስጠበቅ በሚያስችል መልኩ ለመወሰን
+        help_text: እያንዳንዱ አማራጭ በህጻኑ ላይ የሚያመጣውን አዎንታዊና አሉታዊ ተፅዕኖ እና የህጻኑን ጥቅምና ደህንነት የሚያስጠብቅ መሆኑን ስለ አገልግሎቱ ዘርዝር፣
+        guiding_questions: ተሳታፊዎች ለኬዝ ኮንፈረንስ በተጠሩበት ጉዳይ ላይ አማራጭ መፍትሄዎችን ሲያስቀምጡ ኬዝ ወርከሩ ማስታወሻ መያዝ አለበት
+      conference_outcome_recommendations:
+        display_name: የፓኔሉ/ኬዝ ኮንፈረንስ የውይይት ውጤትና የተሰጠ አስተያየት
+        help_text: በኬዝ ወርከሩ አማካኝነት ስለእያንዳንዱ ጉዳይ/ኬዝ የተወሰነው ውሳኔ መነሻ ምክንያቶችን መከለስና ሰምምነት ላይ የተደረሱ ውሳኔዎችና መሰራት ያለባቸው የድጋፍ እቅዶች ማስገንዘብ
+      conference_case_status:
+        display_name: ጉዳዩ ያለበት ሁኔታ
+        help_text: ኬዙ የሚዘጋ ከሆነ የጉዳይ መዝጊያ ቅጽ በአግባቡ መሞላቱን ያረጋግጡ
+      conference_case_status_other:
+        display_name: ሌሎች ካሉ፡- ተብራርቶ ይቀመጥ
+      conference_other_assessment:
+        display_name: "ህጻኑ/ኗ ዳግም የዳሰሳ ጥናት እንዲሰራለት የሚያሳዩ/ችግሮች አሉ?"
+      other_assessment_specify:
+        display_name: ችግሮችን በዝርዝር ያስቀምጡ
+      conference_adjustments:
+        display_name: "የድጋፍ እቅዶችን ማየትና ማስተካከል ያስፈልጋል?"
+      adjustments_specify:
+        display_name: ችግሮችን በዝርዝር ያስቀምጡ
+      conference_reason_multi:
+        display_name: "ለችግር ተጋላጭነት ሁኔታው ላይ ለውጥ አለ?"
+        option_strings_text:
+          'no': 'የለም/ለውጥ የለም'
+          yes_changed_to_high: አዎ በከፍተኛ ሁኔታ ለውጥ አለ
+          yes_changed_to_medium: አዎ መካከለኛ ለውጥ አለ
+          yes_change_to_low: "አዎ ነገር ግን ዝቅተኛ የሆነ "
+          yes_changed_to_no: "አዎ ምንም ለውጥ የለም "
+      risk_level_changed_specify:
+        display_name: "እባክዎ በዝርዝር ያስቀምጡ "
+      conference_case_transfer_reason:
+        display_name: ጉዳዩ ማስተላለፍ  የሚሰራ ከሆነ እባክዎ ምክንያቱን ይግለጹ
+        guiding_questions: |-
+          ጉዳዩን የማስተላለፍ ምክንያቶች:- 1) ተቀባዩ ተቋም የተሻለ አግልግሎት ለመስጠጥ የሚያስችል በቂ አቅም ስላለውና ህጻኑ የተሻለ አገልግሎት ስለሚያስፈልገው 2) ህጻኑ/ቤተሰቦቹ አካባቢውን ስለለቀቁና በሚኖሩበት አካባቢ ህጻኑን ለመከታተል በአቅራቢያው የሚገኙ ተቋም ስላለ 3)  የህጻኑን ጉዳይ ለማስተላለፍ ተቋማዊ ምክንያቶች ስላሉና ጉዳዩ ከመነሻው ተዘግቶ ወደ ሌላ መተላለፉ አስፈላጊ በመሆኑ 4) በቤተሰብ/ሞግዚት ላይ ችግሮች ስላሉ ህጻኑን መነጠሉና ካለበት ቦታ መቀየር አስፈላጊ ሁኖ በመገኘቱ 5) ህጻኑ 18 አመት ስለሞላውና የህጻኑን ጥበቃ በተመለከተ አካላዊና አዕመሯዊ ጉዳተኛና ልዩ ድጋፍ የሚሹ ከ18 አመት በላይ ለሆኑ ዜጎች ድጋፍ ለሚያደርግ ህጋዊ ተቋም የተላለፈ በመሆኑ
+        option_strings_text:
+          specialized_service: 1) የተሻለ አገልግሎት/ድጋፍ ስለሚያስፈልገው
+          new_location: 2)ወደ ሌላ አካባቢ ስለተንቀሳቀሰ
+          organisational_reasons: 3)ተቋማዊ ምክንያት ነው
+          protection_concerns: 4)የጥበቃ ስጋቶች በመኖራቸው የተዘዋወረ/የለቀቀ
+          child_turned_18: 5)ህጻኑ/ኗ 18 የሞላው ነገር ግን ቀጣይነት ያለው ድጋፍ ስለሚያስፈልገው
+          other: 6)ሌሎች ምክንያቶች
+      conference_case_transfer_reason_other:
+        display_name: ሌሎች ካሉ ይዘርዘሩ
+      conference_followup_actions:
+        display_name: ድጋፍና ክትትል/ቅብብሎሽ/ አገልግሎትና ሀላፊነት ያለው አካል ያስፈልጋል
+        guiding_questions: "ለህጻኑ እና ቤተሰቦች የጉዳይ ኮንፈረንሱ ውጤት ምን እንደሆነ ተገንዝበዋል/አስተያየቶችም ተቀባይነት አግኝተው ተወስደዋል:: ዝርዝር እቅዶች በኬዝ ወርከሩ እንደሚዘጋጅና እንደያውቁት ይሰራል"
+      details_anyone_disagrees:
+        display_name: በተዘጋጀው እቅድ ያልተስማማና ለምን እንዳልተስማማ ዝርዝር ነጥቦች
+      was_child_present:
+        display_name: ህጻኑ/ኗ እንዲገኝ ተደርጎ ነበር
+      was_caregiver_present:
+        display_name: ሞግዚት/ቤተሰብ/ተንከባካቢ
+      conference_monitoring_schedule:
+        display_name: የክትትልና ቁጥጥር ፕሮግራም
+        help_text: "ለምሳሌ:-  በሚቀጥለው ሳምንት ሰኞ ስለሚሰጠው አገልግሎት እና በሚቀጥለው ሳምንት አርብ በልጁ ሁኔታ ላይ ክትትል ያድርጉ። ለቀጣዩ ወር ቢያንስ በሳምንት ሁለት ጊዜ ይከታተሉ እና ይቆጣጠሩ። ሁኔታው እንደተጠበቀው/እንደሚፈለገው ከቀጠለ፣በዚህ ወር መጨረሻ ላይ በተሻሻለው የግምገማ ስብሰባ እና በተሻሻለው የአደጋ ደረጃ ላይ በመመስረት ክትትልን ይቀይሩ እና የሚቀጥለውን ወር መርሃ ግብር ይቆጣጠሩ።"
+      date_next_conference:
+        display_name: እንደአስፈላጊነቱ የቀጣይ ኬዝ ኮንፈረንስ ይጠቀስ

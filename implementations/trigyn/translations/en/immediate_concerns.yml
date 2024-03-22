@@ -1,0 +1,8 @@
+---
+en:
+  immediate_concerns:
+    name: Immediate Concerns
+    description: Immediate Concerns
+    fields:
+      immediate_concern_section:
+        display_name: Immediate Concerns

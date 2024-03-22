@@ -1,0 +1,10 @@
+---
+om:
+  photos_and_audio:
+    name: Suuraawwanii  fi sagalee.
+    description: "Faayiloota suuraawwanii  fi  sagalee galmee daa'imaa wajjiin walqabatan hunda isaanii.  "
+    fields:
+      current_photo_key:
+        display_name: Hiiktuu/furtuu  suuraa ammee.
+      recorded_audio:
+        display_name: Sagalee waraabame.

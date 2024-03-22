@@ -1,0 +1,45 @@
+---
+om:
+  reunification_details_section:
+    name: Walitti makiinsa gara manaatti irra deebiin taasisame
+    description: Guca/unka xixiqqaa Maatiin walitti deebisuu/makuu.
+    fields:
+      name_reunified_adult:
+        display_name: Maqaa daa'ima ga'eessaa maatiin walitti makamee.
+      relationship_reunified_adult:
+        display_name: Quunamitii/walitti dhufeenya  ga'eessichi daa'ima wajjiin qabu.
+      address_reunified_adult:
+        display_name: Teessoo.
+      location_reunified_adult:
+        display_name: Iddoo ga'eessichaa daa'imni itti makamee.
+      address_reunification:
+        display_name: Teessoo bakka  walitti makinsi itti raawwatamu.
+      location_reunification:
+        display_name: Iddoo/ bakka walitti makinsi itti raawwatamu.
+      reunification_type:
+        display_name: "Walitti makiinsa akkamiittu gaggeessame?"
+        option_strings_text:
+          case_by_case: Dhimmaa dhimmaan yoo ilaalamu.
+          informal_spontaneous: Idileen ala//tasa kan raawwataman.
+          mass_tracing: Barbaachaa jumlaan gaggeessame.
+          mediation: Jaarsummaa/Araarsa taasifame.
+          other: Kan biraa (ibsaa maaloo)
+          photo_tracing: Barbaacha suuraa.
+          spontaneous: Tasa .
+      date_reunification:
+        display_name: Guyyaa walitti makinsi itti raawwate.
+      child_reunited_with_verified_adult:
+        display_name: "Daa'imni ga'eessa mirkanaa'e wajjiin irra deebiin walitti makameeraa?"
+      not_reunited_with_verified_adult_reason:
+        display_name: "Yoo hin makamne ta'e,sababni  jijjirama maalidha?"
+        option_strings_text:
+          change_of_mind: Jijjirama ilaalchaa/yaadaa.
+          death: Du'aatii.
+          death_of_adult: Du'aatii ga'eessaa.
+          failed_verification: Mirkaneessa hin milkoofne.
+          n_a: Hojirra ooluu hin danda'u.
+          other: Kan biraa (ibsaa maaloo)
+      reunification_follow_up_needed:
+        display_name: "Hordoffii taasisuuf fedhiin jiraa?"
+      closure_recommendation:
+        display_name: "Yoo kan hinjirre ta'e, dhimmichi cufamuu qaba jettanii yaada itti kennituu?"

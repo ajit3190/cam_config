@@ -1,0 +1,7 @@
+fa-AF:
+  approvals:
+    name: تآییدی
+    description: ـاییدی
+    fields:
+      approval_subforms:
+        display_name: تآیید

@@ -1,0 +1,8 @@
+---
+en:
+  review:
+    name: Case Review
+    description: Case Review
+    fields:
+      review_section:
+        display_name: Case Review

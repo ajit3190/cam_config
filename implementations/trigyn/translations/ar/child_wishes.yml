@@ -1,0 +1,46 @@
+---
+ar:
+  child_wishes:
+    name: رغبات الطفل
+    description: رغبات الطفل
+    fields:
+      wishes_child_family_tracing:
+        display_name: هل يريد الطفل تتبع أفراد العائلة؟
+      wishes_reason_no_tracing:
+        display_name: إذا كان الطفل لا يريد تتبع الأسرة ، بقم بشرح السبب
+      wishes_reunification:
+        display_name: هل يريد الطفل لم شمل الأسرة؟
+        option_strings_text:
+          yes_as_soon_as_possible: نعم ، في اقرب وقت ممكن
+          yes_but_later: "نعم ,ولكن لاحقا"
+          not_sure: لست متأكد
+          'no': 'لا'
+      wishes_reason_no_reunification:
+        display_name: إذا كانت الإجابة "لا" أو "لست متأكد" أو "نعم ، ولكن لاحقًا" ، بقم بشرح السبب
+      wishes_contacted:
+        display_name: هل سمع الطفل من / كان على اتصال بأي من أقاربه؟
+      wishes_contacted_details:
+        display_name: يرجى تقديم تفاصيل
+      child_preferences_section:
+        display_name: تفضيلات الطفل
+      wishes_care_arrangement_desired:
+        display_name: هل يرغب الطفل في الاستمرار في ترتيبات الرعاية الحالية؟
+      wishes_reason_no_care_arrangement:
+        display_name: إذا كان الطفل لا يريد البقاء في ترتيبات الرعاية الحالية ، فقم بشرح السبب
+      wishes_care_arrangement_type_desired:
+        display_name: نوع ترتيب الرعاية الذي يرغب الطفل في الحصول عليه
+        option_strings_text:
+          independent_living: عيش مستقل
+          alternative_interim_care: الرعاية المؤقتة البديلة
+          with_husband_wife_partner: مع الزوج / الزوجة / الشريك
+          other_family: عائلة اخرى
+          dont_know: لا اعرف
+          other: غير ذلك
+      wishes_care_arrangement_type_other:
+        display_name: إذا كان نوع ترتيب الرعاية الذي يرغب الطفل في الحصول عليه هو "غير ذلك" ، حدد
+      wishes_location_plan_live:
+        display_name: أين يرغب/ يخطط  الطفل للعيش؟
+      wishes_address_plan_live:
+        display_name: شارع حيث يرغب / يخطط الطفل للعيش؟
+      wishes_landmarks_plan_live:
+        display_name: نقاط علام حيث يرغب / يخطط الطفل للعيش؟

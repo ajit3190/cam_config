@@ -1,0 +1,7 @@
+fa-AF:
+  services:
+    name: خدمات
+    description: فورم های خدمات
+    fields:
+      services_section:
+        display_name: 'حدمات '

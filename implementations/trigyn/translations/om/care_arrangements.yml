@@ -1,0 +1,22 @@
+---
+om:
+  care_arrangements:
+    name: Karoora/Qophii/ kunuunsaa
+    description: Karoora/qophii/kunuunsaa
+    fields:
+      child_current_location:
+        display_name: Teessoo yeroo ammaa daa'imaa
+      address_current:
+        display_name: Teessoo yeroo ammaa
+        help_text: "Yoo teessoon yeroo ammaa hin jiraatiin,haala yeroo ammaa irra jiru/jirtu ibsa."
+      location_current:
+        display_name: Teessoo yeroo ammaa
+      address_child_future:
+        display_name: "Yoo daa'imni karoora deemuu qabaate, teessoon ful-duraa eessa?"
+        help_text: "Yoo teessoon yeroo ammaa hin jiraatiin,haala yeroo ammaa irra jiru/jirtu ibsa"
+      location_child_future:
+        display_name: "Teessoon ful-duraa eessaa?"
+      telephone_child_future:
+        display_name: "Bilbilli ful-duraa?"
+      care_arrangements_section:
+        display_name: Karoora kunuunsaa

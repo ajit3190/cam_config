@@ -1,0 +1,8 @@
+---
+om:
+  approvals:
+    name: Mirkanneesittoota
+    description: Mirkanneesittoota
+    fields:
+      approval_subforms:
+        display_name: Mirkanneesittoota

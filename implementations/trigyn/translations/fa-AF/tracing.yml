@@ -1,0 +1,47 @@
+fa-AF:
+  tracing:
+    name: 'ردبابی '
+    description: 'ردبابی '
+    fields:
+      matched_tracing_request_id:
+        display_name: 'شناسنامه درخواست رد بابی مطابقت داده شده '
+      separation_separator:
+        display_name: ' تاریخچه جدایی'
+      tracing_status:
+        display_name: 'وضیعت ردیابی '
+      date_of_separation:
+        display_name: 'تاریخ چدایی '
+      separation_cause:
+        display_name: دلیل اصلی جدایی چی بود ؟
+      separation_cause_other:
+        display_name: 'وغیره,لطفا مشخص کنید '
+      separation_other_applicable_causes:
+        display_name: 'در صورت تطبیق ، سایر دلایل جدایی چه بود؟'
+      separation_details:
+        display_name: شرایط جدایی (لطفاً جزئیات را ارائه دهید)
+      separation_additional_movements:
+        display_name: حرکات اضافی بین محل جدایی و موقعیت  فعلی را تشریح  کنید
+      separation_witnessed_violence:
+        display_name: آیا طفل در طول سفر خود با نوعی خشونت ، تهدید یا آسیب روبرو شده است یا شاهد آن بوده است؟
+      separation_witnessed_violence_comments:
+        display_name: جزئیاتی درباره آنچه طفل  با آن روبرو شده است / شاهد آن است
+      address_separation:
+        display_name: آدرس جدایی (جای)
+      location_separation:
+        display_name: موقعیت جدایی
+      additional_tracing_info:
+        display_name: امعلومات اضافی که می توانند در ردیابی کمک کنند؟
+      evacuation_status:
+        display_name: آیا طفل تخلیه شده است؟
+      evacuation_agent:
+        display_name: 'اگر بلی توسط کدام نهاد /موسسه '
+      evacuation_from:
+        display_name: 'تخلیه از '
+      evacuation_date:
+        display_name: 'تاریخ تخلیه '
+      evacuation_to:
+        display_name: تخلیه به
+      care_arrangements_arrival_date:
+        display_name: 'تاریخ رسیدن '
+      tracing_actions_section:
+        display_name: 'اقدامات رد یابی '

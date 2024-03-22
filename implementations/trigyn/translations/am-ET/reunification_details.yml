@@ -1,0 +1,8 @@
+---
+am-ET:
+  reunification_details:
+    name: የማዋሃድ ዝርዝሮች
+    description: የማዋሃድ ዝርዝሮች
+    fields:
+      reunification_details_section:
+        display_name: የማዋሃድ ዝርዝሮች

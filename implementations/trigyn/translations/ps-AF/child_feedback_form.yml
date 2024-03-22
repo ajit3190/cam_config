@@ -1,0 +1,181 @@
+ps-AF:
+  child_feedback_form:
+    name: د ماشوم فیډبیک
+    description: د ماشوم فیډبیک
+    fields:
+      child_feedback_date_completed:
+        display_name: د فورم د بشپریدو نیټه
+      child_feedback_separator_consent:
+        display_name: رضایت
+        guiding_questions: "د نمونې لیکنه: \"زه غواړم له تاسو سره په دې اړه وغږیږم چې څنګه د قضیې کار کونکی ستاسو او ستاسو له ماشوم سره کار کړی.\nموږ غواړو ډاډ ترلاسه کړو چې موږ ماشومانو ته ترټولو غوره ممکنه خدمت چمتو کوو ، نو موږ پوښتنه کوو چې د قضیې کارکوونکی ستاسو ماشوم سره څنګه مرسته کړې او که کوم څه شتون ولري نو موږ کولی شو چې هغه په غوره او مختلف شکل ترسره کړو.\nتاسو اړتیا نلرئ موږ ته څه ووایاست که تاسو نه غواړئ او تاسو باید د دې لپاره خپل دلایل راته ووایاست.\nحتی که تاسو پریکړه وکړئ چې موږ ته څه ونه ووایی ، دا به په هغه ملاتړ اغیزه ونلري چې ستاسو ماشوم یې زموږ څخه ترلاسه کوي.\nپه هرصورت ، زموږ سره د خپلو افکارو او احساساتو شریکول ممکن موږ سره مرسته وکړي د هغه څه په ښه کولو کې چې موږ د نورو ماشومانو او کورنیو لپاره کوو.\nهرڅه چې تاسو موږ ته ووایی هغه به خصوصي ساتل کیږي. د دې معنی دا ده چې موږ به یې شریک کړو ، خو موږ به هیچا ته ونه وایو چې تاسو هغه څوک یاست چې موږ ته یې وویل.\nاو همدا شان تاسو کولای شی پریکړه وکړئ چې یوازې څو پوښتنو ته ځواب ورنکړی ، او هر کله چې تاسو خپل فکر بدل کړی کولای شی بیا یې بس کړی. "
+      child_feedback_interview_subject:
+        display_name: رضایت له چا اخیستل شوی
+        option_strings_text:
+          child: ماشوم
+          caregiver: سرپرست
+          other: نور
+      child_feedback_consent_source_other:
+        display_name: که نور وي، مهرباني وکړئ مشخص کړئ
+      child_feedback_consent:
+        display_name: . د قضیې مدیریت لپاره د ماشوم لخوا د فیډیبک ورکولو اجازه ورکړل شوې ده
+        tick_box_label: 'هو'
+      child_feedback_consent_caregiver:
+        display_name: د سرپرسست لخوا اجازه ورکړل شوی ترڅو د خپل / ماشوم څخه د قضیې مدیریت پروسې په اړه نظر راټول کړي.
+        help_text: چېرته چې مناسبه او امکان ولري بیا یې تکمیل کړئ
+        tick_box_label: 'هو'
+      child_feedback_consent_date:
+        display_name: د رضایت نیټه
+      child_feedback_separator_questions:
+        display_name: 'پوښتنې: لومړۍ برخه'
+        guiding_questions: |-
+          تاسو کولی شئ د فوري فیډبیک لپاره مثالونه ورکړئ ، مګر د مخکښو پوښتنو پوښتنو په اړه محتاط اوسئ.
+          دا ب format د لویو ماشومانو لپاره مناسبه ده (10 کلن یا ډیر عمر لرونکي) - دا د اړتیا سره سم د کوچني ماشومانو لپاره تطبیق کیدی شي.
+           دا باید د ماشوم په ژبه کې ترسره شي ، او د داسې چا لخوا پرمخ یوړل شي چې د ماشومانو سره د فیډبیک لاس ته راوړلو  لپاره اړین مهارتونه او روزنه ولري ، او د ماشومانو سره مستقیم کار کولو اخلاقو باندې وپوهیږي.
+      child_feedback_services_discovery:
+        display_name: 'تاسو د [قضیې د مدیریت ادارې نوم:                                    ] قضیې مدیریت خدماتو په اړه څنګه پوه شوی؟'
+        option_strings_text:
+          caseworker_approached_me: د قضیې کارمند راسره اړیکه ونیوه
+          another_organization: د بلې ادارې له طرفه
+          parents: د والدینو لخوا
+          family_friends: کورنی/ ملګري
+          school: ښوونځی
+          community_leader: د ټولنې د مشر لخوا
+          community_based_child_protection_focal_point: په ټولنه کې میشت د ماشومانو د خوندیتوب مرکزي شخص
+          authorities: چارواکي
+          saw_a_poster_information_leaflet: معلوماتي صفحه باندې مو معلومات ولیدل
+          cannot_recall: په یاد یې نه لرم
+          other: نور
+      child_feedback_services_discovery_other:
+        display_name: که نور وي ، مهرباني وکړئ مشخص کړئ
+      child_feedback_help_asked:
+        display_name: مخکې لدې چې تاسو د قضیې له کارکوونکي سره کار پیل کړئ ، ایا تاسو څخه غوښتنه وشوه چې  پدې برخه کې له تاسو سره مرسته وشي؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      child_feedback_help_asked_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_expectations:
+        display_name: 'د [د قضیې مدیریت مدیریت ادارې نوم:                                   ] څخه د کوم ډول ملاتړ تمه درلوده؟'
+        option_strings_text:
+          alternative_care: بدیله پاملرنه
+          security_e_g_safe_shelter: امنیت (د بیلګې په توګه خوندي سرپناه)
+          education_formal: رسمي تعلیم
+          non_formal_education: غیر رسمي تعلیم
+          family_tracing_and_reunification: د کورنۍ تعقیب او یوځای کیدل
+          basic_psychosocial_support: لومړنی رواني - ټولنیز ملاتړ
+          focused_non_specialized_mhpss_care: متمرکز غیر متخصص MHPSS پاملرنه
+          specialized_mhpss_services: ځانګړي MHPSS خدمتونه
+          food: خواړه
+          non_food_items: غیر خوراکي توکي
+          cash_assistance: نغدي مرسته
+          livelihoods: معیشت
+          medical: Medical
+          nutrition: تغذیه
+          legal_support: قانوني ملاتړ
+          documentation: لاسوندونه
+          services_for_children_with_disabilities: د معلولیت لرونکو ماشومانو لپاره خدمتونه
+          sexual_and_reproductive_health: جنسي او د زیږون روغتیا
+          shelter: سرپنا
+          wash: WASH
+          durable_solution_in_coordination_with_unhcr: سره په همغږی دوامداره حل لاره  UNHCR د
+          relocation: ځای په ځای کول
+          other: نور
+      child_feedback_expectations_other:
+        display_name: که نور وي، مهرباني وکړئ مشخص کړئ
+      child_feedback_expectations_received:
+        display_name: ایا تاسو هغه ملاتړ ترلاسه کړی چې تمه یې کیده؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      child_feedback_expectations_received_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_process_plan:
+        display_name: ایا د قضیې کار کونکي تاسو سره یوځای د قضیې پلان داسې  جوړ کړی، ترڅو هغه ملاتړ ترلاسه کړی چې تاسو ورته اړتیا لرله؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      child_feedback_process_plan_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_process_connect:
+        display_name: ایا د قضیې کار کونکي تاسو له هغو خدماتو سره وصل کړي یاست چې تاسو سره د مرستې وړ وه؟
+        option_strings_text:
+          'yes': 'هو'
+          no_did_not_need_other_services: نه ، نورو خدماتو ته اړتیا نلري
+          no_did_not_want_other_services: نه ، نور خدمات یې نه غوښتل
+          unknown: نامعلوم
+      child_feedback_process_connect_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_process_consent:
+        display_name: کله چې د قضیې کار کوونکی له نورو سره معلومات شریک کول، ایا له تاسو څخه یې غوښتنه کړې وه چې تاسو راضي یاست چې ستاسو او د حالت په اړه معلومات له نورو سره شریک شي؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      child_feedback_process_consent_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_process_closure:
+        display_name: ایا تاسو پریکړه کړې چې د قضیې مدیر سره یوځای [د ادارې نوم داخل کړئ                                            ] د قضیې مدیریت خدمات بند کړئ؟
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      child_feedback_process_closure_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_questions_ii:
+        display_name: 'پوښتنې: دوهمه برخه'
+        guiding_questions: |-
+          د نمونې لیکنه: "د راتلونکو څو پوښتنو لپاره ، زه به تاسو څخه وپوښتم چې تاسو تر هغې اندازې پورې چې زما د ذکر شوي جملې سره موافق یاست.
+          که تاسو د جملې سره په بشپړ ډول موافق یاست نو تاسو کولی شئ  10 ورکړئ.
+          که تاسو په جمله سره موافق نه یاست نو تاسو کولی شئ  1 ورکړئ.
+          تاسو کولی شئ د 1 او 10 تر مینځ د کوم بل شمیر سره د ځواب ویلو پریکړه هم وکړئ ، هرڅومره چې تاسو د جملې سره موافق یاست نو دا باید 10 ته نږدې وي ، او هرڅومره چې تاسو موافق نه یاست دا باید 1 ته نږدې وي. "
+      child_feedback_ii_explanation:
+        display_name: د قضیې کارکوونکی شیان په داسې ډول تشریح کړل چې زما لپاره پوهیدل ګران وو.
+        help_text: د 1 او 10 تر مینځ یوه شمیره غوره کړئ
+      child_feedback_ii_explanation_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_ii_listening:
+        display_name: د قضیې کارکوونکی تل زما نظرونو غوښتي او زما احساسات او اندونو باندې پوه شوی
+        help_text: د 1 او 10 تر مینځ یوه شمیره غوره کړئ
+      child_feedback_ii_listening_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_ii_pressured:
+        display_name: ما هر وخت دقضیې دکارمند له لورې فشار احساس کړی د اسې یو څه یا پریکړې په چې ما نه غوښتل هغه وکړم.
+        help_text: د 1 او 10 تر مینځ یو شمیر غوره کړئ
+      child_feedback_ii_pressured_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_ii_followup:
+        display_name: د قضیې کارمند هر وخت هغه شیان تعقیب کړي چې هغه یا هغې به غوښتل اجرآ یې کړي.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      child_feedback_ii_followup_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_ii_visits:
+        display_name: د قضیې کارکوونکی ډیر کم ّځله له ما څخه لیدنه کوله.
+        help_text: د 1 او 10 تر مینځ یو شمیر غوره کړئ
+      child_feedback_ii_visits_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_ii_support:
+        display_name: هغه ملاټر چې د قضیې کارمند ما او زما کورنی ته برابر کړ ګټور وه.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      child_feedback_ii_support_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_ii_improvement:
+        display_name: له هغه وخته چې زه د قضیې کارکوونکي سره کار کوم زما حالت ښه شوی.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      child_feedback_ii_improvement_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_ii_satisfaction:
+        display_name: په ټوله کې ، زه د قضیې کارکوونکي لخوا چمتو شوي ملاتړ څخه ډیر خوښ یم.
+        help_text: د 1 او 10 تر مینځ یو شمیره غوره کړئ
+      child_feedback_ii_satisfaction_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ
+      child_feedback_final_question:
+        display_name: ' ایا تاسو کوم بل نظر یا اندیښنه لرئ چې تاسو یې غواړئ شریک یې کړئ؟'
+        option_strings_text:
+          'yes': 'هو'
+          'no': 'نه'
+          unknown: نامعلوم
+      child_feedback_final_question_details:
+        display_name: مهرباني وکړئ توضیحات ورکړئ

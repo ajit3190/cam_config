@@ -1,0 +1,138 @@
+fa-AF:
+  closure_form:
+    name: بسته کردن
+    description: بسته کردن
+    fields:
+      closure_approved:
+        display_name: 'از طرف منجر تآیید شد '
+        tick_box_label: 'بلی'
+      closure_approved_date:
+        display_name: تاریح
+      closure_approved_comments:
+        display_name: نظرات منیجر
+      approval_status_closure:
+        display_name: 'حالت تآییدی '
+      approval_obtained_child:
+        display_name: توسط طفل تآیید شد .
+        tick_box_label: 'بلی'
+      approval_obtained_caregiver:
+        display_name: 'توسط مراقبت کننده تآیید شد '
+        tick_box_label: 'بلی'
+      approval_obtained_details:
+        display_name: لطفآ جزییات را تشریح کنید
+        help_text: جزئیات تماس و قرابت مراقبتکننده  با طفل را درج کنید
+      child_status:
+        display_name: وضیعت قضیه
+      date_closure:
+        display_name: تاریخ بسته شدن
+      closure_reason:
+        display_name: دلبل اابتدایی برای بستن قضیه
+        option_strings_text:
+          overall_goal_of_the_case_plan: هدف کلی پلان قضیه  برآورده شده است ، طفل  از آسیب در امان است ، از مراقبت و سلامت طفل حمایت  می شود و هیچ نگرانی دیگری وجود ندارد
+          child_has_turned_18_years_old: 'کودک 18 ساله شده است (اطمینان حاصل کنید که یک برنامه رجعت دهی  وجود دارد وقضیه می داند از کجا و چگونه  و در کجا به حمایت بدست دسترسی پیدا کند '
+          relocation_of_child_to_an_area: اسکان مجدد کطفل به جای ای که نمایندگی برای انتقال قضیه به آن وجود ندارد
+          child_departed_for_a_durable_solution: 'طفل برای  یک راه حل با دوامدر  به جایی انتقال شد که هیچ نمایندگی برای انتقال قضیه به آنجا وجود ندارد ، '
+          child_no_longer_contactable: با طفل دیگر قابل تماس گرفته نمیشود  (حداقل 3 ماه قبل از بستن قضیه صبر کنید)
+          death_of_child: وفات طفل
+          no_further_action_possible_required: دیگر اقدامی امکان پذیر نیست / لازم نیست
+          case_opened_in_error: قضیه به اشتباه باز شده بود
+          other: وغیره
+      closure_reason_other:
+        display_name: 'ااگر لطفآ مشخص کنید.'
+      closure_details:
+        display_name: جزئیات بیشتری در مورد دلیل بسته شدن قضیه ارائه کنید.
+      closure_situation_child_separator:
+        display_name: وضیعت طفل در وقت بسته شدن قضیه
+      closure_how_long_case_opened:
+        display_name: چه مدت است که این قضیه باز شده است
+        help_text: در هفته
+      closure_current_situation:
+        display_name: خلاصه ای مختصر از وضعیت فعلی قضیه
+        help_text: ' تاریخچه و وضعیت فعلی قضیه، و  آخرین خدمات ارائه شده / اقدامات انجام شده را تشریح کنید '
+      closure_child_moving_separator:
+        display_name: ' اکر طفالبه کای جدید نقل مکان نمود '
+      closure_new_child_location:
+        display_name: 'آدرس و موقعیت که طفل در آنجا زندگی میکند '
+        help_text: تا جایی که امکان دارد  جزئیات مربوط به مکان را ارائه دهید تا دیگران بتوانند مکان را پیدا کنند خانه ، نسانی خانه ، سرک ، شهر / قریه ، ولسوالی  (با در نظرداشت جامعه  )<br>
+      closure_new_telephone_contact_details:
+        display_name: 'تلفون وبا غیره جزییات ارتباطی '
+      closure_care_arrangements_separator:
+        display_name: ترتیب مراقبتی بستن قضیه
+      closure_current_care_arrangement:
+        display_name: 'ترتیب مراقبت  فعلی طفل / ترتیبات زندگی '
+        option_strings_text:
+          parent_s: والدین)
+          step_parent: 'والدین اندر '
+          customary_caregiver_s: 'مراقبت کننده گان عرفی '
+          kafala: 'کفالت '
+          independent_living: زندگی مستقل
+          child_headed_household: خانواده به سرپرستی طفل
+          adult_sibling: 'خواهر و برادر بزرکسال '
+          kinship_care_extended_family: مراقبتپ اقارب / خانواده بزرگ
+          foster_care: 'نگهداری طفل توسط کسی دیگر  غیر از فامیل و اقارب '
+          residential_care: مراقبت های مسکونی
+          unrelated_adult: بزرگسال غیر اقارب
+          no_care_arrangement: مراقبت های محافظتی وجود ندارد
+          other: وغیره
+      closure_current_care_arrangement_other:
+        display_name: 'اگر وغیره لطفامشخص سازید '
+      closure_current_care_arrangement_permanent:
+        display_name: آیا این ترتیب مراقبت دائمی است
+      closure_current_care_arrangement_permanent_no:
+        display_name: اگر نه,لطفآ مشخص کنید که چرا
+      primary_caregiver_separator:
+        display_name: جزئیات مراقبت  کننده اولیه
+      name_caregiver_closing:
+        display_name: نام مراقبت کننده
+      relationship_caregiver_closing:
+        display_name: قرابت به طفل
+      address_caregiver_closing:
+        display_name: آدرس مراقبت کننده
+      location_caregiver_closing:
+        display_name: موقعیت مراقبت کننده
+      closure_caregiver_contact_details:
+        display_name: تلفون و جزییات دیگر ارتباطی مراقبت کننده
+      closure_arrangements_separator:
+        display_name: 'ترتیبات که برای  حمایت از بسته شدن موفقانه قضیه در درنظر گرفته شده '
+      case_closure_process:
+        display_name: 'روند بسته شدن قضیه را تشریح کنید '
+        help_text: جزئیات جلسات برگزار شده برای بحث در مورد بسته شدن قضیه بین   کارمند قضیه  و کودک ، بین کارمند قضیه و و مراقبت کننده  (ها)و بین کارمند پرونده و ناظر را ارایه نمایید .
+      closure_discussed_child:
+        display_name: آ در مورد بستهشدن قضیه به طفل بحث و موافقت صورت گرفت ؟
+      closure_discussed_child_no:
+        display_name: اگر نهع مشخص کنید که چرا؟
+      closure_discussed_caregiver:
+        display_name: آیا در مورد بسته شدن قضیه با مراقبت کننده بحث و موافقت شد ؟
+      closure_discussed_caregiver_no:
+        display_name: اگر نه , مشخص کنید که چرا؟
+      closure_child_feedback_form:
+        display_name: آیا با استفاده از "فرم بازخورد طفل "( نظریات طفل) ،نظریات  طفل در مورد روند مدیریت پروژه از  جمع آوری شده است؟
+      closure_child_feedback_form_no:
+        display_name: اگر نه ,لطفا مشخص سازید
+      closure_caregiver_feedback_form:
+        display_name: آیا بازخورد /دظریات در مورد روند مدیریت پقضیه  با استفاده از "فرم بازخورد مراقبت کننده" از مراقببت کننده جمع آوری شده است؟
+      closure_caregiver_feedback_form_no:
+        display_name: 'اگر نه ,لطفآ نشخص سازید '
+      closure_final_followup_meeting:
+        display_name: آ برای اطمینان از ثابت ماندن وضعیت ، آیا جلسه پیگیری نهایی جلسه 3 ماهه  با طفل  و / یا مراقبت کننده گان  پلان شده است  ؟
+      closure_final_followup_meeting_no:
+        display_name: گر نه ,لطفآ نشخص سازید
+      closure_child_case_file_complete:
+        display_name: آیا دوسیه قضیه طفل با تمام اسناد مربوطه تکمیل است و تازه است ؟
+      closure_child_case_file_complete_no:
+        display_name: 'اگر نه علطفآ مشخص سازید '
+      closure_case_file_stored:
+        display_name: دوسیه قضیه چگونه نگهداری میشود ؟
+        option_strings_text:
+          electronically: برقی
+          hard_copy: 'به صورت اوراق '
+          both: 'هردو '
+      closure_case_file_stored_date:
+        display_name: تا کدام تاریخ دوسیه طفل نگهداری خواهد شد ؟
+      closure_child_told_contact_support:
+        display_name: 'آیا به طفل گفته شده که در صورت داشتن سوال ,نگرانی و دسترسی به حمایت به کی تماس بگیرد '
+      closure_child_told_contact_support_no:
+        display_name: اگر نه, لطفآ مشخص سازیذد
+      closure_child_contact_support:
+        display_name: کی به طفل گفته که در صورت داشتن سوال ,نگرانی و دسترسی به حمایت تماس بگیرد
+        help_text: 'نام و جزییات ارتباط را ارایه کنید '

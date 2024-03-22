@@ -1,0 +1,8 @@
+---
+am-ET:
+  followup:
+    name: ክትትል
+    description: ክትትል
+    fields:
+      followup_subform_section:
+        display_name: ክትትል

@@ -1,0 +1,58 @@
+---
+om:
+  tracing_request_subform_section:
+    name: Unka/Guca xixiqqaa gaaffii barbaachaa iddoo itti jiraatani.
+    description: Guca xixiqqaa gaaffii barbaachaa iddoo itti jiraatanii.
+    fields:
+      matched_case_id:
+        display_name: Eenyumeessaa dhimmaa walsimatanii.
+      tracing_request_status:
+        display_name: Sadarkaa haalaa barbaachaa.
+      individual_details_section:
+        display_name: Ibsa nama dhuunfaa.
+      name:
+        display_name: Maqaa.
+      relation:
+        display_name: " fFroominni  gaafataan daa'ima wajjiin qabu akkamitti ibsama?"
+      relation_child_lived_with_pre_separation:
+        display_name: "Daa'imni addaan bahiinsa dura gaafataa wajjiin jiraachaa ture?"
+      name_nickname:
+        display_name: Maqaa masoo.
+      name_other:
+        display_name: Maqaa biraa.
+      sex:
+        display_name: Saala/kornaayaa.
+      age:
+        display_name: Umurii.
+      date_of_birth:
+        display_name: Guyyaa dhalootaa.
+      physical_characteristics:
+        display_name: Amaloota haala qaama daa'imaa adda baasuu.
+      inquirer_special_message:
+        display_name: Dhaamsa/ergaa addaa nama barbaadamuuf dabarsame.
+      same_separation_details:
+        display_name: "Tarreeffamoota addaan bahiinsaa unka gaafataa irra jiruun walfakkaatan?"
+      separation_details_section:
+        display_name: Ibsa trreeffamoota addaan bahiinsaa ( guca/unka  gaafataa irra jiruun garaagarummaa yoo qabaate ta'e)
+      date_of_separation:
+        display_name: Guyyaa adda bahiinsaa.
+      separation_cause:
+        display_name: "Sababni ijoon adda bahiinsaa maal ture?"
+      separation_evacuation:
+        display_name: "Addaan bahiinsi kun iddoo gadi dhiisanii deemuurra kan uumame ta'aa?  "
+      separation_details:
+        display_name: Haaloota adda bahiinsaa (bal'inaan ibsa itti kennaa maaloo)
+      address_separation:
+        display_name: Teessoo addaan bahiinsaa (iddoo)
+      location_separation:
+        display_name: Iddoo/bakka addaan bahiinsaa.
+      address_last:
+        display_name: Teessoo isa dhumaa.
+      landmark_last:
+        display_name: Mallattoo isa dhumaa lafarratti kaa'ame.
+      location_last:
+        display_name: Iddoo isa dhumaa.
+      telephone_last:
+        display_name: Bilbila /telefoona isa dhumaa
+      additional_tracing_info:
+        display_name: Odeeffannoo dabalataa hojii barbaachaatiif nama gargaaruu danda'an.

@@ -1,0 +1,138 @@
+ro:
+  closure_form:
+    name: Închidere
+    description: Închidere
+    fields:
+      closure_approved:
+        display_name: Aprobat de Manager
+        tick_box_label: 'Da'
+      closure_approved_date:
+        display_name: Dată
+      closure_approved_comments:
+        display_name: Comentarii Manager
+      approval_status_closure:
+        display_name: Status Aprobare
+      approval_obtained_child:
+        display_name: Aprobat de Copil
+        tick_box_label: 'Da'
+      approval_obtained_caregiver:
+        display_name: Aprobat de Îngrijitor
+        tick_box_label: 'Da'
+      approval_obtained_details:
+        display_name: Te rugăm să furnizezi detalii
+        help_text: Include detaliile de contact și relația dintre îngrijitor și copil
+      child_status:
+        display_name: Status Caz
+      date_closure:
+        display_name: Dată Închidere
+      closure_reason:
+        display_name: Motiv principal pentru închidere caz
+        option_strings_text:
+          overall_goal_of_the_case_plan: Obiectivul general al planului de servicii a fost îndeplinit, copilul este ferit de rău, îngrijirea și bunăstarea copilului sunt susținute și nu există preocupări adiționale
+          child_has_turned_18_years_old: Copilul a împlinit 18 ani (asigură-te că există un plan de tranziție și că persoana știe unde și cum să acceseze sprijin)
+          relocation_of_child_to_an_area: Mutarea copilului într-o zonă în care nu există o organizație/ instituție către care să fie transferat cazul
+          child_departed_for_a_durable_solution: Copilul a plecat în căutarea unei soluții de durată într-o zonă în care nu există o organizație/ instituție către care să fie transferat cazul
+          child_no_longer_contactable: Copilul nu mai poate fi contactat (așteaptăi cel puțin 3 luni înainte de a închide cazul)
+          death_of_child: Copilul a decedat
+          no_further_action_possible_required: Nu mai este posibilă/ nu mai necesită nicio acțiune suplimentară
+          case_opened_in_error: Caz deschis din greșeală
+          other: Altceva
+      closure_reason_other:
+        display_name: 'Dacă Altceva, te rugăm să detaliezi'
+      closure_details:
+        display_name: Furnizează detalii suplimentare despre motivul închiderii cazului
+      closure_situation_child_separator:
+        display_name: Situația copilului la închiderea cazului
+      closure_how_long_case_opened:
+        display_name: Cât timp a stat deschis acest caz
+        help_text: În săptămâni
+      closure_current_situation:
+        display_name: Scurt rezumat al situației curente a cazului
+        help_text: Descrie istoricul și situația actuală a cazului, inclusiv ultimele servicii prestate/ acțiuni întreprinse
+      closure_child_moving_separator:
+        display_name: Dacă copilul se mută într-o locație nouă
+      closure_new_child_location:
+        display_name: Noua adresă/ locație unde locuiește copilul
+        help_text: Furnizează cât mai multe detalii posibil despre locație, astfel încât ceilalți să poată găsi locația, de ex. casă, reper, stradă, oraș/ sat, district, provincie (adaptați în funcție de context)
+      closure_new_telephone_contact_details:
+        display_name: Număr de telefon/ alte date de contact
+      closure_care_arrangements_separator:
+        display_name: Aranjamentele de îngrijire la închidere
+      closure_current_care_arrangement:
+        display_name: Îngrijirea actuală a copilului/ aranjamentul de locuit
+        option_strings_text:
+          parent_s: Părinți
+          step_parent: Părinte vitreg
+          customary_caregiver_s: Îngrijitorii obișnuiți
+          kafala: Kafala
+          independent_living: Trai independent/ pe cont propriu
+          child_headed_household: Gospodărie condusă de copil
+          adult_sibling: Soră/ frate adult
+          kinship_care_extended_family: Îngrijirea prin rude/ familie extinsă
+          foster_care: Asistență maternală
+          residential_care: Orfelinat
+          unrelated_adult: Adult neînrudit
+          no_care_arrangement: Niciun aranjament de îngrijire
+          other: Altceva
+      closure_current_care_arrangement_other:
+        display_name: Dacă Altceva, te rugăm să detaliezi
+      closure_current_care_arrangement_permanent:
+        display_name: Acesta este aranjamentul de îngrijire permanentă
+      closure_current_care_arrangement_permanent_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      primary_caregiver_separator:
+        display_name: Detalii îngrijitor principal
+      name_caregiver_closing:
+        display_name: Numele Îngrijitorului
+      relationship_caregiver_closing:
+        display_name: Legătura cu copilul
+      address_caregiver_closing:
+        display_name: Adresa Îngrijitorului
+      location_caregiver_closing:
+        display_name: Locația Îngrijitorului
+      closure_caregiver_contact_details:
+        display_name: Telefonul îngrijitorului/ alte date de contact
+      closure_arrangements_separator:
+        display_name: Aranjamente făcute pentru a sprijini închiderea cu succes a cazului
+      case_closure_process:
+        display_name: Descrie procesul de închidere de caz
+        help_text: Furnizează detalii despre întâlnirile organizate pentru a discuta închiderea cazului, de ex. între responsabil de caz și copil, între responsabil de caz și îngrijitori, între responsabil de caz și supervizor.
+      closure_discussed_child:
+        display_name: S-a discutat și convenit cu copilul închiderea cazului?
+      closure_discussed_child_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      closure_discussed_caregiver:
+        display_name: Închiderea cazului a fost discutată și convenită cu îngrijitorul(ii)?
+      closure_discussed_caregiver_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      closure_child_feedback_form:
+        display_name: A fost adunat feedback cu privire la procesul de gestionare a cazului de la copil folosind „formularul de feedback pentru copii”?
+      closure_child_feedback_form_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      closure_caregiver_feedback_form:
+        display_name: A fost colectat feedback cu privire la procesul de gestionare a cazului de la îngrijitor folosind „formularul de feedback pentru îngrijitor”?
+      closure_caregiver_feedback_form_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      closure_final_followup_meeting:
+        display_name: A fost planificată o întâlnire finală de revenire peste 3 luni cu copilul și/ sau îngrijitorul(ii) pentru a se asigura că situația rămâne stabilă?
+      closure_final_followup_meeting_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      closure_child_case_file_complete:
+        display_name: Dosarul copilului este complet și la zi, cu toate documentele relevante incluse?
+      closure_child_case_file_complete_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      closure_case_file_stored:
+        display_name: Cum va fi stocat dosarul cazului?
+        option_strings_text:
+          electronically: Electronic
+          hard_copy: Format fizic
+          both: Ambele
+      closure_case_file_stored_date:
+        display_name: Până la ce dată va fi păstrat dosarul copilului?
+      closure_child_told_contact_support:
+        display_name: I s-a spus copilului pe cine să contacteze dacă are întrebări, nelămuriri sau pentru a accesa asistență dacă este necesar?
+      closure_child_told_contact_support_no:
+        display_name: Dacă nu, te rugăm să menționezi de ce
+      closure_child_contact_support:
+        display_name: Pe cine ar trebui copilul să contacteze dacă are întrebări, nelămuriri sau pentru a accesa asistență dacă este necesar?
+        help_text: Furnizează nume și detalii de contact

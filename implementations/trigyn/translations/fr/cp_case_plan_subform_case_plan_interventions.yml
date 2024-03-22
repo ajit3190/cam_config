@@ -1,0 +1,37 @@
+fr:
+  cp_case_plan_subform_case_plan_interventions:
+    name: Liste des plans d'intervention et des services
+    description: Liste des plans d'intervention et des services
+    fields:
+      intervention_service_to_be_provided:
+        display_name: Nom de l'intervention / du service à fournir
+      intervention_service_goal:
+        display_name: Need the intervention / service is addressing
+        guiding_questions: Comme identifié dans l'évaluation, par exemple, soins alternatifs, sécurité (par exemple, abri sûr), éducation (formelle), éducation non formelle, recherche et réunification familiales, soutien psychosocial de base, services de santé mentale non spécialisés ciblés, services de santé mentale spécialisés, nourriture, articles non alimentaires, assistance en espèces, moyens de subsistance, soins médicaux, nutrition, soutien juridique, documentation, services pour les enfants handicapés, santé sexuelle et reproductive, abri, WASH, solution durable, réinstallation.
+      case_plan_provider_and_contact_details:
+        display_name: Personne / organisme fournissant le service ou mettant en œuvre l'intervention / services et coordonnées
+      case_plan_timeframe:
+        display_name: Date d'échéance
+        help_text: jj/mm/aa
+      case_plan_monitoring_schedule:
+        display_name: Suivi / calendrier de suivi
+        guiding_questions: |-
+          Par exemple, le suivi lundi de la semaine prochaine sur les services à fournir et le vendredi de la semaine prochaine sur la situation de l'enfant. Suivi et contrôle deux fois par semaine au minimum pour le mois à venir.
+          Si la situation évolue comme prévu/désiré, modifiez le calendrier de suivi en fonction de la réunion d'examen et du niveau de risque modifié à la fin de ce mois.
+        option_strings_text:
+          one_time: Une fois
+          daily: Quotidiennement
+          weekly: 'Hebdomadairement '
+          monthly: 'Mensuellement '
+          other: Autre
+      case_plan_monitoring_schedule_notes:
+        display_name: Notes / Calendrier de suivi
+      interventions_status:
+        display_name: 'Statut '
+        option_strings_text:
+          pending: En attente
+          ongoing: 'En cour '
+          completed: 'Complété '
+      interventions_notes:
+        display_name: Notes
+        guiding_questions: Par exemple, les points forts et les obstacles qui peuvent soit aider/progresser, soit entraver la réalisation

@@ -1,0 +1,56 @@
+es:
+  verification_subform_section:
+    name: Subformulario de verificación anidado
+    description: Subformulario de verificación anidado
+    fields:
+      verification_name_inquirer:
+        display_name: Nombre del Solicitante
+      verification_inquirer_relationship:
+        display_name: Relación
+      verification_inquirer_sex:
+        display_name: Sexo
+      verification_inquirer_age:
+        display_name: Edad
+      verification_inquirer_address_current:
+        display_name: Dirección
+      verification_inquirer_location:
+        display_name: Ubicación Actual
+      verification_phone_inquirer:
+        display_name: Telefóno
+      verification_inquirer_wants_to_care_for_child:
+        display_name: ¿Quiere que el/la niño/a venga a vivir con usted?
+      verification_inquirer_able_to_care_for_child:
+        display_name: ¿Es capaz de cuidar de él/ella/ellos?
+      verification_alternate_caregiver_exists:
+        display_name: Si no, ¿Hay algún otro miembro de la familia que podría hacerse cargo del niño/a?
+      verification_alternate_caregiver_name:
+        display_name: Nombre del cuidador alternativo
+      verification_alternate_caregiver_relationship:
+        display_name: Relación con el cuidador alternativo
+      verification_address_alternate_caregiver:
+        display_name: Dirección de esa persona (cuidador alternativo)
+      verification_location_alternate_caregiver:
+        display_name: Dirección/Área/Pueblo del Cuidador Alternativo
+      verification_comments:
+        display_name: Comentarios
+      verification_acceptance_date:
+        display_name: Fecha de aceptación para el cuidado del niño/a
+      verification_inquirer_known_to_child:
+        display_name: ¿El/la niño/a conoce al adulto que solicita la verificación?
+      verification_inquirer_child_wishes_reunification_with:
+        display_name: ¿Desea el/la niño/a ser reunificado con esa persona?
+      verification_inquirer_information_match:
+        display_name: ¿Coincide la información brindada por el/la niño/a y el adulto?
+      verification_inquierer_recommendation:
+        display_name: ¿Recomienda la reunificación? En caso negativo, ¿Cuál otra acción?
+        option_strings_text:
+          'yes': 'Sí'
+          'no': 'No'
+          further_tracing: Seguimiento Adicional
+          long_term_alternative_care: Cuidado Alternativo a Largo Plazo
+          reunification: Reunificación
+          reunification_enhanced_support: Reunificación con Apoyo Extendido
+      verification_inquierer_recommendation_comments:
+        display_name: Comentarios adicionales
+      verification_date:
+        display_name: Fecha de la Verificación

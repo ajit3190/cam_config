@@ -1,0 +1,7 @@
+ps-AF:
+  approvals:
+    name: منظوری/تصویب
+    description: منظوری/تصویب
+    fields:
+      approval_subforms:
+        display_name: منظوري

@@ -1,0 +1,13 @@
+ro:
+  referral_transfer:
+    name: Referiri și Transferuri
+    description: Listă Transferuri și Referiri
+    fields:
+      transfer_status:
+        display_name: Status Transfer
+        option_strings_text:
+          in_progress: În desfășurare
+          accepted: Acceptat
+          rejected: Respins
+      transitions:
+        display_name: Transferuri și Referiri

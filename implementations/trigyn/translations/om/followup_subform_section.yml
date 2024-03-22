@@ -1,0 +1,65 @@
+---
+om:
+  followup_subform_section:
+    name: Guca/unka  xixiqqaa hordoffii daa'ima iddoo bultii argatee.
+    description: Guca/unka xixiqqaa hordoffii walitti aanee ida'ame.
+    fields:
+      followup_needed_by_date:
+        display_name: Qaama hordoffiin barbaadameen.
+        help_text: "Dirreen/kutaan  kun  tarreeffama hojii keessatti yaadachiisa uumuu danda'a."
+      followup_date:
+        display_name: Guyyaa hordoffiin itti gaggeessame.
+      followup_with_multi:
+        display_name: Qaama waliin hordofamu.
+      other_please_specify:
+        display_name: "Kan biraa yoo jiraate,ifteessaa/ibsaa maaloo."
+      followed_up_through:
+        display_name: Hordoffii /hordofiinsa.
+        option_strings_text:
+          phone_call: Waamicha bilbilaa.
+          instant_message_sms_whatsapp: Dhaamsa/Ergaa ariiffachiisaa /SMS/WhatsAPP
+          email: Iimeeyil.
+          social_media: Saba himaa/midiyaa hawaasaa.
+          ad_hoc_home_visit_child_family: Dow'annaa  mana jireenyaa gidduu giddutti taasisame(daa'ima/ maatii)
+          scheduled_home_visit_child_family: Dow'annaa mana jireenyaa  karoorfame.
+          face_to_face_meeting_outside_of_home_child_family: Walga'ii  fuullee/fuulaa-fuulattii mana jireenyaatii  alattii taasisame (Daa'iima/Maatii)
+          face_to_face_meeting_service_provider_and_child_family: Walga'ii fuullee/fuulaa-fuulattii (kennaa  tajaajilaa fi  daa'ima/maatii)
+          face_to_face_meeting_service_provider_only: Walga'ii fuullee/fuulaa-fuulattii (kennaa tajaajilaa qofa)
+          community_based_group: Garee Hawaasa bu'ureeffate.
+          authorities: Aangawoota.
+          other: Kan biraa.
+      followup_other_specify:
+        display_name: Kan biraa yoo jiraate ifteessaa/ibsaa maaloo.
+      followed_specific_action:
+        display_name: Hordoffii hojii murtaawaa irrattii/tajaajila  karoora dhimmaa  irraa taasisame.
+      specify_action:
+        display_name: Hojii /tajaajila kamitu (karoora dhimmaa irraa)akka hordofame ykn maalimaa/elementii/ biraa maal  hordoffiin irratti akka taasifame ibsaa.
+      purpose_followup:
+        display_name: Kaayoo Hordoffii.
+        help_text: Sababa hordoffiin  hojii murtaa'aa/ tajaajila/maaliimaa   irratti  akka adeemsisamu ta'eef  ibsaa.
+      followup_result_separator:
+        display_name: Bu'aa Hordoffii.
+      outcome_followup:
+        display_name: Bu'aa Hordoffii.
+        help_text: "Fknf. waayee tarkaanfiin  irratti fudhatamee/tajaajila kennamee,bu'aa tarkaanfii fudhatamee/tajaajila kennamee,jijjiirama waayee haala daa'imaa irratti mul'atee bal'inaan ibsa itti kennaa."
+      action_conducted:
+        display_name: "Yoo hordoffiin taasifame ta'e hojiin  murtaa'aan /tajaajilli karoora dhimmaa irra jiru  raawwatameeraa ?"
+        option_strings_text:
+          'yes': 'Eeyyeen..'
+          'no': 'Miti/lakki.'
+          unable_to_determine: Murteessuun hindanda'amne.
+      situation_changed:
+        display_name: "Yoo  hordofame  ta'e, bu'a qabeessummaan haala  daa'ima sanii  akkaataa  barbaadamuun  jijjirameeraa?"
+        option_strings_text:
+          'yes': 'Eeyyen.'
+          improved: Fooyya'eera.
+          declined: Gadi bu'eera.
+          'no': 'Miti/lakki.'
+          unable_to_determine: Murteessuu hindanda'amu.
+      next_steps_separator:
+        display_name: Tarkaanfiiwwan itti aanan.
+      need_follow_up_visit:
+        display_name: "Hordoffii dabalataa adeemsisuuf  fedhiin jiraa?"
+        help_text: "Yoo fedhiin  hordoffi dabalataa kan jiraatu ta'e , guca/unka  xixiqqaa haaraa hordoffii saniif ta'uu fi guyyaa hordoffiin achitti barbaadamus uumi."
+      other_recommend_followup:
+        display_name: "Hordoffii adeemsifame irratti hundaa'amee   yaadni furmaataa kennaman jiruu?"

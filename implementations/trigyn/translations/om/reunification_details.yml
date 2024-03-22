@@ -1,0 +1,8 @@
+---
+om:
+  reunification_details:
+    name: Tarreeffamoota daa'imaa deebisanii maatiin walitti makuu.
+    description: Tarreeffamoota daa'ima deebisanii maatiin walitti makuu.
+    fields:
+      reunification_details_section:
+        display_name: Tarreeffamoota daa'ima deebisanii maatiin walitti makuu.

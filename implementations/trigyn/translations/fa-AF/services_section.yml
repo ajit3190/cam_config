@@ -1,0 +1,52 @@
+fa-AF:
+  services_section:
+    name: خدمات پیچیده
+    description: 'فورم های فرعی خدمات '
+    fields:
+      service_response_type:
+        display_name: نوعیت جوابگویی
+      service_type:
+        display_name: 'نوع خدمات '
+        guiding_questions: "1-مراقبت های اساسی روانی اجتماعی  - فضاهای امن (شامل فضاهای دوستدار طفل و کودک) ، گروه های همسان ، باشگاه های جوانان ، آموزش مهارت های زندگی و گروپ های پشتیبانی مراقبت کننده گان \n2تمرکز  روی MHPSS غیر تخصصی - MHPSS از طریق مدیریت قضیه حفاظت طفل ، کمک های اولیه روانی اجتماعی ، مداخله روانی اجتماعی  مبتنی بر شواهد / آگاهی  یک به یک یا گروهی ارائه شده توسط افراد غیر متخصص از جمله کارمندان  اجتماعی ، کارمندان قضیه ، داوطلبان جامعه ، کارکنان صجی  و  و غیره\n3. مراقبت های تخصصی MHPSS - مراقبت های روانی اجتماعی، صحت روانی  یا سایر مراقبت های صحی ر توسط متخصصان صحت روانی "
+      service_type_other:
+        display_name: 'اگر وغیره ,لطفا مشخص سازید '
+      service_referral:
+        display_name: نوعیت راجع سازی
+      service_response_day_time:
+        display_name: 'تاریخ راجع سازی '
+      service_appointment_date:
+        display_name: تاریخ شروع خدمات
+      service_implementing_agency:
+        display_name: 'نهاد تطبیق کننده '
+      service_provider:
+        display_name: ارایه کننده خدمات
+      service_delivery_location:
+        display_name: 'موقعیت ارایه کننده خدمات '
+      service_implementing_agency_individual:
+        display_name: 'نام ارایه کننده خدمات '
+      service_status_referred:
+        display_name: راجع شده؟
+        tick_box_label: 'بلی'
+      service_location:
+        display_name: 'موقعیت خدمات '
+      service_referral_notes:
+        display_name: یادداشت ها
+      service_implemented:
+        display_name: خدمات که تطبیق شده
+      service_implemented_day_time:
+        display_name: خدمات تکمیل شده
+      details_service_provided:
+        display_name: جزئیات / نظرات در مورد خدمات ارائه شده
+      recommendations_followup:
+        display_name: 'پیشنهادات برای پیگیری '
+      accountability_separator:
+        display_name: 'حسابدهی '
+        help_text: کارمند قضیه باید  از طفل در مورد در احساس وی در مورد خدمات ارائه شده (به روش مناسب  مطابق                         سن ، به عنوان مثالچهره های خندان) سوال کند
+      focal_agency_location:
+        display_name: 'سطح رضاییت طفل از عرضه خدمات '
+      suggestions_improvement:
+        display_name: پیشنهادات کودک برای بهبود
+      caregivers_satisfaction:
+        display_name: سطح رضایت مراقبت کننده گان از خدمات ارائه شده
+      caregivers_suggestions:
+        display_name: 'پیشنهادات مراقبت کنندهگانبرای بهبود '

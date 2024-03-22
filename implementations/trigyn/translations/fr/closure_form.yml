@@ -1,0 +1,138 @@
+fr:
+  closure_form:
+    name: 'Clôture '
+    description: 'Clôture '
+    fields:
+      closure_approved:
+        display_name: Approuvé par le superviseur
+        tick_box_label: 'Oui'
+      closure_approved_date:
+        display_name: Date
+      closure_approved_comments:
+        display_name: Commentaires du superviseur
+      approval_status_closure:
+        display_name: Statut d'approbation
+      approval_obtained_child:
+        display_name: 'Approuvé par l''enfant '
+        tick_box_label: 'Oui'
+      approval_obtained_caregiver:
+        display_name: Approuvé par la personne en charge de l'enfant
+        tick_box_label: 'Oui'
+      approval_obtained_details:
+        display_name: Veuillez préciser
+        help_text: Inclure les coordonnées et la relation avec la personne qui s'occupe de l'enfant
+      child_status:
+        display_name: État d'avancement du dossier
+      date_closure:
+        display_name: 'Date de la clôture '
+      closure_reason:
+        display_name: Principale raison de la clôture du cas
+        option_strings_text:
+          overall_goal_of_the_case_plan: L'objectif principal du plan d'intervention a été atteint, l'enfant est à l'abri du danger, les soins et le bien-être de l'enfant sont soutenus et il n'y a pas d'autres préoccupations
+          child_has_turned_18_years_old: L'enfant a atteint l'âge de 18 ans (s'assurer qu'un plan de transition est en place et que l'enfant sait où et comment accéder à l'aide)
+          relocation_of_child_to_an_area: Déplacement de l'enfant vers une région où il n'y a pas d'organisation de protection de l'enfant à laquelle transférer le cas
+          child_departed_for_a_durable_solution: L'enfant fait l'objet d'une solution durable dans une localité ou il n'existe pas de service de protection pour que le dossier soit transféré
+          child_no_longer_contactable: L’enfant est impossible à joindre (attendre au moins 3 mois avant de clore le dossier)
+          death_of_child: 'Décès de l''enfant '
+          no_further_action_possible_required: Aucune autre action possible/nécessaire
+          case_opened_in_error: 'Cas ouvert par erreur '
+          other: Autre
+      closure_reason_other:
+        display_name: 'Si autre, précisez '
+      closure_details:
+        display_name: Fournir des détails supplémentaires sur la raison de la clôture du cas
+      closure_situation_child_separator:
+        display_name: Situation de l'enfant au moment de la clôture du cas
+      closure_how_long_case_opened:
+        display_name: Depuis combien de temps ce cas est-il ouvert
+        help_text: En quelques semaines
+      closure_current_situation:
+        display_name: Bref résumé de la situation actuelle du cas
+        help_text: Décrivez l'historique et la situation actuelle du cas, y compris les derniers services fournis/actions entreprises
+      closure_child_moving_separator:
+        display_name: Si l'enfant déménage dans un nouveau lieu
+      closure_new_child_location:
+        display_name: Nouvelle adresse / lieu de résidence de l'enfant
+        help_text: Donnez autant de détails que possible sur le lieu afin que d'autres personnes puissent le trouver, par exemple la maison, le point de repère, la rue, la ville/le village, le district, la province (adaptez en fonction du contexte)
+      closure_new_telephone_contact_details:
+        display_name: Téléphone / autres coordonnées
+      closure_care_arrangements_separator:
+        display_name: Prise en charge à la clôture du cas
+      closure_current_care_arrangement:
+        display_name: La prise en charge actuelle de l'enfant, conditions de vie
+        option_strings_text:
+          parent_s: Parent(s)
+          step_parent: Belle-mère ou beau-père
+          customary_caregiver_s: Parent(s)-substitut
+          kafala: Recueil légal (kafala)
+          independent_living: Vie autonome
+          child_headed_household: Foyer sous la responsabilité d’un enfant
+          adult_sibling: Frère ou sœur d’âge adulte
+          kinship_care_extended_family: Famille élargie ou étendue de l’enfant
+          foster_care: Famille d’accueil
+          residential_care: Établissement
+          unrelated_adult: Adulte sans lien de parenté
+          no_care_arrangement: Aucune prise en charge
+          other: Autre
+      closure_current_care_arrangement_other:
+        display_name: Si autre, précisez
+      closure_current_care_arrangement_permanent:
+        display_name: S'agit-il de la prise en charge permanente
+      closure_current_care_arrangement_permanent_no:
+        display_name: Si non, veuillez préciser pourquoi
+      primary_caregiver_separator:
+        display_name: 'Détails sur la première personne en charge de l''enfant '
+      name_caregiver_closing:
+        display_name: Renseignements concernant la principal personne en charge de l’enfant
+      relationship_caregiver_closing:
+        display_name: Lien avec l’enfant
+      address_caregiver_closing:
+        display_name: Adresse de la personne en charge de l'enfant
+      location_caregiver_closing:
+        display_name: 'Localisation de la personne en charge de l''enfant '
+      closure_caregiver_contact_details:
+        display_name: 'Téléphone / autre contact de la personne en charge de l''enfant '
+      closure_arrangements_separator:
+        display_name: Dispositions prises pour favoriser la clôture du cas
+      case_closure_process:
+        display_name: 'Décrire la procédure de clôture du cas '
+        help_text: Fournissez les détails des réunions tenues pour discuter de la clôture du cas, par exemple entre le gestionnaire de cas et l'enfant, entre le gestionnaire de cas et la ou le(s) personnes s'occupant de l'enfant, entre le gestionnaire de cas et le superviseur.
+      closure_discussed_child:
+        display_name: La clôture du cas a-t-elle été discutée et convenue avec l'enfant ?
+      closure_discussed_child_no:
+        display_name: Si non, veuillez préciser pourquoi
+      closure_discussed_caregiver:
+        display_name: La clôture du cas a-t-elle été discutée et convenue avec la personne en charge de l'enfant ?
+      closure_discussed_caregiver_no:
+        display_name: Si non, veuillez préciser pourquoi
+      closure_child_feedback_form:
+        display_name: Un feedback sur le processus de gestion des cas a-t-il été recueilli auprès de l'enfant au moyen du "formulaire de feedback" ?
+      closure_child_feedback_form_no:
+        display_name: Si non, veuillez préciser pourquoi
+      closure_caregiver_feedback_form:
+        display_name: Un feedback sur le processus de gestion des cas a-t-il été recueilli auprès de la personne en charge de l'enfant au moyen du "formulaire de feedback" ?
+      closure_caregiver_feedback_form_no:
+        display_name: Si non, veuillez préciser pourquoi
+      closure_final_followup_meeting:
+        display_name: Une dernière réunion de suivi après 3 mois a-t-elle été prévue avec l'enfant et/ou la ou le(s) personnes qui s'occupent de lui afin de s'assurer que la situation reste stable ?
+      closure_final_followup_meeting_no:
+        display_name: Si non, veuillez préciser pourquoi
+      closure_child_case_file_complete:
+        display_name: Le dossier du cas de l'enfant est-il complet et à jour avec tous les documents pertinents inclus ?
+      closure_child_case_file_complete_no:
+        display_name: Si non, veuillez préciser pourquoi
+      closure_case_file_stored:
+        display_name: Comment le dossier du cas sera-t-il conservé ?
+        option_strings_text:
+          electronically: 'Electroniquement '
+          hard_copy: 'Copie dure '
+          both: 'Les deux '
+      closure_case_file_stored_date:
+        display_name: Jusqu'à quelle date le dossier du cas de l'enfant sera-t-il conservé ?
+      closure_child_told_contact_support:
+        display_name: L'enfant a-t-il été informé de la personne à contacter s'il a des questions, des préoccupations ou pour obtenir une aide si nécessaire ?
+      closure_child_told_contact_support_no:
+        display_name: Si non, veuillez préciser pourquoi
+      closure_child_contact_support:
+        display_name: L'enfant a-t-il été informé de la personne à contacter s'il a des questions, des préoccupations ou pour obtenir une aide si nécessaire ?
+        help_text: 'Donner le nom et les contacts '

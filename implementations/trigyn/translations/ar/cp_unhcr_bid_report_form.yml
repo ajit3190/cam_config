@@ -1,0 +1,8 @@
+---
+ar:
+  cp_unhcr_bid_report_form:
+    name: تقرير تحديد المصالح الفضلى
+    description: تقرير تحديد المصالح الفضلى
+    fields:
+      unhcr_bid_report_subform:
+        display_name: تقرير المفوضية السامية للأمم المتحدة لشؤون اللاجئين حول تحديد المصالح الفضلى

@@ -1,0 +1,45 @@
+---
+ar:
+  reunification_details_section:
+    name: لم شمل متداخل
+    description: نموذج لم الشمل الفرعي
+    fields:
+      name_reunified_adult:
+        display_name: اسم الشخص البالغ الذي تم لم شمل الطفل معه
+      relationship_reunified_adult:
+        display_name: علاقة الشخص البالغ بالطفل
+      address_reunified_adult:
+        display_name: العنوان
+      location_reunified_adult:
+        display_name: موقع الشخص البالغ الذي تم لم شمل الطفل معه
+      address_reunification:
+        display_name: عنوان مكان الذي يتم فيه لم الشمل
+      location_reunification:
+        display_name: الموقع الذي يتم فيه لم الشمل
+      reunification_type:
+        display_name: أي نوع من لم الشمل
+        option_strings_text:
+          case_by_case: حالة بعد حالة
+          informal_spontaneous: تلقائي / غير رسمي
+          mass_tracing: التتبع الجماعي
+          mediation: وساطة
+          other: غير ذلك (يرجى التحديد)
+          photo_tracing: تتبع الصور
+          spontaneous: تلقائي
+      date_reunification:
+        display_name: تاريخ لم الشمل
+      child_reunited_with_verified_adult:
+        display_name: هل تم لم شمل الطفل مع شخص بالغ تم التحقق منه؟
+      not_reunited_with_verified_adult_reason:
+        display_name: إذا لم يكن الأمر كذلك ، فما سبب التغيير؟
+        option_strings_text:
+          change_of_mind: تغيير الرأي
+          death: الموت
+          death_of_adult: موت الشخص البالغ
+          failed_verification: فشل التحقق
+          n_a: لا ينطبق
+          other: غير ذلك (يرجى التحديد)
+      reunification_follow_up_needed:
+        display_name: هل هناك حاجة للمتابعة؟
+      closure_recommendation:
+        display_name: إذا لم يكن كذلك ، فهل توصي بإغلاق القضية؟

@@ -1,0 +1,17 @@
+ro:
+  bid_status:
+    name: Status BID/ Determinare interes superior
+    description: Formula Status BID/ Determinare interes superior
+    fields:
+      assessment_formal_bid:
+        display_name: Este nevoie o determinare oficială a interesului superior (BID)?
+        help_text: Determinat în context, în coordonare cu UNHCR.
+      assessment_bid_direction:
+        display_name: Dacă da,  te rugăm să selectați direcția BID
+        option_strings_text:
+          identifying_durable_solutions_and_complementary_pathways_for_unaccompanied_children: Identificarea de soluții de durată, precum și a căilor complementare pentru copiii neînsoțiți
+          determining_the_most_appropriate_options_for_children_at_risk_in_exceptional_circumstances: Determinarea celor mai potrivite opțiuni pentru copiii expuși riscului în circumstanțe excepționale (inclusiv reîntregirea familiei și îngrijirea temporară)
+          possible_separation_of_a_child_from_parents_against_their_will: Posibila separare a copilului de părinți împotriva voinței acestora
+      assessment_bid_details:
+        display_name: Furnizează detalii
+        help_text: Furnizează detalii și apoi continuă cu formularul UNHCR de determinare a interesului superior (BID).

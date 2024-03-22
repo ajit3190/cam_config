@@ -1,0 +1,7 @@
+uk:
+  approvals:
+    name: Погодження
+    description: Погодження
+    fields:
+      approval_subforms:
+        display_name: Погодженння

@@ -1,0 +1,9 @@
+ps-AF:
+  photos_and_audio:
+    name: عکسونه او آډیو
+    description: ټول عکسونه او آډیو فایلونه د ماشوم ریکارډ سره شریک شوي
+    fields:
+      current_photo_key:
+        display_name: اوسنی عکس کیلي
+      recorded_audio:
+        display_name: ثبت اډیو

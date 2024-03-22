@@ -1,0 +1,9 @@
+es:
+  photos_and_audio:
+    name: Fotos y audio
+    description: Todos los archivos de fotos y audios asociados con el registro del niño/a
+    fields:
+      current_photo_key:
+        display_name: Clave de foto actual
+      recorded_audio:
+        display_name: Grabación de audio

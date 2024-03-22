@@ -1,0 +1,27 @@
+ps-AF:
+  tracing_request_record_owner:
+    name: د ثبت څښتن
+    description: د ثبت څښتن
+    fields:
+      current_owner_section:
+        display_name: اوسنی څښتن
+      caseworker_name:
+        display_name: ساحه / قضیه / ټولنیز کارکوونکی
+      owned_by:
+        display_name: ' قضیې د کارمند کوډ'
+      owned_by_agency:
+        display_name: اداره
+      assigned_user_names:
+        display_name: نور ټاکل شوي کارونکي
+      record_history_section:
+        display_name: د ثبت تاریخچه
+      created_by:
+        display_name: ثبت د چا لخوا شوی ده
+      created_organization:
+        display_name: د کومې ادارې لخوا
+      previously_owned_by:
+        display_name: پخوانی څښتن
+      previous_agency:
+        display_name: پخوانی اداره
+      module_id:
+        display_name: Module

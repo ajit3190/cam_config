@@ -1,0 +1,69 @@
+fr:
+  assessment:
+    name: Évaluation
+    description: Formulation d'évaluation
+    fields:
+      assessment_home_visit:
+        display_name: Avez-vous effectué une visite à domicile dans le cadre de votre évaluation ?
+      assessment_home_visit_details:
+        display_name: 'Si non, veuillez préciser :'
+      assessment_child_seen:
+        display_name: Avez-vous rencontré l’enfant individuellement / seul ?
+      assessment_child_seen_details:
+        display_name: 'Si non, veuillez préciser :'
+      assessment_separator:
+        display_name: Points de vue et souhaits de l'enfant et du ou des tuteur(s)
+      assessment_child_views:
+        display_name: Points de vue de l'enfant
+        help_text: Décrivez les points de vue  et les souhaits de l'enfant en ce qui concerne sa situation. Cette section peut être élargie pour inclure les propres mots de l'enfant, son témoignage et/ou un dessin (par exemple de sa situation, de sa famille et/ou de son parcours).
+      assessment_caregiver_views:
+        display_name: Points de vue du ou des tuteur(s)
+        help_text: Décrivez le point de vue et les souhaits du ou des tuteur(s) qui s'occupe(nt) de l'enfant en ce qui concerne sa situation.
+      assessment_needs_separator:
+        display_name: Évaluation des besoins
+        guiding_questions: |-
+          Décrivez quand et où vous avez obtenu vos informations - les informations peuvent provenir de diverses sources (par exemple, rapports écrits sur l'enfant ; observations ; entretiens avec l'enfant et sa famille ; dessins, histoires et autres activités créatives réalisées avec l'enfant ; questionnaires et listes de contrôle ; discussions avec d'autres agences et personnes qui connaissent l'enfant ; visites à domicile, etc.).
+          Citez les renseignements obtenus de sources de première main.
+          Précisez si les renseignements ont été vérifiés et confirmés.
+          Décrivez la situation actuelle et précédente, si cela s’avère pertinent.
+          Précisez combien de fois vous avez été témoin d’une situation préoccupante (ou le nombre de personnes ayant rapporté le problème).
+          Précisez les motifs de votre analyse de la situation.
+          Il pourrait s’avérer plus efficace de préciser les besoins de l’enfant plutôt que les services requis. Vous pourriez dire, par exemple, qu’un enfant a besoin d’éducation au lieu de dire qu’il doit aller à l’école, puisqu’il y a plusieurs façons d’offrir une éducation à un enfant.
+      assessment_physical_wellbeing:
+        display_name: Santé et bien-être physique
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : Le développement physique de l’enfant suit-il la courbe normale pour son groupe d’âge ? \nA-t-il des problèmes de santé (signes de troubles respiratoires tels que toux, écoulement nasal, dents impures, forte odeur de la bouche ou de l’enfant) ? \nA-t-il des blessures ? A-t-il des déficiences ou des handicaps intellectuels, physiques ou sensoriels ? \nS’il s’agit d’une fille, est-elle enceinte ? L’enfant est-il fatigué ou épuisé ? Les vêtements de l'enfant sont-ils sales ou en mauvais état par rapport aux autres enfants de la communauté ?"
+      assessment_emotional_wellbeing:
+        display_name: Bien-être psychologique et affectif, connaissances et compétences
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : Comment l’enfant se sent-il de façon générale ? Souffre-t-il de dépression ou d’un problème d’estime de soi ? Est-il heureux ? Fait-il des cauchemars ? \nA-t-il peur de quelque chose ? Est-il anxieux ? Se sent-il amorphe et sans énergie ? A-t-il l’air détaché et indifférent ? Ressent-il beaucoup de sentiments de colère, de culpabilité ou d’impuissance ? \nSemble-t-il soit trop dépendant ou trop indépendant pour son âge ? Comment gère-t-il les revers et les difficultés de la vie ? \nL'enfant possède-t-il des connaissances et des compétences essentielles telles que l'identification et la régulation des émotions et des comportements, la recherche de solutions appropriées aux conflits, le jeu coopératif, l'interprétation correcte des comportements et des émotions des autres et le sentiment d'être bien dans sa peau et être bien avec les autres ?"
+      assessment_social_relationships:
+        display_name: Relations sociales avec ses pairs, sa famille et sa communauté
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : L’enfant participe-t-il à des activités sociales ? Est-il replié sur lui-même ? \nDécrivez la qualité et la fréquence des contacts de l'enfant avec ses pairs, sa famille et d'autres adultes dans sa vie (l'enfant évite-t-il tout contact avec l'un d'eux ; l'un d'eux prend-il ses distances par rapport à l'enfant et, si oui, quelles en sont les raisons ; les membres de la famille évitent-ils toute interaction avec l'enfant dans certains milieux (p. ex., en public) ? \nQuel ton de voix adoptent-ils lorsqu'ils interagissent avec l'enfant ? Décrivez comment cela se répercute sur le bien-être de l'enfant."
+      assessment_education:
+        display_name: Éducation, travail, temps libres et intérêts
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : Quelle éducation l'enfant a-t-il reçue ? L'enfant est-il inscrit à un programme d'éducation et suit-il régulièrement des cours ? \nDécrivez l'environnement scolaire. Y a-t-il des options et des possibilités pour l'enfant en termes d'éducation ? \nQue fait l'enfant pendant son temps libre ? Décrivez les intérêts de l'enfant ? L'enfant participe-t-il à des activités qui peuvent être considérées comme contraires à la loi ? \nL'enfant travaille-t-il ? Décrivez le type de travail, la fréquence du travail et son impact sur le bien-être de l'enfant. Si l'enfant travaille, comment l'argent gagné est-il utilisé/à quoi l'enfant dépense-t-il l'argent ?"
+      assessment_documentation:
+        display_name: Papiers officiels
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : L’enfant a-t-il un acte de naissance ? L'enfant a-t-il d'autres documents d'enregistrement ou d'identification ? \nLui manque-t-il des papiers nécessaires pour sa protection et / ou à l’accès à des services (en ce moment et/ou plus tard) ? Quelles en sont les conséquences sur son bien-être ?"
+      assessment_living_environment_family_separator:
+        display_name: Milieu de vie et famille
+      assessment_living_environment_family:
+        display_name: Milieu de vie
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : Quel est le mode de vie actuel (type d’hébergement ; intimité) ? Décrivez la relation entre l'enfant et le reste de la famille. \nDécrivez la capacité et l'aptitude des adultes de la famille à protéger l'enfant et à répondre à ses besoins. \nDécrivez la situation des moyens de subsistance de la famille/ménage ? Avec qui d'autre l'enfant vit-il et quelle est la dynamique du milieu de vie ? \nQui dort dans la même pièce que l'enfant ? Combien de repas l'enfant ou le ménage prend-il par jour ? Cette situation est-elle différente de celle des autres ménages de la communauté de l'enfant ? \nDécrivez le rôle de l'enfant et indiquez si l'enfant est traité différemment des autres enfants dans le milieu de vie ? Décrivez les conditions de vie. \nL'enfant a-t-il un accès sûr à l'eau potable, aux douches et aux toilettes ? L'enfant se sent-il en sécurité là où il vit ? \nDécrivez comment cela se répercute sur le bien-être de l'enfant. Décrivez la distance et les possibilités d'accès aux services."
+      assessment_care_arrangement_separator:
+        display_name: Prise en charge
+      assessment_care_arrangment:
+        display_name: Prise en charge
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : Quels sont les arrangements actuels de prise en charge de l’enfant ? La prise en charge est-elle stable et/ou permanente ? La prise en charge est-elle appropriée à l’âge et à la situation de l’enfant ?\nComment la prise en charge a-t-elle été organisée (organisée par les parents de l'enfant avant de quitter le pays d'origine ; spontanément dans le pays d'origine ; spontanément dans le pays actuel ; organisée par une organisation ; organisée par la communauté) ;\nDécrivez la relation entre l’enfant et son tuteur. Le tuteur ou la famille s'occupe-t-il d'un autre ESNA ? La personne qui s'occupe de l'enfant a-t-elle un lien de parenté avec lui (si oui, quel est ce lien ?) ; \nLa personne qui s'occupe de l'enfant est-elle en contact avec les parents de l'enfant ? Quels sont les souhaits des parents (si connus) ? ; Quels sont les souhaits de l'enfant ?"
+      assessment_community_separator:
+        display_name: Communauté
+      assessment_community:
+        display_name: Communauté, Sûreté et sécurité, intégration et soutien
+        help_text: 'Facteurs de risque, facteurs de protection et besoins identifiés :'
+        guiding_questions: "Ex. : Existe-t-il des raisons de croire que la sûreté et la sécurité de l’enfant ne sont pas assurées dans la communauté (violence au sein de la communauté, pratiques traditionnelles préjudiciables, problèmes dans le milieu de travail, perceptions populaires concernant la violence et les abus, risque de recrutement par des forces ou groupes armés) ? \nL'enfant a-t-il la liberté de mouvement (la situation est-elle différente de celle du reste de la communauté et des enfants en général) ? \nDécrivez les conséquences sur le bien-être de l’enfant.\nL’enfant et/ou la famille sont-ils acceptés par la communauté ? Sont-ils isolés ? L'enfant ou la famille se sent-il (elle) discriminé(e) dans l'accès aux services ? \nL'enfant et sa famille se sentent-ils ciblés par un groupe quelconque ? L'enfant ou la famille fait-il face à des demandes de services inappropriés en échange d'un soutien ? \nEst-ce que l'enfant ou la famille a reçu une reconnaissance officielle pour demeurer dans son lieu de résidence actuel ? L’enfant est-il exclu des activités ou des groupes de la communauté ? \nVit-il de la discrimination, des préjugés ou de l’intimidation au sein de la communauté ? \nA-t-il accès à des services ou à de l’assistance au sein de la communauté (y compris les mécanismes de protection communautaires) ?"

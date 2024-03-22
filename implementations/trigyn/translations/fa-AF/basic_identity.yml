@@ -1,0 +1,106 @@
+fa-AF:
+  basic_identity:
+    name: جزئیات طفل
+    description: اطلاعات اولیه هویت در مورد طفل جدا شده یا بدون همراه
+    fields:
+      case_id_display:
+        display_name: شناسایی قضیه
+      cpims_id:
+        display_name: کود قبلی قضیه
+        help_text: 'CPIMS سابقه یا سیستم دیگر '
+      marked_for_mobile:
+        display_name: برای تلفن همراه علامت گذاری شده است
+        tick_box_label: 'بلی'
+      child_status:
+        display_name: وضیعت قضیه
+      case_status_reopened:
+        display_name: قضیه دوباره باز شد؟
+        tick_box_label: 'بلی'
+      case_status_reopened_reasons:
+        display_name: دلیل برای دوباره باز شدن
+        option_strings_text:
+          break_down_of_reunification_placement: 'تجزیه برای ایجاد و جابه جایی مجد '
+          death_of_caregiver_s: 'فوت مراقبت کنندگان '
+          physical_abuse_violence: 'سو استفاده /خشونت فزیکی '
+          sexual_abuse_violence: سو استفاده /حشونت جنسی
+          emotional_or_psychological_abuse_violence: سو استفاده/ خشونت روانی
+          physical_neglect: غفلت فزیکی
+          emotional_neglect: غفلت روانی
+          medical_neglect: غفلت طبی
+          educational_neglect: غفلت تعلیمی
+          supervisory_neglect: غفلت نظارتی
+          abandonment: رها شدن
+          child_labour: گارطفل
+          hazardous_work: کار خطرناک
+          sexual_exploitation: استثمار جنسی
+          slavery_sale_trafficking_forced_labour: برده داری / فروش / قاچاق / کار اجباری
+          in_conflict_with_the_law: در مغاریت با قانون است
+          associated_with_armed_forces_or_groups: ارتباط حبری با گروپ های مسلح
+          unaccompanied: بدون همراه
+          separated: جدا شده
+          orphan: یتیم
+          functional_difficulties: مشکلات عملکردی (مثلآ دیدن ، شنیدن ، راه رفتن ، برقراری ارتباط ، یادآوری / تمرکز ، مراقبت از خود)
+          psychosocial_distress: پریشانی روانی - اجتماعی
+          substance_abuse_and_addiction_child: سو استفاده< مصرف مواد  مخدرو اعتیاد (طفل)
+          belongs_to_marginalised_discriminated_group: تعلق به گروپ های حاشیه نشین / تبعیض شده
+          lack_of_documentation_birth_registration: عدم موجودیت اسناد/ ثبت نام تولد
+          child_marriage: ازدواج طفل
+          fgm: اف جی
+          pregnancy_child_parent: بارداری / مادر شدن طفل
+          inappropriate_care_arrangement: '   مراقبت نامناسب (به عنوان مثال 8 طفل در خانه ، سو استفاده مراقبت کننده  ، مراقب تنها و آسیب پذیر)'
+          other: وغیره
+      name:
+        display_name: نام مکمل
+      name_first:
+        display_name: نام اول
+      name_middle:
+        display_name: نلقب
+      name_last:
+        display_name: تخلص
+      name_nickname:
+        display_name: تخلص
+      name_other:
+        display_name: نام دیگر
+      registration_date:
+        display_name: تاریخ ثبت
+      identification_date:
+        display_name: تاریخ شناسایی / گزارش داده شده
+      assessment_due_date:
+        display_name: 'تاریخ ا تکمیل رزیابی '
+      sex:
+        display_name: جنس
+      age:
+        display_name: عمر
+      date_of_birth:
+        display_name: تاریخ تولد
+      estimated:
+        display_name: آیا تاریخ تخمینی است؟
+        tick_box_label: 'بلی'
+      national_id_no:
+        display_name: نمبر تذکره
+      unhcr_individual_no:
+        display_name: شناختی کاردفردی UNHCR
+      other_id_type:
+        display_name: نوعیت دیکر اسناد مرتبط
+      other_id_no:
+        display_name: نمبر دبگر شناختی کارد مرتبط
+      nationality:
+        display_name: ملت
+      ethnicity:
+        display_name: قومیت
+      sub_ethnicity_1:
+        display_name: قومیت فرعی1
+      sub_ethnicity_2:
+        display_name: قومیت فرعی 2
+      language:
+        display_name: زبان که طفل به ان گپ میزند
+      religion:
+        display_name: دین
+      displacement_status:
+        display_name: گروپ جمعیت
+      displacement_status_other:
+        display_name: 'اگر چیری دیگر باشد مشخص کنید '
+      disability_type_communications:
+        display_name: نیازهای ویژه ارتباطی
+      telephone_current:
+        display_name: تلفنطفل /   دیگر چزیات تماس با طفل

@@ -1,0 +1,7 @@
+ro:
+  approvals:
+    name: Aprobări
+    description: Aprobări
+    fields:
+      approval_subforms:
+        display_name: Aprobare

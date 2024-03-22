@@ -1,0 +1,7 @@
+ro:
+  review:
+    name: Revizuire Caz
+    description: Revizuire Caz
+    fields:
+      review_section:
+        display_name: Revizuire Caz

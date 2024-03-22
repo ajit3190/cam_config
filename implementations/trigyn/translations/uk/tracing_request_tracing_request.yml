@@ -1,0 +1,7 @@
+uk:
+  tracing_request_tracing_request:
+    name: Запит на відстеження
+    description: Запит на відстеження
+    fields:
+      tracing_request_subform_section:
+        display_name: Запит на відстеження

@@ -1,0 +1,59 @@
+---
+am-ET:
+  family_details_section:
+    name: በአንድ ቤት የሚኖሩ ቤተሰብ<br>
+    description: የቤተሰብ ዝርዝሮች ንዑስ ቅጽ
+    fields:
+      relation_name:
+        display_name: ስም
+      relation:
+        display_name: "ከህጻኑ ጋር ያላቸው ዝምድና ምንድ ነው?"
+      relation_lives_with_child:
+        display_name: "ይህ ግለሰብ ከልጁ ጋር ይኖራል?"
+        tick_box_label: 'አዎ'
+      relation_nickname:
+        display_name: የሚታወቁ ሌሎች ስሞች ወይም ሆሄያት ቢገለጽ
+        help_text: ለምሳሌ፡- ቅጽል ስም፣ ሁለተኛ የቤተሰብ ስም
+      relation_is_alive:
+        display_name: "ይህ የቤተሰብ አባል በህይወት አለ?"
+        option_strings_text:
+          unknown: አይታወቅም
+          alive: በህይወት አለ
+          dead: ሞቷል
+      relation_death_details:
+        display_name: ከሞቱ እባክዎን ዝርዝር መረጃ ያሰቀምጡ
+        help_text: 'የሚታወቅ ከሆነ የሞትን ቀን ያካቱ'
+      relation_age:
+        display_name: እድሜ
+      relation_date_of_birth:
+        display_name: የትውልድ ቀን
+      relation_age_estimated:
+        display_name: "ዕድሜው  ከአካላዊ እድገት ጋር ይቀራረባል?"
+        tick_box_label: 'አዎ'
+      relation_national_id:
+        display_name: መታወቂያ ቁጥር
+      relation_unhcr_individual_id:
+        display_name: የግለሰብ መታወቂያ
+      relation_other_id:
+        display_name: ሌላ የግለሰብ መታወቂያ
+      relation_ethnicity:
+        display_name: ብሄር
+      relation_sub_ethnicity1:
+        display_name: አናሳ ጎሳ 1
+      relation_sub_ethnicity2:
+        display_name: አናሳ ጎሳ 2
+      relation_occupation:
+        display_name: ሥራ
+      relation_address_current:
+        display_name: የአሁኑ አድራሻ (ከህጻኑ የተለየ ከሆነ)
+      relation_landmark_current:
+        display_name: የአካባቢ ምልክት
+      relation_location_current:
+        display_name: የአሁኑ አካባቢ
+      relation_telephone:
+        display_name: ስልክ / ሌላ አድራሻ ዝርዝሮች
+      child_consent_relation_contact:
+        display_name: "ህጻኑ ይህንን ግለሰብ እንዲገናኝ ፈቃድ ተጠይቋል?"
+        tick_box_label: 'አዎ'
+      no_consent_provide_details:
+        display_name: አይደለም ከሆነ ዝርዝሮችን ያቅርቡ

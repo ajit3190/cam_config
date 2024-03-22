@@ -1,0 +1,49 @@
+---
+am-ET:
+  cp_case_plan:
+    name: የድጋፍ/የጉዳይ እቅድ
+    description: የድጋፍ/የጉዳይ እቅድ
+    fields:
+      case_plan_approved:
+        display_name: በቅርብ ስራ ሀላፊ  ጸድቋል
+        tick_box_label: 'አዎ'
+      case_plan_approved_date:
+        display_name: ቀን
+      case_plan_approved_comments:
+        display_name: የቅርብ ስራ ሀላፊ አስተያየት
+      approval_status_case_plan:
+        display_name: የማጽደቅ ሁኔታ
+      case_plan_section_header:
+        display_name: የድጋፍ/የጉዳይ እቅድ
+      date_case_plan:
+        display_name: የድጋፍ/የጉዳይ እቅድ የተጀመረበት ቀን
+        help_text: ይህ ቦታ ለስራ ፍሰት ሁኔታ ተግባር ላይ ይውላል
+      date_case_plan_agreed:
+        display_name: የድጋፍ/የጉዳይ እቅድ ለመስራት  የተስማማበት ቀን
+      protection_concerns:
+        display_name: ጥበቃ ስጋቶች
+      protection_concerns_other:
+        display_name: ሌላ ካለ እባክዎን ይግለጹ
+      case_plan_separator:
+        display_name: የጉዳዩ/የድጋፍ  እቅድ አጠቃላይ አላማ
+      case_plan_goal:
+        display_name: አጠቃላይ አላማ
+        help_text: የተወሰነ፣ የሚለካ፣ ሊደረስበት የሚችል/ተቀባይነት ያለው፣ ተጨባጭ እና በጊዜ የተገደበ ግብን ይግለጹ
+      case_plan_header:
+        display_name: መሰጠት ያለባቸው ዕቅዶች እና አገልግሎቶች
+      cp_case_plan_subform_case_plan_interventions:
+        display_name: "መሰጠት ያለባቸው የጣልቃ ገብነት ዕቅዶች እና አገልግሎቶች ዝርዝር "
+      approval_separator:
+        display_name: ማጽደቅ እና ስምምነቶች
+      interventions_names_involved:
+        display_name: እቅዱን ለማውጣት የተሳተፉ ሰዎች ስም እና  ከህጻኑ/ዋ ጋር ያላቸው ግንኙነት
+      interventions_details_disagree:
+        display_name: የድጋፍ/የጉዳይ እቅድነን በተመለከተ የያለልተሰመመማ ማነኛውም አካል  ዝርዝሮች እና ለምን
+      interventions_child_involved:
+        display_name: "ህጻኑ የጉዳይ/ድጋፍ ዕቅዱን በማዘጋጀት ረገድ ተሳትፎ ነበረው?"
+      interventions_steps:
+        display_name: "ካልሆነ ለምን?"
+      interventions_caregiver_involved:
+        display_name: "ተንከባካቢው የጉዳይ/ድጋፍ ዕቅዱን በማዘጋጀት ተሳትፏል?"
+      interventions_caregiver_steps:
+        display_name: "ካልሆነ ለምን?"

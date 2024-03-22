@@ -1,0 +1,68 @@
+uk:
+  consent:
+    name: Згода
+    description: Згода
+    fields:
+      interview_subject:
+        display_name: Згода отримана від
+        option_strings_text:
+          child: Дитина
+          caregiver: Опікун
+          other: Інше
+      consent_source_other:
+        display_name: Якщо інше, вкажіть
+      consent_notes:
+        display_name: Нотатки
+      consent_for_services:
+        display_name: Надано згоду на участь дитини в процесі ведення справи
+        help_text: Якщо згода не була надана, не вибирайте
+        tick_box_label: 'Так'
+      consent_reporting:
+        display_name: Надається згода на поширення неідентифікаційної інформації для звітування
+      consent_for_data_collection:
+        display_name: Надано згоду працівнику справи, призначеному для участі у справі, на збір та зберігання особистої інформації про справу (наприклад, ім’я, фотографії, сімейні дані).
+      disclosure_other_orgs:
+        display_name: Особа, яка надає згоду, погоджується поділитися інформацією про цей випадок з іншими постачальниками послуг відповідно до деталей, описаних нижче.
+        help_text: Це включає обмін інформацією з іншими організаціями, що надають послуги, це не включає обмін інформацією з УВКБ ООН.
+        tick_box_label: 'Так'
+      information_shared_services:
+        display_name: Інформацію можна надати для наступних служб
+        option_strings_text:
+          alternative_care: Альтернативний догляд
+          cash_assistance: Грошова допомога
+          education_formal: Освіта (формальна)
+          family_tracing_and_reunification: Розшук сім'ї та возз'єднання
+          food: Їжа
+          gbv_survivor_support: Підтримка постраждалих від расизму
+          legal_support: Юридична підтримка
+          livelihoods: Засоби існування
+          medical: Медицина
+          mental_health: Ментальне здоров`я
+          non_food_items: Непродовольчі товари
+          non_formal_education: Неформальна освіта
+          nutrition: Харчування
+          psychosocial_support: Психосоціальна підтримка
+          services_for_children_with_disabilities: Послуги для дітей з обмеженими можливостями
+          shelter: Притулок
+          sexual_and_reproductive_health: Сексуальне та репродуктивне здоров'я
+          rescue: Порятунок
+          wash: Вода, санітарія та гігієна
+          case_transfer: Передача справи
+          other: Інше
+      information_shared_services_other:
+        display_name: Якщо інше, вкажіть
+      unhcr_export_opt_out:
+        display_name: Особа, яка надає згоду, погоджується надати інформацію про цю справу з УВКБ ООН для цілей ведення справ щодо захисту біженців.
+        tick_box_label: 'Так'
+      withhold_details:
+        display_name: Приховувати конкретну інформацію від
+      disclosure_deny_details:
+        display_name: Яку конкретну інформацію слід приховати
+      withholding_info_reason:
+        display_name: Причина приховування інформації
+        option_strings_text:
+          fear: Страх заподіяти шкоду собі чи іншим
+          communicate_information: Хочуть самі передавати інформацію
+          others: Інше
+      withholding_info_other_reason:
+        display_name: Укажіть іншу причину для приховування інформації

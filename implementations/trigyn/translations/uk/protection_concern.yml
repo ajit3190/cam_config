@@ -1,0 +1,15 @@
+uk:
+  protection_concern:
+    name: Занепокоєння щодо захисту
+    description: Занепокоєння щодо захисту
+    fields:
+      risk_level:
+        display_name: Рівень ризику
+      displacement_status:
+        display_name: Група населення
+      displacement_status_other:
+        display_name: Якщо інше, вкажіть
+      protection_concerns:
+        display_name: Занепокоєння щодо захисту
+      protection_concerns_other:
+        display_name: Якщо інше, вкажіть

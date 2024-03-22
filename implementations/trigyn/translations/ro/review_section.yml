@@ -1,0 +1,67 @@
+ro:
+  review_section:
+    name: Revizuire imbricată
+    description: Subformular Revizuire
+    fields:
+      review_form_date:
+        display_name: Dată completare formular
+        help_text: zz/ll/aa
+      review_separator:
+        display_name: Detalii întâlnire revizuire
+      review_date:
+        display_name: Dată întâlnire revizuire
+        help_text: zz/lll/aa
+      previous_review_date:
+        display_name: Data întâlnirii anterioare de revizuire (dacă este relevant)
+        help_text: zz/lll/aa
+      was_child_present:
+        display_name: Copilul a fost prezent?
+      how_child_review:
+        display_name: Dacă nu, cum a fost implicat copilul în revizuire?
+      was_caregiver_present:
+        display_name: A fost îngrijitorul prezent?
+      how_caregiver_review:
+        display_name: Dacă nu, cum a fost implicat îngrijitorul în revizuire?
+      outcome_review_separator:
+        display_name: Rezultatele întâlnirii de revizuire
+      review_childs_situation:
+        display_name: Revizuirea situației actuale a copilului
+        help_text: Descrie situația actuală generală a copilului așa cum a fost prezentată în ședința de revizuire
+      review_implementation:
+        display_name: Revizuire a implementării planului de servicii
+        help_text: Evaluează starea acțiunilor întreprinse și a serviciilor furnizate, așa cum este subliniat în planul de servicii și discutat în timpul întâlnirii de revizuire.
+      review_progress_goal:
+        display_name: Revizuirea progresului către obiectivul general al planului de servicii
+        help_text: Evaluează progresul în atingerea obiectivului general al planului de servicii, așa cum a fost discutat în timpul întâlnirii de revizuire
+      review_other_notes:
+        display_name: Alte notițe/ observații din timpul ședinței de revizuire
+      next_steps_separator:
+        display_name: Pașii următori
+      review_situation_change:
+        display_name: S-a schimbat situația copilului în așa fel încât să justifice o altă evaluare?
+      situation_change_details:
+        display_name: Te rugăm să furnizezi detalii
+      adjustments_case_plan:
+        display_name: Sunt necesare ajustări în planul de servicii?
+      adjustment_details:
+        display_name: Te rugăm să furnizezi detalii
+      risk_level_changed:
+        display_name: S-a schimbat nivelul de risc al cazului?
+      action_conducted:
+        display_name: Dacă da, noul nivel de risc
+        option_strings_text:
+          high: Ridicat
+          medium: Mediu
+          low: Scăzut
+          'no': 'Nu'
+      risk_level_details:
+        display_name: Dacă da, te rugăm să furnizezi detalii
+      recommend_close_case:
+        display_name: Recomanzi închiderea cazului?
+      close_case_details:
+        display_name: Te rugăm să furnizezi detalii
+      next_case_review:
+        display_name: Este nevoie de o revizuire viitoare a cazului?
+      date_next_review:
+        display_name: Dacă da, data următoarei întâlniri
+        help_text: zz/lll/aa

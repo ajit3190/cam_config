@@ -1,0 +1,47 @@
+uk:
+  tracing:
+    name: Відстеження
+    description: Відстеження
+    fields:
+      matched_tracing_request_id:
+        display_name: Відповідний ідентифікатор запиту на відстеження
+      separation_separator:
+        display_name: Історія розділення
+      tracing_status:
+        display_name: Статус відстеження
+      date_of_separation:
+        display_name: Дата розділення
+      separation_cause:
+        display_name: Що стало основною причиною розділення?
+      separation_cause_other:
+        display_name: Якщо інше, вкажіть
+      separation_other_applicable_causes:
+        display_name: 'Якщо можливо, які інші причини розділення?'
+      separation_details:
+        display_name: Обставини розділення (будь ласка, надайте деталі)
+      separation_additional_movements:
+        display_name: Опишіть додаткові переміщення між місцем розділення та поточним розташуванням
+      separation_witnessed_violence:
+        display_name: Чи стикалася дитина чи була свідком будь-якого виду насильства, погрози чи шкоди під час її/його подорожі?
+      separation_witnessed_violence_comments:
+        display_name: Подробиці про те, з чим стикалася / була свідком дитина
+      address_separation:
+        display_name: Роздільна адреса (місце)
+      location_separation:
+        display_name: Місце розподілу
+      additional_tracing_info:
+        display_name: Додаткова інформація, яка може допомогти у відстеженні?
+      evacuation_status:
+        display_name: Дитину евакуювали?
+      evacuation_agent:
+        display_name: Якщо так, через яку організацію?
+      evacuation_from:
+        display_name: Евакуйовано з
+      evacuation_date:
+        display_name: Дата евакуації
+      evacuation_to:
+        display_name: Евакуйовано до
+      care_arrangements_arrival_date:
+        display_name: Дата прибуття
+      tracing_actions_section:
+        display_name: Дії відстеження

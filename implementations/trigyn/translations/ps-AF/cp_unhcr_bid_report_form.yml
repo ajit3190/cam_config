@@ -1,0 +1,7 @@
+ps-AF:
+  cp_unhcr_bid_report_form:
+    name: راپور BID د
+    description: راپور BID د
+    fields:
+      unhcr_bid_report_subform:
+        display_name: راپور BID UNHCR د

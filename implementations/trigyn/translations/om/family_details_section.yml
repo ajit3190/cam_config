@@ -1,0 +1,59 @@
+---
+om:
+  family_details_section:
+    name: Ibsa gadi fageenyaa maatii iddoo bultii argatan.
+    description: Guca/unka xixiqqaa ibsa maatii gadi fageenyaan.
+    fields:
+      relation_name:
+        display_name: Maqaa.
+      relation:
+        display_name: "Daa'ima wajjiin akkamitti waltti dhufeenya qabaatu?"
+      relation_lives_with_child:
+        display_name: "Namni kun daa'ima wajjiin kan jiraatuudhaa?"
+        tick_box_label: 'Eeyyeen'
+      relation_nickname:
+        display_name: Maqaawwan/maqaalee  ykn qubeeffannoo/qubeessaa ittiin beekaman kan biraa.
+        help_text: "Fakkenyaaf  maqaa masoo, maqaa maatii "
+      relation_is_alive:
+        display_name: "Miseensi maatii kun  lubbuudhaan jiraa? "
+        option_strings_text:
+          unknown: Hinbeekamu.
+          alive: Lubbuudhaan jira.
+          dead: Du'eera/boqateera.
+      relation_death_details:
+        display_name: Yoo lubbuun  kan hinjirre ta'e/boqate ta'e ibsa bal'inaan irratti  kennaa maaloo.
+        help_text: 'Yoo kan beekamu ta''e  guyyaa itti boqate itti dabalaa.'
+      relation_age:
+        display_name: Umurii.
+      relation_date_of_birth:
+        display_name: Guyyaa dhalootaa.
+      relation_age_estimated:
+        display_name: "Umuriin  daa'imaa tilmaamameeraa?"
+        tick_box_label: 'Eeyyeen.'
+      relation_national_id:
+        display_name: Eeyyumeessaa lammummaa biyyaa.
+      relation_unhcr_individual_id:
+        display_name: Eeyyummeessaa nama  dhuunfaa hojjetaa Koomishinii  ol'aanaa Koolu galtootaa Mootummoota Gamtoomanii.
+      relation_other_id:
+        display_name: Eeyyumeessaa biraa.
+      relation_ethnicity:
+        display_name: Gosa/sanyii.
+      relation_sub_ethnicity1:
+        display_name: Damee gosaa /gosa xixiqqa 1.
+      relation_sub_ethnicity2:
+        display_name: Damee gosaa/gosa xixxiqqaa 2.
+      relation_occupation:
+        display_name: Hojii.
+      relation_address_current:
+        display_name: Teessoo ammee/yeroo ammaan tanaa(yoo kan daa'imaa irraa adda ta'e)
+      relation_landmark_current:
+        display_name: Yeroo ammaa waan lafarra jiru.
+      relation_location_current:
+        display_name: Iddoo yeroo ammaan tanaa irra jiru.
+      relation_telephone:
+        display_name: Ibsa waayee Bilbilaa/ quunnamtii biraa.
+      child_consent_relation_contact:
+        display_name: "Daa'imni kun nama kana qunnamuuf  hayyamamaa ta'eeraa?"
+        tick_box_label: 'Eeyyeen.'
+      no_consent_provide_details:
+        display_name: Yoo miti ta'e ibsa gadi fageenyaan dhiyeessaa.

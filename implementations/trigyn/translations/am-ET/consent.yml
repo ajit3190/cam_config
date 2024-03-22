@@ -1,0 +1,69 @@
+---
+am-ET:
+  consent:
+    name: የጽሁፍና የቃል ስምምነት
+    description: የጽሁፍና የቃል ስምምነት
+    fields:
+      interview_subject:
+        display_name: የስምምነት ማስፈሪያ ቅጽ
+        option_strings_text:
+          child: ህጻን
+          caregiver: ተንከባካቢ
+          other: ሌላ
+      consent_source_other:
+        display_name: ሌላ ካለ እባክዎ ይግለጹ
+      consent_notes:
+        display_name: ማስታወሻ
+      consent_for_services:
+        display_name: በጉዳይ አያያዝ ሂደት ህጻኑ እንዲሳተፍ ስምምነት ተሰጥቷል
+        help_text: ስምምነት ካልተሰጠ አይምረጡት
+        tick_box_label: 'አዎ'
+      consent_reporting:
+        display_name: ማንነትን ሳይገልጹ መረጃችን ለማጋራት ስምምነት ተሰጥቷል
+      consent_for_data_collection:
+        display_name: የተመደበው የጉዳይ አያያዝ ባለሙያው  ግለሰባዊ መረጃዎችን ለመሰብሰብና ለማስቀመጥ (ምሳሌ፡ ስም፣ ፎቶ፣ የቤተሰብ ዝርዝር ሁኔታ…)ስምምነት ተሰጥቶታል
+      disclosure_other_orgs:
+        display_name: ከዚህ በታች በተገለጹት ዝርዝሮች መሰረት ፍቃድ የሚሰጠው ግለሰብ ስለዚህ ጉዳይ መረጃን ለሌሎች አገልግሎት አቅራቢዎች ለማካፈል ይስማማል።
+        help_text: ለሌሎች አገልግሎት ሰጪ ተቋማት መረጃው ይጋራል ማለት ለዩ.አን.ኤች.ሲ.አር ይጋራል ማለት አይደለም
+        tick_box_label: 'አዎ'
+      information_shared_services:
+        display_name: "የሚከተሉትን አገልግሎቶች ለማግኘት መረጃዎች ሊጋሩ ይችላሉ "
+        option_strings_text:
+          alternative_care: አማራጭ ድጋፍ
+          cash_assistance: የገንዘብ ድጋፍ
+          education_formal: የመደበኛ ትምህርት
+          family_tracing_and_reunification: ቤተሰብ ማፈላለግና ማቀላቀል
+          food: የምግብ
+          gbv_survivor_support: የጾታዊ ጥቃት ድጋፍ
+          legal_support: የህግ ድጋፍ
+          livelihoods: የገቢ ማስገኛ
+          medical: የጤና
+          mental_health: የአዕምሮ ጤና
+          non_food_items: ምግብነክ ያልሆኑ ድጋፎች
+          non_formal_education: መደበኛ ያልሆነ ትምህርት
+          nutrition: የአመጋገብ ዘዴ
+          psychosocial_support: የስነልቦና እና ማህበራዊ ድጋፍ
+          services_for_children_with_disabilities: የአካል ጉዳት ላለባቸው ህጻናት የሚደረግ ድጋፍ
+          shelter: መጠለያ
+          sexual_and_reproductive_health: የስነተዋልዶ ጤና
+          rescue: ከአደጋ ማዳን
+          wash: የውሃ፣ የአካባቢ ንጽህና እና የጤና አጠባበቅ
+          case_transfer: ጉዳይ ማስተላለፍ
+          other: ሌላ
+      information_shared_services_other:
+        display_name: ሌላ ካለ እባክዎ ይግለጹ
+      unhcr_export_opt_out:
+        display_name: ለስደተኞች ጥበቃ የጉዳይ አያያዝ ዓላማ  መረጃው ለዩ.አን.ኤች.ሲ.አር እንዲጋራ ግለሰቡ ስምምነቱን ሰጥቷል፡፡
+        tick_box_label: 'አዎ'
+      withhold_details:
+        display_name: የተወሰነ መረጃ ከ------- ተይዟል፡፡
+      disclosure_deny_details:
+        display_name: ምን አይነት መረጃ ነው መያዝ ያለበት/የተያዘው
+      withholding_info_reason:
+        display_name: መረጃ የያዙበት ምክንያት
+        option_strings_text:
+          fear: በራሳቸው ወይም በሌሎች ላይ ጉዳት የማድረስ ፍርሃት
+          communicate_information: መረጃን ራሳቸው ማስተላለፍ ይፈልጋሉ
+          others: ሌሎች
+      withholding_info_other_reason:
+        display_name: መረጃን የሚይዝበት ሌላ ምክንያት ካለ ይግለጹ ይግለጹ

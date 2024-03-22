@@ -1,0 +1,45 @@
+es-ES:
+  child_wishes:
+    name: Deseos del niño/a
+    description: Deseos del niño/a
+    fields:
+      wishes_child_family_tracing:
+        display_name: ¿El niño quiere rastrear a los miembros de la familia?
+      wishes_reason_no_tracing:
+        display_name: Si el/la niño/a no desea ubicar a su familia explicar por qué
+      wishes_reunification:
+        display_name: ¿El/la niño/a quiere la reunificación familiar?
+        option_strings_text:
+          yes_as_soon_as_possible: Sí, tan pronto como sea posible
+          yes_but_later: Sí, pero más adelante
+          not_sure: No está seguro
+          'no': 'No'
+      wishes_reason_no_reunification:
+        display_name: Si "No", "No está seguro" o "Sí, pero más adelante", explicar por qué
+      wishes_contacted:
+        display_name: ¿El/la niño/a ha escuchado o ha estado en contacto con algún familiar?
+      wishes_contacted_details:
+        display_name: Por favor dar detalles
+      child_preferences_section:
+        display_name: Preferencias del niño/a
+      wishes_care_arrangement_desired:
+        display_name: ¿El/la niño/a desea continuar en el arreglo de cuidado actual?
+      wishes_reason_no_care_arrangement:
+        display_name: Si el/la niño/a no desea continuar en el arreglo de cuidado actual, explicar por qué
+      wishes_care_arrangement_type_desired:
+        display_name: Tipo de arreglo de cuidado que el/la niño/a desea tener
+        option_strings_text:
+          independent_living: Vida independiente
+          alternative_interim_care: Cuidado provisional alternativo
+          with_husband_wife_partner: Con esposo/esposa/pareja
+          other_family: Otra familia
+          dont_know: No sabe
+          other: Otro
+      wishes_care_arrangement_type_other:
+        display_name: Si el tipo de arreglo de cuidado que el/la niño/a desea es otro, especificar
+      wishes_location_plan_live:
+        display_name: ¿Dónde desea/planea el/la niño/a vivir?
+      wishes_address_plan_live:
+        display_name: ¿Calle en la cual el/la niño/a desea/planea vivir?
+      wishes_landmarks_plan_live:
+        display_name: Punto de referencia donde el/la niño/a desea/planea vivir
