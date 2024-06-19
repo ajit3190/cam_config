@@ -1,0 +1,321 @@
+[main]
+host = https://www.transifex.com
+
+[o:primero:p:primero-ia-forms:r:approval_subformsyml]
+file_filter = translations/<lang>/approval_subforms.yml
+source_file = translations/en/approval_subforms.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:approvalsyml]
+file_filter = translations/<lang>/approvals.yml
+source_file = translations/en/approvals.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:assessment_statusyml]
+file_filter = translations/<lang>/assessment_status.yml
+source_file = translations/en/assessment_status.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:assessmentyml]
+file_filter = translations/<lang>/assessment.yml
+source_file = translations/en/assessment.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:basic_identityyml]
+file_filter = translations/<lang>/basic_identity.yml
+source_file = translations/en/basic_identity.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:bid_statusyml]
+file_filter = translations/<lang>/bid_status.yml
+source_file = translations/en/bid_status.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:care_arrangements_sectionyml]
+file_filter = translations/<lang>/care_arrangements_section.yml
+source_file = translations/en/care_arrangements_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:care_arrangementsyml]
+file_filter = translations/<lang>/care_arrangements.yml
+source_file = translations/en/care_arrangements.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:caregiver_feedback_formyml]
+file_filter = translations/<lang>/caregiver_feedback_form.yml
+source_file = translations/en/caregiver_feedback_form.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:child_feedback_formyml]
+file_filter = translations/<lang>/child_feedback_form.yml
+source_file = translations/en/child_feedback_form.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:child_preferences_sectionyml]
+file_filter = translations/<lang>/child_preferences_section.yml
+source_file = translations/en/child_preferences_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:child_wishesyml]
+file_filter = translations/<lang>/child_wishes.yml
+source_file = translations/en/child_wishes.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:closure_formyml]
+file_filter = translations/<lang>/closure_form.yml
+source_file = translations/en/closure_form.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:conference_details_containeryml]
+file_filter = translations/<lang>/conference_details_container.yml
+source_file = translations/en/conference_details_container.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:conference_details_subform_sectionyml]
+file_filter = translations/<lang>/conference_details_subform_section.yml
+source_file = translations/en/conference_details_subform_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:consentyml]
+file_filter = translations/<lang>/consent.yml
+source_file = translations/en/consent.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:cp_case_plan_subform_case_plan_interventionsyml]
+file_filter = translations/<lang>/cp_case_plan_subform_case_plan_interventions.yml
+source_file = translations/en/cp_case_plan_subform_case_plan_interventions.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:cp_case_planyml]
+file_filter = translations/<lang>/cp_case_plan.yml
+source_file = translations/en/cp_case_plan.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:cp_unhcr_bid_report_formyml]
+file_filter = translations/<lang>/cp_unhcr_bid_report_form.yml
+source_file = translations/en/cp_unhcr_bid_report_form.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:family_details_sectionyml]
+file_filter = translations/<lang>/family_details_section.yml
+source_file = translations/en/family_details_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:family_detailsyml]
+file_filter = translations/<lang>/family_details.yml
+source_file = translations/en/family_details.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:followup_subform_sectionyml]
+file_filter = translations/<lang>/followup_subform_section.yml
+source_file = translations/en/followup_subform_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:followupyml]
+file_filter = translations/<lang>/followup.yml
+source_file = translations/en/followup.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:immediate_concern_sectionyml]
+file_filter = translations/<lang>/immediate_concern_section.yml
+source_file = translations/en/immediate_concern_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:immediate_concernsyml]
+file_filter = translations/<lang>/immediate_concerns.yml
+source_file = translations/en/immediate_concerns.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:interview_detailsyml]
+file_filter = translations/<lang>/interview_details.yml
+source_file = translations/en/interview_details.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:lookupsyml]
+file_filter = translations/<lang>/lookups.yml
+source_file = translations/en/lookups.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:notes_sectionyml]
+file_filter = translations/<lang>/notes_section.yml
+source_file = translations/en/notes_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:notesyml]
+file_filter = translations/<lang>/notes.yml
+source_file = translations/en/notes.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:other_documentsyml]
+file_filter = translations/<lang>/other_documents.yml
+source_file = translations/en/other_documents.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:photos_and_audioyml]
+file_filter = translations/<lang>/photos_and_audio.yml
+source_file = translations/en/photos_and_audio.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:protection_concernyml]
+file_filter = translations/<lang>/protection_concern.yml
+source_file = translations/en/protection_concern.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:record_owneryml]
+file_filter = translations/<lang>/record_owner.yml
+source_file = translations/en/record_owner.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:referral_transferyml]
+file_filter = translations/<lang>/referral_transfer.yml
+source_file = translations/en/referral_transfer.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:reopened_logsyml]
+file_filter = translations/<lang>/reopened_logs.yml
+source_file = translations/en/reopened_logs.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:reunification_details_sectionyml]
+file_filter = translations/<lang>/reunification_details_section.yml
+source_file = translations/en/reunification_details_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:reunification_detailsyml]
+file_filter = translations/<lang>/reunification_details.yml
+source_file = translations/en/reunification_details.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:review_sectionyml]
+file_filter = translations/<lang>/review_section.yml
+source_file = translations/en/review_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:reviewyml]
+file_filter = translations/<lang>/review.yml
+source_file = translations/en/review.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:services_sectionyml]
+file_filter = translations/<lang>/services_section.yml
+source_file = translations/en/services_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:servicesyml]
+file_filter = translations/<lang>/services.yml
+source_file = translations/en/services.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:summary_and_conclusionsyml]
+file_filter = translations/<lang>/summary_and_conclusions.yml
+source_file = translations/en/summary_and_conclusions.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:tracing_actions_sectionyml]
+file_filter = translations/<lang>/tracing_actions_section.yml
+source_file = translations/en/tracing_actions_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:tracing_request_inquireryml]
+file_filter = translations/<lang>/tracing_request_inquirer.yml
+source_file = translations/en/tracing_request_inquirer.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:tracing_request_photos_and_audioyml]
+file_filter = translations/<lang>/tracing_request_photos_and_audio.yml
+source_file = translations/en/tracing_request_photos_and_audio.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:tracing_request_record_owneryml]
+file_filter = translations/<lang>/tracing_request_record_owner.yml
+source_file = translations/en/tracing_request_record_owner.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:tracing_request_subform_sectionyml]
+file_filter = translations/<lang>/tracing_request_subform_section.yml
+source_file = translations/en/tracing_request_subform_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:tracing_request_tracing_requestyml]
+file_filter = translations/<lang>/tracing_request_tracing_request.yml
+source_file = translations/en/tracing_request_tracing_request.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:tracingyml]
+file_filter = translations/<lang>/tracing.yml
+source_file = translations/en/tracing.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:transitionsyml]
+file_filter = translations/<lang>/transitions.yml
+source_file = translations/en/transitions.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:unhcr_bid_report_subformyml]
+file_filter = translations/<lang>/unhcr_bid_report_subform.yml
+source_file = translations/en/unhcr_bid_report_subform.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:verification_subform_sectionyml]
+file_filter = translations/<lang>/verification_subform_section.yml
+source_file = translations/en/verification_subform_section.yml
+source_lang = en
+type        = YML
+
+[o:primero:p:primero-ia-forms:r:verificationyml]
+file_filter = translations/<lang>/verification.yml
+source_file = translations/en/verification.yml
+source_lang = en
+type        = YML
+
