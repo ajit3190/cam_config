@@ -12,6 +12,16 @@ Lookup.create_or_update!(
 )
 
 Lookup.create_or_update!(
+  unique_id: 'lookup-cfm-yes-no',
+  name_en: 'CFM Ages',
+  lookup_values_en: [
+    {id: 'yes_2_4', display_text: 'Yes – child aged 2 to 4 years'},
+    {id: 'yes_5_17', display_text: 'Yes – child aged 5 to 17 years'}
+    {id: 'no', display_text: 'No'}
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
   unique_id: 'lookup-cfm-difficulty-scale-123479',
   name_en: 'CFM Difficulty Scale - 123479',
   lookup_values_en: [
