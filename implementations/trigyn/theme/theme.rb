@@ -20,11 +20,11 @@ theme.assign_attributes(
     loginBackgroundGradientStart: "#0F809E",
     loginBackgroundGradientEnd: "#0F809E",
     # toolbarBackgroundColorMobileHeader: "#f5f5f5",
-    drawerHeaderButton: "transparent",
-    loginTranslationsButtonBackground: "transparent",
+    # drawerHeaderButton: "transparent",
+    # loginTranslationsButtonBackground: "transparent",
     loginTranslationsButtonText: "#ffffff",
     mobileToolbarBackground: "linear-gradient(to top, #ffffff, #f0f0f0), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.14))",
-    mobileToolbarHamburgerButton: "rgba(0, 0, 0, 0.54)"
+    mobileToolbarHamburgerButton: "#000000"
   }
 )
 
