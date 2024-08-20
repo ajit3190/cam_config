@@ -28,7 +28,7 @@ theme.assign_attributes(
   }
 )
 
-theme.logo.attach(io: File.open("/srv/primero/cam_config/implementations/trigyn/theme/assets/primero-logo.png"), filename: "tsfv_logo.png")
+theme.logo.attach(io: File.open("/srv/primero/cam_config/implementations/trigyn/theme/assets/tsfv_logo.png"), filename: "tsfv_logo.png")
 theme.logo_white.attach(io: File.open("/srv/primero/cam_config/implementations/trigyn/theme/assets/white-logo.png"), filename: "white-logo.png")
 theme.logo_pictorial_144.attach(io: File.open("/srv/primero/cam_config/implementations/trigyn/theme/assets/tsfv_logo.png"), filename: "tsfv_logo.png")
 theme.logo_pictorial_192.attach(io: File.open("/srv/primero/cam_config/implementations/trigyn/theme/assets/pictorial-192.png"), filename: "pictorial-192.png")
