@@ -1230,5 +1230,11 @@ def update_module
   p.save
 end
 
+def add_cfm_to_superuser
+  r = Role.find_by(unique_id: "role-superuser")
+  r.form_sections << FormSection.find_by(unique_id: "child_functioning")
+  r.save
+end
+
 update_formgroup_lookup
 update_module
