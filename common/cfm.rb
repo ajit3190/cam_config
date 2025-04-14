@@ -1111,8 +1111,10 @@ child_functioning_module = [
 child_functioning_subform_section = FormSection.create_or_update!({
   unique_id: "child_functioning_subform_section",
   parent_form: "case",
-  visible: true,
+  visible: false,
   order_form_group: 50,
+  is_nested: true,
+  :initial_subforms => 0,
   order: 10,
   order_subform: 0,
   fields: child_functioning_module,
