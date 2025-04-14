@@ -1222,6 +1222,7 @@ Lookup.create_or_update!(
 def update_formgroup_lookup
   l = Lookup.find_by(unique_id: 'lookup-form-group-cp-case')
   l.lookup_values_i18n << {"id" => "child_functioning", "display_text" => {"en" => "Child Functioning"}}
+  l.save
 end
 
 def update_module
