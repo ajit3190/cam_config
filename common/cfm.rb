@@ -1238,3 +1238,4 @@ end
 
 update_formgroup_lookup
 update_module
+add_cfm_to_superuser
