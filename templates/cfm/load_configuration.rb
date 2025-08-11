@@ -7,60 +7,8 @@
 # upgrading a production instance is necessary and the target version has
 # introduced any new types requiring seeds.
 
-ENV['PRIMERO_BOOTSTRAP'] = 'true'
-ActiveJob::Base.queue_adapter = :async
-
+# Reseed the lookups
 # Reseed the lookups
 puts 'Seeding Lookups'
-require_relative 'lookups/lookups.rb'
+require_relative 'forms/case/cfm.rb'
 
-# Seed the system settings table
-puts 'Seeding the system settings'
-require_relative 'system_settings/system_settings.rb'
-
-# Seed the identity providers table
-require_relative '../../common/idp.rb'
-
-# Create the forms
-puts '[Re-]Seeding the forms'
-Dir[File.dirname(__FILE__) + '/forms/*/*.rb'].sort.each(&method(:require))
-
-# Reseed the default roles and users, and modules
-puts 'Seeding Programs'
-require_relative 'users/default_programs.rb'
-
-puts 'Seeding Modules'
-require_relative 'users/default_modules.rb'
-
-puts 'Seeding Roles'
-require_relative 'users/roles.rb'
-
-require_relative '../../common/default_agencies.rb'
-
-puts 'Seeding User Groups'
-require_relative 'users/default_user_groups.rb'
-
-require_relative '../../common/default_users.rb'
-
-puts 'Seeding Default Reports'
-Dir[File.dirname(__FILE__) + '/reports/*.rb'].sort.each(&method(:require))
-
-puts 'Seeding Contact Information'
-require_relative 'system_settings/contact_information.rb'
-
-puts 'Seeding Code of Conduct'
-require_relative '../../common/code_of_conduct.rb'
-
-puts "Loading Form Translations"
-I18n.available_locales.each do |locale|
-  files = Dir[File.dirname(__FILE__) + "/translations/#{locale.to_s}/*.yml"]
-  next if files.blank?
-
-  files.each do |file|
-    puts "Importing translations from #{file}"
-    opts = {file_name: file}
-
-    importer = Importers::YmlConfigImporter.new(opts)
-    importer.import
-  end
-end

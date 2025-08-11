@@ -1,22 +1,22 @@
-cfm = [
+child_functioning_module = [
   Field.new({"name" => "cfm_start",
              "type" => "radio_button",
-             "display_name_en" => "Are you ready to start the Child Functioning Module? and confirm the child’s age",
+             "display_name_en" => "Are you ready to start the Child Functioning Module?",
              "visible" => true,
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
              "option_strings_source" => "lookup lookup-yes-no"
             }),
-  # Field.new({"name" => "cfm_age",
-  #            "type" => "radio_button",
-  #            "display_name_en" => "Confirm the Child's Age",
-  #            "visible" => true,
-  #            "required" => false,
-  #            "mobile_visible" => false,
-  #            "show_on_minify_form" => false,
-  #            "option_strings_source" => "lookup lookup-cfm-ages"
-            # }),
+  Field.new({"name" => "cfm_age",
+             "type" => "radio_button",
+             "display_name_en" => "Confirm the Child's Age",
+             "visible" => true,
+             "required" => false,
+             "mobile_visible" => false,
+             "show_on_minify_form" => false,
+             "option_strings_source" => "lookup lookup-cfm-ages"
+            }),
   Field.new({"name" => "cfm_2_4_introduction",
              "type" => "separator",
              "display_name_en" => "Introduction",
@@ -24,38 +24,38 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}}],
-                                             "disabled"=>false}
-            }),
-  Field.new({"name" => "cfm_2_4_guidance",
-             "type" => "separator",
-             "display_name_en" => "Guidance for user: this estimates children with difficulties in functioning across different domains (e.g. vision, learning, mobility), which could limit their participation in an unaccommodating environment. It only asks about the presence and extent of functional difficulties, not their cause. Questions must only be asked of a child’s mother (if child doesn’t live with their mother, then the primary caregiver). Read questions out loud exactly as written; do not rephrase or change the wording. Read response options out loud, and do not guess or assume answers. Do not rename this section or use a screening question.",
-             "visible" => true,
-             "required" => false,
-             "mobile_visible" => false,
-             "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}}],
-                                             "disabled"=>false}
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"2_4"}}],
+                                             "disabled"=>false},
+             "guiding_questions_en" => "The Washington Group/UNICEF Child Functioning Module (CFM) was developed, tested and adopted by UNICEF and the Washington Group on Disability Statistics (WG). The questions reflect advances in the conceptualization of disability and use the World Health Organization’s International Classification of Functioning, Disability, and Health (ICF) as a conceptual framework. The CFM was developed for inclusion in UNICEF’s Multiple Indicator Cluster Surveys (MICS) and is also suitable for use in population-based surveys that collect data on children. This module was designed specifically to collect information on children aged 2-4 years, with a knowledgeable proxy respondent providing information for each child. A similar version has been designed for children aged 5-17 years.
+
+               The UNICEF website [https://data.unicef.org/topic/child-disability/module-on-child-functioning/] has links to supporting documentation, including a manual for interviewers, tabulation plans, narratives and syntaxes [in SPSS and Stata], as well as translations of the questionnaire in official UN languages [French, Spanish, Russian, Arabic, and Chinese, as well as Vietnamese, Portuguese and Khmer].
+              
+              It is important to note:
+                a) the introduction is to be read before the questions are administered; and
+                b) each question has associated response categories, which are read after each question."
             }),
   Field.new({"name" => "cfm_2_4_preamble",
              "type" => "separator",
-             "display_name_en" => "Preamble to the Child Functioning Module (CFM) for Ages 2-4 years"
+             "display_name_en" => "Preamble to the Child Functioning Module (CFM) for Ages 2-4 years",
              "visible" => true,
              "required" => false,
              "mobile_visible" => false,                                                   
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"2_4"}}],
                                              "disabled"=>false},
-             "help_text_en" => "Interviewer reads out loud to the respondent: I would like to ask about difficulties your child may have in functioning, or in doing different things. It isn’t a test, and there are no right or wrong answers. We ask the questions so we can better understand and address your child’s needs. We also look at just the data, without names, to understand how many different children we are reaching."
+             "help_text_en" => "Interviewer read: “I would like to ask you some questions about difficulties your child may have.“ "
             }),
   Field.new({"name" => "cfm_2_4_vision_header",
              "type" => "separator",
-             "display_name_en" => "VISION",
+             "display_name_en" => "Vision",
              "visible" => true,
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"2_4"}}],
                                              "disabled"=>false}
             }),
   Field.new({"name" => "cfm_2_4_vision_wears_glasses",
@@ -65,7 +65,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"2_4"}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-yes-no"
             }),
@@ -76,7 +77,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"2_4"}}, 
                                                      {"in"=>{"cfm_2_4_vision_wears_glasses"=>["true"]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -88,7 +90,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_vision_wears_glasses"=>["false"]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -100,7 +103,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
             }),
@@ -111,7 +115,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_hearing_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -123,7 +128,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_hearing_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-yes-no"
@@ -135,7 +141,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_hearing_display"=>[true]}},
                                                      {"in"=>{"cfm_2_4_hearing_uses_hearing_aid"=>["true"]}}],
                                              "disabled"=>false},
@@ -148,7 +155,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_hearing_display"=>[true]}},
                                                      {"in"=>{"cfm_2_4_hearing_uses_hearing_aid"=>["false"]}}],
                                              "disabled"=>false},
@@ -161,7 +169,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_hearing_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -173,7 +182,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_mobility_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -184,7 +194,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_mobility_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-yes-no"
@@ -196,7 +207,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_mobility_display"=>[true]}},
                                                      {"in"=>{"cfm_2_4_mobility_uses_equipment"=>["true"]}}],
                                              "disabled"=>false},
@@ -209,7 +221,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_mobility_display"=>[true]}},
                                                      {"in"=>{"cfm_2_4_mobility_uses_equipment"=>["true"]}}],
                                              "disabled"=>false},
@@ -222,7 +235,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_mobility_display"=>[true]}},
                                                      {"in"=>{"cfm_2_4_mobility_uses_equipment"=>["false"]}}],
                                              "disabled"=>false},
@@ -235,7 +249,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_mobility_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -247,7 +262,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_dexterity_display"=>[true]}}],
                                              "disabled"=>false}
             }),  
@@ -258,7 +274,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_dexterity_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -270,7 +287,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_dexterity_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -282,7 +300,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_communication_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -293,7 +312,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_communication_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -305,7 +325,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                            {"eq"=>{"cfm_age"=>"2_4"}}, 
                                                             {"in"=>{"cfm_2_4_communication_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -317,19 +338,21 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_communication_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
             }),
   Field.new({"name" => "cfm_2_4_learning_header",
              "type" => "separator",
-             "display_name_en" => "LEARNING",
+             "display_name_en" => "Learning",
              "visible" => true,
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_learning_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -340,7 +363,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_learning_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -352,7 +376,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_learning_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -364,7 +389,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_playing_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -375,7 +401,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_playing_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -387,7 +414,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_playing_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -399,7 +427,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_controlling_behavior_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -410,7 +439,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_2_4"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"2_4"}},
                                                      {"in"=>{"cfm_2_4_controlling_behavior_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-how-much-scale-123479"
@@ -422,18 +452,16 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}],
                                              "disabled"=>false},
-            }),
-  Field.new({"name" => "cfm_5_17_guidance",
-             "type" => "separator",
-             "display_name_en" => "Guidance for user: this estimates children with difficulties in functioning across different domains (e.g. vision, learning, mobility), which could limit their participation in an unaccommodating environment. It only asks about the presence and extent of functional difficulties, not their cause. Questions must only be asked of a child’s mother (if child doesn’t live with their mother, then the primary caregiver). Read questions out loud exactly as written; do not rephrase or change the wording. Read response options out loud, and do not guess or assume answers. Do not rename this section or use a screening question.",
-             "visible" => true,
-             "required" => false,
-             "mobile_visible" => false,
-             "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}],
-                                             "disabled"=>false}
+             "guiding_questions_en" => "The Washington Group/UNICEF Child Functioning Module (CFM) was developed, tested and adopted by UNICEF and the Washington Group on Disability Statistics (WG). The questions reflect advances in the conceptualization of disability and use the World Health Organization’s International Classification of Functioning, Disability, and Health (ICF) as a conceptual framework. The CFM was developed for inclusion in UNICEF’s Multiple Indicator Cluster Surveys (MICS) and is also suitable for use in population-based surveys that collect data on children. This module was designed specifically to collect information on children aged 5-17 years, with a knowledgeable proxy respondent providing information for each child. In some cases, older children may be able to respond for themselves. A similar version has been designed for children aged 2-4 years.
+
+              The UNICEF website [https://data.unicef.org/topic/child-disability/module-on-child-functioning/] has links to supporting documentation, including a manual for interviewers, tabulation plans, narratives and syntaxes [in SPSS and Stata], as well as translations of the questionnaire in the official UN languages [French, Spanish, Russian, Arabic, and Chinese, as well as Vietnamese, Portuguese and Khmer].
+
+              It is important to note:
+                a) the introduction is to be read before the questions are administered; and
+                b) each question has associated response categories, which are read after each question."
             }),
   Field.new({"name" => "cfm_5_17_preamble",
              "type" => "separator",
@@ -442,9 +470,10 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,                                                   
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}],
                                              "disabled"=>false},
-             "help_text_en" => "Interviewer reads out loud to the respondent: I would like to ask about difficulties your child may have in functioning, or in doing different things. It isn’t a test, and there are no right or wrong answers. We ask the questions so we can better understand and address your child’s needs. We also look at just the data, without names, to understand how many different children we are reaching.”"
+             "help_text_en" => "Interviewer read: “I would like to ask you some questions about difficulties your child may have.”"
             }),
   Field.new({"name" => "cfm_5_17_vision_header",
              "type" => "separator",
@@ -453,7 +482,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}],
                                              "disabled"=>false}
             }),
   Field.new({"name" => "cfm_5_17_vision_wears_glasses",
@@ -463,7 +493,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-yes-no"
             }),
@@ -474,7 +505,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_vision_wears_glasses"=>["true"]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -486,7 +518,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_vision_wears_glasses"=>["false"]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -498,7 +531,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
             }),
@@ -509,7 +543,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_hearing_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -521,7 +556,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_hearing_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-yes-no"
@@ -533,7 +569,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_hearing_display"=>[true]}},
                                                      {"in"=>{"cfm_5_17_hearing_uses_hearing_aid"=>["true"]}}],
                                              "disabled"=>false},
@@ -546,7 +583,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_hearing_display"=>[true]}},
                                                      {"in"=>{"cfm_5_17_hearing_uses_hearing_aid"=>["false"]}}],
                                              "disabled"=>false},
@@ -559,7 +597,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_hearing_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -571,7 +610,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -582,7 +622,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}],
                                              "disabled"=>false},
              "option_strings_source" => "lookup lookup-yes-no"
@@ -594,7 +635,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_uses_equipment"=>["true"]}}],
                                              "disabled"=>false},
@@ -607,7 +649,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_uses_equipment"=>["true"]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_difficulty_without_equipment_100m"=>["some_difficulty","refused","dont_know"]}}],
@@ -621,7 +664,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_uses_equipment"=>["true"]}}],
                                              "disabled"=>false},
@@ -634,7 +678,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_uses_equipment"=>["true"]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_difficulty_with_equipment_100m"=>["no_difficulty","some_difficulty","refused","dont_know"]}}],
@@ -648,7 +693,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_uses_equipment"=>["false"]}}],
                                              "disabled"=>false},
@@ -662,7 +708,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_uses_equipment"=>["false"]}}, 
                                                      {"in"=>{"cfm_5_17_mobility_difficulty_comparative_100m"=>["no_difficulty","some_difficulty","refused","dont_know"]}}],
@@ -676,7 +723,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_mobility_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -688,7 +736,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}},
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}},
+                                                     {"eq"=>{"cfm_age"=>"5_17"}},
                                                      {"in"=>{"cfm_5_17_self_care_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -699,7 +748,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_self_care_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -711,8 +761,7 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
-                                            {"in"=>{"cfm_5_17_self_care_display"=>[true]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, {"eq"=>{"cfm_age"=>"5_17"}}, {"in"=>{"cfm_5_17_self_care_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
             }),
@@ -723,8 +772,7 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
-                                            {"in"=>{"cfm_5_17_communication_display"=>[true]}}],
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, {"eq"=>{"cfm_age"=>"5_17"}}, {"in"=>{"cfm_5_17_communication_display"=>[true]}}],
                                              "disabled"=>false}
             }),
   Field.new({"name" => "cfm_5_17_communication_difficulty_understanding_child_household",
@@ -734,7 +782,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_communication_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -746,7 +795,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_communication_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -758,19 +808,21 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_communication_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
             }),
   Field.new({"name" => "cfm_5_17_learning_header",
              "type" => "separator",
-             "display_name_en" => "LEARNING",
+             "display_name_en" => "Learning",
              "visible" => true,
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_learning_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -781,7 +833,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_learning_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -793,19 +846,21 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_learning_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
             }),
   Field.new({"name" => "cfm_5_17_remembering_header",
              "type" => "separator",
-             "display_name_en" => "REMEMBERING",
+             "display_name_en" => "Remembering",
              "visible" => true,
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_remembering_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -816,7 +871,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_remembering_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -828,7 +884,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_remembering_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -840,7 +897,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_concentrating_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -851,7 +909,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_concentrating_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -863,7 +922,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_concentrating_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -875,7 +935,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_accepting_change_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -886,7 +947,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_accepting_change_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -898,7 +960,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_accepting_change_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -910,7 +973,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_controlling_behavior_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -921,7 +985,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_controlling_behavior_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -933,7 +998,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_controlling_behavior_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -945,7 +1011,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_making_friends_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -956,7 +1023,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_making_friends_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-difficulty-scale-123479"
@@ -968,7 +1036,7 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
                                                      {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_making_friends_display"=>[true]}}],
                                              "disabled"=>false},
@@ -981,7 +1049,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_anxiety_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -992,7 +1061,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_anxiety_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-how-often-scale-1234579"
@@ -1004,7 +1074,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_anxiety_display"=>[true]}}],
                                              "disabled"=>false},
              "tick_box_label_en" => "Yes"
@@ -1016,7 +1087,8 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_depression_display"=>[true]}}],
                                              "disabled"=>false}
             }),
@@ -1027,20 +1099,39 @@ cfm = [
              "required" => false,
              "mobile_visible" => false,
              "show_on_minify_form" => false,
-             "display_conditions_record" => {"and"=>[{"in"=>{"cfm_start"=>["yes_5_17"]}}, 
+             "display_conditions_subform" => {"and"=>[{"in"=>{"cfm_start"=>["true"]}}, 
+                                                     {"eq"=>{"cfm_age"=>"5_17"}}, 
                                                      {"in"=>{"cfm_5_17_depression_display"=>[true]}}],
                                              "disabled"=>false}, 
              "option_strings_source" => "lookup lookup-cfm-how-often-scale-1234579"
-            }),
-    Field.new({"name" => "cfm_5_17_depression_next_header",
-             "type" => "separator",
-             "display_name_en" => "End of form",
-             "visible" => true,
-             "required" => false,
-             "mobile_visible" => false,
-             "show_on_minify_form" => false
-            }),
+            })
 
+]
+
+child_functioning_subform_section = FormSection.create_or_update!({
+  unique_id: "child_functioning_subform_section",
+  parent_form: "case",
+  visible: false,
+  order_form_group: 50,
+  is_nested: true,
+  :initial_subforms => 0,
+  order: 10,
+  order_subform: 0,
+  fields: child_functioning_module,
+  editable: false,
+  name_en: "Child Functioning Subform",
+  description_en: "Child Functioning Subform",
+  collapsed_field_names: ["conference_type", "conference_date"]
+})
+
+cfm_fields = [
+  Field.new(
+    'name' => 'child_functioning_subform_section',
+    'type' => 'subform',
+    'editable' => true,
+    'subform_section' => child_functioning_subform_section,
+    'display_name_en' => 'Child Functioning Subform'
+  )
 ]
 
 FormSection.create_or_update!({
@@ -1050,9 +1141,109 @@ FormSection.create_or_update!({
   order_form_group: 50,
   order: 10,
   order_subform: 0,
-  form_group_id: "",
-  fields: cfm,
+  form_group_id: "child_functioning",
+  fields: cfm_fields,
   editable: false,
   name_en: "Child Functioning",
   description_en: "Child Functioning form",
 })
+
+
+
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-cfm-ages',
+  name_en: 'CFM Ages',
+  lookup_values_en: [
+    {id: '2_4', display_text: '2-4'},
+    {id: '5_17', display_text: '5-17'}
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-cfm-yes-no',
+  name_en: 'CFM Ages',
+  lookup_values_en: [
+    {id: 'yes_2_4', display_text: 'Yes – child aged 2 to 4 years'},
+    {id: 'yes_5_17', display_text: 'Yes – child aged 5 to 17 years'},
+    {id: 'No', display_text: 'No'}
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-cfm-difficulty-scale-123479',
+  name_en: 'CFM Difficulty Scale - 123479',
+  lookup_values_en: [
+    {id: 'no_difficulty', display_text: '1. No difficulty'},
+    {id: 'some_difficulty', display_text: '2. Some difficulty'},
+    {id: 'a_lot_of_difficulty', display_text: '3. A lot of difficulty'},
+    {id: 'cannot_do_at_all', display_text: '4. Cannot do at all'},
+    {id: 'refused', display_text: '7. Refused'},
+    {id: 'dont_know', display_text: '9. Don’t know'}
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-cfm-difficulty-scale-23479',
+  name_en: 'CFM Difficulty Scale - 23479',
+  lookup_values_en: [
+    {id: 'some_difficulty', display_text: '2. Some difficulty'},
+    {id: 'a_lot_of_difficulty', display_text: '3. A lot of difficulty'},
+    {id: 'cannot_do_at_all', display_text: '4. Cannot do at all'},
+    {id: 'refused', display_text: '7. Refused'},
+    {id: 'dont_know', display_text: '9. Don’t know'}
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-cfm-how-much-scale-123479',
+  name_en: 'CFM How Much Scale - 123479',
+  lookup_values_en: [
+    {id: 'not_at_all', display_text: '1. Not at all'},
+    {id: 'the_same_or_less', display_text: '2. The same or less'},
+    {id: 'more', display_text: '3. More'},
+    {id: 'a_lot_more', display_text: '4. A lot more'},
+    {id: 'refused', display_text: '7. Refused'},
+    {id: 'dont_know', display_text: '9. Don’t know'}
+  ].map(&:with_indifferent_access)
+)
+
+Lookup.create_or_update!(
+  unique_id: 'lookup-cfm-how-often-scale-1234579',
+  name_en: 'CFM How Often Scale - 1234579',
+  lookup_values_en: [
+    {id: 'daily', display_text: '1. Daily'},
+    {id: 'weekly', display_text: '2. Weekly'},
+    {id: 'monthly', display_text: '3. Monthly'},
+    {id: 'a_few_times_a_year', display_text: '4. A few times a year'},
+    {id: 'never', display_text: '5. Never'},
+    {id: 'refused', display_text: '7. Refused'},
+    {id: 'dont_know', display_text: '9. Don’t know'}
+  ].map(&:with_indifferent_access)
+)
+
+def update_formgroup_lookup
+  l = Lookup.find_by(unique_id: 'lookup-form-group-cp-case')
+  l.lookup_values_i18n << {"id" => "child_functioning", "display_text" => {"en" => "Child Functioning"}}
+  l.save
+end
+
+def update_module_and_role
+  cfm_form = FormSection.find_by(unique_id: "child_functioning")
+  primero_module = PrimeroModule.find_by(unique_id: 'primeromodule-cp')
+  role = Role.find_by(unique_id: "role-superuser")
+  primero_module.form_sections << cfm_form
+  role.form_sections << cfm_form
+  primero_module.save
+  role.save
+end
+
+# def add_cfm_to_superuser
+#   r = Role.find_by(unique_id: "role-superuser")
+#   r.form_sections << FormSection.find_by(unique_id: "child_functioning")
+#   r.save
+# end
+
+update_formgroup_lookup
+update_module
+add_cfm_to_superuser
