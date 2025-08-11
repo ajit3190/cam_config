@@ -1245,5 +1245,5 @@ end
 # end
 
 update_formgroup_lookup
-update_module
+update_module_and_role
 add_cfm_to_superuser
